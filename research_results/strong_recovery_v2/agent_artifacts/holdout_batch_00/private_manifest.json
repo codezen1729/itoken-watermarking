@@ -1,0 +1,772 @@
+{
+  "freeze": {
+    "protocol": "blinded-agent-recovery-v2",
+    "label": "fresh_holdout",
+    "batch_group": "holdout_batch_0",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "41eafa3307d1b40d4256b66f4284a16f9bf691d355fedb980c57da2a51a38b5e",
+    "source_sha256": {
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "semantic_recovery_ids.py": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+      "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "99b218dc065bbd14b4eeb5738ca9422aab3cc06b759971627bafd4cb3039af1d"
+  },
+  "bindings": [
+    {
+      "request_id": "06b7f9641e42d7b79b66307e",
+      "case": {
+        "id": "fresh23",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh23",
+        "category": "negative_counterfactual_full_route",
+        "text": "Were I to combine p0 with d0, I would obtain p0 & d0; were I then to use (p0 & d0) -> p1, I would reach p1. That counterfactual sketch is not an account of steps taken.",
+        "expected_status": "abstain",
+        "expected_steps": [],
+        "expected_canonical": [],
+        "expected_routes": {},
+        "evidence": [],
+        "reason": "The whole route is counterfactual and explicitly unexecuted."
+      }
+    },
+    {
+      "request_id": "6efdac3c0eb4e88084ab8c4d",
+      "case": {
+        "id": "fresh15",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh15",
+        "category": "partial_first_or_only",
+        "text": "From the starting p0 I introduced the alternative e0 | p0. That is the only inferential move described here.",
+        "expected_status": "partial",
+        "expected_steps": [
+          {
+            "conclusion": "(e0|p0)",
+            "premises": [
+              "p0"
+            ],
+            "rule": "OR_INTRO"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}"
+        ],
+        "expected_routes": {
+          "0": "or"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "From the starting p0 I introduced the alternative e0 | p0.",
+            "start": 0,
+            "end": 58
+          }
+        ],
+        "reason": "Only disjunction introduction is expressed."
+      }
+    },
+    {
+      "request_id": "d23673fd5e7374d886bdaad1",
+      "case": {
+        "id": "fresh19",
+        "split": "test",
+        "n_stages": 2,
+        "problem_id": "fresh-holdout-fresh19",
+        "category": "partial_missing_second_branch",
+        "text": "I obtain m0 by applying p0 -> m0 to p0. I obtain p1 by applying m0 -> p1 to m0. The last surviving step obtains p2 from p1 | e1 and (p1 | e1) -> p2. The construction of p1 | e1 was not recorded.",
+        "expected_status": "partial",
+        "expected_steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "I obtain m0 by applying p0 -> m0 to p0.",
+            "start": 0,
+            "end": 39
+          },
+          {
+            "step_index": 1,
+            "quote": "I obtain p1 by applying m0 -> p1 to m0.",
+            "start": 40,
+            "end": 79
+          },
+          {
+            "step_index": 2,
+            "quote": "The last surviving step obtains p2 from p1 | e1 and (p1 | e1) -> p2.",
+            "start": 80,
+            "end": 148
+          }
+        ],
+        "reason": "The first stage is complete but the second branching step is absent."
+      }
+    },
+    {
+      "request_id": "4db53f5a71af9367a1655348",
+      "case": {
+        "id": "fresh03",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh03",
+        "category": "complete_and_operand_order",
+        "text": "I put the facts d0 and p0 into a single conjunction, d0 & p0. Using that conjunction with (d0 & p0) -> p1 yields my stated result, p1.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "I put the facts d0 and p0 into a single conjunction, d0 & p0.",
+            "start": 0,
+            "end": 61
+          },
+          {
+            "step_index": 1,
+            "quote": "Using that conjunction with (d0 & p0) -> p1 yields my stated result, p1.",
+            "start": 62,
+            "end": 134
+          }
+        ],
+        "reason": "Commuted conjunction and premise order preserve the same canonical path."
+      }
+    },
+    {
+      "request_id": "a9301cd35eaa879f501b8143",
+      "case": {
+        "id": "fresh11",
+        "split": "test",
+        "n_stages": 2,
+        "problem_id": "fresh-holdout-fresh11",
+        "category": "complete_adopted_route_after_rejection",
+        "text": "An earlier MP proposal was shelved; the following is the route I actually used. For the first transition, p0 and d0 jointly establish p0 & d0. This p0 & d0, with (p0 & d0) -> p1, establishes p1. For the next transition I introduce p1 | e1 from p1. I apply (p1 | e1) -> p2 to p1 | e1 and obtain p2.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(e1|p1)",
+            "premises": [
+              "p1"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and",
+          "1": "or"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "For the first transition, p0 and d0 jointly establish p0 & d0.",
+            "start": 80,
+            "end": 142
+          },
+          {
+            "step_index": 1,
+            "quote": "This p0 & d0, with (p0 & d0) -> p1, establishes p1.",
+            "start": 143,
+            "end": 194
+          },
+          {
+            "step_index": 2,
+            "quote": "For the next transition I introduce p1 | e1 from p1.",
+            "start": 195,
+            "end": 247
+          },
+          {
+            "step_index": 3,
+            "quote": "I apply (p1 | e1) -> p2 to p1 | e1 and obtain p2.",
+            "start": 248,
+            "end": 297
+          }
+        ],
+        "reason": "The abandoned unspecific proposal is not a second adopted path; the following four applications are explicit."
+      }
+    },
+    {
+      "request_id": "db06a67fb30f3131f9058faf",
+      "case": {
+        "id": "fresh04",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh04",
+        "category": "complete_and_irrelevant_preface",
+        "text": "These are the final notes; formatting is immaterial. The step I took was to join p0 with d0, establishing p0 & d0. I then applied (p0 & d0) -> p1 to p0 & d0 and established p1.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "The step I took was to join p0 with d0, establishing p0 & d0.",
+            "start": 53,
+            "end": 114
+          },
+          {
+            "step_index": 1,
+            "quote": "I then applied (p0 & d0) -> p1 to p0 & d0 and established p1.",
+            "start": 115,
+            "end": 176
+          }
+        ],
+        "reason": "An irrelevant preface is not a reasoning step."
+      }
+    },
+    {
+      "request_id": "36af3a3c993563c6fb72044f",
+      "case": {
+        "id": "fresh26",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh26",
+        "category": "negative_future_instructions",
+        "text": "Tomorrow the procedure should introduce p0 | e0 from p0 and should apply (p0 | e0) -> p1 to that disjunction. Nothing in this note records an executed inference.",
+        "expected_status": "abstain",
+        "expected_steps": [],
+        "expected_canonical": [],
+        "expected_routes": {},
+        "evidence": [],
+        "reason": "The text gives a future procedure rather than an asserted current path."
+      }
+    },
+    {
+      "request_id": "9082dc95ee6734137d05115f",
+      "case": {
+        "id": "fresh29",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh29",
+        "category": "negative_unsound_conjunction",
+        "text": "My entire deduction is p0, hence p0 & d0, without using or establishing d0. I supply no next inference to p1.",
+        "expected_status": "abstain",
+        "expected_steps": [],
+        "expected_canonical": [],
+        "expected_routes": {},
+        "evidence": [],
+        "reason": "The passage explicitly claims an unsupported conjunction introduction; the public problem's d0 cannot repair the source's different argument."
+      }
+    },
+    {
+      "request_id": "c0dc0daa2375d2b5273d91b3",
+      "case": {
+        "id": "fresh24",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh24",
+        "category": "negative_unsound_assertion_missing_relation",
+        "text": "I declare that p0 forces e0, and then that e0 alone forces p1. These are my only asserted moves; no conditional connecting those claims is part of the argument.",
+        "expected_status": "abstain",
+        "expected_steps": [],
+        "expected_canonical": [],
+        "expected_routes": {},
+        "evidence": [],
+        "reason": "The asserted moves are unsound and are not the admissible disjunction route; missing intermediate premises cannot be supplied from the menu."
+      }
+    },
+    {
+      "request_id": "9a8efafb0813cf4ee539fcc0",
+      "case": {
+        "id": "fresh18",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh18",
+        "category": "partial_completion_or_only",
+        "text": "The recorded step uses p0 | e0 with (p0 | e0) -> p1, producing p1. No introduction of p0 | e0 is described.",
+        "expected_status": "partial",
+        "expected_steps": [
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((e0|p0)->p1)",
+              "(e0|p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {},
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "The recorded step uses p0 | e0 with (p0 | e0) -> p1, producing p1.",
+            "start": 0,
+            "end": 66
+          }
+        ],
+        "reason": "A disjunction-route completion alone supplies no observed first choice."
+      }
+    },
+    {
+      "request_id": "c1b166ba0efc5c381acefe44",
+      "case": {
+        "id": "fresh25",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh25",
+        "category": "negative_questions_only",
+        "text": "Would using p0 -> m0 on p0 establish m0? Would m0 -> p1 then establish p1? I am asking what is possible, not reporting a chosen argument.",
+        "expected_status": "abstain",
+        "expected_steps": [],
+        "expected_canonical": [],
+        "expected_routes": {},
+        "evidence": [],
+        "reason": "Questions about possible applications do not assert that the applications were taken."
+      }
+    },
+    {
+      "request_id": "172be84838f75d0c440bbc5f",
+      "case": {
+        "id": "fresh17",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh17",
+        "category": "partial_completion_and_only",
+        "text": "The recorded application takes p0 & d0 and (p0 & d0) -> p1 as its premises and reaches p1. The construction of p0 & d0 is not in this passage.",
+        "expected_status": "partial",
+        "expected_steps": [
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {},
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "The recorded application takes p0 & d0 and (p0 & d0) -> p1 as its premises and reaches p1.",
+            "start": 0,
+            "end": 90
+          }
+        ],
+        "reason": "A conjunction-route completion alone supplies no observed first choice."
+      }
+    },
+    {
+      "request_id": "0c436f668e78a3974e749625",
+      "case": {
+        "id": "fresh05",
+        "split": "test",
+        "n_stages": 1,
+        "problem_id": "fresh-holdout-fresh05",
+        "category": "complete_or_commuted_disjunction",
+        "text": "Since p0 holds, I weaken it to the disjunction e0 | p0. That e0 | p0 satisfies the antecedent of (e0 | p0) -> p1, so I conclude p1.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "(e0|p0)",
+            "premises": [
+              "p0"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((e0|p0)->p1)",
+              "(e0|p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "or"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "Since p0 holds, I weaken it to the disjunction e0 | p0.",
+            "start": 0,
+            "end": 55
+          },
+          {
+            "step_index": 1,
+            "quote": "That e0 | p0 satisfies the antecedent of (e0 | p0) -> p1, so I conclude p1.",
+            "start": 56,
+            "end": 131
+          }
+        ],
+        "reason": "The introduction and subsequent MP are explicit despite disjunction operand reversal."
+      }
+    },
+    {
+      "request_id": "dfc21b4053813f78d7b64edd",
+      "case": {
+        "id": "fresh09",
+        "split": "test",
+        "n_stages": 2,
+        "problem_id": "fresh-holdout-fresh09",
+        "category": "complete_two_stage_reverse_narration",
+        "text": "To reach p2 I used p1 | e1 together with (p1 | e1) -> p2. I had obtained p1 | e1 by introducing a disjunction from p1. The p1 came from p0 & d0 and its conditional (p0 & d0) -> p1. At the beginning I combined p0 and d0 into p0 & d0.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(e1|p1)",
+            "premises": [
+              "p1"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "1": "or",
+          "0": "and"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "To reach p2 I used p1 | e1 together with (p1 | e1) -> p2.",
+            "start": 0,
+            "end": 57
+          },
+          {
+            "step_index": 1,
+            "quote": "I had obtained p1 | e1 by introducing a disjunction from p1.",
+            "start": 58,
+            "end": 118
+          },
+          {
+            "step_index": 2,
+            "quote": "The p1 came from p0 & d0 and its conditional (p0 & d0) -> p1.",
+            "start": 119,
+            "end": 180
+          },
+          {
+            "step_index": 3,
+            "quote": "At the beginning I combined p0 and d0 into p0 & d0.",
+            "start": 181,
+            "end": 232
+          }
+        ],
+        "reason": "A complete dependency graph is narrated backward."
+      }
+    },
+    {
+      "request_id": "4e6538f281b985ac177b00f7",
+      "case": {
+        "id": "fresh07",
+        "split": "test",
+        "n_stages": 2,
+        "problem_id": "fresh-holdout-fresh07",
+        "category": "complete_two_stage_mp_and",
+        "text": "I move from p0 to m0 by applying p0 -> m0 to p0. Applying m0 -> p1 to m0 next establishes p1. I join the established p1 and the available d1 to obtain p1 & d1. Finally, (p1 & d1) -> p2 applied to p1 & d1 gives p2.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(d1&p1)",
+            "premises": [
+              "d1",
+              "p1"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((d1&p1)->p2)",
+              "(d1&p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"(d1&p1)\",\"premises\":[\"d1\",\"p1\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((d1&p1)->p2)\",\"(d1&p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp",
+          "1": "and"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "I move from p0 to m0 by applying p0 -> m0 to p0.",
+            "start": 0,
+            "end": 48
+          },
+          {
+            "step_index": 1,
+            "quote": "Applying m0 -> p1 to m0 next establishes p1.",
+            "start": 49,
+            "end": 93
+          },
+          {
+            "step_index": 2,
+            "quote": "I join the established p1 and the available d1 to obtain p1 & d1.",
+            "start": 94,
+            "end": 159
+          },
+          {
+            "step_index": 3,
+            "quote": "Finally, (p1 & d1) -> p2 applied to p1 & d1 gives p2.",
+            "start": 160,
+            "end": 213
+          }
+        ],
+        "reason": "Two different routes are asserted in dependency order."
+      }
+    },
+    {
+      "request_id": "16d15f782e2e02a099a3822d",
+      "case": {
+        "id": "fresh10",
+        "split": "test",
+        "n_stages": 2,
+        "problem_id": "fresh-holdout-fresh10",
+        "category": "complete_duplicate_sentence",
+        "text": "p0, alongside the promise p0 -> m0, gave me m0. m0, alongside m0 -> p1, gave me p1. I used p1 and p1 -> m1 to get m1. I used m1 and m1 -> p2 to get p2. p0, alongside the promise p0 -> m0, gave me m0.",
+        "expected_status": "complete",
+        "expected_steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "m1",
+            "premises": [
+              "(p1->m1)",
+              "p1"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "(m1->p2)",
+              "m1"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "expected_canonical": [
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"(m1->p2)\",\"m1\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp",
+          "1": "mp"
+        },
+        "evidence": [
+          {
+            "step_index": 0,
+            "quote": "p0, alongside the promise p0 -> m0, gave me m0.",
+            "start": 0,
+            "end": 47
+          },
+          {
+            "step_index": 1,
+            "quote": "m0, alongside m0 -> p1, gave me p1.",
+            "start": 48,
+            "end": 83
+          },
+          {
+            "step_index": 2,
+            "quote": "I used p1 and p1 -> m1 to get m1.",
+            "start": 84,
+            "end": 117
+          },
+          {
+            "step_index": 3,
+            "quote": "I used m1 and m1 -> p2 to get p2.",
+            "start": 118,
+            "end": 151
+          }
+        ],
+        "reason": "Repeating the first assertion supplies no additional distinct iToken."
+      }
+    }
+  ]
+}

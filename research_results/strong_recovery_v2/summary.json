@@ -1,0 +1,277 @@
+{
+  "holdout": {
+    "cases": 32,
+    "strict_successes": 32,
+    "gold_steps": 47,
+    "predicted_steps": 47,
+    "correct_steps": 47,
+    "step_precision": 1.0,
+    "step_recall": 1.0,
+    "accepted_cases": 20,
+    "false_acceptances": 0,
+    "statuses": {
+      "complete_proof": 12,
+      "partial_evidence": 8,
+      "abstained": 11,
+      "ambiguous_path": 1
+    },
+    "complete_cases": 12,
+    "complete_strict_successes": 12,
+    "partial_cases": 8,
+    "partial_strict_successes": 8,
+    "abstain_cases": 12,
+    "abstain_strict_successes": 12,
+    "cases_with_explicit_branch_choices": 17,
+    "exact_route_recoveries": 17
+  },
+  "paired": {
+    "units": 8,
+    "documents": 32,
+    "alpha": 0.01,
+    "surrogate_keys": 199,
+    "uncertainty_scope": "descriptive paired pilot; no independent-binomial interval",
+    "unmarked": {
+      "planned_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "original_joint_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "reworded_joint_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "survival_from_planned_detected": {
+        "successes": 0,
+        "trials": 0,
+        "fraction": null
+      },
+      "survival_from_original_detected": {
+        "successes": 0,
+        "trials": 0,
+        "fraction": null
+      },
+      "faithful_reworded_joint_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "detection_given_assessed_faithfulness": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "rewording_fidelity": {
+        "preserved": 8
+      },
+      "original_recovery_acceptances": 8,
+      "reworded_recovery_acceptances": 8,
+      "original_detector_abstentions": 0,
+      "reworded_detector_abstentions": 0,
+      "original_recovered_choices": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "reworded_recovered_choices": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "original_exact_paths": 8,
+      "original_correct_steps": 512,
+      "reworded_exact_paths": 8,
+      "reworded_correct_steps": 512
+    },
+    "marked": {
+      "planned_detection": {
+        "successes": 4,
+        "trials": 8,
+        "fraction": 0.5
+      },
+      "original_joint_detection": {
+        "successes": 4,
+        "trials": 8,
+        "fraction": 0.5
+      },
+      "reworded_joint_detection": {
+        "successes": 4,
+        "trials": 8,
+        "fraction": 0.5
+      },
+      "survival_from_planned_detected": {
+        "successes": 4,
+        "trials": 4,
+        "fraction": 1.0
+      },
+      "survival_from_original_detected": {
+        "successes": 4,
+        "trials": 4,
+        "fraction": 1.0
+      },
+      "faithful_reworded_joint_detection": {
+        "successes": 4,
+        "trials": 8,
+        "fraction": 0.5
+      },
+      "detection_given_assessed_faithfulness": {
+        "successes": 4,
+        "trials": 8,
+        "fraction": 0.5
+      },
+      "rewording_fidelity": {
+        "preserved": 8
+      },
+      "original_recovery_acceptances": 8,
+      "reworded_recovery_acceptances": 8,
+      "original_detector_abstentions": 0,
+      "reworded_detector_abstentions": 0,
+      "original_recovered_choices": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "reworded_recovered_choices": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "original_exact_paths": 8,
+      "original_correct_steps": 512,
+      "reworded_exact_paths": 8,
+      "reworded_correct_steps": 512
+    }
+  },
+  "probabilities": {
+    "contexts": 32,
+    "terminated_sequences": 288,
+    "coverage_min": 0.04041093720460068,
+    "coverage_max": 0.0866642402627154,
+    "coverage_mean": 0.06335092630305497,
+    "mean_itoken_entropy_nats": 0.04995043229536688,
+    "max_checked_logprob_difference": 3.7670135498046875e-05
+  },
+  "rewording_surface": [
+    {
+      "document_id": "4df29700cc9586dc",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.03941908713692946
+    },
+    {
+      "document_id": "78aa788f05b73074",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.052845528455284556
+    },
+    {
+      "document_id": "c37d4734619a205d",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.06917599186164802
+    },
+    {
+      "document_id": "721647dc89312c3e",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.030895983522142123
+    },
+    {
+      "document_id": "c688530552669032",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.029723991507430998
+    },
+    {
+      "document_id": "496ed7b9a1ee0c8f",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.05660377358490566
+    },
+    {
+      "document_id": "b5cfd283878bebed",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.054336468129571575
+    },
+    {
+      "document_id": "7544a0e329ba7601",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.08506224066390042
+    },
+    {
+      "document_id": "fea9d80cc6d74422",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.09060773480662983
+    },
+    {
+      "document_id": "0c27bd3355be7abe",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.06002143622722401
+    },
+    {
+      "document_id": "42934e05cb104c35",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.08907741251325557
+    },
+    {
+      "document_id": "6496974cbf9a91b1",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.07438894792773645
+    },
+    {
+      "document_id": "0f38edb6a7d88692",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.02727272727272727
+    },
+    {
+      "document_id": "46a174a58d97835c",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.011025358324145534
+    },
+    {
+      "document_id": "25e35a6ff43f7e10",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.02924634420697413
+    },
+    {
+      "document_id": "9166d7c0109273d0",
+      "text_changed": true,
+      "old_template_parser_accepts": false,
+      "token_sequence_similarity": 0.04067796610169491
+    }
+  ]
+}

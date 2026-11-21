@@ -1,0 +1,28 @@
+{
+  "responses": [
+    {
+      "request_id": "7aa999ed77d946f8",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1,2]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[3]}]}"
+    },
+    {
+      "request_id": "d948edafb9fd4134",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}"
+    },
+    {
+      "request_id": "81fdbac3fc8c45be",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}"
+    },
+    {
+      "request_id": "48d5b4fb1f164803",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I008\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I009\",\"verdict\":\"supported\",\"sentences\":[3,4]}]}"
+    },
+    {
+      "request_id": "736d6fb911374a8d",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]}]}"
+    },
+    {
+      "request_id": "dad58317348a464d",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "assessments": [
+    {
+      "document_id": "c688530552669032",
+      "status": "preserved",
+      "reason": "Across stages 0 through 31 the rewrite draws each m from the corresponding established p and uses that m to draw the next p. For example, stage 18 explicitly derives m18 from p18 and gives m18 as the basis for p19.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "496ed7b9a1ee0c8f",
+      "status": "preserved",
+      "reason": "At stage 14 both d14 and p14 are asserted, their conjunction is derived, and that conjunction is used to conclude p15. The other 31 stages each derive the indicated m and apply its implication to reach the next p.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "b5cfd283878bebed",
+      "status": "preserved",
+      "reason": "Both forward implications are applied in each of the 32 stages. In the compressed wording across stages 26 and 27, m26 is established from p26, p27 is its consequence, p27 supports m27, and m27 establishes p28.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "7544a0e329ba7601",
+      "status": "preserved",
+      "reason": "The rewrite applies both implications at each stage. For instance, it obtains p24 from m23, uses p24 to obtain m24, and uses that m24 to establish p25. The later deductions continue through m31 to p32 in the original direction.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "freeze": {
+    "protocol": "blinded-agent-recovery-v2",
+    "label": "paired-study-reworded",
+    "batch_group": "cunmarkedv1b2",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "a65d2a7b1e6e4d4badd418f980ddbc3514c38ab4e708007156e6f977970b240a",
+    "source_sha256": {
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "semantic_recovery_ids.py": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+      "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "3205bacd00493b2def4a76d94e37201bde8853148153c528a24bcb4eef895479"
+  },
+  "bindings": [
+    {
+      "request_id": "fc2e26d2ac829ce3a624a6ae",
+      "case": {
+        "id": "c688530552669032",
+        "n_stages": 32,
+        "problem_id": "study-4dd06e40ee0b8d71",
+        "text": "We know p0, so its implication m0 holds. That gives us p1, since m0 implies p1. Now p1 entails m1, which in turn gives p2. With p2 we obtain m2 and, on the strength of m2, p3. The consequence of p3 is m3, and that of m3 is p4. Thus we have p4 and can use it to establish m4. This yields p5, from which m5 follows. As m5 implies p6, we have p6 and hence its consequence m6. Then m6 establishes p7, p7 establishes m7, and m7 establishes p8.\n\nGiven p8, we can conclude m8 and use m8 to deduce p9. The fact that p9 holds gives us m9, whose consequence is p10. Applying the next implication to p10 gives m10, and applying the one after that to m10 gives p11. We therefore obtain m11 from p11 and p12 from m11. Since p12 implies m12, m12 holds, so we also obtain p13. The conclusion m13 follows from p13 and suffices in turn to establish p14. With p14 we have m14, with m14 we have p15, and with p15 we have m15. This last conclusion yields p16.\n\nThe established p16 implies m16, so m16 holds and yields p17. From p17 we get m17 and thence p18. This settles m18, which follows from p18, and thereby gives p19, which follows from m18. The consequence m19 of p19 lets us conclude p20. Next p20 gives m20, and m20 is sufficient for p21. Since we have p21, we can conclude m21, and since we have m21, we can conclude p22. This establishes m22 by the implication from p22. That result gives p23, whose consequence m23 in turn gives p24.\n\nWe can now conclude m24 on the strength of p24, and p25 on the strength of m24. Given p25, its consequence m25 holds, bringing us to p26. The implication from p26 gives m26 and the implication from m26 gives p27. This yields m27, from which p28 follows. Having p28 suffices to establish m28 and having m28 suffices to establish p29. We thus get m29 from p29, then p30 from m29. In turn p30 entails m30, giving us m30 and hence p31. Finally p31 establishes m31, which entails the conclusion p32."
+      }
+    },
+    {
+      "request_id": "e95eea87fa604ceca264e229",
+      "case": {
+        "id": "496ed7b9a1ee0c8f",
+        "n_stages": 32,
+        "problem_id": "study-25c94e4d7af44bbd",
+        "text": "Begin with p0. Its consequence m0 follows at once, giving p1 because m0 implies p1. The result p1 entails m1, so we have m1 and can conclude p2 on that basis. This gives m2, which in turn establishes p3. Since p3 implies m3, we have m3, and its implication p4 follows. It follows from p4 that m4 holds, then from m4 that p5 holds. We reach m5 by using p5 and p6 by using m5.\n\nThe fact p6 entails m6 and therefore establishes it. In turn m6 gives p7, which gives m7, which gives p8. With p8 established, its consequence m8 holds, allowing us to deduce p9 from m8. The conclusion m9 follows from p9 and itself has p10 as a consequence. This gives us p10, hence m10, and on the strength of m10 we have p11. Next p11 establishes m11. Because m11 implies p12, we obtain p12 and can use it to conclude m12. Now m12 yields p13, p13 yields m13, and m13 yields p14. We also have d14. Together d14 and p14 establish their conjunction (d14&p14). That conjunction implies p15, so p15 holds.\n\nThis p15 entails m15, giving us m15 and thereby p16. From p16 we obtain m16, whose consequence is p17. Once p17 holds, m17 follows, and with m17 we can conclude p18. That makes m18 available by the implication from p18. Since m18 entails p19, we have p19 and consequently m19. Using m19 gives p20. Now p20 entails m20, and the resulting m20 entails p21. From p21 we conclude m21 and so obtain the consequence p22 of m21. The established p22 yields m22, which in turn implies p23 and thus establishes it.\n\nUsing p23, we get m23. We can therefore use the implication from m23 to reach p24, then the one from p24 to reach m24. The consequence p25 of m24 gives us m25, and from m25 comes p26. Next m26 follows from p26 and p27 from m26. Given p27 we have m27, so p28 follows by the implication from m27. That p28 entails m28, giving us m28 and hence p29. The implication from p29 now establishes m29. This suffices to conclude p30, whose consequence m30 therefore holds. We obtain p31 from m30 and m31 from p31. With m31 established, its consequence p32 follows."
+      }
+    },
+    {
+      "request_id": "f86b50227f75331ceedcefb2",
+      "case": {
+        "id": "b5cfd283878bebed",
+        "n_stages": 32,
+        "problem_id": "study-abb86a253a194f06",
+        "text": "Since p0 holds and implies m0, we have m0. This is enough for p1, which in turn is enough for m1, so both conclusions follow in succession. Now m1 gives p2. That establishes m2 by the implication from p2 and thus gives p3 by the implication from m2. We may conclude m3 on the basis of p3, then p4 on the basis of m3. Having p4 gives us m4, so we have the premise m4 needed to reach p5. That yields m5, whose consequence p6 therefore holds. As p6 entails m6, we have m6, which lets us deduce p7.\n\nGiven p7, the implication to m7 establishes m7. From this we reach p8, from p8 we reach m8, and from m8 we reach p9. The result p9 suffices for m9 and the resulting m9 suffices for p10. Now m10 holds because p10 implies it, and p11 holds because m10 implies it. We use p11 to obtain m11 and then use m11 to obtain p12. The consequence m12 of p12 follows, yielding p13 in turn. With p13 established, m13 follows and gives p14. This p14 entails m14, so m14 holds, establishing p15. Then p15 gives m15 and on that basis we obtain p16.\n\nSince p16 implies m16, we can conclude m16, and its consequence p17 follows. This establishes m17, which yields p18. We thus have p18 to establish m18 and m18 to establish p19. Next p19 entails m19, giving m19 and therefore p20. By the implication from p20 we reach m20, and by that from m20 we reach p21. This gives us m21. In turn m21 gives p22, whose consequence m22 leads us to p23. Given p23, we can conclude m23, and p24 follows from that m23.\n\nWith p24 in hand we get m24. As m24 implies p25, p25 follows, giving m25 by the implication from p25. Then m25 establishes p26 and p26 establishes m26. The consequence p27 of m26 allows us to conclude m27, which entails p28 and so establishes it. Since p28 gives m28 and m28 gives p29, we obtain first m28 and then p29. The established p29 entails m29, and this m29 is sufficient for p30. Now p30 establishes m30, from which p31 follows. We conclude m31 on the basis of p31 and finally p32 on the basis of m31."
+      }
+    },
+    {
+      "request_id": "a88b7ac6c485b97363d48826",
+      "case": {
+        "id": "7544a0e329ba7601",
+        "n_stages": 32,
+        "problem_id": "study-53707d31abaf54c6",
+        "text": "Taking p0 as given, we obtain m0 because p0 implies it. The resulting m0 implies p1, so we have p1 and hence its consequence m1. This m1 is sufficient for p2. With p2 established, we obtain m2 and, because m2 implies p3, we obtain p3 as well. From p3 comes m3, and from m3 comes p4. It follows that m4 holds by the implication from p4. We can therefore use m4 to establish p5, whose consequence m5 is sufficient to establish p6.\n\nUsing p6 gives us m6. This conclusion yields p7, and p7 in turn yields m7. Thus we can use m7 to reach p8, then p8 to reach m8. Since m8 entails p9, we have p9, giving us m9 by the implication from p9. The fact m9 gives p10 and thus its consequence m10. Now m10 establishes p11 and the established p11 implies m11. On this basis we have m11 and can deduce p12, from which we get m12. That conclusion brings us to p13 by the implication from m12. The result p13 yields m13, and m13 yields p14.\n\nIt follows from p14 that m14 holds, so we obtain p15 as a consequence of m14. Applying the next implication to p15 establishes m15, from which p16 follows. This gives us m16 by the implication from p16 and p17 by the implication from m16. Then p17 is sufficient for m17. The resulting m17 establishes p18, so its consequence m18 follows from p18. With m18 we can establish p19 and with p19 we can establish m19. Given m19, p20 follows, which gives us m20 and thereby p21. We conclude m21 from p21, then p22 from m21.\n\nThe conclusion p22 entails m22, so m22 holds and its consequence p23 follows. That gives us m23 by the implication from p23. Since m23 is sufficient for p24, we obtain p24 and can deduce m24 on that basis. This m24 gives p25. As p25 implies m25, we have m25 and can use it to conclude p26. From p26 we reach m26, whose consequence p27 yields m27 in turn. Once m27 holds we can conclude p28, and with p28 we obtain m28. This establishes p29, which establishes m29. Thus m29 gives us p30 and p30 gives us m30. As m30 implies p31, p31 holds and yields m31. Finally m31 entails p32, so p32 follows."
+      }
+    }
+  ]
+}

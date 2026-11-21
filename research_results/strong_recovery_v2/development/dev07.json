@@ -1,0 +1,47 @@
+{
+  "id": "dev07",
+  "source": "previously exposed development/oldtest",
+  "input_text": "The final answer is p1. I am not providing the argument that led to it.",
+  "gold": {
+    "expected_status": "abstain",
+    "expected_canonical": [],
+    "expected_routes": {}
+  },
+  "recovery": {
+    "status": "abstained",
+    "accepted": false,
+    "complete": false,
+    "reason": "Proposer supplied no unique asserted inference path",
+    "model_status": "abstain",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [],
+    "evidence": [],
+    "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [],
+    "verdicts": [],
+    "rejected_ids": [],
+    "evidence_sentences": [],
+    "source_spans": [],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": false,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 0,
+    "predicted_steps": 0,
+    "correct_steps": 0,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {},
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

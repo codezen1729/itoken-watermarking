@@ -1,0 +1,135 @@
+{
+  "id": "dev01",
+  "source": "previously exposed development/oldtest",
+  "input_text": "We already have p0. Combining that fact with the conditional p0 -> m0 establishes m0. Now use m0 together with m0 -> p1; the conclusion is p1.",
+  "gold": {
+    "expected_status": "complete",
+    "expected_canonical": [
+      "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+      "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {
+      "0": "mp"
+    }
+  },
+  "recovery": {
+    "status": "complete_proof",
+    "accepted": true,
+    "complete": true,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "m0",
+        "premises": [
+          "(p0->m0)",
+          "p0"
+        ],
+        "rule": "MP"
+      },
+      {
+        "conclusion": "p1",
+        "premises": [
+          "(m0->p1)",
+          "m0"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "We already have p0.\nCombining that fact with the conditional p0 -> m0 establishes m0.",
+      "Now use m0 together with m0 -> p1; the conclusion is p1."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1,2]},{\"id\":\"I001\",\"sentences\":[3]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I000",
+        "sentences": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "I001",
+        "sentences": [
+          3
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I000",
+        "verdict": "supported",
+        "sentences": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "I001",
+        "verdict": "supported",
+        "sentences": [
+          3
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 19,
+          "text": "We already have p0."
+        },
+        {
+          "sentence": 2,
+          "start": 20,
+          "end": 85,
+          "text": "Combining that fact with the conditional p0 -> m0 establishes m0."
+        }
+      ],
+      [
+        {
+          "sentence": 3,
+          "start": 86,
+          "end": 142,
+          "text": "Now use m0 together with m0 -> p1; the conclusion is p1."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1,2]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[3]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 2,
+    "predicted_steps": 2,
+    "correct_steps": 2,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {
+      "0": "mp"
+    },
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

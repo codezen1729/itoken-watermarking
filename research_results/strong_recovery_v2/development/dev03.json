@@ -1,0 +1,134 @@
+{
+  "id": "dev03",
+  "source": "previously exposed development/oldtest",
+  "input_text": "Because p0 is established, the inclusive statement p0 | e0 is established too; e0 need not be true. Using this disjunction and the premise (p0 | e0) -> p1 gives p1.",
+  "gold": {
+    "expected_status": "complete",
+    "expected_canonical": [
+      "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}",
+      "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {
+      "0": "or"
+    }
+  },
+  "recovery": {
+    "status": "complete_proof",
+    "accepted": true,
+    "complete": true,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "(e0|p0)",
+        "premises": [
+          "p0"
+        ],
+        "rule": "OR_INTRO"
+      },
+      {
+        "conclusion": "p1",
+        "premises": [
+          "((e0|p0)->p1)",
+          "(e0|p0)"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "Because p0 is established, the inclusive statement p0 | e0 is established too; e0 need not be true.",
+      "Because p0 is established, the inclusive statement p0 | e0 is established too; e0 need not be true.\nUsing this disjunction and the premise (p0 | e0) -> p1 gives p1."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I004\",\"sentences\":[1]},{\"id\":\"I005\",\"sentences\":[1,2]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I004",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I005",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I004",
+        "verdict": "supported",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I005",
+        "verdict": "supported",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 99,
+          "text": "Because p0 is established, the inclusive statement p0 | e0 is established too; e0 need not be true."
+        }
+      ],
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 99,
+          "text": "Because p0 is established, the inclusive statement p0 | e0 is established too; e0 need not be true."
+        },
+        {
+          "sentence": 2,
+          "start": 100,
+          "end": 164,
+          "text": "Using this disjunction and the premise (p0 | e0) -> p1 gives p1."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 2,
+    "predicted_steps": 2,
+    "correct_steps": 2,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {
+      "0": "or"
+    },
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

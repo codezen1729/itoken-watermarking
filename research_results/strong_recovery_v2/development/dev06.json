@@ -1,0 +1,97 @@
+{
+  "id": "dev06",
+  "source": "previously exposed development/oldtest",
+  "input_text": "I take p0 | e0 as an intermediate claim whose derivation is omitted. Applying (p0 | e0) -> p1 to that claim yields p1.",
+  "gold": {
+    "expected_status": "partial",
+    "expected_canonical": [
+      "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {}
+  },
+  "recovery": {
+    "status": "partial_evidence",
+    "accepted": true,
+    "complete": false,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "p1",
+        "premises": [
+          "((e0|p0)->p1)",
+          "(e0|p0)"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "I take p0 | e0 as an intermediate claim whose derivation is omitted.\nApplying (p0 | e0) -> p1 to that claim yields p1."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I005\",\"sentences\":[1,2]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I005",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I005",
+        "verdict": "supported",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1,
+        2
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 68,
+          "text": "I take p0 | e0 as an intermediate claim whose derivation is omitted."
+        },
+        {
+          "sentence": 2,
+          "start": 69,
+          "end": 118,
+          "text": "Applying (p0 | e0) -> p1 to that claim yields p1."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 1,
+    "predicted_steps": 1,
+    "correct_steps": 1,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {},
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

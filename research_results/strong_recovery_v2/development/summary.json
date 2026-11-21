@@ -1,0 +1,14 @@
+{
+  "cases": 9,
+  "strict_successes": 9,
+  "correct_steps": 12,
+  "gold_steps": 12,
+  "false_acceptances": 0,
+  "model_requested": "gpt-6.2-astra",
+  "reasoning_effort": "high",
+  "transport": "isolated tool-enabled agent; code used only for reading/serializing explicit model decisions",
+  "token_logprobs_available": false,
+  "temperature_and_seed_available": false,
+  "api_finish_reason_available": false,
+  "extractor_sha256": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c"
+}

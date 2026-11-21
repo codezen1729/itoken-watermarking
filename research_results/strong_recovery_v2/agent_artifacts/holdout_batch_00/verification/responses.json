@@ -1,0 +1,48 @@
+{
+  "responses": [
+    {
+      "request_id": "6efdac3c0eb4e88084ab8c4d",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]}]}"
+    },
+    {
+      "request_id": "d23673fd5e7374d886bdaad1",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[3]}]}"
+    },
+    {
+      "request_id": "4db53f5a71af9367a1655348",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}"
+    },
+    {
+      "request_id": "a9301cd35eaa879f501b8143",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[5]}]}"
+    },
+    {
+      "request_id": "db06a67fb30f3131f9058faf",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]}]}"
+    },
+    {
+      "request_id": "9a8efafb0813cf4ee539fcc0",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1]}]}"
+    },
+    {
+      "request_id": "172be84838f75d0c440bbc5f",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1]}]}"
+    },
+    {
+      "request_id": "0c436f668e78a3974e749625",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}"
+    },
+    {
+      "request_id": "dfc21b4053813f78d7b64edd",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[1]}]}"
+    },
+    {
+      "request_id": "4e6538f281b985ac177b00f7",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I008\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I009\",\"verdict\":\"supported\",\"sentences\":[4]}]}"
+    },
+    {
+      "request_id": "16d15f782e2e02a099a3822d",
+      "response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I006\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I007\",\"verdict\":\"supported\",\"sentences\":[4]}]}"
+    }
+  ]
+}

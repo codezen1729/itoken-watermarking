@@ -1,0 +1,135 @@
+{
+  "id": "dev02",
+  "source": "previously exposed development/oldtest",
+  "input_text": "The two available facts are p0 and d0, so I join them into the single claim p0 & d0. That joint claim, together with (p0 & d0) -> p1, establishes p1.",
+  "gold": {
+    "expected_status": "complete",
+    "expected_canonical": [
+      "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+      "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {
+      "0": "and"
+    }
+  },
+  "recovery": {
+    "status": "complete_proof",
+    "accepted": true,
+    "complete": true,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "(d0&p0)",
+        "premises": [
+          "d0",
+          "p0"
+        ],
+        "rule": "AND_INTRO"
+      },
+      {
+        "conclusion": "p1",
+        "premises": [
+          "((d0&p0)->p1)",
+          "(d0&p0)"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "The two available facts are p0 and d0, so I join them into the single claim p0 & d0.",
+      "The two available facts are p0 and d0, so I join them into the single claim p0 & d0.\nThat joint claim, together with (p0 & d0) -> p1, establishes p1."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[1]},{\"id\":\"I003\",\"sentences\":[1,2]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I002",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I003",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I002",
+        "verdict": "supported",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I003",
+        "verdict": "supported",
+        "sentences": [
+          1,
+          2
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 84,
+          "text": "The two available facts are p0 and d0, so I join them into the single claim p0 & d0."
+        }
+      ],
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 84,
+          "text": "The two available facts are p0 and d0, so I join them into the single claim p0 & d0."
+        },
+        {
+          "sentence": 2,
+          "start": 85,
+          "end": 149,
+          "text": "That joint claim, together with (p0 & d0) -> p1, establishes p1."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 2,
+    "predicted_steps": 2,
+    "correct_steps": 2,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {
+      "0": "and"
+    },
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

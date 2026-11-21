@@ -1,0 +1,43 @@
+{
+  "calls": [
+    {
+      "agent": "inference_probe_a",
+      "role": "proposals",
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee",
+      "fork_turns": "none",
+      "input": "dev_proposals_requests.json",
+      "input_sha256": "2d0356b2805603f5cf2227e811167e602c339964b73cc7366255160ad1d82225",
+      "output": "dev_proposals_responses.json",
+      "output_sha256": "9277d0b0a2de927c515f953eba84375bb11aaf3e229d0fdf42f82bda902d9bbe",
+      "status": "completed",
+      "attempt": 1
+    },
+    {
+      "agent": "inference_probe_b",
+      "role": "verification",
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee",
+      "fork_turns": "none",
+      "input": "dev_verification_requests.json",
+      "input_sha256": "4e9f7838fd6fc89d64d224f86d0b4f3672f86595e10328f55796b2a7112c1861",
+      "output": "dev_verification_responses.json",
+      "output_sha256": "1bebf6f4cf996deb037bdefbc453807613552b67c2861fe6f687b92a439ae25e",
+      "status": "completed",
+      "attempt": 1
+    }
+  ],
+  "scope": "Previously exposed development cases; not fresh holdout. Source SHA is preserved in summary.json."
+}

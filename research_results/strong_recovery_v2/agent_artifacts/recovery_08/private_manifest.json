@@ -1,0 +1,65 @@
+{
+  "freeze": {
+    "protocol": "blinded-agent-recovery-v2",
+    "label": "paired-study-reworded",
+    "batch_group": "cmarkedv1b4",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "aa34040398381e2e86c54e48b624b0f1b2d034c7adefe3b903258151e6182cf0",
+    "source_sha256": {
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "semantic_recovery_ids.py": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+      "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "2f6fc425618c58b0d09b976526f25bd81d9a26ae0ccf795b859fe8696fd59aa4"
+  },
+  "bindings": [
+    {
+      "request_id": "7e1f6473bf893a487c9bcd83",
+      "case": {
+        "id": "0f38edb6a7d88692",
+        "n_stages": 32,
+        "problem_id": "study-4dd06e40ee0b8d71",
+        "text": "Given d0 and p0, we have both together, (d0&p0), which is enough to establish p1. That gives us m1 and, through m1, p2. With p2 established, m2 follows, so we have p3. This yields m3, whose consequence is p4. Starting from p4 we reach m4, then p5 on the strength of m4. In turn p5 establishes m5, and m5 gives p6. Thus m6 holds because p6 does, and p7 follows because m6 holds. Now p7 entails m7, giving p8. Likewise p8 yields m8, bringing us to p9. We obtain m9 from p9 and p10 from m9. Since p10 gives m10, we may use m10 to conclude p11.\n\nThe truth of p11 suffices for (e11|p11). This establishes p12, which gives us m12 and hence p13. We can now conclude m13 on the strength of p13, then p14 on the strength of m13. With p14 comes m14, from which p15 follows. This yields m15, and consequently p16. Because p16 entails m16, we have m16 and can conclude p17 from it. That settles m17 and, in turn, p18. The consequence of p18 is m18, giving us p19. With p19 established we get m19, which implies p20. Thus m20 follows from p20, and p21 follows from m20.\n\nSince d21 also holds, we have (d21&p21), and their joint truth gives p22. This implies m22, so p23 follows by way of m22. From p23 we reach m23, whose consequence is p24. Taking p24 as established yields m24 and thereby p25. Then p25 gives m25, so we obtain p26. This in turn gives m26 and so p27. We have d27 as well as p27, establishing (d27&p27) and consequently p28. It follows that m28 holds, yielding p29. Together with d29 that establishes (d29&p29), which entails p30. We therefore have m30 from p30 and p31 from m30. Finally p31 establishes m31, from which p32 follows."
+      }
+    },
+    {
+      "request_id": "a34a0d740a31e8c21d31e6a9",
+      "case": {
+        "id": "46a174a58d97835c",
+        "n_stages": 32,
+        "problem_id": "study-25c94e4d7af44bbd",
+        "text": "We start with p0. It implies m0, so m0 holds and yields p1. On that basis we get m1, and m1 implies p2. Thus p2 holds and gives m2, from which p3 follows. Since p3 is true, so is (e3|p3), and this is sufficient for p4.\n\nWe can use p4 to establish m4, then use m4 to establish p5. In turn p5 implies m5, yielding p6. The consequence of p6 is m6, and that of m6 is p7, so both conclusions follow in order. As p7 gives m7, we have m7 and hence p8. This leads to m8, which in turn establishes p9. From there we obtain m9 on the strength of p9, then p10 on the strength of m9. Since p10 implies m10, we have m10 and can conclude p11. Its truth establishes (e11|p11), yielding p12. In the same way p12 makes (e12|p12) true, and this latter claim gives p13.\n\nNow p13 implies m13, so we obtain m13 and thereby p14. Alongside d14, p14 establishes (d14&p14), whose consequence is p15. Because d15 holds too, we have (d15&p15) and can conclude p16. This gives m16, which brings us to p17. Taking d17 together with p17 gives (d17&p17) and thus p18. We also have d18, so (d18&p18) holds, yielding p19.\n\nThe implication from p19 to m19 gives us m19, and m19 gives p20. This establishes m20, so its consequence p21 holds. We then get m21 from p21 and p22 from m21. It follows from p22 that m22 holds, which gives p23. Because p23 holds, (e23|p23) is true, establishing p24. That yields m24, and m24 in turn yields p25. We obtain m25 on the basis of p25 and consequently p26 on the basis of m25. Combining the given d26 with p26 establishes (d26&p26), enough to conclude p27. In turn p27 gives us m27 and hence p28. We reach m28 from p28, then p29 from m28. This entails m29, which establishes p30. With p30 we have m30, from which p31 follows. Thus m31 holds by virtue of p31, and m31 establishes p32."
+      }
+    },
+    {
+      "request_id": "2f6425aa41943d7131abd6d6",
+      "case": {
+        "id": "25e35a6ff43f7e10",
+        "n_stages": 32,
+        "problem_id": "study-abb86a253a194f06",
+        "text": "Given p0, its consequence m0 holds, and the implication from m0 to p1 gives us p1. That establishes m1 and, through m1, p2. We can now conclude m2 from p2, then p3 from m2. It follows that m3 holds, which establishes p4. The truth of p4 makes (e4|p4) true, giving p5. This implies m5 and thus, by way of m5, p6. Since p6 makes (e6|p6) true, we obtain p7 from this disjunction. That in turn establishes (e7|p7), yielding p8.\n\nTaking p8 as established gives m8, whose consequence is p9. Thus we have m9 from p9 and p10 from m9. With p10 comes m10, and m10 entails p11, so p11 holds. Along with the given d11, this establishes (d11&p11), from which p12 follows. In turn p12 gives m12, and m12 gives p13. Because d13 holds too, we have (d13&p13) and can conclude p14. From p14 we obtain m14, hence p15. This gives m15 and consequently p16. As p16 implies m16, we have m16 and can use it to conclude p17. We then reach m17 on the basis of p17, followed by p18 on the basis of m17.\n\nNow d18 and p18 together establish (d18&p18), which implies p19. With d19 given, we therefore have (d19&p19), yielding p20. Because p20 holds, so does (e20|p20), and p21 follows from it. This establishes m21, from which we get p22. Thus m22 follows from p22, and p23 follows from m22. Since d23 holds alongside p23, (d23&p23) is true and gives p24. This result and the given d24 establish (d24&p24), so p25 follows.\n\nBy virtue of p25 we have m25, giving p26. That yields m26, whose consequence is p27. We can now use p27 to conclude m27 and use m27 to conclude p28. In turn p28 establishes m28 and hence p29. It follows that (e29|p29) holds, which suffices for p30. Combining d30 with this p30 gives (d30&p30), establishing p31. Since p31 implies m31, we have m31 and thereby reach p32."
+      }
+    },
+    {
+      "request_id": "4df60bcdd1c794add12cbdd6",
+      "case": {
+        "id": "9166d7c0109273d0",
+        "n_stages": 32,
+        "problem_id": "study-53707d31abaf54c6",
+        "text": "Since p0 holds and entails m0, we have m0, which gives us p1. This yields m1 and, on that basis, p2. We then obtain m2 from p2 and p3 from m2. The truth of p3 establishes (e3|p3), so its consequence p4 holds. Now p4 gives m4, from which p5 follows. That entails m5 and therefore gives p6 by way of m5. With p6 true, (e6|p6) holds, establishing p7.\n\nThe consequence of p7 is m7, and m7 entails p8, so we have m7 and then p8. From p8 follows m8, which gives p9. This establishes m9 and thereby p10. Using p10 we arrive at m10, and using m10 we arrive at p11. Because p11 implies m11, we have m11, so p12 follows. In turn p12 yields m12 and hence p13. That makes (e13|p13) true, giving us p14. This implies m14, so we get m14 and can conclude p15 from it. The consequence of p15 is m15, from which we obtain p16. Thus p16 gives us m16 and m16 gives us p17.\n\nAlong with d17, p17 establishes (d17&p17), which suffices for p18. With p18 established, m18 follows and yields p19. That establishes m19, bringing us to p20. Since d20 is also true, we have (d20&p20) and so p21. Starting from p21 we get m21, then p22 from m21. The implication from p22 to m22 now gives m22, yielding p23. This entails m23 and thereby establishes p24. From p24 we obtain m24, and from m24 we obtain p25. As p25 gives m25, we have m25 and consequently p26. On the strength of p26 we get m26, which in turn gives p27. Thus m27 follows from p27, and p28 from m27.\n\nTaken together, d28 and p28 establish (d28&p28), giving p29. This implies m29, which establishes p30. With p30 comes m30, and its consequence p31 follows. Finally, d31 holds alongside p31, so (d31&p31) is true. Their joint truth establishes p32."
+      }
+    }
+  ]
+}
