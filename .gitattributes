@@ -1,0 +1,5 @@
+# Raw experimental records are generated; summaries and methods remain visible.
+research_results/** linguist-generated=true
+research_results/**/*.md linguist-generated=false
+# Preserve model-produced whitespace in the exported prose.
+research_results/**/free_prose.txt -whitespace
