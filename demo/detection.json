@@ -1,0 +1,86 @@
+{
+  "clean": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.005,
+    "detected": true,
+    "log_likelihood_ratio": 7.500723170664967,
+    "likelihood_ratio_detected": true,
+    "preferred": 24
+  },
+  "controlled_rewording": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.005,
+    "detected": true,
+    "log_likelihood_ratio": 7.500723170664967,
+    "likelihood_ratio_detected": true,
+    "preferred": 24
+  },
+  "presentation_shuffle": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.005,
+    "detected": true,
+    "log_likelihood_ratio": 7.500723170664967,
+    "likelihood_ratio_detected": true,
+    "preferred": 24
+  },
+  "duplicate_steps": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.005,
+    "detected": true,
+    "log_likelihood_ratio": 7.500723170664967,
+    "likelihood_ratio_detected": true,
+    "preferred": 24
+  },
+  "delete_25_percent": {
+    "status": "partial_evidence",
+    "proof_valid": false,
+    "n_choices": 19,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.055,
+    "detected": false,
+    "log_likelihood_ratio": null,
+    "likelihood_ratio_detected": null,
+    "preferred": 14
+  },
+  "reroute_25_percent": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.005,
+    "detected": true,
+    "log_likelihood_ratio": 6.186401345776366,
+    "likelihood_ratio_detected": true,
+    "preferred": 24
+  },
+  "full_rewrite": {
+    "status": "complete_proof",
+    "proof_valid": true,
+    "n_choices": 32,
+    "alpha": 0.01,
+    "detail": "",
+    "p_value": 0.755,
+    "detected": false,
+    "log_likelihood_ratio": -11.182210810024932,
+    "likelihood_ratio_detected": false,
+    "preferred": 15
+  }
+}

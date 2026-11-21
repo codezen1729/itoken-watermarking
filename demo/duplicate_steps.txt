@@ -1,0 +1,192 @@
+From d0 and p0, infer (d0&p0) by conjunction introduction.
+From ((d0&p0)->p1) and (d0&p0), infer p1 by modus ponens.
+From (p1->m1) and p1, infer m1 by modus ponens.
+From (m1->p2) and m1, infer p2 by modus ponens.
+From (p2->m2) and p2, infer m2 by modus ponens.
+From (m2->p3) and m2, infer p3 by modus ponens.
+From p3, infer (e3|p3) by disjunction introduction.
+From ((e3|p3)->p4) and (e3|p3), infer p4 by modus ponens.
+From (p4->m4) and p4, infer m4 by modus ponens.
+From (m4->p5) and m4, infer p5 by modus ponens.
+From (p5->m5) and p5, infer m5 by modus ponens.
+From (m5->p6) and m5, infer p6 by modus ponens.
+From (p6->m6) and p6, infer m6 by modus ponens.
+From (m6->p7) and m6, infer p7 by modus ponens.
+From (p7->m7) and p7, infer m7 by modus ponens.
+From (m7->p8) and m7, infer p8 by modus ponens.
+From (p8->m8) and p8, infer m8 by modus ponens.
+From (m8->p9) and m8, infer p9 by modus ponens.
+From p9, infer (e9|p9) by disjunction introduction.
+From ((e9|p9)->p10) and (e9|p9), infer p10 by modus ponens.
+From p10, infer (e10|p10) by disjunction introduction.
+From ((e10|p10)->p11) and (e10|p10), infer p11 by modus ponens.
+From (p11->m11) and p11, infer m11 by modus ponens.
+From (m11->p12) and m11, infer p12 by modus ponens.
+From p12, infer (e12|p12) by disjunction introduction.
+From ((e12|p12)->p13) and (e12|p12), infer p13 by modus ponens.
+From (p13->m13) and p13, infer m13 by modus ponens.
+From (m13->p14) and m13, infer p14 by modus ponens.
+From p14, infer (e14|p14) by disjunction introduction.
+From ((e14|p14)->p15) and (e14|p14), infer p15 by modus ponens.
+From (p15->m15) and p15, infer m15 by modus ponens.
+From (m15->p16) and m15, infer p16 by modus ponens.
+From (p16->m16) and p16, infer m16 by modus ponens.
+From (m16->p17) and m16, infer p17 by modus ponens.
+From (p17->m17) and p17, infer m17 by modus ponens.
+From (m17->p18) and m17, infer p18 by modus ponens.
+From d18 and p18, infer (d18&p18) by conjunction introduction.
+From ((d18&p18)->p19) and (d18&p18), infer p19 by modus ponens.
+From d19 and p19, infer (d19&p19) by conjunction introduction.
+From ((d19&p19)->p20) and (d19&p19), infer p20 by modus ponens.
+From p20, infer (e20|p20) by disjunction introduction.
+From ((e20|p20)->p21) and (e20|p20), infer p21 by modus ponens.
+From (p21->m21) and p21, infer m21 by modus ponens.
+From (m21->p22) and m21, infer p22 by modus ponens.
+From p22, infer (e22|p22) by disjunction introduction.
+From ((e22|p22)->p23) and (e22|p22), infer p23 by modus ponens.
+From d23 and p23, infer (d23&p23) by conjunction introduction.
+From ((d23&p23)->p24) and (d23&p23), infer p24 by modus ponens.
+From (p24->m24) and p24, infer m24 by modus ponens.
+From (m24->p25) and m24, infer p25 by modus ponens.
+From (p25->m25) and p25, infer m25 by modus ponens.
+From (m25->p26) and m25, infer p26 by modus ponens.
+From (p26->m26) and p26, infer m26 by modus ponens.
+From (m26->p27) and m26, infer p27 by modus ponens.
+From (p27->m27) and p27, infer m27 by modus ponens.
+From (m27->p28) and m27, infer p28 by modus ponens.
+From d28 and p28, infer (d28&p28) by conjunction introduction.
+From ((d28&p28)->p29) and (d28&p28), infer p29 by modus ponens.
+From d29 and p29, infer (d29&p29) by conjunction introduction.
+From ((d29&p29)->p30) and (d29&p29), infer p30 by modus ponens.
+From (p30->m30) and p30, infer m30 by modus ponens.
+From (m30->p31) and m30, infer p31 by modus ponens.
+From (p31->m31) and p31, infer m31 by modus ponens.
+From (m31->p32) and m31, infer p32 by modus ponens.
+From d0 and p0, infer (d0&p0) by conjunction introduction.
+From ((d0&p0)->p1) and (d0&p0), infer p1 by modus ponens.
+From (p1->m1) and p1, infer m1 by modus ponens.
+From (m1->p2) and m1, infer p2 by modus ponens.
+From (p2->m2) and p2, infer m2 by modus ponens.
+From (m2->p3) and m2, infer p3 by modus ponens.
+From p3, infer (e3|p3) by disjunction introduction.
+From ((e3|p3)->p4) and (e3|p3), infer p4 by modus ponens.
+From (p4->m4) and p4, infer m4 by modus ponens.
+From (m4->p5) and m4, infer p5 by modus ponens.
+From (p5->m5) and p5, infer m5 by modus ponens.
+From (m5->p6) and m5, infer p6 by modus ponens.
+From (p6->m6) and p6, infer m6 by modus ponens.
+From (m6->p7) and m6, infer p7 by modus ponens.
+From (p7->m7) and p7, infer m7 by modus ponens.
+From (m7->p8) and m7, infer p8 by modus ponens.
+From (p8->m8) and p8, infer m8 by modus ponens.
+From (m8->p9) and m8, infer p9 by modus ponens.
+From p9, infer (e9|p9) by disjunction introduction.
+From ((e9|p9)->p10) and (e9|p9), infer p10 by modus ponens.
+From p10, infer (e10|p10) by disjunction introduction.
+From ((e10|p10)->p11) and (e10|p10), infer p11 by modus ponens.
+From (p11->m11) and p11, infer m11 by modus ponens.
+From (m11->p12) and m11, infer p12 by modus ponens.
+From p12, infer (e12|p12) by disjunction introduction.
+From ((e12|p12)->p13) and (e12|p12), infer p13 by modus ponens.
+From (p13->m13) and p13, infer m13 by modus ponens.
+From (m13->p14) and m13, infer p14 by modus ponens.
+From p14, infer (e14|p14) by disjunction introduction.
+From ((e14|p14)->p15) and (e14|p14), infer p15 by modus ponens.
+From (p15->m15) and p15, infer m15 by modus ponens.
+From (m15->p16) and m15, infer p16 by modus ponens.
+From (p16->m16) and p16, infer m16 by modus ponens.
+From (m16->p17) and m16, infer p17 by modus ponens.
+From (p17->m17) and p17, infer m17 by modus ponens.
+From (m17->p18) and m17, infer p18 by modus ponens.
+From d18 and p18, infer (d18&p18) by conjunction introduction.
+From ((d18&p18)->p19) and (d18&p18), infer p19 by modus ponens.
+From d19 and p19, infer (d19&p19) by conjunction introduction.
+From ((d19&p19)->p20) and (d19&p19), infer p20 by modus ponens.
+From p20, infer (e20|p20) by disjunction introduction.
+From ((e20|p20)->p21) and (e20|p20), infer p21 by modus ponens.
+From (p21->m21) and p21, infer m21 by modus ponens.
+From (m21->p22) and m21, infer p22 by modus ponens.
+From p22, infer (e22|p22) by disjunction introduction.
+From ((e22|p22)->p23) and (e22|p22), infer p23 by modus ponens.
+From d23 and p23, infer (d23&p23) by conjunction introduction.
+From ((d23&p23)->p24) and (d23&p23), infer p24 by modus ponens.
+From (p24->m24) and p24, infer m24 by modus ponens.
+From (m24->p25) and m24, infer p25 by modus ponens.
+From (p25->m25) and p25, infer m25 by modus ponens.
+From (m25->p26) and m25, infer p26 by modus ponens.
+From (p26->m26) and p26, infer m26 by modus ponens.
+From (m26->p27) and m26, infer p27 by modus ponens.
+From (p27->m27) and p27, infer m27 by modus ponens.
+From (m27->p28) and m27, infer p28 by modus ponens.
+From d28 and p28, infer (d28&p28) by conjunction introduction.
+From ((d28&p28)->p29) and (d28&p28), infer p29 by modus ponens.
+From d29 and p29, infer (d29&p29) by conjunction introduction.
+From ((d29&p29)->p30) and (d29&p29), infer p30 by modus ponens.
+From (p30->m30) and p30, infer m30 by modus ponens.
+From (m30->p31) and m30, infer p31 by modus ponens.
+From (p31->m31) and p31, infer m31 by modus ponens.
+From (m31->p32) and m31, infer p32 by modus ponens.
+From d0 and p0, infer (d0&p0) by conjunction introduction.
+From ((d0&p0)->p1) and (d0&p0), infer p1 by modus ponens.
+From (p1->m1) and p1, infer m1 by modus ponens.
+From (m1->p2) and m1, infer p2 by modus ponens.
+From (p2->m2) and p2, infer m2 by modus ponens.
+From (m2->p3) and m2, infer p3 by modus ponens.
+From p3, infer (e3|p3) by disjunction introduction.
+From ((e3|p3)->p4) and (e3|p3), infer p4 by modus ponens.
+From (p4->m4) and p4, infer m4 by modus ponens.
+From (m4->p5) and m4, infer p5 by modus ponens.
+From (p5->m5) and p5, infer m5 by modus ponens.
+From (m5->p6) and m5, infer p6 by modus ponens.
+From (p6->m6) and p6, infer m6 by modus ponens.
+From (m6->p7) and m6, infer p7 by modus ponens.
+From (p7->m7) and p7, infer m7 by modus ponens.
+From (m7->p8) and m7, infer p8 by modus ponens.
+From (p8->m8) and p8, infer m8 by modus ponens.
+From (m8->p9) and m8, infer p9 by modus ponens.
+From p9, infer (e9|p9) by disjunction introduction.
+From ((e9|p9)->p10) and (e9|p9), infer p10 by modus ponens.
+From p10, infer (e10|p10) by disjunction introduction.
+From ((e10|p10)->p11) and (e10|p10), infer p11 by modus ponens.
+From (p11->m11) and p11, infer m11 by modus ponens.
+From (m11->p12) and m11, infer p12 by modus ponens.
+From p12, infer (e12|p12) by disjunction introduction.
+From ((e12|p12)->p13) and (e12|p12), infer p13 by modus ponens.
+From (p13->m13) and p13, infer m13 by modus ponens.
+From (m13->p14) and m13, infer p14 by modus ponens.
+From p14, infer (e14|p14) by disjunction introduction.
+From ((e14|p14)->p15) and (e14|p14), infer p15 by modus ponens.
+From (p15->m15) and p15, infer m15 by modus ponens.
+From (m15->p16) and m15, infer p16 by modus ponens.
+From (p16->m16) and p16, infer m16 by modus ponens.
+From (m16->p17) and m16, infer p17 by modus ponens.
+From (p17->m17) and p17, infer m17 by modus ponens.
+From (m17->p18) and m17, infer p18 by modus ponens.
+From d18 and p18, infer (d18&p18) by conjunction introduction.
+From ((d18&p18)->p19) and (d18&p18), infer p19 by modus ponens.
+From d19 and p19, infer (d19&p19) by conjunction introduction.
+From ((d19&p19)->p20) and (d19&p19), infer p20 by modus ponens.
+From p20, infer (e20|p20) by disjunction introduction.
+From ((e20|p20)->p21) and (e20|p20), infer p21 by modus ponens.
+From (p21->m21) and p21, infer m21 by modus ponens.
+From (m21->p22) and m21, infer p22 by modus ponens.
+From p22, infer (e22|p22) by disjunction introduction.
+From ((e22|p22)->p23) and (e22|p22), infer p23 by modus ponens.
+From d23 and p23, infer (d23&p23) by conjunction introduction.
+From ((d23&p23)->p24) and (d23&p23), infer p24 by modus ponens.
+From (p24->m24) and p24, infer m24 by modus ponens.
+From (m24->p25) and m24, infer p25 by modus ponens.
+From (p25->m25) and p25, infer m25 by modus ponens.
+From (m25->p26) and m25, infer p26 by modus ponens.
+From (p26->m26) and p26, infer m26 by modus ponens.
+From (m26->p27) and m26, infer p27 by modus ponens.
+From (p27->m27) and p27, infer m27 by modus ponens.
+From (m27->p28) and m27, infer p28 by modus ponens.
+From d28 and p28, infer (d28&p28) by conjunction introduction.
+From ((d28&p28)->p29) and (d28&p28), infer p29 by modus ponens.
+From d29 and p29, infer (d29&p29) by conjunction introduction.
+From ((d29&p29)->p30) and (d29&p29), infer p30 by modus ponens.
+From (p30->m30) and p30, infer m30 by modus ponens.
+From (m30->p31) and m30, infer p31 by modus ponens.
+From (p31->m31) and p31, infer m31 by modus ponens.
+From (m31->p32) and m31, infer p32 by modus ponens.

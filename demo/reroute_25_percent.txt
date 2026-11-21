@@ -1,0 +1,64 @@
+(d0&p0) follows from d0, p0 using conjunction introduction.
+p1 follows from ((d0&p0)->p1), (d0&p0) using modus ponens.
+m1 follows from (p1->m1), p1 using modus ponens.
+p2 follows from (m1->p2), m1 using modus ponens.
+m2 follows from (p2->m2), p2 using modus ponens.
+p3 follows from (m2->p3), m2 using modus ponens.
+(e3|p3) follows from p3 using disjunction introduction.
+p4 follows from ((e3|p3)->p4), (e3|p3) using modus ponens.
+m4 follows from (p4->m4), p4 using modus ponens.
+p5 follows from (m4->p5), m4 using modus ponens.
+(e5|p5) follows from p5 using disjunction introduction.
+p6 follows from ((e5|p5)->p6), (e5|p5) using modus ponens.
+m6 follows from (p6->m6), p6 using modus ponens.
+p7 follows from (m6->p7), m6 using modus ponens.
+m7 follows from (p7->m7), p7 using modus ponens.
+p8 follows from (m7->p8), m7 using modus ponens.
+(e8|p8) follows from p8 using disjunction introduction.
+p9 follows from ((e8|p8)->p9), (e8|p8) using modus ponens.
+(e9|p9) follows from p9 using disjunction introduction.
+p10 follows from ((e9|p9)->p10), (e9|p9) using modus ponens.
+(e10|p10) follows from p10 using disjunction introduction.
+p11 follows from ((e10|p10)->p11), (e10|p10) using modus ponens.
+m11 follows from (p11->m11), p11 using modus ponens.
+p12 follows from (m11->p12), m11 using modus ponens.
+(e12|p12) follows from p12 using disjunction introduction.
+p13 follows from ((e12|p12)->p13), (e12|p12) using modus ponens.
+m13 follows from (p13->m13), p13 using modus ponens.
+p14 follows from (m13->p14), m13 using modus ponens.
+(e14|p14) follows from p14 using disjunction introduction.
+p15 follows from ((e14|p14)->p15), (e14|p14) using modus ponens.
+m15 follows from (p15->m15), p15 using modus ponens.
+p16 follows from (m15->p16), m15 using modus ponens.
+m16 follows from (p16->m16), p16 using modus ponens.
+p17 follows from (m16->p17), m16 using modus ponens.
+m17 follows from (p17->m17), p17 using modus ponens.
+p18 follows from (m17->p18), m17 using modus ponens.
+(e18|p18) follows from p18 using disjunction introduction.
+p19 follows from ((e18|p18)->p19), (e18|p18) using modus ponens.
+(d19&p19) follows from d19, p19 using conjunction introduction.
+p20 follows from ((d19&p19)->p20), (d19&p19) using modus ponens.
+(e20|p20) follows from p20 using disjunction introduction.
+p21 follows from ((e20|p20)->p21), (e20|p20) using modus ponens.
+m21 follows from (p21->m21), p21 using modus ponens.
+p22 follows from (m21->p22), m21 using modus ponens.
+(e22|p22) follows from p22 using disjunction introduction.
+p23 follows from ((e22|p22)->p23), (e22|p22) using modus ponens.
+(d23&p23) follows from d23, p23 using conjunction introduction.
+p24 follows from ((d23&p23)->p24), (d23&p23) using modus ponens.
+m24 follows from (p24->m24), p24 using modus ponens.
+p25 follows from (m24->p25), m24 using modus ponens.
+m25 follows from (p25->m25), p25 using modus ponens.
+p26 follows from (m25->p26), m25 using modus ponens.
+m26 follows from (p26->m26), p26 using modus ponens.
+p27 follows from (m26->p27), m26 using modus ponens.
+m27 follows from (p27->m27), p27 using modus ponens.
+p28 follows from (m27->p28), m27 using modus ponens.
+(d28&p28) follows from d28, p28 using conjunction introduction.
+p29 follows from ((d28&p28)->p29), (d28&p28) using modus ponens.
+(d29&p29) follows from d29, p29 using conjunction introduction.
+p30 follows from ((d29&p29)->p30), (d29&p29) using modus ponens.
+m30 follows from (p30->m30), p30 using modus ponens.
+p31 follows from (m30->p31), m30 using modus ponens.
+m31 follows from (p31->m31), p31 using modus ponens.
+p32 follows from (m31->p32), m31 using modus ponens.

@@ -1,0 +1,54 @@
+$ /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 -m unittest discover -s tests -v
+
+test_all_small_paths_validate_as_graphs (test_core.LogicalCoreTests.test_all_small_paths_validate_as_graphs) ... ok
+test_generated_inferences_are_truth_table_sound (test_core.LogicalCoreTests.test_generated_inferences_are_truth_table_sound) ... ok
+test_independent_oracle_detects_invalid_inferences (test_core.LogicalCoreTests.test_independent_oracle_detects_invalid_inferences) ... ok
+test_missing_antecedent_is_not_recovered_from_final_claim (test_core.LogicalCoreTests.test_missing_antecedent_is_not_recovered_from_final_claim) ... ok
+test_premise_and_operand_order_canonicalization (test_core.LogicalCoreTests.test_premise_and_operand_order_canonicalization) ... ok
+test_rendering_grammars_preserve_itokens (test_core.LogicalCoreTests.test_rendering_grammars_preserve_itokens) ... ok
+test_unsupported_cycle_is_not_a_proof (test_core.LogicalCoreTests.test_unsupported_cycle_is_not_a_proof) ... ok
+test_unsupported_prose_and_malformed_formula_fail_closed (test_core.LogicalCoreTests.test_unsupported_prose_and_malformed_formula_fail_closed) ... ok
+test_aggregation_predicts_next_itoken_independent_of_wording_mass (test_core.TokenPredictionTests.test_aggregation_predicts_next_itoken_independent_of_wording_mass) ... ok
+test_bad_probability_support_is_rejected (test_core.TokenPredictionTests.test_bad_probability_support_is_rejected) ... ok
+test_conditional_token_products_recover_text_probabilities (test_core.TokenPredictionTests.test_conditional_token_products_recover_text_probabilities) ... ok
+test_termination_disambiguates_prefix_overlapping_strings (test_core.TokenPredictionTests.test_termination_disambiguates_prefix_overlapping_strings) ... ok
+test_conflicting_routes_abstain_even_if_graph_is_logically_valid (test_pipeline.PipelineTests.test_conflicting_routes_abstain_even_if_graph_is_logically_valid) ... ok
+test_controlled_reword_shuffle_and_duplicate_preserve_detection (test_pipeline.PipelineTests.test_controlled_reword_shuffle_and_duplicate_preserve_detection) ... ok
+test_deletion_never_gets_complete_path_likelihood_ratio (test_pipeline.PipelineTests.test_deletion_never_gets_complete_path_likelihood_ratio) ... ok
+test_delta_zero_matches_baseline_and_ignores_key (test_pipeline.PipelineTests.test_delta_zero_matches_baseline_and_ignores_key) ... ok
+test_exact_small_dependent_path_null_likelihood_expectation (test_pipeline.PipelineTests.test_exact_small_dependent_path_null_likelihood_expectation)
+Enumerate all paths; verify normalization under a dependent baseline. ... ok
+test_generation_and_detection_likelihood_ratios_agree (test_pipeline.PipelineTests.test_generation_and_detection_likelihood_ratios_agree) ... ok
+test_no_choice_steps_and_unrecognized_text_abstain (test_pipeline.PipelineTests.test_no_choice_steps_and_unrecognized_text_abstain) ... ok
+test_problem_identity_changes_structural_context (test_pipeline.PipelineTests.test_problem_identity_changes_structural_context) ... ok
+test_rerouting_produces_valid_proofs_with_same_goal (test_pipeline.PipelineTests.test_rerouting_produces_valid_proofs_with_same_goal) ... ok
+test_analytic_aggregation_is_conditional (test_scored_candidates.ScoredCandidateTests.test_analytic_aggregation_is_conditional) ... ok
+test_cli_reads_jsonl_and_emits_honest_scope (test_scored_candidates.ScoredCandidateTests.test_cli_reads_jsonl_and_emits_honest_scope) ... ok
+test_context_and_tokenizer_are_fixed (test_scored_candidates.ScoredCandidateTests.test_context_and_tokenizer_are_fixed) ... ok
+test_extreme_log_masses_do_not_lose_normalization (test_scored_candidates.ScoredCandidateTests.test_extreme_log_masses_do_not_lose_normalization) ... ok
+test_rejects_bad_scores_and_termination (test_scored_candidates.ScoredCandidateTests.test_rejects_bad_scores_and_termination) ... ok
+test_rejects_duplicate_and_whitespace_variants (test_scored_candidates.ScoredCandidateTests.test_rejects_duplicate_and_whitespace_variants) ... ok
+test_rejects_incompatible_mass (test_scored_candidates.ScoredCandidateTests.test_rejects_incompatible_mass) ... ok
+test_rejects_unsound_inference_and_unsupported_prose (test_scored_candidates.ScoredCandidateTests.test_rejects_unsound_inference_and_unsupported_prose) ... ok
+test_tiny_raw_mass_preserves_conditional_distribution (test_scored_candidates.ScoredCandidateTests.test_tiny_raw_mass_preserves_conditional_distribution) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.081s
+
+OK
+
+$ /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 watermark.py
+
+test_auroc_ties_and_infinite_scores (__main__._run_tests.<locals>.WatermarkTests.test_auroc_ties_and_infinite_scores) ... ok
+test_bias_and_likelihood_ratio (__main__._run_tests.<locals>.WatermarkTests.test_bias_and_likelihood_ratio) ... ok
+test_binomial (__main__._run_tests.<locals>.WatermarkTests.test_binomial) ... ok
+test_duplicate_invariance_and_randomization_formula (__main__._run_tests.<locals>.WatermarkTests.test_duplicate_invariance_and_randomization_formula) ... ok
+test_hash_determinism_and_framing (__main__._run_tests.<locals>.WatermarkTests.test_hash_determinism_and_framing) ... ok
+test_invalid_parameters (__main__._run_tests.<locals>.WatermarkTests.test_invalid_parameters) ... ok
+test_large_delta_preserves_within_group_probabilities (__main__._run_tests.<locals>.WatermarkTests.test_large_delta_preserves_within_group_probabilities) ... ok
+test_wilson (__main__._run_tests.<locals>.WatermarkTests.test_wilson) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

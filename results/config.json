@@ -1,0 +1,26 @@
+{
+  "seed": 20261121,
+  "samples_per_condition": 300,
+  "surrogate_keys_per_document": 199,
+  "alpha": 0.01,
+  "lengths": [
+    8,
+    32,
+    128
+  ],
+  "strengths": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "likelihood_ratio_alternative_delta": 2,
+  "attack_length": 64,
+  "attack_strength": 2,
+  "model": "exact finite autoregressive reference distribution; not an LLM",
+  "baseline": "first stage (0.55,0.30,0.15); later 0.75*base+0.25*previous-route indicator",
+  "experimental_unit": "independent simulated key/task pair; paired across strengths or attacks",
+  "null_scope": "key-randomization guarantee averages over keys; not universal fixed-key protection",
+  "python": "3.13.3",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O"
+}
