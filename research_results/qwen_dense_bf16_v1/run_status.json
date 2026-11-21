@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_for_full_model_runtime_performance",
+  "reason": "Dense BF16 reached decoding but the short generation remained too slow for the planned evaluation. No benchmark examples were evaluated. Moving to the smaller0.5B checkpoint before evaluating gold.",
+  "held_out_test_calls": 0,
+  "development_calls": 0
+}

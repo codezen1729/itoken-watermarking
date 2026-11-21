@@ -2,7 +2,7 @@
 
 We want to watermark the structure of an idea, so that changing its wording does not automatically remove the mark. This prototype tests that mechanism in a small symbolic proof domain. We define an iToken as an actual inference application, choose among three valid routes to the same result, and bias those choices using a keyed hash.
 
-This is a **controlled symbolic prototype**. It uses a finite autoregressive reference predictor with no learned parameters. It does not call an LLM, an API, or a network service. Its text parser recognizes three specified rendering templates; it is not a general natural-language parser.
+The original **controlled symbolic prototype** uses a finite autoregressive reference predictor with no learned parameters. Its core commands do not call an LLM, an API, or a network service. Its text parser recognizes three specified rendering templates. A separate research extension now connects a trained local model and a model-assisted extractor; it keeps the bounded calculus and explicit symbolic anchors.
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
@@ -56,6 +56,30 @@ Each record needs `text`, a nonempty `token_logprobs` list in natural-log units,
 
 Its normalized output is explicitly **conditional on the listed candidates**. It does not certify full support, verify the external scoring process, or recover an unrestricted LLM's complete iToken distribution. It also cannot establish that a step's premises are available in the declared context. These obligations remain with the scorer and the surrounding proof protocol.
 
+## Research extension with a trained model
+
+The extension scores terminated candidate texts using actual token logits, sums their mass by canonical inference, and records both candidate coverage and the resulting probabilities for predicting the next iToken conditional on that list. Its key-blind extractor proposes logical steps with supporting source spans, then applies structural and evidence checks. These checks do not establish semantic entailment.
+
+Start with [the measured research results](RESEARCH_REPORT.md), then read [the methods](REAL_MODEL_METHODS.md), [the frozen evaluation protocol](RESEARCH_EVAL_PROTOCOL.md), and [the remaining research gaps](RESEARCH_GAPS.md). The benchmark has 8 development and 24 held-out agent-authored cases; it is not a representative corpus of unrestricted language. [Runtime setup](RESEARCH_RUNTIME.md) is separate from the standard-library prototype.
+
+The completed scoring run uses Qwen2.5-0.5B-Instruct's 4-bit checkpoint converted to dense FP32 execution. It is a separate runtime variant, not the original unquantized model. With that local checkpoint and the research environment installed, these Bash commands reproduce the declared settings into fresh directories:
+
+```bash
+model_args=(--model /path/to/qwen2.5-0.5b-instruct-4bit
+  --source-repo mlx-community/Qwen2.5-0.5B-Instruct-4bit
+  --revision a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3
+  --device cpu --execution-mode dense-fp32)
+python research_runner.py "${model_args[@]}" --phase scores --out research_results/new_formula_run
+python research_runner.py "${model_args[@]}" --phase dev --out research_results/new_formula_run
+python research_id_runner.py "${model_args[@]}" --split dev --out research_results/new_id_run
+python research_id_runner.py "${model_args[@]}" --split test --out research_results/new_id_run
+python research_native_samples.py "${model_args[@]}" --out research_results/new_native_run
+python real_model_pilot.py "${model_args[@]}" --out research_results/new_pilot --stages 8 --recovery-protocol ids
+python audit_saved_results.py research_results/new_id_run
+```
+
+The runner records source and checkpoint hashes, prompts, token-level probabilities, raw responses, truncations, and failures. The formula-output extractor was evaluated on development data first. Its optional ID interface selects public inference IDs with verbatim evidence, then uses the same validator; development results determined the interface sent to held-out evaluation. Test inference requires a completed development run with the same frozen configuration. Completed evaluation cases can resume without resampling; native sampling and the end-to-end pilot require fresh output directories. The pilot's two traces demonstrate integration and cannot estimate detection power or false-positive rates.
+
 ## How the pieces fit together
 
 | File | Role |
@@ -67,6 +91,14 @@ Its normalized output is explicitly **conditional on the listed candidates**. It
 | `scored_candidates.py` | Aggregation of externally supplied token log probabilities over a declared candidate set. |
 | `experiments.py` | Paired experiments across path lengths, strengths, and edits. |
 | `build_report.py` | Report and plot generation from saved results; requires Matplotlib. |
+| `real_model.py` | Optional local MLX inference and untempered token-probability scoring. |
+| `semantic_recovery.py` | Key-blind language-to-inference proposals with conservative validation. |
+| `semantic_recovery_ids.py` | Compact inference-ID proposals expanded through the same validator. |
+| `research_runner.py` | Probability coverage measurements and frozen development/test evaluation. |
+| `research_id_runner.py` | Separate frozen evaluation of the ID proposal interface. |
+| `research_native_samples.py` | Native temperature-one outputs, including unsupported and truncated samples. |
+| `real_model_pilot.py` | Real-model-informed planning, free wording, recovery, and structural detection. |
+| `audit_saved_results.py` | Independent arithmetic and freeze checks on saved scoring and recovery records. |
 | `tests/` | Checks of symbolic validity, supported invariances, probability aggregation, and the end-to-end interfaces. |
 
 ## What this establishes, and what remains
@@ -75,4 +107,4 @@ The prototype makes the proposed unit concrete: a rule, its premises, and its co
 
 The domain is engineered so that all three routes are valid and equally long. Preserving validity here does not demonstrate that watermarking preserves the usefulness or originality of real ideas. Unsupported natural prose is rejected; free variable renaming is not supported. Deletion can leave only partial evidence. Replacing the proof with a newly sampled unwatermarked path removes the original marked choices and can remove its signal even when the conclusion remains identical.
 
-The next substantive experiment is to use a specified trained LLM, measure candidate coverage and probability calibration, independently evaluate the parser on free paraphrases, and compare against text-token and semantic-cluster watermark baselines. The current package does not claim those results.
+The research extension targets trained-model scoring and logical recovery separately. Full-support next-iToken prediction, independently verified semantic interpretation, larger cross-model evaluations, solution quality, and comparisons with text-token and semantic-cluster baselines remain unresolved. This package does not claim robust watermarking of general LLM-generated ideas.

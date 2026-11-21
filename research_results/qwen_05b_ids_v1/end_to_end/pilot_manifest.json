@@ -1,0 +1,177 @@
+{
+  "seed": 20261121,
+  "stages": 8,
+  "model_metadata": {
+    "source_repo": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+    "revision": "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3",
+    "local_directory_name": "qwen2.5-0.5b-instruct-4bit",
+    "model_type": "qwen2",
+    "quantization": {
+      "group_size": 64,
+      "bits": 4
+    },
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.32.2",
+      "transformers": "5.24.0",
+      "tokenizers": "0.23.3"
+    },
+    "python": "3.13.3",
+    "device": "Device(cpu, 0)",
+    "max_context_tokens": 8192,
+    "prefill_chunk_size": 128,
+    "prefill_strategy": "evaluate cache states in chunks, then final prompt token logits",
+    "execution_mode": "dense-fp32",
+    "execution_representation": {
+      "transform": "cast affine scales/biases to execution dtype, dequantize packed weights, replace QuantizedLinear/QuantizedEmbedding, cast all floating parameters",
+      "execution_dtype": "mlx.core.float32",
+      "dequantized_layers": 169,
+      "parameter_sha256": "c5f9b34790639e0eb65a6240265e50e1436d3df0a1e1880126f4b90dd821f4b0",
+      "parameter_count": 494032768,
+      "parameter_bytes": 1976131072,
+      "hash_byte_order": "little",
+      "probability_equivalence_to_quantized_execution_claimed": false
+    },
+    "checkpoint": {
+      "files": [
+        {
+          "name": "config.json",
+          "size_bytes": 783,
+          "sha256": "b045e57ea90b8f1b35f89f954b176a5c1faa02bd0af2c89bcec191239d66cef4"
+        },
+        {
+          "name": "tokenizer.json",
+          "size_bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size_bytes": 7308,
+          "sha256": "f7c61e32b7a17d19bf8e7037dcb74079a833e53ea9801f24008cac68458f03b7"
+        },
+        {
+          "name": "vocab.json",
+          "size_bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        {
+          "name": "merges.txt",
+          "size_bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size_bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "name": "added_tokens.json",
+          "size_bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size_bytes": 44209,
+          "sha256": "54001cb4c11197119c206dde28e7be08e5872aab6c6d271aed339ec77e84f870"
+        },
+        {
+          "name": "download_manifest.json",
+          "size_bytes": 1659,
+          "sha256": "d0fcd8a886f29dff89b9ffac832a8087797a547e3fc9d5b3de4fb05d59395a07"
+        },
+        {
+          "name": "model.safetensors",
+          "size_bytes": 278064920,
+          "sha256": "ddffab9cbc7bf6dde941c6724841eeca8981fcfa81ca20ff8efff1396326d153"
+        }
+      ],
+      "weights_hashed": true,
+      "weights_size_bytes": 278064920,
+      "manifest_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339"
+    },
+    "scoring_temperature": 1.0,
+    "scoring_eos_token_id": 151645,
+    "generation_stop_token_ids": [
+      151645
+    ],
+    "model_invoked": true
+  },
+  "recovery_protocol": "ids",
+  "recovery_prompt_version": "symbol-grounded-inference-ids-v1",
+  "problem": {
+    "problem_id": "real-pilot-20261121",
+    "premises": [
+      "((d0&p0)->p1)",
+      "((d1&p1)->p2)",
+      "((d2&p2)->p3)",
+      "((d3&p3)->p4)",
+      "((d4&p4)->p5)",
+      "((d5&p5)->p6)",
+      "((d6&p6)->p7)",
+      "((d7&p7)->p8)",
+      "((e0|p0)->p1)",
+      "((e1|p1)->p2)",
+      "((e2|p2)->p3)",
+      "((e3|p3)->p4)",
+      "((e4|p4)->p5)",
+      "((e5|p5)->p6)",
+      "((e6|p6)->p7)",
+      "((e7|p7)->p8)",
+      "(m0->p1)",
+      "(m1->p2)",
+      "(m2->p3)",
+      "(m3->p4)",
+      "(m4->p5)",
+      "(m5->p6)",
+      "(m6->p7)",
+      "(m7->p8)",
+      "(p0->m0)",
+      "(p1->m1)",
+      "(p2->m2)",
+      "(p3->m3)",
+      "(p4->m4)",
+      "(p5->m5)",
+      "(p6->m6)",
+      "(p7->m7)",
+      "d0",
+      "d1",
+      "d2",
+      "d3",
+      "d4",
+      "d5",
+      "d6",
+      "d7",
+      "p0"
+    ],
+    "goal": "p8"
+  },
+  "public_demonstration_key_hex": "774d7e60425a283683091c13ac96d0858a842dbdb92b59b35042eb7064125e7e",
+  "surrogate_keys_seed": 20261921,
+  "surrogate_keys_count": 199,
+  "detection_threshold": 0.01,
+  "planner_deltas": [
+    0,
+    4
+  ],
+  "likelihood_ratio_alternative_delta": 4,
+  "verbalization": {
+    "temperature": 0.7,
+    "max_tokens": 192,
+    "seed_rule": "seed + stage"
+  },
+  "extraction": {
+    "temperature": 0,
+    "max_tokens": 768,
+    "seed": 0
+  },
+  "source_sha256": {
+    "real_model_pilot.py": "a0611354d34627f6d32b3df319afc136571094183d163a552e73a889b3cc5163",
+    "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d",
+    "real_model.py": "f47857189318bd67c0a18b50ab43acf213ae0e022205b9c08202755f1d8a26ae",
+    "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+    "semantic_recovery_ids.py": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+    "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+    "pipeline.py": "03aa3e2812a68d0df5fe6cddc25682344e84c09bcdfb717fe058532259727c6d",
+    "watermark.py": "60c5908fbdce77493b826725194e5ee36541457be9d76b8bdc2bad9d3325b717"
+  }
+}

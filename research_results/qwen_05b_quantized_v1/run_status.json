@@ -1,0 +1,6 @@
+{
+  "status": "smoke_completed_scoring_interrupted_for_runtime_performance",
+  "reason": "Six-token smoke finished in4.43seconds. Full uncached prefix checks were slow; moving to separate dense FP32 execution with bounded prefill memory.",
+  "held_out_test_calls": 0,
+  "development_calls": 0
+}

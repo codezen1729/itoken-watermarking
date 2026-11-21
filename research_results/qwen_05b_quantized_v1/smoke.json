@@ -1,0 +1,39 @@
+{
+  "text": "{\"ok\":true}",
+  "token_ids": [
+    4913,
+    562,
+    788,
+    1866,
+    92,
+    151645
+  ],
+  "token_logprobs": [
+    -0.25952062010765076,
+    -0.00011586471373448148,
+    -0.00027843413408845663,
+    -0.2522445023059845,
+    -0.0009482178138568997,
+    -0.00011062010162277147
+  ],
+  "sampling_token_logprobs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "model_sequence_log_probability": -0.5132182591769379,
+  "sampling_sequence_log_probability": 0.0,
+  "finish_reason": "stop",
+  "includes_termination": true,
+  "temperature": 0,
+  "seed": 0,
+  "context_id": "f1477320a0b320f18c06aed9ccc154b669a19a118ce8b73ebc90c72552269f79",
+  "prompt_tokens": 39,
+  "generated_tokens": 6,
+  "wall_seconds": 4.433451167002204,
+  "model_checkpoint_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339",
+  "model_invoked": true
+}

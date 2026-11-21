@@ -1,0 +1,17 @@
+{
+  "extractor_protocol": "inference_ids",
+  "extractor_sha256": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+  "validator_sha256": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+  "core_sha256": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+  "adapter_sha256": "f47857189318bd67c0a18b50ab43acf213ae0e022205b9c08202755f1d8a26ae",
+  "runner_sha256": "f93b733770f5d9fc11a8eb24c59634903ece87ef399d3dfa187be2420544e9f3",
+  "metrics_runner_sha256": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d",
+  "dataset_sha256": "449ed8f90a926f69a22be9cf344c124aecd2082c790078c5d1074f5030f0f824",
+  "prompt_version": "symbol-grounded-inference-ids-v1",
+  "temperature": 0.0,
+  "max_generation_tokens": 1024,
+  "seed": 0,
+  "model_checkpoint_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339",
+  "model_metadata_sha256": "807c80a3f9e63a5345fe837029c3fe67423fad98358cd80a0d8bb2c6fcd14d62",
+  "model_revision": "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3"
+}
