@@ -1,0 +1,199 @@
+{
+  "challenge": {
+    "cases": 24,
+    "strict_successes": 24,
+    "exact_choice_sets": 24,
+    "correct_choices": 28,
+    "gold_choices": 28,
+    "predicted_choices": 28,
+    "precision": 1.0,
+    "recall": 1.0,
+    "lexical_exact_choice_sets": 7,
+    "lexical_correct_choices": 6,
+    "lexical_predicted_choices": 22,
+    "semantic_false_acceptances": 0,
+    "complete": {
+      "successes": 4,
+      "trials": 4,
+      "fraction": 1.0
+    },
+    "partial": {
+      "successes": 12,
+      "trials": 12,
+      "fraction": 1.0
+    },
+    "abstain": {
+      "successes": 6,
+      "trials": 6,
+      "fraction": 1.0
+    },
+    "ambiguous": {
+      "successes": 2,
+      "trials": 2,
+      "fraction": 1.0
+    },
+    "same_word_contrast_cases": {
+      "successes": 8,
+      "trials": 8,
+      "fraction": 1.0
+    },
+    "lexical_same_word_exact_sets": {
+      "successes": 0,
+      "trials": 8,
+      "fraction": 0.0
+    }
+  },
+  "paired": {
+    "units": 8,
+    "documents": 32,
+    "decisions_per_document": 16,
+    "alpha": 0.01,
+    "surrogate_keys": 199,
+    "uncertainty_scope": "descriptive paired pilot, no population calibration claim",
+    "explicit_marker_documents": 0,
+    "unmarked": {
+      "planned_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "original_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "reworded_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "survival_from_planned": {
+        "successes": 0,
+        "trials": 0,
+        "fraction": null
+      },
+      "survival_from_original": {
+        "successes": 0,
+        "trials": 0,
+        "fraction": null
+      },
+      "faithful_reworded_detection_joint": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "detection_given_both_fidelities": {
+        "successes": 0,
+        "trials": 3,
+        "fraction": 0.0
+      },
+      "author_fidelity": {
+        "preserved": 7,
+        "uncertain": 1
+      },
+      "rewrite_fidelity": {
+        "preserved": 3,
+        "changed": 5
+      },
+      "original_exact_paths": 8,
+      "original_correct_decisions": 128,
+      "original_recovered_decisions": 128,
+      "original_abstentions": 0,
+      "original_lexical_exact_paths": 0,
+      "original_lexical_correct_decisions": 52,
+      "original_lexical_detection": {
+        "successes": 1,
+        "trials": 8,
+        "fraction": 0.125
+      },
+      "reworded_exact_paths": 8,
+      "reworded_correct_decisions": 128,
+      "reworded_recovered_decisions": 128,
+      "reworded_abstentions": 0,
+      "reworded_lexical_exact_paths": 0,
+      "reworded_lexical_correct_decisions": 52,
+      "reworded_lexical_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      }
+    },
+    "marked": {
+      "planned_detection": {
+        "successes": 5,
+        "trials": 8,
+        "fraction": 0.625
+      },
+      "original_detection": {
+        "successes": 5,
+        "trials": 8,
+        "fraction": 0.625
+      },
+      "reworded_detection": {
+        "successes": 5,
+        "trials": 8,
+        "fraction": 0.625
+      },
+      "survival_from_planned": {
+        "successes": 5,
+        "trials": 5,
+        "fraction": 1.0
+      },
+      "survival_from_original": {
+        "successes": 5,
+        "trials": 5,
+        "fraction": 1.0
+      },
+      "faithful_reworded_detection_joint": {
+        "successes": 3,
+        "trials": 8,
+        "fraction": 0.375
+      },
+      "detection_given_both_fidelities": {
+        "successes": 3,
+        "trials": 5,
+        "fraction": 0.6
+      },
+      "author_fidelity": {
+        "preserved": 5,
+        "changed": 1,
+        "uncertain": 2
+      },
+      "rewrite_fidelity": {
+        "preserved": 6,
+        "changed": 2
+      },
+      "original_exact_paths": 8,
+      "original_correct_decisions": 128,
+      "original_recovered_decisions": 128,
+      "original_abstentions": 0,
+      "original_lexical_exact_paths": 0,
+      "original_lexical_correct_decisions": 64,
+      "original_lexical_detection": {
+        "successes": 0,
+        "trials": 8,
+        "fraction": 0.0
+      },
+      "reworded_exact_paths": 8,
+      "reworded_correct_decisions": 128,
+      "reworded_recovered_decisions": 128,
+      "reworded_abstentions": 0,
+      "reworded_lexical_exact_paths": 0,
+      "reworded_lexical_correct_decisions": 61,
+      "reworded_lexical_detection": {
+        "successes": 1,
+        "trials": 8,
+        "fraction": 0.125
+      }
+    }
+  },
+  "probabilities": {
+    "contexts": 128,
+    "terminated_sequences": 384,
+    "coverage_min": 0.0031481776719020256,
+    "coverage_mean": 0.20040544278484132,
+    "coverage_max": 0.7988752854242339,
+    "mean_entropy_nats": 0.5727017034850092,
+    "max_checked_logprob_difference": 5.53131103515625e-05
+  }
+}

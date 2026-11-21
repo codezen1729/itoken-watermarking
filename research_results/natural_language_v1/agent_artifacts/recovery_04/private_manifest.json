@@ -1,0 +1,1690 @@
+{
+  "freeze": {
+    "protocol": "natural-agent-transport-v1",
+    "label": "natural-original",
+    "batch_group": "cmarkedv0b4",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "7dd6b72f4974b0252ddb835b38a6b5db9f27bc187b6f29b3fdee0e43f1dc7ac0",
+    "bindings_sha256": "0df99939869e52acdcc9023a0601089d6c42d6358f7a52bec73b2b65a51bd4bd",
+    "source_sha256": {
+      "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+      "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "7cbae8e6f19e66d4a54965472f6cf781c97aeffa82b4ee9475d6ba3d005eb649"
+  },
+  "bindings": [
+    {
+      "request_id": "08ea3a0b79264ca12ca974c7",
+      "case": {
+        "id": "7d79fdba6e593f65",
+        "problem": {
+          "id": "problem_1069801cdff8",
+          "title": "A workable shared craft studio",
+          "problem": "A neighborhood craft studio serves members working on small personal projects. It has bookable benches, ordinary hand tools, shared consumables, a drying rack, labeled storage, a message board, and a steward during opening hours. Members follow the same basic safety rules. Helpers can support brief activities without taking over the whole room, and each decision concerns a separate routine.",
+          "goal": "Help members make steady progress while sharing tools, work surfaces, materials, and responsibility for the studio.",
+          "decisions": [
+            {
+              "id": "decision_6383cfac596b",
+              "question": "How should a new member learn the studio routine?",
+              "context": "Every new member receives the same brief introduction before independent work; a steward, experienced member, or illustrated guide can support it.",
+              "options": [
+                {
+                  "id": "choice_fa71a030bad5",
+                  "mechanism": "The steward walks each new member through the illustrated guide before their first session.",
+                  "consequence": "A short conversation connects the written routine to the places and equipment the member will actually use.",
+                  "application": "The steward walks each new member through the illustrated guide before their first session. A short conversation connects the written routine to the places and equipment the member will actually use."
+                },
+                {
+                  "id": "choice_537738ca4874",
+                  "mechanism": "An experienced member accompanies each new member through the illustrated guide at the start of their first session.",
+                  "consequence": "A peer demonstrates the routine and remains an approachable contact during the first project.",
+                  "application": "An experienced member accompanies each new member through the illustrated guide at the start of their first session. A peer demonstrates the routine and remains an approachable contact during the first project."
+                },
+                {
+                  "id": "choice_aec7f9cedd8e",
+                  "mechanism": "New members follow the illustrated guide through the studio and then explain the routine to the steward.",
+                  "consequence": "The steward checks understanding after members have explored the space at their own pace.",
+                  "application": "New members follow the illustrated guide through the studio and then explain the routine to the steward. The steward checks understanding after members have explored the space at their own pace."
+                }
+              ]
+            },
+            {
+              "id": "decision_d04eadb89670",
+              "question": "How should members obtain bench time?",
+              "context": "A booking sheet lists bench sessions, and all unclaimed sessions remain available to arriving members.",
+              "options": [
+                {
+                  "id": "choice_917587fab0b4",
+                  "mechanism": "Members claim available bench sessions directly on the booking sheet before beginning their work.",
+                  "consequence": "The sheet gives members immediate control of their schedules while showing everyone which sessions are already taken.",
+                  "application": "Members claim available bench sessions directly on the booking sheet before beginning their work. The sheet gives members immediate control of their schedules while showing everyone which sessions are already taken."
+                },
+                {
+                  "id": "choice_b5a694542142",
+                  "mechanism": "Members enter preferred bench sessions on the booking sheet, and the steward assigns available sessions each morning.",
+                  "consequence": "The steward can spread competing requests before members commit to their working times.",
+                  "application": "Members enter preferred bench sessions on the booking sheet, and the steward assigns available sessions each morning. The steward can spread competing requests before members commit to their working times."
+                },
+                {
+                  "id": "choice_958f5019a6d2",
+                  "mechanism": "The steward publishes a rotating order for members to claim bench sessions on the booking sheet.",
+                  "consequence": "Earlier access changes between booking rounds while members still choose among the sessions available to them.",
+                  "application": "The steward publishes a rotating order for members to claim bench sessions on the booking sheet. Earlier access changes between booking rounds while members still choose among the sessions available to them."
+                }
+              ]
+            },
+            {
+              "id": "decision_3729330e7c57",
+              "question": "How should a member prepare a project plan?",
+              "context": "A project card can record the next small task, likely materials, and intended stopping point without requiring approval of the design.",
+              "options": [
+                {
+                  "id": "choice_28227daf7bf6",
+                  "mechanism": "Members complete a project card before collecting materials and review it when they stop working.",
+                  "consequence": "The chosen stopping point guides preparation and makes unfinished work easier to resume during a later session.",
+                  "application": "Members complete a project card before collecting materials and review it when they stop working. The chosen stopping point guides preparation and makes unfinished work easier to resume during a later session."
+                },
+                {
+                  "id": "choice_22d22543db44",
+                  "mechanism": "Members discuss their next task with a partner, who records the materials and stopping point on a project card.",
+                  "consequence": "Explaining the work aloud reveals missing preparation before either member starts collecting supplies.",
+                  "application": "Members discuss their next task with a partner, who records the materials and stopping point on a project card. Explaining the work aloud reveals missing preparation before either member starts collecting supplies."
+                },
+                {
+                  "id": "choice_4bc71b738b21",
+                  "mechanism": "Members begin with a small sample and then record the next task, materials, and stopping point on a project card.",
+                  "consequence": "The plan reflects what the trial reveals about the project’s immediate needs.",
+                  "application": "Members begin with a small sample and then record the next task, materials, and stopping point on a project card. The plan reflects what the trial reveals about the project’s immediate needs."
+                }
+              ]
+            },
+            {
+              "id": "decision_af900452074f",
+              "question": "How should shared hand tools be checked out?",
+              "context": "Each shared hand tool has a numbered hook and a matching sign-out line; borrowing ends within the member’s booked session.",
+              "options": [
+                {
+                  "id": "choice_7efff2c0a968",
+                  "mechanism": "Members write their names on the sign-out line before removing shared hand tools from the numbered hooks.",
+                  "consequence": "Other members can locate borrowed tools directly and know who is responsible for returning them.",
+                  "application": "Members write their names on the sign-out line before removing shared hand tools from the numbered hooks. Other members can locate borrowed tools directly and know who is responsible for returning them."
+                },
+                {
+                  "id": "choice_6a34ba63e1fd",
+                  "mechanism": "The steward records each requested hand tool on the sign-out line and hands it to the borrowing member.",
+                  "consequence": "A single handover links the tool’s location and borrower without asking members to update records themselves.",
+                  "application": "The steward records each requested hand tool on the sign-out line and hands it to the borrowing member. A single handover links the tool’s location and borrower without asking members to update records themselves."
+                },
+                {
+                  "id": "choice_bc24b8d640de",
+                  "mechanism": "Members put a named borrowing card on the numbered hook when taking a shared hand tool.",
+                  "consequence": "The empty hook itself identifies the borrower, so someone seeking that tool can find the current user.",
+                  "application": "Members put a named borrowing card on the numbered hook when taking a shared hand tool. The empty hook itself identifies the borrower, so someone seeking that tool can find the current user."
+                }
+              ]
+            },
+            {
+              "id": "decision_6f32daf6730d",
+              "question": "How should requests for project help be handled?",
+              "context": "A help list records brief questions; the steward can give short consultations while members continue other safe parts of their projects.",
+              "options": [
+                {
+                  "id": "choice_970acb78683f",
+                  "mechanism": "Members add project questions to the help list, and the steward visits them in the order recorded.",
+                  "consequence": "A visible queue makes the next consultation predictable while members continue work that does not require assistance.",
+                  "application": "Members add project questions to the help list, and the steward visits them in the order recorded. A visible queue makes the next consultation predictable while members continue work that does not require assistance."
+                },
+                {
+                  "id": "choice_b9c625d0bbf4",
+                  "mechanism": "The steward collects project questions during regular bench rounds and answers each brief question at that bench.",
+                  "consequence": "Members can prepare their questions for the next round instead of monitoring a separate consultation queue.",
+                  "application": "The steward collects project questions during regular bench rounds and answers each brief question at that bench. Members can prepare their questions for the next round instead of monitoring a separate consultation queue."
+                },
+                {
+                  "id": "choice_ec9293d1be3c",
+                  "mechanism": "Members mark their project questions by topic on the help list, and the steward gathers people with related questions.",
+                  "consequence": "A shared explanation can resolve several similar difficulties within one short consultation.",
+                  "application": "Members mark their project questions by topic on the help list, and the steward gathers people with related questions. A shared explanation can resolve several similar difficulties within one short consultation."
+                }
+              ]
+            },
+            {
+              "id": "decision_dadbf9da52b7",
+              "question": "How should shared consumables be replenished?",
+              "context": "Common consumables have a reserve supply and a small reorder allowance; a restock card can show remaining quantities and outstanding orders.",
+              "options": [
+                {
+                  "id": "choice_51bffb22dde1",
+                  "mechanism": "Members mark the restock card when a consumable reaches its minimum line, and the steward orders a replacement.",
+                  "consequence": "Replenishment starts when actual use crosses a visible threshold rather than waiting for a full inspection.",
+                  "application": "Members mark the restock card when a consumable reaches its minimum line, and the steward orders a replacement. Replenishment starts when actual use crosses a visible threshold rather than waiting for a full inspection."
+                },
+                {
+                  "id": "choice_55009636773d",
+                  "mechanism": "The steward counts shared consumables at the end of each opening day and updates the restock card before ordering.",
+                  "consequence": "A regular inventory combines several small shortages into one considered replenishment decision.",
+                  "application": "The steward counts shared consumables at the end of each opening day and updates the restock card before ordering. A regular inventory combines several small shortages into one considered replenishment decision."
+                },
+                {
+                  "id": "choice_07017b50603a",
+                  "mechanism": "A rotating member checks shared consumables at each week’s first session and gives the steward a completed restock card.",
+                  "consequence": "Responsibility for noticing shortages is shared while purchasing remains with the same accountable person.",
+                  "application": "A rotating member checks shared consumables at each week’s first session and gives the steward a completed restock card. Responsibility for noticing shortages is shared while purchasing remains with the same accountable person."
+                }
+              ]
+            },
+            {
+              "id": "decision_65f618ef18c2",
+              "question": "How should usable offcuts enter the shared scrap supply?",
+              "context": "A scrap shelf accepts clean usable offcuts, and examples show what fits each labeled container.",
+              "options": [
+                {
+                  "id": "choice_70bf19ca9283",
+                  "mechanism": "Members place usable offcuts directly into the labeled scrap containers after comparing them with the examples.",
+                  "consequence": "Materials become available immediately, with the person who created them doing the initial sorting work.",
+                  "application": "Members place usable offcuts directly into the labeled scrap containers after comparing them with the examples. Materials become available immediately, with the person who created them doing the initial sorting work."
+                },
+                {
+                  "id": "choice_16afc187eb1d",
+                  "mechanism": "Members leave usable offcuts in a review tray, and the steward sorts them into labeled scrap containers each day.",
+                  "consequence": "A consistent review keeps unsuitable pieces from becoming mixed into the shared supply.",
+                  "application": "Members leave usable offcuts in a review tray, and the steward sorts them into labeled scrap containers each day. A consistent review keeps unsuitable pieces from becoming mixed into the shared supply."
+                },
+                {
+                  "id": "choice_4d79ccaa8b34",
+                  "mechanism": "Members offer usable offcuts at a brief end-of-session exchange before placing unclaimed pieces in labeled scrap containers.",
+                  "consequence": "Someone with an immediate use can take material before it joins the longer-term scrap supply.",
+                  "application": "Members offer usable offcuts at a brief end-of-session exchange before placing unclaimed pieces in labeled scrap containers. Someone with an immediate use can take material before it joins the longer-term scrap supply."
+                }
+              ]
+            },
+            {
+              "id": "decision_cfd5493757cd",
+              "question": "How should unfinished projects be stored between sessions?",
+              "context": "Every member has access to one modest storage allowance, and all project containers must identify their owner and next review date.",
+              "options": [
+                {
+                  "id": "choice_c9566d03ed2f",
+                  "mechanism": "Members pack unfinished projects into their allocated containers and add the next review date before leaving.",
+                  "consequence": "Each member controls the arrangement within a clearly bounded storage allowance that others can identify.",
+                  "application": "Members pack unfinished projects into their allocated containers and add the next review date before leaving. Each member controls the arrangement within a clearly bounded storage allowance that others can identify."
+                },
+                {
+                  "id": "choice_58e25dd8538b",
+                  "mechanism": "The steward assigns an available shelf position when members present packed unfinished projects with review dates.",
+                  "consequence": "A central placement record makes projects easy to locate without changing each member’s storage allowance.",
+                  "application": "The steward assigns an available shelf position when members present packed unfinished projects with review dates. A central placement record makes projects easy to locate without changing each member’s storage allowance."
+                },
+                {
+                  "id": "choice_119bb7e1c569",
+                  "mechanism": "Members reserve a storage position on the board before packing unfinished projects and labeling their next review dates.",
+                  "consequence": "Knowing the available position helps members choose a container that fits before they clear the bench.",
+                  "application": "Members reserve a storage position on the board before packing unfinished projects and labeling their next review dates. Knowing the available position helps members choose a container that fits before they clear the bench."
+                }
+              ]
+            },
+            {
+              "id": "decision_6427357198e3",
+              "question": "How should short noisy tasks be coordinated?",
+              "context": "Brief hammering and similar tasks are permitted at a designated station; quieter alternatives remain available during waiting periods.",
+              "options": [
+                {
+                  "id": "choice_ade041318a0f",
+                  "mechanism": "Members place their names on the noisy-task list, and the steward groups those tasks into announced short periods.",
+                  "consequence": "People doing quieter work can anticipate interruptions while noisy projects still receive regular access.",
+                  "application": "Members place their names on the noisy-task list, and the steward groups those tasks into announced short periods. People doing quieter work can anticipate interruptions while noisy projects still receive regular access."
+                },
+                {
+                  "id": "choice_3f9a4d8c3deb",
+                  "mechanism": "Members announce a short noisy task at the designated station and wait for nearby members to acknowledge the notice.",
+                  "consequence": "People close to the sound have time to pause sensitive work before the task begins.",
+                  "application": "Members announce a short noisy task at the designated station and wait for nearby members to acknowledge the notice. People close to the sound have time to pause sensitive work before the task begins."
+                },
+                {
+                  "id": "choice_f4e33756edfb",
+                  "mechanism": "The studio posts repeating short periods for noisy tasks, and members choose an available turn within those periods.",
+                  "consequence": "A stable rhythm makes interruptions predictable without requiring a new room-wide negotiation for every task.",
+                  "application": "The studio posts repeating short periods for noisy tasks, and members choose an available turn within those periods. A stable rhythm makes interruptions predictable without requiring a new room-wide negotiation for every task."
+                }
+              ]
+            },
+            {
+              "id": "decision_cd7df5e879f6",
+              "question": "How should projects use the drying rack?",
+              "context": "Rack spaces can hold small wet projects; a tag records the owner and the earliest safe handling time.",
+              "options": [
+                {
+                  "id": "choice_8a152e7fcb99",
+                  "mechanism": "Members choose an empty drying-rack space and attach the handling-time tag when placing a wet project there.",
+                  "consequence": "The person preparing the project records when it can move, giving later users a clear basis for planning.",
+                  "application": "Members choose an empty drying-rack space and attach the handling-time tag when placing a wet project there. The person preparing the project records when it can move, giving later users a clear basis for planning."
+                },
+                {
+                  "id": "choice_75f587a42563",
+                  "mechanism": "The steward assigns drying-rack spaces after reading members’ handling-time tags and places shorter drying jobs near the front.",
+                  "consequence": "Projects likely to leave soon remain accessible without disturbing those that need longer.",
+                  "application": "The steward assigns drying-rack spaces after reading members’ handling-time tags and places shorter drying jobs near the front. Projects likely to leave soon remain accessible without disturbing those that need longer."
+                },
+                {
+                  "id": "choice_bd16f916ae98",
+                  "mechanism": "Members reserve drying-rack spaces for expected finishing times and attach handling-time tags when their projects arrive.",
+                  "consequence": "Visible reservations help members pace wet work around the rack capacity available later in the session.",
+                  "application": "Members reserve drying-rack spaces for expected finishing times and attach handling-time tags when their projects arrive. Visible reservations help members pace wet work around the rack capacity available later in the session."
+                }
+              ]
+            },
+            {
+              "id": "decision_a6a9b6cd6e4b",
+              "question": "How should bench cleanup be organized?",
+              "context": "Every occupied bench needs the same short cleanup before its session ends, and cleaning supplies are available nearby.",
+              "options": [
+                {
+                  "id": "choice_eab789db1afe",
+                  "mechanism": "Members clean their own benches during the final minutes of their sessions using the posted checklist.",
+                  "consequence": "Responsibility stays with the person who knows what was used, and the next member receives a ready surface.",
+                  "application": "Members clean their own benches during the final minutes of their sessions using the posted checklist. Responsibility stays with the person who knows what was used, and the next member receives a ready surface."
+                },
+                {
+                  "id": "choice_4976635fe703",
+                  "mechanism": "Members working nearby pair up to clean one bench and then the other during their final session minutes.",
+                  "consequence": "Shared effort makes overlooked scraps and tools easier to notice while both benches receive the same checklist.",
+                  "application": "Members working nearby pair up to clean one bench and then the other during their final session minutes. Shared effort makes overlooked scraps and tools easier to notice while both benches receive the same checklist."
+                },
+                {
+                  "id": "choice_57168795c98d",
+                  "mechanism": "The steward announces a cleanup pause before each bench session ends, and members clean their own surfaces together.",
+                  "consequence": "A common reminder protects cleanup time when members are absorbed in finishing their projects.",
+                  "application": "The steward announces a cleanup pause before each bench session ends, and members clean their own surfaces together. A common reminder protects cleanup time when members are absorbed in finishing their projects."
+                }
+              ]
+            },
+            {
+              "id": "decision_4faba2dc53f0",
+              "question": "How should a damaged tool be reported?",
+              "context": "Members must stop using damaged tools; a marked tray and repair card keep them separate from tools available for use.",
+              "options": [
+                {
+                  "id": "choice_74085dd1c27f",
+                  "mechanism": "Members place damaged tools in the marked tray and complete repair cards describing what happened during use.",
+                  "consequence": "The steward receives both the isolated tool and firsthand observations when arranging its inspection.",
+                  "application": "Members place damaged tools in the marked tray and complete repair cards describing what happened during use. The steward receives both the isolated tool and firsthand observations when arranging its inspection."
+                },
+                {
+                  "id": "choice_1a26c055ff4e",
+                  "mechanism": "Members bring damaged tools to the steward, who asks about the problem and completes repair cards before isolating them.",
+                  "consequence": "A short conversation captures details that may be difficult to describe on an unattended form.",
+                  "application": "Members bring damaged tools to the steward, who asks about the problem and completes repair cards before isolating them. A short conversation captures details that may be difficult to describe on an unattended form."
+                },
+                {
+                  "id": "choice_9648fdb061eb",
+                  "mechanism": "Members isolate damaged tools with brief repair cards, and the steward asks follow-up questions during the next bench round.",
+                  "consequence": "Unsafe equipment leaves circulation immediately while fuller diagnosis waits for a convenient conversation.",
+                  "application": "Members isolate damaged tools with brief repair cards, and the steward asks follow-up questions during the next bench round. Unsafe equipment leaves circulation immediately while fuller diagnosis waits for a convenient conversation."
+                }
+              ]
+            },
+            {
+              "id": "decision_4b8738612992",
+              "question": "How should a short technique demonstration be selected?",
+              "context": "A small demonstration corner can host one optional technique lesson each week without blocking ordinary bench use.",
+              "options": [
+                {
+                  "id": "choice_9659a47a1c00",
+                  "mechanism": "Members propose techniques on the board and vote before the steward arranges the weekly demonstration.",
+                  "consequence": "The lesson follows expressed interest, giving members a direct role in choosing what they can learn together.",
+                  "application": "Members propose techniques on the board and vote before the steward arranges the weekly demonstration. The lesson follows expressed interest, giving members a direct role in choosing what they can learn together."
+                },
+                {
+                  "id": "choice_d2e06e764c1d",
+                  "mechanism": "The steward chooses a weekly technique from recurring help requests and invites members to the demonstration corner.",
+                  "consequence": "Questions already interrupting projects become the basis for a shared lesson that may prevent repeated consultations.",
+                  "application": "The steward chooses a weekly technique from recurring help requests and invites members to the demonstration corner. Questions already interrupting projects become the basis for a shared lesson that may prevent repeated consultations."
+                },
+                {
+                  "id": "choice_32b0a711e54b",
+                  "mechanism": "Members volunteer to demonstrate techniques they know, and the steward schedules the offers in a rotating order.",
+                  "consequence": "The lesson program grows from available member expertise while different volunteers receive opportunities to contribute.",
+                  "application": "Members volunteer to demonstrate techniques they know, and the steward schedules the offers in a rotating order. The lesson program grows from available member expertise while different volunteers receive opportunities to contribute."
+                }
+              ]
+            },
+            {
+              "id": "decision_bc5962445d8e",
+              "question": "How should personally owned surplus materials be shared?",
+              "context": "Members may offer spare materials through an optional exchange shelf; every offer states the quantity and any conditions before acceptance.",
+              "options": [
+                {
+                  "id": "choice_cd1b594347fa",
+                  "mechanism": "Owners label surplus materials with their conditions and leave them on the exchange shelf for direct collection.",
+                  "consequence": "Recipients can assess the offer independently, and the label preserves the owner’s terms during an unattended handover.",
+                  "application": "Owners label surplus materials with their conditions and leave them on the exchange shelf for direct collection. Recipients can assess the offer independently, and the label preserves the owner’s terms during an unattended handover."
+                },
+                {
+                  "id": "choice_390480630d01",
+                  "mechanism": "Owners list surplus materials on the board and arrange a direct handover with the first member accepting the conditions.",
+                  "consequence": "Materials remain with their owners until someone has committed to a specific and understood exchange.",
+                  "application": "Owners list surplus materials on the board and arrange a direct handover with the first member accepting the conditions. Materials remain with their owners until someone has committed to a specific and understood exchange."
+                },
+                {
+                  "id": "choice_0390840ae447",
+                  "mechanism": "The steward collects labeled surplus offers for a weekly exchange period when owners and interested members can meet.",
+                  "consequence": "A shared occasion concentrates handovers and allows questions about materials before recipients accept the stated conditions.",
+                  "application": "The steward collects labeled surplus offers for a weekly exchange period when owners and interested members can meet. A shared occasion concentrates handovers and allows questions about materials before recipients accept the stated conditions."
+                }
+              ]
+            },
+            {
+              "id": "decision_02a7a0bf9e70",
+              "question": "How should members receive changes to studio routines?",
+              "context": "A notice board and the member contact list can carry the same dated update; brief acknowledgment does not require agreement with the change.",
+              "options": [
+                {
+                  "id": "choice_2e69f77baafe",
+                  "mechanism": "The steward sends each dated update through the contact list and posts it on the notice board before it takes effect.",
+                  "consequence": "Members can prepare before arriving and find the same instructions inside the studio.",
+                  "application": "The steward sends each dated update through the contact list and posts it on the notice board before it takes effect. Members can prepare before arriving and find the same instructions inside the studio."
+                },
+                {
+                  "id": "choice_352ae5f4ecd5",
+                  "mechanism": "The steward explains each dated update at members’ next arrivals and points them to the notice board.",
+                  "consequence": "The explanation occurs where the changed routine will be used and allows immediate questions about its practical effect.",
+                  "application": "The steward explains each dated update at members’ next arrivals and points them to the notice board. The explanation occurs where the changed routine will be used and allows immediate questions about its practical effect."
+                },
+                {
+                  "id": "choice_5afcd291493f",
+                  "mechanism": "Members read dated updates on the notice board and mark an acknowledgment beside their names before starting work.",
+                  "consequence": "The steward can identify who still needs an explanation without repeating the update to every arriving member.",
+                  "application": "Members read dated updates on the notice board and mark an acknowledgment beside their names before starting work. The steward can identify who still needs an explanation without repeating the update to every arriving member."
+                }
+              ]
+            },
+            {
+              "id": "decision_84be91506f83",
+              "question": "How should unfinished studio duties pass between stewards?",
+              "context": "A handover pad can record unresolved maintenance, low supplies, and promised follow-ups; outgoing and incoming stewards have a brief overlap.",
+              "options": [
+                {
+                  "id": "choice_6e0314356d82",
+                  "mechanism": "The outgoing steward writes unresolved duties on the handover pad and walks through them with the incoming steward.",
+                  "consequence": "The written record guides a short conversation before responsibility passes to the next person.",
+                  "application": "The outgoing steward writes unresolved duties on the handover pad and walks through them with the incoming steward. The written record guides a short conversation before responsibility passes to the next person."
+                },
+                {
+                  "id": "choice_973018380e30",
+                  "mechanism": "The incoming steward inspects the handover pad and relevant studio areas, then asks the outgoing steward about unclear duties.",
+                  "consequence": "Questions arise from an initial independent check, concentrating the overlap on information that is actually missing.",
+                  "application": "The incoming steward inspects the handover pad and relevant studio areas, then asks the outgoing steward about unclear duties. Questions arise from an initial independent check, concentrating the overlap on information that is actually missing."
+                },
+                {
+                  "id": "choice_b7bfd93b3c71",
+                  "mechanism": "Both stewards make a brief circuit of the studio and record unresolved duties together on the handover pad.",
+                  "consequence": "The record is built from shared observations, so the incoming steward sees the conditions behind each follow-up.",
+                  "application": "Both stewards make a brief circuit of the studio and record unresolved duties together on the handover pad. The record is built from shared observations, so the incoming steward sees the conditions behind each follow-up."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Give newcomers the illustrated studio guide and let them take as long as they need to walk the route. At the end, have each newcomer describe to the steward how a session works. The steward can pick up on anything they missed before they work independently. For booking, the steward posts the order in which members may choose sessions from the sheet. Rotate who gets an early choice each round. Members can fit the benches still available to their own schedules, and anyone arriving can take an unclaimed session.\n\nStart a project with a small working sample. Once a member has seen how the material behaves, they can use the project card to set out what to do next, what supplies to lay out and where they expect to stop. Before lifting a tool off its numbered hook, the member writes their name on the corresponding line. Anyone who finds the hook empty can go straight to the borrower, who returns the tool within the session. If a tool proves faulty, stop using it and put it in the marked tray. The person who noticed the problem fills in a repair card with what they saw or felt during use. The steward then has the tool out of circulation and a specific account to pass on for inspection.\n\nPut brief questions on the help list under their topics. The steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do. If one question keeps coming back, the steward can choose it for that week's optional demonstration and invite members over to the demonstration corner. Someone just starting the technique may learn it before reaching the same sticking point.\n\nBefore hammering at the noisy-work station, announce what you are about to do and wait for acknowledgment from the people nearby. That gives someone doing delicate work a chance to pause. For a wet piece, its maker picks a vacant rack space and tags the piece there with their name and the earliest time it can safely be handled. The next person looking for drying space can see when a place might open up. For work going into storage between visits, pack it and mark the owner and review date. Show it to the steward, who assigns a free shelf position and logs the location so the work can be found again within the member's usual allowance.\n\nSort clean, useful offcuts as you make them. Match the piece to the examples by the labeled containers and put it straight into the right one for someone else to use. For members offering their own spare materials, the steward gathers labeled offers showing quantities and conditions. Hold a weekly exchange so owners can meet people interested in taking an offer and answer questions before they accept it. At the end of every opening day, the steward counts common supplies and brings the restock card up to date, including any orders already due. Several low stocks can then be considered together when deciding what to order.\n\nReserve the last few minutes at neighboring benches for the two members to work as a pair. Go through the cleanup checklist together on one bench, then do the same on the other. A second pair of eyes helps spot a forgotten tool or scraps. Before starting their next session, members read any dated changes on the board and acknowledge them by their names. The steward can follow up individually with anyone who still needs to hear the update. During the shift overlap, both stewards walk around together and write down outstanding duties on the handover pad as they go. The incoming steward has seen the low shelf or maintenance issue behind the note and knows which follow-ups are still owed."
+      }
+    },
+    {
+      "request_id": "602276e8dde734dcd84f1591",
+      "case": {
+        "id": "fe565b63a4e06494",
+        "problem": {
+          "id": "problem_3e71306587d5",
+          "title": "A welcoming board-game social evening",
+          "problem": "A community room is hosting an evening of board games for adults with different levels of experience. Several tables, a host, willing game teachers, short waiting activities, and a varied collection are available. Guests can decline any game and join a later one. Every game has an agreed latest stopping time before the room closes, and ordinary refreshments and conversation have their own small areas.",
+          "goal": "Help guests find compatible games, understand how to play, and enjoy the evening without avoidable waiting or confusion.",
+          "decisions": [
+            {
+              "id": "decision_aa66695aaab8",
+              "question": "How should guests make their arrival known?",
+              "context": "The host needs a current list of guests, including whether they are ready to join a game or prefer to settle in first.",
+              "options": [
+                {
+                  "id": "choice_b7fdbbc0727e",
+                  "mechanism": "Guests mark their arrival and readiness on a welcome sheet before looking at the available games.",
+                  "consequence": "The host can distinguish people seeking a table immediately from those who want a little time to settle in.",
+                  "application": "Guests mark their arrival and readiness on a welcome sheet before looking at the available games. The host can distinguish people seeking a table immediately from those who want a little time to settle in."
+                },
+                {
+                  "id": "choice_1c1f51933d80",
+                  "mechanism": "The host greets each arriving guest and records their name and readiness on the welcome sheet.",
+                  "consequence": "A brief personal exchange gives newcomers an immediate contact while producing the information needed to organize tables.",
+                  "application": "The host greets each arriving guest and records their name and readiness on the welcome sheet. A brief personal exchange gives newcomers an immediate contact while producing the information needed to organize tables."
+                },
+                {
+                  "id": "choice_ee5b2d798c3d",
+                  "mechanism": "A rotating welcome volunteer records arriving guests and their readiness, then gives the host short updates between game starts.",
+                  "consequence": "The host receives grouped information while arrivals still have someone available to explain the evening.",
+                  "application": "A rotating welcome volunteer records arriving guests and their readiness, then gives the host short updates between game starts. The host receives grouped information while arrivals still have someone available to explain the evening."
+                }
+              ]
+            },
+            {
+              "id": "decision_272bba36c7c0",
+              "question": "How should games enter the evening’s suggested selection?",
+              "context": "The collection has enough variety for several suggestions, and guests may still request available games outside the suggested selection.",
+              "options": [
+                {
+                  "id": "choice_3dcba826350e",
+                  "mechanism": "Guests nominate games before the evening, and the host displays a varied selection from those nominations.",
+                  "consequence": "The suggestions reflect known interest while leaving room for different playing times and levels of familiarity.",
+                  "application": "Guests nominate games before the evening, and the host displays a varied selection from those nominations. The suggestions reflect known interest while leaving room for different playing times and levels of familiarity."
+                },
+                {
+                  "id": "choice_18253e3b5be6",
+                  "mechanism": "The host displays suggested games after matching the collection with the evening’s available volunteer teachers.",
+                  "consequence": "Guests see options that already have someone ready to explain them, reducing uncertainty about getting a game started.",
+                  "application": "The host displays suggested games after matching the collection with the evening’s available volunteer teachers. Guests see options that already have someone ready to explain them, reducing uncertainty about getting a game started."
+                },
+                {
+                  "id": "choice_7712dbd23649",
+                  "mechanism": "Guests browse the collection on arrival and place interest markers beside games they would like to try.",
+                  "consequence": "The suggested selection emerges from people present that evening rather than from earlier expectations about attendance.",
+                  "application": "Guests browse the collection on arrival and place interest markers beside games they would like to try. The suggested selection emerges from people present that evening rather than from earlier expectations about attendance."
+                }
+              ]
+            },
+            {
+              "id": "decision_719166d04868",
+              "question": "How should guests form tables for the next games?",
+              "context": "Each available game lists its player range, and only groups within that range begin play; guests can wait for another opening.",
+              "options": [
+                {
+                  "id": "choice_67f725e44b27",
+                  "mechanism": "Guests place their names beside available games until each table reaches its listed player range.",
+                  "consequence": "People choose directly among current openings, and the visible names show which games are close to being ready.",
+                  "application": "Guests place their names beside available games until each table reaches its listed player range. People choose directly among current openings, and the visible names show which games are close to being ready."
+                },
+                {
+                  "id": "choice_aead5eca9d3c",
+                  "mechanism": "The host asks ready guests for two game preferences and proposes tables within the listed player ranges.",
+                  "consequence": "Several preferences can be considered together before guests accept an available seat or choose to wait.",
+                  "application": "The host asks ready guests for two game preferences and proposes tables within the listed player ranges. Several preferences can be considered together before guests accept an available seat or choose to wait."
+                },
+                {
+                  "id": "choice_768d7007e6f3",
+                  "mechanism": "Volunteer teachers announce the games they can start, and interested guests gather before the host confirms player numbers.",
+                  "consequence": "A brief face-to-face invitation helps guests assess the group and ask questions before committing to a table.",
+                  "application": "Volunteer teachers announce the games they can start, and interested guests gather before the host confirms player numbers. A brief face-to-face invitation helps guests assess the group and ask questions before committing to a table."
+                }
+              ]
+            },
+            {
+              "id": "decision_62f38e784a18",
+              "question": "How should the main rules explanation be delivered?",
+              "context": "Every table has a willing teacher and printed rule aids; the explanation covers all essential rules before the main game begins.",
+              "options": [
+                {
+                  "id": "choice_8996cacbe461",
+                  "mechanism": "The teacher explains the essential rules to the whole table using the printed aid before taking questions.",
+                  "consequence": "Everyone hears the same starting account, and questions can refer back to a shared explanation.",
+                  "application": "The teacher explains the essential rules to the whole table using the printed aid before taking questions. Everyone hears the same starting account, and questions can refer back to a shared explanation."
+                },
+                {
+                  "id": "choice_a5390dc12a2d",
+                  "mechanism": "Players read the printed rule aid first, and the teacher checks essential rules through a short table discussion.",
+                  "consequence": "The conversation concentrates on gaps in understanding after each player has had time to inspect the instructions.",
+                  "application": "Players read the printed rule aid first, and the teacher checks essential rules through a short table discussion. The conversation concentrates on gaps in understanding after each player has had time to inspect the instructions."
+                },
+                {
+                  "id": "choice_4cdaf22f7a48",
+                  "mechanism": "The teacher demonstrates essential rules with the components while players follow the printed aid and ask questions as they arise.",
+                  "consequence": "The table connects written instructions to visible actions before attempting the game themselves.",
+                  "application": "The teacher demonstrates essential rules with the components while players follow the printed aid and ask questions as they arise. The table connects written instructions to visible actions before attempting the game themselves."
+                }
+              ]
+            },
+            {
+              "id": "decision_d31d3ada1f2f",
+              "question": "How should players try unfamiliar actions before scored play?",
+              "context": "A brief practice sequence is available after the rules explanation, and the components can be reset before the actual game.",
+              "options": [
+                {
+                  "id": "choice_e42d8a5385a4",
+                  "mechanism": "Each player tries one unfamiliar action during a brief practice sequence before the table resets the components.",
+                  "consequence": "Everyone has a chance to connect the explanation to a physical turn before choices begin to count.",
+                  "application": "Each player tries one unfamiliar action during a brief practice sequence before the table resets the components. Everyone has a chance to connect the explanation to a physical turn before choices begin to count."
+                },
+                {
+                  "id": "choice_c80646d494b7",
+                  "mechanism": "The teacher plays a brief practice sequence while players suggest actions, then resets the components for the game.",
+                  "consequence": "The group can test its understanding collaboratively without putting any individual player on the spot.",
+                  "application": "The teacher plays a brief practice sequence while players suggest actions, then resets the components for the game. The group can test its understanding collaboratively without putting any individual player on the spot."
+                },
+                {
+                  "id": "choice_d8389177768d",
+                  "mechanism": "Players who want practice take a short unscored sequence with the teacher while others watch, then the table resets.",
+                  "consequence": "Additional rehearsal follows expressed need while all players can observe the same examples before scored play.",
+                  "application": "Players who want practice take a short unscored sequence with the teacher while others watch, then the table resets. Additional rehearsal follows expressed need while all players can observe the same examples before scored play."
+                }
+              ]
+            },
+            {
+              "id": "decision_f996758977e6",
+              "question": "How should late arrivals find a game that will start soon?",
+              "context": "Late arrivals join only new games; the host can track tables likely to finish and can keep a list for subsequent starts.",
+              "options": [
+                {
+                  "id": "choice_2a1c4d4ec36f",
+                  "mechanism": "The host adds late arrivals to a next-game list and approaches them when a suitable table becomes available.",
+                  "consequence": "Guests can relax elsewhere without repeatedly checking whether current games have finished or seats have opened.",
+                  "application": "The host adds late arrivals to a next-game list and approaches them when a suitable table becomes available. Guests can relax elsewhere without repeatedly checking whether current games have finished or seats have opened."
+                },
+                {
+                  "id": "choice_38b8d8b879d4",
+                  "mechanism": "Tables post their likely finish times, and late arrivals choose a next-game waiting list beside a suitable table.",
+                  "consequence": "Guests use visible timing information to decide which forthcoming opening best fits their interests and available time.",
+                  "application": "Tables post their likely finish times, and late arrivals choose a next-game waiting list beside a suitable table. Guests use visible timing information to decide which forthcoming opening best fits their interests and available time."
+                },
+                {
+                  "id": "choice_801d36189b17",
+                  "mechanism": "A welcome volunteer introduces late arrivals to tables nearing completion and records any agreement to join the following game.",
+                  "consequence": "A personal introduction establishes a likely next group while leaving the current game undisturbed.",
+                  "application": "A welcome volunteer introduces late arrivals to tables nearing completion and records any agreement to join the following game. A personal introduction establishes a likely next group while leaving the current game undisturbed."
+                }
+              ]
+            },
+            {
+              "id": "decision_4d89f3f56486",
+              "question": "How should guests use short activities while waiting?",
+              "context": "A separate waiting area has brief activities that can be stopped immediately when a guest’s next game becomes available.",
+              "options": [
+                {
+                  "id": "choice_845745f46830",
+                  "mechanism": "Guests choose short activities freely from the waiting-area basket and return them when called to a game.",
+                  "consequence": "Waiting remains flexible because each guest can stop without delaying other people or losing a promised table place.",
+                  "application": "Guests choose short activities freely from the waiting-area basket and return them when called to a game. Waiting remains flexible because each guest can stop without delaying other people or losing a promised table place."
+                },
+                {
+                  "id": "choice_9829caa77b58",
+                  "mechanism": "A volunteer offers a brief shared activity to waiting guests and checks the next-game list between small rounds.",
+                  "consequence": "People have an easy way to meet while the volunteer keeps the activity responsive to upcoming openings.",
+                  "application": "A volunteer offers a brief shared activity to waiting guests and checks the next-game list between small rounds. People have an easy way to meet while the volunteer keeps the activity responsive to upcoming openings."
+                },
+                {
+                  "id": "choice_19866bfe0391",
+                  "mechanism": "The host directs newly waiting guests toward an existing brief activity and tells its participants when another game is ready.",
+                  "consequence": "Small waiting groups remain socially connected without needing to monitor table availability themselves.",
+                  "application": "The host directs newly waiting guests toward an existing brief activity and tells its participants when another game is ready. Small waiting groups remain socially connected without needing to monitor table availability themselves."
+                }
+              ]
+            },
+            {
+              "id": "decision_d772c7680542",
+              "question": "How should tables monitor their progress through a game?",
+              "context": "Each game has an approximate duration and a latest stopping time; progress reminders inform players without changing the rules.",
+              "options": [
+                {
+                  "id": "choice_e2cc816c6e4a",
+                  "mechanism": "A player at each table compares elapsed time with the game’s estimate and gives occasional progress reminders.",
+                  "consequence": "Timing information comes from someone who understands the current position and can choose an unobtrusive moment to speak.",
+                  "application": "A player at each table compares elapsed time with the game’s estimate and gives occasional progress reminders. Timing information comes from someone who understands the current position and can choose an unobtrusive moment to speak."
+                },
+                {
+                  "id": "choice_7914430ef691",
+                  "mechanism": "The host visits tables at agreed intervals and asks how progress compares with each game’s approximate duration.",
+                  "consequence": "Tables receive a regular external reminder, and the host gains current information for guests awaiting their next game.",
+                  "application": "The host visits tables at agreed intervals and asks how progress compares with each game’s approximate duration. Tables receive a regular external reminder, and the host gains current information for guests awaiting their next game."
+                },
+                {
+                  "id": "choice_4d8bbda9297f",
+                  "mechanism": "Each table sets a visible timer for agreed progress checkpoints and briefly reviews its remaining time when it rings.",
+                  "consequence": "A shared signal prompts discussion without making one player personally responsible for watching the clock throughout play.",
+                  "application": "Each table sets a visible timer for agreed progress checkpoints and briefly reviews its remaining time when it rings. A shared signal prompts discussion without making one player personally responsible for watching the clock throughout play."
+                }
+              ]
+            },
+            {
+              "id": "decision_43d3db7644bf",
+              "question": "How should a table resolve an unclear rule?",
+              "context": "Printed rules and an agreed temporary ruling are available; any unresolved interpretation can be checked after the evening.",
+              "options": [
+                {
+                  "id": "choice_7320b6696643",
+                  "mechanism": "The teacher checks the printed rules when uncertainty arises and proposes a temporary ruling if the text remains unclear.",
+                  "consequence": "A designated interpreter keeps the interruption short while making the provisional nature of the decision explicit.",
+                  "application": "The teacher checks the printed rules when uncertainty arises and proposes a temporary ruling if the text remains unclear. A designated interpreter keeps the interruption short while making the provisional nature of the decision explicit."
+                },
+                {
+                  "id": "choice_e1824b19e8ec",
+                  "mechanism": "The player who raised the question reads the relevant printed passage aloud, and the table agrees a temporary ruling.",
+                  "consequence": "Everyone can inspect the same evidence before consenting to an interpretation for the remainder of that game.",
+                  "application": "The player who raised the question reads the relevant printed passage aloud, and the table agrees a temporary ruling. Everyone can inspect the same evidence before consenting to an interpretation for the remainder of that game."
+                },
+                {
+                  "id": "choice_30341822dc9f",
+                  "mechanism": "The table gives two players a brief rule check while others pause, then accepts their reported interpretation or temporary ruling.",
+                  "consequence": "The search has clear owners and does not require every player to examine the rulebook simultaneously.",
+                  "application": "The table gives two players a brief rule check while others pause, then accepts their reported interpretation or temporary ruling. The search has clear owners and does not require every player to examine the rulebook simultaneously."
+                }
+              ]
+            },
+            {
+              "id": "decision_0d902fc3e240",
+              "question": "How should inexperienced players receive strategic guidance?",
+              "context": "Guidance is optional, may use only information visible to the relevant players, and must leave each player’s final choice with that player.",
+              "options": [
+                {
+                  "id": "choice_bef399fe6562",
+                  "mechanism": "Inexperienced players ask the teacher for strategic guidance when they want it, and the teacher explains the visible tradeoffs.",
+                  "consequence": "Help responds to the player’s request while preserving their control over the final move.",
+                  "application": "Inexperienced players ask the teacher for strategic guidance when they want it, and the teacher explains the visible tradeoffs. Help responds to the player’s request while preserving their control over the final move."
+                },
+                {
+                  "id": "choice_8b0891267501",
+                  "mechanism": "Before play, each inexperienced player chooses a willing partner who can quietly discuss visible options when invited.",
+                  "consequence": "A consistent source of help makes questions easier to ask without turning every decision into a table-wide lesson.",
+                  "application": "Before play, each inexperienced player chooses a willing partner who can quietly discuss visible options when invited. A consistent source of help makes questions easier to ask without turning every decision into a table-wide lesson."
+                },
+                {
+                  "id": "choice_7308b6c6c7e4",
+                  "mechanism": "At agreed pauses, the teacher offers the whole table a brief discussion of visible strategic considerations that players may decline.",
+                  "consequence": "Useful guidance is offered regularly without singling out the least experienced person or choosing anyone’s move.",
+                  "application": "At agreed pauses, the teacher offers the whole table a brief discussion of visible strategic considerations that players may decline. Useful guidance is offered regularly without singling out the least experienced person or choosing anyone’s move."
+                }
+              ]
+            },
+            {
+              "id": "decision_1636cbb51875",
+              "question": "How should refreshments fit around games?",
+              "context": "Refreshments stay in the designated area so game components remain dry; guests can pause their participation briefly with their table’s agreement.",
+              "options": [
+                {
+                  "id": "choice_a1b261da2d8e",
+                  "mechanism": "Tables agree short refreshment pauses between rounds, and interested players visit the designated area together.",
+                  "consequence": "Shared breaks keep the game’s next action clear while giving people a predictable chance to eat or drink.",
+                  "application": "Tables agree short refreshment pauses between rounds, and interested players visit the designated area together. Shared breaks keep the game’s next action clear while giving people a predictable chance to eat or drink."
+                },
+                {
+                  "id": "choice_f82bdbf20450",
+                  "mechanism": "Players ask their tables for individual refreshment pauses when needed and return before their next required action.",
+                  "consequence": "Personal needs can be met at different times without moving drinks or food onto the playing surface.",
+                  "application": "Players ask their tables for individual refreshment pauses when needed and return before their next required action. Personal needs can be met at different times without moving drinks or food onto the playing surface."
+                },
+                {
+                  "id": "choice_e11504c9240d",
+                  "mechanism": "The host announces optional refreshment pauses at broad intervals, and each table takes the next convenient stopping point.",
+                  "consequence": "A common reminder encourages breaks while allowing games with different structures to pause at suitable moments.",
+                  "application": "The host announces optional refreshment pauses at broad intervals, and each table takes the next convenient stopping point. A common reminder encourages breaks while allowing games with different structures to pause at suitable moments."
+                }
+              ]
+            },
+            {
+              "id": "decision_cb9375339465",
+              "question": "How should conversation volume be kept comfortable?",
+              "context": "A conversation corner is available, and table discussion remains welcome as long as nearby players can hear their own games.",
+              "options": [
+                {
+                  "id": "choice_c74597bf3a85",
+                  "mechanism": "The host makes brief rounds and quietly asks tables to lower their voices when neighboring players struggle to hear.",
+                  "consequence": "A neutral person responds to actual conditions without requiring affected players to begin an awkward exchange.",
+                  "application": "The host makes brief rounds and quietly asks tables to lower their voices when neighboring players struggle to hear. A neutral person responds to actual conditions without requiring affected players to begin an awkward exchange."
+                },
+                {
+                  "id": "choice_93cb1f438ab0",
+                  "mechanism": "Each table chooses a member to notice rising volume and suggest moving extended social conversations to the conversation corner.",
+                  "consequence": "A familiar participant can offer timely reminders before nearby games are repeatedly interrupted.",
+                  "application": "Each table chooses a member to notice rising volume and suggest moving extended social conversations to the conversation corner. A familiar participant can offer timely reminders before nearby games are repeatedly interrupted."
+                },
+                {
+                  "id": "choice_7691232067b5",
+                  "mechanism": "Guests use a small table signal to request quieter discussion, and nearby tables acknowledge it by adjusting their volume.",
+                  "consequence": "The people affected can communicate their needs directly without having to speak over the conversation themselves.",
+                  "application": "Guests use a small table signal to request quieter discussion, and nearby tables acknowledge it by adjusting their volume. The people affected can communicate their needs directly without having to speak over the conversation themselves."
+                }
+              ]
+            },
+            {
+              "id": "decision_1cb8fa812006",
+              "question": "How should players signal a need for a personal break?",
+              "context": "Any player may request a brief pause; the table protects private game information and waits before actions that require that player.",
+              "options": [
+                {
+                  "id": "choice_93c9beddcfd0",
+                  "mechanism": "Players ask aloud for a personal break, and the table agrees a convenient immediate pause before they leave.",
+                  "consequence": "A direct request makes the interruption clear and lets everyone confirm which game action will resume afterward.",
+                  "application": "Players ask aloud for a personal break, and the table agrees a convenient immediate pause before they leave. A direct request makes the interruption clear and lets everyone confirm which game action will resume afterward."
+                },
+                {
+                  "id": "choice_fc02642d56b0",
+                  "mechanism": "Players place a pause card beside the board when they need a break, and the table stops at the next safe point.",
+                  "consequence": "A visible signal communicates the need without requiring a personal explanation in front of the group.",
+                  "application": "Players place a pause card beside the board when they need a break, and the table stops at the next safe point. A visible signal communicates the need without requiring a personal explanation in front of the group."
+                },
+                {
+                  "id": "choice_45862ba148d2",
+                  "mechanism": "The teacher checks for break needs at agreed milestones, while players can still request an earlier pause.",
+                  "consequence": "Regular invitations make it easier to accept a break without removing anyone’s ability to ask when needed.",
+                  "application": "The teacher checks for break needs at agreed milestones, while players can still request an earlier pause. Regular invitations make it easier to accept a break without removing anyone’s ability to ask when needed."
+                }
+              ]
+            },
+            {
+              "id": "decision_d594901e79d3",
+              "question": "How should game components be checked after play?",
+              "context": "Every game has a component checklist and labeled storage bags; checking happens before the box returns to the collection.",
+              "options": [
+                {
+                  "id": "choice_57bacdbc91cb",
+                  "mechanism": "Players divide the component checklist and count their assigned pieces before placing them in the labeled bags.",
+                  "consequence": "Several small checks proceed together while every part of the game has a clearly responsible person.",
+                  "application": "Players divide the component checklist and count their assigned pieces before placing them in the labeled bags. Several small checks proceed together while every part of the game has a clearly responsible person."
+                },
+                {
+                  "id": "choice_79e58bb70289",
+                  "mechanism": "One player reads the component checklist while the others gather and count the pieces into labeled bags.",
+                  "consequence": "A shared sequence coordinates the cleanup and lets the reader confirm that no listed group was overlooked.",
+                  "application": "One player reads the component checklist while the others gather and count the pieces into labeled bags. A shared sequence coordinates the cleanup and lets the reader confirm that no listed group was overlooked."
+                },
+                {
+                  "id": "choice_abe1bbf8c7af",
+                  "mechanism": "Players sort components into labeled bags first, and the teacher checks each bag against the component checklist.",
+                  "consequence": "The final verification follows organized piles, making shortages easier to locate before the box leaves the table.",
+                  "application": "Players sort components into labeled bags first, and the teacher checks each bag against the component checklist. The final verification follows organized piles, making shortages easier to locate before the box leaves the table."
+                }
+              ]
+            },
+            {
+              "id": "decision_e197fc73dddc",
+              "question": "How should the evening’s final stopping time be communicated?",
+              "context": "All games must stop with enough time to pack before the room closes, and each table agrees how to record an unfinished game if desired.",
+              "options": [
+                {
+                  "id": "choice_a5fc7a7eafdd",
+                  "mechanism": "The host gives the final stopping time before each game starts and returns with a reminder shortly beforehand.",
+                  "consequence": "Players hear the limit when committing to play and receive a timely prompt to prepare for packing.",
+                  "application": "The host gives the final stopping time before each game starts and returns with a reminder shortly beforehand. Players hear the limit when committing to play and receive a timely prompt to prepare for packing."
+                },
+                {
+                  "id": "choice_dfec6b7dc5cb",
+                  "mechanism": "Each table writes its final stopping time on a visible card and assigns a player to announce the approaching deadline.",
+                  "consequence": "The limit stays in view and its reminder comes from someone already following that table’s progress.",
+                  "application": "Each table writes its final stopping time on a visible card and assigns a player to announce the approaching deadline. The limit stays in view and its reminder comes from someone already following that table’s progress."
+                },
+                {
+                  "id": "choice_140ec5d37894",
+                  "mechanism": "The host displays one room closing countdown and announces the final packing period to all tables together.",
+                  "consequence": "A common signal coordinates the end of games that began at different times while preserving space for component checks.",
+                  "application": "The host displays one room closing countdown and announces the final packing period to all tables together. A common signal coordinates the end of games that began at different times while preserving space for component checks."
+                }
+              ]
+            },
+            {
+              "id": "decision_5ee7fd1699e5",
+              "question": "How should guests suggest improvements for the next evening?",
+              "context": "A short feedback prompt asks about game choice, ease of joining, and anything that made participation difficult; answering is optional.",
+              "options": [
+                {
+                  "id": "choice_6054f22c2513",
+                  "mechanism": "Guests complete the short feedback prompt as they leave and place it in a collection box.",
+                  "consequence": "Immediate impressions are captured privately before details of joining games and understanding the evening begin to fade.",
+                  "application": "Guests complete the short feedback prompt as they leave and place it in a collection box. Immediate impressions are captured privately before details of joining games and understanding the evening begin to fade."
+                },
+                {
+                  "id": "choice_935920100812",
+                  "mechanism": "The host sends the short feedback prompt the following day and groups replies before planning another evening.",
+                  "consequence": "Guests have time to reflect, and the organizer can compare recurring experiences across people who played different games.",
+                  "application": "The host sends the short feedback prompt the following day and groups replies before planning another evening. Guests have time to reflect, and the organizer can compare recurring experiences across people who played different games."
+                },
+                {
+                  "id": "choice_4b3bbc651bce",
+                  "mechanism": "A volunteer offers departing guests a brief conversation using the feedback prompt and records comments without names.",
+                  "consequence": "People can explain a difficulty in their own words while the same questions keep responses useful for later planning.",
+                  "application": "A volunteer offers departing guests a brief conversation using the feedback prompt and records comments without names. People can explain a difficulty in their own words while the same questions keep responses useful for later planning."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Have the host welcome people in person and ask whether they'd like to play straight away or have a little time to settle in. Writing the name and answer on the welcome sheet helps the host gather the next groups, and a guest arriving alone already knows someone to approach. Invite everyone to look through the collection and put interest markers by games they'd enjoy trying. Use the marks to suggest titles that appeal to the people who have actually arrived. The rest of the available collection is open to requests too.\n\nAsk willing teachers to call out the games they can get going. People can gather around a teacher, see who else is interested and ask what the game involves. The host checks the number against the game's player range before a table begins. Anyone can pass and wait for another start. A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together. Until then, the guest can pick something from the waiting basket. Choose any activity there, put it back as soon as the next table calls, and keep the place already arranged.\n\nAt the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along. Open the floor for questions after everyone has heard the whole explanation. Then give each person a practice turn to try an action that's new to them. Reset the pieces when everyone has had a go so that the first scored choice comes after some hands-on experience. Before play, let each learner who wants strategic help pick a willing partner. When asked, that partner can quietly talk through choices using only information visible to the players concerned. The learner makes the move and knows whom to ask the next time.\n\nEach table writes its agreed stopping time on a card in plain view, leaving time to pack up before closing. Choose someone playing there to give advance notice as the deadline approaches, and agree how to note an unfinished position if people want to save it. For pacing during play, set a timer everyone can see for checkpoints the table chooses together. When it sounds, take a moment to see how much time remains. Nobody has to spend the whole game watching the minutes. If a rule causes a dispute, pause and give two players a short time to look it up. The others can wait for the pair to report back. Accept their reading or play on with their temporary ruling and check the outstanding question after the evening.\n\nHave each table pick someone to listen for rising voices. They can suggest taking a long social conversation to the conversation corner while neighboring players can still hear their own turns. For refreshments, a player can agree a short absence with the group, have food or a drink in the refreshment area and be back for their next action. Anyone needing a personal break should say so aloud. Agree on an immediate place to pause and name the action that will come next. Protect any private information and wait to take actions requiring the absent player.\n\nWhen a game finishes, have the players sort all the pieces into the labeled bags. The teacher can then verify each bag against the checklist while everyone is still at the table to help find a missing piece. Return the checked box to the collection. The next day, the host sends an optional short prompt about the choice of games, how easy it was to get into one and any difficulty participating. People have a little distance from the evening, and grouping their replies before planning the next one lets the host spot experiences common to several tables."
+      }
+    },
+    {
+      "request_id": "55929bbef3d6fb1289744fc7",
+      "case": {
+        "id": "f57e5cbe05ae8fa4",
+        "problem": {
+          "id": "problem_7c02a6b2d60e",
+          "title": "Coordinating a community choir’s rehearsals",
+          "problem": "A community choir is preparing a small program through a series of rehearsals. It has a conductor, willing section leaders, a booking organizer, numbered scores that members may use, and shared practice recordings. The rehearsal room has movable chairs and enough space for short sectional work. Members have varied experience and availability. Musical direction remains with the conductor, and each routine below can operate within any agreed rehearsal schedule.",
+          "goal": "Make rehearsals easy to attend and prepare for while helping singers use shared rehearsal time effectively.",
+          "decisions": [
+            {
+              "id": "decision_35d1adfafbe4",
+              "question": "How should rehearsal dates be chosen from available room slots?",
+              "context": "The booking organizer can collect member availability before reserving a sequence of room slots; not every member can attend every date.",
+              "options": [
+                {
+                  "id": "choice_8374ad602bef",
+                  "mechanism": "Members mark all workable room slots, and the booking organizer reserves a sequence with the broadest overall attendance.",
+                  "consequence": "The schedule follows actual availability across the group rather than relying on a presumed regular pattern.",
+                  "application": "Members mark all workable room slots, and the booking organizer reserves a sequence with the broadest overall attendance. The schedule follows actual availability across the group rather than relying on a presumed regular pattern."
+                },
+                {
+                  "id": "choice_461dc545f284",
+                  "mechanism": "The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized.",
+                  "consequence": "A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems.",
+                  "application": "The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized. A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems."
+                },
+                {
+                  "id": "choice_a60f218ce1e1",
+                  "mechanism": "Section leaders collect their singers’ availability and recommend room slots to the booking organizer together.",
+                  "consequence": "The scheduling discussion can consider whether every voice part will be represented as well as total expected attendance.",
+                  "application": "Section leaders collect their singers’ availability and recommend room slots to the booking organizer together. The scheduling discussion can consider whether every voice part will be represented as well as total expected attendance."
+                }
+              ]
+            },
+            {
+              "id": "decision_6bebf95df8b2",
+              "question": "How should expected attendance reach the conductor?",
+              "context": "Once dates are booked, members can update an attendance sheet before each rehearsal, and the conductor can inspect it while preparing.",
+              "options": [
+                {
+                  "id": "choice_263792dba971",
+                  "mechanism": "Members mark their expected attendance on the shared sheet by the day before each rehearsal.",
+                  "consequence": "The conductor sees individual updates in one place and can anticipate missing voices before choosing the session’s emphasis.",
+                  "application": "Members mark their expected attendance on the shared sheet by the day before each rehearsal. The conductor sees individual updates in one place and can anticipate missing voices before choosing the session’s emphasis."
+                },
+                {
+                  "id": "choice_caf12ffe229a",
+                  "mechanism": "Section leaders ask their singers about the next rehearsal and enter section totals on the attendance sheet.",
+                  "consequence": "A short personal check produces a useful picture of balance without requiring the conductor to chase individual replies.",
+                  "application": "Section leaders ask their singers about the next rehearsal and enter section totals on the attendance sheet. A short personal check produces a useful picture of balance without requiring the conductor to chase individual replies."
+                },
+                {
+                  "id": "choice_bca9cd099d0f",
+                  "mechanism": "The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor.",
+                  "consequence": "Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation.",
+                  "application": "The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor. Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation."
+                }
+              ]
+            },
+            {
+              "id": "decision_2a6ca4fef878",
+              "question": "How should singers obtain the music needed for rehearsal?",
+              "context": "Authorized copies of each score are available digitally and on paper, and the rehearsal notice identifies the required numbered pieces.",
+              "options": [
+                {
+                  "id": "choice_999817e66177",
+                  "mechanism": "The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival.",
+                  "consequence": "Singers can prepare early while anyone who needs paper still receives the same music before singing begins.",
+                  "application": "The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival. Singers can prepare early while anyone who needs paper still receives the same music before singing begins."
+                },
+                {
+                  "id": "choice_916f06a9a284",
+                  "mechanism": "Section leaders assemble each singer’s requested paper or digital score set before the next rehearsal.",
+                  "consequence": "A named contact checks the contents for that section, reducing missing pages without requiring everyone to use the same format.",
+                  "application": "Section leaders assemble each singer’s requested paper or digital score set before the next rehearsal. A named contact checks the contents for that section, reducing missing pages without requiring everyone to use the same format."
+                },
+                {
+                  "id": "choice_3495520e6432",
+                  "mechanism": "Singers collect the numbered scores from a shared catalog when the rehearsal notice appears and mark receipt on a list.",
+                  "consequence": "Members control when they obtain music, while the organizer can identify gaps before the session starts.",
+                  "application": "Singers collect the numbered scores from a shared catalog when the rehearsal notice appears and mark receipt on a list. Members control when they obtain music, while the organizer can identify gaps before the session starts."
+                }
+              ]
+            },
+            {
+              "id": "decision_6c329ebd0141",
+              "question": "How should the order of rehearsal pieces be set?",
+              "context": "The conductor has several prepared pieces and can assign time blocks without changing the booked start or finish time.",
+              "options": [
+                {
+                  "id": "choice_e71a2a98e3a4",
+                  "mechanism": "The conductor orders the pieces by their current musical needs and publishes the sequence before rehearsal.",
+                  "consequence": "Singers can see which challenges will receive attention and prepare their scores before each planned block begins.",
+                  "application": "The conductor orders the pieces by their current musical needs and publishes the sequence before rehearsal. Singers can see which challenges will receive attention and prepare their scores before each planned block begins."
+                },
+                {
+                  "id": "choice_9705956db713",
+                  "mechanism": "The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence.",
+                  "consequence": "Reports from different voice parts shape the order before the full choir spends time on the selected difficulties.",
+                  "application": "The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence. Reports from different voice parts shape the order before the full choir spends time on the selected difficulties."
+                },
+                {
+                  "id": "choice_3503c5c6e469",
+                  "mechanism": "The choir sings brief extracts from the prepared pieces at the start, and the conductor then sets the remaining sequence.",
+                  "consequence": "The order responds to how the group sounds that day rather than relying entirely on earlier expectations.",
+                  "application": "The choir sings brief extracts from the prepared pieces at the start, and the conductor then sets the remaining sequence. The order responds to how the group sounds that day rather than relying entirely on earlier expectations."
+                }
+              ]
+            },
+            {
+              "id": "decision_b4b071a1e9c4",
+              "question": "Who should guide the shared vocal warmup?",
+              "context": "A brief familiar warmup is always included; the conductor has approved its exercises, and willing section leaders can demonstrate them.",
+              "options": [
+                {
+                  "id": "choice_43bb6c3d9d21",
+                  "mechanism": "The conductor guides the familiar warmup and adjusts the pace after listening to the choir’s responses.",
+                  "consequence": "The person directing the rehearsal also hears how the group is settling before beginning the planned pieces.",
+                  "application": "The conductor guides the familiar warmup and adjusts the pace after listening to the choir’s responses. The person directing the rehearsal also hears how the group is settling before beginning the planned pieces."
+                },
+                {
+                  "id": "choice_6850fcc5a7dd",
+                  "mechanism": "A section leader guides the approved warmup while the conductor listens from elsewhere in the room.",
+                  "consequence": "The choir receives a familiar sequence, and the conductor gains a different listening position before detailed rehearsal begins.",
+                  "application": "A section leader guides the approved warmup while the conductor listens from elsewhere in the room. The choir receives a familiar sequence, and the conductor gains a different listening position before detailed rehearsal begins."
+                },
+                {
+                  "id": "choice_b36c6b85b139",
+                  "mechanism": "Different section leaders each guide one part of the approved warmup in a posted order.",
+                  "consequence": "Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable.",
+                  "application": "Different section leaders each guide one part of the approved warmup in a posted order. Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable."
+                }
+              ]
+            },
+            {
+              "id": "decision_b04afc087b03",
+              "question": "How should chairs be arranged within voice sections?",
+              "context": "Voice sections retain their assigned parts, but singers may move within their section; chair arrangements must preserve accessible paths and sightlines.",
+              "options": [
+                {
+                  "id": "choice_d50257088a8f",
+                  "mechanism": "Section leaders arrange chairs before rehearsal and invite singers to choose places within their voice sections.",
+                  "consequence": "The basic layout is ready on arrival while members retain some control over nearby listening partners and comfort.",
+                  "application": "Section leaders arrange chairs before rehearsal and invite singers to choose places within their voice sections. The basic layout is ready on arrival while members retain some control over nearby listening partners and comfort."
+                },
+                {
+                  "id": "choice_40fc6a9b754e",
+                  "mechanism": "The conductor listens to a short phrase and then asks singers to adjust chairs within their sections.",
+                  "consequence": "The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor.",
+                  "application": "The conductor listens to a short phrase and then asks singers to adjust chairs within their sections. The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor."
+                },
+                {
+                  "id": "choice_efb197288e8c",
+                  "mechanism": "Singers arrange their section’s chairs together using the marked boundaries and sightline guidance before the warmup.",
+                  "consequence": "The people using the seats can resolve local spacing needs while maintaining the common room layout.",
+                  "application": "Singers arrange their section’s chairs together using the marked boundaries and sightline guidance before the warmup. The people using the seats can resolve local spacing needs while maintaining the common room layout."
+                }
+              ]
+            },
+            {
+              "id": "decision_3c288aadfbc9",
+              "question": "How should short sectional practice be organized?",
+              "context": "Section leaders can guide brief practice in separate corners, and all singers return to the full choir within the allocated rehearsal block.",
+              "options": [
+                {
+                  "id": "choice_2646a0ea4066",
+                  "mechanism": "All sections practice their assigned passages separately for the same short period and then return for a combined attempt.",
+                  "consequence": "Each voice part receives focused attention before the conductor hears how the independently practiced lines fit together.",
+                  "application": "All sections practice their assigned passages separately for the same short period and then return for a combined attempt. Each voice part receives focused attention before the conductor hears how the independently practiced lines fit together."
+                },
+                {
+                  "id": "choice_21cfadcfe61e",
+                  "mechanism": "The conductor works with one section while the other section leaders guide their own assigned passages in separate corners.",
+                  "consequence": "The part needing direct attention receives it without leaving the remaining singers idle during that practice block.",
+                  "application": "The conductor works with one section while the other section leaders guide their own assigned passages in separate corners. The part needing direct attention receives it without leaving the remaining singers idle during that practice block."
+                },
+                {
+                  "id": "choice_4a247c1a552d",
+                  "mechanism": "Sections take turns using a quiet corner for focused practice while the conductor rehearses compatible material with the remaining singers.",
+                  "consequence": "Separate attention is staggered, allowing the conductor to keep useful ensemble work moving throughout the block.",
+                  "application": "Sections take turns using a quiet corner for focused practice while the conductor rehearses compatible material with the remaining singers. Separate attention is staggered, allowing the conductor to keep useful ensemble work moving throughout the block."
+                }
+              ]
+            },
+            {
+              "id": "decision_8e32b39ab51c",
+              "question": "How should a difficult passage be diagnosed?",
+              "context": "The choir has identified a troublesome passage, and the conductor can briefly separate its rhythm, words, and pitches before rehearsing it again.",
+              "options": [
+                {
+                  "id": "choice_6ef551e58505",
+                  "mechanism": "The conductor listens to the passage and chooses one element for the choir to isolate before recombining it.",
+                  "consequence": "A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty.",
+                  "application": "The conductor listens to the passage and chooses one element for the choir to isolate before recombining it. A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty."
+                },
+                {
+                  "id": "choice_769691b42571",
+                  "mechanism": "Singers describe where the passage becomes uncertain, and the conductor selects an element to isolate from those reports.",
+                  "consequence": "The practice exercise addresses experienced points of confusion as well as what can be heard from the front.",
+                  "application": "Singers describe where the passage becomes uncertain, and the conductor selects an element to isolate from those reports. The practice exercise addresses experienced points of confusion as well as what can be heard from the front."
+                },
+                {
+                  "id": "choice_735269ab70ba",
+                  "mechanism": "The choir tries rhythm, words, and pitches separately in a short sequence before the conductor selects focused practice.",
+                  "consequence": "Comparing the separate attempts helps reveal which element is creating trouble when everything is combined.",
+                  "application": "The choir tries rhythm, words, and pitches separately in a short sequence before the conductor selects focused practice. Comparing the separate attempts helps reveal which element is creating trouble when everything is combined."
+                }
+              ]
+            },
+            {
+              "id": "decision_e123df0d4c61",
+              "question": "How should practice recordings be made easy to use?",
+              "context": "Approved recordings already exist for each voice part, and a shared folder can pair them with bar numbers and brief rehearsal notes.",
+              "options": [
+                {
+                  "id": "choice_de2ea79b83c4",
+                  "mechanism": "The organizer groups approved recordings by voice part and adds the bar numbers highlighted during rehearsal.",
+                  "consequence": "Singers can locate their own material first and then move directly to the passages most relevant to current practice.",
+                  "application": "The organizer groups approved recordings by voice part and adds the bar numbers highlighted during rehearsal. Singers can locate their own material first and then move directly to the passages most relevant to current practice."
+                },
+                {
+                  "id": "choice_c1d0e570d158",
+                  "mechanism": "The conductor groups approved recordings by difficult passage and lists each available voice part within that passage.",
+                  "consequence": "Singers begin with the shared rehearsal problem and select their own line from the materials associated with it.",
+                  "application": "The conductor groups approved recordings by difficult passage and lists each available voice part within that passage. Singers begin with the shared rehearsal problem and select their own line from the materials associated with it."
+                },
+                {
+                  "id": "choice_628c3596c8f2",
+                  "mechanism": "Section leaders send their singers a short ordered list of approved recordings with bar numbers after each rehearsal.",
+                  "consequence": "The practice sequence reflects that section’s immediate needs without requiring members to search the entire recording folder.",
+                  "application": "Section leaders send their singers a short ordered list of approved recordings with bar numbers after each rehearsal. The practice sequence reflects that section’s immediate needs without requiring members to search the entire recording folder."
+                }
+              ]
+            },
+            {
+              "id": "decision_964a9073f798",
+              "question": "How should singers learn shared entrances and cutoffs?",
+              "context": "The conductor has chosen the musical cues; rehearsal can connect those cues to score markings and visible conducting gestures.",
+              "options": [
+                {
+                  "id": "choice_7a60d53d56c8",
+                  "mechanism": "The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing.",
+                  "consequence": "A written reminder is established before the choir tries to follow the same gesture in real time.",
+                  "application": "The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing. A written reminder is established before the choir tries to follow the same gesture in real time."
+                },
+                {
+                  "id": "choice_5e93c0f48bb1",
+                  "mechanism": "The choir tries the chosen entrances and cutoffs while watching the conductor, then marks its scores after discussing uncertainty.",
+                  "consequence": "The markings respond to cues that proved difficult during an actual attempt at the shared musical action.",
+                  "application": "The choir tries the chosen entrances and cutoffs while watching the conductor, then marks its scores after discussing uncertainty. The markings respond to cues that proved difficult during an actual attempt at the shared musical action."
+                },
+                {
+                  "id": "choice_d83cb26b29a2",
+                  "mechanism": "Section leaders first show the chosen score cues to their singers, and the conductor then rehearses the corresponding gestures with everyone.",
+                  "consequence": "Local preparation connects the written instructions to a single full-choir demonstration of the agreed timing.",
+                  "application": "Section leaders first show the chosen score cues to their singers, and the conductor then rehearses the corresponding gestures with everyone. Local preparation connects the written instructions to a single full-choir demonstration of the agreed timing."
+                }
+              ]
+            },
+            {
+              "id": "decision_ccff2156987f",
+              "question": "How should singers offer observations about musical balance?",
+              "context": "The conductor welcomes observations but decides the musical interpretation; comments can be collected during short pauses without interrupting every attempt.",
+              "options": [
+                {
+                  "id": "choice_e5673e018f2d",
+                  "mechanism": "Singers note balance observations and raise them during a designated discussion pause before the conductor chooses adjustments.",
+                  "consequence": "Comments accumulate without breaking each attempt, and the conductor can consider several perspectives at one useful stopping point.",
+                  "application": "Singers note balance observations and raise them during a designated discussion pause before the conductor chooses adjustments. Comments accumulate without breaking each attempt, and the conductor can consider several perspectives at one useful stopping point."
+                },
+                {
+                  "id": "choice_e9c0acd89b9b",
+                  "mechanism": "Section leaders collect balance observations from their singers and summarize them to the conductor during a short pause.",
+                  "consequence": "Related concerns reach the conductor together, reducing repetition while preserving information from different parts of the choir.",
+                  "application": "Section leaders collect balance observations from their singers and summarize them to the conductor during a short pause. Related concerns reach the conductor together, reducing repetition while preserving information from different parts of the choir."
+                },
+                {
+                  "id": "choice_ca21cd2575fd",
+                  "mechanism": "The conductor asks one section at a time what it heard after a combined passage and then decides adjustments.",
+                  "consequence": "Rotating invitations give each part a clear opportunity to describe the balance from its listening position.",
+                  "application": "The conductor asks one section at a time what it heard after a combined passage and then decides adjustments. Rotating invitations give each part a clear opportunity to describe the balance from its listening position."
+                }
+              ]
+            },
+            {
+              "id": "decision_d76a9f779d9b",
+              "question": "How should changes to score markings be kept consistent?",
+              "context": "The conductor may change phrasing or dynamics; an agreed change record lists the piece, bar number, and current marking.",
+              "options": [
+                {
+                  "id": "choice_066616f16d37",
+                  "mechanism": "The conductor announces each changed marking, and the organizer enters it in the shared change record during rehearsal.",
+                  "consequence": "A central account is created as decisions occur, giving absent members and uncertain singers the same reference afterward.",
+                  "application": "The conductor announces each changed marking, and the organizer enters it in the shared change record during rehearsal. A central account is created as decisions occur, giving absent members and uncertain singers the same reference afterward."
+                },
+                {
+                  "id": "choice_150594efd9fc",
+                  "mechanism": "Section leaders note changed markings during rehearsal and compare their notes with the conductor before updating the shared record.",
+                  "consequence": "A brief check catches differences between sections before the final instructions are circulated to the whole choir.",
+                  "application": "Section leaders note changed markings during rehearsal and compare their notes with the conductor before updating the shared record. A brief check catches differences between sections before the final instructions are circulated to the whole choir."
+                },
+                {
+                  "id": "choice_7b9fca59b50a",
+                  "mechanism": "Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record.",
+                  "consequence": "Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves.",
+                  "application": "Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record. Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves."
+                }
+              ]
+            },
+            {
+              "id": "decision_7080eb919bd1",
+              "question": "How should an absent singer catch up?",
+              "context": "Attendance may vary, and the shared notes, score-change record, and approved practice recordings are available without requiring an additional rehearsal.",
+              "options": [
+                {
+                  "id": "choice_5c80ba3d4049",
+                  "mechanism": "Absent singers receive the rehearsal notes and use the linked change record and recordings before returning.",
+                  "consequence": "The same concise package lets each person catch up independently at a time compatible with their other commitments.",
+                  "application": "Absent singers receive the rehearsal notes and use the linked change record and recordings before returning. The same concise package lets each person catch up independently at a time compatible with their other commitments."
+                },
+                {
+                  "id": "choice_9df36c58d447",
+                  "mechanism": "Each absent singer asks a designated section partner for a brief walkthrough of the notes and linked practice materials.",
+                  "consequence": "A familiar peer can explain which changes mattered most and clarify questions before the singer rejoins the group.",
+                  "application": "Each absent singer asks a designated section partner for a brief walkthrough of the notes and linked practice materials. A familiar peer can explain which changes mattered most and clarify questions before the singer rejoins the group."
+                },
+                {
+                  "id": "choice_53dcf528f880",
+                  "mechanism": "Section leaders send absent singers a short prioritized message linking the rehearsal notes, changed markings, and relevant recordings.",
+                  "consequence": "Catch-up begins with the most important work for that voice part while preserving access to the complete shared record.",
+                  "application": "Section leaders send absent singers a short prioritized message linking the rehearsal notes, changed markings, and relevant recordings. Catch-up begins with the most important work for that voice part while preserving access to the complete shared record."
+                }
+              ]
+            },
+            {
+              "id": "decision_01db0d9ee017",
+              "question": "How should the main rehearsal break be timed?",
+              "context": "The rehearsal includes one planned break within the booked duration, and singers may also step out briefly for personal needs.",
+              "options": [
+                {
+                  "id": "choice_f9a89e10cbac",
+                  "mechanism": "The conductor places the planned break at a fixed clock time and includes it in the rehearsal notice.",
+                  "consequence": "Singers can anticipate the rest period, and musical work must be organized around an already visible stopping point.",
+                  "application": "The conductor places the planned break at a fixed clock time and includes it in the rehearsal notice. Singers can anticipate the rest period, and musical work must be organized around an already visible stopping point."
+                },
+                {
+                  "id": "choice_d63f5065878c",
+                  "mechanism": "The conductor places the planned break after a named rehearsal block and announces that position at the start.",
+                  "consequence": "The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence.",
+                  "application": "The conductor places the planned break after a named rehearsal block and announces that position at the start. The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence."
+                },
+                {
+                  "id": "choice_127a44e18737",
+                  "mechanism": "The conductor announces a short break window at the start and chooses a natural stopping point within it.",
+                  "consequence": "Singers know roughly when rest is coming while the final timing can follow the progress of the rehearsal.",
+                  "application": "The conductor announces a short break window at the start and chooses a natural stopping point within it. Singers know roughly when rest is coming while the final timing can follow the progress of the rehearsal."
+                }
+              ]
+            },
+            {
+              "id": "decision_c693308338b6",
+              "question": "How should room setup duties be shared?",
+              "context": "Chairs, score folders, and the conductor’s stand need a short setup before singing; volunteers can arrive early without changing the rehearsal itself.",
+              "options": [
+                {
+                  "id": "choice_1a550151d10d",
+                  "mechanism": "The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal.",
+                  "consequence": "Responsibility moves among willing members, and each person knows in advance which part of the room to prepare.",
+                  "application": "The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal. Responsibility moves among willing members, and each person knows in advance which part of the room to prepare."
+                },
+                {
+                  "id": "choice_f4692ad31f62",
+                  "mechanism": "Volunteers claim specific setup duties on the attendance sheet before each rehearsal, and the organizer fills any remaining gaps.",
+                  "consequence": "Members choose tasks that fit their arrival plans while the organizer can see whether the room preparation is covered.",
+                  "application": "Volunteers claim specific setup duties on the attendance sheet before each rehearsal, and the organizer fills any remaining gaps. Members choose tasks that fit their arrival plans while the organizer can see whether the room preparation is covered."
+                },
+                {
+                  "id": "choice_024fe116809e",
+                  "mechanism": "An early-arriving setup coordinator divides the listed duties among available volunteers when they reach the room.",
+                  "consequence": "The work follows the people actually present, allowing small changes in arrival time without leaving individual tasks unassigned.",
+                  "application": "An early-arriving setup coordinator divides the listed duties among available volunteers when they reach the room. The work follows the people actually present, allowing small changes in arrival time without leaving individual tasks unassigned."
+                }
+              ]
+            },
+            {
+              "id": "decision_faf230423b00",
+              "question": "How should the choir agree what to practice before next time?",
+              "context": "At rehearsal’s end, the conductor can identify a small amount of optional home practice, using the same scores and approved recordings already available.",
+              "options": [
+                {
+                  "id": "choice_268130b38793",
+                  "mechanism": "The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes.",
+                  "consequence": "Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation.",
+                  "application": "The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes. Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation."
+                },
+                {
+                  "id": "choice_a20dc59e49f0",
+                  "mechanism": "Section leaders propose one practice priority for their parts, and the conductor confirms these before the notes are sent.",
+                  "consequence": "Home preparation targets distinct section needs while remaining consistent with the musical direction for the whole choir.",
+                  "application": "Section leaders propose one practice priority for their parts, and the conductor confirms these before the notes are sent. Home preparation targets distinct section needs while remaining consistent with the musical direction for the whole choir."
+                },
+                {
+                  "id": "choice_9e6f76ff81ce",
+                  "mechanism": "Singers choose a passage they found difficult from a conductor-approved list and record it as their personal practice priority.",
+                  "consequence": "Preparation follows individual uncertainty while staying within the material the conductor considers useful for the next rehearsal.",
+                  "application": "Singers choose a passage they found difficult from a conductor-approved list and record it as their personal practice priority. Preparation follows individual uncertainty while staying within the material the conductor considers useful for the next rehearsal."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Send the singers a draft series of rehearsal dates drawn from the room's available slots. The booking organizer should leave time for people to point out clashes while dates can still be changed, then reserve the sequence. Once rehearsals are booked, send a reminder at a regular point before each one with a link to respond about attendance. Give the conductor a summary of the replies in time to plan for the voice parts likely to be in the room.\n\nTell everyone which numbered scores to bring and send the authorized digital copies in advance so singers can look them over at home. The organizer should have the corresponding paper scores ready to pick up on arrival. Divide early setup among willing members on a rotating list. With a reminder telling each volunteer whether to set out the chairs, put out the folders or prepare the conductor's stand, the same few people needn't arrive early every time.\n\nAsk the section leaders which of the prepared pieces their singers most need to revisit. The conductor can weigh the needs of the different parts, work out a balanced order within the booked time and publish it before rehearsal. At the start, name the block of work that will be followed by the main break. Singers will know where the pause fits and can finish a musical task together before resting. Anyone who needs to step out briefly can still do so.\n\nPost the order of the familiar warmup exercises and give each part of the warmup to a different section leader to guide. This lets several voices lead a few minutes of preparation while everyone follows the conductor's approved sequence. Have the choir sing a short phrase so the conductor can hear how the room sounds with the singers in place. The conductor can then request chair adjustments within each voice section, keeping accessible paths open and checking everyone can see the gestures from their new seats.\n\nWhen a passage catches the choir out, listen to it as sung. The conductor should identify the one feature most likely to be causing trouble, have the choir work on that element by itself, then put it back with the rest of the phrase. Within the time for sectional work, the conductor can stay with the part that needs direct help. At the same time, the other leaders take their sections to separate corners to practice their assigned bars, ready to rejoin the choir when the block ends.\n\nFor shared entrances and cutoffs, first show the gesture for each cue and have the singers put a reminder in their scores. They can use the marking to look up in time when they sing it. After a passage sung together, invite one voice section at a time to say what it could hear. Rotate the invitation so singers in different parts of the room get a turn, then let the conductor decide what to adjust. Singers pencil in a changed dynamic or phrasing as it is given. The conductor goes back over the affected bars aloud before everyone leaves so a misheard marking can be corrected. The organizer then publishes the confirmed markings by piece and bar.\n\nArrange the practice folder around difficult passages. For each one, the conductor lists the available part recordings with the relevant bars so a singer can go from a remembered rehearsal problem directly to their own line. End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes. A singer who missed the session should receive those notes with links to the marking changes and recordings. They can bring their score up to date and work through what they missed on their own schedule before coming back."
+      }
+    },
+    {
+      "request_id": "71c314b8997e1036dc2b24de",
+      "case": {
+        "id": "cddf62b0a0dd10ee",
+        "problem": {
+          "id": "problem_4be89c3a3bc5",
+          "title": "A neighborhood household-goods swap fair",
+          "problem": "Neighbors are organizing a one-day fair for clean, usable household goods that people no longer need. Giving and taking are both optional, and no payment or matching contribution is required. Volunteers have intake space, category tables, reserve shelves, a holding area, carts, and simple item records. Contributors choose in advance whether unclaimed goods should be returned during the closing collection period or donated through an arranged pickup.",
+          "goal": "Help usable household goods reach interested neighbors while keeping contributions, claims, and final collection understandable.",
+          "decisions": [
+            {
+              "id": "decision_71042de1e5ec",
+              "question": "How should organizers learn what neighbors expect to contribute?",
+              "context": "Advance estimates help preparation but do not guarantee acceptance; the same published condition and category guidelines apply to all items at intake.",
+              "options": [
+                {
+                  "id": "choice_657a0c7061bb",
+                  "mechanism": "Contributors list expected household goods on a shared form before the fair, and organizers total the entries by category.",
+                  "consequence": "Table preparation follows volunteered estimates while leaving final acceptance to the ordinary intake check.",
+                  "application": "Contributors list expected household goods on a shared form before the fair, and organizers total the entries by category. Table preparation follows volunteered estimates while leaving final acceptance to the ordinary intake check."
+                },
+                {
+                  "id": "choice_bb61b2b5e37a",
+                  "mechanism": "Organizers announce the categories needing more contributions, and neighbors reply with household goods they expect to bring.",
+                  "consequence": "Advance information begins with gaps in the planned selection, helping contributors identify which of their spare items would be useful.",
+                  "application": "Organizers announce the categories needing more contributions, and neighbors reply with household goods they expect to bring. Advance information begins with gaps in the planned selection, helping contributors identify which of their spare items would be useful."
+                },
+                {
+                  "id": "choice_98649e7f662a",
+                  "mechanism": "Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers.",
+                  "consequence": "A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation.",
+                  "application": "Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers. A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation."
+                }
+              ]
+            },
+            {
+              "id": "decision_47484ace809a",
+              "question": "How should contribution arrivals be spread across the intake period?",
+              "context": "Contributors can use several optional arrival windows, and a small walk-in allowance remains available throughout intake.",
+              "options": [
+                {
+                  "id": "choice_99de13c08800",
+                  "mechanism": "Contributors choose available arrival windows on the intake sheet before bringing their household goods.",
+                  "consequence": "People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive.",
+                  "application": "Contributors choose available arrival windows on the intake sheet before bringing their household goods. People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive."
+                },
+                {
+                  "id": "choice_ec21dc9ce8d8",
+                  "mechanism": "Organizers assign suggested arrival windows after contributors report their availability, keeping the walk-in allowance open.",
+                  "consequence": "The intake load can be spread across the period while taking account of when contributors can realistically attend.",
+                  "application": "Organizers assign suggested arrival windows after contributors report their availability, keeping the walk-in allowance open. The intake load can be spread across the period while taking account of when contributors can realistically attend."
+                },
+                {
+                  "id": "choice_ea7bbc048746",
+                  "mechanism": "Contributors receive staggered arrival suggestions by neighborhood block and may choose another open window when needed.",
+                  "consequence": "Nearby households get a simple shared plan while individual conflicts can be accommodated within the remaining intake capacity.",
+                  "application": "Contributors receive staggered arrival suggestions by neighborhood block and may choose another open window when needed. Nearby households get a simple shared plan while individual conflicts can be accommodated within the remaining intake capacity."
+                }
+              ]
+            },
+            {
+              "id": "decision_ee29440d96e5",
+              "question": "How should contributed goods be checked before display?",
+              "context": "A short checklist defines acceptable condition, and contributors remain at intake until any questions about their items have been resolved.",
+              "options": [
+                {
+                  "id": "choice_ed2f84cff88e",
+                  "mechanism": "Intake volunteers inspect each contribution with the condition checklist while its contributor is present.",
+                  "consequence": "Questions about damage or missing parts can be answered immediately before an item is accepted for display.",
+                  "application": "Intake volunteers inspect each contribution with the condition checklist while its contributor is present. Questions about damage or missing parts can be answered immediately before an item is accepted for display."
+                },
+                {
+                  "id": "choice_e43294ec2478",
+                  "mechanism": "Contributors complete the condition checklist themselves, and intake volunteers review the answers while examining the listed concerns.",
+                  "consequence": "The contributor’s knowledge directs attention to likely issues before volunteers decide whether the item is suitable for display.",
+                  "application": "Contributors complete the condition checklist themselves, and intake volunteers review the answers while examining the listed concerns. The contributor’s knowledge directs attention to likely issues before volunteers decide whether the item is suitable for display."
+                },
+                {
+                  "id": "choice_640df9c89f3f",
+                  "mechanism": "One volunteer asks contributors the condition-checklist questions while another examines their goods beside them.",
+                  "consequence": "Conversation and inspection proceed together, allowing observed problems to be clarified before the contribution leaves the intake area.",
+                  "application": "One volunteer asks contributors the condition-checklist questions while another examines their goods beside them. Conversation and inspection proceed together, allowing observed problems to be clarified before the contribution leaves the intake area."
+                }
+              ]
+            },
+            {
+              "id": "decision_0616741ccfd1",
+              "question": "How should useful item descriptions be prepared?",
+              "context": "Every accepted item needs a label with its identifier, description, known limitations, and whether accessories are included; a blank template is available.",
+              "options": [
+                {
+                  "id": "choice_ff89e27a0ece",
+                  "mechanism": "Contributors complete the item-label template, and intake volunteers confirm it before attaching the label to accepted goods.",
+                  "consequence": "Firsthand descriptions are captured early while a brief review keeps the displayed information consistent across contributions.",
+                  "application": "Contributors complete the item-label template, and intake volunteers confirm it before attaching the label to accepted goods. Firsthand descriptions are captured early while a brief review keeps the displayed information consistent across contributions."
+                },
+                {
+                  "id": "choice_3860b12ad01d",
+                  "mechanism": "Intake volunteers ask contributors for item details and write the labels during acceptance.",
+                  "consequence": "The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented.",
+                  "application": "Intake volunteers ask contributors for item details and write the labels during acceptance. The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented."
+                },
+                {
+                  "id": "choice_0fc1526b6a55",
+                  "mechanism": "Contributors describe accepted items to a labeling volunteer after the condition check, and the volunteer attaches completed labels.",
+                  "consequence": "Description work has its own focused handover, keeping the inspection station available for the next contribution.",
+                  "application": "Contributors describe accepted items to a labeling volunteer after the condition check, and the volunteer attaches completed labels. Description work has its own focused handover, keeping the inspection station available for the next contribution."
+                }
+              ]
+            },
+            {
+              "id": "decision_c5d320651898",
+              "question": "How should the display tables be organized?",
+              "context": "The fair has movable category signs, adequate walking aisles, and several tables; every item still carries its own identifier and description.",
+              "options": [
+                {
+                  "id": "choice_952c1afaab65",
+                  "mechanism": "Volunteers group household goods by their ordinary room of use and label the display tables accordingly.",
+                  "consequence": "Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home.",
+                  "application": "Volunteers group household goods by their ordinary room of use and label the display tables accordingly. Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home."
+                },
+                {
+                  "id": "choice_bb29c726078e",
+                  "mechanism": "Volunteers group household goods by function, such as storage, serving, or decoration, and label the display tables accordingly.",
+                  "consequence": "Visitors can compare items that solve similar needs even when those goods would normally belong in different rooms.",
+                  "application": "Volunteers group household goods by function, such as storage, serving, or decoration, and label the display tables accordingly. Visitors can compare items that solve similar needs even when those goods would normally belong in different rooms."
+                },
+                {
+                  "id": "choice_e216fbe7ea6e",
+                  "mechanism": "Volunteers place household goods in numbered table zones and maintain a category index showing where each type can be found.",
+                  "consequence": "The physical arrangement can adapt to available space while visitors use the index to locate relevant items.",
+                  "application": "Volunteers place household goods in numbered table zones and maintain a category index showing where each type can be found. The physical arrangement can adapt to available space while visitors use the index to locate relevant items."
+                }
+              ]
+            },
+            {
+              "id": "decision_76955a70c571",
+              "question": "How should reserve stock reach the display tables?",
+              "context": "Reserve shelves hold accepted items that do not yet fit on display, and table volunteers can request replenishment without changing anyone’s existing claim.",
+              "options": [
+                {
+                  "id": "choice_c57640892158",
+                  "mechanism": "Table volunteers request reserve goods when their displays develop gaps, and a runner brings the matching available items.",
+                  "consequence": "Replenishment follows visible need at each table rather than moving stock that would immediately crowd the display.",
+                  "application": "Table volunteers request reserve goods when their displays develop gaps, and a runner brings the matching available items. Replenishment follows visible need at each table rather than moving stock that would immediately crowd the display."
+                },
+                {
+                  "id": "choice_0655c292ab5c",
+                  "mechanism": "A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces.",
+                  "consequence": "One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests.",
+                  "application": "A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces. One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests."
+                },
+                {
+                  "id": "choice_c51cbfc593c2",
+                  "mechanism": "Reserve volunteers prepare small mixed replenishment batches, and table volunteers collect them when their displays have room.",
+                  "consequence": "Sorting happens near the stored goods while the people managing each table decide when additional stock can fit.",
+                  "application": "Reserve volunteers prepare small mixed replenishment batches, and table volunteers collect them when their displays have room. Sorting happens near the stored goods while the people managing each table decide when additional stock can fit."
+                }
+              ]
+            },
+            {
+              "id": "decision_66bdc8c4642b",
+              "question": "How should arriving visitors learn how the fair works?",
+              "context": "The entry area has a short explanation of browsing, claims, holding, and collection; visitors may proceed at their own pace after receiving it.",
+              "options": [
+                {
+                  "id": "choice_99c46f7ebf3c",
+                  "mechanism": "A welcome volunteer gives each visitor a brief explanation of browsing and collection while pointing out the relevant areas.",
+                  "consequence": "The introduction connects the rules to the room and offers an immediate chance to ask a practical question.",
+                  "application": "A welcome volunteer gives each visitor a brief explanation of browsing and collection while pointing out the relevant areas. The introduction connects the rules to the room and offers an immediate chance to ask a practical question."
+                },
+                {
+                  "id": "choice_863cff210095",
+                  "mechanism": "Visitors read a simple entrance diagram and take a small guide describing browsing, claims, holding, and collection.",
+                  "consequence": "The essential instructions remain available as people move through the fair instead of depending on remembering a spoken introduction.",
+                  "application": "Visitors read a simple entrance diagram and take a small guide describing browsing, claims, holding, and collection. The essential instructions remain available as people move through the fair instead of depending on remembering a spoken introduction."
+                },
+                {
+                  "id": "choice_851e1934f7d0",
+                  "mechanism": "A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram.",
+                  "consequence": "A common explanation reaches several visitors together while personal questions can be handled after the group moves on.",
+                  "application": "A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram. A common explanation reaches several visitors together while personal questions can be handled after the group moves on."
+                }
+              ]
+            },
+            {
+              "id": "decision_b48a117f22f5",
+              "question": "How should competing requests for the same item be settled?",
+              "context": "When several people request an unclaimed item within its brief decision window, a request sheet records names, request times, and earlier contested-item awards.",
+              "options": [
+                {
+                  "id": "choice_4833853e4c17",
+                  "mechanism": "A volunteer draws one name from the competing requests when the item’s decision window closes.",
+                  "consequence": "Every registered requester has an equal chance for that item, and the result can be announced before it moves to collection.",
+                  "application": "A volunteer draws one name from the competing requests when the item’s decision window closes. Every registered requester has an equal chance for that item, and the result can be announced before it moves to collection."
+                },
+                {
+                  "id": "choice_21bec0b5a0d1",
+                  "mechanism": "A volunteer awards the item to the earliest recorded requester when its decision window closes.",
+                  "consequence": "The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it.",
+                  "application": "A volunteer awards the item to the earliest recorded requester when its decision window closes. The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it."
+                },
+                {
+                  "id": "choice_2211bf31f90c",
+                  "mechanism": "A volunteer awards the item to the requester with the fewest earlier contested-item awards, using request time to break ties.",
+                  "consequence": "Priority spreads sought-after goods across visitors while retaining a clear rule when their previous awards are equal.",
+                  "application": "A volunteer awards the item to the requester with the fewest earlier contested-item awards, using request time to break ties. Priority spreads sought-after goods across visitors while retaining a clear rule when their previous awards are equal."
+                }
+              ]
+            },
+            {
+              "id": "decision_2f6fb93af909",
+              "question": "How should claimed items be held while recipients continue browsing?",
+              "context": "Recipients may use a supervised holding area for up to twenty minutes; every held item needs its recipient’s name and collection deadline.",
+              "options": [
+                {
+                  "id": "choice_280bc1ec3224",
+                  "mechanism": "Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves.",
+                  "consequence": "A single handover establishes responsibility and makes the promised collection time clear to both people.",
+                  "application": "Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves. A single handover establishes responsibility and makes the promised collection time clear to both people."
+                },
+                {
+                  "id": "choice_e74dff57e998",
+                  "mechanism": "Recipients complete holding tags with their names and deadlines, and the volunteer checks the tags before storing the items.",
+                  "consequence": "The claimant supplies the details directly while the volunteer confirms that every stored item has a usable collection record.",
+                  "application": "Recipients complete holding tags with their names and deadlines, and the volunteer checks the tags before storing the items. The claimant supplies the details directly while the volunteer confirms that every stored item has a usable collection record."
+                },
+                {
+                  "id": "choice_6440c8b8aec8",
+                  "mechanism": "Table volunteers prepare holding tags for claimed items and send them with a runner to the supervised holding area.",
+                  "consequence": "Recipients can keep browsing while the tagged transfer preserves their identity and collection deadline through the handover.",
+                  "application": "Table volunteers prepare holding tags for claimed items and send them with a runner to the supervised holding area. Recipients can keep browsing while the tagged transfer preserves their identity and collection deadline through the handover."
+                }
+              ]
+            },
+            {
+              "id": "decision_4c7582137f3c",
+              "question": "How should pieces of a complete set remain together?",
+              "context": "Some contributions contain several pieces intended to be claimed as one set; bags, ties, trays, and matching labels are available for display.",
+              "options": [
+                {
+                  "id": "choice_06b0c46781a5",
+                  "mechanism": "Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible.",
+                  "consequence": "Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing.",
+                  "application": "Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible. Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing."
+                },
+                {
+                  "id": "choice_227e230b84da",
+                  "mechanism": "Volunteers place each complete set on a dedicated tray and attach one label listing all included pieces.",
+                  "consequence": "Visitors can inspect the components individually while the tray and inventory show what must leave together.",
+                  "application": "Volunteers place each complete set on a dedicated tray and attach one label listing all included pieces. Visitors can inspect the components individually while the tray and inventory show what must leave together."
+                },
+                {
+                  "id": "choice_4175b40a7c6b",
+                  "mechanism": "Volunteers attach matching set labels to every component and display the pieces within one marked table area.",
+                  "consequence": "Larger or awkwardly shaped sets remain inspectable, and the repeated identifier helps collectors verify that all pieces accompany the claim.",
+                  "application": "Volunteers attach matching set labels to every component and display the pieces within one marked table area. Larger or awkwardly shaped sets remain inspectable, and the repeated identifier helps collectors verify that all pieces accompany the claim."
+                }
+              ]
+            },
+            {
+              "id": "decision_512a3f852563",
+              "question": "How should visitors arrange help carrying goods out?",
+              "context": "Willing helpers and small carts can assist from collection to the nearby pickup area; visitors may request help without explaining why they need it.",
+              "options": [
+                {
+                  "id": "choice_9300fd777e94",
+                  "mechanism": "Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart.",
+                  "consequence": "Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins.",
+                  "application": "Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart. Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins."
+                },
+                {
+                  "id": "choice_a21ac75901dd",
+                  "mechanism": "Visitors reserve a short carrying-help slot when they claim an item and bring their collection record at that time.",
+                  "consequence": "A planned slot coordinates the recipient and helper before the goods need to move toward the pickup area.",
+                  "application": "Visitors reserve a short carrying-help slot when they claim an item and bring their collection record at that time. A planned slot coordinates the recipient and helper before the goods need to move toward the pickup area."
+                },
+                {
+                  "id": "choice_c259a040786e",
+                  "mechanism": "A helper makes regular rounds between collection and the pickup area, inviting waiting recipients to join the next assisted trip.",
+                  "consequence": "Several nearby handovers can share one cart journey while visitors retain a visible next opportunity for help.",
+                  "application": "A helper makes regular rounds between collection and the pickup area, inviting waiting recipients to join the next assisted trip. Several nearby handovers can share one cart journey while visitors retain a visible next opportunity for help."
+                }
+              ]
+            },
+            {
+              "id": "decision_ee00677c5692",
+              "question": "How should volunteers receive their working assignments?",
+              "context": "Volunteers have stated their availability and task preferences; a coordinator can cover small gaps, and brief handovers fit within every shift.",
+              "options": [
+                {
+                  "id": "choice_e1d0be088a4d",
+                  "mechanism": "The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair.",
+                  "consequence": "People can prepare for specific duties, and the coordinator can see uncovered work before the event begins.",
+                  "application": "The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair. People can prepare for specific duties, and the coordinator can see uncovered work before the event begins."
+                },
+                {
+                  "id": "choice_ed52c5685921",
+                  "mechanism": "Volunteers claim open shifts on a task roster, and the coordinator fills any remaining gaps from unassigned availability.",
+                  "consequence": "People choose suitable duties directly while the completed roster still gives the fair a clear coverage plan.",
+                  "application": "Volunteers claim open shifts on a task roster, and the coordinator fills any remaining gaps from unassigned availability. People choose suitable duties directly while the completed roster still gives the fair a clear coverage plan."
+                },
+                {
+                  "id": "choice_f5929e3dc97a",
+                  "mechanism": "The coordinator assigns tasks when volunteers arrive, using their stated preferences and the current workload at each station.",
+                  "consequence": "Duties respond to conditions on the day while remaining within the time and types of work volunteers have offered.",
+                  "application": "The coordinator assigns tasks when volunteers arrive, using their stated preferences and the current workload at each station. Duties respond to conditions on the day while remaining within the time and types of work volunteers have offered."
+                }
+              ]
+            },
+            {
+              "id": "decision_26850f104ee3",
+              "question": "How should requests for currently missing goods be recorded?",
+              "context": "A request board can list wanted item types without promising they will appear; visitors may leave a name or check the board themselves.",
+              "options": [
+                {
+                  "id": "choice_cccbea7f3cf2",
+                  "mechanism": "Visitors write wanted item types on the request board, and table volunteers mark matching arrivals when they appear.",
+                  "consequence": "Needs stay visible across the fair, and people can discover a later match without repeatedly asking every table.",
+                  "application": "Visitors write wanted item types on the request board, and table volunteers mark matching arrivals when they appear. Needs stay visible across the fair, and people can discover a later match without repeatedly asking every table."
+                },
+                {
+                  "id": "choice_d10e5ed24e54",
+                  "mechanism": "A request volunteer asks visitors what they seek and checks the board against reserve stock and new contributions.",
+                  "consequence": "One person connects requests with goods beyond the current display, making it easier to notice matches across different stations.",
+                  "application": "A request volunteer asks visitors what they seek and checks the board against reserve stock and new contributions. One person connects requests with goods beyond the current display, making it easier to notice matches across different stations."
+                },
+                {
+                  "id": "choice_4f2960c6522b",
+                  "mechanism": "Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point.",
+                  "consequence": "Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices.",
+                  "application": "Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point. Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices."
+                }
+              ]
+            },
+            {
+              "id": "decision_b9de32a36c70",
+              "question": "How should outgoing goods be recorded at collection?",
+              "context": "Every accepted item has an identifier, and collection records track which goods have left; a valid claim is checked before any item exits.",
+              "options": [
+                {
+                  "id": "choice_98e6ece68aff",
+                  "mechanism": "The collection volunteer checks the claim and crosses the item identifier off the inventory as the goods leave.",
+                  "consequence": "The departure is recorded at the physical handover, keeping the remaining-stock information aligned with what is still inside.",
+                  "application": "The collection volunteer checks the claim and crosses the item identifier off the inventory as the goods leave. The departure is recorded at the physical handover, keeping the remaining-stock information aligned with what is still inside."
+                },
+                {
+                  "id": "choice_d48aa8a700a2",
+                  "mechanism": "Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out.",
+                  "consequence": "The written update happens before the exit handover, separating record work from the movement of items.",
+                  "application": "Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out. The written update happens before the exit handover, separating record work from the movement of items."
+                },
+                {
+                  "id": "choice_0acd5099e36c",
+                  "mechanism": "A collection volunteer checks claims and gathers item labels at the exit, then records each small departure batch together.",
+                  "consequence": "The labels preserve the details of goods already released while allowing the volunteer to update the inventory in short groups.",
+                  "application": "A collection volunteer checks claims and gathers item labels at the exit, then records each small departure batch together. The labels preserve the details of goods already released while allowing the volunteer to update the inventory in short groups."
+                }
+              ]
+            },
+            {
+              "id": "decision_3f6eb3a6337e",
+              "question": "How should unclaimed goods be processed after the fair closes?",
+              "context": "Contributors have recorded return or donation preferences; a closing collection period precedes the arranged donation pickup, and labeled goods can be stored overnight.",
+              "options": [
+                {
+                  "id": "choice_688397b14ef8",
+                  "mechanism": "Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period.",
+                  "consequence": "Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup.",
+                  "application": "Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period. Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup."
+                },
+                {
+                  "id": "choice_fd69c7ac530e",
+                  "mechanism": "Contributors collect their recorded return items during the closing period, after which volunteers group the remaining donation goods.",
+                  "consequence": "Direct collection removes many items before final sorting, leaving volunteers a smaller set to prepare for the arranged pickup.",
+                  "application": "Contributors collect their recorded return items during the closing period, after which volunteers group the remaining donation goods. Direct collection removes many items before final sorting, leaving volunteers a smaller set to prepare for the arranged pickup."
+                },
+                {
+                  "id": "choice_763a2a7a5c70",
+                  "mechanism": "Volunteers process one display zone at a time, handing recorded return goods to waiting contributors and packing donations beside them.",
+                  "consequence": "The room clears progressively while the existing preference records determine each item’s destination throughout the closing collection period.",
+                  "application": "Volunteers process one display zone at a time, handing recorded return goods to waiting contributors and packing donations beside them. The room clears progressively while the existing preference records determine each item’s destination throughout the closing collection period."
+                }
+              ]
+            },
+            {
+              "id": "decision_6d830daa9827",
+              "question": "How should organizers learn which parts of the fair need improvement?",
+              "context": "Visitors, contributors, and volunteers can give optional feedback about finding goods, understanding claims, and managing the event.",
+              "options": [
+                {
+                  "id": "choice_5a428be83336",
+                  "mechanism": "Organizers place a short feedback card at the exit for visitors, contributors, and volunteers to complete before leaving.",
+                  "consequence": "Fresh experiences are captured through the same questions, making recurring difficulties easier to recognize across different roles.",
+                  "application": "Organizers place a short feedback card at the exit for visitors, contributors, and volunteers to complete before leaving. Fresh experiences are captured through the same questions, making recurring difficulties easier to recognize across different roles."
+                },
+                {
+                  "id": "choice_e418cff460bc",
+                  "mechanism": "Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines.",
+                  "consequence": "Each group can explain problems in its own terms before organizers identify changes that would help more than one role.",
+                  "application": "Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines. Each group can explain problems in its own terms before organizers identify changes that would help more than one role."
+                },
+                {
+                  "id": "choice_080fe75fc87a",
+                  "mechanism": "Organizers send a short follow-up form after the fair and review responses alongside the recorded movement of goods.",
+                  "consequence": "People have time to reflect, and their comments can be compared with practical information about what arrived and left.",
+                  "application": "Organizers send a short follow-up form after the fair and review responses alongside the recorded movement of goods. People have time to reflect, and their comments can be compared with practical information about what arrived and left."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "In the run-up to the fair, ask volunteers on each block to talk with neighbors who might bring something and send the organizers a summary by category. A doorstep conversation can reach someone who would skip a form, and rough quantities are enough to plan tables. The published criteria will apply to everything when it arrives. Circulate an intake sheet showing available arrival windows so contributors can choose a time that suits them and volunteers can anticipate busy periods. Leave a little room for walk-ins throughout. Using volunteers' stated availability and preferred jobs, the coordinator draws up the shifts and sends everyone the roster ahead of the fair. That gives people time to prepare and makes any gaps in coverage apparent.\n\nKeep contributors with their goods at intake while a volunteer checks each item against the condition list. A question about a chip or a missing accessory can be settled on the spot before acceptance. As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories. Having the interviewer write the label keeps details consistent across the displays. Bag or tie all the pieces of a complete set together here and keep its description where a visitor can read it. The set reaches the table as one bundle and can stay together through a busy afternoon.\n\nSign the tables by the room where the goods would ordinarily be used. Someone looking for a saucepan can go to the kitchen table, and someone furnishing a bedroom can start at the bedroom sign. Keep the aisles clear and put overflow on the reserve shelves. A runner makes a regular circuit to see what space has opened and brings out reserve items that fit. Table volunteers can stay with visitors as the stock turns over.\n\nAt the entrance, a welcome volunteer gathers a few arrivals at a time for a short explanation of browsing, making a claim, holding goods and collecting them. Make clear that anyone may give or take freely without a matching contribution. Let people go on to browse, and offer individual clarification by the entrance diagram for anyone with a question. Visitors looking for something they haven't found can leave a wanted note by its category sign. If suitable goods appear, the table volunteer moves the matched note to a common collection point where people can check for news. Posting a request carries no promise the goods will come in.\n\nIf several people ask for the same item, record the requests and their times on the sheet. At the end of the brief decision window, the volunteer gives the claim to the person whose request was recorded earliest. People can see the basis for the decision in the times on the sheet. A recipient who wants to keep browsing can take the goods to the holding volunteer. Before shelving them, the volunteer records the recipient's name and confirms the pickup deadline with them, up to twenty minutes away. Both people then know who is looking after the item and when it is due out.\n\nAt collection, show the claim record to the volunteer keeping the outgoing register. They verify the claim, record the item's identifier and issue a checked slip for the recipient to show when taking the goods out. This keeps the paperwork ahead of the physical handover. People can ask for carrying assistance right there without giving a reason. The volunteer assigns the next available helper and cart for the trip to the nearby pickup area when the goods are ready to go.\n\nBefore admitting contributors for closing collection, sort everything still unclaimed according to its contributor's recorded choice. Keep the returns easy to find and group the donations for the arranged pickup after the collection period. For feedback, hold a few short, optional conversations separately with visitors, contributors and volunteers about how finding things, claiming them and running the fair went. Compare the notes afterward so the organizers can hear how the same routine felt on different sides of a table and see where a change could help several groups."
+      }
+    }
+  ]
+}

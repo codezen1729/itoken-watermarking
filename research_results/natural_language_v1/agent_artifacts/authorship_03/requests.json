@@ -1,0 +1,285 @@
+{
+  "instruction": "Assess independently whether the authored text expresses each intended application. Check the action/mechanism and consequence, roles, timing, scope, and relevant premises. An endpoint match or shared words is insufficient. Do not repair missing or reversed reasoning. For every decision return preserved/changed/omitted/uncertain, explaining any non-preserved judgment with source evidence. Return an overall status of preserved/changed/uncertain and identify added conflicting decisions. The supplied applications are targets to compare with the text, not evidence that the text expressed them.",
+  "documents": [
+    {
+      "document_id": "5dc52e25134c41af",
+      "intended_applications": [
+        {
+          "decision_id": "decision_8f30e5c1cb3a",
+          "application": "Readers rank pickup windows on the request sheet before staff reserve shelf space. Staff can use those preferences to spread pickups across the available windows."
+        },
+        {
+          "decision_id": "decision_a4f983e6c177",
+          "application": "Staff prepare each requested book shortly before its pickup window, following the preparation list. Shelf space remains available for books whose readers are arriving soon."
+        },
+        {
+          "decision_id": "decision_632e2926f2e9",
+          "application": "A helper gathers names from arriving readers and carries the arrival sheet to the pickup desk at regular intervals. The desk receives grouped arrival updates without a continuous line of introductions."
+        },
+        {
+          "decision_id": "decision_586c46ce6bd6",
+          "application": "Staff alternate short service blocks between booked readers and walk-ins at the pickup desk. Both groups receive a regular turn even when the other group is busy."
+        },
+        {
+          "decision_id": "decision_af8caffec512",
+          "application": "Staff finish each book collection before noting any remaining routine question on the pad for the helper. The collection transaction stays short while a separate follow-up remains available."
+        },
+        {
+          "decision_id": "decision_1d91d9d94b72",
+          "application": "Staff assign a shelf location to each requested book and put that location beside both reader name and pickup window on a desk list. The desk list directs the search without sorting the shelves by either field."
+        },
+        {
+          "decision_id": "decision_e99c80b7d5b1",
+          "application": "Staff contact the reader with the remaining pickup windows and move the book only after the reader selects one. The reader chooses among the remaining spaces before the extra hold is arranged."
+        },
+        {
+          "decision_id": "decision_264f6c08f632",
+          "application": "Readers place returned books beside completed return slips, and helpers check them in arrival order. The slips preserve order without requiring a separate intake conversation."
+        },
+        {
+          "decision_id": "decision_18ceec9fc309",
+          "application": "Helpers sort the trolley by shelf location and reshelve each location’s checked returns together. Each shelving trip covers a compact part of the library."
+        },
+        {
+          "decision_id": "decision_39f403e9ac55",
+          "application": "A helper carries the transfer tray at fixed intervals and checks the written list at both ends. Regular rounds connect the two areas without repeated individual requests."
+        },
+        {
+          "decision_id": "decision_ec7803bbd281",
+          "application": "A helper offers assistance at arrival and records accepted requests on a list. Readers can choose help after seeing what they need that day."
+        },
+        {
+          "decision_id": "decision_198c1ffba842",
+          "application": "A helper keeps the delay notice current while staff speak with affected readers at the same time. Shared and individual updates proceed without waiting for one another."
+        },
+        {
+          "decision_id": "decision_4097a1e6e449",
+          "application": "Staff hand readers a feedback card at collection and invite them to place it in the box on the way out. Readers can respond after the transaction has finished."
+        },
+        {
+          "decision_id": "decision_23eac4fd2979",
+          "application": "The outgoing helper writes the unfinished-task list before the overlap and explains it to the incoming helper. The handover starts from a prepared record."
+        },
+        {
+          "decision_id": "decision_ede10bc15c2f",
+          "application": "Staff place the notice at the entrance with a simple map of quieter waiting spots. Readers can choose a suitable place before reaching the crowded desk."
+        },
+        {
+          "decision_id": "decision_60e6b65bf11b",
+          "application": "Staff propose one improvement during closing and compare both the wait log and reader feedback before agreeing to try it. The proposed change must fit both kinds of evidence."
+        }
+      ],
+      "text": "Give readers space on the request sheet to rank the windows when they could come in. With those rankings in hand, staff can spread pickups over the afternoon and reserve shelf space for each window. The preparation list should show who is coming for each title and when. Staff use that list to get a book ready shortly before its reader is due, leaving room for the books needed in the meantime. Give every requested book a labeled shelf location and enter it on the desk copy alongside the reader and window. A staff member can look up a reader and go straight to the indicated spot regardless of how the neighboring books are arranged.\n\nHave a helper run the tray between preparation and pickup on a fixed round. The helper checks the transfer list when loading the tray and again on delivery, so neither station has to call for individual titles. If someone misses a window, staff contact them with the windows that still have space. Leave the book where it is until the reader chooses a new time, then move it for the extra service period.\n\nAt the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk. An arriving reader can choose a spot on the way in. A helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once. The helper also offers to find or carry books and lists the requests readers accept. Someone who turns out to need a hand that day can ask on the spot without giving a reason.\n\nDivide desk time into short blocks and alternate between appointments and walk-ins. Even on an afternoon when every appointment is booked, walk-ins will know their turn is coming. Finish handing over the books first. If a reader still has a routine question, write it on the pad so a helper can follow up while the desk handles the next collection. Give the reader a feedback card with their books and invite them to drop it in the box by the exit, where there is time to write. When a pickup is delayed, have a helper keep the posted notice current while desk staff talk directly with the readers concerned.\n\nSet aside a place for returns where readers can leave each book beside its completed slip. Helpers use the arrival information on the slips to check the books in order, freeing readers to leave once they have set theirs down. On the trolley, group checked books by their shelf destinations. A helper can then take all the books for one stretch of shelving in a single trip.\n\nBefore shifts overlap, the outgoing helper should write down the work still pending. Use the overlap to talk the incoming helper through that record. At closing, put forward one practical change for tomorrow. Check what the wait log says about the problem and what readers wrote on their cards. Agree to try the change once the team can explain how it fits both."
+    },
+    {
+      "document_id": "e9ff54c070f00827",
+      "intended_applications": [
+        {
+          "decision_id": "decision_995ed35b4d41",
+          "application": "Guests request a reusable cup at the drink counter, which sends a request card to the cup station. The cup station prepares for a guest before the guest reaches it."
+        },
+        {
+          "decision_id": "decision_8342e49aaeb7",
+          "application": "Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period. Early requests cannot consume the whole afternoon’s lending stock."
+        },
+        {
+          "decision_id": "decision_efc50eefa7f6",
+          "application": "The volunteer records the cup description and asks the guest to add a return time. The guest makes the return commitment in the lending record."
+        },
+        {
+          "decision_id": "decision_52c1844753ed",
+          "application": "Volunteers give each guest a return card with the cup and point to the same route on the counter map. The return explanation accompanies the handover."
+        },
+        {
+          "decision_id": "decision_9b8cc7fdb0c2",
+          "application": "A volunteer accepts used cups and places them in collection crates as guests arrive. Each returned cup receives an immediate intake check."
+        },
+        {
+          "decision_id": "decision_8204e82647ee",
+          "application": "Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record. Recording is concentrated into short batches."
+        },
+        {
+          "decision_id": "decision_117204fcc63a",
+          "application": "A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list. Transfers follow the buildup of returned cups."
+        },
+        {
+          "decision_id": "decision_418d780a0676",
+          "application": "The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station. The lending team can anticipate the incoming supply."
+        },
+        {
+          "decision_id": "decision_e99487beea19",
+          "application": "The team announces a short return period on the board and gathers updates from return points after it ends. Guests have a clear shared moment to bring cups back."
+        },
+        {
+          "decision_id": "decision_92b118e19f92",
+          "application": "Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time. A brief conversation turns the guest’s estimate into a shared commitment."
+        },
+        {
+          "decision_id": "decision_247b053e1c19",
+          "application": "One volunteer handles cup intake while the other updates the lending record throughout a short block. Each person can concentrate on one part of the return process."
+        },
+        {
+          "decision_id": "decision_42560af6a041",
+          "application": "One volunteer updates the stock notice while another works through the request list. Shared information and individual arrangements proceed together."
+        },
+        {
+          "decision_id": "decision_273822a1bb88",
+          "application": "The lending station asks guests what would make return easier and forwards comments to the return points. Feedback can improve the process before those loans end."
+        },
+        {
+          "decision_id": "decision_ab8895b1bfed",
+          "application": "Both teams update the handover note during each transfer of a task in the overlap. The record follows the actual transfer of responsibility."
+        },
+        {
+          "decision_id": "decision_99fdd656ca17",
+          "application": "The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows. The stock near guests follows demand during the event."
+        },
+        {
+          "decision_id": "decision_6f2c62255721",
+          "application": "The team starts with the most common guest comment and checks lending counts and return times before choosing a change. The next trial addresses a reported difficulty supported by usage records."
+        }
+      ],
+      "text": "A guest should be able to ask for a loan where they order their drink. The counter volunteer sends a request card ahead to the cup station, giving the people there a chance to have a cup ready by the time the guest arrives. Set aside a few available cups for each upcoming period of service and take requests against that period's supply. This gives people arriving later a chance to borrow, even if the first rush would have taken every cup on the shelf.\n\nAt the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it. That entry is their commitment for the loan. Give them a little return map with the cup and trace the route on the counter map so they can recognize their way back. While they are there, ask what would make it easier for them to return the cup. Pass their comments to the return points while the gathering is under way, giving those volunteers time to help before the guests make the trip.\n\nPeople who need their cups longer can tell a volunteer how much more time they need. The volunteer works out the new time with them and writes it in the lending record so both know when the cup is due. For cups that go overdue, put a short, clearly timed return period on the announcement board for everyone. After that period has passed, collect the latest figures from the return points. Guests get a common opportunity to bring cups back, and the café can follow up on its stock using the figures from the gathering.\n\nAt a busy return point, assign one person to take cups and another to keep the record for a short stint. The first person accepts each cup, looks it over immediately and places it in a collection crate. Once a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record. Guests can move on as soon as their cups have been received. Mark a crate ready on the transfer list when it is ready to leave. That mark calls for a volunteer to carry it to washing, so the trips follow the flow of actual returns.\n\nAfter the regular wash, the washing volunteer puts the clean cups on the available-stock list before taking them back to lending. The people handing them out can see what is on its way. If supplies run short, have one volunteer update the stock notice at the same time that another works down the request list with waiting guests. During a shift overlap, the outgoing and incoming volunteers update their note together as each task changes hands, making clear who now has the list, the next crate or the counter.\n\nCount the returned stock when planning for the next gathering. Start with a modest supply at the lending station and keep the rest of the spare cups on the nearby shelf. Bring more forward as the request list lengthens. To decide what else to change, begin with the comment heard most often from guests. Check the lending totals and actual return times for evidence of that difficulty, and choose a trial that addresses the difficulty those records support."
+    },
+    {
+      "document_id": "24af7e05f9460e8c",
+      "intended_applications": [
+        {
+          "decision_id": "decision_c7a5ccd3f1e9",
+          "application": "Volunteers mark available times before the coordinator places garden sessions on the calendar. Sessions follow overlapping availability."
+        },
+        {
+          "decision_id": "decision_8729fe7d747d",
+          "application": "The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks. A complete initial allocation can be corrected by the people doing the work."
+        },
+        {
+          "decision_id": "decision_5d23452f7abf",
+          "application": "Volunteers request shared tools on the tool list, and current users agree on return times with them. Handover times respond to actual waiting users."
+        },
+        {
+          "decision_id": "decision_1ac6dffd7825",
+          "application": "Volunteers inspect beds and post observations before anyone claims watering work from the board. Assignments follow a shared account of current need."
+        },
+        {
+          "decision_id": "decision_c5430d8600b5",
+          "application": "Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward. Most care periods follow volunteered availability."
+        },
+        {
+          "decision_id": "decision_88c6d406e0c2",
+          "application": "The experienced volunteer demonstrates the activity before the newcomer follows the task card. The written instructions are connected to an observed example."
+        },
+        {
+          "decision_id": "decision_b2aaf226f573",
+          "application": "Garden volunteers and neighbors agree on quantities and collection times together on the board. Each offer is paired immediately with a collection plan."
+        },
+        {
+          "decision_id": "decision_061471c74449",
+          "application": "Members bring one bed idea and its purpose to the meeting, then combine compatible proposals. A shared plan grows from connections between concrete suggestions."
+        },
+        {
+          "decision_id": "decision_34dd090aaf76",
+          "application": "Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices. Pairs are assembled from existing availability."
+        },
+        {
+          "decision_id": "decision_0837251f1030",
+          "application": "Volunteers record observations on dated cards and file copies under the relevant beds. Both visit-level and bed-level review remain possible."
+        },
+        {
+          "decision_id": "decision_f1b96dbf8d14",
+          "application": "Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins. A proposed schedule is checked against visitors’ plans."
+        },
+        {
+          "decision_id": "decision_d13f8423f8df",
+          "application": "Volunteers jointly review activities and material quantities before adding a combined request to the list. Demand and allocation are settled in one discussion."
+        },
+        {
+          "decision_id": "decision_689c0fe67da1",
+          "application": "The usual gardeners list welcome care tasks before other volunteers choose temporary assignments. Temporary help follows the gardeners’ stated needs."
+        },
+        {
+          "decision_id": "decision_22b8508b7232",
+          "application": "Visitors use the garden map first and ask the host about any unclear shared spaces. The map supports self-guided orientation with optional help."
+        },
+        {
+          "decision_id": "decision_a1457af06d91",
+          "application": "Volunteers update their calendar attendance and then mark affected tasks on the board. The work change follows the announced absence."
+        },
+        {
+          "decision_id": "decision_b064e8fe7a29",
+          "application": "Members begin with participation records and choose an observed need that volunteers can support. The next priority starts from the work capacity the group actually has."
+        }
+      ],
+      "text": "Start each round of scheduling by inviting volunteers to put the times they could come on the garden calendar. The coordinator can see where those times coincide and enter sessions that people can actually attend. For routine jobs still unclaimed, the coordinator puts a proposed name against each job on the work board, using the effort listed there. Once every job has an initial assignment, volunteers can swap jobs that fit their time or experience poorly. If plans change later, the person who will be away changes their attendance on the calendar first and then flags each affected job on the board, so someone checking the work can see what needs cover.\n\nUse a roster divided into short periods for seedling care. Invite the volunteers who know the routine to take the periods they can manage, then have the coordinator arrange cover for the remaining gaps. Compost turning needs two people together. Ask each person to mark the compost periods they could work independently of anyone else's choice, and let the coordinator make pairs where the choices overlap. Someone learning a routine job should first see an experienced gardener do it. They can then follow the card themselves with a concrete example in mind.\n\nBefore anyone claims watering for the day, inspect the beds and post the observations where everyone can read them. Volunteers can use that shared picture and the agreed guidance to claim the beds needing attention. For the longer record, write observations on dated cards and put copies in the files for the beds concerned. A gardener can reconstruct a whole visit from its date or follow what happened to one bed across several visits. When a shared plot will be unattended, ask its usual gardeners to list the care they would welcome. Other volunteers can then pick temporary jobs from that list.\n\nAnyone waiting for a shared tool should enter their request on the list by the store. The person using it agrees on a return time with the person waiting, making the next handover practical for both. When several activities need supplies, bring the volunteers together to review what each activity requires and in what quantity. Agree on the portions during that discussion and put a single combined request on the materials list.\n\nLet new visitors explore with the garden map first, with a host available to answer any remaining questions about paths and common areas. Announce proposed path-work times in advance and invite visitors to suggest adjustments before the work starts. For harvest collection, have neighbors and growers settle both the amount and the collection time together on the board so each offer has somewhere to go when it is picked.\n\nAsk members to bring one specific communal-bed idea to the meeting and explain what they hope it will do. Combine suggestions whose purposes and use of the bed fit together into a plan the group can share. At the seasonal discussion, look first at participation records to establish how much work volunteers can take on. Use the observation notes to choose a need that fits that capacity, so the priority comes with a realistic prospect of regular care."
+    },
+    {
+      "document_id": "cccff3c954d5d785",
+      "intended_applications": [
+        {
+          "decision_id": "decision_095faae08d2f",
+          "application": "Reception asks about visitors’ interests before pointing out a starting room on the map. The suggested start follows the visitor’s stated curiosity."
+        },
+        {
+          "decision_id": "decision_3e20cae8aa07",
+          "application": "The guide offers two themes for the short visit and lets the group choose between them. The group makes a clear collective choice within a limited set."
+        },
+        {
+          "decision_id": "decision_954b40fc1668",
+          "application": "Individual labels ask a shared question, and a final label draws together the related objects. Visitors compare examples before reading the connecting explanation."
+        },
+        {
+          "decision_id": "decision_d069333dcdbb",
+          "application": "Visitors write question cards before the discussion pause, and the volunteer groups similar questions. The pause can address shared concerns together."
+        },
+        {
+          "decision_id": "decision_034dcf8498b0",
+          "application": "Room volunteers offer route changes directly to visitors while reception keeps the map available. Advice follows people already moving through the museum."
+        },
+        {
+          "decision_id": "decision_a52c0a61ba2b",
+          "application": "Visitors select highlights from the guide sheet, and reception helps trim them to the available time. The suggested visit begins with the visitor’s interests."
+        },
+        {
+          "decision_id": "decision_ce7fdbc55099",
+          "application": "Each volunteer welcomes a small group at reception and continues with its interpretation questions. Visitors can keep the same contact through the beginning of the visit."
+        },
+        {
+          "decision_id": "decision_bbe43118a354",
+          "application": "Visitors read the story before seeing the object and answering the reflection question. The narrative provides context for the object."
+        },
+        {
+          "decision_id": "decision_2435ae99c474",
+          "application": "The sheet asks visitors to observe first, then reveals a prompt for their response. Initial noticing is left open before a focused reflection."
+        },
+        {
+          "decision_id": "decision_896834903e5b",
+          "application": "Volunteers collect repeated questions before drafting revised room descriptions. The revisions address demonstrated points of confusion."
+        },
+        {
+          "decision_id": "decision_e574ca310618",
+          "application": "Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere. A familiar interest provides a bridge to a new area."
+        },
+        {
+          "decision_id": "decision_47bd37ecde77",
+          "application": "One volunteer updates the time display while the others give room reminders. The shared and local messages change together."
+        },
+        {
+          "decision_id": "decision_93f87b72b73f",
+          "application": "Visitors and a volunteer fill out a memory card together during the conversation. The written account develops with immediate clarification."
+        },
+        {
+          "decision_id": "decision_109bee88f2c1",
+          "application": "The museum describes rooms and volunteer times before the organizer chooses a focus. The organizer plans within visible opportunities."
+        },
+        {
+          "decision_id": "decision_afed3418c84e",
+          "application": "Visitors choose a room on the comment card and then describe the object or moment involved. Comments are first grouped by place."
+        },
+        {
+          "decision_id": "decision_e1233fe46483",
+          "application": "The team starts with repeated comments and checks room counts and observations before choosing an improvement. The change addresses an experience supported by broader records."
+        }
+      ],
+      "text": "Give weekend visitors a chance to say what brought them in. The volunteer at reception can listen to that answer and point out a starting room on the map that speaks to their interest. If someone has been before, ask which room they particularly enjoyed, then use the list of connections to suggest an object in a different room. For visitors with a bus to catch, hand them the guide sheet and let them pick out their own highlights. Reception can go through the approximate viewing times with them and help shorten their selection to fit the time they have.\n\nHave each of the two volunteers on welcome duty take a small group at the table and stay with that group for its early collection questions. Visitors then have someone they already know to turn to as they start looking around. On a short guided visit, the guide can name two themes the rooms will support and ask the group to choose one together before setting off. For a group booking in advance, send the organizer descriptions of the available rooms and the times volunteers can join them. Let the organizer pick a focus once they know what will be possible.\n\nKeep the route map available at reception throughout the day. If a room fills up, its volunteer can speak directly to people already making their way through the galleries and suggest a quieter route from where they are standing. Inside the rooms, use the individual labels of related objects to pose the same question at each stop. At the last object, give visitors a label that brings the examples together, letting people make their own comparisons before encountering the museum's explanation.\n\nFor the local story display, put the written account where people will read it first, then bring them to the object and invite them to answer the reflection question. They will have the local events in mind when they look. On the printed activity sheet, ask people simply to look closely at an object before turning over the sheet to discover what they are invited to write about. A visitor who remembers something of their own can sit with a volunteer and fill out a memory card together as they talk. Either can clarify a detail while the account is taking shape.\n\nPut question cards within reach before a scheduled discussion pause. Visitors can jot things down as they look around, giving the volunteer time to gather related questions and discuss them together during the pause. Keep track of the questions that keep coming up. When volunteers revise the room descriptions, they can draft wording that answers those specific difficulties. For more general comments, ask visitors to choose the room on the card first and then describe the object or moment they have in mind. That makes it possible to gather comments about the same place even when they concern different parts of the experience.\n\nNear closing time, one volunteer should change the display at reception while the others give the reminder in their rooms, keeping people at the entrance and in the galleries informed together. In the weekend review, begin with a comment that several visitors made. Check the counts for the room concerned and what the volunteers observed there before choosing a small improvement that fits the experience recorded in all three sources."
+    }
+  ]
+}

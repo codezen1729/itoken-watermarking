@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "request_id": "bd3369e6ef41827499951287",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_527d34bf9a85b6d443\",\"sentences\":[1,2]},{\"id\":\"O_a50ee6b11b4315bd89\",\"sentences\":[3,4]},{\"id\":\"O_53cec8bf382cff965f\",\"sentences\":[5,6]},{\"id\":\"O_a09193890f57c554e1\",\"sentences\":[7,8]},{\"id\":\"O_61cbea561734fb7778\",\"sentences\":[9,10]},{\"id\":\"O_360abaa77ddadbd899\",\"sentences\":[11]},{\"id\":\"O_aceb15e0beee6c9476\",\"sentences\":[12]},{\"id\":\"O_5355fa69fbae4b99e8\",\"sentences\":[12,13,14]},{\"id\":\"O_2cb270561034b5dabd\",\"sentences\":[15]},{\"id\":\"O_e37da6666c564f9187\",\"sentences\":[16,17]},{\"id\":\"O_b181332c0a846bfb94\",\"sentences\":[18]},{\"id\":\"O_1ddfec29b3f2c4eb29\",\"sentences\":[19]},{\"id\":\"O_209e8ff265e4a9d726\",\"sentences\":[20,21]},{\"id\":\"O_1531a8f0293ff0b945\",\"sentences\":[22]},{\"id\":\"O_ab97a91af020b57ec8\",\"sentences\":[23]},{\"id\":\"O_3d358ee494072cb49c\",\"sentences\":[24,25,26]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "19b6127da22664553601f3b6",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_8cac16caa1a85206fe\",\"sentences\":[1,2]},{\"id\":\"O_f40bc51d183e319b95\",\"sentences\":[3,4]},{\"id\":\"O_d0d4e9b32e92873791\",\"sentences\":[5,6]},{\"id\":\"O_ad7d23aa9d7d893288\",\"sentences\":[5,7]},{\"id\":\"O_a15e1cc76e165d0ace\",\"sentences\":[8,9]},{\"id\":\"O_fda6623c8272e88d75\",\"sentences\":[10,11]},{\"id\":\"O_191d96e52da5dbfed4\",\"sentences\":[12,13]},{\"id\":\"O_51d012596024c0413a\",\"sentences\":[14,15,17]},{\"id\":\"O_1f13c796d5bc8a8510\",\"sentences\":[15,16]},{\"id\":\"O_1b8c388cd7798ef59f\",\"sentences\":[17]},{\"id\":\"O_3d4e776f44f4b1ea1b\",\"sentences\":[18]},{\"id\":\"O_53e913fb4d50878a5e\",\"sentences\":[19,20]},{\"id\":\"O_88db1413d7f6a49643\",\"sentences\":[21]},{\"id\":\"O_7140015649be935fdf\",\"sentences\":[22]},{\"id\":\"O_290fc630e88ad6a40f\",\"sentences\":[23,24]},{\"id\":\"O_91165d2db1a1e1062c\",\"sentences\":[25,26]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "be9801edd562a735390bdf74",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_efedbe15fd3212c0d7\",\"sentences\":[1,2]},{\"id\":\"O_00f1aa6eca8ee57ad3\",\"sentences\":[3,4]},{\"id\":\"O_5514db515e9c766a8b\",\"sentences\":[5]},{\"id\":\"O_4ddb275eca274ee450\",\"sentences\":[6,7]},{\"id\":\"O_991616a9f2e8afd2c1\",\"sentences\":[8,9]},{\"id\":\"O_8eefba1cfce4bd3f15\",\"sentences\":[10]},{\"id\":\"O_f5dc83fc1190179494\",\"sentences\":[11,12]},{\"id\":\"O_e07ae5d77fba7581a3\",\"sentences\":[13,14]},{\"id\":\"O_7d50689b682a7f4957\",\"sentences\":[15,16]},{\"id\":\"O_8e72979ea6b5b59fb6\",\"sentences\":[17,18]},{\"id\":\"O_f4d4705924352a91ea\",\"sentences\":[19,20]},{\"id\":\"O_f2b776d3ab864546c9\",\"sentences\":[21]},{\"id\":\"O_9be690de0efce4ace3\",\"sentences\":[22]},{\"id\":\"O_33cdc6ec2a8b8a105b\",\"sentences\":[23,24]},{\"id\":\"O_fd06524563ce90564c\",\"sentences\":[25,26]},{\"id\":\"O_2121830ad1d6c5e98f\",\"sentences\":[27,28]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "666afbe944505988137c93c5",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_d7d1265d8f32a1154c\",\"sentences\":[1]},{\"id\":\"O_5f47af7fcfdd3c1227\",\"sentences\":[2,3]},{\"id\":\"O_86c200f342d6c41eef\",\"sentences\":[4]},{\"id\":\"O_c896d0a99fd2259cb0\",\"sentences\":[5,6]},{\"id\":\"O_f07da8b6fb832cfc72\",\"sentences\":[7]},{\"id\":\"O_fef7e789cde4559fbd\",\"sentences\":[8,9]},{\"id\":\"O_7e9987e9aba31a60af\",\"sentences\":[10,11]},{\"id\":\"O_8da84947da7b0ed82c\",\"sentences\":[12,13]},{\"id\":\"O_2138eaa930d3f06741\",\"sentences\":[14,15]},{\"id\":\"O_0b3daa35231d7030e8\",\"sentences\":[16]},{\"id\":\"O_776afb57f4e3031581\",\"sentences\":[17,18]},{\"id\":\"O_7a7345325564c94cf8\",\"sentences\":[19,20]},{\"id\":\"O_993720f3cab5299644\",\"sentences\":[21]},{\"id\":\"O_b1c2d05c126aa35faf\",\"sentences\":[22,23]},{\"id\":\"O_a8af13043de1ba8993\",\"sentences\":[24]},{\"id\":\"O_5de9242506f2e76d38\",\"sentences\":[25,26]}],\"ambiguous_decisions\":[]}"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "document_id": "959d558bac444aca",
+  "unit_id": 2,
+  "problem_id": "problem_d062cf0c23f8",
+  "public_demonstration_key_hex": "c6ec8e299bb533cd5e032a4170272504fc565d93e14ad0b3dcac2d4ce741ee5f",
+  "surrogate_keys_hex": [
+    "a8a38b954182a1556d623af3dbc3da53ccb8dd3a51afa07431e19c7599cd5190",
+    "cd5c6c972d360ca13d21c981e84911dedbdf67281d64b2948d7366fb33112ef4",
+    "2164b6365382819b9cb1d5bd3b34b8244fef189ab450aa24dd8a1595f7dfcca4",
+    "dc2f7ea45a7b323d3b516b9d3f7ff78f5b123e73d96dd869bc000703fbec863f",
+    "8ac9319a2cbc4c3990e654da08e2da7d9d8b22d8001b57383f07a29ada4e9b65",
+    "26e2767accd014ad6ae41b059710ffe374d3653f47cde60fb30da45fd38b2e94",
+    "ad54858a0983b198ed364fffd9bed98b81d6f9a1edf0d6f06fe1c12db75a6e3d",
+    "25827a3bf8ea4f8884c716c592ffe5bfce565bb9eb0bfe3e7f90c7b1468d6a26",
+    "467aaf4630968e7516db250444caa2c78f82ed6a49e8ab94727af129b9a2fde7",
+    "303279978e7b31a5df7ca6066344f5439f1a32a3fd9cb666bbf5b04576ead2f8",
+    "8facf7b647c8f2b1edbf011bfb5046de33bb036f7e4ee22c748092af9ca714a8",
+    "abb3bd4aa4565c28f524cd1fa924879f5b4cec3d0c6eac41733b95b68a9e94e2",
+    "10c16ec18a3a3582cbaa27a2ca04a5520eb63c05e065007043676a1e7dca289a",
+    "e6364050be45f4af510e0216e03183cc68cc6a6196f59c5222e5c7dc49971add",
+    "083a415f24e68dda2bac8a2cfba5d55ea4b82926799aac02dcd0a5dfd48131e0",
+    "f4673ba84558432a631102d14000c74293993bfce7ef08ab6056f5a18f894b01",
+    "2a1e4120587ee1fa88e89ec0fc898740f7298b7305d91cd86958ac1d2490bcd9",
+    "daabd5ba0fd946da6e90abf652cbde7cb632637a03049cfd0500e727945234e5",
+    "4ae6a35bd7da9aa5ab19b366268b2ceccdc1033e878c5ee53779ef31d360e338",
+    "0dc0b6792265dd9438f735a78126b287761e9ec5ddf1ab9a236d30d478eea893",
+    "a3c05977f937c4a264a727d1e6e2325fe6077d7f55b82bc9c7e3afb5021d61b5",
+    "2e63fcc29043413b71072929de7d635a59b69b0f025ea07512fc6645ae13d58d",
+    "06d40f8e3f6a9363dd928c568c0e2be7726052ccaf1e7c7806e1b1db43a9bc57",
+    "be20f22fa0d5fb44dc842a5457fd5f408fe6db8506072f66633c088d27b2a6b9",
+    "df7119af5d425ec5b56b6c4993de111faf7b2ee37e5b875a8c4f5fbad5832f5b",
+    "aeb0e2ff9e7892ff1d6f17821fed51ba0689deda7de1629cc23607dc1a5a9992",
+    "1600697fc1b9c2502046c5238dea9b2421691173a281d063b3fa4b90dfceedc8",
+    "aecc45f75e8841b5c69ba9f79a62a57f906afb5fafb2fd135a1e4444718650a8",
+    "741b8058648f3781a82aac7cbb2bd3f46ee19f4b75549d3fa73ccb065682ee6a",
+    "283fd74fadbac796264c1a22a0fa6d34d184980cb98d4d8d3eb2a580afb11942",
+    "91403292f66b124e0bdbed6fdc3d66339af412579be5f0a3f7f8b9dd25517a90",
+    "6ede3c55e60599016a5dc9aa23f542b976e74b9de450343d55a14eee90eaf438",
+    "9d9d2a0ae89b7a13915ded4db4313460ae8a27dc5359a743cc0b492b0495beb3",
+    "f8a512fbf6c6086fdf4c3ef7f34605458aa8df37a8b575dc13921e391d3b79bd",
+    "462f819d601c80315089c088a8544202d3e5605088ae0487fa1acadb579cbf1c",
+    "931bfc72cc697c4e507b338a8cafd06a8a6c8b5596dc131050f8a26aa2848ab7",
+    "bb4fb03f0681ec320df79ca28ea1c614d4e2c90e131616a672c369739040010a",
+    "f26e3a33e5c6b630c3550bb63d70127269abc7e02a7b23e0b722284a4d7910ff",
+    "9d81a16437133e70f36cd1c4d6b1e1ff2d51623155946c96d59289b41e9ec93c",
+    "b4b631eb1a7cb8e6d7a4f4300c7cf835d5d4c21f485948fc9242a314155ea530",
+    "75ba7d20e58bfda8ad0aed200cdeb1f9e77e09bb941a7460d7661e4c016ef0b5",
+    "b1f8fb5cd614fe951fe0f69a934ae62cbcfceb85b21b6b89ebdbb4464189e31f",
+    "8d657a2b90a5ca263170a4ffcfa5d4cc063d309a390d324a82657bfc102f84f8",
+    "4ce54f66fe80850bcd3f31c18a372f1b7693d24f1dab05baac41d8c5b060209a",
+    "141ff9d277472f59029f37c82e754e79080d2d5fa93d22f1c11ef22554423cbc",
+    "38c90c9144633bbd5237fc91476dd3bbddc58ca1beb2658527833af29ec38d5d",
+    "5572e128dc301867b8419875a798f0332feab775a0b6a63c5355b47121c7aa3a",
+    "1d91c12a13dfcded33bef3663c271c7c29df7d8d4f0dae884ac763274afcb559",
+    "b25485eb729ef3418ae97a4ad7b9ac0db9d7d502ee7befcb8b85e60d0b67eb29",
+    "cc8185847f00876bb98e04d97d0f9e75298b8ef2b828477ac69d7bbc42d83a3a",
+    "4fa37870c7d4cced94440e6b1303f14f0a1e5e07d15a91f97892842820d554b9",
+    "5d7eb3f4f5527c00e1bf714f32d79868b53ef1086d96eb29c409e9f782275763",
+    "fde8dea6388608a16dae66c977e927651cc589ab0d5a455756917dc2ee04ff1a",
+    "be9d756f65e74961b14ef74caf3fd8ecf34251c68b177151a890aa0530d310bc",
+    "b58a49572d5a03ef70478292e6af5731fcc09a2a6608879213b850a94cb77c97",
+    "85d5a29600641845aba49d576a257f3b7e8224cd0edb32d2e0afdbe8cb63e9bc",
+    "4915b09aedf10d816b0d97bd1770d1cafeb1a52c140da5405eaa35c6e18e8379",
+    "a4d01e154726faa4bfbc83388150f8ca955fd70d52053f07d329ccbb4aa1750c",
+    "46a22450f66a6b2b2e1c58174addcf0fb1e1404b4d7432a38765f3c161b48e16",
+    "63546a6f0dc14bc27d7dc0ee7de0ff87938d6183d9f887f77c10f51f214cf654",
+    "dc623d7823ec0232dd3109f63ce0e1036ede7879d359c4ccbb4af54c2be1229d",
+    "4922e76d850b4083053d44188994f777406e70221d40aaa9a64a84b1290907a4",
+    "812610169a9163b04575b253ff3564387ad18da5581d7f10f46ca71c261b4daa",
+    "64584b962bac72c5cd9905a49e8481d2dd2611a09e3fdc2dc887f114e6483ccd",
+    "18b2b8cf61179a771e5bda6824fc77b8cb7da5d2fdd831022caa30885e548777",
+    "bb6382156d1be89e4349750e8ea3305c93f71e39378b43167803ed1c55827256",
+    "6369855f55dc0c4bbadd4c1d8dc9670214200aa4858d2de463bea296afe5a9bd",
+    "45f4c5545f23da45bfe25ff5da00c7c1aa83350a5f1473af1dfa550c39fc3a18",
+    "6c7bf5bad25e7192eea6fd475012cef36b3d4dce71d87eaa8323ff66bfe0dc68",
+    "7edcff8c4c60adb30b58a599e44efefca78d12b44b9c2e9546b5bbf8497320b8",
+    "24423f4c8fbbd3083421e935b7a3ddf02ee04c93a325187e3abdcfbf8421fe76",
+    "0cb5424c40dd12eff5d7afcb04136d3fb60e2b2e846760e0f425bf4df02a1c78",
+    "24ab722e3f9e6c2f6c19ae7a9ca383f4263a2296982d85ce857055f287fe4591",
+    "de5ad4ed46f5caab028d1e14f9770ada935987b3723b5fc56d87c92c7adf8eac",
+    "b2382d574b196f1ec99f5ff8f880d936bbdf61b8bd84ece583288c4b89e3ac7c",
+    "25c34e8099d13bf2d0ef89cf7f88a58aa18c39df43f3507fcaa612bb29571016",
+    "1f62ffde1c855137908ac514bf9f21af60ef3f0ba5a3675890f6026f1cfaafda",
+    "ee3c7617dd1d8e106c7c79afc3b6610c18c88ee533af569fbd609d97263322a7",
+    "d5cacfc4c07d1e10594a578c54aaf7f7d18979d75e6943a51e086cd03d0de957",
+    "081625785d4e4a6e41996845caf6ef6f4cf2bc5a7c7f4acb2a5878765f08a8d8",
+    "769004807e94503401c445d1fc7dc32f668b30cd7c0b1dd93c1067bae2c8b75e",
+    "9f597c609e7c03137a2fa6a26d4c6a67290825a803f056230049f82c601f8cab",
+    "9ab78f0f014c3a4312e5322543352a69aacfefccf6d78515b554feced06195e6",
+    "485f87ed09fe84ea6311c7a5f5134d6769a89c5181b62b0644f9b2697d7e4e2c",
+    "b95cde66b1a6c61b720168123f361281403552bf6fec165612080cb11c5072be",
+    "c1b0ca64dc6971c9986475f821b748ce4b7d713cb6a1283b0840f63500208a66",
+    "8cfcf7c8e198d289e26ac9bf050686b973f7003c4aebf3144c5b6fe0640d9a33",
+    "1aea9f386201bf7fb022445aa1d78491a69a7fdb96092b527f676b49b5dda652",
+    "97cc5edb708458beecae4e7295eb6fc617d078bbea35449bec397120184e0004",
+    "3bbbd74aa1529bd9042ebe8bd11cfe11a0b7527d71f3d955c4fccd2f7c5d2b73",
+    "6be76d651354b169199243c86ad7c9b7409054268c9a3a7a4632b03ef8633944",
+    "7a575d6523a0d380c8b1a8087d6d70ff33e6e5231e279b66acdf62560f95b003",
+    "9aac91b234a32acd399a5d020f35646ab5de081ae771e2119ccb350136011f51",
+    "26ad992e5dd2b1d5837475cd76fdab00a5e963c9cb785749639797d40b9d39d2",
+    "b7b828b39337c191a23b9f4c78b027a1378243af5b92c3b862425227d68f1225",
+    "14d75e5e95088d676b9dacf0d670249a9f960e9b201d569709a173a75f8106f1",
+    "a13a6730c7f4c0f1e5f15aaca7e28db94a8da97caa8b0c6848c336d50b94e277",
+    "bcd31c92000fb626c668306b0fa635c6c2b2c6a1c3fc657cd1e40d1b78bd9b98",
+    "85b487e0157883b5f6fd70f6175eccb338ca3b2e0044f8fb58681b5d07b5014d",
+    "c06858b757b7578e78bad15881c4953270c0777364ebe637f8aa11feb259c741",
+    "522505c82656f8c8d44018c3963bc94eac6fa19776a843364e53412e262d2378",
+    "8d6f5df304e57660e86c6e8d27e8adebb46b9cf3947c611c8821497fd06ef1d9",
+    "6d9797fe0b9473f8df13e190bce8b99fdaeed5cb11d257f8c183111f8d9160b5",
+    "0ece0d720f04621a1eb66bf4b8a60859a47c5f730989b91e871526b247b8e668",
+    "e134441fcc0d9bc70d3f8717936f40970a590b00e458061cde880ca33106a53c",
+    "9d0d46b1c7cf63bf80c20d2a974492050a18f691512a2eee2587bbb6a006b5ca",
+    "e576ee967e006c03abb7ebf25a17d0f221ca26c79a7da0c1ebe59e7243dcdb58",
+    "c463ecd973577c3e48b5141aff4e68cee4db58fdb76e7f2a44828dc1237e5a8f",
+    "44927ef9905ca7bb7513d6de32d1419a606d2a7f27dd929f8a6abeb667e736c9",
+    "7d19550edd45ba7494a0ea012b26d10513f5bccba66737f5e07717d883924158",
+    "4190da8d43eb886da4d6ecfeebac976e462db1ec2dadb9763e8a96d27410f3d1",
+    "b1ff5ad522bfd67cdbfa5eb2f4a6c4bf6b976e98e2ae7a8146721b5456fbc06d",
+    "9141661465d10165abe88ff77e1398d632fbce282fe369f62ef5231d9c7bea4f",
+    "0aeb5a2c08e0d3feff602401bf069010df028fa41a07e33e736a590ccafcffe7",
+    "f1d61ac99377ffc554b5b47501ce0609f72ebdb9eb7841e132ad5d4dcc06bdaf",
+    "5196e90c13401323fef7521e81b671cd390b1fb2b2c9b99e850ad9fca8b4211a",
+    "3a892dacdfa788db51dce17018ba5aa717c92e6413523f7e5f85c8c0f665d7db",
+    "02cce62dabdb45474e7cf0166a8f0e28c591ebcef8f50619bb290fa7b4632816",
+    "9da2ef5357e7550cb68611043fb320bea87efa311969d619d0bc23c2d8a0f941",
+    "3b8b56bbdc848e12495f374a1452d6310f36bddb9e27c77be823596290b96a5f",
+    "467a85c6965e71434e4cd608440e71258ac25ab45a33407fbf9304797204c6c4",
+    "0baf36a1ad9f4d23ac7ccffaf28e5c1621c6db09aff8eb61be3a633f1beec1de",
+    "605bf0d8a292f41686d06e3a320a62d9e7aac6d3f4d2300c96cb0a52bf7d5c48",
+    "0afa45a3fd6983ebf2c2d2daf3a84047b730f186ae2afe60702a38ab0645604e",
+    "49b231f6cc9239d65f093cd61493623344a3488efae144e83ace2aa167adfe8b",
+    "ff7cb26a692a01351d60560d70a7baf087d85fdf1fcbe9d0e73eb260aeed3bd8",
+    "d1ffd88afb9168b606ddcb4d1ebeab2ecf871c974322f4566fafdb7935cef60b",
+    "420692908acbcadb51cd949fb198cd6601b8213c89901cca513ed9a370f0f205",
+    "a3161489f9ff3805f9d916cb24fcb0324d98f528efc2e3f0997b9a10cf3ea6fe",
+    "bcaa78fe9664fa8605b8062282ad854d95047a69007b5a382ac0b96ec0024b5d",
+    "107fbd04561b7d7b268e8edef8db3eb3d04cf74cbde19bfbc9da5d9f497b2051",
+    "94bc018feb041c246ad43611b87c5992a6a7df3be33b6749304c4720ce3bd152",
+    "119ecff539096b47b50a906fd82d28b559b6002b082d58f9591b9677d188c8a8",
+    "61712415f2654da2f9a191e986a9553ea67cd3644a37b9e61d544acfb700e655",
+    "337660b38130460045ce7eea3681702cdab4e98c78babcb5a622a371d463e492",
+    "84ef80dec3607e0f5e929b5e801a91f5cfdc24e4442b49b8b97769e72a1fcd81",
+    "f6321c118a3f09c0c1e3c21cf40770a52ab4985838b33fb7c40fbe82d7ad8f7b",
+    "9e42f6a187c84ce6fd3eb76e2ac9ab8f8487d0c5392bca9d559ffaaa77c9acc3",
+    "a2291caf233ca7a7fa6da157178b3e25cf22120eacda318ec1af18bf123732d5",
+    "9ebbb2ce7202d8dc42c80955735c31e44401de015df3f85309cb1da52c089489",
+    "dbe9293f38af775fefbe930479287021fd421affc99e2e4dce73106607d753e7",
+    "9f1b63935c2bb74a3d1b606594607b09443542da775024de445f536bcf37b39a",
+    "31c82d97ae20794eb50bebfe200aa076f057c18a228c8076ee4aeaf8e2f33bb0",
+    "db16cfec69fdaf24e45e4d3caff2c719dda07b600004ed149324f5432edbc61b",
+    "4d2267b58b1207162fefc95c150137dfabbbae65282cd1dd857b1e7d4a8dd811",
+    "07aea5e73684b86c3c7c556e903c4986dd094c219fd2890f247af37bacdfa548",
+    "c1323b8f019b0ae03c6fbc53a970971d3541c89f20e4e95348d40369402033b0",
+    "0f54508d537176a59f9e9736d2fe009e193acbdd32d10dad120e3f91e9ff83eb",
+    "9026559c37f3450f3e39aca237b21ffd0a1b7e3265558294d67523e0757a712a",
+    "bb0859539cbf4a6e6f8b98e3a662d6f0aac71e0fc115394088ee4aa7a2fe9070",
+    "cb80f46b5b678c0e82481eb42906434706a2ebd14aaf0a52b261b05a588dbc39",
+    "8889190ba547fcc29abe80b9882cd65e296b9531ede69f4bbcf9af91e0e0d626",
+    "e636ac7a0c3837e24034a11c14dac38aa16516d4ff9cbbe3cd226db76b748451",
+    "bc52f12e5236236e48870d813bf105cf42014df9a5e2bfffdaa5ca54c10e0336",
+    "9533f7db669bf8683049204bae4630bb6e101d1c3d3662a2eda2303115c41ae7",
+    "931168e4dd6f0acfd65dd0b4a301c713097b59346b5d9a71e237ac929c8a5cdb",
+    "c61bc3568c8359ab9f134d9d9290fdb4459eddbad458fcb1db3dc73248f83242",
+    "4498bf1b190b7edddefb6842025e9bce5e7d145d72b061ecbc467ddd08130e26",
+    "139a44a407480d2d0a95e6eddbb0edb5d79dcdcf6ff1d269fd8952e42db12e2f",
+    "273b2980095b557a4a236cf24547c7f8b0b3345ed1e18b0b6ac4e999309485fa",
+    "d030c17901266451fafc1beb6f18fc8a3244d913236dd67204483fd6acca9cc6",
+    "d7bea00cb12d5f8b5cb9fecf1faf642b38d1c5f537a2506c82c2a87917535a93",
+    "1db4db16c6e3afbb6a69130a25214c17c8ec5d36cb4424c9f1fbbf6fc067f944",
+    "0216d5ef5ee1e3e39bcbf4dea796f28b960ced058ee492c6bacb467067dde279",
+    "21d15220a580a9e7588f1490046bd2c142049679f2218d644a31a0f95accf47e",
+    "9396e70fb948ca7750953bd4044801ae6e7de0b6ef0f868157c01d545fcc41d4",
+    "69ec471a64617dc7f976786834474abcca91f91094b310123112e1420ecad4ed",
+    "3ed405739376e6d93fbb46f94b1686ea1ed4e1ee853b7f2336f0f89d437e18bd",
+    "bd96dc56fea99f8cb0a0b868de8e196c39c8ff3118a29c55af77467ef1ca02ba",
+    "b0090755ea8f5320a7c81f13500e919c7a1fa7725d729db8fb7b3614fed5a73d",
+    "9a97f7e9ef23a831cbfd0af8b2380658cec5a818c90795e476ed494c39f5c89a",
+    "5eaae52af8a52ff0cf00974e20506d80fc79804547226a0112e0c03cb387e308",
+    "59b1c509039a408a360b9976cfebadceeb52b83bb13a4f2cddfe27da3b810d02",
+    "6e2b0912d4b5c9d2699dc5d8385321f6f908fa3b39e4603dbaa7e95c5e20a854",
+    "f72ba80ef73a22adf6e610b1234d9b554d4f8948a181bfe59f0961ca14363897",
+    "0c112c127a2a570ef0f00b37b9221e36b2eef6b413e141016d08814093d554cc",
+    "912e41f44b6dc804e1429d7fed5123916c15eee25067b6d7cc892ef1b830d194",
+    "21ac7bee208a57dc2ea65d5357dacc3805e210c770239238fa6e65b7241dd53c",
+    "8208bd658efa58bba21c575dd98fd5576c2c09e910a6aa9f23ff935262574507",
+    "12fc193173eb568596b25bdedbce39371ffa68220f8d999882fdea70c2486c4a",
+    "e7ddba76b816daa489dbb9e22ad0c129816b548173ecccacdee59181b607a3ba",
+    "117e012a83e379a9cb00f8b1ee30696c5d9eb11877b3be28d9ac52e1b861dcc8",
+    "2ad691397728ea772ce8336e3744ed4a6dff2135b7fbad7a402a298d94a2f4c1",
+    "b3a0270308227617908538f2fca584ce7a0f2947bb981ba36fae228490feff0d",
+    "d63fe989962a093d61563675023fa76fbb5d4dcc2aa890c6b37d53cf026ab17e",
+    "00926a2110629b70767f69f8cded8ef9ea816e551c7bf02375404b518dca32f2",
+    "59d3b24ce61b2efc26794c4e80b6b9562aa49c75f56ee126dee53e6487ba9603",
+    "37a38f5236f4cd53dfb9371e82bb88a57b63b9826660def08c516b082d943ccd",
+    "2b9748549575226295bd1e358f513e2410d7b89c1db7ed73cced16ba6cec4ea9",
+    "4a18e54f0d4ce26fe20e363461b6cd715d5135c4f9e3f8a81aca90faf0751597",
+    "37fa4ceb0e8bacaca933c54c597ff8e43a4048bb2fb46c52d66db79c5e5f8c33",
+    "92290ad706305ea23e045770c66923a38cb8bb24927d66c515bea3b29cb5c98d",
+    "c54abbb0d8f14c938d2d7eb5274ad9372f0e3e70743daa5f155cf0f226dc0a87",
+    "1e8535c62bec645bf713e38830d01e55181a45b565f5e20f692560621ed4919b",
+    "a79c67dbad99322da378a141e88fada0916e98fa290a27de17594a0cb343868a",
+    "345bffe76c770c40abdf223564a71198ee9fbd1da43770d9f76b7e07ba9fa0ad",
+    "90176d68142e3289b47fe7a4a0cbf5dee32ed9112d8721328738ab93c9d24cf8",
+    "dd188f3d74a620be7c7aaca194f3938dce22472778f83fda8c2affc988682a5b",
+    "abfc9e265cd48e23e36a54490520344e4c0a021b2425c2c1e828d5dc8d7cd7f5"
+  ],
+  "sampling_seed": 1703,
+  "condition": "unmarked",
+  "choices": {
+    "decision_c7a5ccd3f1e9": "choice_6113d06e3812",
+    "decision_8729fe7d747d": "choice_515c94e16578",
+    "decision_5d23452f7abf": "choice_eca83556cff2",
+    "decision_1ac6dffd7825": "choice_787c4cd12ef8",
+    "decision_c5430d8600b5": "choice_0ac925c0bd7e",
+    "decision_88c6d406e0c2": "choice_7a621bc218fd",
+    "decision_b2aaf226f573": "choice_35a3c5bf5734",
+    "decision_061471c74449": "choice_497ba0c66024",
+    "decision_34dd090aaf76": "choice_bd7810e13e65",
+    "decision_0837251f1030": "choice_6d126bbb5f93",
+    "decision_f1b96dbf8d14": "choice_b9be38b199e8",
+    "decision_d13f8423f8df": "choice_d5c97138c134",
+    "decision_689c0fe67da1": "choice_f860de8d5f6f",
+    "decision_22b8508b7232": "choice_d097a7704a31",
+    "decision_a1457af06d91": "choice_0890167b2520",
+    "decision_b064e8fe7a29": "choice_eef28e259c03"
+  },
+  "policy_rows": [
+    {
+      "decision_id": "decision_c7a5ccd3f1e9",
+      "p": {
+        "{\"consequence\":\"Small groups can form without waiting for a complete schedule.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers add garden sessions directly to the calendar and invite others with matching available times.\"}": 0.1486218373234238,
+        "{\"consequence\":\"A proposed schedule gives volunteers a common starting point.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"The coordinator places possible garden sessions on the calendar before volunteers choose available times.\"}": 0.3775326675852379,
+        "{\"consequence\":\"Sessions follow overlapping availability.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers mark available times before the coordinator places garden sessions on the calendar.\"}": 0.4738454950913383
+      },
+      "q": {
+        "{\"consequence\":\"Small groups can form without waiting for a complete schedule.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers add garden sessions directly to the calendar and invite others with matching available times.\"}": 0.1486218373234238,
+        "{\"consequence\":\"A proposed schedule gives volunteers a common starting point.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"The coordinator places possible garden sessions on the calendar before volunteers choose available times.\"}": 0.3775326675852379,
+        "{\"consequence\":\"Sessions follow overlapping availability.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers mark available times before the coordinator places garden sessions on the calendar.\"}": 0.4738454950913383
+      },
+      "uniform": 0.5213666439017135,
+      "selected": "{\"consequence\":\"A proposed schedule gives volunteers a common starting point.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"The coordinator places possible garden sessions on the calendar before volunteers choose available times.\"}"
+    },
+    {
+      "decision_id": "decision_8729fe7d747d",
+      "p": {
+        "{\"consequence\":\"Self-selection handles most allocation before gaps receive attention.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers claim tasks from the work board, then the coordinator asks for help with unclaimed work.\"}": 0.2255584230450672,
+        "{\"consequence\":\"A complete initial allocation can be corrected by the people doing the work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks.\"}": 0.6668528333113807,
+        "{\"consequence\":\"Preferences inform a more balanced distribution of work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers rank tasks on the work board, then the coordinator assigns work using those preferences and expected effort.\"}": 0.10758874364355211
+      },
+      "q": {
+        "{\"consequence\":\"Self-selection handles most allocation before gaps receive attention.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers claim tasks from the work board, then the coordinator asks for help with unclaimed work.\"}": 0.2255584230450672,
+        "{\"consequence\":\"A complete initial allocation can be corrected by the people doing the work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks.\"}": 0.6668528333113807,
+        "{\"consequence\":\"Preferences inform a more balanced distribution of work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers rank tasks on the work board, then the coordinator assigns work using those preferences and expected effort.\"}": 0.10758874364355211
+      },
+      "uniform": 0.8491194277160564,
+      "selected": "{\"consequence\":\"A complete initial allocation can be corrected by the people doing the work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks.\"}"
+    },
+    {
+      "decision_id": "decision_5d23452f7abf",
+      "p": {
+        "{\"consequence\":\"A common schedule coordinates use before individual handovers occur.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"A session helper sets shared-tool time blocks on the tool list and lets volunteers claim them.\"}": 0.7822664518397323,
+        "{\"consequence\":\"Handover times respond to actual waiting users.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers request shared tools on the tool list, and current users agree on return times with them.\"}": 0.16117443322310254,
+        "{\"consequence\":\"Later users can plan around the announced returns.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers write their expected return times on the tool list before taking shared tools.\"}": 0.056559114937165055
+      },
+      "q": {
+        "{\"consequence\":\"A common schedule coordinates use before individual handovers occur.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"A session helper sets shared-tool time blocks on the tool list and lets volunteers claim them.\"}": 0.7822664518397324,
+        "{\"consequence\":\"Handover times respond to actual waiting users.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers request shared tools on the tool list, and current users agree on return times with them.\"}": 0.16117443322310257,
+        "{\"consequence\":\"Later users can plan around the announced returns.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers write their expected return times on the tool list before taking shared tools.\"}": 0.05655911493716506
+      },
+      "uniform": 0.843682413872814,
+      "selected": "{\"consequence\":\"Handover times respond to actual waiting users.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers request shared tools on the tool list, and current users agree on return times with them.\"}"
+    },
+    {
+      "decision_id": "decision_1ac6dffd7825",
+      "p": {
+        "{\"consequence\":\"Assignments follow a shared account of current need.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers inspect beds and post observations before anyone claims watering work from the board.\"}": 0.3034153252967977,
+        "{\"consequence\":\"Responsibility for observation and any needed work stays together.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers first claim beds on the board and then inspect those beds before following the watering guidance.\"}": 0.0922524800203147,
+        "{\"consequence\":\"Observation and action can proceed with distinct responsibilities.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"One volunteer posts bed observations while others claim any resulting watering work from the board.\"}": 0.6043321946828876
+      },
+      "q": {
+        "{\"consequence\":\"Assignments follow a shared account of current need.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers inspect beds and post observations before anyone claims watering work from the board.\"}": 0.3034153252967977,
+        "{\"consequence\":\"Responsibility for observation and any needed work stays together.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers first claim beds on the board and then inspect those beds before following the watering guidance.\"}": 0.0922524800203147,
+        "{\"consequence\":\"Observation and action can proceed with distinct responsibilities.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"One volunteer posts bed observations while others claim any resulting watering work from the board.\"}": 0.6043321946828876
+      },
+      "uniform": 0.19854274564589525,
+      "selected": "{\"consequence\":\"Assignments follow a shared account of current need.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers inspect beds and post observations before anyone claims watering work from the board.\"}"
+    },
+    {
+      "decision_id": "decision_c5430d8600b5",
+      "p": {
+        "{\"consequence\":\"Most care periods follow volunteered availability.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward.\"}": 0.123039862651999,
+        "{\"consequence\":\"Every period has an initial owner before adjustments.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"The coordinator assigns seedling care periods on the roster, and volunteers swap periods as needed.\"}": 0.8767148226573859,
+        "{\"consequence\":\"Each handover has a familiar partner on the next period.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Pairs of volunteers choose neighboring seedling care periods and enter both names on the roster.\"}": 0.00024531469061512916
+      },
+      "q": {
+        "{\"consequence\":\"Most care periods follow volunteered availability.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward.\"}": 0.123039862651999,
+        "{\"consequence\":\"Every period has an initial owner before adjustments.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"The coordinator assigns seedling care periods on the roster, and volunteers swap periods as needed.\"}": 0.8767148226573859,
+        "{\"consequence\":\"Each handover has a familiar partner on the next period.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Pairs of volunteers choose neighboring seedling care periods and enter both names on the roster.\"}": 0.00024531469061512916
+      },
+      "uniform": 0.01245183010272366,
+      "selected": "{\"consequence\":\"Most care periods follow volunteered availability.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward.\"}"
+    },
+    {
+      "decision_id": "decision_88c6d406e0c2",
+      "p": {
+        "{\"consequence\":\"Questions can be resolved at the moment each instruction is used.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer and experienced volunteer follow the task card together for the first attempt.\"}": 0.01090647870977459,
+        "{\"consequence\":\"Practice begins independently with a later correction opportunity.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check.\"}": 0.9808081114385065,
+        "{\"consequence\":\"The written instructions are connected to an observed example.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The experienced volunteer demonstrates the activity before the newcomer follows the task card.\"}": 0.008285409851718955
+      },
+      "q": {
+        "{\"consequence\":\"Questions can be resolved at the moment each instruction is used.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer and experienced volunteer follow the task card together for the first attempt.\"}": 0.01090647870977459,
+        "{\"consequence\":\"Practice begins independently with a later correction opportunity.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check.\"}": 0.9808081114385065,
+        "{\"consequence\":\"The written instructions are connected to an observed example.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The experienced volunteer demonstrates the activity before the newcomer follows the task card.\"}": 0.008285409851718955
+      },
+      "uniform": 0.2386053119788183,
+      "selected": "{\"consequence\":\"Practice begins independently with a later correction opportunity.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check.\"}"
+    },
+    {
+      "decision_id": "decision_b2aaf226f573",
+      "p": {
+        "{\"consequence\":\"Harvest portions are arranged around actual collection availability.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Neighbors state collection times before garden volunteers divide harvest quantities among those times.\"}": 0.9508665986424738,
+        "{\"consequence\":\"Each offer is paired immediately with a collection plan.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers and neighbors agree on quantities and collection times together on the board.\"}": 0.0038155905751877605,
+        "{\"consequence\":\"Collection plans respond to a known available harvest.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers post harvest quantities before neighbors choose collection times.\"}": 0.045317810782338375
+      },
+      "q": {
+        "{\"consequence\":\"Harvest portions are arranged around actual collection availability.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Neighbors state collection times before garden volunteers divide harvest quantities among those times.\"}": 0.9508665986424739,
+        "{\"consequence\":\"Each offer is paired immediately with a collection plan.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers and neighbors agree on quantities and collection times together on the board.\"}": 0.003815590575187761,
+        "{\"consequence\":\"Collection plans respond to a known available harvest.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers post harvest quantities before neighbors choose collection times.\"}": 0.04531781078233838
+      },
+      "uniform": 0.8103442175651654,
+      "selected": "{\"consequence\":\"Harvest portions are arranged around actual collection availability.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Neighbors state collection times before garden volunteers divide harvest quantities among those times.\"}"
+    },
+    {
+      "decision_id": "decision_061471c74449",
+      "p": {
+        "{\"consequence\":\"Shared purposes become visible across different suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members submit bed ideas before the meeting and group them by purpose during discussion.\"}": 0.005001828837884323,
+        "{\"consequence\":\"Suggestions respond to criteria chosen together.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members agree on purposes during the meeting and then submit bed ideas that address them.\"}": 0.005930796559311831,
+        "{\"consequence\":\"A shared plan grows from connections between concrete suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members bring one bed idea and its purpose to the meeting, then combine compatible proposals.\"}": 0.9890673746028038
+      },
+      "q": {
+        "{\"consequence\":\"Shared purposes become visible across different suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members submit bed ideas before the meeting and group them by purpose during discussion.\"}": 0.005001828837884323,
+        "{\"consequence\":\"Suggestions respond to criteria chosen together.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members agree on purposes during the meeting and then submit bed ideas that address them.\"}": 0.005930796559311831,
+        "{\"consequence\":\"A shared plan grows from connections between concrete suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members bring one bed idea and its purpose to the meeting, then combine compatible proposals.\"}": 0.9890673746028038
+      },
+      "uniform": 0.2578201073370481,
+      "selected": "{\"consequence\":\"A shared plan grows from connections between concrete suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members bring one bed idea and its purpose to the meeting, then combine compatible proposals.\"}"
+    },
+    {
+      "decision_id": "decision_34dd090aaf76",
+      "p": {
+        "{\"consequence\":\"An explicit two-person structure makes incomplete sessions visible.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"The coordinator posts paired compost work periods and invites volunteers to claim either place.\"}": 0.7537225987154903,
+        "{\"consequence\":\"The session time follows an already agreed partnership.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers form pairs first and then choose a compost work period together.\"}": 0.13181088256050127,
+        "{\"consequence\":\"Pairs are assembled from existing availability.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices.\"}": 0.11446651872400841
+      },
+      "q": {
+        "{\"consequence\":\"An explicit two-person structure makes incomplete sessions visible.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"The coordinator posts paired compost work periods and invites volunteers to claim either place.\"}": 0.7537225987154903,
+        "{\"consequence\":\"The session time follows an already agreed partnership.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers form pairs first and then choose a compost work period together.\"}": 0.13181088256050127,
+        "{\"consequence\":\"Pairs are assembled from existing availability.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices.\"}": 0.11446651872400841
+      },
+      "uniform": 0.29512568503904146,
+      "selected": "{\"consequence\":\"An explicit two-person structure makes incomplete sessions visible.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"The coordinator posts paired compost work periods and invites volunteers to claim either place.\"}"
+    },
+    {
+      "decision_id": "decision_0837251f1030",
+      "p": {
+        "{\"consequence\":\"Changes within a bed are easy to follow.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each bed and add dated observations to it.\"}": 0.05154183299998452,
+        "{\"consequence\":\"Conditions across the garden can be compared at one visit.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each date and list the beds observed that day.\"}": 0.8408260807547784,
+        "{\"consequence\":\"Both visit-level and bed-level review remain possible.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers record observations on dated cards and file copies under the relevant beds.\"}": 0.10763208624523718
+      },
+      "q": {
+        "{\"consequence\":\"Changes within a bed are easy to follow.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each bed and add dated observations to it.\"}": 0.05154183299998452,
+        "{\"consequence\":\"Conditions across the garden can be compared at one visit.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each date and list the beds observed that day.\"}": 0.8408260807547784,
+        "{\"consequence\":\"Both visit-level and bed-level review remain possible.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers record observations on dated cards and file copies under the relevant beds.\"}": 0.10763208624523718
+      },
+      "uniform": 0.5142553974112983,
+      "selected": "{\"consequence\":\"Conditions across the garden can be compared at one visit.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each date and list the beds observed that day.\"}"
+    },
+    {
+      "decision_id": "decision_f1b96dbf8d14",
+      "p": {
+        "{\"consequence\":\"Maintenance can avoid the periods when a path is busiest.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers observe visitor use before choosing path-maintenance times.\"}": 0.7815420683248354,
+        "{\"consequence\":\"A proposed schedule is checked against visitors’ plans.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins.\"}": 0.09759141494523031,
+        "{\"consequence\":\"Access continues through a changing available route.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers maintain one path at a time while directing visitors to another observed route.\"}": 0.12086651672993431
+      },
+      "q": {
+        "{\"consequence\":\"Maintenance can avoid the periods when a path is busiest.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers observe visitor use before choosing path-maintenance times.\"}": 0.7815420683248354,
+        "{\"consequence\":\"A proposed schedule is checked against visitors’ plans.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins.\"}": 0.09759141494523031,
+        "{\"consequence\":\"Access continues through a changing available route.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers maintain one path at a time while directing visitors to another observed route.\"}": 0.12086651672993431
+      },
+      "uniform": 0.2865867224826979,
+      "selected": "{\"consequence\":\"Maintenance can avoid the periods when a path is busiest.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers observe visitor use before choosing path-maintenance times.\"}"
+    },
+    {
+      "decision_id": "decision_d13f8423f8df",
+      "p": {
+        "{\"consequence\":\"Demand and allocation are settled in one discussion.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers jointly review activities and material quantities before adding a combined request to the list.\"}": 0.5925153172302519,
+        "{\"consequence\":\"Activity plans determine the total request.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers list materials by activity, and the coordinator combines matching requests before ordering.\"}": 0.08782583708519791,
+        "{\"consequence\":\"Activity allocations begin from the supply already obtainable.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"The coordinator posts available material quantities, and volunteers divide them among activities.\"}": 0.3196588456845503
+      },
+      "q": {
+        "{\"consequence\":\"Demand and allocation are settled in one discussion.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers jointly review activities and material quantities before adding a combined request to the list.\"}": 0.5925153172302519,
+        "{\"consequence\":\"Activity plans determine the total request.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers list materials by activity, and the coordinator combines matching requests before ordering.\"}": 0.08782583708519791,
+        "{\"consequence\":\"Activity allocations begin from the supply already obtainable.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"The coordinator posts available material quantities, and volunteers divide them among activities.\"}": 0.3196588456845503
+      },
+      "uniform": 0.5816718988449248,
+      "selected": "{\"consequence\":\"Demand and allocation are settled in one discussion.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers jointly review activities and material quantities before adding a combined request to the list.\"}"
+    },
+    {
+      "decision_id": "decision_689c0fe67da1",
+      "p": {
+        "{\"consequence\":\"Assignments follow a shared view of the plot’s condition.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners and temporary volunteers walk the plot together and record care assignments afterward.\"}": 0.012773262156406489,
+        "{\"consequence\":\"Available help provides the starting point for an agreed arrangement.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"Other volunteers offer temporary care tasks, and the usual gardeners confirm which offers to accept.\"}": 0.0247568412657866,
+        "{\"consequence\":\"Temporary help follows the gardeners’ stated needs.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners list welcome care tasks before other volunteers choose temporary assignments.\"}": 0.9624698965778069
+      },
+      "q": {
+        "{\"consequence\":\"Assignments follow a shared view of the plot’s condition.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners and temporary volunteers walk the plot together and record care assignments afterward.\"}": 0.012773262156406489,
+        "{\"consequence\":\"Available help provides the starting point for an agreed arrangement.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"Other volunteers offer temporary care tasks, and the usual gardeners confirm which offers to accept.\"}": 0.0247568412657866,
+        "{\"consequence\":\"Temporary help follows the gardeners’ stated needs.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners list welcome care tasks before other volunteers choose temporary assignments.\"}": 0.9624698965778069
+      },
+      "uniform": 0.15855227915699854,
+      "selected": "{\"consequence\":\"Temporary help follows the gardeners’ stated needs.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners list welcome care tasks before other volunteers choose temporary assignments.\"}"
+    },
+    {
+      "decision_id": "decision_22b8508b7232",
+      "p": {
+        "{\"consequence\":\"The map supports self-guided orientation with optional help.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"Visitors use the garden map first and ask the host about any unclear shared spaces.\"}": 0.4746913331989152,
+        "{\"consequence\":\"The written guide develops alongside the introduction.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host and visitors mark shared spaces on the garden map as they walk together.\"}": 0.21812957534567626,
+        "{\"consequence\":\"The map reinforces places visitors have already seen.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host gives a short walk through the shared spaces before handing visitors the garden map.\"}": 0.3071790914554085
+      },
+      "q": {
+        "{\"consequence\":\"The map supports self-guided orientation with optional help.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"Visitors use the garden map first and ask the host about any unclear shared spaces.\"}": 0.4746913331989152,
+        "{\"consequence\":\"The written guide develops alongside the introduction.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host and visitors mark shared spaces on the garden map as they walk together.\"}": 0.21812957534567626,
+        "{\"consequence\":\"The map reinforces places visitors have already seen.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host gives a short walk through the shared spaces before handing visitors the garden map.\"}": 0.3071790914554085
+      },
+      "uniform": 0.01412925133893217,
+      "selected": "{\"consequence\":\"The map supports self-guided orientation with optional help.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"Visitors use the garden map first and ask the host about any unclear shared spaces.\"}"
+    },
+    {
+      "decision_id": "decision_a1457af06d91",
+      "p": {
+        "{\"consequence\":\"One shared update keeps the two records aligned.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers notify a coordinator who updates attendance and affected tasks together.\"}": 0.23841223635567743,
+        "{\"consequence\":\"Responsibility is transferred before the attendance change is finalized.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers arrange cover for affected tasks on the board and then update calendar attendance.\"}": 0.00022102024388706944,
+        "{\"consequence\":\"The work change follows the announced absence.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers update their calendar attendance and then mark affected tasks on the board.\"}": 0.7613667434004355
+      },
+      "q": {
+        "{\"consequence\":\"One shared update keeps the two records aligned.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers notify a coordinator who updates attendance and affected tasks together.\"}": 0.23841223635567743,
+        "{\"consequence\":\"Responsibility is transferred before the attendance change is finalized.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers arrange cover for affected tasks on the board and then update calendar attendance.\"}": 0.00022102024388706944,
+        "{\"consequence\":\"The work change follows the announced absence.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers update their calendar attendance and then mark affected tasks on the board.\"}": 0.7613667434004355
+      },
+      "uniform": 0.7051153397830522,
+      "selected": "{\"consequence\":\"The work change follows the announced absence.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers update their calendar attendance and then mark affected tasks on the board.\"}"
+    },
+    {
+      "decision_id": "decision_b064e8fe7a29",
+      "p": {
+        "{\"consequence\":\"The next priority addresses a noticed need within available effort.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with observation notes and use participation records to choose a feasible priority.\"}": 0.13950469437692017,
+        "{\"consequence\":\"A new idea is tested against conditions and available participation.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members propose a seasonal priority during discussion and check it against both sets of records.\"}": 0.7596014901721396,
+        "{\"consequence\":\"The next priority starts from the work capacity the group actually has.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with participation records and choose an observed need that volunteers can support.\"}": 0.10089381545094023
+      },
+      "q": {
+        "{\"consequence\":\"The next priority addresses a noticed need within available effort.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with observation notes and use participation records to choose a feasible priority.\"}": 0.13950469437692017,
+        "{\"consequence\":\"A new idea is tested against conditions and available participation.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members propose a seasonal priority during discussion and check it against both sets of records.\"}": 0.7596014901721396,
+        "{\"consequence\":\"The next priority starts from the work capacity the group actually has.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with participation records and choose an observed need that volunteers can support.\"}": 0.10089381545094023
+      },
+      "uniform": 0.7003142676907531,
+      "selected": "{\"consequence\":\"A new idea is tested against conditions and available participation.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members propose a seasonal priority during discussion and check it against both sets of records.\"}"
+    }
+  ],
+  "planned_log_likelihood_ratio": -20.659022682604345,
+  "planned_detection": {
+    "n_choices": 16,
+    "p_value": 0.89,
+    "detected": false,
+    "preferred": 6
+  }
+}

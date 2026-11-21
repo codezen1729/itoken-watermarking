@@ -1,0 +1,476 @@
+{
+  "document_id": "cccff3c954d5d785",
+  "unit_id": 3,
+  "problem_id": "problem_da905d277859",
+  "public_demonstration_key_hex": "00d9033d2b1abf6c1044352386031f706ad73bd66c54da0da40f89c344fc6374",
+  "surrogate_keys_hex": [
+    "a31fd0ad8e2ac2e5721740d2c0972cb7f7ffc50c63c5ec6757c865c13778b691",
+    "e403a4f7078b6cac1b91736ecb50ef261f19df6aa3a5c3154ae52a390c6faa64",
+    "76050bf37e635013d051208e6062db5079c914b678ccc62c1b9077afa6445484",
+    "390e2e9bed6e0eff9f54999876be91c3d079dce305417cb2b27ba1e375052b78",
+    "fc829aa9a2cd4410af976a5e7344bb70be21cde030f83a00f9b51ba4e59341b9",
+    "af2d938bc1b92c5856a8bf41068fc839c206dd5706e8e4155bc19648d5c6e550",
+    "7b00162d4fc48cb67096077cb661b970341a96540a6288966af8674167ce13ca",
+    "90fe1635770f76b28d4dbe8146df5e765b116150adfb42d22e408fd95c910c31",
+    "28b559a77860005a3624a36eea5ba5c7fb430cf749b8372a6e68d51cdf44b7c6",
+    "a72c224d1b7dec2ffb4fcb78354684521bf60bc37103d65ea1e1d7d52390ee9b",
+    "917be3099a0bcca32a167d0164b2e73170877fabde5998c0860f06c94b4f5d78",
+    "5dfdbded5172f78da99cbaf9f5cbbde4ff0ac7b5ef018b2b59bb8530cf3d1c41",
+    "2287f91911e8d4650d5a940bb09c66e6f3e24c2dfe44ca8acff556f973eb7a60",
+    "f7db9179995afb0fcda619cce646a7868ff23ad864b6321a29d9fcd0dbe44c00",
+    "46e290e258c2a14a63141c0bd7bcd0a868580a2b99da0fc3f3ea2461920e17a3",
+    "4a9a5be0e39259e6ae3958835791a736c119b3e72614a2ceb05e8979336f48a8",
+    "c2f9577b615bd7022dad1ef0ac59dfac2329c82ae11feb73dbb69c9e643474cb",
+    "f75554ba0cbb9862694f9c49ff6d2b52e25b17be50215263663deeb57e386415",
+    "e1595712f4e7e757828b97c652fd993c4c099f68c6a85c3dbf2782484d161c5a",
+    "489c021950db6d58c9833dd76634ec23ba13c7ad9377cfdcad6202405e9bf045",
+    "0b7f880bb3650174b07b4ad1d88bdf1b45f9a729fbf576f2f4e055e126280eff",
+    "ddb3e55035cc0294ba933e97e6becd6e9f76083cde9ed4ef87b0a2a3c569f457",
+    "88da11667cdb2c1951707ac2754235163315f0e6b285c3048aa244fb3fc03e5f",
+    "a0c4ee7a0d88b2a62201ff56f3f3e0f8726cb1a212f4f60003cf2859ba4f3a64",
+    "ea6a97a70969428c612de038194c51472a28dc6f533f3382c72c467673ff9f8f",
+    "7ab61222f82d64f8a7c67528d7b05b66404383a61f9252a4a8ea0cb42a266d79",
+    "d6471008627500e9e743e1b23ef546d69610ade2f0137657ae3675ebff7c0dff",
+    "35e4a99dd01e59cde5ba6ea4ff7d1a4b4c0ada47023b551563b379cd36498bff",
+    "e6bc4ae0cffb7e1723bc20a8f583f8ce3c8dfcc7130dc82be91d475c9cb6c7b7",
+    "a2da44f4e01159728e885eae8c414a34f0e86f6e32f238c416580d73dd88e162",
+    "9e2d07314379f4e45ef7233d939127ecb700bd5912451d251f57d70071821f7a",
+    "68094082021c73ac8fc231e52b89c15fb2fbb4997702a2d8e955a5b38ec569d0",
+    "aa5e1041d3f4633ffe3a2ccbbee51fb8c59faf5d6d381c1c7f6b4d4b23188c7e",
+    "285d4ddf2345b0949b5ec4aa8223f4978441806c326389f20ecba3a7f4e46aa6",
+    "4ac2aaaf08ab6871ccc5f52d2d39e764c568c9c79068a0649dc3c9e3c93e0aa4",
+    "99a455ac5754b558d05ed6b68fb210250d748009a8f2ea062558d449b8184b44",
+    "c41ed710882d3973ff2cf79addaf9c7a5db853e6a832dcf1b33623bb496ec2aa",
+    "6748e7fb7f0eddbe3222a675c6da872fb1a1bc37a113242e24b7b5a7f24ca270",
+    "6c739870b0c16cb9254d627d9638d51a85f891731b2a88123ee50b9b1297a6d4",
+    "81a94f499c634f34ad9ba3b8c6c2aba8e5b4baffd4a66b609c14da3d8bf13196",
+    "eea96b86a45a1f3f10f12805777e0357d9933d877ef9fd5c0b20e402169869e3",
+    "3a8fd04f00cb64d21248064d43dfa04291b2b98cbf3d22d863de6e91668d4d54",
+    "395931d18613c5cf3a3abfa8a04d26c8c374681a95a264f37589d949f839128c",
+    "7f8f0383ef92c3f030b96520741e18e63f4f75528e575ab7aea54246235555b7",
+    "c9d68af4bf04b6a246207590f14ff337669af83eafc451d23b3cc802899b41b9",
+    "4262c67e523fddefd0909a155265343887217c28a590fe024b29554530009132",
+    "de01574389e2d95bd1dd38d0ba692b2b291a9020adbd545e3cee3d75e9b1599f",
+    "3b477dd23b60b6f4514fdb75f0c72d4cf292110e3e30c5f8dabf145dd86fad80",
+    "2a170e2c243281cb9253806f58c42c348b5dcb24349946f7c4fd7185a33b14c0",
+    "7fe3a366ab6b25d131aff24509b8255054bc44db8ce6282a24660d8b02b2b0e3",
+    "f0de0b9a0c500d0b46b735fdfc0402ecdc2e021436b9e8468417fd71df82166d",
+    "ecd298ef93cdcf5961dc2adabf49b512c55156ba2d13746005a452c4339d6fc6",
+    "c877723b9dbbe68087ef7240b092f54c3d5b79b6c56dcd3d3055b7d30a123106",
+    "0609b41768ab7cde48c4401b70ed28c6eba6fccbea4f12da6e0363b1be00dbf2",
+    "37d83eb0421485f67fc389ddbf55f9cbd689a85881d9b87ae457d8ac77c6c774",
+    "b66abc39c666601606332f8909c71878bba073ef90e239f0b720464dae287eb0",
+    "65e91bbd20d6086ef8cb06148095940cb01e343a51250c5eba5d9806f4e3b0c4",
+    "a921898b58d3e03f9ce344807e693ee021f89c3600dcee052bdc9f8a3c9d265c",
+    "912cf22c27536e7975cab324210125fa4146ac1707d35cc35d42aa0ea68c44f9",
+    "8a548ab9357036ece2e71a7ccc807bd9f74736156e74f3524eca57f0e41db21f",
+    "9e546a606771ed37fec1e30f037389bca94599a119ebb035acf44667202ef5c6",
+    "288ca66acee32de1aa3df5e4e16e2ad75080444aaf7f4092449b1d52812c5022",
+    "9631fc25c8706102062a47681600771d2d9f7211ebde26de53a8ea61578a6930",
+    "09865a5d8f6945363431834a2a9bd10c6c9d1407e668526bec8e8fe057b2befc",
+    "e80d0a1981fa6b110d818ee614509ff67d0d7d3544ce08287ff89a646475201e",
+    "13b332c0a8215f884d2cd56640b9fbf4ad7bf4e7cd28f38cdfab9cb982615010",
+    "c86267d4ea707f5a20dadaf5e45f8bd8acbcfb1a433db8439bd761d8f1f4dc65",
+    "aad7ddece83ad2e4a6bcd6f9fbe92f529789e2692fd7a2ab699a9f2871f0cf4b",
+    "fd294b458200400e30abf6436b83093c122488f6c6384794ee76ad0774de8d73",
+    "82d4000a4c214e55cb4c5a9b8a1b292a90f07516a53391b4d17a6577ef9acf89",
+    "30324c8f9bf24684d1ddeedec788bf9f67dac3070973a69177ab64c2d0429622",
+    "8b3caed47ee1316bd19154fbe6ff3f5efbdb2e5dbb289e34bf3c0b4dfd012225",
+    "7cc8f4df0f4a07b3409875b43c51885515cd31bb59ac31770b3ed1b826a1e548",
+    "da895a57f18219cf8e0c317b6c044edbb64dd7079a0e5afa464cbd442cf44ee3",
+    "4285423d5fde2ac2052a817117e8255d19c75ee6123cbafc24dd87885447841c",
+    "93fe0524b4d2b5daaab1392ad21d983de9b55a23f486a3af78b1cf40b42d280e",
+    "704660e7b33cb1366f8139b9b171d5689f3a69ee76963b546cb8d3b4d7979611",
+    "ce72bec6078154b148f958dee6c668fd24ee597aaed480b4745399e7cb48ee66",
+    "5965b7ca7a11414eac372cea565e90212d27d3d7f5f9397cf1405a95ac19e300",
+    "9199a7166409a34bd3f27a074a9139d92c5894a4dc2f1c39bae5feda52992177",
+    "ccd7b5517420e885240a244cf8530a7f6f23a65c3dbb3f5bb449d7f0ff0d7001",
+    "01840001b7c4b48b2d1bd327762df8ec6dc11ed04c25d8e6b6a3277677d25d40",
+    "663d30aa4e758349f70d0b6c86df3e3f9e3db77354a9aa77cb55afca0bb970c6",
+    "77877f35d7634b567bd1b4a86dda929e335701e3d6e017f35863773d0b2c0ccd",
+    "7122b2b0090df8e4bff7871e33437a62e233ea524abd83836eed8cf64b306739",
+    "45c139d691aafd45adc985abc3e42ce7dbfa91b896b8879248514d1fffe72ab4",
+    "44d9dbece6aaa5b43bfe9460b2968c2fcd1b58a9a0f85791a53cfd310289529b",
+    "eeb016f636544cec8196b11e208282b7ef143d6d69ed9e798e5d9f09f311cb70",
+    "511adc2dfce60f003e81b841172f32dc567fc27301942152968f74bc9546306a",
+    "d01fbd744be3de7ef8d5c4323909c0ae0db51ea79868c871f9a42485070ac033",
+    "8a3ea98a78af81d3a4f71e8e51cf9d425b1a29427e6ec2bd32750d6500106256",
+    "f75c7cfee9c4c6007cab916d0bc44b34067a3ec0e027828cfe4737b8a07b551c",
+    "8eb58bd6ef98acb3b7185f6a976eb61ea49591e87ef4323453d8ad5efdc6bfdf",
+    "9376e1cf881f7052c7f95dd818717b8cc963288510b8c9ce74fd0bb2340a6187",
+    "a22358a17210f3bb084615fef859433b50281951852ba935e6d92a10032d8917",
+    "27c43b6074e84edb5c4c8784709f94d7d2da28b4e47182170cedf456e9404aab",
+    "c81092851aa6aabdffad393ef664a6a25404af2ef1c2578ef6f1d15907108408",
+    "ac24ed57356c14e9c50754035d026acf743057227c65ba8324da21f8ac678c15",
+    "5d9d467b3b2810a185da81853c5026c62b4bbbd7ce50223d05526eba44d9028d",
+    "89ef3df01e0ffac944d87bdd5b8d758f36654c35bd78ae4816a9857c3e9141a4",
+    "030577dfd64666faf1008ba9a102d103f486f278fc9c4b02244d67a32e1d5e70",
+    "7498bfb2f990fcfe0ea4288e3ad2ddd7db5479643b2fec2ee90e1599df9bda59",
+    "dfd0dda0424cc800db221dc465a0749273e872e9c8cfb7532f99e1bede9340b4",
+    "11bf259986f0b7c129131cb47d3ca4f4d3741f6b6bde1768783530666d2c4a07",
+    "6f4aa25346b41b496ba84f91ce71f301a46725a2f87b6efd09737f89a7f33280",
+    "fa5f79de3058c3994118c19d9cdcc616e57d53512ebc1be9bac79d4cf01ca3f0",
+    "5903c95889cb588fa427b8baed5613f3cf9b4b6f2e2d8cbb9adbbdfd3b1be537",
+    "4769ac5c1e10904da5dcf8c7073112899b02ea1fd5c0a1deca856d300cf1c298",
+    "adaffd3e895ac0ad8a41ad717d67149f149666e5b111c4f292816ec5cee01216",
+    "e64dc0dc635097bb4a04644d57d25711d26623341a9f30be3fede033b4220275",
+    "6626ee9b47ff9667f021d5dde19f04eb7dc2faf201d0c01e79d168fcb46b54ce",
+    "77223ce84dd2853eb97e64442e45ef049868fdd57907a01086484f87423c4d16",
+    "86f4d33de801204d9774b8b913c4f732b2216a3adea011069fc51abea86204de",
+    "cbe60682c5efd7655c527293b46ec4c2044c2ef5ebef0f11c61532b02aaeba62",
+    "24e0953b4e67b4af27f239ffad8f4f7f4d32475b00d11eadf29e9f5df6d3949d",
+    "15ac407ec4bbf4d356cd7ae6f9ac1ad885e3b658a266b27044942344b2e2c842",
+    "11184993041a1eaa9fde749b4831fb21bf1306a4f2dc9a81700252aa67e848cd",
+    "5ac3d216b12990c1e96f90011691763d577b613a98263824bfe5cacd03da67f6",
+    "b4e6800a74ad2e8b8858cda28c4a8cddcf36c124b03685f2a1830b7786b9abfc",
+    "3b532b2fd426980b054b4fbd119422fe3cc1cb755af21da6ebdf6239189a41b2",
+    "1e0f343fa105a634ef0267d2271119f1359f68d0f13cf27c7df5ce781dedff80",
+    "80937457a305a02de4b11831ac90fd9f118fd9da9732974503ee1d9655d17553",
+    "2ada997ef7fa385aec4d85e633e22d17ef17465c7dc44b7a72693625512186d3",
+    "bec2f3b532adbb9709e53f7cc9fa21998e7d95913b2e0569643fb111d6ff9dc0",
+    "aab17e228ff62bb05110d65177e778b37f7e398bbf78cebfe9ab1e16f6c83c0a",
+    "6ce48bec9e347ba5dc250e77e4a570ec7bf69919f9870333d7422cc9348ae05f",
+    "7fdc44f7d711f33ed0721d750ac46efef9a58ed9f56e84489e07a5149ba684c5",
+    "98132d49f41c7df6dd614b8deb4a68aa998e5ef014e42ea470a42fa8e08670d9",
+    "94b2885b095e07d07d8bc2948cb71ccb56b0f0b15e537ee6f36fd2ef2bc29ab9",
+    "2c92fae85c46f782dfab00d42622b45c3ed602f70442f89509d6d9e01884c813",
+    "6cde1695bed6700db39424dc87a589fbe6b9bd9dbe81e79868a7c093bd85ea38",
+    "e76b15bb77cb7770846022cd6f5a1deb45ac47799a69bc20b83bef3c08eae65a",
+    "7559b56c264b220a147b988d4447bab932613787ddf3423514e8fadbc30c5848",
+    "84741f916a23781401b56af5a585f52aca4e9c8b0dc8f9a72759787a0feb3a3b",
+    "942968c4efe757800cfc0702be26436884353220322c984fd23026e64a6ca2d1",
+    "b892c384254b6eab40bcba2322dce471155c09b9af8bc3e9c9abd7dbe9290fa8",
+    "1054a955e8101cc822405ce8f76b2f53c7a7e005c8554ea1bd0d5efd1b9d0265",
+    "002bfa60a4cbcfc661aad51e29b5194cc7413b1250c3871dac2049c141fc513c",
+    "d6671951ff709afc6c3b35d1790ce35fe11ea9ca3b04fed598a56a5ca3b0518e",
+    "661d78f6b49cb829091823d783055aa6bc538e3534e941bab78272749c50b563",
+    "4d69e0b44fee4bf13b038ba0abcb927dcb93950e3c5b56878eaaa0101c7de212",
+    "9ef53536d63be957162e632d8eed45dd842689b61d6607b171069a217e3677de",
+    "add34048e094e0d80c78e3cb55b48a6e4e440815f462a634bb1686c635e08dfb",
+    "e499cb3c18bc1a8203e648adf5a22605e540b3bff3d9c7d156400edf7b26ae0b",
+    "b42c2f09bf431a6d5a6cba6589a3de1e5b33f4208342718761f20b5645babcc1",
+    "5d4a91edaff4c3171a160f193486ddfbb26778203af456a9bbbb3e3ecfcc27fd",
+    "1e1d4068d77a543cd368d1c6ecbc0f5b6f3ca54edcc2450560a075d7e75e3908",
+    "79f331f8af14233dd2e8aac0df26941dd3d3ff6edc8ee1cb93f67d174aa34774",
+    "fe6e68b8d2185699a242b5c2fcebe6ae22cc8f714794eff1953021a7b06275b3",
+    "253c8b5d1ed74ac1ab2bcdd8d6ee7e5b33f5ba7aeb63926032a5e99bee09e2ba",
+    "2f65c21b3064f39b2e7789485c3364a837ad5e52f7e478b89dc9be98c77d4a29",
+    "9ed67321481096cd4e2d034b836a49858a0e831d5681f158f5a777ad60add5e6",
+    "7a4c69aeb855c825696d0c3e904bce62eefdeac749372efcff9e1e4089e2c09d",
+    "f6543a07f4e564f33f66813ec90e9b3c16893dd0ce74330aaefdf41de3704b67",
+    "ebfbdea8c6a5d282de23371fda90b55606493f6a43fc6b0a6c30242cf45cfb9f",
+    "2ca6a971a9f8324ebb296decfd9093e6c25f0ea0f4d1ab590ab1e8df627df302",
+    "3481b41115bea2a2e1a8c4c0b4462690eac171e2b10a0ae8e70e249a952dc942",
+    "14c3cbbd6151eaf809d1a390629575bc05aea7c3c38f91394cf97b6f30234d6d",
+    "e3bff88625ab8e66721f7f89136fa49a8cf1152dace4e037ce5f8e447957298a",
+    "f9f6f4e7eae7e47fd37090d077f30d2f7081c3ba514f44637d283876d97c44bc",
+    "1df3f5555a6a3ad8ba1aa42294cd16d4a6c8ca975ad8f7d0f26b5914a20438eb",
+    "d57d71304a8d92c9823b6d88113e1b8e4e81ea6747b8d04bfced959cec19df7a",
+    "dae4a3e919c5504fc25337acc1e0e41cacdb102301d9c6f0a6fbd2dd047f5bd2",
+    "7bb740739979cecdf0d4b17c6c08e35c6283e73f45706b61982552683b7ac4fe",
+    "890f3c762aa7de09d4662dab99854fc70aeeff8a4828dcc7cdffcc628f6b8403",
+    "885bd5a93ed1a15d8a6e760f96e3d3cf6f4f6848614ba8b3f3df9d924f882eb0",
+    "15d14ded4635e2f56587f34fb04191f4acf17bff9e22351915596fcc349b4650",
+    "902657491052a99cc1bf4a674ff3f9cb0e42c69c671ef60370774786ccb43a6a",
+    "f98c73e0e47db282228a384dc070d179b9a5363502cacd1b37a0c143a22ef5ad",
+    "0ae4938d999437715ada9ed104426a50491caeca3defe47db1ed34f5323dce91",
+    "8674d7d02965f6ed9f7f2b5690cfa0c2b600306db93591389ccacbf09f5cc54f",
+    "e5ad36d2924bf1549a1d959230b0c250e473e953bf4b996e82ff7a99f6f867c9",
+    "0a55a7138ccb5e09fa0a4f80855214641c76300757106ccb3ff19ecc69dbfa09",
+    "a453e00a4ae29a06f8591affc7c82cb287d6106406924b7c65da2f0db2941827",
+    "d28e8bb9be3f41587e82f752fbd99cca0a531a64ef29f828c88e7e95261a0324",
+    "7a3125fe134fe07ea06c4c819f80dd0b94d1ccf08c8472eaf315a6c379bad538",
+    "53361761121ade29b73b16b5a67dc77b0c900860313d8d91cd7b65ecf0901430",
+    "660e3376be8a89b9bc684699a1c50257ff259491ed47875ccede99bfa3e25185",
+    "987413d55fb98f54b88fe2084757edd9e9ebcf314e04d247789de13fd0904d3f",
+    "a41a5c7cdac7c8ab70b705f12fd919542508e9eef25f21d44e23d795756f4841",
+    "297e90e4a3b5ee06f98a250405b9859922471cab79202abbccbdcb2d69860865",
+    "cf35fff56e9ae5ee9414011503fdfe6455881f65d5487d17d2f3cce36b1b5148",
+    "ba1929499f835f0cb0230aee10672daa799b0bcd059901824bdbe06ae80b1444",
+    "f9a5894d6df86fadc1caf2919e06067ff9522236d998f4d302868a1ad204b322",
+    "0fcd3f7fbf763ae173eda09cf2bfa130ec5a41a5884a87f5d823fd66dc97ccb1",
+    "a2929b155a4b2a703794b08f56c979b1d45ae32f795c8fd3b0c5273e9e40ee1f",
+    "d17d9f35fcdd77b05ab3a67bfa70a1faa10beb3177b2f9da9483f08a9e0f1b87",
+    "7a25f621c83d3045f6c8ccd1395f1b652617ae151d680fb257ee9e5940dba38a",
+    "be57b3878c32d49bbf6307fb0ae34cfeae1dcecdf0f2bb57635802cc4c1951a9",
+    "28af4b1e6c43cb8a56a27a6f5a370f272b9ad408bcb2ea2e87ff91b1f66fadbb",
+    "3c2f21248a66bf6557717ca82a3f6f3b20de85c2fdc76a7d0ead1af8df21af81",
+    "62526c111084392bea1fc660fa07c15a96fef52bc7d3e63b6004265ba629c517",
+    "9eef97f8247ada05cc06ed92b57624e02d7698e764ce3dd8e799278b7978d2ac",
+    "629f5f3f9c75e03a9d9e2ee8de6113f7ef4ce00adb81bc271cd404307e975d56",
+    "8578f7cc071c8808f76030e04e6e146428567e2e0f34b4ebd0b0e9aef4ef313c",
+    "43e0704161f284d1a432a6a7a08b7033d8ee92948fcf0883abddd9cc9cea49f6",
+    "d70f867cb98564ee81040398c5f1e71ff6fbbac877dcd93c01d675f4d6bd4871",
+    "cd62100651a2360e6787d860b904fa2420325f73e38bd37b40ddf51457f6bae0",
+    "f28912d662afbb8367c47580e1b199be5cde4295c7f10f183e24d951857668ff"
+  ],
+  "sampling_seed": 1704,
+  "condition": "marked",
+  "choices": {
+    "decision_095faae08d2f": "choice_1a4b7956f093",
+    "decision_3e20cae8aa07": "choice_9eb53f07dd10",
+    "decision_954b40fc1668": "choice_fe90f8aa88b0",
+    "decision_d069333dcdbb": "choice_b9d87e0ea62e",
+    "decision_034dcf8498b0": "choice_31f7c49c9ef1",
+    "decision_a52c0a61ba2b": "choice_3c82c8a65ebb",
+    "decision_ce7fdbc55099": "choice_d1fafd5b2fb7",
+    "decision_bbe43118a354": "choice_5c30b2679a72",
+    "decision_2435ae99c474": "choice_b5794d7ae547",
+    "decision_896834903e5b": "choice_6647258b789f",
+    "decision_e574ca310618": "choice_96a90b594501",
+    "decision_47bd37ecde77": "choice_eb15e379b417",
+    "decision_93f87b72b73f": "choice_7391a9a18de5",
+    "decision_109bee88f2c1": "choice_8409688b34d2",
+    "decision_afed3418c84e": "choice_092c7234b0ba",
+    "decision_e1233fe46483": "choice_088f1dfc655f"
+  },
+  "policy_rows": [
+    {
+      "decision_id": "decision_095faae08d2f",
+      "p": {
+        "{\"consequence\":\"The suggested start follows the visitor’s stated curiosity.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception asks about visitors’ interests before pointing out a starting room on the map.\"}": 0.6445047349390629,
+        "{\"consequence\":\"Visitors make the initial choice before receiving guidance.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Visitors mark a preferred starting room on the map, and reception offers any useful context.\"}": 0.3522975901312098,
+        "{\"consequence\":\"Concrete choices help visitors express a preference.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception offers several starting rooms on the map and asks visitors which interests them.\"}": 0.0031976749297273105
+      },
+      "q": {
+        "{\"consequence\":\"The suggested start follows the visitor’s stated curiosity.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception asks about visitors’ interests before pointing out a starting room on the map.\"}": 0.6465671215655099,
+        "{\"consequence\":\"Visitors make the initial choice before receiving guidance.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Visitors mark a preferred starting room on the map, and reception offers any useful context.\"}": 0.35342492682716875,
+        "{\"consequence\":\"Concrete choices help visitors express a preference.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception offers several starting rooms on the map and asks visitors which interests them.\"}": 7.95160732133812e-06
+      },
+      "uniform": 0.5256980483273828,
+      "selected": "{\"consequence\":\"The suggested start follows the visitor’s stated curiosity.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception asks about visitors’ interests before pointing out a starting room on the map.\"}"
+    },
+    {
+      "decision_id": "decision_3e20cae8aa07",
+      "p": {
+        "{\"consequence\":\"A prepared route provides a starting point for changes.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide proposes a short visit with one theme and adjusts it after hearing preferences.\"}": 0.9884516416744052,
+        "{\"consequence\":\"The group makes a clear collective choice within a limited set.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide offers two themes for the short visit and lets the group choose between them.\"}": 0.010788095391204101,
+        "{\"consequence\":\"The route reflects the particular group.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide gathers theme preferences and builds the short visit around the most shared interest.\"}": 0.00076026293439077
+      },
+      "q": {
+        "{\"consequence\":\"A prepared route provides a starting point for changes.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide proposes a short visit with one theme and adjusts it after hearing preferences.\"}": 0.18505339428603662,
+        "{\"consequence\":\"The group makes a clear collective choice within a limited set.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide offers two themes for the short visit and lets the group choose between them.\"}": 0.8148042727655143,
+        "{\"consequence\":\"The route reflects the particular group.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide gathers theme preferences and builds the short visit around the most shared interest.\"}": 0.000142332948449103
+      },
+      "uniform": 0.22736555786433243,
+      "selected": "{\"consequence\":\"The group makes a clear collective choice within a limited set.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide offers two themes for the short visit and lets the group choose between them.\"}"
+    },
+    {
+      "decision_id": "decision_954b40fc1668",
+      "p": {
+        "{\"consequence\":\"Visitors compare examples before reading the connecting explanation.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Individual labels ask a shared question, and a final label draws together the related objects.\"}": 0.14757839475288048,
+        "{\"consequence\":\"Visitors encounter the connection before comparing the examples.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"A shared label explains the relationship first and points visitors to the individual objects.\"}": 0.6544257049872032,
+        "{\"consequence\":\"Connections can guide visitors onward from any starting object.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Each label names a related object and explains why visitors might look at it next.\"}": 0.19799590025991617
+      },
+      "q": {
+        "{\"consequence\":\"Visitors compare examples before reading the connecting explanation.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Individual labels ask a shared question, and a final label draws together the related objects.\"}": 0.9858846747142748,
+        "{\"consequence\":\"Visitors encounter the connection before comparing the examples.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"A shared label explains the relationship first and points visitors to the individual objects.\"}": 0.010836693538001704,
+        "{\"consequence\":\"Connections can guide visitors onward from any starting object.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Each label names a related object and explains why visitors might look at it next.\"}": 0.003278631747723631
+      },
+      "uniform": 0.1054292676872427,
+      "selected": "{\"consequence\":\"Visitors compare examples before reading the connecting explanation.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Individual labels ask a shared question, and a final label draws together the related objects.\"}"
+    },
+    {
+      "decision_id": "decision_d069333dcdbb",
+      "p": {
+        "{\"consequence\":\"Questions retain a visible sequence without stopping every viewing moment.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors hand question cards to the volunteer during the visit, and the next pause addresses them in arrival order.\"}": 0.022374319765983704,
+        "{\"consequence\":\"The pause can address shared concerns together.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors write question cards before the discussion pause, and the volunteer groups similar questions.\"}": 0.6647340871256339,
+        "{\"consequence\":\"An opening exchange helps visitors decide what they want to ask.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"The volunteer starts the discussion pause with a question and invites visitors to add question cards.\"}": 0.3128915931083823
+      },
+      "q": {
+        "{\"consequence\":\"Questions retain a visible sequence without stopping every viewing moment.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors hand question cards to the volunteer during the visit, and the next pause addresses them in arrival order.\"}": 8.33282746773025e-05,
+        "{\"consequence\":\"The pause can address shared concerns together.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors write question cards before the discussion pause, and the volunteer groups similar questions.\"}": 0.9987513752207829,
+        "{\"consequence\":\"An opening exchange helps visitors decide what they want to ask.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"The volunteer starts the discussion pause with a question and invites visitors to add question cards.\"}": 0.0011652965045396877
+      },
+      "uniform": 0.9795579147358433,
+      "selected": "{\"consequence\":\"The pause can address shared concerns together.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors write question cards before the discussion pause, and the volunteer groups similar questions.\"}"
+    },
+    {
+      "decision_id": "decision_034dcf8498b0",
+      "p": {
+        "{\"consequence\":\"Initial guidance reflects current room use.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers report crowding before reception suggests a route to arriving visitors.\"}": 0.10588041510656263,
+        "{\"consequence\":\"Advice follows people already moving through the museum.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers offer route changes directly to visitors while reception keeps the map available.\"}": 0.04611119889192821,
+        "{\"consequence\":\"Guidance is adjusted after observing each group’s effect.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Reception sends a small group along a route and then asks room volunteers whether the next group should follow it.\"}": 0.8480083860015092
+      },
+      "q": {
+        "{\"consequence\":\"Initial guidance reflects current room use.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers report crowding before reception suggests a route to arriving visitors.\"}": 0.005414085093616308,
+        "{\"consequence\":\"Advice follows people already moving through the museum.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers offer route changes directly to visitors while reception keeps the map available.\"}": 0.9512238865530604,
+        "{\"consequence\":\"Guidance is adjusted after observing each group’s effect.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Reception sends a small group along a route and then asks room volunteers whether the next group should follow it.\"}": 0.043362028353323166
+      },
+      "uniform": 0.6180806658719189,
+      "selected": "{\"consequence\":\"Advice follows people already moving through the museum.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers offer route changes directly to visitors while reception keeps the map available.\"}"
+    },
+    {
+      "decision_id": "decision_a52c0a61ba2b",
+      "p": {
+        "{\"consequence\":\"The suggested visit begins with the time limit.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors state their available time, and reception selects fitting highlights from the guide sheet.\"}": 0.002591165419540679,
+        "{\"consequence\":\"Time and content can be compared together.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Reception offers several highlight bundles with viewing times, and visitors choose a bundle.\"}": 0.041745427732822346,
+        "{\"consequence\":\"The suggested visit begins with the visitor’s interests.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors select highlights from the guide sheet, and reception helps trim them to the available time.\"}": 0.9556634068476371
+      },
+      "q": {
+        "{\"consequence\":\"The suggested visit begins with the time limit.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors state their available time, and reception selects fitting highlights from the guide sheet.\"}": 0.0027037550555192268,
+        "{\"consequence\":\"Time and content can be compared together.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Reception offers several highlight bundles with viewing times, and visitors choose a bundle.\"}": 0.00010797276652934669,
+        "{\"consequence\":\"The suggested visit begins with the visitor’s interests.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors select highlights from the guide sheet, and reception helps trim them to the available time.\"}": 0.9971882721779515
+      },
+      "uniform": 0.41160275885596076,
+      "selected": "{\"consequence\":\"The suggested visit begins with the visitor’s interests.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors select highlights from the guide sheet, and reception helps trim them to the available time.\"}"
+    },
+    {
+      "decision_id": "decision_ce7fdbc55099",
+      "p": {
+        "{\"consequence\":\"Visitors can keep the same contact through the beginning of the visit.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"Each volunteer welcomes a small group at reception and continues with its interpretation questions.\"}": 0.5927428089405722,
+        "{\"consequence\":\"Both share the roles while retaining clear assignments.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"The volunteers exchange reception and interpretation roles halfway through the service period.\"}": 0.3313157933476375,
+        "{\"consequence\":\"Each maintains continuity in one role.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"One volunteer handles reception and the other interpretation for the entire service period.\"}": 0.07594139771179029
+      },
+      "q": {
+        "{\"consequence\":\"Visitors can keep the same contact through the beginning of the visit.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"Each volunteer welcomes a small group at reception and continues with its interpretation questions.\"}": 0.9982998134892279,
+        "{\"consequence\":\"Both share the roles while retaining clear assignments.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"The volunteers exchange reception and interpretation roles halfway through the service period.\"}": 0.0013831521088432139,
+        "{\"consequence\":\"Each maintains continuity in one role.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"One volunteer handles reception and the other interpretation for the entire service period.\"}": 0.0003170344019288899
+      },
+      "uniform": 0.9968225968113303,
+      "selected": "{\"consequence\":\"Visitors can keep the same contact through the beginning of the visit.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"Each volunteer welcomes a small group at reception and continues with its interpretation questions.\"}"
+    },
+    {
+      "decision_id": "decision_bbe43118a354",
+      "p": {
+        "{\"consequence\":\"Their own initial response guides what they notice.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors consider the reflection question before exploring the object and story.\"}": 0.00511751569638517,
+        "{\"consequence\":\"The narrative provides context for the object.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors read the story before seeing the object and answering the reflection question.\"}": 0.8465964747912327,
+        "{\"consequence\":\"The physical example gives the story an initial point of reference.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors see the object before reading the story and answering the reflection question.\"}": 0.1482860095123822
+      },
+      "q": {
+        "{\"consequence\":\"Their own initial response guides what they notice.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors consider the reflection question before exploring the object and story.\"}": 0.00511751569638517,
+        "{\"consequence\":\"The narrative provides context for the object.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors read the story before seeing the object and answering the reflection question.\"}": 0.8465964747912327,
+        "{\"consequence\":\"The physical example gives the story an initial point of reference.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors see the object before reading the story and answering the reflection question.\"}": 0.1482860095123822
+      },
+      "uniform": 0.23399636976469163,
+      "selected": "{\"consequence\":\"The narrative provides context for the object.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors read the story before seeing the object and answering the reflection question.\"}"
+    },
+    {
+      "decision_id": "decision_2435ae99c474",
+      "p": {
+        "{\"consequence\":\"The prompt directs attention before visitors look closely.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet gives a prompt before each observation and asks for a response afterward.\"}": 0.390952776636635,
+        "{\"consequence\":\"Visitors can organize the activity around their interests.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet pairs each prompt with a response space and lets visitors choose their own observation order.\"}": 0.2493469696302319,
+        "{\"consequence\":\"Initial noticing is left open before a focused reflection.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet asks visitors to observe first, then reveals a prompt for their response.\"}": 0.3597002537331332
+      },
+      "q": {
+        "{\"consequence\":\"The prompt directs attention before visitors look closely.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet gives a prompt before each observation and asks for a response afterward.\"}": 0.5203884147623068,
+        "{\"consequence\":\"Visitors can organize the activity around their interests.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet pairs each prompt with a response space and lets visitors choose their own observation order.\"}": 0.0008226981497781742,
+        "{\"consequence\":\"Initial noticing is left open before a focused reflection.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet asks visitors to observe first, then reveals a prompt for their response.\"}": 0.47878888708791506
+      },
+      "uniform": 0.921538871168666,
+      "selected": "{\"consequence\":\"Initial noticing is left open before a focused reflection.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet asks visitors to observe first, then reveals a prompt for their response.\"}"
+    },
+    {
+      "decision_id": "decision_896834903e5b",
+      "p": {
+        "{\"consequence\":\"The wording is explored directly with its readers.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers discuss a room description with visitors while recording their questions and possible revisions.\"}": 0.045265801837307496,
+        "{\"consequence\":\"The revisions address demonstrated points of confusion.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers collect repeated questions before drafting revised room descriptions.\"}": 0.060822150457282655,
+        "{\"consequence\":\"A proposed improvement is evaluated through later questions.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers draft revised room descriptions and then check which visitor questions still recur.\"}": 0.8939120477054098
+      },
+      "q": {
+        "{\"consequence\":\"The wording is explored directly with its readers.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers discuss a room description with visitors while recording their questions and possible revisions.\"}": 0.41795234743229587,
+        "{\"consequence\":\"The revisions address demonstrated points of confusion.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers collect repeated questions before drafting revised room descriptions.\"}": 0.5615886503207838,
+        "{\"consequence\":\"A proposed improvement is evaluated through later questions.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers draft revised room descriptions and then check which visitor questions still recur.\"}": 0.0204590022469204
+      },
+      "uniform": 0.87936813068714,
+      "selected": "{\"consequence\":\"The revisions address demonstrated points of confusion.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers collect repeated questions before drafting revised room descriptions.\"}"
+    },
+    {
+      "decision_id": "decision_e574ca310618",
+      "p": {
+        "{\"consequence\":\"The visitor selects which link to follow.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception shows several connections from previous rooms and lets the visitor choose a new object.\"}": 0.009865369469951856,
+        "{\"consequence\":\"A new destination is made approachable through a known connection.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception offers an unfamiliar object and explains its connection to a room the visitor saw before.\"}": 0.021483078048751325,
+        "{\"consequence\":\"A familiar interest provides a bridge to a new area.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere.\"}": 0.9686515524812968
+      },
+      "q": {
+        "{\"consequence\":\"The visitor selects which link to follow.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception shows several connections from previous rooms and lets the visitor choose a new object.\"}": 0.8007820988049178,
+        "{\"consequence\":\"A new destination is made approachable through a known connection.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception offers an unfamiliar object and explains its connection to a room the visitor saw before.\"}": 0.004322456348982839,
+        "{\"consequence\":\"A familiar interest provides a bridge to a new area.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere.\"}": 0.1948954448460995
+      },
+      "uniform": 0.896449570091797,
+      "selected": "{\"consequence\":\"A familiar interest provides a bridge to a new area.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere.\"}"
+    },
+    {
+      "decision_id": "decision_47bd37ecde77",
+      "p": {
+        "{\"consequence\":\"Visitors can notice the time before being approached.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Reception displays the remaining time before volunteers give room reminders.\"}": 0.21667218299837238,
+        "{\"consequence\":\"The shared and local messages change together.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"One volunteer updates the time display while the others give room reminders.\"}": 0.7500026912736153,
+        "{\"consequence\":\"The visible message reinforces the spoken reminder.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Volunteers give room reminders and then reception updates the shared time display.\"}": 0.03332512572801221
+      },
+      "q": {
+        "{\"consequence\":\"Visitors can notice the time before being approached.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Reception displays the remaining time before volunteers give room reminders.\"}": 0.0006851648154971815,
+        "{\"consequence\":\"The shared and local messages change together.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"One volunteer updates the time display while the others give room reminders.\"}": 0.9568009708717765,
+        "{\"consequence\":\"The visible message reinforces the spoken reminder.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Volunteers give room reminders and then reception updates the shared time display.\"}": 0.04251386431272639
+      },
+      "uniform": 0.2873523614619522,
+      "selected": "{\"consequence\":\"The shared and local messages change together.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"One volunteer updates the time display while the others give room reminders.\"}"
+    },
+    {
+      "decision_id": "decision_93f87b72b73f",
+      "p": {
+        "{\"consequence\":\"Conversation can help them shape the written account.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors discuss a memory with a volunteer and then choose what to put on a card.\"}": 0.025472097424715737,
+        "{\"consequence\":\"They can decide what to share before a conversation.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors write a memory card first and choose whether to discuss it with a volunteer.\"}": 0.20315518005921845,
+        "{\"consequence\":\"The written account develops with immediate clarification.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors and a volunteer fill out a memory card together during the conversation.\"}": 0.7713727225160658
+      },
+      "q": {
+        "{\"consequence\":\"Conversation can help them shape the written account.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors discuss a memory with a volunteer and then choose what to put on a card.\"}": 8.179270839992033e-05,
+        "{\"consequence\":\"They can decide what to share before a conversation.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors write a memory card first and choose whether to discuss it with a volunteer.\"}": 0.0006523456677106519,
+        "{\"consequence\":\"The written account develops with immediate clarification.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors and a volunteer fill out a memory card together during the conversation.\"}": 0.9992658616238894
+      },
+      "uniform": 0.03499714719545255,
+      "selected": "{\"consequence\":\"The written account develops with immediate clarification.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors and a volunteer fill out a memory card together during the conversation.\"}"
+    },
+    {
+      "decision_id": "decision_109bee88f2c1",
+      "p": {
+        "{\"consequence\":\"The proposed visit begins with the group’s purposes.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer shares interests before the museum proposes rooms and volunteer times.\"}": 0.00171460394577162,
+        "{\"consequence\":\"The organizer plans within visible opportunities.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The museum describes rooms and volunteer times before the organizer chooses a focus.\"}": 0.12995367954933645,
+        "{\"consequence\":\"The visit is assembled through simultaneous negotiation.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer and museum compare interests, rooms, and volunteer times in one planning call.\"}": 0.8683317165048918
+      },
+      "q": {
+        "{\"consequence\":\"The proposed visit begins with the group’s purposes.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer shares interests before the museum proposes rooms and volunteer times.\"}": 0.4093006784002719,
+        "{\"consequence\":\"The organizer plans within visible opportunities.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The museum describes rooms and volunteer times before the organizer chooses a focus.\"}": 0.07689539549771356,
+        "{\"consequence\":\"The visit is assembled through simultaneous negotiation.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer and museum compare interests, rooms, and volunteer times in one planning call.\"}": 0.5138039261020145
+      },
+      "uniform": 0.4519979141595114,
+      "selected": "{\"consequence\":\"The organizer plans within visible opportunities.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The museum describes rooms and volunteer times before the organizer chooses a focus.\"}"
+    },
+    {
+      "decision_id": "decision_afed3418c84e",
+      "p": {
+        "{\"consequence\":\"Comments are first grouped by place.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors choose a room on the comment card and then describe the object or moment involved.\"}": 0.03878591417843973,
+        "{\"consequence\":\"Place and experience are recorded together on a route.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"The comment card shows the visit route, and visitors mark where an object or moment stood out.\"}": 0.047608075036251786,
+        "{\"consequence\":\"Visitors can express the experience before classifying it.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors describe an object or moment, and volunteers add the relevant room to the comment card.\"}": 0.9136060107853083
+      },
+      "q": {
+        "{\"consequence\":\"Comments are first grouped by place.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors choose a room on the comment card and then describe the object or moment involved.\"}": 0.9421254109109893,
+        "{\"consequence\":\"Place and experience are recorded together on a route.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"The comment card shows the visit route, and visitors mark where an object or moment stood out.\"}": 0.0028664766992952226,
+        "{\"consequence\":\"Visitors can express the experience before classifying it.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors describe an object or moment, and volunteers add the relevant room to the comment card.\"}": 0.05500811238971547
+      },
+      "uniform": 0.0652941139480756,
+      "selected": "{\"consequence\":\"Comments are first grouped by place.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors choose a room on the comment card and then describe the object or moment involved.\"}"
+    },
+    {
+      "decision_id": "decision_e1233fe46483",
+      "p": {
+        "{\"consequence\":\"The change addresses a place with demonstrated pressure.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with the busiest room and uses comments and observations to choose an improvement.\"}": 0.15733262645479132,
+        "{\"consequence\":\"The proposal is tested against the available evidence.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team proposes an improvement and asks which counts, comments, and observations would support trying it.\"}": 0.2952637805640676,
+        "{\"consequence\":\"The change addresses an experience supported by broader records.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with repeated comments and checks room counts and observations before choosing an improvement.\"}": 0.547403592981141
+      },
+      "q": {
+        "{\"consequence\":\"The change addresses a place with demonstrated pressure.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with the busiest room and uses comments and observations to choose an improvement.\"}": 0.0007109762691563617,
+        "{\"consequence\":\"The proposal is tested against the available evidence.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team proposes an improvement and asks which counts, comments, and observations would support trying it.\"}": 0.0013342785018768148,
+        "{\"consequence\":\"The change addresses an experience supported by broader records.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with repeated comments and checks room counts and observations before choosing an improvement.\"}": 0.9979547452289668
+      },
+      "uniform": 0.18993015542380043,
+      "selected": "{\"consequence\":\"The change addresses an experience supported by broader records.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with repeated comments and checks room counts and observations before choosing an improvement.\"}"
+    }
+  ],
+  "planned_log_likelihood_ratio": 14.898119787132533,
+  "planned_detection": {
+    "n_choices": 16,
+    "p_value": 0.005,
+    "detected": true,
+    "preferred": 14
+  }
+}

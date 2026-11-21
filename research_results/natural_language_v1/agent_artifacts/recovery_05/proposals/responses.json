@@ -1,0 +1,20 @@
+{
+  "responses": [
+    {
+      "request_id": "703f492a92a73b7a658ee050",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_527d34bf9a85b6d443\",\"sentences\":[1,2,3]},{\"id\":\"O_cf85b568f7c6242f14\",\"sentences\":[4,5,6]},{\"id\":\"O_53cec8bf382cff965f\",\"sentences\":[7,8]},{\"id\":\"O_61cbea561734fb7778\",\"sentences\":[9,10]},{\"id\":\"O_0580de943e5ac725e3\",\"sentences\":[11]},{\"id\":\"O_aceb15e0beee6c9476\",\"sentences\":[12]},{\"id\":\"O_5355fa69fbae4b99e8\",\"sentences\":[12,13]},{\"id\":\"O_67cb6c2c17d63f5892\",\"sentences\":[14,15]},{\"id\":\"O_c2b940b8d9dbbd901f\",\"sentences\":[16,17,18]},{\"id\":\"O_4a2d6b19b5b63ee739\",\"sentences\":[19,20]},{\"id\":\"O_1ddfec29b3f2c4eb29\",\"sentences\":[21]},{\"id\":\"O_5fdc32ec92aa1cb610\",\"sentences\":[22]},{\"id\":\"O_209e8ff265e4a9d726\",\"sentences\":[23,24,25]},{\"id\":\"O_ba3941aa74c815599d\",\"sentences\":[26]},{\"id\":\"O_ab97a91af020b57ec8\",\"sentences\":[27,28]},{\"id\":\"O_61bf93ad7d85f091b8\",\"sentences\":[29,30]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "17d2475ae336c312fa3b5445",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_050b3a8d1a3be35a8b\",\"sentences\":[1,2]},{\"id\":\"O_e42671c85baec7e2df\",\"sentences\":[3,4,5]},{\"id\":\"O_ed6d7d5e093fe2794d\",\"sentences\":[6,7]},{\"id\":\"O_d0d4e9b32e92873791\",\"sentences\":[8,9]},{\"id\":\"O_a15e1cc76e165d0ace\",\"sentences\":[8,10]},{\"id\":\"O_fda6623c8272e88d75\",\"sentences\":[11]},{\"id\":\"O_51d012596024c0413a\",\"sentences\":[12,13,14,15]},{\"id\":\"O_1f13c796d5bc8a8510\",\"sentences\":[13]},{\"id\":\"O_1b8c388cd7798ef59f\",\"sentences\":[14,15]},{\"id\":\"O_3d4e776f44f4b1ea1b\",\"sentences\":[16,17]},{\"id\":\"O_53e913fb4d50878a5e\",\"sentences\":[18,19]},{\"id\":\"O_88db1413d7f6a49643\",\"sentences\":[20]},{\"id\":\"O_8f89275bee80a4818d\",\"sentences\":[21,22,23]},{\"id\":\"O_7140015649be935fdf\",\"sentences\":[24,25]},{\"id\":\"O_f6a14b83c5f1d3c23d\",\"sentences\":[26,27]},{\"id\":\"O_91165d2db1a1e1062c\",\"sentences\":[28,29]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "0e9ee03ccbb3a650e04db46e",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_dffa39fc505ec1fae5\",\"sentences\":[1,2]},{\"id\":\"O_00f1aa6eca8ee57ad3\",\"sentences\":[3,4]},{\"id\":\"O_5514db515e9c766a8b\",\"sentences\":[5]},{\"id\":\"O_f5dc83fc1190179494\",\"sentences\":[6,7]},{\"id\":\"O_8a70e27d0240ba9474\",\"sentences\":[8,9]},{\"id\":\"O_4ddb275eca274ee450\",\"sentences\":[10,11]},{\"id\":\"O_af04b2635b5dbb4f43\",\"sentences\":[12,13]},{\"id\":\"O_a4b5fab6f42312da78\",\"sentences\":[14,15]},{\"id\":\"O_8e72979ea6b5b59fb6\",\"sentences\":[16,17]},{\"id\":\"O_f4d4705924352a91ea\",\"sentences\":[18,19]},{\"id\":\"O_7d50689b682a7f4957\",\"sentences\":[20,21]},{\"id\":\"O_b5cb1a5dc17bf9dbb1\",\"sentences\":[22]},{\"id\":\"O_f2b776d3ab864546c9\",\"sentences\":[23]},{\"id\":\"O_eddb4a76bfe62dfc37\",\"sentences\":[24]},{\"id\":\"O_fd06524563ce90564c\",\"sentences\":[25,26]},{\"id\":\"O_34e373f879e5ac1e3b\",\"sentences\":[27,28]}],\"ambiguous_decisions\":[]}"
+    },
+    {
+      "request_id": "a38ea07bd44602b0fa080dac",
+      "response": "{\"status\":\"extracted\",\"choices\":[{\"id\":\"O_b2c380d02ec7f53f92\",\"sentences\":[1,2]},{\"id\":\"O_71bea04e2737b20e1d\",\"sentences\":[3,4]},{\"id\":\"O_d7d1265d8f32a1154c\",\"sentences\":[5]},{\"id\":\"O_5f47af7fcfdd3c1227\",\"sentences\":[6,7]},{\"id\":\"O_86c200f342d6c41eef\",\"sentences\":[8,9]},{\"id\":\"O_2cb8732799a4b46136\",\"sentences\":[10,11,12]},{\"id\":\"O_a1cc991b6f0f050360\",\"sentences\":[13,14]},{\"id\":\"O_8da84947da7b0ed82c\",\"sentences\":[15,16]},{\"id\":\"O_2138eaa930d3f06741\",\"sentences\":[17,18]},{\"id\":\"O_0b3daa35231d7030e8\",\"sentences\":[19,20]},{\"id\":\"O_ce183f3da091a2a37b\",\"sentences\":[21,22]},{\"id\":\"O_389254bcae8d0d3fcb\",\"sentences\":[23,24]},{\"id\":\"O_b91a9eede3b9af3c3a\",\"sentences\":[25]},{\"id\":\"O_a8af13043de1ba8993\",\"sentences\":[26]},{\"id\":\"O_88d6059025ee40af12\",\"sentences\":[27,28]},{\"id\":\"O_ab9e185595c08a88f6\",\"sentences\":[29,30]}],\"ambiguous_decisions\":[]}"
+    }
+  ]
+}

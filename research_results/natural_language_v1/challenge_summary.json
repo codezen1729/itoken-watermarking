@@ -1,0 +1,44 @@
+{
+  "cases": 24,
+  "strict_successes": 24,
+  "exact_choice_sets": 24,
+  "correct_choices": 28,
+  "gold_choices": 28,
+  "predicted_choices": 28,
+  "precision": 1.0,
+  "recall": 1.0,
+  "lexical_exact_choice_sets": 7,
+  "lexical_correct_choices": 6,
+  "lexical_predicted_choices": 22,
+  "semantic_false_acceptances": 0,
+  "complete": {
+    "successes": 4,
+    "trials": 4,
+    "fraction": 1.0
+  },
+  "partial": {
+    "successes": 12,
+    "trials": 12,
+    "fraction": 1.0
+  },
+  "abstain": {
+    "successes": 6,
+    "trials": 6,
+    "fraction": 1.0
+  },
+  "ambiguous": {
+    "successes": 2,
+    "trials": 2,
+    "fraction": 1.0
+  },
+  "same_word_contrast_cases": {
+    "successes": 8,
+    "trials": 8,
+    "fraction": 1.0
+  },
+  "lexical_same_word_exact_sets": {
+    "successes": 0,
+    "trials": 8,
+    "fraction": 0.0
+  }
+}

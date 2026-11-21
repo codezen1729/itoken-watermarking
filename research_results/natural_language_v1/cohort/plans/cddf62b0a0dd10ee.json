@@ -1,0 +1,476 @@
+{
+  "document_id": "cddf62b0a0dd10ee",
+  "unit_id": 7,
+  "problem_id": "problem_4be89c3a3bc5",
+  "public_demonstration_key_hex": "07e648aa32388efe8237fff6c9bca7d96de22108c1cadb6e8607d0db98442c0f",
+  "surrogate_keys_hex": [
+    "ac7efed26fc5d59049ad1867090e3454d6e6bdf5511baba45e9b642ad7ac0f16",
+    "9e53ddcbee64bfd7a7a939c9c16c00a2fd47bfba49baf8eb434a62b573b236af",
+    "5cbbf70e668d55a7aa09f8416e5af6b2789057f7168105b58adb8872fbc3ee19",
+    "7f93d38858875b7367c0cc3a3ece9309e58c1f217d937b97715b23ea4d3a16c3",
+    "22b119343c94cf328454afad72ad989c38b485578ccc9234af49973f6c699f5e",
+    "65a05ed907bddeb04f2ceb8606699f7822caa3fa35c0fc942bdd16e18de79905",
+    "5f280589a98821eac2afca2dea8bb5b8da2b8ba8ec0eeb6cb236474a20a0feec",
+    "718c7bac66c14e8a2c6cbc290020ce8f7a6b64d18ed6d0b9e8adaf4f1daa7422",
+    "a1727e9811a4cdc194c816a45c20b48ccb966a40889dda65a7e3457710bf101a",
+    "830c617d787c8e14ec42b4e7265a606e9f3d82d582a43dde7d69364626050d1b",
+    "4d22491eb02b8f90dcb937431b6775fb2816a84c0683f3c6c2036ee96afeff05",
+    "693c1d1c11616354d7e19d393e761ed6fb519aab0b1076b108e428da204c3e65",
+    "2c810d740f6a5cc82def30b7a75340391200e6673507c93ccbad61c3a9bb8771",
+    "2956689143441e0204ad8df4f6ef1b96a15a8cd96e4ae0c896744f1b0da5835d",
+    "92b1f47d3fb08d15d5615549be19d423189b3ae76c12a87fe38f9589e55bd2bb",
+    "a517f1b1bf0337a13214cf159770e164efcddcb6a19abd425568eae83eba78f2",
+    "024a1a9a0c5fda57fada2c6aa4f51f7f1209aa68b5cd4ad6e71e5ff7076976e6",
+    "ad38d0742743fc6ea59c91b86b0f6006fb1ed7a27a7ab3c103d014da76815a1e",
+    "14246a1c4128013cbd5b8c6dbf38230f9691729227f7dfae97a3c77f2aa9aa6c",
+    "55a265990ea0403dbfd4df864b5a8d6cb52ad31e8317a69560f5bbdf28206854",
+    "fafc47959b5ce37c6e7ec6df33953041b0ea8fecb07ac1ff321106d31721aa0e",
+    "dc1a7612d89927ba1c5c16055b1a4e215a2d2fee0096c65a1e79558771dbc58a",
+    "d18e446c7a28bd10f20818f16bcfec6f608084b911c465bc79dad84d3637120b",
+    "457940972ca6c8a900de226041e8e9d59694b17fb3bceb8e85b79dc66f298f3a",
+    "9c6944d28857e6a5328677c160700247276c3cfc0123775d48dfcba8a6553654",
+    "13877122acf2a61d538205f27ced30bc2f50c486c9e2304cad08e40b443029ce",
+    "652340d35d1e769be6603b09ed5a23db30702f46a0fb346b5c56546065111670",
+    "398ddd474cd9ad38f1f774d3ea1976d81a60ce1ee48767e13b5935a117801c95",
+    "3e83759e5dc312ab349085dc66c41f1febb0ccea8d518c18ddf220f12aa23432",
+    "a7210067d64ae12f59aacd6d92579314bfcab17b5c2cfc244c3a1c75ddea3e60",
+    "003ebc71c5eedd391df0f3816d468b05101c44ee606f8cfcdf908a80b24bf769",
+    "a34baa9d2a6f56be3881d3042bdace75c58dccb24aed9c6d0db3b9072601e7eb",
+    "06f5c2c10b38c2f918c86de48f82afb737326c11e86833ba11b5cbf766950a80",
+    "9b1657774f1a52169644098a14dbc662f863e0232104f61be58e88768287a685",
+    "14bfdc4661d415954fcc7763a5bd88f189f36b8947c068237aca371e4c2618d2",
+    "4e62d4995ecf5c7a671b4c9802a2e0f9d9b76ee3833c98ce7fa6fe0e004df937",
+    "346d220b3e3ff5600a962dac82cc46a2a1f06bc2d23987897a039ace6a866a50",
+    "41b5d51d95e7e7c37490c75bd58a6d4550c029514b0a1fd1e62be20c840939d8",
+    "0f2a18281f595e5171d28afccf3fa5c25f61b230f434241cb8bdbbe30654c934",
+    "1992b08bc30d37ffb0d0aad62aa29dc52a39162553368e457df455a9cb67e4a9",
+    "5280bc5ce29634e41a83d720cf9be276559f63dfe5a1ad11c5879662405cbca7",
+    "227fe8cb8509222567bcfb993809c9710ee5edb53d40810a8075d032e411008d",
+    "210c9f6c95db0592c7b86bdd413a0097e619a6a10dd972c8060d8f55b1685df8",
+    "a66119a036f9a4cdf8cd1b4a115c0968c62ed4248b76e17b989c56eb0b73fc8e",
+    "636c06d280592ebc055dfb4f30d4d9f861650ca3b51273f184fc1bfd0c7b468a",
+    "b554ed4825131b7ed50f35ab8f6d72a8e3f194648565a915c9bad1080769e227",
+    "029c3ed47bcfa6379738efc845bc6f8044732fee428fc7c489fe367ae6974d72",
+    "0422e2aa7d0b91ea8f84391762f0a5b13421d3dc6aacbe33ddb9fdcf53570df9",
+    "cca2a65639e8b2808b7c46cae5ed14ee3e861f59c938ebd4b01d643cc4c0090e",
+    "882385bed220c22534900365ab72e4d2d677a39fabf070d8090c2d65dd67feeb",
+    "1ad3fea553127e5a2215ef178d58f255a5ce82187a37883c5e7118e1b1d6a315",
+    "07f3c44924ce389f8ec4338a3f8e88d71655b7ce97a1f21d4cb325162df8923f",
+    "e8a94f90413acd41798c94a18fd96eee11eba3c091855e607dcb41bbf182435a",
+    "11b568b0ef10d44762d3dc723973aeeac48a3fb018ebb37785f6197f0c58129f",
+    "5a35e3cccf5757877472ad50c532397a9154c0b2b14ed379d5e91396e4680964",
+    "1a97b4a625efd9cedd9aae5e9073b1db665336339966d9f181e0418285fb642a",
+    "37ea880fe923677fcf63540746e74ccf5019605c303fd4cc572c52f6dc70be51",
+    "60dd9a4ae789c7bd27130f69f236167e155a3ecafe85f23a9e25a452605ed659",
+    "ae46f6625bd509196eb77f1240c69fbf9eb1ea1e88926e6dd38f38cf3559a6c2",
+    "794cf7e4375ff297daae2a8a43ff9a0ec6e6d28275db53316020ebe53d02d428",
+    "941732fef9072eb276fc419cfeed72cfa6744b5e12696291d03f757e5e2c8293",
+    "b40626a8be6d32597ad1727019d267a5fc3f6ceba4da21319701479d87e3c057",
+    "2d26286f9583627f6539b9c3e4f813b295b1a15a2e25a6d95487f988d7e3fb84",
+    "9744fae029796670b5b12a258fa76355da3f2ce75864d3d0cc0b199c4a010817",
+    "ced5fe8e30c84c51e1489257f2839ed6f316616b700c00c34233417a8ef62046",
+    "126ebfb0ebf2f375736f52c95e3f6c71d2c9c146b150e500e2c62c4193ec9b02",
+    "0bab7d892da98e1d376ad0c7da22e8f56d54ba8f23188d05e5d168ae6b060983",
+    "0d675ac44b637ad3d4f72ce431c2455806eec9f5cc31d3f30f6099d003bee23e",
+    "9ec9be8df6e5a85af7b0f2b8f0d2c8de8a7766f1038ba5947a11f528a278b13c",
+    "205cff04c8431d1732770956ca79b629589b2ad52ceedfaa465d9be159654c9c",
+    "32b666f31e7dea7ad7a3c0e6fe6cf3738376734ead79e841a0b74ad249f95647",
+    "092210ab66e956cf8f3244e3585d9a6d7b4fe1afd355854421e39de9ae0fe4ec",
+    "3927ce2fc82c58aa4a0a80d37e457fa77abf1ed56586ef188bc4c5e2b6b4acc8",
+    "815590e7a4bb5d83d0c4057b7884713580fdb5b846affdd6fe0fc70d089e6ea8",
+    "35cad57e4cf4f70f7b678b2930d680e81508bbcdced603c072844a5e709af344",
+    "60f5bf90b1701a9d17fb9fbfecde578d18293a6ea105d547321765375d63a4ee",
+    "a6442198a7dec1bc72f2d4c671480e1c5b99318daf433d9679dfe83bca5a1447",
+    "6e99ffda7158bfe3f58cfcaae23a87bc0cc26678cd9a86396ecbdc9408824e59",
+    "b6d85ebe3097cfc62883be7799145b88b338467d1ce5e543c3756bfb22f7e8e7",
+    "88e09eafa548270ca10d1cc928df5ffd26cbc34928827d042232ef755ce9bcb1",
+    "60025e9fb8bc7e404fcdb70d839bb1817b825f65c0cc21623445313e3a502f31",
+    "99f17c88c8fe7d0d7ec6b253327ed9fd18245d1b2e1edb964bd518a2b5ff93d4",
+    "ee5d631a9af27d298fc8c9d7467b09d9581710df0ecab0d0e189f9724cd83b76",
+    "0876b8b4b3a3f716317540ad92c28a594e0b8c50349ed64b59fdef7c8bc7ba1e",
+    "d41f40e030ecdfe152d071a63cbf5c4b99cb0de610181d4e3f0622863456bf49",
+    "9dbc77d57a02e52a714065351243fbce0dee3ebee01c221a752400001ba030a5",
+    "fdcd77a02f629636a0a454e2b6312c002ffbe60a0ac16d7090a43d2ea3867013",
+    "0f5750c7efbbd411f98979cd43684842811239301ec457bd77836b6c134898e3",
+    "48e0c0e4d42d1016a58955f1f96dfb4637dd27b50ef668ed262820bf52fe4e5c",
+    "f9d4c52141b24980f05a5cb2fa3825e8d07343975798c502b7d61de12f4fadb1",
+    "7c39370a0447f4adfa6d804241659562dcf4d3792c7e4ef636564683423a775f",
+    "fa6268193bcedb11611e02e7d59005daf1926454deaa0a4af1e7ee1f6e038dc5",
+    "f6cd8a5bc4ced126d3c41588789f027b37992cbd485cb2a81298442e780723f8",
+    "ec86b683e983f07bfe56466e44c53205032f76e2883dc7c9bfd60ce68120f5e8",
+    "3d0d8224499f9b999870fd7dc47c062115e8385853e4443d98ae47464b3630d5",
+    "1a00a6133b55cc90a1278d178fb06e1863aec8941746f337de9b22f5a8ca70eb",
+    "9b218f21154bf703761add23fcfc653dde001c0f18786929d5de3e878251e46f",
+    "2620042f8573302ec0599abea73c6a0f114292dcf018997b6b5b20f850de8bbf",
+    "0b27a9a847954784b53006de20b93486e8e855e2836695cc919d66ba0922c89c",
+    "0143582d36b57ce7632619c055131287fa6d703452b57f9b0674402144613291",
+    "c5456b9b549f59f218f607e0a237c010b0ae2d4e400a56b1bddd137d893671f1",
+    "fcd0d864e68e1a4523edd8d28b23ff72ff1207535449c15d3387c2f348b31cbe",
+    "4cc08e1c2bb0040e14b4771da0540749c0568f019487b7189128d8871f15f195",
+    "410d05cbf29a9f967ca138c52479f0e97cba94811ac6cf2d43ffb6a7a3d3251c",
+    "5246b7df562766a341bef3f3321083f78a9bd498ab65c5eed0bbfe8df79aca20",
+    "5836d43fd9bfee5cf2fd6c589435f95f855af8850dcec73004fbe247c8971bc1",
+    "c4d7a9161dd832311f2933258ae9f976c04515d0d91f3386024ae2c977aaa896",
+    "8f71380ea207505dfdc53a782a8c37f23a24e1ed3d0cbc6510ce942c8d1908ea",
+    "88e0bbbf736d61181e154c1696ed9bed58316b6988ef9f97b5ca9a2b6d5fbaa0",
+    "f7c4e6cae6301b424f1ed1b7b2bf32ec520a5338cca675f7c4a1752bb755aa69",
+    "71dafa6b3b562560c0b6fce44a4f82da641e15967ed0bdb7b69b09a916f73422",
+    "5db8d61c7fae1588d165fcb668e9d0582e5cff0974a07d75c8753376832ddc2f",
+    "89b0b9b68da832be06912defa7ed53d6e92138d62081596e094fd71a69a48dec",
+    "ef259ce9ca7cca784ea67fb14cc25c9b1945d8b23276b09e1e793082b653c88b",
+    "c47cc42b0349bd6e00796e10a12c19847ffbe3f0a0d71a150b0d9614a3c40fe4",
+    "7c9b10c5dbcda4f22f0736e8e8bc4901d0ba4e72888f8745ac0b0e261a4639fb",
+    "64c75ae52b8460174553c2e55add64f697cfd9aa196ba053e3837129578eb870",
+    "ca4e2eeb68132fc665990f1f0a99183c468fc5d27a0799aaab7df772a74e1d9b",
+    "f4df2081d90b667dd69783c65625c8ed7f07d706567db3a342ad8556efd2c688",
+    "54c9f5251675a29dd437bec463c633e0d7b6c0f9832a7224425ed73df2e0a3f5",
+    "f3cbc3a527551af582536a734736e6b5b77a7130ea7983188658d6576ce6f613",
+    "1e76437f62ca7cca2ce281097d9f197ea0d306a7e811996901c3a67f5b2fb1cb",
+    "1f4d870a4656234f696c93d79f2b86d1ff26162262d81b3e16ad68ccfd8e20b9",
+    "f1664a9d2ed185fb2fc001a152d3ce2e604f341ba5ddb14ac7aeea5c047c4675",
+    "6704ca19ee07a9d0166a486a3159c2c957630c7a7288b3614371efc757086dc5",
+    "67aa3cf39341f81cfc8561735d015c58f17ca35b0013b8b8f3d51220697cb41b",
+    "66773b6eff465140e00e37fc68e3bd93630057babf7393dd8d7a61283fd9807b",
+    "c567a59e126e1171da2805abf45f73b6c72ff8d1427afbb90f3532ef49b314db",
+    "6f85d78a10645c2907b7694ef6649f645b9049dbe274a47fa2c9217dabe16ee8",
+    "6fa67f08479cb92be5ecd20ca0e96bce5c6e0c7d340fcd6631794d28b5c56cd6",
+    "6eadcce9f078d2a9ce9ad0d3241de2657a92d16d78372a7f6ff8178531e53119",
+    "da26a819a05cf50fb6f782df6697c8bb22a7cf9dd0b3fa1383a136b9ee1e23a0",
+    "0aba0154bb6dd44326d2c905a4ad845de9cfc21b07f3d17338847cf45a21819c",
+    "e028d32a8d6e5c2b8828cc5ba74d2ee5a584dc8557cc59a7226cdd35a282769a",
+    "75ef2a8485e04b68ba86713f3aba32a22e9f677cbc44e39befbbfce85e50ec7d",
+    "ad21b2683878b96d717bbe7372393092d927b5ff8247171317362e1df84a7922",
+    "0663d4b49682fa71c7e4c1137b3a953d0abfbe3836a9a4c0cc21d54ac98af4b0",
+    "5fc538a607e672e488f7bd35ce04cb04292531cb25b85502d1c0f784e6e277b6",
+    "c2f7a58aa83579de009a9d1f6f03d08996b62598390ddcea71f407c63de3044c",
+    "043a1102b13ff09851d7561003996b3c1b0562c00695770eed0c25a79f87d0b3",
+    "f0a3ceb82f542ff3bb6238c957d21814e27119467fd6cf646430620593fe697b",
+    "8555b268f5af78582eaca5ddc0d2e9bdba40407f485dd3bf91f14915ddbfbf31",
+    "9ebf3f7d227966046275849d99d9a12764a7fb1d3cf16fa5f64daeb36d63c279",
+    "d9f0338266838285d50b5199afcfe34df90534bde55eb6f51adcad5c8dee10ad",
+    "5c91ad405e74f2b305b5f04c1bda8bc1cc3b9f411810a5a43b264a6cb2a2d706",
+    "358de5d0e41db90c747923068c1e0e243399a66801c536ad86cef25ae5b99674",
+    "12acceeaeb299f717766fa23e5baf8498afa8074ef9965b287b7c9138ca96a88",
+    "8234393838ed0b493adddca241a345972663d678592f9267a19819969b860c0b",
+    "e1a64815c8aecd4c6e7282e0176f4206725f7f0d3ec28a8c4fcbfd499890d024",
+    "b755c7e61210458716f36e509b81e567d612e65f0f70d4063361af8270aa851d",
+    "fc1497d2ea115476c786ff6990cf82b42be371ef3812b17c884cf67df2175642",
+    "12721ac1f316e75f6831e292adf88cf2da3846b5efbca2828ff57e01145b80c0",
+    "fb6fc97d850ddfc2e05c2d1a175edbbf7fada45b2438098b0b858ccbfd001b1b",
+    "bb7f8c74beb9a18ed7c26ef7d8c174ae05d9c5caa5d583191a0de90719dc2fdf",
+    "85482b7e05bf9235637b33de3a57f576d88313982a4c0898dd0b79936b17a518",
+    "ba80cd0ea4960ffed6d107f837412a2eb10b0cf598d3d8d164a4790a773a8b02",
+    "8a2adb02773be33f9a8f076faf697705a2385016f1e8c588d33b1cc57728325b",
+    "f7849d5c61c4f95c1c9da9031f38fd4f9f90cd6ef21b4c569821e9f1f4c7c86e",
+    "108ae2ceb4a6a463a782ad525f1f9f9b03900caf0f27fa1d16e7c7e917dfe4c8",
+    "0d84bf5645f6a3045ac7f2c19ba38c5e87a996412b677f2aeafc19417db971f9",
+    "a54b06decbdb9efeec5c3a04cdc429fde1020a7fa9c58a4797dd26e86f8bf33e",
+    "b9823ec9a2fae551a11751b556745cf6c57af73c01691bd61b12c41c1bced60e",
+    "5299fbc279bb9ca78935ecb180dd543578b86b2ead976fd78efada8337937a06",
+    "fba6558d23d8abe65bf3f552162398520cb29f48e307de00a280c5bf69cfca66",
+    "95ec3e7403d997be03028608a07a3a020b9687454216a673c23fc5563655a3b3",
+    "5e48a6628301a89dfce3a5841608562b3cef0141d5a31737ac027109b98b0b8e",
+    "a5a1a4c2db9dad9220a29a17c3267542d9b948b3cf3c20f048b92941d231618d",
+    "5dfacdcbc3e5073e73ad1cb8ec0fa289934bf034c20732dcddadaddb706c9571",
+    "a7c6f400b849d026af681a90b30706d1e08637593499712ac9022bda6cda9943",
+    "05f1da2e109f108bfb6be64ec9d288fcb598e538481c435c45ec483c5e14634b",
+    "3a07f3cde554e7c3d023dc73a633e52c1f06ef5faaccafef7499a77c18528496",
+    "3175b3a73c3a3cbe8c738c0b07c43a3544c9e25c3f09b9759779139b295eacb7",
+    "4a41ef8c31a880488474c3d6cd8a73a9b6afd9a84a50e2f6fa57a64bd8af5674",
+    "8c786a7dd26261bce2885548be594ab84581bbfce81362f0705c4717d00aeb96",
+    "837bda6a2d2aa95c425b8ad0cd386996ddcc1ab64046aac9ea4f533d4ff0f6f9",
+    "b837e4c4e5e69ab1d7cb01dc39c22e81118e437ef20553ece2a1a7433fb8d459",
+    "ade66f6fc6bbf94127d7cc8d05ec037a2efc09e2a1dead5fec1c5dd379d37b9f",
+    "9ada5ae8d74bcfce4f4b280c26d7f15c2f2e6554a29ee4066ea04b6f6db5f30c",
+    "44ccaaee61c30a3498b336f4ecd5fb408314855a9fd6e0def5263e665caa564c",
+    "611f9815452d2f299358522e7df92acba3d545de982c00577b4bbc6e036af424",
+    "8f51cbdbdb703b759debbffb99159c7b4b0fe073e16150d00d058be15d77bd45",
+    "ad20551b599f5b7ab51252780276ada2ee27423c0c3e02a8a09c2bb926cf08d0",
+    "b3950f264294ca8a885087a8e5f4d6487ead3fb15217b852669090faa371a284",
+    "61fad30195750835c3cf65b0e2f613dc5ed207a6d9d528d92a79226c83aed3b3",
+    "b6ae6cac933c2fb9b9e4ad467234188fe0879c02d76ae5c019728ddb64078a07",
+    "067906b6870ce97605f6a6fb5670de6e6a3ca0c3133437ed849e7908a76aa12f",
+    "25fe6e4179de326396b9780d2c525a0d13690e3c6543d1c21009e1961cd66dba",
+    "89f895c1fc64adc564023ba0444c5146a322a7ed0400d878c356173e592d73a4",
+    "610a40636997e2bbe48deb8821c20f7630f434b0deedfc7cb581a7642264e01f",
+    "d17d3fd35087c8ac219c84bb93dd18880c1a8c2fb0e5277b14f6130571dd512c",
+    "e9c36af7e0b4532d9ca064c66b0e03966d3c6bb85e20b9abdcefa200ed4dea63",
+    "c726613104418133c252d9db10ef4c561b9927503400a7b374988e3586658be3",
+    "e3e465cfebc357142f71b8c6d74ec037289003fa6febf2400bca4ba5e26f1a46",
+    "479d6e03970db3bde894b25786f0da8f6915ab8c69ff9855315a6aad7bc542e3",
+    "717ec2cdc2060a872436a0a9d2d19dbcec060d5eae2edb9f46f9191e09fede9b",
+    "e5973953cd614b28202d183b96abb153f56906be38d70c214ddefb6f33611e0d",
+    "857dd226b1a21c1a06a267e89ff31ea1f8afcc7ff49749070181ca6f4cb025c3",
+    "7ef8cbf6bdafe9d6673efefa7416e6f1581188ece1782dc388d0557d2256516b",
+    "4a2231a3148cf04b530707e12f749cfeb5a14dbf2f5041d31b299c903a0f66dd"
+  ],
+  "sampling_seed": 1708,
+  "condition": "marked",
+  "choices": {
+    "decision_71042de1e5ec": "choice_98649e7f662a",
+    "decision_47484ace809a": "choice_99de13c08800",
+    "decision_ee29440d96e5": "choice_ed2f84cff88e",
+    "decision_0616741ccfd1": "choice_3860b12ad01d",
+    "decision_c5d320651898": "choice_952c1afaab65",
+    "decision_76955a70c571": "choice_0655c292ab5c",
+    "decision_66bdc8c4642b": "choice_851e1934f7d0",
+    "decision_b48a117f22f5": "choice_21bec0b5a0d1",
+    "decision_2f6fb93af909": "choice_280bc1ec3224",
+    "decision_4c7582137f3c": "choice_06b0c46781a5",
+    "decision_512a3f852563": "choice_9300fd777e94",
+    "decision_ee00677c5692": "choice_e1d0be088a4d",
+    "decision_26850f104ee3": "choice_4f2960c6522b",
+    "decision_b9de32a36c70": "choice_d48aa8a700a2",
+    "decision_3f6eb3a6337e": "choice_688397b14ef8",
+    "decision_6d830daa9827": "choice_e418cff460bc"
+  },
+  "policy_rows": [
+    {
+      "decision_id": "decision_71042de1e5ec",
+      "p": {
+        "{\"consequence\":\"Advance information begins with gaps in the planned selection, helping contributors identify which of their spare items would be useful.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Organizers announce the categories needing more contributions, and neighbors reply with household goods they expect to bring.\"}": 0.2870185231923798,
+        "{\"consequence\":\"A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers.\"}": 0.7123639013017126,
+        "{\"consequence\":\"Table preparation follows volunteered estimates while leaving final acceptance to the ordinary intake check.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Contributors list expected household goods on a shared form before the fair, and organizers total the entries by category.\"}": 0.0006175755059077009
+      },
+      "q": {
+        "{\"consequence\":\"Advance information begins with gaps in the planned selection, helping contributors identify which of their spare items would be useful.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Organizers announce the categories needing more contributions, and neighbors reply with household goods they expect to bring.\"}": 0.2870185231923798,
+        "{\"consequence\":\"A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers.\"}": 0.7123639013017126,
+        "{\"consequence\":\"Table preparation follows volunteered estimates while leaving final acceptance to the ordinary intake check.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Contributors list expected household goods on a shared form before the fair, and organizers total the entries by category.\"}": 0.0006175755059077009
+      },
+      "uniform": 0.31457051719340023,
+      "selected": "{\"consequence\":\"A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers.\"}"
+    },
+    {
+      "decision_id": "decision_47484ace809a",
+      "p": {
+        "{\"consequence\":\"People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors choose available arrival windows on the intake sheet before bringing their household goods.\"}": 0.707515009877486,
+        "{\"consequence\":\"Nearby households get a simple shared plan while individual conflicts can be accommodated within the remaining intake capacity.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors receive staggered arrival suggestions by neighborhood block and may choose another open window when needed.\"}": 0.07484101976642953,
+        "{\"consequence\":\"The intake load can be spread across the period while taking account of when contributors can realistically attend.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Organizers assign suggested arrival windows after contributors report their availability, keeping the walk-in allowance open.\"}": 0.21764397035608443
+      },
+      "q": {
+        "{\"consequence\":\"People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors choose available arrival windows on the intake sheet before bringing their household goods.\"}": 0.7645963374237486,
+        "{\"consequence\":\"Nearby households get a simple shared plan while individual conflicts can be accommodated within the remaining intake capacity.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors receive staggered arrival suggestions by neighborhood block and may choose another open window when needed.\"}": 0.00020047921843019723,
+        "{\"consequence\":\"The intake load can be spread across the period while taking account of when contributors can realistically attend.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Organizers assign suggested arrival windows after contributors report their availability, keeping the walk-in allowance open.\"}": 0.23520318335782128
+      },
+      "uniform": 0.4398805127669988,
+      "selected": "{\"consequence\":\"People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors choose available arrival windows on the intake sheet before bringing their household goods.\"}"
+    },
+    {
+      "decision_id": "decision_ee29440d96e5",
+      "p": {
+        "{\"consequence\":\"The contributor’s knowledge directs attention to likely issues before volunteers decide whether the item is suitable for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Contributors complete the condition checklist themselves, and intake volunteers review the answers while examining the listed concerns.\"}": 0.034345619542802075,
+        "{\"consequence\":\"Questions about damage or missing parts can be answered immediately before an item is accepted for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Intake volunteers inspect each contribution with the condition checklist while its contributor is present.\"}": 0.0603214839117476,
+        "{\"consequence\":\"Conversation and inspection proceed together, allowing observed problems to be clarified before the contribution leaves the intake area.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"One volunteer asks contributors the condition-checklist questions while another examines their goods beside them.\"}": 0.9053328965454502
+      },
+      "q": {
+        "{\"consequence\":\"The contributor’s knowledge directs attention to likely issues before volunteers decide whether the item is suitable for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Contributors complete the condition checklist themselves, and intake volunteers review the answers while examining the listed concerns.\"}": 0.35440299754654675,
+        "{\"consequence\":\"Questions about damage or missing parts can be answered immediately before an item is accepted for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Intake volunteers inspect each contribution with the condition checklist while its contributor is present.\"}": 0.6224407944697979,
+        "{\"consequence\":\"Conversation and inspection proceed together, allowing observed problems to be clarified before the contribution leaves the intake area.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"One volunteer asks contributors the condition-checklist questions while another examines their goods beside them.\"}": 0.02315620798365524
+      },
+      "uniform": 0.6354195945693891,
+      "selected": "{\"consequence\":\"Questions about damage or missing parts can be answered immediately before an item is accepted for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Intake volunteers inspect each contribution with the condition checklist while its contributor is present.\"}"
+    },
+    {
+      "decision_id": "decision_0616741ccfd1",
+      "p": {
+        "{\"consequence\":\"The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Intake volunteers ask contributors for item details and write the labels during acceptance.\"}": 0.9707100343516695,
+        "{\"consequence\":\"Description work has its own focused handover, keeping the inspection station available for the next contribution.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors describe accepted items to a labeling volunteer after the condition check, and the volunteer attaches completed labels.\"}": 0.004703204688767007,
+        "{\"consequence\":\"Firsthand descriptions are captured early while a brief review keeps the displayed information consistent across contributions.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors complete the item-label template, and intake volunteers confirm it before attaching the label to accepted goods.\"}": 0.024586760959563563
+      },
+      "q": {
+        "{\"consequence\":\"The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Intake volunteers ask contributors for item details and write the labels during acceptance.\"}": 0.07591307612645319,
+        "{\"consequence\":\"Description work has its own focused handover, keeping the inspection station available for the next contribution.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors describe accepted items to a labeling volunteer after the condition check, and the volunteer attaches completed labels.\"}": 0.14838426256188056,
+        "{\"consequence\":\"Firsthand descriptions are captured early while a brief review keeps the displayed information consistent across contributions.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors complete the item-label template, and intake volunteers confirm it before attaching the label to accepted goods.\"}": 0.7757026613116662
+      },
+      "uniform": 0.0375901205326179,
+      "selected": "{\"consequence\":\"The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Intake volunteers ask contributors for item details and write the labels during acceptance.\"}"
+    },
+    {
+      "decision_id": "decision_c5d320651898",
+      "p": {
+        "{\"consequence\":\"Visitors can compare items that solve similar needs even when those goods would normally belong in different rooms.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by function, such as storage, serving, or decoration, and label the display tables accordingly.\"}": 0.6050379662187021,
+        "{\"consequence\":\"Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by their ordinary room of use and label the display tables accordingly.\"}": 0.37140705669920887,
+        "{\"consequence\":\"The physical arrangement can adapt to available space while visitors use the index to locate relevant items.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers place household goods in numbered table zones and maintain a category index showing where each type can be found.\"}": 0.02355497708208911
+      },
+      "q": {
+        "{\"consequence\":\"Visitors can compare items that solve similar needs even when those goods would normally belong in different rooms.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by function, such as storage, serving, or decoration, and label the display tables accordingly.\"}": 0.6050379662187021,
+        "{\"consequence\":\"Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by their ordinary room of use and label the display tables accordingly.\"}": 0.37140705669920887,
+        "{\"consequence\":\"The physical arrangement can adapt to available space while visitors use the index to locate relevant items.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers place household goods in numbered table zones and maintain a category index showing where each type can be found.\"}": 0.02355497708208911
+      },
+      "uniform": 0.965073502409467,
+      "selected": "{\"consequence\":\"Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by their ordinary room of use and label the display tables accordingly.\"}"
+    },
+    {
+      "decision_id": "decision_76955a70c571",
+      "p": {
+        "{\"consequence\":\"Sorting happens near the stored goods while the people managing each table decide when additional stock can fit.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Reserve volunteers prepare small mixed replenishment batches, and table volunteers collect them when their displays have room.\"}": 0.08700477448288327,
+        "{\"consequence\":\"Replenishment follows visible need at each table rather than moving stock that would immediately crowd the display.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Table volunteers request reserve goods when their displays develop gaps, and a runner brings the matching available items.\"}": 0.7581682353280648,
+        "{\"consequence\":\"One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces.\"}": 0.15482699018905202
+      },
+      "q": {
+        "{\"consequence\":\"Sorting happens near the stored goods while the people managing each table decide when additional stock can fit.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Reserve volunteers prepare small mixed replenishment batches, and table volunteers collect them when their displays have room.\"}": 0.0013743345276280533,
+        "{\"consequence\":\"Replenishment follows visible need at each table rather than moving stock that would immediately crowd the display.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Table volunteers request reserve goods when their displays develop gaps, and a runner brings the matching available items.\"}": 0.011976087401584864,
+        "{\"consequence\":\"One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces.\"}": 0.986649578070787
+      },
+      "uniform": 0.7278357237103703,
+      "selected": "{\"consequence\":\"One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces.\"}"
+    },
+    {
+      "decision_id": "decision_66bdc8c4642b",
+      "p": {
+        "{\"consequence\":\"The introduction connects the rules to the room and offers an immediate chance to ask a practical question.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives each visitor a brief explanation of browsing and collection while pointing out the relevant areas.\"}": 0.0023520487421502837,
+        "{\"consequence\":\"A common explanation reaches several visitors together while personal questions can be handled after the group moves on.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram.\"}": 0.9725914951400582,
+        "{\"consequence\":\"The essential instructions remain available as people move through the fair instead of depending on remembering a spoken introduction.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"Visitors read a simple entrance diagram and take a small guide describing browsing, claims, holding, and collection.\"}": 0.02505645611779162
+      },
+      "q": {
+        "{\"consequence\":\"The introduction connects the rules to the room and offers an immediate chance to ask a practical question.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives each visitor a brief explanation of browsing and collection while pointing out the relevant areas.\"}": 0.0023520487421502837,
+        "{\"consequence\":\"A common explanation reaches several visitors together while personal questions can be handled after the group moves on.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram.\"}": 0.9725914951400582,
+        "{\"consequence\":\"The essential instructions remain available as people move through the fair instead of depending on remembering a spoken introduction.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"Visitors read a simple entrance diagram and take a small guide describing browsing, claims, holding, and collection.\"}": 0.02505645611779162
+      },
+      "uniform": 0.29302588805744645,
+      "selected": "{\"consequence\":\"A common explanation reaches several visitors together while personal questions can be handled after the group moves on.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram.\"}"
+    },
+    {
+      "decision_id": "decision_b48a117f22f5",
+      "p": {
+        "{\"consequence\":\"Every registered requester has an equal chance for that item, and the result can be announced before it moves to collection.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer draws one name from the competing requests when the item’s decision window closes.\"}": 0.02847289993954022,
+        "{\"consequence\":\"The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the earliest recorded requester when its decision window closes.\"}": 0.9540730699877359,
+        "{\"consequence\":\"Priority spreads sought-after goods across visitors while retaining a clear rule when their previous awards are equal.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the requester with the fewest earlier contested-item awards, using request time to break ties.\"}": 0.017454030072723864
+      },
+      "q": {
+        "{\"consequence\":\"Every registered requester has an equal chance for that item, and the result can be announced before it moves to collection.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer draws one name from the competing requests when the item’s decision window closes.\"}": 7.39658675392475e-05,
+        "{\"consequence\":\"The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the earliest recorded requester when its decision window closes.\"}": 0.9998806926857122,
+        "{\"consequence\":\"Priority spreads sought-after goods across visitors while retaining a clear rule when their previous awards are equal.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the requester with the fewest earlier contested-item awards, using request time to break ties.\"}": 4.5341446748538775e-05
+      },
+      "uniform": 0.44026417786660976,
+      "selected": "{\"consequence\":\"The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the earliest recorded requester when its decision window closes.\"}"
+    },
+    {
+      "decision_id": "decision_2f6fb93af909",
+      "p": {
+        "{\"consequence\":\"A single handover establishes responsibility and makes the promised collection time clear to both people.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves.\"}": 0.7168911105042608,
+        "{\"consequence\":\"Recipients can keep browsing while the tagged transfer preserves their identity and collection deadline through the handover.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Table volunteers prepare holding tags for claimed items and send them with a runner to the supervised holding area.\"}": 0.013096713210263873,
+        "{\"consequence\":\"The claimant supplies the details directly while the volunteer confirms that every stored item has a usable collection record.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients complete holding tags with their names and deadlines, and the volunteer checks the tags before storing the items.\"}": 0.27001217628547536
+      },
+      "q": {
+        "{\"consequence\":\"A single handover establishes responsibility and makes the promised collection time clear to both people.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves.\"}": 0.7263807297376449,
+        "{\"consequence\":\"Recipients can keep browsing while the tagged transfer preserves their identity and collection deadline through the handover.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Table volunteers prepare holding tags for claimed items and send them with a runner to the supervised holding area.\"}": 3.2893231770534715e-05,
+        "{\"consequence\":\"The claimant supplies the details directly while the volunteer confirms that every stored item has a usable collection record.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients complete holding tags with their names and deadlines, and the volunteer checks the tags before storing the items.\"}": 0.27358637703058464
+      },
+      "uniform": 0.24355496431829515,
+      "selected": "{\"consequence\":\"A single handover establishes responsibility and makes the promised collection time clear to both people.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves.\"}"
+    },
+    {
+      "decision_id": "decision_4c7582137f3c",
+      "p": {
+        "{\"consequence\":\"Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible.\"}": 0.03076078708468494,
+        "{\"consequence\":\"Visitors can inspect the components individually while the tray and inventory show what must leave together.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers place each complete set on a dedicated tray and attach one label listing all included pieces.\"}": 0.5722967811497792,
+        "{\"consequence\":\"Larger or awkwardly shaped sets remain inspectable, and the repeated identifier helps collectors verify that all pieces accompany the claim.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers attach matching set labels to every component and display the pieces within one marked table area.\"}": 0.39694243176553584
+      },
+      "q": {
+        "{\"consequence\":\"Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible.\"}": 0.9275553256627588,
+        "{\"consequence\":\"Visitors can inspect the components individually while the tray and inventory show what must leave together.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers place each complete set on a dedicated tray and attach one label listing all included pieces.\"}": 0.04277566712343658,
+        "{\"consequence\":\"Larger or awkwardly shaped sets remain inspectable, and the repeated identifier helps collectors verify that all pieces accompany the claim.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers attach matching set labels to every component and display the pieces within one marked table area.\"}": 0.029669007213804673
+      },
+      "uniform": 0.32447870349575547,
+      "selected": "{\"consequence\":\"Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible.\"}"
+    },
+    {
+      "decision_id": "decision_512a3f852563",
+      "p": {
+        "{\"consequence\":\"Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart.\"}": 0.7769720780192942,
+        "{\"consequence\":\"A planned slot coordinates the recipient and helper before the goods need to move toward the pickup area.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors reserve a short carrying-help slot when they claim an item and bring their collection record at that time.\"}": 0.12157493177503333,
+        "{\"consequence\":\"Several nearby handovers can share one cart journey while visitors retain a visible next opportunity for help.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"A helper makes regular rounds between collection and the pickup area, inviting waiting recipients to join the next assisted trip.\"}": 0.10145299020567237
+      },
+      "q": {
+        "{\"consequence\":\"Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart.\"}": 0.9992889861910637,
+        "{\"consequence\":\"A planned slot coordinates the recipient and helper before the goods need to move toward the pickup area.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors reserve a short carrying-help slot when they claim an item and bring their collection record at that time.\"}": 0.00038758131513245915,
+        "{\"consequence\":\"Several nearby handovers can share one cart journey while visitors retain a visible next opportunity for help.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"A helper makes regular rounds between collection and the pickup area, inviting waiting recipients to join the next assisted trip.\"}": 0.00032343249380387503
+      },
+      "uniform": 0.8551677144609265,
+      "selected": "{\"consequence\":\"Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart.\"}"
+    },
+    {
+      "decision_id": "decision_ee00677c5692",
+      "p": {
+        "{\"consequence\":\"Duties respond to conditions on the day while remaining within the time and types of work volunteers have offered.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns tasks when volunteers arrive, using their stated preferences and the current workload at each station.\"}": 0.8992891350525238,
+        "{\"consequence\":\"People can prepare for specific duties, and the coordinator can see uncovered work before the event begins.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair.\"}": 0.10034297907486019,
+        "{\"consequence\":\"People choose suitable duties directly while the completed roster still gives the fair a clear coverage plan.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"Volunteers claim open shifts on a task roster, and the coordinator fills any remaining gaps from unassigned availability.\"}": 0.00036788587261607985
+      },
+      "q": {
+        "{\"consequence\":\"Duties respond to conditions on the day while remaining within the time and types of work volunteers have offered.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns tasks when volunteers arrive, using their stated preferences and the current workload at each station.\"}": 0.8992891350525238,
+        "{\"consequence\":\"People can prepare for specific duties, and the coordinator can see uncovered work before the event begins.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair.\"}": 0.10034297907486019,
+        "{\"consequence\":\"People choose suitable duties directly while the completed roster still gives the fair a clear coverage plan.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"Volunteers claim open shifts on a task roster, and the coordinator fills any remaining gaps from unassigned availability.\"}": 0.00036788587261607985
+      },
+      "uniform": 0.9909690679375075,
+      "selected": "{\"consequence\":\"People can prepare for specific duties, and the coordinator can see uncovered work before the event begins.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair.\"}"
+    },
+    {
+      "decision_id": "decision_26850f104ee3",
+      "p": {
+        "{\"consequence\":\"One person connects requests with goods beyond the current display, making it easier to notice matches across different stations.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"A request volunteer asks visitors what they seek and checks the board against reserve stock and new contributions.\"}": 0.6557475509301318,
+        "{\"consequence\":\"Needs stay visible across the fair, and people can discover a later match without repeatedly asking every table.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors write wanted item types on the request board, and table volunteers mark matching arrivals when they appear.\"}": 3.057562337498243e-05,
+        "{\"consequence\":\"Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point.\"}": 0.3442218734464932
+      },
+      "q": {
+        "{\"consequence\":\"One person connects requests with goods beyond the current display, making it easier to notice matches across different stations.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"A request volunteer asks visitors what they seek and checks the board against reserve stock and new contributions.\"}": 0.004699863986705364,
+        "{\"consequence\":\"Needs stay visible across the fair, and people can discover a later match without repeatedly asking every table.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors write wanted item types on the request board, and table volunteers mark matching arrivals when they appear.\"}": 2.1914114809474545e-07,
+        "{\"consequence\":\"Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point.\"}": 0.9952999168721466
+      },
+      "uniform": 0.12519244652876593,
+      "selected": "{\"consequence\":\"Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point.\"}"
+    },
+    {
+      "decision_id": "decision_b9de32a36c70",
+      "p": {
+        "{\"consequence\":\"The departure is recorded at the physical handover, keeping the remaining-stock information aligned with what is still inside.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"The collection volunteer checks the claim and crosses the item identifier off the inventory as the goods leave.\"}": 0.8716588553086925,
+        "{\"consequence\":\"The written update happens before the exit handover, separating record work from the movement of items.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out.\"}": 0.1008603613735499,
+        "{\"consequence\":\"The labels preserve the details of goods already released while allowing the volunteer to update the inventory in short groups.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"A collection volunteer checks claims and gathers item labels at the exit, then records each small departure batch together.\"}": 0.027480783317757634
+      },
+      "q": {
+        "{\"consequence\":\"The departure is recorded at the physical handover, keeping the remaining-stock information aligned with what is still inside.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"The collection volunteer checks the claim and crosses the item identifier off the inventory as the goods leave.\"}": 0.8716588553086925,
+        "{\"consequence\":\"The written update happens before the exit handover, separating record work from the movement of items.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out.\"}": 0.1008603613735499,
+        "{\"consequence\":\"The labels preserve the details of goods already released while allowing the volunteer to update the inventory in short groups.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"A collection volunteer checks claims and gathers item labels at the exit, then records each small departure batch together.\"}": 0.027480783317757634
+      },
+      "uniform": 0.8729652601357026,
+      "selected": "{\"consequence\":\"The written update happens before the exit handover, separating record work from the movement of items.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out.\"}"
+    },
+    {
+      "decision_id": "decision_3f6eb3a6337e",
+      "p": {
+        "{\"consequence\":\"The room clears progressively while the existing preference records determine each item’s destination throughout the closing collection period.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers process one display zone at a time, handing recorded return goods to waiting contributors and packing donations beside them.\"}": 0.7747308755679856,
+        "{\"consequence\":\"Direct collection removes many items before final sorting, leaving volunteers a smaller set to prepare for the arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Contributors collect their recorded return items during the closing period, after which volunteers group the remaining donation goods.\"}": 0.0009061814895180167,
+        "{\"consequence\":\"Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period.\"}": 0.2243629429424965
+      },
+      "q": {
+        "{\"consequence\":\"The room clears progressively while the existing preference records determine each item’s destination throughout the closing collection period.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers process one display zone at a time, handing recorded return goods to waiting contributors and packing donations beside them.\"}": 0.7754318157513703,
+        "{\"consequence\":\"Direct collection removes many items before final sorting, leaving volunteers a smaller set to prepare for the arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Contributors collect their recorded return items during the closing period, after which volunteers group the remaining donation goods.\"}": 2.248231595477193e-06,
+        "{\"consequence\":\"Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period.\"}": 0.22456593601703426
+      },
+      "uniform": 0.8909941150909122,
+      "selected": "{\"consequence\":\"Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period.\"}"
+    },
+    {
+      "decision_id": "decision_6d830daa9827",
+      "p": {
+        "{\"consequence\":\"Fresh experiences are captured through the same questions, making recurring difficulties easier to recognize across different roles.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers place a short feedback card at the exit for visitors, contributors, and volunteers to complete before leaving.\"}": 0.5120667165731189,
+        "{\"consequence\":\"Each group can explain problems in its own terms before organizers identify changes that would help more than one role.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines.\"}": 0.43770014352782666,
+        "{\"consequence\":\"People have time to reflect, and their comments can be compared with practical information about what arrived and left.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers send a short follow-up form after the fair and review responses alongside the recorded movement of goods.\"}": 0.05023313989905449
+      },
+      "q": {
+        "{\"consequence\":\"Fresh experiences are captured through the same questions, making recurring difficulties easier to recognize across different roles.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers place a short feedback card at the exit for visitors, contributors, and volunteers to complete before leaving.\"}": 0.00259460306703637,
+        "{\"consequence\":\"Each group can explain problems in its own terms before organizers identify changes that would help more than one role.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines.\"}": 0.89472167655152,
+        "{\"consequence\":\"People have time to reflect, and their comments can be compared with practical information about what arrived and left.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers send a short follow-up form after the fair and review responses alongside the recorded movement of goods.\"}": 0.10268372038144359
+      },
+      "uniform": 0.04133138849609186,
+      "selected": "{\"consequence\":\"Each group can explain problems in its own terms before organizers identify changes that would help more than one role.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines.\"}"
+    }
+  ],
+  "planned_log_likelihood_ratio": 7.2107551679344715,
+  "planned_detection": {
+    "n_choices": 16,
+    "p_value": 0.01,
+    "detected": true,
+    "preferred": 14
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "requests_sha256": "381fc61fbc953d7114eee08730efd7fcf3d40c76793e540444a9eac7a3cccd66",
+  "proposal_responses_sha256": "ebff4dba5ee108a600a4042434df8a081b3df90408538cef071f7c63d887aed0",
+  "early_results": {
+    "b03f996763833deb8f6b4096": {
+      "status": "abstained",
+      "accepted": false,
+      "complete": false,
+      "choices": {},
+      "ambiguous_decisions": [],
+      "unresolved_decisions": [
+        "feedback_trial",
+        "kit_timing",
+        "shift_proposal",
+        "tool_order"
+      ],
+      "evidence": {},
+      "source_spans": {},
+      "proposed": [],
+      "verdicts": [],
+      "rejected_ids": [],
+      "model_output": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}",
+      "verification_output": null,
+      "prompt_version": "natural-choice-recovery-v1",
+      "verifier_version": "natural-choice-verification-v1",
+      "model_verification_performed": false,
+      "semantic_entailment_verified": false,
+      "reason": "",
+      "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+    },
+    "b9b32962eefb6da327f128fc": {
+      "status": "ambiguous_choices",
+      "accepted": false,
+      "complete": false,
+      "choices": {},
+      "ambiguous_decisions": [
+        "shift_proposal"
+      ],
+      "unresolved_decisions": [
+        "feedback_trial",
+        "kit_timing",
+        "shift_proposal",
+        "tool_order"
+      ],
+      "evidence": {},
+      "source_spans": {},
+      "proposed": [],
+      "verdicts": [],
+      "rejected_ids": [],
+      "model_output": "{\"status\": \"ambiguous\", \"choices\": [], \"ambiguous_decisions\": [\"D_19d0fbc03b5e4182ad\"]}",
+      "verification_output": null,
+      "prompt_version": "natural-choice-recovery-v1",
+      "verifier_version": "natural-choice-verification-v1",
+      "model_verification_performed": false,
+      "semantic_entailment_verified": false,
+      "reason": "",
+      "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+    },
+    "1285c3e7cd4e799fdf8b5a59": {
+      "status": "abstained",
+      "accepted": false,
+      "complete": false,
+      "choices": {},
+      "ambiguous_decisions": [],
+      "unresolved_decisions": [
+        "feedback_trial",
+        "kit_timing",
+        "shift_proposal",
+        "tool_order"
+      ],
+      "evidence": {},
+      "source_spans": {},
+      "proposed": [],
+      "verdicts": [],
+      "rejected_ids": [],
+      "model_output": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}",
+      "verification_output": null,
+      "prompt_version": "natural-choice-recovery-v1",
+      "verifier_version": "natural-choice-verification-v1",
+      "model_verification_performed": false,
+      "semantic_entailment_verified": false,
+      "reason": "",
+      "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+    }
+  }
+}

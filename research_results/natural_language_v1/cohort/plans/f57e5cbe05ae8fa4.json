@@ -1,0 +1,476 @@
+{
+  "document_id": "f57e5cbe05ae8fa4",
+  "unit_id": 6,
+  "problem_id": "problem_7c02a6b2d60e",
+  "public_demonstration_key_hex": "11bf7f679c6cbc434042b30a30aaa0286468174c1a187cb52b6c3642628a4945",
+  "surrogate_keys_hex": [
+    "d8ad13ede250da8ccaae66596a1298e6188347ad0cd48e2021e02ba03af6dae8",
+    "a3a6cd517da342749ceda11cfaddbe023f84b3cf4ed9127330565579dcfde2eb",
+    "ec93dd8d1f73b26290d34888c040a2a88539198465c420c16635ae2900bb5cff",
+    "ccfcbdee131883b93ede964fb471af2c9c7dc2c3032f5674874cba9eff7361bb",
+    "3dedb4b4454bd5b650874745b79f7289b64205ac0d9f64f8abdd6ae47119d9db",
+    "87eadee404674257d4760523e1b3d240ed3e9034fa2c7768094916b092ed3c52",
+    "62cdf627fa872c1baf714a8d4b0868ec7f478020b85dc24e0453af74f34c0a9f",
+    "aba136d809b351069e4335a06c085e7b4c47bce296a7c30dc57b799872aea330",
+    "5b566162aab189c839508220dcc6fe098c0bfff83ffb78866a73510a3b5562a1",
+    "5162178586df20fd19e857ddf18c1dbe439e22c27524d9cd319e5d507248f63a",
+    "de1748e9eb71fd9f43fbd261ad969a3781d4df70f1a3d4df38dc226a106c367f",
+    "e6eb11397bd4565032fe3ace9901e954e687aa7d14d7caec7813d61efb2486a7",
+    "1757d9b182c8bf146db335df64e02b20265fe26996c7429fb228332c27d52522",
+    "fa5c6e963750488551239cb02c1e67e8e92d71c8a876654e3eaf058b1aadeae7",
+    "948736f95db48b3588c179addb23172c70edb4e0a8588081a07fe760ab0a767a",
+    "8c76cac70fcce8903a10feb51e9587a7cc47aefd5ad62881a5b146fb61a9e79f",
+    "fe9ddff83af7e8739609d1bac875871e66384a8f4434c35db3c14748f676e396",
+    "d5367a5e7c441b4eb524c98d0c4c928c1f9ce0ea3d002f1f5fa09252d9aa1aa2",
+    "76cab7bef41ad2d0762ab1868909ae93051377d49b05893bdf5b570236baab73",
+    "2fafe6c604e17f520b06464e4825f2b9a8b7f2c604887defeae78554d8fef8f8",
+    "05f5d7d9a73f0a8de0e0d42fa357a9ac7c1a994333973bdc99a80c5055e286c8",
+    "b5e5350649fda427889ed98f374c7a927ef2fdc038c59ea35e5ba5e2a74cc64f",
+    "aa351d9660a9152ee6e590cf2a1e3264caffc98af0d8a3be7c1a452a9039c0dc",
+    "7248fd755b47bdd5507c0330e25c2e9f075b43b05cbbe0231913fa7aa8f5155f",
+    "0a2e1d38575c7b5960f9799c155760c5faa7720c7fbff7dcbaba46e0212d5d44",
+    "a5bd9e5e9d12ddbd0e7c61530391a7f90199c0dee3cd7a94046e08369aae8500",
+    "68cc201778b8ea00b50f6a489b2ffb43aab337e9463bd045f507e765e91cdb01",
+    "48d898d66592f805437d75ab092b68bd6afb5cebb937e82c2ef9060093dd894f",
+    "967237540f8e3151ccbdf9c9a1abdb54128ddfbed85a4715190444d1e6d24396",
+    "a36ae6cd0f1382d794807e418516eb4c8f422bc43adc8f80c7dc3fa291aeedeb",
+    "ee6ca25e2dfe7467cbbf7597fdff6dde6f39803b4dcf73bc30146367fe04b3eb",
+    "d6e84b1bf8a39be063254cc161980759bb9c2cd8e771079a5bfa867b70074535",
+    "9f2a4b5b89f10ee9ad8652daf3989782e02b11589090a3053bf7401912a92ee3",
+    "931a20eda0e64603188b2e51f47307a029f2a93eaf17fa3342b9976c96b51193",
+    "33b98ab96782852279538a010b98943ea813c249b5acf1948a8c97fb1541fe14",
+    "24b95f6501ea27f09e1f5d5b9d6f5f68cb8ace9c8b042af3c7750716e18aa256",
+    "dafac805cd56bef97632dd3e2ca579460ca5cfb8ddbe929f38d815da1b7c026b",
+    "963a538f49f7bdc7e6bb449e36fe3365ac8668b57836bd7dec98e7964960c4f2",
+    "01edbf0e19f8163fb77d7df3e0da034594eec6cfbad442208e6b8b6637f8143c",
+    "80162b6d1a8bdc086fef667e0653396329c875a28cb4c7881738abf253fcc4c8",
+    "18d12f74d00960663e670072018985eca96deb527d55f349538ef7c11abbff7a",
+    "fa3667e769a2f4aa2f22760da75ed90e12427a2458ae1cbfd91d25f4c2e89ae0",
+    "1b4c536d0723ae4078dfa162fb228a8b8ec2580382a5360e96b15df913b8ce00",
+    "d807368a3a7db1b38e4b6861e0fe8fe5413a79cd5e13ad29048fb58510812397",
+    "ea90fd62dcd064f812e698490264f510022d4eedbc5ebd89448fd79ae3cfd20f",
+    "f036c75483b003a43089c2b24e5808284679ae3fb94ca7906c8690c9b5bfa118",
+    "ba8a7a1239a62816e148ba3ec66db3e63a0894b3c4903fa9147a3dd075089aea",
+    "6ad61c0d2ce1043f1c698abae46fffd824050be8fe3cc93fcca577dd1a43c4f0",
+    "10f36be77d6c264c5ea4ea5a3c62a1e78fc2446ee91c5b348886f288d9f9daf9",
+    "8ecba7c5f219fa9f558ec2798234ff311af2056b2ccfcb6dd4ced4598326dd7d",
+    "b9e1857c97d4412cf2142653c243265b945a6107aebae8426b178c256addbceb",
+    "d1476922ac30f3d3448976cbb98531313995d94ecc3688c76d770c22a4b0e601",
+    "40e867020d978169d1c1475ebe34634d7282b5fab372c57a9a0907161c0cb3c7",
+    "3624614773e1e769f5e617c412035240f16792af823aeabb73d2f3958377e9fa",
+    "086a10db8924ee690cb35e33cbfe6defcb672b993b4a081139ad97597be97d8f",
+    "ad12ca9830c6ad237798191818f0e7e7fdea8dd6a42a3e1ef015ae2201422ea8",
+    "16f3d910db8cae8857a6e8fecd3f7f81a789f4ef3b9d624908dde784c23cc407",
+    "c6100835a8254b373ade8ed76d9704e452438e69678ed4df2fc4c9d2c204915d",
+    "3e1cb098ce37e2c08e0e36b5c7f9464000ff3e5bf0f324b025bdeaf0c1e8f30e",
+    "e7adc5e43b9a377ac4e13bed97165338cc0f277d9659d2505e8e7f841db724dc",
+    "5da8dd35f4202448fc6ad2cf6cc7180d36ce16c0cb1ca24e68fe9d8c6637ae5a",
+    "43920781f4dba35a1eebb2ed102bfb326adbfeff51b665d92cd4c99af34bef27",
+    "263a996a1c78304059c258567c94ab1d6c47ed3fcde0316cea75050b0dad938a",
+    "26a9e5b8d43d8aa191428ce33ef3251e32b1fd9435a15945b522f30666649d82",
+    "c4d318311fe44f6c0e9f5544ac2af5f976b1129f093a5440757c64fa4d9a5b9e",
+    "2f774c829b8c5e63c05771cb877bec098b48260176e546318dd6406d34fa36ad",
+    "8548c1186168d0cc225ec0987f7f3b387ca4e96b0960a93c24d7b7ec2bf882ca",
+    "36232d2311cbc2b24abb848ce28b1a9bccdeb075cdbed29f1831b5c0ae308c2c",
+    "190f7d63cf6a8b116ee86064f7c00db9628adab0d691e84096b086c196526cc0",
+    "89d107116ef2790cd178c884f68270aa35e5d6fbc67a6520a19eb4de22fda125",
+    "957e1d5c39ffbff7a9031bebc0738abab003e75839d78ebf421c600dcba1fe51",
+    "07814e2be9657093298c09e6d84ece05f19f2f91387f3fa6c66b8e2fdb28cba7",
+    "01addf5d5b9335e03040219dfd8187d083196a6ea03971beb077bbbc30104491",
+    "505c8c3dc0c76c93434d22bb87e227fbe5468a384cac53abb3485d2064344eaa",
+    "c2b4dbf83013336d298814a4a0c88481b79989deb31a89cce427c77de2cfe08c",
+    "a4516fada6b1037897efdc54f103705f3d0167a33ec9fe269c6f70ae1fbf3e15",
+    "00ea6e3cb83604d9116455d654f57735479c29d5569be87b1f15c61c3bb0b718",
+    "1735a6ebf1ba87aa50fdf1dc8eed2bd81a1e34918c44eb824ae2bb7481c806b8",
+    "f7c56a5d010e02ab862d6bc0e2d39c8076038e237e5bf18371c127a92c17219b",
+    "480447a9f41d7a366345062610cde7b836fb840486d99f10fca7207ad036e278",
+    "8d74f46715e744b7b4b2b644471c8e1aca61d0c4b2d78c27a482cd916f7e53f4",
+    "a5c5445a45d45a58c309cc586d89245d31a45bb6a57bd4df7bef49ec028c5503",
+    "ef85ced4171302a4af4074320891b0310646481b9d82ee5dd53eb7d2af0eb2b9",
+    "1f166f5b26d90e08e2ae0381ea44efe5f6a90771eb94ca5bed766f0db2206238",
+    "414e1c554c3f9db794c4f19acfa4e5076cd34bc61fb03f392f905934d3076bf4",
+    "f11ef3171c3cbdd650ac9db72097f55ff4c84cfeb31b0a9decb85a6e880e735a",
+    "9f090f005aeba9952bcd91c9c5c2d874aece6b93ca9c98b1ce0c3daedc05c81c",
+    "41adee071782eadd77663c0524646f4cead53ba312f43f0446727130127c1543",
+    "6e6e303fcfad4229720c68b5389e7829383ecee2b03d09de9eb5c77479d7d949",
+    "d9c4f5d6fba162e362360df6a94a6acbe575179053a6a577e24642056456273f",
+    "b0578713590c121f335aaf47e694af5e731fbbb859b82383675d4720eaea278e",
+    "8f68e6741721c4f8964e76876d51086fba28c4f026f92ab0e3c698680667ad4e",
+    "559f4411c4b6e35c96adeeda0dee02a06ca10718c03e2397aa21b10ee93842db",
+    "dfeb7add7f083ea1dc4ee91dc9689da6cfc0e095c7c4d4de8b8e4f95a0ca5ec1",
+    "42a932e67a99f555a626c13108fabaa3d68e525e974c34915f36452556c4d9de",
+    "799871cad6fb414075b0495bcd1c7b3dc4cb2c4888444cd230fede6a01dcf02e",
+    "7f7442e9ec56c2b78af469592cfed77eea25e7608796384f1851d6c766cca039",
+    "abea94539f30493d003cc7773bb64b2fff24d1eb113a5233aa75ddcb5ef28a92",
+    "8a42a7076062263e2c40948804f067dc81ea662944b6792f099c4a7c26bf3602",
+    "5795d1ae7e363d47f53351c5ee924554a18e5ebe584fea492d68d383482dadf5",
+    "170fbd6d44873b4375dc6a6a2cc22eb41c62801c6beadec211c0bc5f7875fbfa",
+    "9723472506262e25cf1b270abce38d67dde359cfb41502caa02cbf85d72b6785",
+    "60a5c537837638cfd8407fd995e3c72095b643d6046146da8bd9a482800f44e5",
+    "1be81e82632850cf86b17ff0ad399d6f08032fd250a9a67693e368117fe1a64e",
+    "3aa5a1dc2ef8934824ea2457b6825d0db0a9b0503dd5bb2b5072eb5c0e8d952a",
+    "23b401bfc2efb76d0d38f10994731284a9d941d4c67954cd4c480ff62df3da85",
+    "4e473ad44c9e72de77f19bc4a506983dd7f4d357b5661b23a6865edd90cab9ee",
+    "184a18549612dd7e6a89c63f80dfac42aaf69dff6099c498b0da42d1a376e032",
+    "106b10ad6e9657abe2bfc3d529f7f72d5af9afe27c10bc29ca85ca9589d74333",
+    "809ad9e9f9eb276dc833a73bc5269356d4d58327d74d408e22e4ee2ff855942f",
+    "3eb02476996e54b2f23225e83005a6ba550f260d2bde72b485fd67b5a8141ce8",
+    "04ac92c46e413cf0f566c4cd9872e7b45792889ce3efed0ad208318a6035570d",
+    "1c06890252766eac984d0ac6a7628bb79551dd5eeaf541cd91912b9c1eff10ab",
+    "0845ee71b0658f63109cb032e22d42b0de9c4697ee15757305c9e8b3b77dd079",
+    "07a13033a3d03d9bf8f6206e166942c8e5d20725e9d0eb5f3d288e49da7f405f",
+    "d12914d91c492f7825e3fe4c4c1182415de17e19fa5e4e691a4abba0a10569ce",
+    "bea1d8fa0bfbbdd55219cd79432b6559a39a07d15ee7af7a3e1647c03beb1fda",
+    "4156241f67731d98da8f637914396a8d8fe0d0fabf1c64bdf4cc9c0fa61dc950",
+    "93fc1814d10f04f7193cc342db5adb6a1978534b88cfc747f98f278cb6d77179",
+    "7d84ae442d4c6ba6b235ba4b54f30b2ffce0ffef4ac6441a2b5458fcc3ae59ed",
+    "47a19fbde4f69fe00c27090dbc9f94f245567bae893c98ec9062d46c002349d1",
+    "d2e674a344a436789c01842298555f9866c707a13d335eb2c87af32c1648f367",
+    "08c3b61a1f929e3d6de735d5a5cf4c273c661272fc84244a33b66154f80ce710",
+    "5f4307b3c0aaeadfb451bd489afc1e6d72ddcc9a0730371b5fd86d8fc3f1cfb4",
+    "bcbfff2d607deceffa99591a9db4c39ceeaa30330edd30e505fed2a3f1903b72",
+    "1cbef35d008c397d800efcb8ba508943c4b6bbc4d462a540baee41888e8a85f6",
+    "99e5b7430a13bfbd0082775b8218e6a2c0ca53003f85350511ee3614096a2652",
+    "721aa3b0fe43bd85f209d0c16bc6e7d47c7dea00db62de991ccf78256a28452f",
+    "91ea4468543349f6f29156b6d2ee82188425ebe87c0206455599e695b88fcce0",
+    "76ec6e51b8b116077dccf8d8a2c599525917678f9da84031b6ff6bf8a3e55202",
+    "600a6702ad2819d88da8c6e5d6dce4ad13c5909ab09e10e6413f58c5ed0d9c31",
+    "dd67405b30ccb88bcc2d1debbd2fd0efdc58e99e55225e08271217349fc89a93",
+    "916741a7fd25b896d2d5d37d5a8ee2b70349b54a505c1dd2e86b4ef549de2bce",
+    "d7337ee012a2dc70975ea2848299f19b689e22b51b50ebbf8337134fbb964257",
+    "f85e5b84c05f8c59d6765b5f3dbc30495ddc34209b234228e0fb6083b35cb004",
+    "120539c9f9aad8bb2d59c8cb31e6dfbd4e44bb46e78657b96171c205b308d3b0",
+    "c8b587e52587aa9d6ed7d5b17a9658788c32a1fe3213c328489ea785e48cfa80",
+    "8dc7a16320858f0f2423f7d96a0f04d837715893a19603a1d5a1e5f8de695100",
+    "a97a97a0b70a75e829ccc29527a222e39b90817e95df65479e1563bb7fc48aae",
+    "c2c562e0676b8668c9487cb1793c3a460efc0b85ff52115c878ea29e7c9c42d8",
+    "bc05d80a5a2fb7daee0af61a395fa2f0e3f3b7d559357954dc2c389f57cac7fd",
+    "bc4fcc3410c015aa94260bc0b4995f0e42a2c0f2be91f8639faf6b54ed5ef889",
+    "9fa6c09b35283d2db3407b574993c2845bf2f1eef0dc6448e3301f2be97f5f87",
+    "018d21aeadfd0a2135178f58fc81bf133076a94eb1685b5a5dd2ddf6828d039c",
+    "b19fdf1370fabe1a69fb9e6e280d2218069d2cb174197772ec4ebb4a74e3bba3",
+    "10d28f533b980ffa4a8a49789d92070f8e71a0c3fb359878c22ba352e01d3cf2",
+    "ef7a2c7b2c6c297207cd4a294f6b7a48cb587994dd4fc534d4a7e5ce559201ad",
+    "8d2d58141fdd86d2cd5ceae976f4e6ed925d532d29fb1916901fb65845414f83",
+    "1ae3ea4db9e3db0aaf162d7af285b2fe41088c4bc75a2372b7c88ebd72874b9e",
+    "8dab5f7b8467caa7fdf5b675622a54f2f293eb185beb5cd87f13b15c510f649c",
+    "84defdf2e39617f0f1a3fc7efeff117abd639b6eef95732b231e3562e12802dd",
+    "1bb2e82493424cbb3b3eadca61e4adbc9a56658101ce2fb54852875f8e01b49c",
+    "aa6ab3c49afc7bf84d0751dd9b6070f2be931073e72adab229bc3622cfa49c42",
+    "10d224f07ad388af103639edff109b76b82d2437549c10e1ef85e24facd1ec82",
+    "fac5ef772e043fee9f54ed4e528f1e797fb59031419c4d6b1f9a36271ee916cf",
+    "8e0b7e195dbeb8b6afe10350dfe78c984085f2eab76b9cbf31790b92af857264",
+    "004c3788b33843a502a525738108d5c6dfed07a8be3f36d3e2ab88993c81a1b2",
+    "282982bf71580865ffb5b731465c2b10f689faeac74e6473ac0ced566abb48a8",
+    "5a34df3ef71b7c4b937c7a7f995a15eca5a238cf89a788ad0c1a1c4545ada13e",
+    "83be327e166eb3c12fd7eb9fda68c626a36c9faa9246d48a53b88fcfeafbed69",
+    "ab79b6072df5cf1c2ed6a90e7b6cefeef2679835320a2dbfe8c28ec7070b5076",
+    "ce6da11695b4df5d2307243c95a2257c6a9084fa6573a270bd09cdec3b21ee88",
+    "e1160ebc74d4a444dfb91ac364cdc82b80901da59d17b0bdb61738555bb5fb84",
+    "308e309505a2c19b0239709f28e33757f077301f8212090608c63b25ea599b35",
+    "7670c0db1093c72df52af49d28ee189d41471b7088d2ecb56ee5af517ca48735",
+    "4eec522203333a90b8c1750b99e511531511917c747f3f42065b0292ab6d4bc2",
+    "ebd7a064ee3e22bb46cc6296a6237b76ce6d4b130824ca8aeb6329c7a228d717",
+    "698cd6c5181158c0c6f50285ea6324520de07861ed33cbc0df95f9919c0ab4f3",
+    "3d86d686fb2493c9185039d137e7ea6bde30a4b64f572e8e9fb63f205876a572",
+    "7f3942c02bc9044556b34b585329ae2d6329a8465ee07fff576c169123109397",
+    "e7180cdd8500737412d1e7d8ccdc5371ad9b95e9789477724667d48bf133804b",
+    "964e09be901e780ee412c51b7a78e933f9b5f8a832e6c70c784da162e63ee050",
+    "1e124e6a175d913d36bd0c06dc2636786e12fba7c15aab7782a778238e90583c",
+    "f1c41a814314468bc66e85a9de6d0a6ef1edbd842c6495a8e83c9269e5d548b6",
+    "86e2a4921967116e08f100819e1c4417ef28c1b77d1e4d6dd23f0c78433c4d69",
+    "9b7ae9a9f77d99e2ad4ff5b658c948e4db46da93d8404b26e041b6a499d750ff",
+    "30f2a7c3d11be0cb04465e87c457a909fb3e073c36d0441255738dbdb88ec374",
+    "ab51a47558f58b42589194862b81983aaa41b0b4ebb7978120aab2ed386aaa3e",
+    "a82342681a24fe1046e43553a33bf39f0f3368994a34fab63a21fcc3b473f757",
+    "ebb55035daa9e9ed5c919ee378d06c08f42013aae33f732423939aea7113a3a3",
+    "7860ef6285272ec57d600482ad45c469f2970b15f24f0b94f60eb1567d0d5642",
+    "3d3dd7d177840c56987ef8405e3cc6fadb880d4075a025a9d6a5f61c20ef96eb",
+    "598f01fd47db5d34d6308b66935d3827bcaa8d17dc737ad5dc26cfbf430fc200",
+    "89687e4a64216be60fcd8a442befa0cbdc582d0e2cd67adb1946c844ff7a5215",
+    "49d2ef0145ed14093896413460ad9c7cf38db3ec81cbf60636a6d6e2bb6ac7c0",
+    "f18fc99cc3525cd67785bf2d88d1f02c8bb3e6f4b3f99aeea5e50f8d41701ab3",
+    "bd08943a4f5218cd472864727a3da8ad2a4a0df49c70fdba67a6cf39ec37d2ee",
+    "7098bbc30ae19e5a3ff5ec2cdb638bad79b8054929aca2ef85e556ca01a34b74",
+    "28a4547e893d43a8581856471019fe611c7f00f2ba667ab1c7b3c5bd7094bb39",
+    "de5b0cc745cb083bedf1c3d357250ebf51477b345aec6e143c8f3448d3681370",
+    "bc81d4b6fefeca144e6bb9bd6b6db67321958785ccb2506667a568b324170098",
+    "ccb13920edab4cb74444619c4a300ea7bedab93f4b077fa0a2d6fc94d4d812b2",
+    "ddfad7d2dd31b08c594f623f1789646118c10d80db5188c24fc9cf842268310b",
+    "40e7ad823893c879257b4b920d53c6a46596c61b6c2642322f05a7e3d81c7dc2",
+    "f6074102e788be8d150a438a7629805e93f7174bd805fb87a99650e4e9bf496c",
+    "7ac6d9780769bb1ea38f2b0389770e3532a75455feb5b86186dbf6cf297b0503",
+    "2e8cac29c0916e64afe0399558008e0dd33f84c6f945a79943d7018397a1b0d4",
+    "ec3cad886ddb6fce285fbad9555f48e0ea34c79e5fe1ffa4284028e4ac066bad",
+    "6bdbbeeed720cdbffaf2ea7afb9146768f1cd98bc3b932eb9a70028a8c029a35"
+  ],
+  "sampling_seed": 1707,
+  "condition": "marked",
+  "choices": {
+    "decision_35d1adfafbe4": "choice_461dc545f284",
+    "decision_6bebf95df8b2": "choice_bca9cd099d0f",
+    "decision_2a6ca4fef878": "choice_999817e66177",
+    "decision_6c329ebd0141": "choice_9705956db713",
+    "decision_b4b071a1e9c4": "choice_b36c6b85b139",
+    "decision_b04afc087b03": "choice_40fc6a9b754e",
+    "decision_3c288aadfbc9": "choice_21cfadcfe61e",
+    "decision_8e32b39ab51c": "choice_6ef551e58505",
+    "decision_e123df0d4c61": "choice_c1d0e570d158",
+    "decision_964a9073f798": "choice_7a60d53d56c8",
+    "decision_ccff2156987f": "choice_ca21cd2575fd",
+    "decision_d76a9f779d9b": "choice_7b9fca59b50a",
+    "decision_7080eb919bd1": "choice_5c80ba3d4049",
+    "decision_01db0d9ee017": "choice_d63f5065878c",
+    "decision_c693308338b6": "choice_1a550151d10d",
+    "decision_faf230423b00": "choice_268130b38793"
+  },
+  "policy_rows": [
+    {
+      "decision_id": "decision_35d1adfafbe4",
+      "p": {
+        "{\"consequence\":\"A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized.\"}": 0.7320978005021218,
+        "{\"consequence\":\"The scheduling discussion can consider whether every voice part will be represented as well as total expected attendance.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Section leaders collect their singers’ availability and recommend room slots to the booking organizer together.\"}": 6.506137871515692e-05,
+        "{\"consequence\":\"The schedule follows actual availability across the group rather than relying on a presumed regular pattern.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Members mark all workable room slots, and the booking organizer reserves a sequence with the broadest overall attendance.\"}": 0.26783713811916304
+      },
+      "q": {
+        "{\"consequence\":\"A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized.\"}": 0.9990052720453739,
+        "{\"consequence\":\"The scheduling discussion can consider whether every voice part will be represented as well as total expected attendance.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Section leaders collect their singers’ availability and recommend room slots to the booking organizer together.\"}": 8.878138999789833e-05,
+        "{\"consequence\":\"The schedule follows actual availability across the group rather than relying on a presumed regular pattern.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Members mark all workable room slots, and the booking organizer reserves a sequence with the broadest overall attendance.\"}": 0.000905946564628177
+      },
+      "uniform": 0.18049055890144738,
+      "selected": "{\"consequence\":\"A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized.\"}"
+    },
+    {
+      "decision_id": "decision_6bebf95df8b2",
+      "p": {
+        "{\"consequence\":\"A short personal check produces a useful picture of balance without requiring the conductor to chase individual replies.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Section leaders ask their singers about the next rehearsal and enter section totals on the attendance sheet.\"}": 0.053005732123877373,
+        "{\"consequence\":\"The conductor sees individual updates in one place and can anticipate missing voices before choosing the session’s emphasis.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Members mark their expected attendance on the shared sheet by the day before each rehearsal.\"}": 0.7438838767643221,
+        "{\"consequence\":\"Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor.\"}": 0.20311039111180057
+      },
+      "q": {
+        "{\"consequence\":\"A short personal check produces a useful picture of balance without requiring the conductor to chase individual replies.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Section leaders ask their singers about the next rehearsal and enter section totals on the attendance sheet.\"}": 0.0006406496639780811,
+        "{\"consequence\":\"The conductor sees individual updates in one place and can anticipate missing voices before choosing the session’s emphasis.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Members mark their expected attendance on the shared sheet by the day before each rehearsal.\"}": 0.008990894693690995,
+        "{\"consequence\":\"Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor.\"}": 0.9903684556423309
+      },
+      "uniform": 0.11923962769538454,
+      "selected": "{\"consequence\":\"Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor.\"}"
+    },
+    {
+      "decision_id": "decision_2a6ca4fef878",
+      "p": {
+        "{\"consequence\":\"Singers can prepare early while anyone who needs paper still receives the same music before singing begins.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival.\"}": 0.963637107014855,
+        "{\"consequence\":\"A named contact checks the contents for that section, reducing missing pages without requiring everyone to use the same format.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Section leaders assemble each singer’s requested paper or digital score set before the next rehearsal.\"}": 0.018343523190692976,
+        "{\"consequence\":\"Members control when they obtain music, while the organizer can identify gaps before the session starts.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Singers collect the numbered scores from a shared catalog when the rehearsal notice appears and mark receipt on a list.\"}": 0.01801936979445189
+      },
+      "q": {
+        "{\"consequence\":\"Singers can prepare early while anyone who needs paper still receives the same music before singing begins.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival.\"}": 0.9815984485731949,
+        "{\"consequence\":\"A named contact checks the contents for that section, reducing missing pages without requiring everyone to use the same format.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Section leaders assemble each singer’s requested paper or digital score set before the next rehearsal.\"}": 4.6316550790729915e-05,
+        "{\"consequence\":\"Members control when they obtain music, while the organizer can identify gaps before the session starts.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Singers collect the numbered scores from a shared catalog when the rehearsal notice appears and mark receipt on a list.\"}": 0.018355234876014377
+      },
+      "uniform": 0.020641897602549863,
+      "selected": "{\"consequence\":\"Singers can prepare early while anyone who needs paper still receives the same music before singing begins.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival.\"}"
+    },
+    {
+      "decision_id": "decision_6c329ebd0141",
+      "p": {
+        "{\"consequence\":\"The order responds to how the group sounds that day rather than relying entirely on earlier expectations.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The choir sings brief extracts from the prepared pieces at the start, and the conductor then sets the remaining sequence.\"}": 0.10752950273764336,
+        "{\"consequence\":\"Reports from different voice parts shape the order before the full choir spends time on the selected difficulties.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence.\"}": 0.8638875824208224,
+        "{\"consequence\":\"Singers can see which challenges will receive attention and prepare their scores before each planned block begins.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor orders the pieces by their current musical needs and publishes the sequence before rehearsal.\"}": 0.028582914841534246
+      },
+      "q": {
+        "{\"consequence\":\"The order responds to how the group sounds that day rather than relying entirely on earlier expectations.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The choir sings brief extracts from the prepared pieces at the start, and the conductor then sets the remaining sequence.\"}": 0.000308413894293738,
+        "{\"consequence\":\"Reports from different voice parts shape the order before the full choir spends time on the selected difficulties.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence.\"}": 0.9996096051809171,
+        "{\"consequence\":\"Singers can see which challenges will receive attention and prepare their scores before each planned block begins.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor orders the pieces by their current musical needs and publishes the sequence before rehearsal.\"}": 8.19809247890981e-05
+      },
+      "uniform": 0.5865145066300704,
+      "selected": "{\"consequence\":\"Reports from different voice parts shape the order before the full choir spends time on the selected difficulties.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence.\"}"
+    },
+    {
+      "decision_id": "decision_b4b071a1e9c4",
+      "p": {
+        "{\"consequence\":\"Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"Different section leaders each guide one part of the approved warmup in a posted order.\"}": 0.9951947406677334,
+        "{\"consequence\":\"The person directing the rehearsal also hears how the group is settling before beginning the planned pieces.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"The conductor guides the familiar warmup and adjusts the pace after listening to the choir’s responses.\"}": 1.4345401044129258e-06,
+        "{\"consequence\":\"The choir receives a familiar sequence, and the conductor gains a different listening position before detailed rehearsal begins.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"A section leader guides the approved warmup while the conductor listens from elsewhere in the room.\"}": 0.004803824792162238
+      },
+      "q": {
+        "{\"consequence\":\"Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"Different section leaders each guide one part of the approved warmup in a posted order.\"}": 0.9951947406677334,
+        "{\"consequence\":\"The person directing the rehearsal also hears how the group is settling before beginning the planned pieces.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"The conductor guides the familiar warmup and adjusts the pace after listening to the choir’s responses.\"}": 1.4345401044129258e-06,
+        "{\"consequence\":\"The choir receives a familiar sequence, and the conductor gains a different listening position before detailed rehearsal begins.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"A section leader guides the approved warmup while the conductor listens from elsewhere in the room.\"}": 0.004803824792162238
+      },
+      "uniform": 0.08036021730811937,
+      "selected": "{\"consequence\":\"Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"Different section leaders each guide one part of the approved warmup in a posted order.\"}"
+    },
+    {
+      "decision_id": "decision_b04afc087b03",
+      "p": {
+        "{\"consequence\":\"The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"The conductor listens to a short phrase and then asks singers to adjust chairs within their sections.\"}": 0.4917632167086674,
+        "{\"consequence\":\"The people using the seats can resolve local spacing needs while maintaining the common room layout.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Singers arrange their section’s chairs together using the marked boundaries and sightline guidance before the warmup.\"}": 0.5020176750526488,
+        "{\"consequence\":\"The basic layout is ready on arrival while members retain some control over nearby listening partners and comfort.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Section leaders arrange chairs before rehearsal and invite singers to choose places within their voice sections.\"}": 0.006219108238683843
+      },
+      "q": {
+        "{\"consequence\":\"The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"The conductor listens to a short phrase and then asks singers to adjust chairs within their sections.\"}": 0.9850499069695566,
+        "{\"consequence\":\"The people using the seats can resolve local spacing needs while maintaining the common room layout.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Singers arrange their section’s chairs together using the marked boundaries and sightline guidance before the warmup.\"}": 0.0024926098682198647,
+        "{\"consequence\":\"The basic layout is ready on arrival while members retain some control over nearby listening partners and comfort.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Section leaders arrange chairs before rehearsal and invite singers to choose places within their voice sections.\"}": 0.012457483162223565
+      },
+      "uniform": 0.14789940526562084,
+      "selected": "{\"consequence\":\"The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"The conductor listens to a short phrase and then asks singers to adjust chairs within their sections.\"}"
+    },
+    {
+      "decision_id": "decision_3c288aadfbc9",
+      "p": {
+        "{\"consequence\":\"The part needing direct attention receives it without leaving the remaining singers idle during that practice block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"The conductor works with one section while the other section leaders guide their own assigned passages in separate corners.\"}": 0.6299958793819562,
+        "{\"consequence\":\"Each voice part receives focused attention before the conductor hears how the independently practiced lines fit together.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"All sections practice their assigned passages separately for the same short period and then return for a combined attempt.\"}": 0.367999835009934,
+        "{\"consequence\":\"Separate attention is staggered, allowing the conductor to keep useful ensemble work moving throughout the block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"Sections take turns using a quiet corner for focused practice while the conductor rehearses compatible material with the remaining singers.\"}": 0.002004285608109732
+      },
+      "q": {
+        "{\"consequence\":\"The part needing direct attention receives it without leaving the remaining singers idle during that practice block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"The conductor works with one section while the other section leaders guide their own assigned passages in separate corners.\"}": 0.9985463154526887,
+        "{\"consequence\":\"Each voice part receives focused attention before the conductor hears how the independently practiced lines fit together.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"All sections practice their assigned passages separately for the same short period and then return for a combined attempt.\"}": 0.0014458100430704947,
+        "{\"consequence\":\"Separate attention is staggered, allowing the conductor to keep useful ensemble work moving throughout the block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"Sections take turns using a quiet corner for focused practice while the conductor rehearses compatible material with the remaining singers.\"}": 7.87450424076543e-06
+      },
+      "uniform": 0.5894638011463663,
+      "selected": "{\"consequence\":\"The part needing direct attention receives it without leaving the remaining singers idle during that practice block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"The conductor works with one section while the other section leaders guide their own assigned passages in separate corners.\"}"
+    },
+    {
+      "decision_id": "decision_8e32b39ab51c",
+      "p": {
+        "{\"consequence\":\"Comparing the separate attempts helps reveal which element is creating trouble when everything is combined.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The choir tries rhythm, words, and pitches separately in a short sequence before the conductor selects focused practice.\"}": 0.05683454457704387,
+        "{\"consequence\":\"A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The conductor listens to the passage and chooses one element for the choir to isolate before recombining it.\"}": 0.938411101612507,
+        "{\"consequence\":\"The practice exercise addresses experienced points of confusion as well as what can be heard from the front.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"Singers describe where the passage becomes uncertain, and the conductor selects an element to isolate from those reports.\"}": 0.0047543538104491585
+      },
+      "q": {
+        "{\"consequence\":\"Comparing the separate attempts helps reveal which element is creating trouble when everything is combined.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The choir tries rhythm, words, and pitches separately in a short sequence before the conductor selects focused practice.\"}": 0.05683454457704387,
+        "{\"consequence\":\"A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The conductor listens to the passage and chooses one element for the choir to isolate before recombining it.\"}": 0.938411101612507,
+        "{\"consequence\":\"The practice exercise addresses experienced points of confusion as well as what can be heard from the front.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"Singers describe where the passage becomes uncertain, and the conductor selects an element to isolate from those reports.\"}": 0.0047543538104491585
+      },
+      "uniform": 0.7837999310698696,
+      "selected": "{\"consequence\":\"A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The conductor listens to the passage and chooses one element for the choir to isolate before recombining it.\"}"
+    },
+    {
+      "decision_id": "decision_e123df0d4c61",
+      "p": {
+        "{\"consequence\":\"The practice sequence reflects that section’s immediate needs without requiring members to search the entire recording folder.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"Section leaders send their singers a short ordered list of approved recordings with bar numbers after each rehearsal.\"}": 0.3056500653598886,
+        "{\"consequence\":\"Singers begin with the shared rehearsal problem and select their own line from the materials associated with it.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The conductor groups approved recordings by difficult passage and lists each available voice part within that passage.\"}": 0.6754715496029873,
+        "{\"consequence\":\"Singers can locate their own material first and then move directly to the passages most relevant to current practice.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The organizer groups approved recordings by voice part and adds the bar numbers highlighted during rehearsal.\"}": 0.01887838503712413
+      },
+      "q": {
+        "{\"consequence\":\"The practice sequence reflects that section’s immediate needs without requiring members to search the entire recording folder.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"Section leaders send their singers a short ordered list of approved recordings with bar numbers after each rehearsal.\"}": 0.0011202982104731463,
+        "{\"consequence\":\"Singers begin with the shared rehearsal problem and select their own line from the materials associated with it.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The conductor groups approved recordings by difficult passage and lists each available voice part within that passage.\"}": 0.9988105069050146,
+        "{\"consequence\":\"Singers can locate their own material first and then move directly to the passages most relevant to current practice.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The organizer groups approved recordings by voice part and adds the bar numbers highlighted during rehearsal.\"}": 6.919488451216504e-05
+      },
+      "uniform": 0.16249844381408873,
+      "selected": "{\"consequence\":\"Singers begin with the shared rehearsal problem and select their own line from the materials associated with it.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The conductor groups approved recordings by difficult passage and lists each available voice part within that passage.\"}"
+    },
+    {
+      "decision_id": "decision_964a9073f798",
+      "p": {
+        "{\"consequence\":\"A written reminder is established before the choir tries to follow the same gesture in real time.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing.\"}": 0.9908465154862447,
+        "{\"consequence\":\"Local preparation connects the written instructions to a single full-choir demonstration of the agreed timing.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"Section leaders first show the chosen score cues to their singers, and the conductor then rehearses the corresponding gestures with everyone.\"}": 0.008967386597899004,
+        "{\"consequence\":\"The markings respond to cues that proved difficult during an actual attempt at the shared musical action.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The choir tries the chosen entrances and cutoffs while watching the conductor, then marks its scores after discussing uncertainty.\"}": 0.0001860979158562046
+      },
+      "q": {
+        "{\"consequence\":\"A written reminder is established before the choir tries to follow the same gesture in real time.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing.\"}": 0.9997897938275294,
+        "{\"consequence\":\"Local preparation connects the written instructions to a single full-choir demonstration of the agreed timing.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"Section leaders first show the chosen score cues to their singers, and the conductor then rehearses the corresponding gestures with everyone.\"}": 2.24285560410513e-05,
+        "{\"consequence\":\"The markings respond to cues that proved difficult during an actual attempt at the shared musical action.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The choir tries the chosen entrances and cutoffs while watching the conductor, then marks its scores after discussing uncertainty.\"}": 0.00018777761642962618
+      },
+      "uniform": 0.32973025216521534,
+      "selected": "{\"consequence\":\"A written reminder is established before the choir tries to follow the same gesture in real time.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing.\"}"
+    },
+    {
+      "decision_id": "decision_ccff2156987f",
+      "p": {
+        "{\"consequence\":\"Related concerns reach the conductor together, reducing repetition while preserving information from different parts of the choir.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Section leaders collect balance observations from their singers and summarize them to the conductor during a short pause.\"}": 0.07429540625545016,
+        "{\"consequence\":\"Rotating invitations give each part a clear opportunity to describe the balance from its listening position.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"The conductor asks one section at a time what it heard after a combined passage and then decides adjustments.\"}": 0.8807563596921564,
+        "{\"consequence\":\"Comments accumulate without breaking each attempt, and the conductor can consider several perspectives at one useful stopping point.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Singers note balance observations and raise them during a designated discussion pause before the conductor chooses adjustments.\"}": 0.04494823405239343
+      },
+      "q": {
+        "{\"consequence\":\"Related concerns reach the conductor together, reducing repetition while preserving information from different parts of the choir.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Section leaders collect balance observations from their singers and summarize them to the conductor during a short pause.\"}": 0.07429540625545016,
+        "{\"consequence\":\"Rotating invitations give each part a clear opportunity to describe the balance from its listening position.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"The conductor asks one section at a time what it heard after a combined passage and then decides adjustments.\"}": 0.8807563596921564,
+        "{\"consequence\":\"Comments accumulate without breaking each attempt, and the conductor can consider several perspectives at one useful stopping point.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Singers note balance observations and raise them during a designated discussion pause before the conductor chooses adjustments.\"}": 0.04494823405239343
+      },
+      "uniform": 0.34130179283884987,
+      "selected": "{\"consequence\":\"Rotating invitations give each part a clear opportunity to describe the balance from its listening position.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"The conductor asks one section at a time what it heard after a combined passage and then decides adjustments.\"}"
+    },
+    {
+      "decision_id": "decision_d76a9f779d9b",
+      "p": {
+        "{\"consequence\":\"Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record.\"}": 0.48078657926176616,
+        "{\"consequence\":\"A brief check catches differences between sections before the final instructions are circulated to the whole choir.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Section leaders note changed markings during rehearsal and compare their notes with the conductor before updating the shared record.\"}": 0.015536763612293943,
+        "{\"consequence\":\"A central account is created as decisions occur, giving absent members and uncertain singers the same reference afterward.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"The conductor announces each changed marking, and the organizer enters it in the shared change record during rehearsal.\"}": 0.5036766571259398
+      },
+      "q": {
+        "{\"consequence\":\"Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record.\"}": 0.9662656683384256,
+        "{\"consequence\":\"A brief check catches differences between sections before the final instructions are circulated to the whole choir.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Section leaders note changed markings during rehearsal and compare their notes with the conductor before updating the shared record.\"}": 0.031225167097427748,
+        "{\"consequence\":\"A central account is created as decisions occur, giving absent members and uncertain singers the same reference afterward.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"The conductor announces each changed marking, and the organizer enters it in the shared change record during rehearsal.\"}": 0.0025091645641465952
+      },
+      "uniform": 0.460762573996645,
+      "selected": "{\"consequence\":\"Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record.\"}"
+    },
+    {
+      "decision_id": "decision_7080eb919bd1",
+      "p": {
+        "{\"consequence\":\"The same concise package lets each person catch up independently at a time compatible with their other commitments.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Absent singers receive the rehearsal notes and use the linked change record and recordings before returning.\"}": 0.6091808510097797,
+        "{\"consequence\":\"A familiar peer can explain which changes mattered most and clarify questions before the singer rejoins the group.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Each absent singer asks a designated section partner for a brief walkthrough of the notes and linked practice materials.\"}": 0.38860547196931944,
+        "{\"consequence\":\"Catch-up begins with the most important work for that voice part while preserving access to the complete shared record.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Section leaders send absent singers a short prioritized message linking the rehearsal notes, changed markings, and relevant recordings.\"}": 0.002213677020900897
+      },
+      "q": {
+        "{\"consequence\":\"The same concise package lets each person catch up independently at a time compatible with their other commitments.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Absent singers receive the rehearsal notes and use the linked change record and recordings before returning.\"}": 0.6105290149924658,
+        "{\"consequence\":\"A familiar peer can explain which changes mattered most and clarify questions before the singer rejoins the group.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Each absent singer asks a designated section partner for a brief walkthrough of the notes and linked practice materials.\"}": 0.3894654857073011,
+        "{\"consequence\":\"Catch-up begins with the most important work for that voice part while preserving access to the complete shared record.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Section leaders send absent singers a short prioritized message linking the rehearsal notes, changed markings, and relevant recordings.\"}": 5.499300233028984e-06
+      },
+      "uniform": 0.2457484191827476,
+      "selected": "{\"consequence\":\"The same concise package lets each person catch up independently at a time compatible with their other commitments.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Absent singers receive the rehearsal notes and use the linked change record and recordings before returning.\"}"
+    },
+    {
+      "decision_id": "decision_01db0d9ee017",
+      "p": {
+        "{\"consequence\":\"Singers can anticipate the rest period, and musical work must be organized around an already visible stopping point.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break at a fixed clock time and includes it in the rehearsal notice.\"}": 0.7045632220642469,
+        "{\"consequence\":\"Singers know roughly when rest is coming while the final timing can follow the progress of the rehearsal.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor announces a short break window at the start and chooses a natural stopping point within it.\"}": 0.07659035827366423,
+        "{\"consequence\":\"The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break after a named rehearsal block and announces that position at the start.\"}": 0.21884641966208881
+      },
+      "q": {
+        "{\"consequence\":\"Singers can anticipate the rest period, and musical work must be organized around an already visible stopping point.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break at a fixed clock time and includes it in the rehearsal notice.\"}": 0.007910210240269134,
+        "{\"consequence\":\"Singers know roughly when rest is coming while the final timing can follow the progress of the rehearsal.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor announces a short break window at the start and chooses a natural stopping point within it.\"}": 0.0008598885342712019,
+        "{\"consequence\":\"The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break after a named rehearsal block and announces that position at the start.\"}": 0.9912299012254596
+      },
+      "uniform": 0.7154207365603439,
+      "selected": "{\"consequence\":\"The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break after a named rehearsal block and announces that position at the start.\"}"
+    },
+    {
+      "decision_id": "decision_c693308338b6",
+      "p": {
+        "{\"consequence\":\"Members choose tasks that fit their arrival plans while the organizer can see whether the room preparation is covered.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"Volunteers claim specific setup duties on the attendance sheet before each rehearsal, and the organizer fills any remaining gaps.\"}": 0.730487708714174,
+        "{\"consequence\":\"The work follows the people actually present, allowing small changes in arrival time without leaving individual tasks unassigned.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"An early-arriving setup coordinator divides the listed duties among available volunteers when they reach the room.\"}": 0.21744899148609237,
+        "{\"consequence\":\"Responsibility moves among willing members, and each person knows in advance which part of the room to prepare.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal.\"}": 0.05206329979973366
+      },
+      "q": {
+        "{\"consequence\":\"Members choose tasks that fit their arrival plans while the organizer can see whether the room preparation is covered.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"Volunteers claim specific setup duties on the attendance sheet before each rehearsal, and the organizer fills any remaining gaps.\"}": 0.006673588562409356,
+        "{\"consequence\":\"The work follows the people actually present, allowing small changes in arrival time without leaving individual tasks unassigned.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"An early-arriving setup coordinator divides the listed duties among available volunteers when they reach the room.\"}": 0.8014396128395163,
+        "{\"consequence\":\"Responsibility moves among willing members, and each person knows in advance which part of the room to prepare.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal.\"}": 0.19188679859807442
+      },
+      "uniform": 0.870819889429473,
+      "selected": "{\"consequence\":\"Responsibility moves among willing members, and each person knows in advance which part of the room to prepare.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal.\"}"
+    },
+    {
+      "decision_id": "decision_faf230423b00",
+      "p": {
+        "{\"consequence\":\"Home preparation targets distinct section needs while remaining consistent with the musical direction for the whole choir.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Section leaders propose one practice priority for their parts, and the conductor confirms these before the notes are sent.\"}": 0.07358589658822366,
+        "{\"consequence\":\"Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes.\"}": 0.8922514849073787,
+        "{\"consequence\":\"Preparation follows individual uncertainty while staying within the material the conductor considers useful for the next rehearsal.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Singers choose a passage they found difficult from a conductor-approved list and record it as their personal practice priority.\"}": 0.03416261850439759
+      },
+      "q": {
+        "{\"consequence\":\"Home preparation targets distinct section needs while remaining consistent with the musical direction for the whole choir.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Section leaders propose one practice priority for their parts, and the conductor confirms these before the notes are sent.\"}": 0.00019685073322844371,
+        "{\"consequence\":\"Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes.\"}": 0.9629342226797222,
+        "{\"consequence\":\"Preparation follows individual uncertainty while staying within the material the conductor considers useful for the next rehearsal.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Singers choose a passage they found difficult from a conductor-approved list and record it as their personal practice priority.\"}": 0.03686892658704943
+      },
+      "uniform": 0.7808173473971546,
+      "selected": "{\"consequence\":\"Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes.\"}"
+    }
+  ],
+  "planned_log_likelihood_ratio": 7.206469410667402,
+  "planned_detection": {
+    "n_choices": 16,
+    "p_value": 0.02,
+    "detected": false,
+    "preferred": 13
+  }
+}

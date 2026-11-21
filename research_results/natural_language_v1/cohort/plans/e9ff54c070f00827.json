@@ -1,0 +1,476 @@
+{
+  "document_id": "e9ff54c070f00827",
+  "unit_id": 1,
+  "problem_id": "problem_da01c1c6ae1e",
+  "public_demonstration_key_hex": "daa9d9a0b5f1b1e5a36689356e94a8e27e006a5dd603c90b52906ab6017af3e2",
+  "surrogate_keys_hex": [
+    "887e878327d7578669d87339eca17880b49faea78e5f2e9863326e2afd5a59c6",
+    "0a35b325e0cf6dd943b623d780450314c8ba08f211602d6bd3c6775de09c7341",
+    "143a45b5f5c9429d85a27e6603a7dc2557c55529c450a80482276d0c44d90bbb",
+    "6ab693c28a0a8e08f6c7c2cb3eafe309fc998c5022e1408bcfe576f18a8c389c",
+    "d4aa6767aa6384c2f48b65543783c095f41b98a4f206f3c132efd69eb664fcc6",
+    "9791fa78ca4e0a9b6f3f42afa676bd70134f17b9a5e26cd7809a942b0d29ca26",
+    "8281dda33d03d9f3798f91b4e1fa91c8d7bcf2ea553f59122f89093792ffe814",
+    "ef35f7627ed4dc91dd82bbdb13601b27ce4674634ae2eda22eded4705afffd71",
+    "26679c66a7ae94006843be42c0db7ab6f15f1703ddc4df6318742174ebbd0700",
+    "c528b324d09db6daaa361e47cecee5923626f3ea10fe62111c1030e97ca63b53",
+    "dbc7a378c66e8fdb656c969a0c68514a205f30c7be1a9269c1d997de7d3a80d2",
+    "55464c700d2e38e3525950278663083089c01897135d911e9653f464dcfcf1ee",
+    "8e699080e5a0e559d05246fa89130534686f8e0f030809f9d56c19ee0f260d4b",
+    "2877378483c9bd6e7bd09a862dde7e301398267f97d082ddd7f08f60c56f2d3b",
+    "60fb928b689d11dcd418ab5193c3c9cdabf6198c2940e50550c1635ab8c8cfc9",
+    "4ebd38fdd53b4e5962ea821a1fd83833e9dbb4d47573a1a2064d19dd6739faab",
+    "13383267cc2422798971fd4823290f7810d81c519db425aa0ba8b2963a04eac1",
+    "a6bd606da800aa7fe677169db2612854e21fa0bff12802741e80352898a94058",
+    "b84bd7838bad3df5820a25e93cc2e9bf39f28ed9a533c5f86ca69a450f542336",
+    "ccff2bc62bee2fc64a116e67f9cee3e1b2b5bea745a2fcc3d2725c91813ba57b",
+    "3b6720fb757f8569fd426fdb5a90cb14bdb0206925957dbb067cb75de6036f74",
+    "9d0946f3a8b23ac884ddf7a03eecb80e1de2c7d939e5f88fb2c31bfe8dabfaf2",
+    "ca1691a0f235d84fc0a1c6496f604389f08e27c929d8d31c0be5b232ee640e65",
+    "23a79a96af3df70fbf516cff367d2bcde05d954671ddc38ddaaead993707d022",
+    "b9855454ad7bd7925eda9fb24c24069ec147dd17aa93449179f624e2ea803bfa",
+    "b8fa4b8e73c03b7ef2f62a8a9de9ffef963651b183fb9f7145dd1533b34e72b2",
+    "e5719101d49f8ea73434430b8a99d08e6a176ba2049e53a3122b697f21aad9aa",
+    "bb71ce70535bc517ff35823a989f3067a84ac60e093f7215fc13244ea075ff5c",
+    "1c3ef5375e83920518a0b9112f9a5f6c4c765c72d989842a156c674387da3eaf",
+    "5b6c5eff0745b889d0e66c22aff6d72224488a3c7c42f6640bd497b91bd2d2ec",
+    "6f89fc2e24db5f1754181be16a3f0be31716f2db3e1aebb26e0b8cbc8055e47d",
+    "3ee36fb8c945e60f9a07f2ea21f43774f158538d7568eab80f2c08a57a9b6941",
+    "db276de743a3b796ac20b08a58f419bd4f75490303ff648de727c81181284b59",
+    "4bf9e199e1e7f0ca8338dc98bcccb24e5d36da4d9c807a8a65cccbaff541f2dc",
+    "cba05e9278d4440c5692ac38bf790ee9b4eb7b81167acf450354e72fe2f5f264",
+    "437ca25477fb890e6929a753aa4c58856ee9a075d82a962c0734a86210ce417c",
+    "6f5455ba0c3be0a9e794eeaa7f03556e1c7732ba90b4a899dc222140c7a26720",
+    "4230557f543efb23c9288f1bd1e5ff31e668c40614fca1c42755352c7cf3776d",
+    "002f2f37e965effe71d701474dd8a49ce95f017d0823914ff346cddb1d5d21c3",
+    "47ad7f4f2000093b1a0fd7efd4c87a7951813f52af781a37b56714d516f81c16",
+    "78aeee820acc8a4d61ee11069a7aae207a2d26d6ea230c635d5278e74f28a53d",
+    "89dc6426e854ad8f77a3ce6d6846f07b24fd2f6efb8b688b9f033919d45b41b7",
+    "b41ae71c826ab3be033b3161223fa5c7f716c95174be635ebda79037a6d63872",
+    "332efd553630803d62bf21d1cec230b4ab0f423b3e19a9cbce3d13248dd7fcaa",
+    "5a24d4f66cb380ffe98eb537a541999d97a66ef63ccefe1004680a97a7d108c0",
+    "00854ba0af765e19ea3feea4803e1c6807866b6996aef605d2664a4896b47ee6",
+    "43613c6b9e11d185019fea2e281b1ead4b0731ac49a994da21d1bd674b87cad0",
+    "991dc925ae983d2584c15791b9b14dcf62e4445e7057b790f31875587a584872",
+    "f6e80c08d3a9da9bfa4132f4a98e777e093d010d7e49285bf588e59bce82821b",
+    "4a598587a42a672dfb627e3a6173cf0e3b1746871a9fe40d0002720e82a6db54",
+    "ee45dc28461dc7d1dd0c265f8ff9fbe3a2800f2e70a3e3006ff7ac42ba28eadf",
+    "381b5d890e8a68b71d99357dce61776ae9d7e65e83468d4e83c99d4c29730fff",
+    "bef2fdfa97030a03853f0d39aa30c7f9f2252a8bd34bc3a57d4e55dc0d1254cb",
+    "c655a9ff296fdab01d95d165f42659ad6571b45946772a645fcc95fe89bed594",
+    "c5057780f5eb3cdf5da6bfc2188211adb9b13cfacbb7f4777daf222423945cac",
+    "78a2b82dc44eee3b0887a1fc3d7cee40aead5bc11ca61cf6e011581ac882fc36",
+    "794a9091ace6225002b8aaef8a736801894617d4edd95186e24419d98ccd4642",
+    "8ec44046398929003cc32488b982169ee7422a7bb18618052ad1588fcd7e2ecb",
+    "75c5e65a769ddea71966730f7ea727b0b33086c1908c715d55d9c83f714927ae",
+    "b761e440dfbfc08179fc62aabb35637e8c01298366a6ee92d6e67237f8b301e0",
+    "79c110218ad41b7a36091ea4f2e19d53ed42d10b96d00f12897742679bdcfd1f",
+    "d71b391939e643620d0152b9ae3f8d46999ab76663e6f88794d05d62afc56709",
+    "513730f68277fb84efc3a486a27aeb6381b5330c6254d783136d4afd520f362f",
+    "335781bb446e1b62c64e7e8f5037ad3fc45c481719e14406ba631a9cc4acdad7",
+    "faf68b92b1bc81b0567ff23ff8238288bf61b08061c8e8aefac712b2b01aa708",
+    "98be22be2db8d74de96aa5071f94c6bb1a76e38d9abcbad527e832361aac87d7",
+    "d9577260b80a869ffcfa3c5b61a2b17599670e06dfa28a030bef759e7549c3d4",
+    "c75358f1eb8d5758f230ccd1e343f9cd32cab8e4e7034f554d6ed38246b53db0",
+    "3e414761ec4f75a8c2048701dbe9474910007c42a5d884cf1e10f0d5cb8f68db",
+    "2aa38cad6448d21c77c9a734d33cf79e9f0ddecce8b4127a1d64095cdb9a8d68",
+    "67e22744afcf34b52f8c97179af1643407e3581fc4f625a16fdb44938a43a0dd",
+    "bc3b1b7593d61e9ca859dd57eab976735f368405428e17e22bce5feac0d9195a",
+    "df87e60c642a8118c4c27f5fbc6da97a10f5cd8709aae3c19357735bf14791b9",
+    "72bbec99200e1b598f807e99aea53496e445b35b2fa3461dccb01eb7d83b0b96",
+    "1646caac1bdd80839654e8c90e6a04fda04c95616758cf2475229cbe3c73d01b",
+    "a3a046940103db9fcf0d23817ae978d312647f09fae6bc7b3b705a878527b2f4",
+    "91225cbbe003b3d37b44b79c714ebce93214b96304e0223b46735b85c39814d6",
+    "09e58c1f81976e9c0aa95df5a814c01cd7dad05be57a9c6a62c7515de3464086",
+    "fde2afde0343b1cb2f4cf136465d6b4ec9874f01707540987eb39c1bbd3e62ab",
+    "dd4c01a49f5a86f880ef6e5a283501f5933de68629a30919e60de1b17e933394",
+    "f28382be0e6e79ec17fb6c724dc3957aae49d4f571c28d63f46f1a2bef8779d9",
+    "216d10a41097c07509bb36ff2108744c126de4d16ea88347dd323acb37590c64",
+    "a6fd06f669b039ce2ccf614cc04e979e96dec9eaaa570f4810275377b4f0872f",
+    "1f05cbe8f9331d5cd2f173a3a680173fd67dd77380c2f32420cb1e5ec01ef58c",
+    "3c3b9303100f32a097b20796340d227f1bab58585b8aa56272e7fa37c515b75a",
+    "e152c6d4869229741d1ea555f89f19c3fd1b52a08712ad4d656a34191f65425e",
+    "f1054f1b451ac8a69c7331a4284f58f1cda873ba584de00802e0743dee389525",
+    "ed2b84305293d4c97c8dcfa644d14dfbe6415c633d2c4e68c01098341014d53f",
+    "17f1b5c7c5b2442e593e6a207de1724950afe3f716e47feb6ecdb46b613aa41b",
+    "161b726f6d5ed24b48d078d6204e43c1fea3f9322c4175c7f3aa4d655d886742",
+    "0c0289a4d4a6ffbfcfe9ee801de7147002c0e341ab4771b8112624a53599be95",
+    "e4359575079132bb90ecde8af183f40335ef14d8422721a124ef9168f2a2e073",
+    "77d12c94c2ae685b295bcb4670f1514e1a058902177b8479dce38f10d0701e94",
+    "1dfc48652e79c0c430bcb7deee36f467f80e8f29fe7309844f25f5a6533a45cc",
+    "a52a2a0ce885a72face756187a7268c712a476acbc8df7299ce4494c460580e8",
+    "5a2905d1f716394dd1e52ec2ef49db0c4579ddbce0d8f96e732013ac9fb155e7",
+    "6b68dbe165b78a4afdf3da0a32738a962c970dc8f180a0a9bfa0a2e8845fb640",
+    "3ddd336dadd1e14d022b2b855c19036d00a23608dc9c8672798a50267b732d61",
+    "0dee2b30f57dba44a5b30173636a1b6deab7ec8e0b1505060f2afbe53eec10d0",
+    "0be96f779a5acb295a1d2d9aa6cfda0f167493308c1d2c293082570de90d3c17",
+    "01485a79196c6aab63460b97ba5f0c53b7059624b4f328811019c2023dc9828a",
+    "07e30daaadfc450081a6d4f4a9bb1fd8d4bcb5f8512d1e8d1a622a3295af9020",
+    "1756c909cbcc5b51e06114a6a77e605e0758269bd7e4bcafa08cd54cd1527a6e",
+    "5b1bde32822733ff7f55af7b022214c97efa42574cce074f9030f5fb2c940205",
+    "5e31a96e55e0322be79292f7a418ac1195a21534271b2e3d9ec976e8caa4f2ce",
+    "90d2a41ece7ca9d69bde31e0ff978f8a46e3f3ede9d61a0da4c1053356c71d10",
+    "df96ff47c477f515ea030221540debd96d03dc4a031ff539857e98daba8c4a33",
+    "b5fce823862b8e835a43f54f281adf0752b47e4b17547d41551698ee93457beb",
+    "91a005dfbf3a7278f3e7ea14413ba5b718e1e3def2324377503706c1c438c92e",
+    "ab045aa8b55dfefe007fce9e65857c7dcf6a944da537f39b81b97f5a3882d5bb",
+    "892b30303e0cd7f7acd80274a5ce9da86e2dbf0e6e1369add105f1b683d076e1",
+    "2c26100cd96a7b947130bef1d8fb9276eeff4692cc698838e53ce260fbaba9a2",
+    "2171e8d109eb27a31aea4aadb99ad0a147eac634413237f4f17426db0aa48e54",
+    "1acd91c07a929ffd21fd12c63c44ac65fa727bd4a59ddb0ee643a06526e09ca0",
+    "3735b319c2026c7a435df202a0a405205aa61cf66171fb64ae3fcd4e688acba7",
+    "6b4b78c9e7c1c0a1167604a13af3c0e85736187761568b679a12ded0d9ca9013",
+    "3a72d31c8a3a7e73424bf36c225444357a9a0eb6e17b0623f30a3360538406fd",
+    "5728f22e6830ade8dd41d00ac8cd54e1380e71f7f8c7412f49a1b5bf4846490b",
+    "c625c890ef49616e2506575e5f4d1f421f0dbf0d90379cec253320d52c30f858",
+    "493293d6cb68d291354a214a8071b50008201697c0e44f6ce6a6feda8f994ca5",
+    "9d43b27fc9218e4d98bc6ebd299506549018eeb0dff4e960f721a4c0c8f99129",
+    "39300b646d8407b3185ae1f7b3cc691ef71723d6df42c77447dc84c037b2a851",
+    "678a5dcc8bc556947b9983118a6c26e9da513b1f4bf1c79710e7ff6d63e55341",
+    "d4e928a1800255227e85912e898c761499d319deefd2325bf9f6908fc4e6f129",
+    "1efb0b3c3559457b08bbbda38c49b1c62fce87802716bd23a30ccb2b2f0a17ca",
+    "ce1e9de1480859123f049f5220ab5df32de8fb4e0f2016772f4c097e2d8d0719",
+    "82708ae7b2d6b741adeb3f03f486e5bb5a586509a45ab5efc0732cb144d89ce9",
+    "347ba895af74bfded21c4fce13a39667e247ae19ce6155f8f23bae3337a094ed",
+    "1a9128753645b568454509f17d2fdccc70bf731220a1ccd82b33961695d4becb",
+    "c1cfd939a7b92a2cddc5474d53be93c4a7af337b294e4845b684ec1ba451d89c",
+    "476d688ec7b8dbe4839f10fa56340650f4cae25ad1067a3814f02766bab8c8ef",
+    "f41cede66aaa58b80d8d237bad2f9bb3c93170dadf2991cc80860850384a1f3c",
+    "2ad494713ccab30c7d775a69988c194de85139e53ef490e35b698d095ed20b90",
+    "f2fec809d3e6a9d4b96300883aa7b9c07ed7fb731ab7142f0f5d2367b952080a",
+    "59f49d0c043e869dae04d3ea43c75e06c774f1c822f765aa238a011b1a40a43e",
+    "cad66f9b126f491355e803f714db8954171660a34cef76a9aa4f97ac985fc2ea",
+    "04fe522c19ba977c14467fb403a3c48aef682d3c34ad1cdfb396969e1e156a58",
+    "3a5dc0ec63a5ccd2e1f0aab828a5bede9b545f8541553ff190d55e6f7f1c65b6",
+    "e02a152355dbc9412c14c7c5a20b831ad9888a44fe7e66a5c24b33853619d096",
+    "cb706405d023afbb7a9ee1f09ac7ca233ba8ec10da640136515370476e533218",
+    "f823a2536b732453f7feb7857a9aa373734ea4d4311237d69bb5cbc83ad00f91",
+    "e15bb549b5bde3789f73e9e6ac780a994f11b43d9eaf049006595c3de069eb7f",
+    "1e1c84648ad802ecb881788cad3f4b01f4567e965a6e23761b785957e60cb397",
+    "6aef68ddaac7adb387ec7c4780c1b33e1448c9b982de5d734cb7150544f5e9ec",
+    "f2ac5f99dedfb436db93bb9efd2d8157327ddf3d140ed26eb713d1b239a53788",
+    "5dc79f738fa20de42c6581bfc8b574d370dd4f6191a6df0d48df90332aaba54e",
+    "fa04f1b8fc7a38c7e36d2f581fbf9e30683723afb80995cd8e0c9097a9732b87",
+    "8a379aee7aec0970f3d2727a66975994c767a0a028f65bf220428a0db0dce830",
+    "b57254de3a725da590751ddb5b4502ac2796afa7dfe087c2a1bb549f56e016c2",
+    "36a19158d86dae55f49c3758cc28e526ef46023ef5e0548cd489d2b0c7ee2453",
+    "543aa94ce6e19d01755b71b3bddcbb137ff947c119ebc1c171dfcd56fc0c1c7b",
+    "61c5bce4479d804a410e04a0c9093d0aa5b1708e773f77cb8a66d3006ad91f67",
+    "11026202bbfff3360508fa4155731b587696b7a3d2054ba7531a8f87f8e04008",
+    "ac5a6639f3443edae42aaf1e4cc29e29c1b9ce1b1944cc91953be137dfb650a2",
+    "39fdddfe502899c45c149dd94d134896908df58e9fa3988d7fcefdfc25c73279",
+    "2f6e3c0174138f8921f503159c0a895f1be788ac067b1727d0b977b69ff534ac",
+    "9fc705e83fe051e3a0ad88060db56aa4bed59de60083d745c0dc59c17925b45f",
+    "74fa3e1544d499d6082ec043379a5cb44cc2684fe168e9a7bab3faa7746d9ded",
+    "5d1360157e241dd0ebb6a29bd8adb0274bb645a41d2977564b73b8a339a9e4bd",
+    "abcb0007ebbbbdb6f4fed0e708d1761db3587a12873224307785e6711570d050",
+    "98fe2d58cbd7c5841a47a6d27edef7dc97c7a05c842be834965604fce11a1a1e",
+    "058430a31323df57dbbb462e24b4b94984a7a671a3fcea977fca3381f67c8377",
+    "daacc19488aa5dbe68879c998783431f45d02310ff45a97397cd664003ea9598",
+    "89de5a151be4d4216460a93f416ea2f32096de6263b1c4c98146f9b6e846031e",
+    "ee35f23974a818140254dfbb228b94220df8a71a2be319aa87fc934ddd9606e8",
+    "0a565c013d0604181439a06141a98f5a5fa7696460ad3050812951b4e1bf841a",
+    "80babae96619fa6ca69ba1be00d8e073445cebccac6dc1e4c8fbfb83cb5b8a1f",
+    "3504350c9213a3433ab92fb6ce5b4c6b45be11991a4cfaaa493889942f44a5bc",
+    "401857284f3959a16380c9469c680c61c40d3c96564f451dff9766ab933b27e0",
+    "a60e3eaecc7f79f5590ecb128bb9c7e7a0db167325858c57c6da5e898a7958f6",
+    "b8a43078972248bb8a5022e04277d6b8c9bde5e9059e42bec8856a934aa6239b",
+    "ff85d32a4d5e34526e2d40243fa6f02c59b5d10034168a1d295596b673438748",
+    "5cc20332565b19591dd3ed311ca88c5dab4fad368662e6aba70b16993efe4ea9",
+    "3e5500a5576dbdcdab418909c78e28cc5b7a95b489f3292863060d1dd4286e5a",
+    "8fcc79d0d26d66c6634eb1d755ed909fd39d2d7969a10b162ebc49a7469a7c48",
+    "9ffd951c39be6e802245d310440be36adf4c509be7955348acf35e0793d5a426",
+    "177dbdd7d960e728dec6d2d13f6e34a817fedbc994e6fff864855b3d10299045",
+    "55ed5361b2c972cf4fe4e342f8c29897d44e8884e2cfb33d5cf0b300b3438c35",
+    "a2c9d909b616bb700e328473e19de30f9f11c153b7e41d534a8f0498a6f88b39",
+    "ebb079caffbfcc33a76d4b1ed16773119641e2f68413b6f5187025a9be28344a",
+    "3f3361dc2dcac0cadd58bbee8db41a4be114639cea8a3bb17a04fc6f14597c1f",
+    "f79aa24cab145fe19c947facb9bfa990c6f5440db2c35abd79566d27793477ea",
+    "accad3dce285f9564111237e0f51be5bb47a9b98d32c0bef98b0d25607acb746",
+    "1c0818de690345388f3c967ec314dba93dbf4ebea4bd341648abe6043670be02",
+    "d4504744be0e734f8e69891d439338c5a24584a08711af81a37ae828a445b496",
+    "a32434d0794e6290f99797994d92ec477ad21d0c72571db1783e8ff32c610c06",
+    "7f69357ef56cc8a3f772b6854a6225333639b5b2d628d9c22d90c86779b11356",
+    "6742c02a14a0f5654742ed01e2fbc9117c758283af00e6a319e0dea6a2899777",
+    "398cda7681c305c4c9fbef7c4d87f748235fb78e64f24288c22e6108eb07332c",
+    "764cdd5f2242857b94d193b7e7c9146bbddcc9f5a6823ce95a3e26d4f9ca8004",
+    "0fe705df967712ea8929cf70448b9c9d0fb76470f75d1ab725cf981c7c673cf2",
+    "103e30995a268cff2be7a5c1b607fe73728ec0bac46cc7b109d559677ff96eca",
+    "8c9b9722ca3d12e971b492d4b6168220be39b7d2a8393df95fe082647ae7f2af",
+    "2070c84d8a25460f64640340e300d071e6138afb8f10b9f2f6a40b1e8087536c",
+    "4b845044463f7929c19bae90c6dc086f65d9efb42f40f24f0a1624c163c5260e",
+    "5e208e1101b09c12993347f20e581df60ec3b03dbd608d4c58aa5167bf739850",
+    "c929b800de65fe328d6e3a61af2716f3038e86af850aeb9f6e49fdd0eb99df06",
+    "d65dd3f088adf6bd7d2fd36795c0731c4af9a41bf7ef231fb382cd2b9ba4e587",
+    "ad44a689d5241197a417b2856e6370c978c197a2a77e4371af9b7eb38164a990"
+  ],
+  "sampling_seed": 1702,
+  "condition": "marked",
+  "choices": {
+    "decision_995ed35b4d41": "choice_b70bd81095cf",
+    "decision_8342e49aaeb7": "choice_42a2dec8b3f7",
+    "decision_efc50eefa7f6": "choice_13992b33b0de",
+    "decision_52c1844753ed": "choice_cab83567540d",
+    "decision_9b8cc7fdb0c2": "choice_017fe7ef3106",
+    "decision_8204e82647ee": "choice_db49c38145a9",
+    "decision_117204fcc63a": "choice_75aad51db198",
+    "decision_418d780a0676": "choice_3fff873077df",
+    "decision_e99487beea19": "choice_8783d29c95dc",
+    "decision_92b118e19f92": "choice_f8f574fb6640",
+    "decision_247b053e1c19": "choice_4b5083d843d0",
+    "decision_42560af6a041": "choice_b3559631e72c",
+    "decision_273822a1bb88": "choice_5a8384f71323",
+    "decision_ab8895b1bfed": "choice_793245a5d8fd",
+    "decision_99fdd656ca17": "choice_5b9208bc4a23",
+    "decision_6f2c62255721": "choice_6b4f9b50544f"
+  },
+  "policy_rows": [
+    {
+      "decision_id": "decision_995ed35b4d41",
+      "p": {
+        "{\"consequence\":\"Both stations receive the same choices while guests remain in the queue.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations.\"}": 0.9741579800952048,
+        "{\"consequence\":\"The cup choice is settled before the drink is prepared.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests collect a request card at the cup station and show it when ordering at the drink counter.\"}": 0.002770017551377245,
+        "{\"consequence\":\"The cup station prepares for a guest before the guest reaches it.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests request a reusable cup at the drink counter, which sends a request card to the cup station.\"}": 0.023072002353417928
+      },
+      "q": {
+        "{\"consequence\":\"Both stations receive the same choices while guests remain in the queue.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations.\"}": 0.0854556560451768,
+        "{\"consequence\":\"The cup choice is settled before the drink is prepared.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests collect a request card at the cup station and show it when ordering at the drink counter.\"}": 0.09803041300953319,
+        "{\"consequence\":\"The cup station prepares for a guest before the guest reaches it.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests request a reusable cup at the drink counter, which sends a request card to the cup station.\"}": 0.81651393094529
+      },
+      "uniform": 0.4194976850845352,
+      "selected": "{\"consequence\":\"The cup station prepares for a guest before the guest reaches it.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests request a reusable cup at the drink counter, which sends a request card to the cup station.\"}"
+    },
+    {
+      "decision_id": "decision_8342e49aaeb7",
+      "p": {
+        "{\"consequence\":\"Allocation follows intended use time rather than request time.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need.\"}": 0.47840953526121854,
+        "{\"consequence\":\"Early requests cannot consume the whole afternoon’s lending stock.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period.\"}": 0.043679483329383186,
+        "{\"consequence\":\"The waiting order is clear when stock runs short.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers assign available cups in request order and tell later guests when a return is expected.\"}": 0.47791098140939825
+      },
+      "q": {
+        "{\"consequence\":\"Allocation follows intended use time rather than request time.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need.\"}": 0.025751565276028406,
+        "{\"consequence\":\"Early requests cannot consume the whole afternoon’s lending stock.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period.\"}": 0.948523705330409,
+        "{\"consequence\":\"The waiting order is clear when stock runs short.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers assign available cups in request order and tell later guests when a return is expected.\"}": 0.025724729393562653
+      },
+      "uniform": 0.28351196776160115,
+      "selected": "{\"consequence\":\"Early requests cannot consume the whole afternoon’s lending stock.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period.\"}"
+    },
+    {
+      "decision_id": "decision_efc50eefa7f6",
+      "p": {
+        "{\"consequence\":\"The handover conversation supplies the record without a separate writing step for the guest.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer asks for the return time while handing over the cup and completes both fields afterward.\"}": 0.8441586976630113,
+        "{\"consequence\":\"The record is completed by the borrower and checked once.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The guest enters the cup description and return time, and the volunteer checks the entry before handover.\"}": 0.04538280261319627,
+        "{\"consequence\":\"The guest makes the return commitment in the lending record.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer records the cup description and asks the guest to add a return time.\"}": 0.11045849972379233
+      },
+      "q": {
+        "{\"consequence\":\"The handover conversation supplies the record without a separate writing step for the guest.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer asks for the return time while handing over the cup and completes both fields afterward.\"}": 0.01857266185258138,
+        "{\"consequence\":\"The record is completed by the borrower and checked once.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The guest enters the cup description and return time, and the volunteer checks the entry before handover.\"}": 0.0009984845849373917,
+        "{\"consequence\":\"The guest makes the return commitment in the lending record.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer records the cup description and asks the guest to add a return time.\"}": 0.9804288535624812
+      },
+      "uniform": 0.9484840417560282,
+      "selected": "{\"consequence\":\"The guest makes the return commitment in the lending record.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer records the cup description and asks the guest to add a return time.\"}"
+    },
+    {
+      "decision_id": "decision_52c1844753ed",
+      "p": {
+        "{\"consequence\":\"The return route is considered before the loan begins.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Guests look at the counter map before choosing a cup and take a return card if needed.\"}": 0.9606022291402392,
+        "{\"consequence\":\"The return explanation accompanies the handover.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers give each guest a return card with the cup and point to the same route on the counter map.\"}": 0.0005726458517339682,
+        "{\"consequence\":\"Guests can learn the route themselves while help remains available.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers display the return cards beside the cups and use the counter map to answer questions afterward.\"}": 0.03882512500802682
+      },
+      "q": {
+        "{\"consequence\":\"The return route is considered before the loan begins.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Guests look at the counter map before choosing a cup and take a return card if needed.\"}": 0.0569928078468968,
+        "{\"consequence\":\"The return explanation accompanies the handover.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers give each guest a return card with the cup and point to the same route on the counter map.\"}": 0.013706591641034039,
+        "{\"consequence\":\"Guests can learn the route themselves while help remains available.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers display the return cards beside the cups and use the counter map to answer questions afterward.\"}": 0.9293006005120692
+      },
+      "uniform": 0.06146557182149126,
+      "selected": "{\"consequence\":\"The return explanation accompanies the handover.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers give each guest a return card with the cup and point to the same route on the counter map.\"}"
+    },
+    {
+      "decision_id": "decision_9b8cc7fdb0c2",
+      "p": {
+        "{\"consequence\":\"Each returned cup receives an immediate intake check.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"A volunteer accepts used cups and places them in collection crates as guests arrive.\"}": 0.9990940991986943,
+        "{\"consequence\":\"The ledge separates guest handover from crate handling.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests leave used cups on a return ledge, and a volunteer moves them into collection crates in small batches.\"}": 0.00015339838442591413,
+        "{\"consequence\":\"Return remains quick even when the volunteer is briefly occupied.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests place used cups directly in collection crates while a volunteer checks the crates at intervals.\"}": 0.000752502416879852
+      },
+      "q": {
+        "{\"consequence\":\"Each returned cup receives an immediate intake check.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"A volunteer accepts used cups and places them in collection crates as guests arrive.\"}": 0.9990940991986943,
+        "{\"consequence\":\"The ledge separates guest handover from crate handling.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests leave used cups on a return ledge, and a volunteer moves them into collection crates in small batches.\"}": 0.00015339838442591413,
+        "{\"consequence\":\"Return remains quick even when the volunteer is briefly occupied.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests place used cups directly in collection crates while a volunteer checks the crates at intervals.\"}": 0.000752502416879852
+      },
+      "uniform": 0.35574374360462635,
+      "selected": "{\"consequence\":\"Each returned cup receives an immediate intake check.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"A volunteer accepts used cups and places them in collection crates as guests arrive.\"}"
+    },
+    {
+      "decision_id": "decision_8204e82647ee",
+      "p": {
+        "{\"consequence\":\"Borrowers help locate their entries while volunteers verify them.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Guests point out the matching cup description in the lending record, and a volunteer confirms the return.\"}": 0.2519607611776806,
+        "{\"consequence\":\"Recording is concentrated into short batches.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record.\"}": 0.7418974140103956,
+        "{\"consequence\":\"The outstanding list changes immediately at intake.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers match each cup description to the lending record before adding the cup to a return crate.\"}": 0.006141824811923816
+      },
+      "q": {
+        "{\"consequence\":\"Borrowers help locate their entries while volunteers verify them.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Guests point out the matching cup description in the lending record, and a volunteer confirms the return.\"}": 0.25351393987191206,
+        "{\"consequence\":\"Recording is concentrated into short batches.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record.\"}": 0.7464707422197581,
+        "{\"consequence\":\"The outstanding list changes immediately at intake.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers match each cup description to the lending record before adding the cup to a return crate.\"}": 1.5317908329926803e-05
+      },
+      "uniform": 0.7952179653121116,
+      "selected": "{\"consequence\":\"Recording is concentrated into short batches.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record.\"}"
+    },
+    {
+      "decision_id": "decision_117204fcc63a",
+      "p": {
+        "{\"consequence\":\"Transfers follow the washing station’s capacity.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"The washing station requests the next crate through the transfer list when it has room.\"}": 0.775934297834485,
+        "{\"consequence\":\"A predictable round connects return and washing work.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer moves crates at fixed intervals and updates the transfer list at both stations.\"}": 0.06229593137225939,
+        "{\"consequence\":\"Transfers follow the buildup of returned cups.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list.\"}": 0.1617697707932557
+      },
+      "q": {
+        "{\"consequence\":\"Transfers follow the washing station’s capacity.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"The washing station requests the next crate through the transfer list when it has room.\"}": 0.8273468869850705,
+        "{\"consequence\":\"A predictable round connects return and washing work.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer moves crates at fixed intervals and updates the transfer list at both stations.\"}": 0.00016464762860128547,
+        "{\"consequence\":\"Transfers follow the buildup of returned cups.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list.\"}": 0.17248846538632825
+      },
+      "uniform": 0.9564342550469657,
+      "selected": "{\"consequence\":\"Transfers follow the buildup of returned cups.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list.\"}"
+    },
+    {
+      "decision_id": "decision_418d780a0676",
+      "p": {
+        "{\"consequence\":\"Both stations agree on the stock change at the same moment.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing and lending volunteers count cleaned cups together during the handover and update one shared list.\"}": 0.29022341559647324,
+        "{\"consequence\":\"Availability reflects stock physically present at the station.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The lending volunteer updates the available-stock list after receiving and counting cleaned cups.\"}": 0.01774666229519548,
+        "{\"consequence\":\"The lending team can anticipate the incoming supply.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station.\"}": 0.6920299221083314
+      },
+      "q": {
+        "{\"consequence\":\"Both stations agree on the stock change at the same moment.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing and lending volunteers count cleaned cups together during the handover and update one shared list.\"}": 0.29022341559647324,
+        "{\"consequence\":\"Availability reflects stock physically present at the station.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The lending volunteer updates the available-stock list after receiving and counting cleaned cups.\"}": 0.01774666229519548,
+        "{\"consequence\":\"The lending team can anticipate the incoming supply.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station.\"}": 0.6920299221083314
+      },
+      "uniform": 0.6044747401225,
+      "selected": "{\"consequence\":\"The lending team can anticipate the incoming supply.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station.\"}"
+    },
+    {
+      "decision_id": "decision_e99487beea19",
+      "p": {
+        "{\"consequence\":\"The reminder reaches likely return locations before the count is refreshed.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count.\"}": 0.48450644247459307,
+        "{\"consequence\":\"A shared reminder can prompt returns without identifying borrowers.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team posts the number of overdue cups on the announcement board and directs guests to the return points.\"}": 0.49419834135124124,
+        "{\"consequence\":\"Guests have a clear shared moment to bring cups back.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team announces a short return period on the board and gathers updates from return points after it ends.\"}": 0.021295216174165757
+      },
+      "q": {
+        "{\"consequence\":\"The reminder reaches likely return locations before the count is refreshed.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count.\"}": 0.05062864738478846,
+        "{\"consequence\":\"A shared reminder can prompt returns without identifying borrowers.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team posts the number of overdue cups on the announcement board and directs guests to the return points.\"}": 0.05164140529200777,
+        "{\"consequence\":\"Guests have a clear shared moment to bring cups back.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team announces a short return period on the board and gathers updates from return points after it ends.\"}": 0.8977299473232038
+      },
+      "uniform": 0.3304786765820895,
+      "selected": "{\"consequence\":\"Guests have a clear shared moment to bring cups back.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team announces a short return period on the board and gathers updates from return points after it ends.\"}"
+    },
+    {
+      "decision_id": "decision_92b118e19f92",
+      "p": {
+        "{\"consequence\":\"Extensions begin with the guest’s expected need.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests choose a later return time in the lending record and ask a volunteer to confirm it.\"}": 0.0388717711450437,
+        "{\"consequence\":\"A brief conversation turns the guest’s estimate into a shared commitment.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time.\"}": 0.952388142387398,
+        "{\"consequence\":\"Extensions reflect the team’s view of future cup demand.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Volunteers offer available later return times from the lending record and let guests choose one.\"}": 0.008740086467558465
+      },
+      "q": {
+        "{\"consequence\":\"Extensions begin with the guest’s expected need.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests choose a later return time in the lending record and ask a volunteer to confirm it.\"}": 0.039213652312465236,
+        "{\"consequence\":\"A brief conversation turns the guest’s estimate into a shared commitment.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time.\"}": 0.9607644926376321,
+        "{\"consequence\":\"Extensions reflect the team’s view of future cup demand.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Volunteers offer available later return times from the lending record and let guests choose one.\"}": 2.1855049902703934e-05
+      },
+      "uniform": 0.35052200330476435,
+      "selected": "{\"consequence\":\"A brief conversation turns the guest’s estimate into a shared commitment.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time.\"}"
+    },
+    {
+      "decision_id": "decision_247b053e1c19",
+      "p": {
+        "{\"consequence\":\"A return stays with one person from handover through recording.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"Each volunteer handles intake and the lending record for a separate stream of guests.\"}": 0.8287609768990222,
+        "{\"consequence\":\"Each person can concentrate on one part of the return process.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"One volunteer handles cup intake while the other updates the lending record throughout a short block.\"}": 0.0867765009300675,
+        "{\"consequence\":\"Both share the two tasks while keeping a clear current assignment.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"The volunteers alternate intake and record duties after each small group of returns.\"}": 0.08446252217091028
+      },
+      "q": {
+        "{\"consequence\":\"A return stays with one person from handover through recording.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"Each volunteer handles intake and the lending record for a separate stream of guests.\"}": 0.023071535084985256,
+        "{\"consequence\":\"Each person can concentrate on one part of the return process.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"One volunteer handles cup intake while the other updates the lending record throughout a short block.\"}": 0.9745771475895733,
+        "{\"consequence\":\"Both share the two tasks while keeping a clear current assignment.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"The volunteers alternate intake and record duties after each small group of returns.\"}": 0.0023513173254415096
+      },
+      "uniform": 0.8411862018524304,
+      "selected": "{\"consequence\":\"Each person can concentrate on one part of the return process.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"One volunteer handles cup intake while the other updates the lending record throughout a short block.\"}"
+    },
+    {
+      "decision_id": "decision_42560af6a041",
+      "p": {
+        "{\"consequence\":\"Shared information and individual arrangements proceed together.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"One volunteer updates the stock notice while another works through the request list.\"}": 0.97767848006504,
+        "{\"consequence\":\"The shared message reflects the choices already offered to waiting guests.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers speak with guests on the request list first and then put the agreed options on the stock notice.\"}": 0.00027862892124750125,
+        "{\"consequence\":\"All guests see the shortage before individual arrangements are discussed.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers update the stock notice first and then explain the next options to guests on the request list.\"}": 0.022042891013712516
+      },
+      "q": {
+        "{\"consequence\":\"Shared information and individual arrangements proceed together.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"One volunteer updates the stock notice while another works through the request list.\"}": 0.9779502898759741,
+        "{\"consequence\":\"The shared message reflects the choices already offered to waiting guests.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers speak with guests on the request list first and then put the agreed options on the stock notice.\"}": 6.908440570259416e-07,
+        "{\"consequence\":\"All guests see the shortage before individual arrangements are discussed.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers update the stock notice first and then explain the next options to guests on the request list.\"}": 0.0220490192799688
+      },
+      "uniform": 0.43321068052197154,
+      "selected": "{\"consequence\":\"Shared information and individual arrangements proceed together.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"One volunteer updates the stock notice while another works through the request list.\"}"
+    },
+    {
+      "decision_id": "decision_273822a1bb88",
+      "p": {
+        "{\"consequence\":\"Feedback can improve the process before those loans end.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"The lending station asks guests what would make return easier and forwards comments to the return points.\"}": 0.9032683276968728,
+        "{\"consequence\":\"Feedback from the beginning and end of loans is considered together.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Both lending and return stations collect comments on a shared sheet that volunteers review between service blocks.\"}": 0.09389823455651558,
+        "{\"consequence\":\"Feedback comes from guests who have completed the loan.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Volunteers invite a comment at return and send it to the lending station with the next crate update.\"}": 0.0028334377466115467
+      },
+      "q": {
+        "{\"consequence\":\"Feedback can improve the process before those loans end.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"The lending station asks guests what would make return easier and forwards comments to the return points.\"}": 0.9058285745847245,
+        "{\"consequence\":\"Feedback from the beginning and end of loans is considered together.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Both lending and return stations collect comments on a shared sheet that volunteers review between service blocks.\"}": 0.09416438211801711,
+        "{\"consequence\":\"Feedback comes from guests who have completed the loan.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Volunteers invite a comment at return and send it to the lending station with the next crate update.\"}": 7.043297258351008e-06
+      },
+      "uniform": 0.1447286902677496,
+      "selected": "{\"consequence\":\"Feedback can improve the process before those loans end.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"The lending station asks guests what would make return easier and forwards comments to the return points.\"}"
+    },
+    {
+      "decision_id": "decision_ab8895b1bfed",
+      "p": {
+        "{\"consequence\":\"The record follows the actual transfer of responsibility.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"Both teams update the handover note during each transfer of a task in the overlap.\"}": 0.605688412414661,
+        "{\"consequence\":\"The incoming team can connect a prepared summary with the live process.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The outgoing team writes the handover note before the overlap and demonstrates the current work afterward.\"}": 0.04242841732131689,
+        "{\"consequence\":\"The note records what the new volunteers have just checked.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The incoming team watches the current work during the overlap and writes the handover note with the outgoing team.\"}": 0.3518831702640221
+      },
+      "q": {
+        "{\"consequence\":\"The record follows the actual transfer of responsibility.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"Both teams update the handover note during each transfer of a task in the overlap.\"}": 0.6324560046139112,
+        "{\"consequence\":\"The incoming team can connect a prepared summary with the live process.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The outgoing team writes the handover note before the overlap and demonstrates the current work afterward.\"}": 0.00010981735908799584,
+        "{\"consequence\":\"The note records what the new volunteers have just checked.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The incoming team watches the current work during the overlap and writes the handover note with the outgoing team.\"}": 0.36743417802700085
+      },
+      "uniform": 0.10415330496199293,
+      "selected": "{\"consequence\":\"The record follows the actual transfer of responsibility.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"Both teams update the handover note during each transfer of a task in the overlap.\"}"
+    },
+    {
+      "decision_id": "decision_99fdd656ca17",
+      "p": {
+        "{\"consequence\":\"The stock near guests follows demand during the event.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows.\"}": 0.4217970057707671,
+        "{\"consequence\":\"The initial placement reflects the planned service schedule.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team divides spare cups between the lending station and reserve shelf by the expected length of each service block.\"}": 0.5698439894093585,
+        "{\"consequence\":\"The starting stock reflects observed peak demand.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team uses the busiest previous service block to set the lending-station stock and puts the rest on the reserve shelf.\"}": 0.00835900481987433
+      },
+      "q": {
+        "{\"consequence\":\"The stock near guests follows demand during the event.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows.\"}": 0.977358156206376,
+        "{\"consequence\":\"The initial placement reflects the planned service schedule.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team divides spare cups between the lending station and reserve shelf by the expected length of each service block.\"}": 0.0032729496888787794,
+        "{\"consequence\":\"The starting stock reflects observed peak demand.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team uses the busiest previous service block to set the lending-station stock and puts the rest on the reserve shelf.\"}": 0.019368894104745193
+      },
+      "uniform": 0.5457635948336957,
+      "selected": "{\"consequence\":\"The stock near guests follows demand during the event.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows.\"}"
+    },
+    {
+      "decision_id": "decision_6f2c62255721",
+      "p": {
+        "{\"consequence\":\"The next trial addresses a delay with an explanation from guests.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the slowest return times and checks guest comments before choosing a change.\"}": 0.09545060061069931,
+        "{\"consequence\":\"The next trial addresses a reported difficulty supported by usage records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the most common guest comment and checks lending counts and return times before choosing a change.\"}": 0.3088445616055103,
+        "{\"consequence\":\"The next trial follows a proposal checked against all three records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team proposes one change and compares its likely effect against lending counts, return times, and guest comments.\"}": 0.5957048377837904
+      },
+      "q": {
+        "{\"consequence\":\"The next trial addresses a delay with an explanation from guests.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the slowest return times and checks guest comments before choosing a change.\"}": 0.09545060061069931,
+        "{\"consequence\":\"The next trial addresses a reported difficulty supported by usage records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the most common guest comment and checks lending counts and return times before choosing a change.\"}": 0.3088445616055103,
+        "{\"consequence\":\"The next trial follows a proposal checked against all three records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team proposes one change and compares its likely effect against lending counts, return times, and guest comments.\"}": 0.5957048377837904
+      },
+      "uniform": 0.254319430301464,
+      "selected": "{\"consequence\":\"The next trial addresses a reported difficulty supported by usage records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the most common guest comment and checks lending counts and return times before choosing a change.\"}"
+    }
+  ],
+  "planned_log_likelihood_ratio": 19.12896260545854,
+  "planned_detection": {
+    "n_choices": 16,
+    "p_value": 0.005,
+    "detected": true,
+    "preferred": 15
+  }
+}

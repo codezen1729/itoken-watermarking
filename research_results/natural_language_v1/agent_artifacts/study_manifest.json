@@ -1,0 +1,50 @@
+{
+  "catalog_sha256": "210bfd35b72553905caacef93c74fa31216a35593eadc6316616d3351c5dc4f9",
+  "cohort_index_sha256": "4059c5c4f49a4c5bebe55275132ed9024fb1ff030a0a65c17e44c4a96ad1242e",
+  "batches": [
+    {
+      "number": 1,
+      "condition": "unmarked",
+      "document_ids": [
+        "76ff65c662df89ae",
+        "b6c18aa5a477b92e",
+        "959d558bac444aca",
+        "279e747af99ff2c5"
+      ]
+    },
+    {
+      "number": 2,
+      "condition": "unmarked",
+      "document_ids": [
+        "ca4678454663f140",
+        "bfc15da178be8c31",
+        "b83db94b8b1a195c",
+        "1fc99ef1f63fd14e"
+      ]
+    },
+    {
+      "number": 3,
+      "condition": "marked",
+      "document_ids": [
+        "5dc52e25134c41af",
+        "e9ff54c070f00827",
+        "24af7e05f9460e8c",
+        "cccff3c954d5d785"
+      ]
+    },
+    {
+      "number": 4,
+      "condition": "marked",
+      "document_ids": [
+        "7d79fdba6e593f65",
+        "fe565b63a4e06494",
+        "f57e5cbe05ae8fa4",
+        "cddf62b0a0dd10ee"
+      ]
+    }
+  ],
+  "author_instruction_sha256": "5801c67ee354f9f6d989c00a1969d267b696fc04a56e6dec341a5131b72d1a15",
+  "author_fidelity_instruction_sha256": "b713e4ac58d8b4c37777e33b21aa27ac8b40055738bf3159c587fc974be3e6fb",
+  "rewrite_instruction_sha256": "1cd74eaecf312a43bd9d53d4a2ce0cbe71d4ebffc78e139f87c6a43723e54abe",
+  "fidelity_instruction_sha256": "fe95a4005acf51880350b06b669aa9e59c239f3f6b9565f576d952ea476282a5"
+}

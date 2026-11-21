@@ -6,6 +6,14 @@ The original **controlled symbolic prototype** uses a finite autoregressive refe
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
+## Natural-language ideas without explicit symbols
+
+The [natural-language experiment](NATURAL_REPORT.md) removes artificial atoms, route labels, and required wording. Eight different planning problems use fresh learned probabilities and separate agents for authoring, rewording, recovery, verification, and both fidelity checks. All five initially detectable marks remained detectable; overall detection was **5/8 marked rewrites and 0/8 controls**.
+
+The fidelity audit materially qualifies this result: only **3/8 marked attempts were both assessed faithful through generation and rewording and positively detected**. All recovered catalog labels matched the intended plans even when finer details changed. This supports numerical signal survival in a bounded catalog, not reliable preservation of every logical detail. The [fidelity review](NATURAL_FIDELITY_REVIEW.md) retains those issues. The independent 24-case semantic challenge was exact on all cases; the frozen word-overlap baseline was exact on 7/24 and recovered 113/256 intended choices from the main rewrites.
+
+Run `python3 natural_results.py` and `python3 audit_natural_probabilities.py` to replay the saved results without an LLM. [Readable original/reworded examples](research_results/natural_language_v1/examples/) and [raw model packets](research_results/natural_language_v1/agent_artifacts/agent_calls.json) are included. This remains a hybrid: local Qwen supplies token probabilities, and GPT-6.2-astra agents supply the language judgments.
+
 ## Stronger recovery and free rewording
 
 The [new stronger-model experiment](STRONG_RECOVERY_REPORT.md) uses GPT-6.2-astra agents for recovery, verification, rewording, and separate fidelity assessment. Actual Qwen token probabilities still supply the planner, so this is a hybrid experiment. The fresh recovery holdout was exact on all 32 cases. All 16 rewritten paths were recovered exactly; all four initially detectable marks survived. Overall detection was **4/8 marked rewrites and 0/8 unmarked controls**. The explicit symbols alone also reveal every branch in this cohort, so it does not establish that the stronger LLM was necessary. General idea watermarking remains unresolved.
@@ -111,6 +119,6 @@ The runner records source and checkpoint hashes, prompts, token-level probabilit
 
 The prototype makes the proposed unit concrete: a rule, its premises, and its conclusion. It can test a watermark over that unit and exact invariance under its declared rendering transformations. Each three-way branch has two inference applications, but only the route choice carries structural freedom.
 
-The domain is engineered so that all three routes are valid and equally long. Preserving validity here does not demonstrate that watermarking preserves the usefulness or originality of real ideas. Unsupported natural prose is rejected; free variable renaming is not supported. Deletion can leave only partial evidence. Replacing the proof with a newly sampled unwatermarked path removes the original marked choices and can remove its signal even when the conclusion remains identical.
+The domain is engineered so that all three routes are valid and equally long. Preserving validity here does not demonstrate that watermarking preserves the usefulness or originality of real ideas. In the original symbolic prototype, unsupported natural prose is rejected; free variable renaming is not supported. Deletion can leave only partial evidence. Replacing the proof with a newly sampled unwatermarked path removes the original marked choices and can remove its signal even when the conclusion remains identical.
 
 The research extension targets trained-model scoring and logical recovery separately. Full-support next-iToken prediction, independently verified semantic interpretation, larger cross-model evaluations, solution quality, and comparisons with text-token and semantic-cluster baselines remain unresolved. This package does not claim robust watermarking of general LLM-generated ideas.

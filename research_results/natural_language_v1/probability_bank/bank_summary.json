@@ -1,0 +1,1648 @@
+{
+  "freeze": {
+    "protocol": "natural-language-choices-v1",
+    "catalog_sha256": "210bfd35b72553905caacef93c74fa31216a35593eadc6316616d3351c5dc4f9",
+    "model_metadata": {
+      "source_repo": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+      "revision": "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3",
+      "local_directory_name": "qwen2.5-0.5b-instruct-4bit",
+      "model_type": "qwen2",
+      "quantization": {
+        "group_size": 64,
+        "bits": 4
+      },
+      "packages": {
+        "mlx": "0.32.4",
+        "mlx-lm": "0.32.2",
+        "transformers": "5.24.0",
+        "tokenizers": "0.23.3"
+      },
+      "python": "3.13.3",
+      "device": "Device(cpu, 0)",
+      "max_context_tokens": 8192,
+      "prefill_chunk_size": 128,
+      "prefill_strategy": "evaluate cache states in chunks, then final prompt token logits",
+      "execution_mode": "dense-fp32",
+      "execution_representation": {
+        "transform": "cast affine scales/biases to execution dtype, dequantize packed weights, replace QuantizedLinear/QuantizedEmbedding, cast all floating parameters",
+        "execution_dtype": "mlx.core.float32",
+        "dequantized_layers": 169,
+        "parameter_sha256": "c5f9b34790639e0eb65a6240265e50e1436d3df0a1e1880126f4b90dd821f4b0",
+        "parameter_count": 494032768,
+        "parameter_bytes": 1976131072,
+        "hash_byte_order": "little",
+        "probability_equivalence_to_quantized_execution_claimed": false
+      },
+      "checkpoint": {
+        "files": [
+          {
+            "name": "config.json",
+            "size_bytes": 783,
+            "sha256": "b045e57ea90b8f1b35f89f954b176a5c1faa02bd0af2c89bcec191239d66cef4"
+          },
+          {
+            "name": "tokenizer.json",
+            "size_bytes": 7031673,
+            "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+          },
+          {
+            "name": "tokenizer_config.json",
+            "size_bytes": 7308,
+            "sha256": "f7c61e32b7a17d19bf8e7037dcb74079a833e53ea9801f24008cac68458f03b7"
+          },
+          {
+            "name": "vocab.json",
+            "size_bytes": 2776833,
+            "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+          },
+          {
+            "name": "merges.txt",
+            "size_bytes": 1671853,
+            "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+          },
+          {
+            "name": "special_tokens_map.json",
+            "size_bytes": 613,
+            "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+          },
+          {
+            "name": "added_tokens.json",
+            "size_bytes": 605,
+            "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+          },
+          {
+            "name": "model.safetensors.index.json",
+            "size_bytes": 44209,
+            "sha256": "54001cb4c11197119c206dde28e7be08e5872aab6c6d271aed339ec77e84f870"
+          },
+          {
+            "name": "download_manifest.json",
+            "size_bytes": 1659,
+            "sha256": "d0fcd8a886f29dff89b9ffac832a8087797a547e3fc9d5b3de4fb05d59395a07"
+          },
+          {
+            "name": "model.safetensors",
+            "size_bytes": 278064920,
+            "sha256": "ddffab9cbc7bf6dde941c6724841eeca8981fcfa81ca20ff8efff1396326d153"
+          }
+        ],
+        "weights_hashed": true,
+        "weights_size_bytes": 278064920,
+        "manifest_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339"
+      },
+      "scoring_temperature": 1.0,
+      "scoring_eos_token_id": 151645,
+      "generation_stop_token_ids": [
+        151645
+      ],
+      "model_invoked": true
+    },
+    "source_sha256": {
+      "natural_planner.py": "0f0bb6b4321a7f68ee0215d1bb9dfa99bc5f15c50217a5df420670da7391ccf2",
+      "real_model.py": "f47857189318bd67c0a18b50ab43acf213ae0e022205b9c08202755f1d8a26ae",
+      "watermark.py": "60c5908fbdce77493b826725194e5ee36541457be9d76b8bdc2bad9d3325b717",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "context_policy": "public problem plus current local decision only; no prior choices or watermark key",
+    "scope": "conditional on three listed EOS-terminated natural-language applications, one wording per semantic option",
+    "numerical_tolerance_nats_per_token": 0.05
+  },
+  "entries": [
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_8f30e5c1cb3a",
+      "path": "problem_00_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The available spaces limit crowding as readers make their own choices.\",\"decision\":\"How should readers and staff agree on pickup windows?\",\"mechanism\":\"Readers claim pickup windows on the request sheet while staff reserve shelf space as claims arrive.\"}": 0.03213524758233945,
+        "{\"consequence\":\"Staff can use those preferences to spread pickups across the available windows.\",\"decision\":\"How should readers and staff agree on pickup windows?\",\"mechanism\":\"Readers rank pickup windows on the request sheet before staff reserve shelf space.\"}": 0.8475612767691325,
+        "{\"consequence\":\"The initial spread comes from staff, with reader preferences correcting unsuitable assignments.\",\"decision\":\"How should readers and staff agree on pickup windows?\",\"mechanism\":\"Staff propose pickup windows on the request sheet before readers confirm or request a change.\"}": 0.120303475648528
+      },
+      "covered_probability_mass": 0.3764220756136729,
+      "max_checked_logprob_difference": 1.8835067749023438e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_a4f983e6c177",
+      "path": "problem_00_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The desk avoids repeated preparation during the afternoon rush.\",\"decision\":\"Who should choose when a requested book is prepared?\",\"mechanism\":\"Helpers prepare the requested books in one early pass, and staff use the preparation list to group them by pickup window.\"}": 0.030320173122244658,
+        "{\"consequence\":\"Preparation effort follows readers who are likely to collect soon.\",\"decision\":\"Who should choose when a requested book is prepared?\",\"mechanism\":\"Readers confirm they are on their way, and staff then prepare the requested books from the preparation list.\"}": 0.9594659168714581,
+        "{\"consequence\":\"Shelf space remains available for books whose readers are arriving soon.\",\"decision\":\"Who should choose when a requested book is prepared?\",\"mechanism\":\"Staff prepare each requested book shortly before its pickup window, following the preparation list.\"}": 0.010213910006297245
+      },
+      "covered_probability_mass": 0.44039557789105693,
+      "max_checked_logprob_difference": 6.9141387939453125e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_632e2926f2e9",
+      "path": "problem_00_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The desk receives grouped arrival updates without a continuous line of introductions.\",\"decision\":\"How should a reader announce arrival?\",\"mechanism\":\"A helper gathers names from arriving readers and carries the arrival sheet to the pickup desk at regular intervals.\"}": 0.915187640903652,
+        "{\"consequence\":\"A short personal check records arrivals before readers move aside.\",\"decision\":\"How should a reader announce arrival?\",\"mechanism\":\"The pickup desk adds names to the arrival sheet after briefly greeting each reader.\"}": 0.03432197590104352,
+        "{\"consequence\":\"Readers can wait away from the desk until called.\",\"decision\":\"How should a reader announce arrival?\",\"mechanism\":\"Readers add their names to the arrival sheet, and the pickup desk calls them when their books are ready.\"}": 0.050490383195304335
+      },
+      "covered_probability_mass": 0.12519075909759123,
+      "max_checked_logprob_difference": 7.808208465576172e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_586c46ce6bd6",
+      "path": "problem_00_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Service follows the greater current wait instead of a fixed group order.\",\"decision\":\"How should walk-ins share the pickup desk with booked readers?\",\"mechanism\":\"Staff begin each service block with the longer waiting group, whether booked readers or walk-ins.\"}": 0.48094259161368574,
+        "{\"consequence\":\"Booked arrivals have predictable access while walk-ins use the continuing spare time.\",\"decision\":\"How should walk-ins share the pickup desk with booked readers?\",\"mechanism\":\"Staff reserve an initial portion of each service block for booked readers and use the remainder for walk-ins.\"}": 0.06699702830614324,
+        "{\"consequence\":\"Both groups receive a regular turn even when the other group is busy.\",\"decision\":\"How should walk-ins share the pickup desk with booked readers?\",\"mechanism\":\"Staff alternate short service blocks between booked readers and walk-ins at the pickup desk.\"}": 0.4520603800801711
+      },
+      "covered_probability_mass": 0.16519511209239993,
+      "max_checked_logprob_difference": 7.748603820800781e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_af8caffec512",
+      "path": "problem_00_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Common issues can be settled during the wait rather than at collection.\",\"decision\":\"How should quick questions be separated from book collection?\",\"mechanism\":\"The helper asks waiting readers for routine questions and writes answers on the pad before they reach the pickup desk.\"}": 0.8767494008369113,
+        "{\"consequence\":\"The collection transaction stays short while a separate follow-up remains available.\",\"decision\":\"How should quick questions be separated from book collection?\",\"mechanism\":\"Staff finish each book collection before noting any remaining routine question on the pad for the helper.\"}": 0.11371954504547688,
+        "{\"consequence\":\"Questions can be addressed without interrupting each collection.\",\"decision\":\"How should quick questions be separated from book collection?\",\"mechanism\":\"Readers write routine questions on the pad, and the helper answers them while staff handle book collection.\"}": 0.009531054117611801
+      },
+      "covered_probability_mass": 0.14274469246725333,
+      "max_checked_logprob_difference": 4.410743713378906e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_1d91d9d94b72",
+      "path": "problem_00_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The name grouping narrows the search while the window remains visible.\",\"decision\":\"How should shelf labels help staff locate requested books?\",\"mechanism\":\"Staff group requested books by reader name and add pickup windows within each shelf label.\"}": 0.26653977140192814,
+        "{\"consequence\":\"The time grouping narrows the search before staff check a name.\",\"decision\":\"How should shelf labels help staff locate requested books?\",\"mechanism\":\"Staff group requested books by pickup window and add reader names within each shelf label.\"}": 0.02401036658708114,
+        "{\"consequence\":\"The desk list directs the search without sorting the shelves by either field.\",\"decision\":\"How should shelf labels help staff locate requested books?\",\"mechanism\":\"Staff assign a shelf location to each requested book and put that location beside both reader name and pickup window on a desk list.\"}": 0.7094498620109908
+      },
+      "covered_probability_mass": 0.06401385137716344,
+      "max_checked_logprob_difference": 1.9073486328125e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_e99c80b7d5b1",
+      "path": "problem_00_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The reader chooses among the remaining spaces before the extra hold is arranged.\",\"decision\":\"What should happen when a reader misses a pickup window?\",\"mechanism\":\"Staff contact the reader with the remaining pickup windows and move the book only after the reader selects one.\"}": 0.774157919920556,
+        "{\"consequence\":\"The extra hold follows a confirmed intention to collect.\",\"decision\":\"What should happen when a reader misses a pickup window?\",\"mechanism\":\"Staff contact the reader to agree on a new pickup window before moving the book to the next period’s holding shelf.\"}": 0.16592534305529577,
+        "{\"consequence\":\"The book remains available while the reader receives a default second opportunity.\",\"decision\":\"What should happen when a reader misses a pickup window?\",\"mechanism\":\"Staff move the book to the next period’s holding shelf and then contact the reader with the new pickup window.\"}": 0.05991673702414812
+      },
+      "covered_probability_mass": 0.31291615461605815,
+      "max_checked_logprob_difference": 9.328126907348633e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_264f6c08f632",
+      "path": "problem_00_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The handover stays quick while recording and checking happen together later.\",\"decision\":\"How should a returned book enter the checking queue?\",\"mechanism\":\"Readers hand over returned books, and helpers complete return slips during periodic grouped checks.\"}": 0.11974299301254965,
+        "{\"consequence\":\"Questions about a return are resolved before it enters the checking queue.\",\"decision\":\"How should a returned book enter the checking queue?\",\"mechanism\":\"Helpers accept returned books and complete the return slips during a brief intake conversation.\"}": 0.00883386808692452,
+        "{\"consequence\":\"The slips preserve order without requiring a separate intake conversation.\",\"decision\":\"How should a returned book enter the checking queue?\",\"mechanism\":\"Readers place returned books beside completed return slips, and helpers check them in arrival order.\"}": 0.8714231389005258
+      },
+      "covered_probability_mass": 0.7988752854242339,
+      "max_checked_logprob_difference": 2.2292137145996094e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_18ceec9fc309",
+      "path": "problem_00_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Each shelving trip covers a compact part of the library.\",\"decision\":\"How should checked returns be reshelved?\",\"mechanism\":\"Helpers sort the trolley by shelf location and reshelve each location’s checked returns together.\"}": 0.8861121487062742,
+        "{\"consequence\":\"Books waiting longest become available again first.\",\"decision\":\"How should checked returns be reshelved?\",\"mechanism\":\"Helpers take the oldest checked returns from the trolley first and follow their shelf locations.\"}": 0.06307349922491236,
+        "{\"consequence\":\"Short batches balance prompt return with compact shelving trips.\",\"decision\":\"How should checked returns be reshelved?\",\"mechanism\":\"Helpers divide checked returns into small trolley batches and sort each batch by shelf location before shelving it.\"}": 0.05081435206881355
+      },
+      "covered_probability_mass": 0.10117334875190284,
+      "max_checked_logprob_difference": 1.3619661331176758e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_39f403e9ac55",
+      "path": "problem_00_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Transfers follow immediate pickup demand.\",\"decision\":\"How should a book move between the preparation area and the desk?\",\"mechanism\":\"Desk staff send a transfer list for the readers currently waiting, and preparation helpers fill the tray to match it.\"}": 0.9783602731301458,
+        "{\"consequence\":\"Regular rounds connect the two areas without repeated individual requests.\",\"decision\":\"How should a book move between the preparation area and the desk?\",\"mechanism\":\"A helper carries the transfer tray at fixed intervals and checks the written list at both ends.\"}": 0.021082588411536273,
+        "{\"consequence\":\"The desk receives books and their records together in grouped deliveries.\",\"decision\":\"How should a book move between the preparation area and the desk?\",\"mechanism\":\"Preparation helpers fill the transfer tray and send it with a list after a small batch is ready.\"}": 0.0005571384583179017
+      },
+      "covered_probability_mass": 0.5240563837631149,
+      "max_checked_logprob_difference": 2.3990869522094727e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_ec7803bbd281",
+      "path": "problem_00_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Help is offered at the point where carrying or locating difficulties become clear.\",\"decision\":\"How should readers request extra assistance?\",\"mechanism\":\"Staff offer assistance at collection and pass accepted requests to the helper’s list.\"}": 0.09214728683673623,
+        "{\"consequence\":\"Readers can choose help after seeing what they need that day.\",\"decision\":\"How should readers request extra assistance?\",\"mechanism\":\"A helper offers assistance at arrival and records accepted requests on a list.\"}": 0.8448438319089989,
+        "{\"consequence\":\"The helper can be available when those readers arrive.\",\"decision\":\"How should readers request extra assistance?\",\"mechanism\":\"Readers request assistance when choosing a pickup window, and staff place the request on the helper’s list.\"}": 0.06300888125426471
+      },
+      "covered_probability_mass": 0.6184403543427915,
+      "max_checked_logprob_difference": 4.291534423828125e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_198c1ffba842",
+      "path": "problem_00_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Shared and individual updates proceed without waiting for one another.\",\"decision\":\"How should a reader hear about a temporary delay?\",\"mechanism\":\"A helper keeps the delay notice current while staff speak with affected readers at the same time.\"}": 0.6584233781413744,
+        "{\"consequence\":\"A common message reaches everyone before personal follow-up.\",\"decision\":\"How should a reader hear about a temporary delay?\",\"mechanism\":\"Staff update the delay notice first and then speak with affected readers who want an individual update.\"}": 0.33357882692554963,
+        "{\"consequence\":\"The notice reflects the questions raised in those conversations.\",\"decision\":\"How should a reader hear about a temporary delay?\",\"mechanism\":\"Staff speak with affected readers first and then update the delay notice with the shared explanation.\"}": 0.007997794933076091
+      },
+      "covered_probability_mass": 0.13121399145696783,
+      "max_checked_logprob_difference": 1.1086463928222656e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_4097a1e6e449",
+      "path": "problem_00_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Readers can respond after the transaction has finished.\",\"decision\":\"How should feedback be gathered without slowing departures?\",\"mechanism\":\"Staff hand readers a feedback card at collection and invite them to place it in the box on the way out.\"}": 0.10634295194675406,
+        "{\"consequence\":\"The pickup desk does not need to introduce the feedback request.\",\"decision\":\"How should feedback be gathered without slowing departures?\",\"mechanism\":\"A helper offers feedback cards near the exit and points readers to the collection box.\"}": 0.694513072843142,
+        "{\"consequence\":\"Feedback remains self-directed and separate from staff interactions.\",\"decision\":\"How should feedback be gathered without slowing departures?\",\"mechanism\":\"Readers take feedback cards from a stand beside the collection box after seeing a brief invitation near the exit.\"}": 0.19914397521010394
+      },
+      "covered_probability_mass": 0.5091349332599477,
+      "max_checked_logprob_difference": 9.775161743164062e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_23eac4fd2979",
+      "path": "problem_00_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The handover focuses on work that still needs attention.\",\"decision\":\"How should helpers hand over unfinished tasks?\",\"mechanism\":\"Both helpers mark unfinished tasks on the shared list as they occur, then review only unresolved entries during the overlap.\"}": 0.5573254277552608,
+        "{\"consequence\":\"The handover starts from a prepared record.\",\"decision\":\"How should helpers hand over unfinished tasks?\",\"mechanism\":\"The outgoing helper writes the unfinished-task list before the overlap and explains it to the incoming helper.\"}": 0.3875347287023851,
+        "{\"consequence\":\"The new helper checks understanding while the record is made.\",\"decision\":\"How should helpers hand over unfinished tasks?\",\"mechanism\":\"The incoming helper reviews the work during the overlap and writes the unfinished-task list with the outgoing helper.\"}": 0.05513984354235406
+      },
+      "covered_probability_mass": 0.39445816130893574,
+      "max_checked_logprob_difference": 1.1324882507324219e-05
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_ede10bc15c2f",
+      "path": "problem_00_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Readers can choose a suitable place before reaching the crowded desk.\",\"decision\":\"How should the library encourage quieter waiting?\",\"mechanism\":\"Staff place the notice at the entrance with a simple map of quieter waiting spots.\"}": 0.11464083311531496,
+        "{\"consequence\":\"Readers encounter the expectation as they choose where to wait.\",\"decision\":\"How should the library encourage quieter waiting?\",\"mechanism\":\"Staff place the quiet-waiting notice beside the waiting spots before the service starts.\"}": 0.48082784806704354,
+        "{\"consequence\":\"The reminder follows the actual waiting pattern.\",\"decision\":\"How should the library encourage quieter waiting?\",\"mechanism\":\"A helper points out quieter waiting spots and then places the notice where readers have gathered.\"}": 0.40453131881764137
+      },
+      "covered_probability_mass": 0.3296805451264047,
+      "max_checked_logprob_difference": 4.0531158447265625e-06
+    },
+    {
+      "problem_id": "problem_64bd2bc90792",
+      "decision_id": "decision_60e6b65bf11b",
+      "path": "problem_00_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The improvement begins with reader experience and checks its operational pattern.\",\"decision\":\"How should staff choose one improvement for the next afternoon?\",\"mechanism\":\"Staff identify the most repeated concern in reader feedback and check the wait log before choosing one improvement.\"}": 0.3957530741556641,
+        "{\"consequence\":\"The improvement begins with a measured bottleneck and checks its effect on readers.\",\"decision\":\"How should staff choose one improvement for the next afternoon?\",\"mechanism\":\"Staff identify the longest waits in the log and use reader feedback to choose one improvement during closing.\"}": 0.5255676624739036,
+        "{\"consequence\":\"The proposed change must fit both kinds of evidence.\",\"decision\":\"How should staff choose one improvement for the next afternoon?\",\"mechanism\":\"Staff propose one improvement during closing and compare both the wait log and reader feedback before agreeing to try it.\"}": 0.07867926337043239
+      },
+      "covered_probability_mass": 0.13128138142072873,
+      "max_checked_logprob_difference": 5.424022674560547e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_995ed35b4d41",
+      "path": "problem_01_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Both stations receive the same choices while guests remain in the queue.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations.\"}": 0.9741579800952048,
+        "{\"consequence\":\"The cup choice is settled before the drink is prepared.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests collect a request card at the cup station and show it when ordering at the drink counter.\"}": 0.002770017551377245,
+        "{\"consequence\":\"The cup station prepares for a guest before the guest reaches it.\",\"decision\":\"How should guests indicate that they want a reusable cup?\",\"mechanism\":\"Guests request a reusable cup at the drink counter, which sends a request card to the cup station.\"}": 0.023072002353417928
+      },
+      "covered_probability_mass": 0.1816502067292308,
+      "max_checked_logprob_difference": 2.288818359375e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_8342e49aaeb7",
+      "path": "problem_01_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Allocation follows intended use time rather than request time.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need.\"}": 0.47840953526121854,
+        "{\"consequence\":\"Early requests cannot consume the whole afternoon’s lending stock.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period.\"}": 0.043679483329383186,
+        "{\"consequence\":\"The waiting order is clear when stock runs short.\",\"decision\":\"How should available cups be allocated during busy periods?\",\"mechanism\":\"Volunteers assign available cups in request order and tell later guests when a return is expected.\"}": 0.47791098140939825
+      },
+      "covered_probability_mass": 0.11575440061622894,
+      "max_checked_logprob_difference": 6.288290023803711e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_efc50eefa7f6",
+      "path": "problem_01_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The handover conversation supplies the record without a separate writing step for the guest.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer asks for the return time while handing over the cup and completes both fields afterward.\"}": 0.8441586976630113,
+        "{\"consequence\":\"The record is completed by the borrower and checked once.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The guest enters the cup description and return time, and the volunteer checks the entry before handover.\"}": 0.04538280261319627,
+        "{\"consequence\":\"The guest makes the return commitment in the lending record.\",\"decision\":\"How should a borrowed cup be recorded?\",\"mechanism\":\"The volunteer records the cup description and asks the guest to add a return time.\"}": 0.11045849972379233
+      },
+      "covered_probability_mass": 0.2191797438547109,
+      "max_checked_logprob_difference": 6.020069122314453e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_52c1844753ed",
+      "path": "problem_01_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The return route is considered before the loan begins.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Guests look at the counter map before choosing a cup and take a return card if needed.\"}": 0.9606022291402392,
+        "{\"consequence\":\"The return explanation accompanies the handover.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers give each guest a return card with the cup and point to the same route on the counter map.\"}": 0.0005726458517339682,
+        "{\"consequence\":\"Guests can learn the route themselves while help remains available.\",\"decision\":\"How should guests learn where to return cups?\",\"mechanism\":\"Volunteers display the return cards beside the cups and use the counter map to answer questions afterward.\"}": 0.03882512500802682
+      },
+      "covered_probability_mass": 0.02127783829317927,
+      "max_checked_logprob_difference": 7.152557373046875e-07
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_9b8cc7fdb0c2",
+      "path": "problem_01_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Each returned cup receives an immediate intake check.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"A volunteer accepts used cups and places them in collection crates as guests arrive.\"}": 0.9990940991986943,
+        "{\"consequence\":\"The ledge separates guest handover from crate handling.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests leave used cups on a return ledge, and a volunteer moves them into collection crates in small batches.\"}": 0.00015339838442591413,
+        "{\"consequence\":\"Return remains quick even when the volunteer is briefly occupied.\",\"decision\":\"How should a return point collect used cups?\",\"mechanism\":\"Guests place used cups directly in collection crates while a volunteer checks the crates at intervals.\"}": 0.000752502416879852
+      },
+      "covered_probability_mass": 0.385324597188532,
+      "max_checked_logprob_difference": 1.9297003746032715e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_8204e82647ee",
+      "path": "problem_01_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Borrowers help locate their entries while volunteers verify them.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Guests point out the matching cup description in the lending record, and a volunteer confirms the return.\"}": 0.2519607611776806,
+        "{\"consequence\":\"Recording is concentrated into short batches.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record.\"}": 0.7418974140103956,
+        "{\"consequence\":\"The outstanding list changes immediately at intake.\",\"decision\":\"How should returned cups be matched to the lending record?\",\"mechanism\":\"Volunteers match each cup description to the lending record before adding the cup to a return crate.\"}": 0.006141824811923816
+      },
+      "covered_probability_mass": 0.0031481776719020256,
+      "max_checked_logprob_difference": 3.24249267578125e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_117204fcc63a",
+      "path": "problem_01_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Transfers follow the washing station’s capacity.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"The washing station requests the next crate through the transfer list when it has room.\"}": 0.775934297834485,
+        "{\"consequence\":\"A predictable round connects return and washing work.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer moves crates at fixed intervals and updates the transfer list at both stations.\"}": 0.06229593137225939,
+        "{\"consequence\":\"Transfers follow the buildup of returned cups.\",\"decision\":\"How should crates reach the washing station?\",\"mechanism\":\"A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list.\"}": 0.1617697707932557
+      },
+      "covered_probability_mass": 0.4373328782674163,
+      "max_checked_logprob_difference": 7.748603820800781e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_418d780a0676",
+      "path": "problem_01_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Both stations agree on the stock change at the same moment.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing and lending volunteers count cleaned cups together during the handover and update one shared list.\"}": 0.29022341559647324,
+        "{\"consequence\":\"Availability reflects stock physically present at the station.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The lending volunteer updates the available-stock list after receiving and counting cleaned cups.\"}": 0.01774666229519548,
+        "{\"consequence\":\"The lending team can anticipate the incoming supply.\",\"decision\":\"How should cleaned cups rejoin available stock?\",\"mechanism\":\"The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station.\"}": 0.6920299221083314
+      },
+      "covered_probability_mass": 0.16992456954179613,
+      "max_checked_logprob_difference": 1.329183578491211e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_e99487beea19",
+      "path": "problem_01_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The reminder reaches likely return locations before the count is refreshed.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count.\"}": 0.48450644247459307,
+        "{\"consequence\":\"A shared reminder can prompt returns without identifying borrowers.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team posts the number of overdue cups on the announcement board and directs guests to the return points.\"}": 0.49419834135124124,
+        "{\"consequence\":\"Guests have a clear shared moment to bring cups back.\",\"decision\":\"How should the team handle cups that have not returned on time?\",\"mechanism\":\"The team announces a short return period on the board and gathers updates from return points after it ends.\"}": 0.021295216174165757
+      },
+      "covered_probability_mass": 0.2474138800928282,
+      "max_checked_logprob_difference": 4.172325134277344e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_92b118e19f92",
+      "path": "problem_01_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Extensions begin with the guest’s expected need.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests choose a later return time in the lending record and ask a volunteer to confirm it.\"}": 0.0388717711450437,
+        "{\"consequence\":\"A brief conversation turns the guest’s estimate into a shared commitment.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time.\"}": 0.952388142387398,
+        "{\"consequence\":\"Extensions reflect the team’s view of future cup demand.\",\"decision\":\"How should guests extend a loan during the gathering?\",\"mechanism\":\"Volunteers offer available later return times from the lending record and let guests choose one.\"}": 0.008740086467558465
+      },
+      "covered_probability_mass": 0.012613348119680588,
+      "max_checked_logprob_difference": 2.2411346435546875e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_247b053e1c19",
+      "path": "problem_01_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A return stays with one person from handover through recording.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"Each volunteer handles intake and the lending record for a separate stream of guests.\"}": 0.8287609768990222,
+        "{\"consequence\":\"Each person can concentrate on one part of the return process.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"One volunteer handles cup intake while the other updates the lending record throughout a short block.\"}": 0.0867765009300675,
+        "{\"consequence\":\"Both share the two tasks while keeping a clear current assignment.\",\"decision\":\"How should volunteers divide intake and recording work?\",\"mechanism\":\"The volunteers alternate intake and record duties after each small group of returns.\"}": 0.08446252217091028
+      },
+      "covered_probability_mass": 0.022037052796762314,
+      "max_checked_logprob_difference": 1.5735626220703125e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_42560af6a041",
+      "path": "problem_01_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Shared information and individual arrangements proceed together.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"One volunteer updates the stock notice while another works through the request list.\"}": 0.97767848006504,
+        "{\"consequence\":\"The shared message reflects the choices already offered to waiting guests.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers speak with guests on the request list first and then put the agreed options on the stock notice.\"}": 0.00027862892124750125,
+        "{\"consequence\":\"All guests see the shortage before individual arrangements are discussed.\",\"decision\":\"How should the café explain a temporary cup shortage?\",\"mechanism\":\"Volunteers update the stock notice first and then explain the next options to guests on the request list.\"}": 0.022042891013712516
+      },
+      "covered_probability_mass": 0.1709161023815611,
+      "max_checked_logprob_difference": 6.139278411865234e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_273822a1bb88",
+      "path": "problem_01_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Feedback can improve the process before those loans end.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"The lending station asks guests what would make return easier and forwards comments to the return points.\"}": 0.9032683276968728,
+        "{\"consequence\":\"Feedback from the beginning and end of loans is considered together.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Both lending and return stations collect comments on a shared sheet that volunteers review between service blocks.\"}": 0.09389823455651558,
+        "{\"consequence\":\"Feedback comes from guests who have completed the loan.\",\"decision\":\"How should guests offer feedback about the cup loan?\",\"mechanism\":\"Volunteers invite a comment at return and send it to the lending station with the next crate update.\"}": 0.0028334377466115467
+      },
+      "covered_probability_mass": 0.29010891252976106,
+      "max_checked_logprob_difference": 6.020069122314453e-06
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_ab8895b1bfed",
+      "path": "problem_01_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The record follows the actual transfer of responsibility.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"Both teams update the handover note during each transfer of a task in the overlap.\"}": 0.605688412414661,
+        "{\"consequence\":\"The incoming team can connect a prepared summary with the live process.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The outgoing team writes the handover note before the overlap and demonstrates the current work afterward.\"}": 0.04242841732131689,
+        "{\"consequence\":\"The note records what the new volunteers have just checked.\",\"decision\":\"How should the team prepare a fresh volunteer shift?\",\"mechanism\":\"The incoming team watches the current work during the overlap and writes the handover note with the outgoing team.\"}": 0.3518831702640221
+      },
+      "covered_probability_mass": 0.12105785464655983,
+      "max_checked_logprob_difference": 1.1980533599853516e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_99fdd656ca17",
+      "path": "problem_01_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The stock near guests follows demand during the event.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows.\"}": 0.4217970057707671,
+        "{\"consequence\":\"The initial placement reflects the planned service schedule.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team divides spare cups between the lending station and reserve shelf by the expected length of each service block.\"}": 0.5698439894093585,
+        "{\"consequence\":\"The starting stock reflects observed peak demand.\",\"decision\":\"How should spare cups be positioned for the next gathering?\",\"mechanism\":\"The team uses the busiest previous service block to set the lending-station stock and puts the rest on the reserve shelf.\"}": 0.00835900481987433
+      },
+      "covered_probability_mass": 0.1774969346193893,
+      "max_checked_logprob_difference": 1.1205673217773438e-05
+    },
+    {
+      "problem_id": "problem_da01c1c6ae1e",
+      "decision_id": "decision_6f2c62255721",
+      "path": "problem_01_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The next trial addresses a delay with an explanation from guests.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the slowest return times and checks guest comments before choosing a change.\"}": 0.09545060061069931,
+        "{\"consequence\":\"The next trial addresses a reported difficulty supported by usage records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team starts with the most common guest comment and checks lending counts and return times before choosing a change.\"}": 0.3088445616055103,
+        "{\"consequence\":\"The next trial follows a proposal checked against all three records.\",\"decision\":\"How should the pilot choose its next change?\",\"mechanism\":\"The team proposes one change and compares its likely effect against lending counts, return times, and guest comments.\"}": 0.5957048377837904
+      },
+      "covered_probability_mass": 0.4736158603659265,
+      "max_checked_logprob_difference": 1.4841556549072266e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_c7a5ccd3f1e9",
+      "path": "problem_02_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Small groups can form without waiting for a complete schedule.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers add garden sessions directly to the calendar and invite others with matching available times.\"}": 0.1486218373234238,
+        "{\"consequence\":\"A proposed schedule gives volunteers a common starting point.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"The coordinator places possible garden sessions on the calendar before volunteers choose available times.\"}": 0.3775326675852379,
+        "{\"consequence\":\"Sessions follow overlapping availability.\",\"decision\":\"How should volunteers find a working session they can attend?\",\"mechanism\":\"Volunteers mark available times before the coordinator places garden sessions on the calendar.\"}": 0.4738454950913383
+      },
+      "covered_probability_mass": 0.20711205674048175,
+      "max_checked_logprob_difference": 1.2636184692382812e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_8729fe7d747d",
+      "path": "problem_02_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Self-selection handles most allocation before gaps receive attention.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers claim tasks from the work board, then the coordinator asks for help with unclaimed work.\"}": 0.2255584230450672,
+        "{\"consequence\":\"A complete initial allocation can be corrected by the people doing the work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks.\"}": 0.6668528333113807,
+        "{\"consequence\":\"Preferences inform a more balanced distribution of work.\",\"decision\":\"How should unclaimed routine work be allocated?\",\"mechanism\":\"Volunteers rank tasks on the work board, then the coordinator assigns work using those preferences and expected effort.\"}": 0.10758874364355211
+      },
+      "covered_probability_mass": 0.18431703786830658,
+      "max_checked_logprob_difference": 7.331371307373047e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_5d23452f7abf",
+      "path": "problem_02_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A common schedule coordinates use before individual handovers occur.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"A session helper sets shared-tool time blocks on the tool list and lets volunteers claim them.\"}": 0.7822664518397323,
+        "{\"consequence\":\"Handover times respond to actual waiting users.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers request shared tools on the tool list, and current users agree on return times with them.\"}": 0.16117443322310254,
+        "{\"consequence\":\"Later users can plan around the announced returns.\",\"decision\":\"How should shared tools move between volunteers?\",\"mechanism\":\"Volunteers write their expected return times on the tool list before taking shared tools.\"}": 0.056559114937165055
+      },
+      "covered_probability_mass": 0.10655651437722576,
+      "max_checked_logprob_difference": 1.3232231140136719e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_1ac6dffd7825",
+      "path": "problem_02_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Assignments follow a shared account of current need.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers inspect beds and post observations before anyone claims watering work from the board.\"}": 0.3034153252967977,
+        "{\"consequence\":\"Responsibility for observation and any needed work stays together.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"Volunteers first claim beds on the board and then inspect those beds before following the watering guidance.\"}": 0.0922524800203147,
+        "{\"consequence\":\"Observation and action can proceed with distinct responsibilities.\",\"decision\":\"How should watering observations lead to assigned work?\",\"mechanism\":\"One volunteer posts bed observations while others claim any resulting watering work from the board.\"}": 0.6043321946828876
+      },
+      "covered_probability_mass": 0.12090885882955707,
+      "max_checked_logprob_difference": 5.602836608886719e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_c5430d8600b5",
+      "path": "problem_02_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Most care periods follow volunteered availability.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward.\"}": 0.123039862651999,
+        "{\"consequence\":\"Every period has an initial owner before adjustments.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"The coordinator assigns seedling care periods on the roster, and volunteers swap periods as needed.\"}": 0.8767148226573859,
+        "{\"consequence\":\"Each handover has a familiar partner on the next period.\",\"decision\":\"How should volunteers choose who tends young seedlings?\",\"mechanism\":\"Pairs of volunteers choose neighboring seedling care periods and enter both names on the roster.\"}": 0.00024531469061512916
+      },
+      "covered_probability_mass": 0.13635831915858462,
+      "max_checked_logprob_difference": 1.3828277587890625e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_88c6d406e0c2",
+      "path": "problem_02_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Questions can be resolved at the moment each instruction is used.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer and experienced volunteer follow the task card together for the first attempt.\"}": 0.01090647870977459,
+        "{\"consequence\":\"Practice begins independently with a later correction opportunity.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check.\"}": 0.9808081114385065,
+        "{\"consequence\":\"The written instructions are connected to an observed example.\",\"decision\":\"How should an unfamiliar volunteer learn a routine task?\",\"mechanism\":\"The experienced volunteer demonstrates the activity before the newcomer follows the task card.\"}": 0.008285409851718955
+      },
+      "covered_probability_mass": 0.16095860684997232,
+      "max_checked_logprob_difference": 8.702278137207031e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_b2aaf226f573",
+      "path": "problem_02_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Harvest portions are arranged around actual collection availability.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Neighbors state collection times before garden volunteers divide harvest quantities among those times.\"}": 0.9508665986424738,
+        "{\"consequence\":\"Each offer is paired immediately with a collection plan.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers and neighbors agree on quantities and collection times together on the board.\"}": 0.0038155905751877605,
+        "{\"consequence\":\"Collection plans respond to a known available harvest.\",\"decision\":\"How should harvest offers be matched to available collectors?\",\"mechanism\":\"Garden volunteers post harvest quantities before neighbors choose collection times.\"}": 0.045317810782338375
+      },
+      "covered_probability_mass": 0.18216878819974805,
+      "max_checked_logprob_difference": 1.895427703857422e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_061471c74449",
+      "path": "problem_02_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Shared purposes become visible across different suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members submit bed ideas before the meeting and group them by purpose during discussion.\"}": 0.005001828837884323,
+        "{\"consequence\":\"Suggestions respond to criteria chosen together.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members agree on purposes during the meeting and then submit bed ideas that address them.\"}": 0.005930796559311831,
+        "{\"consequence\":\"A shared plan grows from connections between concrete suggestions.\",\"decision\":\"How should ideas for a communal bed be compared?\",\"mechanism\":\"Members bring one bed idea and its purpose to the meeting, then combine compatible proposals.\"}": 0.9890673746028038
+      },
+      "covered_probability_mass": 0.17075154933282602,
+      "max_checked_logprob_difference": 1.5974044799804688e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_34dd090aaf76",
+      "path": "problem_02_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"An explicit two-person structure makes incomplete sessions visible.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"The coordinator posts paired compost work periods and invites volunteers to claim either place.\"}": 0.7537225987154903,
+        "{\"consequence\":\"The session time follows an already agreed partnership.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers form pairs first and then choose a compost work period together.\"}": 0.13181088256050127,
+        "{\"consequence\":\"Pairs are assembled from existing availability.\",\"decision\":\"How should compost-turning sessions be organized?\",\"mechanism\":\"Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices.\"}": 0.11446651872400841
+      },
+      "covered_probability_mass": 0.058829476221488985,
+      "max_checked_logprob_difference": 8.225440979003906e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_0837251f1030",
+      "path": "problem_02_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Changes within a bed are easy to follow.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each bed and add dated observations to it.\"}": 0.05154183299998452,
+        "{\"consequence\":\"Conditions across the garden can be compared at one visit.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers keep a page for each date and list the beds observed that day.\"}": 0.8408260807547784,
+        "{\"consequence\":\"Both visit-level and bed-level review remain possible.\",\"decision\":\"How should garden observations be kept useful?\",\"mechanism\":\"Volunteers record observations on dated cards and file copies under the relevant beds.\"}": 0.10763208624523718
+      },
+      "covered_probability_mass": 0.06332779409671105,
+      "max_checked_logprob_difference": 1.4662742614746094e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_f1b96dbf8d14",
+      "path": "problem_02_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Maintenance can avoid the periods when a path is busiest.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers observe visitor use before choosing path-maintenance times.\"}": 0.7815420683248354,
+        "{\"consequence\":\"A proposed schedule is checked against visitors’ plans.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins.\"}": 0.09759141494523031,
+        "{\"consequence\":\"Access continues through a changing available route.\",\"decision\":\"How should path maintenance respond to visitor use?\",\"mechanism\":\"Volunteers maintain one path at a time while directing visitors to another observed route.\"}": 0.12086651672993431
+      },
+      "covered_probability_mass": 0.07516996458882363,
+      "max_checked_logprob_difference": 7.212162017822266e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_d13f8423f8df",
+      "path": "problem_02_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Demand and allocation are settled in one discussion.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers jointly review activities and material quantities before adding a combined request to the list.\"}": 0.5925153172302519,
+        "{\"consequence\":\"Activity plans determine the total request.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"Volunteers list materials by activity, and the coordinator combines matching requests before ordering.\"}": 0.08782583708519791,
+        "{\"consequence\":\"Activity allocations begin from the supply already obtainable.\",\"decision\":\"How should shared material requests be combined?\",\"mechanism\":\"The coordinator posts available material quantities, and volunteers divide them among activities.\"}": 0.3196588456845503
+      },
+      "covered_probability_mass": 0.28554510239977665,
+      "max_checked_logprob_difference": 4.51505184173584e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_689c0fe67da1",
+      "path": "problem_02_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Assignments follow a shared view of the plot’s condition.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners and temporary volunteers walk the plot together and record care assignments afterward.\"}": 0.012773262156406489,
+        "{\"consequence\":\"Available help provides the starting point for an agreed arrangement.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"Other volunteers offer temporary care tasks, and the usual gardeners confirm which offers to accept.\"}": 0.0247568412657866,
+        "{\"consequence\":\"Temporary help follows the gardeners’ stated needs.\",\"decision\":\"How should an unused shared plot receive temporary care?\",\"mechanism\":\"The usual gardeners list welcome care tasks before other volunteers choose temporary assignments.\"}": 0.9624698965778069
+      },
+      "covered_probability_mass": 0.16145910798285054,
+      "max_checked_logprob_difference": 9.059906005859375e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_22b8508b7232",
+      "path": "problem_02_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The map supports self-guided orientation with optional help.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"Visitors use the garden map first and ask the host about any unclear shared spaces.\"}": 0.4746913331989152,
+        "{\"consequence\":\"The written guide develops alongside the introduction.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host and visitors mark shared spaces on the garden map as they walk together.\"}": 0.21812957534567626,
+        "{\"consequence\":\"The map reinforces places visitors have already seen.\",\"decision\":\"How should new visitors understand the shared spaces?\",\"mechanism\":\"The host gives a short walk through the shared spaces before handing visitors the garden map.\"}": 0.3071790914554085
+      },
+      "covered_probability_mass": 0.05774268277463108,
+      "max_checked_logprob_difference": 8.58306884765625e-06
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_a1457af06d91",
+      "path": "problem_02_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"One shared update keeps the two records aligned.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers notify a coordinator who updates attendance and affected tasks together.\"}": 0.23841223635567743,
+        "{\"consequence\":\"Responsibility is transferred before the attendance change is finalized.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers arrange cover for affected tasks on the board and then update calendar attendance.\"}": 0.00022102024388706944,
+        "{\"consequence\":\"The work change follows the announced absence.\",\"decision\":\"How should volunteers announce a change in their plans?\",\"mechanism\":\"Volunteers update their calendar attendance and then mark affected tasks on the board.\"}": 0.7613667434004355
+      },
+      "covered_probability_mass": 0.10925331022756872,
+      "max_checked_logprob_difference": 2.5510787963867188e-05
+    },
+    {
+      "problem_id": "problem_d062cf0c23f8",
+      "decision_id": "decision_b064e8fe7a29",
+      "path": "problem_02_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The next priority addresses a noticed need within available effort.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with observation notes and use participation records to choose a feasible priority.\"}": 0.13950469437692017,
+        "{\"consequence\":\"A new idea is tested against conditions and available participation.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members propose a seasonal priority during discussion and check it against both sets of records.\"}": 0.7596014901721396,
+        "{\"consequence\":\"The next priority starts from the work capacity the group actually has.\",\"decision\":\"How should the garden choose its next seasonal priority?\",\"mechanism\":\"Members begin with participation records and choose an observed need that volunteers can support.\"}": 0.10089381545094023
+      },
+      "covered_probability_mass": 0.29517440640556053,
+      "max_checked_logprob_difference": 6.3478946685791016e-06
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_095faae08d2f",
+      "path": "problem_03_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The suggested start follows the visitor’s stated curiosity.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception asks about visitors’ interests before pointing out a starting room on the map.\"}": 0.6445047349390629,
+        "{\"consequence\":\"Visitors make the initial choice before receiving guidance.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Visitors mark a preferred starting room on the map, and reception offers any useful context.\"}": 0.3522975901312098,
+        "{\"consequence\":\"Concrete choices help visitors express a preference.\",\"decision\":\"How should visitors choose a starting room?\",\"mechanism\":\"Reception offers several starting rooms on the map and asks visitors which interests them.\"}": 0.0031976749297273105
+      },
+      "covered_probability_mass": 0.07912194565565109,
+      "max_checked_logprob_difference": 3.4332275390625e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_3e20cae8aa07",
+      "path": "problem_03_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A prepared route provides a starting point for changes.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide proposes a short visit with one theme and adjusts it after hearing preferences.\"}": 0.9884516416744052,
+        "{\"consequence\":\"The group makes a clear collective choice within a limited set.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide offers two themes for the short visit and lets the group choose between them.\"}": 0.010788095391204101,
+        "{\"consequence\":\"The route reflects the particular group.\",\"decision\":\"How should a short guided visit choose its emphasis?\",\"mechanism\":\"The guide gathers theme preferences and builds the short visit around the most shared interest.\"}": 0.00076026293439077
+      },
+      "covered_probability_mass": 0.3374604048778619,
+      "max_checked_logprob_difference": 4.5746564865112305e-06
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_954b40fc1668",
+      "path": "problem_03_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Visitors compare examples before reading the connecting explanation.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Individual labels ask a shared question, and a final label draws together the related objects.\"}": 0.14757839475288048,
+        "{\"consequence\":\"Visitors encounter the connection before comparing the examples.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"A shared label explains the relationship first and points visitors to the individual objects.\"}": 0.6544257049872032,
+        "{\"consequence\":\"Connections can guide visitors onward from any starting object.\",\"decision\":\"How should written labels connect related objects?\",\"mechanism\":\"Each label names a related object and explains why visitors might look at it next.\"}": 0.19799590025991617
+      },
+      "covered_probability_mass": 0.13711147799596154,
+      "max_checked_logprob_difference": 1.0967254638671875e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_d069333dcdbb",
+      "path": "problem_03_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Questions retain a visible sequence without stopping every viewing moment.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors hand question cards to the volunteer during the visit, and the next pause addresses them in arrival order.\"}": 0.022374319765983704,
+        "{\"consequence\":\"The pause can address shared concerns together.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"Visitors write question cards before the discussion pause, and the volunteer groups similar questions.\"}": 0.6647340871256339,
+        "{\"consequence\":\"An opening exchange helps visitors decide what they want to ask.\",\"decision\":\"How should visitors collect questions for a volunteer?\",\"mechanism\":\"The volunteer starts the discussion pause with a question and invites visitors to add question cards.\"}": 0.3128915931083823
+      },
+      "covered_probability_mass": 0.3198552420281526,
+      "max_checked_logprob_difference": 1.9311904907226562e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_034dcf8498b0",
+      "path": "problem_03_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Initial guidance reflects current room use.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers report crowding before reception suggests a route to arriving visitors.\"}": 0.10588041510656263,
+        "{\"consequence\":\"Advice follows people already moving through the museum.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Room volunteers offer route changes directly to visitors while reception keeps the map available.\"}": 0.04611119889192821,
+        "{\"consequence\":\"Guidance is adjusted after observing each group’s effect.\",\"decision\":\"How should crowded rooms influence suggested routes?\",\"mechanism\":\"Reception sends a small group along a route and then asks room volunteers whether the next group should follow it.\"}": 0.8480083860015092
+      },
+      "covered_probability_mass": 0.008901152291862733,
+      "max_checked_logprob_difference": 3.814697265625e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_a52c0a61ba2b",
+      "path": "problem_03_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The suggested visit begins with the time limit.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors state their available time, and reception selects fitting highlights from the guide sheet.\"}": 0.002591165419540679,
+        "{\"consequence\":\"Time and content can be compared together.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Reception offers several highlight bundles with viewing times, and visitors choose a bundle.\"}": 0.041745427732822346,
+        "{\"consequence\":\"The suggested visit begins with the visitor’s interests.\",\"decision\":\"How should a visitor with little time plan a visit?\",\"mechanism\":\"Visitors select highlights from the guide sheet, and reception helps trim them to the available time.\"}": 0.9556634068476371
+      },
+      "covered_probability_mass": 0.3794125465612635,
+      "max_checked_logprob_difference": 4.2438507080078125e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_ce7fdbc55099",
+      "path": "problem_03_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Visitors can keep the same contact through the beginning of the visit.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"Each volunteer welcomes a small group at reception and continues with its interpretation questions.\"}": 0.5927428089405722,
+        "{\"consequence\":\"Both share the roles while retaining clear assignments.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"The volunteers exchange reception and interpretation roles halfway through the service period.\"}": 0.3313157933476375,
+        "{\"consequence\":\"Each maintains continuity in one role.\",\"decision\":\"How should volunteers divide interpretation and reception?\",\"mechanism\":\"One volunteer handles reception and the other interpretation for the entire service period.\"}": 0.07594139771179029
+      },
+      "covered_probability_mass": 0.23887794949603358,
+      "max_checked_logprob_difference": 1.1801719665527344e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_bbe43118a354",
+      "path": "problem_03_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Their own initial response guides what they notice.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors consider the reflection question before exploring the object and story.\"}": 0.00511751569638517,
+        "{\"consequence\":\"The narrative provides context for the object.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors read the story before seeing the object and answering the reflection question.\"}": 0.8465964747912327,
+        "{\"consequence\":\"The physical example gives the story an initial point of reference.\",\"decision\":\"How should visitors encounter a local story?\",\"mechanism\":\"Visitors see the object before reading the story and answering the reflection question.\"}": 0.1482860095123822
+      },
+      "covered_probability_mass": 0.23841524315646745,
+      "max_checked_logprob_difference": 3.8623809814453125e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_2435ae99c474",
+      "path": "problem_03_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The prompt directs attention before visitors look closely.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet gives a prompt before each observation and asks for a response afterward.\"}": 0.390952776636635,
+        "{\"consequence\":\"Visitors can organize the activity around their interests.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet pairs each prompt with a response space and lets visitors choose their own observation order.\"}": 0.2493469696302319,
+        "{\"consequence\":\"Initial noticing is left open before a focused reflection.\",\"decision\":\"How should a self-guided activity use a printed prompt?\",\"mechanism\":\"The sheet asks visitors to observe first, then reveals a prompt for their response.\"}": 0.3597002537331332
+      },
+      "covered_probability_mass": 0.1101572615319586,
+      "max_checked_logprob_difference": 1.1324882507324219e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_896834903e5b",
+      "path": "problem_03_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The wording is explored directly with its readers.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers discuss a room description with visitors while recording their questions and possible revisions.\"}": 0.045265801837307496,
+        "{\"consequence\":\"The revisions address demonstrated points of confusion.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers collect repeated questions before drafting revised room descriptions.\"}": 0.060822150457282655,
+        "{\"consequence\":\"A proposed improvement is evaluated through later questions.\",\"decision\":\"How should room descriptions be improved?\",\"mechanism\":\"Volunteers draft revised room descriptions and then check which visitor questions still recur.\"}": 0.8939120477054098
+      },
+      "covered_probability_mass": 0.05160020064343684,
+      "max_checked_logprob_difference": 8.970499038696289e-06
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_e574ca310618",
+      "path": "problem_03_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The visitor selects which link to follow.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception shows several connections from previous rooms and lets the visitor choose a new object.\"}": 0.009865369469951856,
+        "{\"consequence\":\"A new destination is made approachable through a known connection.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception offers an unfamiliar object and explains its connection to a room the visitor saw before.\"}": 0.021483078048751325,
+        "{\"consequence\":\"A familiar interest provides a bridge to a new area.\",\"decision\":\"How should a returning visitor find something different?\",\"mechanism\":\"Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere.\"}": 0.9686515524812968
+      },
+      "covered_probability_mass": 0.2957244269061056,
+      "max_checked_logprob_difference": 2.1219253540039062e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_47bd37ecde77",
+      "path": "problem_03_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Visitors can notice the time before being approached.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Reception displays the remaining time before volunteers give room reminders.\"}": 0.21667218299837238,
+        "{\"consequence\":\"The shared and local messages change together.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"One volunteer updates the time display while the others give room reminders.\"}": 0.7500026912736153,
+        "{\"consequence\":\"The visible message reinforces the spoken reminder.\",\"decision\":\"How should a short closing reminder reach visitors?\",\"mechanism\":\"Volunteers give room reminders and then reception updates the shared time display.\"}": 0.03332512572801221
+      },
+      "covered_probability_mass": 0.3898561666008935,
+      "max_checked_logprob_difference": 4.380941390991211e-06
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_93f87b72b73f",
+      "path": "problem_03_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Conversation can help them shape the written account.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors discuss a memory with a volunteer and then choose what to put on a card.\"}": 0.025472097424715737,
+        "{\"consequence\":\"They can decide what to share before a conversation.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors write a memory card first and choose whether to discuss it with a volunteer.\"}": 0.20315518005921845,
+        "{\"consequence\":\"The written account develops with immediate clarification.\",\"decision\":\"How should visitors share a memory linked to an exhibit?\",\"mechanism\":\"Visitors and a volunteer fill out a memory card together during the conversation.\"}": 0.7713727225160658
+      },
+      "covered_probability_mass": 0.2681299281631203,
+      "max_checked_logprob_difference": 1.0728836059570312e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_109bee88f2c1",
+      "path": "problem_03_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The proposed visit begins with the group’s purposes.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer shares interests before the museum proposes rooms and volunteer times.\"}": 0.00171460394577162,
+        "{\"consequence\":\"The organizer plans within visible opportunities.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The museum describes rooms and volunteer times before the organizer chooses a focus.\"}": 0.12995367954933645,
+        "{\"consequence\":\"The visit is assembled through simultaneous negotiation.\",\"decision\":\"How should the museum prepare for a visiting group?\",\"mechanism\":\"The organizer and museum compare interests, rooms, and volunteer times in one planning call.\"}": 0.8683317165048918
+      },
+      "covered_probability_mass": 0.1354566082787221,
+      "max_checked_logprob_difference": 1.519918441772461e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_afed3418c84e",
+      "path": "problem_03_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Comments are first grouped by place.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors choose a room on the comment card and then describe the object or moment involved.\"}": 0.03878591417843973,
+        "{\"consequence\":\"Place and experience are recorded together on a route.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"The comment card shows the visit route, and visitors mark where an object or moment stood out.\"}": 0.047608075036251786,
+        "{\"consequence\":\"Visitors can express the experience before classifying it.\",\"decision\":\"How should visitor comments be connected to places?\",\"mechanism\":\"Visitors describe an object or moment, and volunteers add the relevant room to the comment card.\"}": 0.9136060107853083
+      },
+      "covered_probability_mass": 0.03186175380980007,
+      "max_checked_logprob_difference": 3.62396240234375e-05
+    },
+    {
+      "problem_id": "problem_da905d277859",
+      "decision_id": "decision_e1233fe46483",
+      "path": "problem_03_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The change addresses a place with demonstrated pressure.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with the busiest room and uses comments and observations to choose an improvement.\"}": 0.15733262645479132,
+        "{\"consequence\":\"The proposal is tested against the available evidence.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team proposes an improvement and asks which counts, comments, and observations would support trying it.\"}": 0.2952637805640676,
+        "{\"consequence\":\"The change addresses an experience supported by broader records.\",\"decision\":\"How should the museum choose a small improvement?\",\"mechanism\":\"The team starts with repeated comments and checks room counts and observations before choosing an improvement.\"}": 0.547403592981141
+      },
+      "covered_probability_mass": 0.2757151119980053,
+      "max_checked_logprob_difference": 1.1622905731201172e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_6383cfac596b",
+      "path": "problem_04_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A short conversation connects the written routine to the places and equipment the member will actually use.\",\"decision\":\"How should a new member learn the studio routine?\",\"mechanism\":\"The steward walks each new member through the illustrated guide before their first session.\"}": 0.6497279250017359,
+        "{\"consequence\":\"A peer demonstrates the routine and remains an approachable contact during the first project.\",\"decision\":\"How should a new member learn the studio routine?\",\"mechanism\":\"An experienced member accompanies each new member through the illustrated guide at the start of their first session.\"}": 0.25021533598828727,
+        "{\"consequence\":\"The steward checks understanding after members have explored the space at their own pace.\",\"decision\":\"How should a new member learn the studio routine?\",\"mechanism\":\"New members follow the illustrated guide through the studio and then explain the routine to the steward.\"}": 0.10005673900997673
+      },
+      "covered_probability_mass": 0.22724450867061846,
+      "max_checked_logprob_difference": 2.872943878173828e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_d04eadb89670",
+      "path": "problem_04_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Earlier access changes between booking rounds while members still choose among the sessions available to them.\",\"decision\":\"How should members obtain bench time?\",\"mechanism\":\"The steward publishes a rotating order for members to claim bench sessions on the booking sheet.\"}": 0.9950219106745377,
+        "{\"consequence\":\"The steward can spread competing requests before members commit to their working times.\",\"decision\":\"How should members obtain bench time?\",\"mechanism\":\"Members enter preferred bench sessions on the booking sheet, and the steward assigns available sessions each morning.\"}": 0.001845109134831542,
+        "{\"consequence\":\"The sheet gives members immediate control of their schedules while showing everyone which sessions are already taken.\",\"decision\":\"How should members obtain bench time?\",\"mechanism\":\"Members claim available bench sessions directly on the booking sheet before beginning their work.\"}": 0.003132980190630817
+      },
+      "covered_probability_mass": 0.29026688220283803,
+      "max_checked_logprob_difference": 6.705522537231445e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_3729330e7c57",
+      "path": "problem_04_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The plan reflects what the trial reveals about the project’s immediate needs.\",\"decision\":\"How should a member prepare a project plan?\",\"mechanism\":\"Members begin with a small sample and then record the next task, materials, and stopping point on a project card.\"}": 0.7594630055762935,
+        "{\"consequence\":\"Explaining the work aloud reveals missing preparation before either member starts collecting supplies.\",\"decision\":\"How should a member prepare a project plan?\",\"mechanism\":\"Members discuss their next task with a partner, who records the materials and stopping point on a project card.\"}": 0.02713163597820285,
+        "{\"consequence\":\"The chosen stopping point guides preparation and makes unfinished work easier to resume during a later session.\",\"decision\":\"How should a member prepare a project plan?\",\"mechanism\":\"Members complete a project card before collecting materials and review it when they stop working.\"}": 0.21340535844550354
+      },
+      "covered_probability_mass": 0.11698704688842833,
+      "max_checked_logprob_difference": 1.4185905456542969e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_af900452074f",
+      "path": "problem_04_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Other members can locate borrowed tools directly and know who is responsible for returning them.\",\"decision\":\"How should shared hand tools be checked out?\",\"mechanism\":\"Members write their names on the sign-out line before removing shared hand tools from the numbered hooks.\"}": 0.5844038101339781,
+        "{\"consequence\":\"The empty hook itself identifies the borrower, so someone seeking that tool can find the current user.\",\"decision\":\"How should shared hand tools be checked out?\",\"mechanism\":\"Members put a named borrowing card on the numbered hook when taking a shared hand tool.\"}": 0.39591516259205917,
+        "{\"consequence\":\"A single handover links the tool’s location and borrower without asking members to update records themselves.\",\"decision\":\"How should shared hand tools be checked out?\",\"mechanism\":\"The steward records each requested hand tool on the sign-out line and hands it to the borrowing member.\"}": 0.019681027273962644
+      },
+      "covered_probability_mass": 0.1884333896407603,
+      "max_checked_logprob_difference": 1.621246337890625e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_6f32daf6730d",
+      "path": "problem_04_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A visible queue makes the next consultation predictable while members continue work that does not require assistance.\",\"decision\":\"How should requests for project help be handled?\",\"mechanism\":\"Members add project questions to the help list, and the steward visits them in the order recorded.\"}": 0.615401492158783,
+        "{\"consequence\":\"Members can prepare their questions for the next round instead of monitoring a separate consultation queue.\",\"decision\":\"How should requests for project help be handled?\",\"mechanism\":\"The steward collects project questions during regular bench rounds and answers each brief question at that bench.\"}": 0.10763804250530737,
+        "{\"consequence\":\"A shared explanation can resolve several similar difficulties within one short consultation.\",\"decision\":\"How should requests for project help be handled?\",\"mechanism\":\"Members mark their project questions by topic on the help list, and the steward gathers people with related questions.\"}": 0.2769604653359096
+      },
+      "covered_probability_mass": 0.1462092641625627,
+      "max_checked_logprob_difference": 9.864568710327148e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_dadbf9da52b7",
+      "path": "problem_04_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A regular inventory combines several small shortages into one considered replenishment decision.\",\"decision\":\"How should shared consumables be replenished?\",\"mechanism\":\"The steward counts shared consumables at the end of each opening day and updates the restock card before ordering.\"}": 0.7521112407253233,
+        "{\"consequence\":\"Replenishment starts when actual use crosses a visible threshold rather than waiting for a full inspection.\",\"decision\":\"How should shared consumables be replenished?\",\"mechanism\":\"Members mark the restock card when a consumable reaches its minimum line, and the steward orders a replacement.\"}": 0.1366891895430782,
+        "{\"consequence\":\"Responsibility for noticing shortages is shared while purchasing remains with the same accountable person.\",\"decision\":\"How should shared consumables be replenished?\",\"mechanism\":\"A rotating member checks shared consumables at each week’s first session and gives the steward a completed restock card.\"}": 0.11119956973159856
+      },
+      "covered_probability_mass": 0.2625340989609006,
+      "max_checked_logprob_difference": 4.947185516357422e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_65f618ef18c2",
+      "path": "problem_04_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Materials become available immediately, with the person who created them doing the initial sorting work.\",\"decision\":\"How should usable offcuts enter the shared scrap supply?\",\"mechanism\":\"Members place usable offcuts directly into the labeled scrap containers after comparing them with the examples.\"}": 0.4812445762535551,
+        "{\"consequence\":\"A consistent review keeps unsuitable pieces from becoming mixed into the shared supply.\",\"decision\":\"How should usable offcuts enter the shared scrap supply?\",\"mechanism\":\"Members leave usable offcuts in a review tray, and the steward sorts them into labeled scrap containers each day.\"}": 0.5024944222743238,
+        "{\"consequence\":\"Someone with an immediate use can take material before it joins the longer-term scrap supply.\",\"decision\":\"How should usable offcuts enter the shared scrap supply?\",\"mechanism\":\"Members offer usable offcuts at a brief end-of-session exchange before placing unclaimed pieces in labeled scrap containers.\"}": 0.016261001472120982
+      },
+      "covered_probability_mass": 0.32354945634884696,
+      "max_checked_logprob_difference": 2.3245811462402344e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_cfd5493757cd",
+      "path": "problem_04_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A central placement record makes projects easy to locate without changing each member’s storage allowance.\",\"decision\":\"How should unfinished projects be stored between sessions?\",\"mechanism\":\"The steward assigns an available shelf position when members present packed unfinished projects with review dates.\"}": 0.9740921515608516,
+        "{\"consequence\":\"Each member controls the arrangement within a clearly bounded storage allowance that others can identify.\",\"decision\":\"How should unfinished projects be stored between sessions?\",\"mechanism\":\"Members pack unfinished projects into their allocated containers and add the next review date before leaving.\"}": 0.01051940248593244,
+        "{\"consequence\":\"Knowing the available position helps members choose a container that fits before they clear the bench.\",\"decision\":\"How should unfinished projects be stored between sessions?\",\"mechanism\":\"Members reserve a storage position on the board before packing unfinished projects and labeling their next review dates.\"}": 0.015388445953215963
+      },
+      "covered_probability_mass": 0.1929056908213231,
+      "max_checked_logprob_difference": 8.463859558105469e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_6427357198e3",
+      "path": "problem_04_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"People doing quieter work can anticipate interruptions while noisy projects still receive regular access.\",\"decision\":\"How should short noisy tasks be coordinated?\",\"mechanism\":\"Members place their names on the noisy-task list, and the steward groups those tasks into announced short periods.\"}": 0.32973487943060664,
+        "{\"consequence\":\"A stable rhythm makes interruptions predictable without requiring a new room-wide negotiation for every task.\",\"decision\":\"How should short noisy tasks be coordinated?\",\"mechanism\":\"The studio posts repeating short periods for noisy tasks, and members choose an available turn within those periods.\"}": 0.3390700463352097,
+        "{\"consequence\":\"People close to the sound have time to pause sensitive work before the task begins.\",\"decision\":\"How should short noisy tasks be coordinated?\",\"mechanism\":\"Members announce a short noisy task at the designated station and wait for nearby members to acknowledge the notice.\"}": 0.3311950742341838
+      },
+      "covered_probability_mass": 0.2426565686491318,
+      "max_checked_logprob_difference": 1.0609626770019531e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_cd7df5e879f6",
+      "path": "problem_04_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Projects likely to leave soon remain accessible without disturbing those that need longer.\",\"decision\":\"How should projects use the drying rack?\",\"mechanism\":\"The steward assigns drying-rack spaces after reading members’ handling-time tags and places shorter drying jobs near the front.\"}": 0.34988150620007374,
+        "{\"consequence\":\"Visible reservations help members pace wet work around the rack capacity available later in the session.\",\"decision\":\"How should projects use the drying rack?\",\"mechanism\":\"Members reserve drying-rack spaces for expected finishing times and attach handling-time tags when their projects arrive.\"}": 0.19064893420606863,
+        "{\"consequence\":\"The person preparing the project records when it can move, giving later users a clear basis for planning.\",\"decision\":\"How should projects use the drying rack?\",\"mechanism\":\"Members choose an empty drying-rack space and attach the handling-time tag when placing a wet project there.\"}": 0.4594695595938578
+      },
+      "covered_probability_mass": 0.12237835891278268,
+      "max_checked_logprob_difference": 1.2934207916259766e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_a6a9b6cd6e4b",
+      "path": "problem_04_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Responsibility stays with the person who knows what was used, and the next member receives a ready surface.\",\"decision\":\"How should bench cleanup be organized?\",\"mechanism\":\"Members clean their own benches during the final minutes of their sessions using the posted checklist.\"}": 0.26993477141148225,
+        "{\"consequence\":\"A common reminder protects cleanup time when members are absorbed in finishing their projects.\",\"decision\":\"How should bench cleanup be organized?\",\"mechanism\":\"The steward announces a cleanup pause before each bench session ends, and members clean their own surfaces together.\"}": 0.5533600925236422,
+        "{\"consequence\":\"Shared effort makes overlooked scraps and tools easier to notice while both benches receive the same checklist.\",\"decision\":\"How should bench cleanup be organized?\",\"mechanism\":\"Members working nearby pair up to clean one bench and then the other during their final session minutes.\"}": 0.17670513606487565
+      },
+      "covered_probability_mass": 0.2128706009451703,
+      "max_checked_logprob_difference": 9.000301361083984e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_4faba2dc53f0",
+      "path": "problem_04_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The steward receives both the isolated tool and firsthand observations when arranging its inspection.\",\"decision\":\"How should a damaged tool be reported?\",\"mechanism\":\"Members place damaged tools in the marked tray and complete repair cards describing what happened during use.\"}": 0.915994709575029,
+        "{\"consequence\":\"Unsafe equipment leaves circulation immediately while fuller diagnosis waits for a convenient conversation.\",\"decision\":\"How should a damaged tool be reported?\",\"mechanism\":\"Members isolate damaged tools with brief repair cards, and the steward asks follow-up questions during the next bench round.\"}": 0.046692408827694175,
+        "{\"consequence\":\"A short conversation captures details that may be difficult to describe on an unattended form.\",\"decision\":\"How should a damaged tool be reported?\",\"mechanism\":\"Members bring damaged tools to the steward, who asks about the problem and completes repair cards before isolating them.\"}": 0.03731288159727675
+      },
+      "covered_probability_mass": 0.012431902612571951,
+      "max_checked_logprob_difference": 2.110004425048828e-05
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_4b8738612992",
+      "path": "problem_04_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The lesson follows expressed interest, giving members a direct role in choosing what they can learn together.\",\"decision\":\"How should a short technique demonstration be selected?\",\"mechanism\":\"Members propose techniques on the board and vote before the steward arranges the weekly demonstration.\"}": 0.9175618542616004,
+        "{\"consequence\":\"Questions already interrupting projects become the basis for a shared lesson that may prevent repeated consultations.\",\"decision\":\"How should a short technique demonstration be selected?\",\"mechanism\":\"The steward chooses a weekly technique from recurring help requests and invites members to the demonstration corner.\"}": 0.06590658237562287,
+        "{\"consequence\":\"The lesson program grows from available member expertise while different volunteers receive opportunities to contribute.\",\"decision\":\"How should a short technique demonstration be selected?\",\"mechanism\":\"Members volunteer to demonstrate techniques they know, and the steward schedules the offers in a rotating order.\"}": 0.016531563362776627
+      },
+      "covered_probability_mass": 0.2010407392559814,
+      "max_checked_logprob_difference": 4.76837158203125e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_bc5962445d8e",
+      "path": "problem_04_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A shared occasion concentrates handovers and allows questions about materials before recipients accept the stated conditions.\",\"decision\":\"How should personally owned surplus materials be shared?\",\"mechanism\":\"The steward collects labeled surplus offers for a weekly exchange period when owners and interested members can meet.\"}": 0.6116229727875795,
+        "{\"consequence\":\"Recipients can assess the offer independently, and the label preserves the owner’s terms during an unattended handover.\",\"decision\":\"How should personally owned surplus materials be shared?\",\"mechanism\":\"Owners label surplus materials with their conditions and leave them on the exchange shelf for direct collection.\"}": 0.052179768693537944,
+        "{\"consequence\":\"Materials remain with their owners until someone has committed to a specific and understood exchange.\",\"decision\":\"How should personally owned surplus materials be shared?\",\"mechanism\":\"Owners list surplus materials on the board and arrange a direct handover with the first member accepting the conditions.\"}": 0.3361972585188825
+      },
+      "covered_probability_mass": 0.030032221692576775,
+      "max_checked_logprob_difference": 7.271766662597656e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_02a7a0bf9e70",
+      "path": "problem_04_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The explanation occurs where the changed routine will be used and allows immediate questions about its practical effect.\",\"decision\":\"How should members receive changes to studio routines?\",\"mechanism\":\"The steward explains each dated update at members’ next arrivals and points them to the notice board.\"}": 0.37649892161463694,
+        "{\"consequence\":\"The steward can identify who still needs an explanation without repeating the update to every arriving member.\",\"decision\":\"How should members receive changes to studio routines?\",\"mechanism\":\"Members read dated updates on the notice board and mark an acknowledgment beside their names before starting work.\"}": 0.033982979843625166,
+        "{\"consequence\":\"Members can prepare before arriving and find the same instructions inside the studio.\",\"decision\":\"How should members receive changes to studio routines?\",\"mechanism\":\"The steward sends each dated update through the contact list and posts it on the notice board before it takes effect.\"}": 0.5895180985417379
+      },
+      "covered_probability_mass": 0.1623494496445464,
+      "max_checked_logprob_difference": 6.496906280517578e-06
+    },
+    {
+      "problem_id": "problem_1069801cdff8",
+      "decision_id": "decision_84be91506f83",
+      "path": "problem_04_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Questions arise from an initial independent check, concentrating the overlap on information that is actually missing.\",\"decision\":\"How should unfinished studio duties pass between stewards?\",\"mechanism\":\"The incoming steward inspects the handover pad and relevant studio areas, then asks the outgoing steward about unclear duties.\"}": 0.36859931143269725,
+        "{\"consequence\":\"The record is built from shared observations, so the incoming steward sees the conditions behind each follow-up.\",\"decision\":\"How should unfinished studio duties pass between stewards?\",\"mechanism\":\"Both stewards make a brief circuit of the studio and record unresolved duties together on the handover pad.\"}": 0.588608292529028,
+        "{\"consequence\":\"The written record guides a short conversation before responsibility passes to the next person.\",\"decision\":\"How should unfinished studio duties pass between stewards?\",\"mechanism\":\"The outgoing steward writes unresolved duties on the handover pad and walks through them with the incoming steward.\"}": 0.04279239603827467
+      },
+      "covered_probability_mass": 0.23408241612141664,
+      "max_checked_logprob_difference": 1.659989356994629e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_aa66695aaab8",
+      "path": "problem_05_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A brief personal exchange gives newcomers an immediate contact while producing the information needed to organize tables.\",\"decision\":\"How should guests make their arrival known?\",\"mechanism\":\"The host greets each arriving guest and records their name and readiness on the welcome sheet.\"}": 0.9163881990375481,
+        "{\"consequence\":\"The host can distinguish people seeking a table immediately from those who want a little time to settle in.\",\"decision\":\"How should guests make their arrival known?\",\"mechanism\":\"Guests mark their arrival and readiness on a welcome sheet before looking at the available games.\"}": 0.013597139237857258,
+        "{\"consequence\":\"The host receives grouped information while arrivals still have someone available to explain the evening.\",\"decision\":\"How should guests make their arrival known?\",\"mechanism\":\"A rotating welcome volunteer records arriving guests and their readiness, then gives the host short updates between game starts.\"}": 0.0700146617245946
+      },
+      "covered_probability_mass": 0.2660074893616462,
+      "max_checked_logprob_difference": 1.4901161193847656e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_272bba36c7c0",
+      "path": "problem_05_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The suggestions reflect known interest while leaving room for different playing times and levels of familiarity.\",\"decision\":\"How should games enter the evening’s suggested selection?\",\"mechanism\":\"Guests nominate games before the evening, and the host displays a varied selection from those nominations.\"}": 0.13513819376291705,
+        "{\"consequence\":\"The suggested selection emerges from people present that evening rather than from earlier expectations about attendance.\",\"decision\":\"How should games enter the evening’s suggested selection?\",\"mechanism\":\"Guests browse the collection on arrival and place interest markers beside games they would like to try.\"}": 0.49094329476620135,
+        "{\"consequence\":\"Guests see options that already have someone ready to explain them, reducing uncertainty about getting a game started.\",\"decision\":\"How should games enter the evening’s suggested selection?\",\"mechanism\":\"The host displays suggested games after matching the collection with the evening’s available volunteer teachers.\"}": 0.3739185114708816
+      },
+      "covered_probability_mass": 0.054903948134842256,
+      "max_checked_logprob_difference": 2.288818359375e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_719166d04868",
+      "path": "problem_05_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A brief face-to-face invitation helps guests assess the group and ask questions before committing to a table.\",\"decision\":\"How should guests form tables for the next games?\",\"mechanism\":\"Volunteer teachers announce the games they can start, and interested guests gather before the host confirms player numbers.\"}": 0.8021822098975124,
+        "{\"consequence\":\"People choose directly among current openings, and the visible names show which games are close to being ready.\",\"decision\":\"How should guests form tables for the next games?\",\"mechanism\":\"Guests place their names beside available games until each table reaches its listed player range.\"}": 0.04360935828000327,
+        "{\"consequence\":\"Several preferences can be considered together before guests accept an available seat or choose to wait.\",\"decision\":\"How should guests form tables for the next games?\",\"mechanism\":\"The host asks ready guests for two game preferences and proposes tables within the listed player ranges.\"}": 0.15420843182248434
+      },
+      "covered_probability_mass": 0.1474968230364345,
+      "max_checked_logprob_difference": 6.9141387939453125e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_62f38e784a18",
+      "path": "problem_05_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The table connects written instructions to visible actions before attempting the game themselves.\",\"decision\":\"How should the main rules explanation be delivered?\",\"mechanism\":\"The teacher demonstrates essential rules with the components while players follow the printed aid and ask questions as they arise.\"}": 0.00924228773078281,
+        "{\"consequence\":\"The conversation concentrates on gaps in understanding after each player has had time to inspect the instructions.\",\"decision\":\"How should the main rules explanation be delivered?\",\"mechanism\":\"Players read the printed rule aid first, and the teacher checks essential rules through a short table discussion.\"}": 0.014208658799131652,
+        "{\"consequence\":\"Everyone hears the same starting account, and questions can refer back to a shared explanation.\",\"decision\":\"How should the main rules explanation be delivered?\",\"mechanism\":\"The teacher explains the essential rules to the whole table using the printed aid before taking questions.\"}": 0.9765490534700856
+      },
+      "covered_probability_mass": 0.42149657204378244,
+      "max_checked_logprob_difference": 7.867813110351562e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_d31d3ada1f2f",
+      "path": "problem_05_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Additional rehearsal follows expressed need while all players can observe the same examples before scored play.\",\"decision\":\"How should players try unfamiliar actions before scored play?\",\"mechanism\":\"Players who want practice take a short unscored sequence with the teacher while others watch, then the table resets.\"}": 0.7268709911111221,
+        "{\"consequence\":\"The group can test its understanding collaboratively without putting any individual player on the spot.\",\"decision\":\"How should players try unfamiliar actions before scored play?\",\"mechanism\":\"The teacher plays a brief practice sequence while players suggest actions, then resets the components for the game.\"}": 0.2004415044318685,
+        "{\"consequence\":\"Everyone has a chance to connect the explanation to a physical turn before choices begin to count.\",\"decision\":\"How should players try unfamiliar actions before scored play?\",\"mechanism\":\"Each player tries one unfamiliar action during a brief practice sequence before the table resets the components.\"}": 0.07268750445700942
+      },
+      "covered_probability_mass": 0.10326575130030825,
+      "max_checked_logprob_difference": 1.8417835235595703e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_f996758977e6",
+      "path": "problem_05_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Guests use visible timing information to decide which forthcoming opening best fits their interests and available time.\",\"decision\":\"How should late arrivals find a game that will start soon?\",\"mechanism\":\"Tables post their likely finish times, and late arrivals choose a next-game waiting list beside a suitable table.\"}": 0.35980527833223086,
+        "{\"consequence\":\"A personal introduction establishes a likely next group while leaving the current game undisturbed.\",\"decision\":\"How should late arrivals find a game that will start soon?\",\"mechanism\":\"A welcome volunteer introduces late arrivals to tables nearing completion and records any agreement to join the following game.\"}": 0.6235402044495897,
+        "{\"consequence\":\"Guests can relax elsewhere without repeatedly checking whether current games have finished or seats have opened.\",\"decision\":\"How should late arrivals find a game that will start soon?\",\"mechanism\":\"The host adds late arrivals to a next-game list and approaches them when a suitable table becomes available.\"}": 0.016654517218179423
+      },
+      "covered_probability_mass": 0.3326356823761431,
+      "max_checked_logprob_difference": 1.0013580322265625e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_4d89f3f56486",
+      "path": "problem_05_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Waiting remains flexible because each guest can stop without delaying other people or losing a promised table place.\",\"decision\":\"How should guests use short activities while waiting?\",\"mechanism\":\"Guests choose short activities freely from the waiting-area basket and return them when called to a game.\"}": 0.36688650486273205,
+        "{\"consequence\":\"Small waiting groups remain socially connected without needing to monitor table availability themselves.\",\"decision\":\"How should guests use short activities while waiting?\",\"mechanism\":\"The host directs newly waiting guests toward an existing brief activity and tells its participants when another game is ready.\"}": 0.1739677861392634,
+        "{\"consequence\":\"People have an easy way to meet while the volunteer keeps the activity responsive to upcoming openings.\",\"decision\":\"How should guests use short activities while waiting?\",\"mechanism\":\"A volunteer offers a brief shared activity to waiting guests and checks the next-game list between small rounds.\"}": 0.45914570899800466
+      },
+      "covered_probability_mass": 0.18878690251716324,
+      "max_checked_logprob_difference": 1.1086463928222656e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_d772c7680542",
+      "path": "problem_05_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A shared signal prompts discussion without making one player personally responsible for watching the clock throughout play.\",\"decision\":\"How should tables monitor their progress through a game?\",\"mechanism\":\"Each table sets a visible timer for agreed progress checkpoints and briefly reviews its remaining time when it rings.\"}": 0.6445063278507063,
+        "{\"consequence\":\"Tables receive a regular external reminder, and the host gains current information for guests awaiting their next game.\",\"decision\":\"How should tables monitor their progress through a game?\",\"mechanism\":\"The host visits tables at agreed intervals and asks how progress compares with each game’s approximate duration.\"}": 0.2730884480326568,
+        "{\"consequence\":\"Timing information comes from someone who understands the current position and can choose an unobtrusive moment to speak.\",\"decision\":\"How should tables monitor their progress through a game?\",\"mechanism\":\"A player at each table compares elapsed time with the game’s estimate and gives occasional progress reminders.\"}": 0.08240522411663695
+      },
+      "covered_probability_mass": 0.26698478589179864,
+      "max_checked_logprob_difference": 5.9604644775390625e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_43d3db7644bf",
+      "path": "problem_05_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A designated interpreter keeps the interruption short while making the provisional nature of the decision explicit.\",\"decision\":\"How should a table resolve an unclear rule?\",\"mechanism\":\"The teacher checks the printed rules when uncertainty arises and proposes a temporary ruling if the text remains unclear.\"}": 0.05563451240745741,
+        "{\"consequence\":\"Everyone can inspect the same evidence before consenting to an interpretation for the remainder of that game.\",\"decision\":\"How should a table resolve an unclear rule?\",\"mechanism\":\"The player who raised the question reads the relevant printed passage aloud, and the table agrees a temporary ruling.\"}": 0.020285698846846334,
+        "{\"consequence\":\"The search has clear owners and does not require every player to examine the rulebook simultaneously.\",\"decision\":\"How should a table resolve an unclear rule?\",\"mechanism\":\"The table gives two players a brief rule check while others pause, then accepts their reported interpretation or temporary ruling.\"}": 0.9240797887456963
+      },
+      "covered_probability_mass": 0.02938802949658013,
+      "max_checked_logprob_difference": 3.910064697265625e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_0d902fc3e240",
+      "path": "problem_05_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A consistent source of help makes questions easier to ask without turning every decision into a table-wide lesson.\",\"decision\":\"How should inexperienced players receive strategic guidance?\",\"mechanism\":\"Before play, each inexperienced player chooses a willing partner who can quietly discuss visible options when invited.\"}": 0.9341106827250821,
+        "{\"consequence\":\"Help responds to the player’s request while preserving their control over the final move.\",\"decision\":\"How should inexperienced players receive strategic guidance?\",\"mechanism\":\"Inexperienced players ask the teacher for strategic guidance when they want it, and the teacher explains the visible tradeoffs.\"}": 0.03225867836476702,
+        "{\"consequence\":\"Useful guidance is offered regularly without singling out the least experienced person or choosing anyone’s move.\",\"decision\":\"How should inexperienced players receive strategic guidance?\",\"mechanism\":\"At agreed pauses, the teacher offers the whole table a brief discussion of visible strategic considerations that players may decline.\"}": 0.0336306389101509
+      },
+      "covered_probability_mass": 0.34793940474603224,
+      "max_checked_logprob_difference": 7.092952728271484e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_1636cbb51875",
+      "path": "problem_05_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Personal needs can be met at different times without moving drinks or food onto the playing surface.\",\"decision\":\"How should refreshments fit around games?\",\"mechanism\":\"Players ask their tables for individual refreshment pauses when needed and return before their next required action.\"}": 0.21754079310778712,
+        "{\"consequence\":\"A common reminder encourages breaks while allowing games with different structures to pause at suitable moments.\",\"decision\":\"How should refreshments fit around games?\",\"mechanism\":\"The host announces optional refreshment pauses at broad intervals, and each table takes the next convenient stopping point.\"}": 0.7292307632613702,
+        "{\"consequence\":\"Shared breaks keep the game’s next action clear while giving people a predictable chance to eat or drink.\",\"decision\":\"How should refreshments fit around games?\",\"mechanism\":\"Tables agree short refreshment pauses between rounds, and interested players visit the designated area together.\"}": 0.053228443630842795
+      },
+      "covered_probability_mass": 0.05476229883164431,
+      "max_checked_logprob_difference": 2.396106719970703e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_cb9375339465",
+      "path": "problem_05_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A neutral person responds to actual conditions without requiring affected players to begin an awkward exchange.\",\"decision\":\"How should conversation volume be kept comfortable?\",\"mechanism\":\"The host makes brief rounds and quietly asks tables to lower their voices when neighboring players struggle to hear.\"}": 0.4675359138421823,
+        "{\"consequence\":\"A familiar participant can offer timely reminders before nearby games are repeatedly interrupted.\",\"decision\":\"How should conversation volume be kept comfortable?\",\"mechanism\":\"Each table chooses a member to notice rising volume and suggest moving extended social conversations to the conversation corner.\"}": 0.5318155690399021,
+        "{\"consequence\":\"The people affected can communicate their needs directly without having to speak over the conversation themselves.\",\"decision\":\"How should conversation volume be kept comfortable?\",\"mechanism\":\"Guests use a small table signal to request quieter discussion, and nearby tables acknowledge it by adjusting their volume.\"}": 0.0006485171179155621
+      },
+      "covered_probability_mass": 0.06476325653063372,
+      "max_checked_logprob_difference": 9.775161743164062e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_1cb8fa812006",
+      "path": "problem_05_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A visible signal communicates the need without requiring a personal explanation in front of the group.\",\"decision\":\"How should players signal a need for a personal break?\",\"mechanism\":\"Players place a pause card beside the board when they need a break, and the table stops at the next safe point.\"}": 0.17711097887413985,
+        "{\"consequence\":\"A direct request makes the interruption clear and lets everyone confirm which game action will resume afterward.\",\"decision\":\"How should players signal a need for a personal break?\",\"mechanism\":\"Players ask aloud for a personal break, and the table agrees a convenient immediate pause before they leave.\"}": 0.8218047031850096,
+        "{\"consequence\":\"Regular invitations make it easier to accept a break without removing anyone’s ability to ask when needed.\",\"decision\":\"How should players signal a need for a personal break?\",\"mechanism\":\"The teacher checks for break needs at agreed milestones, while players can still request an earlier pause.\"}": 0.001084317940850431
+      },
+      "covered_probability_mass": 0.44861596155035377,
+      "max_checked_logprob_difference": 2.86102294921875e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_d594901e79d3",
+      "path": "problem_05_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A shared sequence coordinates the cleanup and lets the reader confirm that no listed group was overlooked.\",\"decision\":\"How should game components be checked after play?\",\"mechanism\":\"One player reads the component checklist while the others gather and count the pieces into labeled bags.\"}": 0.8316375750946381,
+        "{\"consequence\":\"Several small checks proceed together while every part of the game has a clearly responsible person.\",\"decision\":\"How should game components be checked after play?\",\"mechanism\":\"Players divide the component checklist and count their assigned pieces before placing them in the labeled bags.\"}": 0.05253394499164097,
+        "{\"consequence\":\"The final verification follows organized piles, making shortages easier to locate before the box leaves the table.\",\"decision\":\"How should game components be checked after play?\",\"mechanism\":\"Players sort components into labeled bags first, and the teacher checks each bag against the component checklist.\"}": 0.11582847991372096
+      },
+      "covered_probability_mass": 0.23318869816760882,
+      "max_checked_logprob_difference": 1.0371208190917969e-05
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_e197fc73dddc",
+      "path": "problem_05_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The limit stays in view and its reminder comes from someone already following that table’s progress.\",\"decision\":\"How should the evening’s final stopping time be communicated?\",\"mechanism\":\"Each table writes its final stopping time on a visible card and assigns a player to announce the approaching deadline.\"}": 0.8277851378674956,
+        "{\"consequence\":\"A common signal coordinates the end of games that began at different times while preserving space for component checks.\",\"decision\":\"How should the evening’s final stopping time be communicated?\",\"mechanism\":\"The host displays one room closing countdown and announces the final packing period to all tables together.\"}": 0.1627785213389011,
+        "{\"consequence\":\"Players hear the limit when committing to play and receive a timely prompt to prepare for packing.\",\"decision\":\"How should the evening’s final stopping time be communicated?\",\"mechanism\":\"The host gives the final stopping time before each game starts and returns with a reminder shortly beforehand.\"}": 0.009436340793603264
+      },
+      "covered_probability_mass": 0.23646363970656975,
+      "max_checked_logprob_difference": 4.291534423828125e-06
+    },
+    {
+      "problem_id": "problem_3e71306587d5",
+      "decision_id": "decision_5ee7fd1699e5",
+      "path": "problem_05_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Immediate impressions are captured privately before details of joining games and understanding the evening begin to fade.\",\"decision\":\"How should guests suggest improvements for the next evening?\",\"mechanism\":\"Guests complete the short feedback prompt as they leave and place it in a collection box.\"}": 0.07788201946869097,
+        "{\"consequence\":\"Guests have time to reflect, and the organizer can compare recurring experiences across people who played different games.\",\"decision\":\"How should guests suggest improvements for the next evening?\",\"mechanism\":\"The host sends the short feedback prompt the following day and groups replies before planning another evening.\"}": 0.8419453831402615,
+        "{\"consequence\":\"People can explain a difficulty in their own words while the same questions keep responses useful for later planning.\",\"decision\":\"How should guests suggest improvements for the next evening?\",\"mechanism\":\"A volunteer offers departing guests a brief conversation using the feedback prompt and records comments without names.\"}": 0.08017259739104764
+      },
+      "covered_probability_mass": 0.1014082333468054,
+      "max_checked_logprob_difference": 2.193450927734375e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_35d1adfafbe4",
+      "path": "problem_06_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A concrete draft gives singers something specific to assess while leaving time to correct avoidable attendance problems.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"The booking organizer proposes a sequence of available room slots, and members identify conflicts before reservations are finalized.\"}": 0.7320978005021218,
+        "{\"consequence\":\"The scheduling discussion can consider whether every voice part will be represented as well as total expected attendance.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Section leaders collect their singers’ availability and recommend room slots to the booking organizer together.\"}": 6.506137871515692e-05,
+        "{\"consequence\":\"The schedule follows actual availability across the group rather than relying on a presumed regular pattern.\",\"decision\":\"How should rehearsal dates be chosen from available room slots?\",\"mechanism\":\"Members mark all workable room slots, and the booking organizer reserves a sequence with the broadest overall attendance.\"}": 0.26783713811916304
+      },
+      "covered_probability_mass": 0.06481522785755373,
+      "max_checked_logprob_difference": 2.47955322265625e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_6bebf95df8b2",
+      "path": "problem_06_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A short personal check produces a useful picture of balance without requiring the conductor to chase individual replies.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Section leaders ask their singers about the next rehearsal and enter section totals on the attendance sheet.\"}": 0.053005732123877373,
+        "{\"consequence\":\"The conductor sees individual updates in one place and can anticipate missing voices before choosing the session’s emphasis.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"Members mark their expected attendance on the shared sheet by the day before each rehearsal.\"}": 0.7438838767643221,
+        "{\"consequence\":\"Confirmation is prompted at a predictable time, making the expected numbers easier to use during final preparation.\",\"decision\":\"How should expected attendance reach the conductor?\",\"mechanism\":\"The organizer sends a rehearsal reminder with an attendance response link and summarizes replies for the conductor.\"}": 0.20311039111180057
+      },
+      "covered_probability_mass": 0.11382677846653336,
+      "max_checked_logprob_difference": 9.5367431640625e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_2a6ca4fef878",
+      "path": "problem_06_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Singers can prepare early while anyone who needs paper still receives the same music before singing begins.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"The organizer sends the numbered score list and digital copies before rehearsal, with matching paper copies available at arrival.\"}": 0.963637107014855,
+        "{\"consequence\":\"A named contact checks the contents for that section, reducing missing pages without requiring everyone to use the same format.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Section leaders assemble each singer’s requested paper or digital score set before the next rehearsal.\"}": 0.018343523190692976,
+        "{\"consequence\":\"Members control when they obtain music, while the organizer can identify gaps before the session starts.\",\"decision\":\"How should singers obtain the music needed for rehearsal?\",\"mechanism\":\"Singers collect the numbered scores from a shared catalog when the rehearsal notice appears and mark receipt on a list.\"}": 0.01801936979445189
+      },
+      "covered_probability_mass": 0.29391636411010647,
+      "max_checked_logprob_difference": 3.874301910400391e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_6c329ebd0141",
+      "path": "problem_06_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The order responds to how the group sounds that day rather than relying entirely on earlier expectations.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The choir sings brief extracts from the prepared pieces at the start, and the conductor then sets the remaining sequence.\"}": 0.10752950273764336,
+        "{\"consequence\":\"Reports from different voice parts shape the order before the full choir spends time on the selected difficulties.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor asks section leaders which prepared pieces need attention and then publishes a balanced rehearsal sequence.\"}": 0.8638875824208224,
+        "{\"consequence\":\"Singers can see which challenges will receive attention and prepare their scores before each planned block begins.\",\"decision\":\"How should the order of rehearsal pieces be set?\",\"mechanism\":\"The conductor orders the pieces by their current musical needs and publishes the sequence before rehearsal.\"}": 0.028582914841534246
+      },
+      "covered_probability_mass": 0.0686077608551282,
+      "max_checked_logprob_difference": 2.5510787963867188e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_b4b071a1e9c4",
+      "path": "problem_06_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Responsibility is shared across the choir while the fixed sequence keeps the brief preparation coordinated and predictable.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"Different section leaders each guide one part of the approved warmup in a posted order.\"}": 0.9951947406677334,
+        "{\"consequence\":\"The person directing the rehearsal also hears how the group is settling before beginning the planned pieces.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"The conductor guides the familiar warmup and adjusts the pace after listening to the choir’s responses.\"}": 1.4345401044129258e-06,
+        "{\"consequence\":\"The choir receives a familiar sequence, and the conductor gains a different listening position before detailed rehearsal begins.\",\"decision\":\"Who should guide the shared vocal warmup?\",\"mechanism\":\"A section leader guides the approved warmup while the conductor listens from elsewhere in the room.\"}": 0.004803824792162238
+      },
+      "covered_probability_mass": 0.29906910409457926,
+      "max_checked_logprob_difference": 5.900859832763672e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_b04afc087b03",
+      "path": "problem_06_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The final arrangement responds to the room’s sound while preserving each singer’s part and view of the conductor.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"The conductor listens to a short phrase and then asks singers to adjust chairs within their sections.\"}": 0.4917632167086674,
+        "{\"consequence\":\"The people using the seats can resolve local spacing needs while maintaining the common room layout.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Singers arrange their section’s chairs together using the marked boundaries and sightline guidance before the warmup.\"}": 0.5020176750526488,
+        "{\"consequence\":\"The basic layout is ready on arrival while members retain some control over nearby listening partners and comfort.\",\"decision\":\"How should chairs be arranged within voice sections?\",\"mechanism\":\"Section leaders arrange chairs before rehearsal and invite singers to choose places within their voice sections.\"}": 0.006219108238683843
+      },
+      "covered_probability_mass": 0.15830415408603932,
+      "max_checked_logprob_difference": 8.821487426757812e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_3c288aadfbc9",
+      "path": "problem_06_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The part needing direct attention receives it without leaving the remaining singers idle during that practice block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"The conductor works with one section while the other section leaders guide their own assigned passages in separate corners.\"}": 0.6299958793819562,
+        "{\"consequence\":\"Each voice part receives focused attention before the conductor hears how the independently practiced lines fit together.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"All sections practice their assigned passages separately for the same short period and then return for a combined attempt.\"}": 0.367999835009934,
+        "{\"consequence\":\"Separate attention is staggered, allowing the conductor to keep useful ensemble work moving throughout the block.\",\"decision\":\"How should short sectional practice be organized?\",\"mechanism\":\"Sections take turns using a quiet corner for focused practice while the conductor rehearses compatible material with the remaining singers.\"}": 0.002004285608109732
+      },
+      "covered_probability_mass": 0.1761290548458999,
+      "max_checked_logprob_difference": 8.463859558105469e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_8e32b39ab51c",
+      "path": "problem_06_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Comparing the separate attempts helps reveal which element is creating trouble when everything is combined.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The choir tries rhythm, words, and pitches separately in a short sequence before the conductor selects focused practice.\"}": 0.05683454457704387,
+        "{\"consequence\":\"A single diagnosis concentrates practice time on the feature the conductor judges most responsible for the difficulty.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"The conductor listens to the passage and chooses one element for the choir to isolate before recombining it.\"}": 0.938411101612507,
+        "{\"consequence\":\"The practice exercise addresses experienced points of confusion as well as what can be heard from the front.\",\"decision\":\"How should a difficult passage be diagnosed?\",\"mechanism\":\"Singers describe where the passage becomes uncertain, and the conductor selects an element to isolate from those reports.\"}": 0.0047543538104491585
+      },
+      "covered_probability_mass": 0.4952822272198197,
+      "max_checked_logprob_difference": 2.1219253540039062e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_e123df0d4c61",
+      "path": "problem_06_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The practice sequence reflects that section’s immediate needs without requiring members to search the entire recording folder.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"Section leaders send their singers a short ordered list of approved recordings with bar numbers after each rehearsal.\"}": 0.3056500653598886,
+        "{\"consequence\":\"Singers begin with the shared rehearsal problem and select their own line from the materials associated with it.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The conductor groups approved recordings by difficult passage and lists each available voice part within that passage.\"}": 0.6754715496029873,
+        "{\"consequence\":\"Singers can locate their own material first and then move directly to the passages most relevant to current practice.\",\"decision\":\"How should practice recordings be made easy to use?\",\"mechanism\":\"The organizer groups approved recordings by voice part and adds the bar numbers highlighted during rehearsal.\"}": 0.01887838503712413
+      },
+      "covered_probability_mass": 0.12867215283393466,
+      "max_checked_logprob_difference": 1.2755393981933594e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_964a9073f798",
+      "path": "problem_06_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A written reminder is established before the choir tries to follow the same gesture in real time.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The conductor demonstrates each entrance and cutoff while singers mark the matching cue in their scores before singing.\"}": 0.9908465154862447,
+        "{\"consequence\":\"Local preparation connects the written instructions to a single full-choir demonstration of the agreed timing.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"Section leaders first show the chosen score cues to their singers, and the conductor then rehearses the corresponding gestures with everyone.\"}": 0.008967386597899004,
+        "{\"consequence\":\"The markings respond to cues that proved difficult during an actual attempt at the shared musical action.\",\"decision\":\"How should singers learn shared entrances and cutoffs?\",\"mechanism\":\"The choir tries the chosen entrances and cutoffs while watching the conductor, then marks its scores after discussing uncertainty.\"}": 0.0001860979158562046
+      },
+      "covered_probability_mass": 0.24607681605410409,
+      "max_checked_logprob_difference": 6.616115570068359e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_ccff2156987f",
+      "path": "problem_06_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Related concerns reach the conductor together, reducing repetition while preserving information from different parts of the choir.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Section leaders collect balance observations from their singers and summarize them to the conductor during a short pause.\"}": 0.07429540625545016,
+        "{\"consequence\":\"Rotating invitations give each part a clear opportunity to describe the balance from its listening position.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"The conductor asks one section at a time what it heard after a combined passage and then decides adjustments.\"}": 0.8807563596921564,
+        "{\"consequence\":\"Comments accumulate without breaking each attempt, and the conductor can consider several perspectives at one useful stopping point.\",\"decision\":\"How should singers offer observations about musical balance?\",\"mechanism\":\"Singers note balance observations and raise them during a designated discussion pause before the conductor chooses adjustments.\"}": 0.04494823405239343
+      },
+      "covered_probability_mass": 0.25219548778573436,
+      "max_checked_logprob_difference": 1.1086463928222656e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_d76a9f779d9b",
+      "path": "problem_06_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Immediate personal notes are followed by a common confirmation that can correct misheard instructions before everyone leaves.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Singers mark changes during rehearsal, and the conductor reviews the affected bars aloud before the organizer publishes the change record.\"}": 0.48078657926176616,
+        "{\"consequence\":\"A brief check catches differences between sections before the final instructions are circulated to the whole choir.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"Section leaders note changed markings during rehearsal and compare their notes with the conductor before updating the shared record.\"}": 0.015536763612293943,
+        "{\"consequence\":\"A central account is created as decisions occur, giving absent members and uncertain singers the same reference afterward.\",\"decision\":\"How should changes to score markings be kept consistent?\",\"mechanism\":\"The conductor announces each changed marking, and the organizer enters it in the shared change record during rehearsal.\"}": 0.5036766571259398
+      },
+      "covered_probability_mass": 0.19335116935782978,
+      "max_checked_logprob_difference": 1.633167266845703e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_7080eb919bd1",
+      "path": "problem_06_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The same concise package lets each person catch up independently at a time compatible with their other commitments.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Absent singers receive the rehearsal notes and use the linked change record and recordings before returning.\"}": 0.6091808510097797,
+        "{\"consequence\":\"A familiar peer can explain which changes mattered most and clarify questions before the singer rejoins the group.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Each absent singer asks a designated section partner for a brief walkthrough of the notes and linked practice materials.\"}": 0.38860547196931944,
+        "{\"consequence\":\"Catch-up begins with the most important work for that voice part while preserving access to the complete shared record.\",\"decision\":\"How should an absent singer catch up?\",\"mechanism\":\"Section leaders send absent singers a short prioritized message linking the rehearsal notes, changed markings, and relevant recordings.\"}": 0.002213677020900897
+      },
+      "covered_probability_mass": 0.07971850090358548,
+      "max_checked_logprob_difference": 1.817941665649414e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_01db0d9ee017",
+      "path": "problem_06_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Singers can anticipate the rest period, and musical work must be organized around an already visible stopping point.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break at a fixed clock time and includes it in the rehearsal notice.\"}": 0.7045632220642469,
+        "{\"consequence\":\"Singers know roughly when rest is coming while the final timing can follow the progress of the rehearsal.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor announces a short break window at the start and chooses a natural stopping point within it.\"}": 0.07659035827366423,
+        "{\"consequence\":\"The pause follows a coherent piece of musical work while remaining predictable within the published rehearsal sequence.\",\"decision\":\"How should the main rehearsal break be timed?\",\"mechanism\":\"The conductor places the planned break after a named rehearsal block and announces that position at the start.\"}": 0.21884641966208881
+      },
+      "covered_probability_mass": 0.5090361717438574,
+      "max_checked_logprob_difference": 7.063150405883789e-06
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_c693308338b6",
+      "path": "problem_06_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Members choose tasks that fit their arrival plans while the organizer can see whether the room preparation is covered.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"Volunteers claim specific setup duties on the attendance sheet before each rehearsal, and the organizer fills any remaining gaps.\"}": 0.730487708714174,
+        "{\"consequence\":\"The work follows the people actually present, allowing small changes in arrival time without leaving individual tasks unassigned.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"An early-arriving setup coordinator divides the listed duties among available volunteers when they reach the room.\"}": 0.21744899148609237,
+        "{\"consequence\":\"Responsibility moves among willing members, and each person knows in advance which part of the room to prepare.\",\"decision\":\"How should room setup duties be shared?\",\"mechanism\":\"The organizer assigns setup duties through a rotating volunteer list and sends reminders before each rehearsal.\"}": 0.05206329979973366
+      },
+      "covered_probability_mass": 0.15328112291843468,
+      "max_checked_logprob_difference": 1.531839370727539e-05
+    },
+    {
+      "problem_id": "problem_7c02a6b2d60e",
+      "decision_id": "decision_faf230423b00",
+      "path": "problem_06_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Home preparation targets distinct section needs while remaining consistent with the musical direction for the whole choir.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Section leaders propose one practice priority for their parts, and the conductor confirms these before the notes are sent.\"}": 0.07358589658822366,
+        "{\"consequence\":\"Singers leave with a limited, specific task that can be found again without remembering an extended spoken explanation.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"The conductor names two practice priorities at the end and includes the relevant bars in the rehearsal notes.\"}": 0.8922514849073787,
+        "{\"consequence\":\"Preparation follows individual uncertainty while staying within the material the conductor considers useful for the next rehearsal.\",\"decision\":\"How should the choir agree what to practice before next time?\",\"mechanism\":\"Singers choose a passage they found difficult from a conductor-approved list and record it as their personal practice priority.\"}": 0.03416261850439759
+      },
+      "covered_probability_mass": 0.12886871518344986,
+      "max_checked_logprob_difference": 5.245208740234375e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_71042de1e5ec",
+      "path": "problem_07_decision_00.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Advance information begins with gaps in the planned selection, helping contributors identify which of their spare items would be useful.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Organizers announce the categories needing more contributions, and neighbors reply with household goods they expect to bring.\"}": 0.2870185231923798,
+        "{\"consequence\":\"A brief local conversation gathers estimates from people who might overlook an online form and combines them for preparation.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Block volunteers ask interested neighbors about expected contributions and send category summaries to the organizers.\"}": 0.7123639013017126,
+        "{\"consequence\":\"Table preparation follows volunteered estimates while leaving final acceptance to the ordinary intake check.\",\"decision\":\"How should organizers learn what neighbors expect to contribute?\",\"mechanism\":\"Contributors list expected household goods on a shared form before the fair, and organizers total the entries by category.\"}": 0.0006175755059077009
+      },
+      "covered_probability_mass": 0.29189917068600335,
+      "max_checked_logprob_difference": 2.5033950805664062e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_47484ace809a",
+      "path": "problem_07_decision_01.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"People organize their own visits within visible capacity, giving volunteers a rough forecast of when incoming contributions will arrive.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors choose available arrival windows on the intake sheet before bringing their household goods.\"}": 0.707515009877486,
+        "{\"consequence\":\"Nearby households get a simple shared plan while individual conflicts can be accommodated within the remaining intake capacity.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Contributors receive staggered arrival suggestions by neighborhood block and may choose another open window when needed.\"}": 0.07484101976642953,
+        "{\"consequence\":\"The intake load can be spread across the period while taking account of when contributors can realistically attend.\",\"decision\":\"How should contribution arrivals be spread across the intake period?\",\"mechanism\":\"Organizers assign suggested arrival windows after contributors report their availability, keeping the walk-in allowance open.\"}": 0.21764397035608443
+      },
+      "covered_probability_mass": 0.010917449978290038,
+      "max_checked_logprob_difference": 1.3113021850585938e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_ee29440d96e5",
+      "path": "problem_07_decision_02.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The contributor’s knowledge directs attention to likely issues before volunteers decide whether the item is suitable for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Contributors complete the condition checklist themselves, and intake volunteers review the answers while examining the listed concerns.\"}": 0.034345619542802075,
+        "{\"consequence\":\"Questions about damage or missing parts can be answered immediately before an item is accepted for display.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"Intake volunteers inspect each contribution with the condition checklist while its contributor is present.\"}": 0.0603214839117476,
+        "{\"consequence\":\"Conversation and inspection proceed together, allowing observed problems to be clarified before the contribution leaves the intake area.\",\"decision\":\"How should contributed goods be checked before display?\",\"mechanism\":\"One volunteer asks contributors the condition-checklist questions while another examines their goods beside them.\"}": 0.9053328965454502
+      },
+      "covered_probability_mass": 0.08607662608851308,
+      "max_checked_logprob_difference": 5.53131103515625e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_0616741ccfd1",
+      "path": "problem_07_decision_03.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The same person translates the conversation into the standard fields, reducing differences in how descriptions and known limitations are presented.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Intake volunteers ask contributors for item details and write the labels during acceptance.\"}": 0.9707100343516695,
+        "{\"consequence\":\"Description work has its own focused handover, keeping the inspection station available for the next contribution.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors describe accepted items to a labeling volunteer after the condition check, and the volunteer attaches completed labels.\"}": 0.004703204688767007,
+        "{\"consequence\":\"Firsthand descriptions are captured early while a brief review keeps the displayed information consistent across contributions.\",\"decision\":\"How should useful item descriptions be prepared?\",\"mechanism\":\"Contributors complete the item-label template, and intake volunteers confirm it before attaching the label to accepted goods.\"}": 0.024586760959563563
+      },
+      "covered_probability_mass": 0.012887903775174916,
+      "max_checked_logprob_difference": 2.181529998779297e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_c5d320651898",
+      "path": "problem_07_decision_04.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Visitors can compare items that solve similar needs even when those goods would normally belong in different rooms.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by function, such as storage, serving, or decoration, and label the display tables accordingly.\"}": 0.6050379662187021,
+        "{\"consequence\":\"Visitors looking for kitchen, bedroom, or living-room items can begin with a familiar part of the home.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers group household goods by their ordinary room of use and label the display tables accordingly.\"}": 0.37140705669920887,
+        "{\"consequence\":\"The physical arrangement can adapt to available space while visitors use the index to locate relevant items.\",\"decision\":\"How should the display tables be organized?\",\"mechanism\":\"Volunteers place household goods in numbered table zones and maintain a category index showing where each type can be found.\"}": 0.02355497708208911
+      },
+      "covered_probability_mass": 0.026663898065120473,
+      "max_checked_logprob_difference": 3.981590270996094e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_76955a70c571",
+      "path": "problem_07_decision_05.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Sorting happens near the stored goods while the people managing each table decide when additional stock can fit.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Reserve volunteers prepare small mixed replenishment batches, and table volunteers collect them when their displays have room.\"}": 0.08700477448288327,
+        "{\"consequence\":\"Replenishment follows visible need at each table rather than moving stock that would immediately crowd the display.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"Table volunteers request reserve goods when their displays develop gaps, and a runner brings the matching available items.\"}": 0.7581682353280648,
+        "{\"consequence\":\"One repeating circuit keeps stock moving without requiring table volunteers to leave their visitors or send individual requests.\",\"decision\":\"How should reserve stock reach the display tables?\",\"mechanism\":\"A runner checks the display tables at regular intervals and brings reserve goods that fit the available spaces.\"}": 0.15482699018905202
+      },
+      "covered_probability_mass": 0.14125877699725367,
+      "max_checked_logprob_difference": 3.0994415283203125e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_66bdc8c4642b",
+      "path": "problem_07_decision_06.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The introduction connects the rules to the room and offers an immediate chance to ask a practical question.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives each visitor a brief explanation of browsing and collection while pointing out the relevant areas.\"}": 0.0023520487421502837,
+        "{\"consequence\":\"A common explanation reaches several visitors together while personal questions can be handled after the group moves on.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"A welcome volunteer gives short introductions to small arriving groups and then offers individual clarification beside the entrance diagram.\"}": 0.9725914951400582,
+        "{\"consequence\":\"The essential instructions remain available as people move through the fair instead of depending on remembering a spoken introduction.\",\"decision\":\"How should arriving visitors learn how the fair works?\",\"mechanism\":\"Visitors read a simple entrance diagram and take a small guide describing browsing, claims, holding, and collection.\"}": 0.02505645611779162
+      },
+      "covered_probability_mass": 0.3381637760098814,
+      "max_checked_logprob_difference": 4.673004150390625e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_b48a117f22f5",
+      "path": "problem_07_decision_07.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Every registered requester has an equal chance for that item, and the result can be announced before it moves to collection.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer draws one name from the competing requests when the item’s decision window closes.\"}": 0.02847289993954022,
+        "{\"consequence\":\"The visible request times determine priority, so people can understand the result without a separate comparison of their reasons for wanting it.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the earliest recorded requester when its decision window closes.\"}": 0.9540730699877359,
+        "{\"consequence\":\"Priority spreads sought-after goods across visitors while retaining a clear rule when their previous awards are equal.\",\"decision\":\"How should competing requests for the same item be settled?\",\"mechanism\":\"A volunteer awards the item to the requester with the fewest earlier contested-item awards, using request time to break ties.\"}": 0.017454030072723864
+      },
+      "covered_probability_mass": 0.051044560121437856,
+      "max_checked_logprob_difference": 7.152557373046875e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_2f6fb93af909",
+      "path": "problem_07_decision_08.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"A single handover establishes responsibility and makes the promised collection time clear to both people.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients bring claimed items to the holding volunteer, who records their names and deadlines before placing the goods on shelves.\"}": 0.7168911105042608,
+        "{\"consequence\":\"Recipients can keep browsing while the tagged transfer preserves their identity and collection deadline through the handover.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Table volunteers prepare holding tags for claimed items and send them with a runner to the supervised holding area.\"}": 0.013096713210263873,
+        "{\"consequence\":\"The claimant supplies the details directly while the volunteer confirms that every stored item has a usable collection record.\",\"decision\":\"How should claimed items be held while recipients continue browsing?\",\"mechanism\":\"Recipients complete holding tags with their names and deadlines, and the volunteer checks the tags before storing the items.\"}": 0.27001217628547536
+      },
+      "covered_probability_mass": 0.22810633489915902,
+      "max_checked_logprob_difference": 6.720423698425293e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_4c7582137f3c",
+      "path": "problem_07_decision_09.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Visitors handle a single bundle, reducing the chance that pieces from one contribution become separated during browsing.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers bag or tie each complete set together before it reaches the display table, leaving its description visible.\"}": 0.03076078708468494,
+        "{\"consequence\":\"Visitors can inspect the components individually while the tray and inventory show what must leave together.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers place each complete set on a dedicated tray and attach one label listing all included pieces.\"}": 0.5722967811497792,
+        "{\"consequence\":\"Larger or awkwardly shaped sets remain inspectable, and the repeated identifier helps collectors verify that all pieces accompany the claim.\",\"decision\":\"How should pieces of a complete set remain together?\",\"mechanism\":\"Volunteers attach matching set labels to every component and display the pieces within one marked table area.\"}": 0.39694243176553584
+      },
+      "covered_probability_mass": 0.12377005387838887,
+      "max_checked_logprob_difference": 4.172325134277344e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_512a3f852563",
+      "path": "problem_07_decision_10.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Assistance follows goods that are ready to leave, keeping the handover simple at the point where carrying begins.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors request carrying help at collection, and a volunteer assigns the next available helper and cart.\"}": 0.7769720780192942,
+        "{\"consequence\":\"A planned slot coordinates the recipient and helper before the goods need to move toward the pickup area.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"Visitors reserve a short carrying-help slot when they claim an item and bring their collection record at that time.\"}": 0.12157493177503333,
+        "{\"consequence\":\"Several nearby handovers can share one cart journey while visitors retain a visible next opportunity for help.\",\"decision\":\"How should visitors arrange help carrying goods out?\",\"mechanism\":\"A helper makes regular rounds between collection and the pickup area, inviting waiting recipients to join the next assisted trip.\"}": 0.10145299020567237
+      },
+      "covered_probability_mass": 0.22815932631387728,
+      "max_checked_logprob_difference": 2.0265579223632812e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_ee00677c5692",
+      "path": "problem_07_decision_11.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Duties respond to conditions on the day while remaining within the time and types of work volunteers have offered.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns tasks when volunteers arrive, using their stated preferences and the current workload at each station.\"}": 0.8992891350525238,
+        "{\"consequence\":\"People can prepare for specific duties, and the coordinator can see uncovered work before the event begins.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"The coordinator assigns volunteer shifts from the availability and preference list and circulates the resulting roster before the fair.\"}": 0.10034297907486019,
+        "{\"consequence\":\"People choose suitable duties directly while the completed roster still gives the fair a clear coverage plan.\",\"decision\":\"How should volunteers receive their working assignments?\",\"mechanism\":\"Volunteers claim open shifts on a task roster, and the coordinator fills any remaining gaps from unassigned availability.\"}": 0.00036788587261607985
+      },
+      "covered_probability_mass": 0.2291275052443612,
+      "max_checked_logprob_difference": 9.059906005859375e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_26850f104ee3",
+      "path": "problem_07_decision_12.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"One person connects requests with goods beyond the current display, making it easier to notice matches across different stations.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"A request volunteer asks visitors what they seek and checks the board against reserve stock and new contributions.\"}": 0.6557475509301318,
+        "{\"consequence\":\"Needs stay visible across the fair, and people can discover a later match without repeatedly asking every table.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors write wanted item types on the request board, and table volunteers mark matching arrivals when they appear.\"}": 3.057562337498243e-05,
+        "{\"consequence\":\"Requests are seen where suitable goods are most likely to arrive, while the collection point gathers the resulting match notices.\",\"decision\":\"How should requests for currently missing goods be recorded?\",\"mechanism\":\"Visitors place wanted-item notes beside the relevant category signs, and table volunteers move matched notes to a collection point.\"}": 0.3442218734464932
+      },
+      "covered_probability_mass": 0.03600998849180794,
+      "max_checked_logprob_difference": 3.2067298889160156e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_b9de32a36c70",
+      "path": "problem_07_decision_13.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The departure is recorded at the physical handover, keeping the remaining-stock information aligned with what is still inside.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"The collection volunteer checks the claim and crosses the item identifier off the inventory as the goods leave.\"}": 0.8716588553086925,
+        "{\"consequence\":\"The written update happens before the exit handover, separating record work from the movement of items.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"Recipients present their claim records to a recording volunteer, then show a checked collection slip when taking the goods out.\"}": 0.1008603613735499,
+        "{\"consequence\":\"The labels preserve the details of goods already released while allowing the volunteer to update the inventory in short groups.\",\"decision\":\"How should outgoing goods be recorded at collection?\",\"mechanism\":\"A collection volunteer checks claims and gathers item labels at the exit, then records each small departure batch together.\"}": 0.027480783317757634
+      },
+      "covered_probability_mass": 0.2858671305174299,
+      "max_checked_logprob_difference": 3.933906555175781e-06
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_3f6eb3a6337e",
+      "path": "problem_07_decision_14.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"The room clears progressively while the existing preference records determine each item’s destination throughout the closing collection period.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers process one display zone at a time, handing recorded return goods to waiting contributors and packing donations beside them.\"}": 0.7747308755679856,
+        "{\"consequence\":\"Direct collection removes many items before final sorting, leaving volunteers a smaller set to prepare for the arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Contributors collect their recorded return items during the closing period, after which volunteers group the remaining donation goods.\"}": 0.0009061814895180167,
+        "{\"consequence\":\"Returned goods are easy to find, and the donation pile is already separated for the later arranged pickup.\",\"decision\":\"How should unclaimed goods be processed after the fair closes?\",\"mechanism\":\"Volunteers sort all unclaimed goods by recorded return or donation preference before contributors enter the closing collection period.\"}": 0.2243629429424965
+      },
+      "covered_probability_mass": 0.03215597300298282,
+      "max_checked_logprob_difference": 1.6570091247558594e-05
+    },
+    {
+      "problem_id": "problem_4be89c3a3bc5",
+      "decision_id": "decision_6d830daa9827",
+      "path": "problem_07_decision_15.json",
+      "itoken_probabilities": {
+        "{\"consequence\":\"Fresh experiences are captured through the same questions, making recurring difficulties easier to recognize across different roles.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers place a short feedback card at the exit for visitors, contributors, and volunteers to complete before leaving.\"}": 0.5120667165731189,
+        "{\"consequence\":\"Each group can explain problems in its own terms before organizers identify changes that would help more than one role.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers hold brief separate conversations with visitors, contributors, and volunteers, then compare notes about the fair’s main routines.\"}": 0.43770014352782666,
+        "{\"consequence\":\"People have time to reflect, and their comments can be compared with practical information about what arrived and left.\",\"decision\":\"How should organizers learn which parts of the fair need improvement?\",\"mechanism\":\"Organizers send a short follow-up form after the fair and review responses alongside the recorded movement of goods.\"}": 0.05023313989905449
+      },
+      "covered_probability_mass": 0.017221359729514572,
+      "max_checked_logprob_difference": 2.2172927856445312e-05
+    }
+  ]
+}
