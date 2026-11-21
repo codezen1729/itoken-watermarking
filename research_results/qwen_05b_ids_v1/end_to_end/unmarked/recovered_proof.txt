@@ -1,0 +1,1 @@
+From (m0->p1) and m0, infer p1 by modus ponens.

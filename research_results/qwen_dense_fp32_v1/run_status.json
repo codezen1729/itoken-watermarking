@@ -1,0 +1,7 @@
+{
+  "status": "interrupted_for_full_model_runtime_performance",
+  "reason": "Dense FP32 parameter transformation completed but short generation was much slower than the layer microbenchmark suggested. Suspected memory pressure was not independently measured. Testing lower-memory dense BF16 execution separately.",
+  "model_parameter_bytes": 6174857216,
+  "held_out_test_calls": 0,
+  "development_calls": 0
+}

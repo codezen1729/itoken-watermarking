@@ -2,7 +2,10 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .venv/
+.venv-*/
 venv/
+runtime/
+checkpoints/
 .pytest_cache/
 .env
 .env.*

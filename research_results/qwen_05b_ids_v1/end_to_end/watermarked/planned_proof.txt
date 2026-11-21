@@ -1,0 +1,16 @@
+From (p0->m0) and p0, infer m0 by modus ponens.
+From (m0->p1) and m0, infer p1 by modus ponens.
+From (p1->m1) and p1, infer m1 by modus ponens.
+From (m1->p2) and m1, infer p2 by modus ponens.
+From (p2->m2) and p2, infer m2 by modus ponens.
+From (m2->p3) and m2, infer p3 by modus ponens.
+From (p3->m3) and p3, infer m3 by modus ponens.
+From (m3->p4) and m3, infer p4 by modus ponens.
+From (p4->m4) and p4, infer m4 by modus ponens.
+From (m4->p5) and m4, infer p5 by modus ponens.
+From (p5->m5) and p5, infer m5 by modus ponens.
+From (m5->p6) and m5, infer p6 by modus ponens.
+From d6 and p6, infer (d6&p6) by conjunction introduction.
+From ((d6&p6)->p7) and (d6&p6), infer p7 by modus ponens.
+From (p7->m7) and p7, infer m7 by modus ponens.
+From (m7->p8) and m7, infer p8 by modus ponens.

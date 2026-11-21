@@ -1,0 +1,7 @@
+{
+  "status": "runtime_smoke_completed_scoring_interrupted_for_performance",
+  "reason": "Quantized CPU scoring did not finish its first nine-candidate cached/uncached context within several minutes; investigating an explicitly labeled dense runtime.",
+  "held_out_test_calls": 0,
+  "development_calls": 0,
+  "scored_contexts_saved": 0
+}

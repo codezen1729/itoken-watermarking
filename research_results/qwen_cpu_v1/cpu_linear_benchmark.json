@@ -1,0 +1,115 @@
+{
+  "scope": "single_actual_projection_kernel_microbenchmark",
+  "checkpoint_directory_name": "qwen2.5-1.5b-instruct-4bit",
+  "layer": "model.layers.0.self_attn.q_proj",
+  "quantization": {
+    "group_size": 64,
+    "bits": 4
+  },
+  "original_parameter_dtype": "mlx.core.float16",
+  "dense_shape": [
+    1536,
+    1536
+  ],
+  "rows": [
+    {
+      "mode": "quantized_original",
+      "input_tokens": 1,
+      "timed_repeats": 10,
+      "median_seconds": 0.00040485399949830025,
+      "times_seconds": [
+        0.00040824999450705945,
+        0.00040537500171922147,
+        0.00040433299727737904,
+        0.0004195829969830811,
+        0.00042033300269395113,
+        0.00039999998989515007,
+        0.0003971249971073121,
+        0.0004180410032859072,
+        0.0004022080102004111,
+        0.0004035419988213107
+      ],
+      "max_absolute_output_difference_from_original": 0.0,
+      "rms_output_difference_from_original": 0.0
+    },
+    {
+      "mode": "dense_bf16",
+      "input_tokens": 1,
+      "timed_repeats": 10,
+      "median_seconds": 0.0002631044990266673,
+      "times_seconds": [
+        0.0002963330043712631,
+        0.0002705829974729568,
+        0.00026283400075044483,
+        0.00025962499785237014,
+        0.0002633749973028898,
+        0.00025979100610129535,
+        0.0002579580032033846,
+        0.00025520799681544304,
+        0.00027850001060869545,
+        0.00026862500817514956
+      ],
+      "max_absolute_output_difference_from_original": 0.0078125,
+      "rms_output_difference_from_original": 0.001061180722899735
+    },
+    {
+      "mode": "dense_fp32",
+      "input_tokens": 1,
+      "timed_repeats": 10,
+      "median_seconds": 6.127099914010614e-05,
+      "times_seconds": [
+        9.470900113228709e-05,
+        6.637501064687967e-05,
+        6.479200965259224e-05,
+        6.137500167824328e-05,
+        5.808299465570599e-05,
+        6.1166996601969e-05,
+        6.016700353939086e-05,
+        6.354200013447553e-05,
+        5.7666009524837136e-05,
+        5.979200068395585e-05
+      ],
+      "max_absolute_output_difference_from_original": 0.0066471099853515625,
+      "rms_output_difference_from_original": 0.0004841388144996017
+    },
+    {
+      "mode": "quantized_original",
+      "input_tokens": 128,
+      "timed_repeats": 2,
+      "median_seconds": 0.049022479506675154,
+      "times_seconds": [
+        0.049221417008084245,
+        0.04882354200526606
+      ],
+      "max_absolute_output_difference_from_original": 0.0,
+      "rms_output_difference_from_original": 0.0
+    },
+    {
+      "mode": "dense_bf16",
+      "input_tokens": 128,
+      "timed_repeats": 2,
+      "median_seconds": 0.0005391875019995496,
+      "times_seconds": [
+        0.0005627079954138026,
+        0.0005156670085852966
+      ],
+      "max_absolute_output_difference_from_original": 0.015625,
+      "rms_output_difference_from_original": 0.0011336753377690911
+    },
+    {
+      "mode": "dense_fp32",
+      "input_tokens": 128,
+      "timed_repeats": 2,
+      "median_seconds": 0.0008269789977930486,
+      "times_seconds": [
+        0.0008689999958733097,
+        0.0007849579997127876
+      ],
+      "max_absolute_output_difference_from_original": 0.0075893402099609375,
+      "rms_output_difference_from_original": 0.0003953909908886999
+    }
+  ],
+  "warning": "No full-model throughput, probability equivalence, or model quality claim.",
+  "benchmark_script_sha256": "9b67f50034e290dbe95ff7eb1ed57a21bce6b5985d441b2f48b7bf63f0a34cbb",
+  "runtime_cpu_wheel_sha256": "1d90b10e4ea31fd49d154b2ac136ba93c28b6b083cff068986d8ad947dec72a9"
+}
