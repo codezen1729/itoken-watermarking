@@ -1,0 +1,205 @@
+{
+  "id": "dev04",
+  "source": "previously exposed development/oldtest",
+  "input_text": "Starting from p0, I apply p0 -> m0 and obtain m0. I then apply m0 -> p1 to m0 and obtain p1. At the next stage p1 and d1 both hold, which establishes p1 & d1. Finally, (p1 & d1) -> p2 applied to that conjunction establishes p2.",
+  "gold": {
+    "expected_status": "complete",
+    "expected_canonical": [
+      "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+      "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+      "{\"conclusion\":\"(d1&p1)\",\"premises\":[\"d1\",\"p1\"],\"rule\":\"AND_INTRO\"}",
+      "{\"conclusion\":\"p2\",\"premises\":[\"((d1&p1)->p2)\",\"(d1&p1)\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {
+      "0": "mp",
+      "1": "and"
+    }
+  },
+  "recovery": {
+    "status": "complete_proof",
+    "accepted": true,
+    "complete": true,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "m0",
+        "premises": [
+          "(p0->m0)",
+          "p0"
+        ],
+        "rule": "MP"
+      },
+      {
+        "conclusion": "p1",
+        "premises": [
+          "(m0->p1)",
+          "m0"
+        ],
+        "rule": "MP"
+      },
+      {
+        "conclusion": "(d1&p1)",
+        "premises": [
+          "d1",
+          "p1"
+        ],
+        "rule": "AND_INTRO"
+      },
+      {
+        "conclusion": "p2",
+        "premises": [
+          "((d1&p1)->p2)",
+          "(d1&p1)"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "Starting from p0, I apply p0 -> m0 and obtain m0.",
+      "I then apply m0 -> p1 to m0 and obtain p1.",
+      "At the next stage p1 and d1 both hold, which establishes p1 & d1.",
+      "At the next stage p1 and d1 both hold, which establishes p1 & d1.\nFinally, (p1 & d1) -> p2 applied to that conjunction establishes p2."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I008\",\"sentences\":[3]},{\"id\":\"I009\",\"sentences\":[3,4]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I000",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I001",
+        "sentences": [
+          2
+        ]
+      },
+      {
+        "id": "I008",
+        "sentences": [
+          3
+        ]
+      },
+      {
+        "id": "I009",
+        "sentences": [
+          3,
+          4
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I000",
+        "verdict": "supported",
+        "sentences": [
+          1
+        ]
+      },
+      {
+        "id": "I001",
+        "verdict": "supported",
+        "sentences": [
+          2
+        ]
+      },
+      {
+        "id": "I008",
+        "verdict": "supported",
+        "sentences": [
+          3
+        ]
+      },
+      {
+        "id": "I009",
+        "verdict": "supported",
+        "sentences": [
+          3,
+          4
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 49,
+          "text": "Starting from p0, I apply p0 -> m0 and obtain m0."
+        }
+      ],
+      [
+        {
+          "sentence": 2,
+          "start": 50,
+          "end": 92,
+          "text": "I then apply m0 -> p1 to m0 and obtain p1."
+        }
+      ],
+      [
+        {
+          "sentence": 3,
+          "start": 93,
+          "end": 158,
+          "text": "At the next stage p1 and d1 both hold, which establishes p1 & d1."
+        }
+      ],
+      [
+        {
+          "sentence": 3,
+          "start": 93,
+          "end": 158,
+          "text": "At the next stage p1 and d1 both hold, which establishes p1 & d1."
+        },
+        {
+          "sentence": 4,
+          "start": 159,
+          "end": 227,
+          "text": "Finally, (p1 & d1) -> p2 applied to that conjunction establishes p2."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I008\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I009\",\"verdict\":\"supported\",\"sentences\":[3,4]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 4,
+    "predicted_steps": 4,
+    "correct_steps": 4,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {
+      "0": "mp",
+      "1": "and"
+    },
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

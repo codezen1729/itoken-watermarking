@@ -1,0 +1,52 @@
+{
+  "assessments": [
+    {
+      "document_id": "fea9d80cc6d74422",
+      "status": "preserved",
+      "reason": "At stages 0, 5, 8 and 30, the established p licenses the inclusive disjunction, which supplies the antecedent for the next p. At 2, 15, 17, 22 and 24, d and p are combined and used jointly. Every other stage derives its m from p and the next p from that m.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "0c27bd3355be7abe",
+      "status": "preserved",
+      "reason": "The rewrite uses the disjunction itself to reach p7 and p23. At stages 11, 15 and 19 it forms the specified conjunction and derives the next p from it. At all other stages both implications are applied in order through the specified m.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "42934e05cb104c35",
+      "status": "preserved",
+      "reason": "Stages 4, 6, 10, 15 and 20 each introduce an inclusive disjunction from p and use it to infer the next p. Stages 11, 13, 17, 24, 26, 27, 29 and 31 each combine the given d with the established p before using their conjunction. Every remaining stage asserts both steps through m.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    },
+    {
+      "document_id": "6496974cbf9a91b1",
+      "status": "preserved",
+      "reason": "Stages 9, 11, 16 and 22 introduce the disjunction from the known disjunct and apply its conditional. Stages 13, 14 and 15 each form and use a separate conjunction, as do 20 and 26. The other stages retain the two directed implications through their respective m.",
+      "original_applications": {
+        "preserved": 64,
+        "omitted": 0,
+        "changed": 0,
+        "uncertain": 0
+      },
+      "additional_applications": []
+    }
+  ]
+}

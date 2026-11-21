@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "document_id": "0f38edb6a7d88692",
+      "status": "preserved",
+      "reason": "Stages 0, 21, 27 and 29 each combine the given d with the established p and use that conjunction to reach the next p. Stage 11 derives (e11|p11) from p11 and uses it to establish p12. Each other stage derives its m from the current p and uses that m for the next p.",
+      "original_applications": {"preserved": 64, "omitted": 0, "changed": 0, "uncertain": 0},
+      "additional_applications": []
+    },
+    {
+      "document_id": "46a174a58d97835c",
+      "status": "preserved",
+      "reason": "At stages 3, 11, 12 and 23 the established p licenses its disjunction and that disjunction licenses the next p. Stages 14, 15, 17, 18 and 26 explicitly combine both premises and use their joint truth. All other transitions proceed through the original m in the original direction.",
+      "original_applications": {"preserved": 64, "omitted": 0, "changed": 0, "uncertain": 0},
+      "additional_applications": []
+    },
+    {
+      "document_id": "25e35a6ff43f7e10",
+      "status": "preserved",
+      "reason": "The disjunctions at 4, 6, 7, 20 and 29 each follow from their p and supply the premise for the next p. At 11, 13, 18, 19, 23, 24 and 30 the rewrite establishes and uses the original conjunction of d and p. Every remaining stage asserts both successive inferences through m.",
+      "original_applications": {"preserved": 64, "omitted": 0, "changed": 0, "uncertain": 0},
+      "additional_applications": []
+    },
+    {
+      "document_id": "9166d7c0109273d0",
+      "status": "preserved",
+      "reason": "Stages 3, 6 and 13 each introduce and use the original inclusive disjunction. Stages 17, 20, 28 and 31 each form the original conjunction and derive its consequence, including p32 from the joint truth of d31 and p31. Each remaining stage takes the same two forward steps through its m.",
+      "original_applications": {"preserved": 64, "omitted": 0, "changed": 0, "uncertain": 0},
+      "additional_applications": []
+    }
+  ]
+}

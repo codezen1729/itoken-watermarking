@@ -6,6 +6,12 @@ The original **controlled symbolic prototype** uses a finite autoregressive refe
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
+## Stronger recovery and free rewording
+
+The [new stronger-model experiment](STRONG_RECOVERY_REPORT.md) uses GPT-6.2-astra agents for recovery, verification, rewording, and separate fidelity assessment. Actual Qwen token probabilities still supply the planner, so this is a hybrid experiment. The fresh recovery holdout was exact on all 32 cases. All 16 rewritten paths were recovered exactly; all four initially detectable marks survived. Overall detection was **4/8 marked rewrites and 0/8 unmarked controls**. The explicit symbols alone also reveal every branch in this cohort, so it does not establish that the stronger LLM was necessary. General idea watermarking remains unresolved.
+
+Run `python3 audit_strong_results.py` to reparse saved responses and recompute the paired results without a model. The [frozen protocol](REWORDING_PROTOCOL.md), [recovery methods](RECOVERY_V2_METHODS.md), [raw artifacts](research_results/strong_recovery_v2/agent_artifacts/agent_calls.json), and [machine-readable results](research_results/strong_recovery_v2/summary.json) retain the complete cohort and model-interface limitations.
+
 ## Run the example
 
 Use Python 3.10 or newer. The generation, detection, experiment, and test code uses the Python standard library. Run these commands from this folder:

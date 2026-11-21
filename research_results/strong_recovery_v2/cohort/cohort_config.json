@@ -1,0 +1,22 @@
+{
+  "protocol": "local-state-real-probability-rewording-v2",
+  "units": 8,
+  "stages": 32,
+  "marked_delta": 6.0,
+  "unmarked_delta": 0.0,
+  "seed": 20261122,
+  "alpha": 0.01,
+  "surrogate_count": 199,
+  "bank_sha256": "592db1a225ba74cc66fd8d474a908ae69224bd529f53770d90326b6e35c077e6",
+  "key_sampling": "target and surrogate keys independently drawn with secrets.token_bytes(32), recorded once",
+  "pairing": "same sampling uniforms per unit across marked/unmarked; independent keys across units",
+  "source_sha256": {
+    "local_state_planner.py": "4ecf3d784a60e71cc28013bd712e6b9234867d0e7862d923686eee33d4e8fcac",
+    "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+    "real_model.py": "f47857189318bd67c0a18b50ab43acf213ae0e022205b9c08202755f1d8a26ae",
+    "pipeline.py": "03aa3e2812a68d0df5fe6cddc25682344e84c09bcdfb717fe058532259727c6d",
+    "watermark.py": "60c5908fbdce77493b826725194e5ee36541457be9d76b8bdc2bad9d3325b717",
+    "real_model_pilot.py": "a0611354d34627f6d32b3df319afc136571094183d163a552e73a889b3cc5163",
+    "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+  }
+}

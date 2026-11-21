@@ -1,0 +1,92 @@
+{
+  "id": "dev05",
+  "source": "previously exposed development/oldtest",
+  "input_text": "I used the fact p0 and the implication p0 -> m0 to establish m0. I stopped there and have not supplied a derivation of p1.",
+  "gold": {
+    "expected_status": "partial",
+    "expected_canonical": [
+      "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}"
+    ],
+    "expected_routes": {
+      "0": "mp"
+    }
+  },
+  "recovery": {
+    "status": "partial_evidence",
+    "accepted": true,
+    "complete": false,
+    "reason": "Source-indexed, model-affirmed applications passed structural checks",
+    "model_status": "extracted",
+    "prompt_version": "sentence-grounded-recovery-v2",
+    "semantic_entailment_verified": false,
+    "steps": [
+      {
+        "conclusion": "m0",
+        "premises": [
+          "(p0->m0)",
+          "p0"
+        ],
+        "rule": "MP"
+      }
+    ],
+    "evidence": [
+      "I used the fact p0 and the implication p0 -> m0 to establish m0."
+    ],
+    "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]}]}",
+    "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+    "proposed": [
+      {
+        "id": "I000",
+        "sentences": [
+          1
+        ]
+      }
+    ],
+    "verdicts": [
+      {
+        "id": "I000",
+        "verdict": "supported",
+        "sentences": [
+          1
+        ]
+      }
+    ],
+    "rejected_ids": [],
+    "evidence_sentences": [
+      [
+        1
+      ]
+    ],
+    "source_spans": [
+      [
+        {
+          "sentence": 1,
+          "start": 0,
+          "end": 64,
+          "text": "I used the fact p0 and the implication p0 -> m0 to establish m0."
+        }
+      ]
+    ],
+    "evidence_format": "newline_joined_exact_source_sentences",
+    "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+    "verifier_version": "asserted-application-verifier-v2",
+    "model_verification_performed": true,
+    "model_calls_independent_errors_claimed": false,
+    "calls": []
+  },
+  "metrics": {
+    "exact_steps": true,
+    "status_correct": true,
+    "strict_success": true,
+    "gold_steps": 1,
+    "predicted_steps": 1,
+    "correct_steps": 1,
+    "extra_steps": [],
+    "missing_steps": [],
+    "predicted_routes": {
+      "0": "mp"
+    },
+    "exact_explicit_routes": true,
+    "false_acceptance": false
+  }
+}

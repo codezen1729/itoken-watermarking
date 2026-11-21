@@ -1,0 +1,804 @@
+{
+  "document_id": "46a174a58d97835c",
+  "unit_id": 5,
+  "problem_id": "study-25c94e4d7af44bbd",
+  "public_demonstration_key_hex": "8a99fbc1c1c7025db6244a88804dc9357795359b621ce814a5920c318ec664f6",
+  "surrogate_keys_hex": [
+    "c2474d8c142c7ecf4ea28721c483a6995b2d055d6d2118ab0981c2065477280d",
+    "339135af9fa33ae4639bb0e58aab83cb750d412fa30dc4b87337bb21bb48dea9",
+    "02bbe1c7ce5326744e4d3f23cde7c7c4fe802bb75ee69fd52d33897df920267b",
+    "2d19a53976d75f4f7dc978faa34039d8c3318aacc7558e12ab4e05cd87a837c8",
+    "02e8f234b82b8167300a2283477006409010dc0a945b4622569c7a0154ba33da",
+    "27e53639f778fd72fa51d82c76af6d388e298b721bcd651e82eb4ed97898a75b",
+    "099013829c84a47b72c280c613a97dd75d3d43dd2690950135da8a85da002b3d",
+    "702579e3651d268bb036db99eed7e7857795e20548f64ef337c93c1fe85ac6ae",
+    "6681b4739a3a75e0c7cddeea054e0f7987ece13f5096b37728b0b559f5f2c381",
+    "dbbc634bcfcf6ecff251f2393afe12c7df07361692fd735cb0263241bfadbd9f",
+    "541b3d0e230c351d072d989f8d06e155f636ab5114d2bd84a84920e05463b497",
+    "19b8246f0548e9578cc534faab34a95ca10de0a5d7346288c419701f79f0e8cd",
+    "4220e5add2105de148769e29ddf6964f897d49d16ff9ad1ee1ecf5babe02b126",
+    "e0b870815c0f672266fa0fc7ce665a3982ca5bd1d68122dac274a23aee3d3b88",
+    "ec1cc377fe1849a45f637384dee120dfdea8075cc075f7cb22da411a0131ebb6",
+    "7ee2a3a95b6ded30b115710c35aaeb619c2cdadb6853fc19781910d0d7b3d791",
+    "b90d8c3e98b8845be77a4daf86778b856f106491f5af1643277f10a01b3e9118",
+    "d814f6a4314202351f8555aa4df5fdd1a032e021f6ce5f8570ecb14f09c0b8df",
+    "b78493e02d00356005094607a06de522152bcc7c44276ff25b3bbf4ea62f35a5",
+    "605a8b03c0fff8d8371144d1c138a4ffb9cb53f176b095d35edf2dcc8751d2e9",
+    "61915671adab812f085aa4e30d09106d8991ca6b1a24971ab098124f00ad9f55",
+    "d9303a3fc9a735482d5945765baf8d4f48d56f2cd227c16e62a80cf92aa2a10e",
+    "1622f191ab6c5618f6a8722ab055d53a061ee3864bbfc003e6bd9f309a1b57b3",
+    "2d091b0cfd7c8d842310ca0f507fb86797861a79febbf05a936951f92d230b11",
+    "81d4cc9505271477b3db7b9c5eb282214bd9a9f1b0f1226a0428e4ca64f55461",
+    "27e77b67de15c5475d8b34c086e37bf84ee4903c0910877e40bcc3fa70fc43d6",
+    "c198a121b6c488020bbb43d07ffa6c9e26e2d47ef0143ec89b687a4e97cf261e",
+    "e8e38ac789f6276147e3020f486edaa054f667f5fb88bdcc5ea1eea32e28fe95",
+    "5f30c021d133849a8dff01d9dad1d3e5f1c9543f68c726ddce3db3f45a43b53a",
+    "2665630f045a363e18ceaba82d6eb4951e9a829d8ccfce16eb40b169062217f7",
+    "53a7674eedf0a42131528679a8777cad6a79d125ad1b246772c6a747126b1fff",
+    "b591861d25f26e7d52d29bd1d4e6055ff7c25d7a9c9581c5dc54e2a0ebe40f1b",
+    "e2cadc10d4833c5a3783d275121c29e54d40f1f2e544ffa113607254c53b4834",
+    "e68af9975773fd42e5e5a587ae0efcff822d11b33cf4971cdae1dee30903a980",
+    "ea0f9a23836e6d8bc26485de6e207e55281489e815a29f7eff62cb9585ff7ccc",
+    "3a6e2ad333b23a0a087c75f450826140690470c0696a4eebb947b6ebe8f53aa8",
+    "6189201a7f45d37f95f8d2b434242979d5ef6e00bb3d7895d7d9c395bbd78dee",
+    "63cc6e636f003f5d9f0076f6c02eb2934cfdb47f56a25308249f7d06240d384f",
+    "cec1dea254f82c9553c93701491827cc6a4ae888c90ddedf67897aa7ad198b50",
+    "9807ca41538df3eb91415dfb3fb4986d525f17340ef5f0aa9800c5f19409c875",
+    "204a27773e4bc35a584b40d1e448caf586d1231ddd82e4a74cbbf39c3b7c3447",
+    "cbb6d7d053327ea0583c75d64dd4c5e264d7f495187572fb11b761fa98551b55",
+    "e0ddd32bc94921164124261e66b2ac58102d14fa4537f0782e1146493b05fef6",
+    "ad6bd4355e83facc44fefd86feef0d0662c9381a5a4c453d804396ac6b2f9b05",
+    "d5cac1f8034ec012fdc5bbd572f5681af6500bd2189d5d3046c0d8a10bd13166",
+    "8f5c307517e2fd123cbbdbb8871d0c545eb0f0ceb898284b92b5b506331e58cb",
+    "e4df5b97aae70426f66cb3602282c0e50a8d24728ce4d7a99c4d6c406484926c",
+    "a5c59dbf291f972e33fefae102992e129cc3aee6172d465eff77c65f9849c8a3",
+    "0655abae766031c9f527da76eb76195bcd6f01af28fcd40647ef487c63f5445a",
+    "1383407011324c91c0ee369b6cc052d37c8c502b9b9e8b437f62db0fb4e6f273",
+    "80efd03c9eb3c3027031ce74e575c59688a6ec4407d0153e65ca1e9fed046e99",
+    "848658e84c0cf22d69bc7c9be29025f50267fc2c31200adc338c2fc36677c851",
+    "0f926b59b3607594ba85d8e28b6e79b4ea8f6f165c83299de5223eadb2a0d1fe",
+    "ba8e1ab999e586e781cdd157dce36c20fc57d238fc947f7c1fe56f997202b0fd",
+    "20eb41043672a34023e80ccb2d912e898a59f88fc5e70359a9995455a29b9810",
+    "8247d70f988e8391e4c26b0c49c40697b432f519fc72e45a29fbd02ca07efe68",
+    "2db3f774402a1198ccab67182c6deaee978b3a81688c7555179cfd99f48d7fa4",
+    "d2927ea5236a02fb07048476ff6f48ac2dc968723076de457f77a8e99994443e",
+    "e0009e229f3f235d4c1de2b6ad50f9c79b71273ec2007adee0315bdef6dd51e0",
+    "e5d37bda216bed438b3f4be8dce40997d8c94de2237c923df7a33a713ba1841f",
+    "6c1bc43e868bf2e8f5b6c2f138443f51bc9df84fd372f22ade7cfdc8acc209fd",
+    "05de4f42a513ab6b87cb5d9197726a93103a31b898996c1d1f1be87a67d48165",
+    "38b0a649d44b22773990c95c4e503adc77d4e7b8fbd015baa6a8e58dad5c954d",
+    "aa561ab3d92392eb156a9be2f6301150ad83f8986aed960eed5aca5b1ec0085c",
+    "337eec24d918d75ab31697be038a34446833fbf1c71f3fca60d803086b853e36",
+    "8ffea7397729744f9ce2b13c019752ba3d98bdcaf73989b927edc159a364f5af",
+    "052123c7d9c78f309f7dc33720afcca7149558be683f38e746cfbaa5017b0d41",
+    "3f9a20c27459a7059cbb9b5943205114020caa13c3257514a2cda4c7104837ab",
+    "552390d6295f872af12ded0c6d29a8c8b0929755c230daab0a9c4e2b5b092796",
+    "721e5d934f61214258878a6126e7dd830683e753e72f5cd96ef84fc1a1a243b9",
+    "8385dc5a930f2aad574d70dd34b67384211972465cf6c9aa95ee1c0f3b087848",
+    "64c86a7fdf186b5fd245c63566cca56e9953b9afec9b5916b1010e6d83c68ea1",
+    "40c7284d56ad9394448398a1284ad109095e2aa128cd5a287a21c1f18ade7e9f",
+    "f76befd9d53d6c618c8631f88ddebe7c5b38134108560daf0e9ebece22bfe746",
+    "1c229a3dc3d0c36830e6be11174bbf1eb87e0951092b5f4998455205b464a97a",
+    "06003ff0e7b7efac653363fc2e1d21ba2e9b0fd0b310e20391f0a4db7478c4f1",
+    "abe28c478752452ce1e1c9fb66e07ec9fc453131dc44be57105bc038231add1a",
+    "d174540ca9137413c719b23663f17bdd743a6e9b63259e5ef75d091d49e39027",
+    "2260822b038b6df96c242c1b849cf0991d706f55ce23908256df1149a1c52485",
+    "1eb2dff8cbab8a3be0c85d0e748400a67338a200dea6c0a2508f56a60cb19a25",
+    "92f3bb15faaf2a8e8bba4f2aae4b72b2e531f5b01b87677ffc8f46035f252965",
+    "b585dc2a1a8517b885402974337400a4867fce114a326826f5e513103241dc18",
+    "dd4edeb338d90640f9fbd5178847072e91349e4a7fbabf341f0400935f813be7",
+    "b7e6362efce42c85a687111728577d1587f2ab0fa7e8a00acb736d6934129a89",
+    "212b817a407eb07da01cb65afcf17534611f22a960ec6b977002d6f3c7b95c78",
+    "1cb465cd9b34bc63e1ac4a34e1c4786df357e7fff03d131cf3d2565719f65d67",
+    "2ea65999f7c621c3eb90cdf6b659b08ad6cdc914de2818ee2536db0ad1ca875b",
+    "d216840a548819cbd0bf58043d849550b0a0d01179235fe5fd941dc5d8346dce",
+    "77f31404eff78430d5af04c66558e758fce0daf4ca6e8c38c580b1512d1321d9",
+    "234d28cede3de8279c05120898814e5dd47c76e67634a9c50f0613f71d856c53",
+    "5c3c74b8c770889ab80a1add00f4c3dba3aaec55babf69065c98751b11264a12",
+    "2b03b497919445cbcf4261532ebf1d6f720ee3fb816b7d0bd72e98281824047d",
+    "dfa9c75adf2b46e2226335db4473d2fd49e2d19dbf5bff79639b6c4feba6d883",
+    "5fc90d216b896f3259cb49965cc57c90bac2469e947748250ca5864e0dc8d687",
+    "f652222a65607d841b3688ee2fd7babeb35eda8aeed19207df1ae586faeddf2a",
+    "e7c0a027dee8fcd12080351bfb68ae44797ffa706024a78ce52427946d7e394c",
+    "d7aa7c57ab0822c02fb9ec88df302f2936eb1ab067f74a4a1144ed732468e5cc",
+    "33403698d77a22d5492c7e2c52d32ee3d8a96d9c16910220e83d809b8dec07ba",
+    "586328b0b9278983a3b9dde22c1648db83d80fb9dfb57687f5bdc44989e931e1",
+    "f914e0c73a5dd3090b2426bfdd96c2b16e81792354be2974dd3e10efca77ebcd",
+    "0726f8c7e46370d5407edc888395c20eff5fb397d72d3d562564f6a6c94f08c0",
+    "07f208a1f38d64b0df235fe2cb44d74d33bee7362a20607fd077fd2120aedc12",
+    "3dc2d498d63380aee12b4747d1057a8114a6093fddae4f65946c7366ba65d01f",
+    "72c2ab6a781d3f20f32670035d66a3bb3eb050e1c77e8c559b055a28617411f4",
+    "5031cb0069133f5489f56bc9d9395bca625c57a3c70b49447f5ed2680dc6e3de",
+    "698b43f2591c786993a8a45bc389b74cb9458facc7b127e9f73b7ae6ca4bf633",
+    "a29a729f968a9b34f44767240d0661cc50abc8fe2f1fad796a133fede4c1be3c",
+    "0dc31e40858476f492df0de11b8d5abb6110af0324df103d8aff364e065b9762",
+    "a683857c34a58147dae011e1b3db6ac4a929a2f13c51f13934016462fd469188",
+    "9898ef3e0d7ac0973cb1b5ce9a18ead4e9cdb22f788002bf65dfe00519758940",
+    "b7189ed9cbd84b715b0d41aec8878c69af142020a5ce51ef67bf4593c29234d0",
+    "bc6375f67b7470d42d8c9b4ec55a09f54ddc757e5c354a25b37416ea0a454202",
+    "2893508ba6503667d18dddb10a70baeb65ba9d010e0822d15782cd978f36a935",
+    "c0e6b7ae6e35d361bdd1945dbbb62714e342ac9dd094baf6d10e6080c3cbcad7",
+    "71da5bc3c49e4010f49e339d60c75614fffe57708b6a69732745173b204b4068",
+    "d5cff8a5b2d58d76114930501a544c426d331c895a772d7b7bae7ecbd7f45582",
+    "fa06af79babb70efc3f2a94b45141fad6887c2e2fbef938b5a4881c3c87b5821",
+    "39a6d110eb6acef70c8186c514648a0886ea18d4006b4caefaa3099d568bdf04",
+    "51158f5c5c02de8be6cfca7c6746b9c126f42ea47ec7ed7a1be2c413205f0219",
+    "03ae1e711a423eb56bf6849de889967f11b1b0920079b630af8091b4ebcab49b",
+    "9ed845c458950e7beb0535b79ceef71745907933273ce6c23472d9a5322f538a",
+    "b29383c66cd0f7053d1de264897019b6fbd3c11f5761b41d3fe593cf22d46377",
+    "b211852286c40f9b7db01c52f37b03c0a0109948e83bda41b5840d08ed8b6322",
+    "c361a84130f55307ce66fb5f97cc53672192f5d4f566f1c05598dc8400b60835",
+    "dc16d7fc514f431b1714b77135576f243bebe8c2cfa88c828b8f41024adb9da8",
+    "e3dd38acae880d15dff18cf1046ff10d0973cac9c23297eee8cc64bbb065194c",
+    "4c6281f9b1cddc5ffa132f94af814690418ac2dd073cd22cda4fb56a58a54234",
+    "7f8aef8742109b3426fbe136888bb5df7185b489401e723a83c717737d63cce7",
+    "e9ab677c036784dc92cf03c9d423ffb1a48b8141093ac118f20fdcccff6665d2",
+    "e126659b94b9858b8a44e1a397a421cc7cfbe1864561455b4f78a7ea354e49d2",
+    "a36d76e672a1b5ad782174b7119845b74e1f36a23afa0245132fd18deff9a895",
+    "e44631f08a8d6a63c838c9767d2a636872f2b0e67ca375b49110b7ad4c964dcc",
+    "bcf973b9854140fd394708e22c6343b11decc9c12c5fd9b12b6e109703953a1f",
+    "9e6d638ac8f09646ab45e129ab7eecd97651689e58e1afcc81acbdb96f8fca41",
+    "7de751d10e5572dfbc8e387a2764179257acb9aed7f858de6aa7780c466b8521",
+    "76227c841a77daa93d771ae659e1a9fd1eb463f5637a5f49698b49c893945c34",
+    "6258c3df48079234a5238315f340c64362fd213122cdd10d428446d9bafd866b",
+    "1a591a5e8c8c6e1c7eb5ca6c2001bf6f11c4bb4dba453a673e1d2d1891acf9a3",
+    "b1e803526c77215c326a704bfca0dbdba57bbb5dff0666f9ccd699433a76f886",
+    "99002cd5fb1e118a21366591782026026d6ce3b87f8c080201c7665c65f57135",
+    "a72a2e9ba9e0931a8afe84ef108a1deb59c2a5253f23e6c4ab7d5eadd533931b",
+    "9006026a6fbd8816c4aa96e702a66c6e26d8de385824004e4a459677d769dee4",
+    "5835b44409e7f92d8e3e8bc1aa98a5dbf5f0e0d95ca5dced132cb23f90274517",
+    "b03037cecede8bdc9a544675793cc706bc7e0ecf434fa93f2f8af168b5c6f798",
+    "a4afdf3266b2354021970daf2a02482710434f2fabaf45b183e2f03ae2d6c455",
+    "d90f7f6593fa12b183fbe75b396165aacfdfc8b99297edc798954e46c73e265c",
+    "71c96b234bf60a7eb5b9355a79bcf1f34284ad8abf4c812d8b3b1c8674eb5ab8",
+    "729e110ab5253a537d1a4b6c51da4c1aa28fe8e237cc2941b20e9ea85f40e6e6",
+    "764f5a4c5c732213c352cfcec1cb997b67c330ff5eb19e782e3a0c55fd319b7a",
+    "3f0c5e175e881ef8add22815e6dcb1befa78ccba34722f0a23995aa783eef101",
+    "37ae595acc337bfad223864bb1290f4225c707b867262ebbe0e4392b91d66fa8",
+    "ada7873ee021e5423fef7cac8d9db55dfff6734e345b534fa63f34ed9340f51d",
+    "b04f2c2b2016d021da31a31cccb650a519b3250a80d1c6b98d53b539f24fdeba",
+    "260d5a11ac798e171556c4ebce22300a5a4b8fb66ffa759d2a771ad35f0bd85c",
+    "a0773bdd0b1e413c154882dde4304cf3d4d26569ec482325cbc47db01a324bb7",
+    "f8e2dc93eddd50a7fde82f8ae3d6c83cdae7e0ae66fe3ef3788eee25da04bf84",
+    "7872addb595bb9e0c13fb3a1ce1746d6b1d2f64e19a2bf8377d016654001e91a",
+    "e805c8708b055ca382e19332366c37cf55520cdada7a230a06f1f2fe0734d604",
+    "e6e011778fa2cea2285b999ec52cffcddaa476ab015924f7adfad887d870301d",
+    "cfc3f51b45b8bcdd9f95502de3f9f40990e1b93a03eb0d89fb8afe896e1d0ea0",
+    "0815a2ed7718274408af56f78fa9a4052f7c74c7d72142e71b15995f63ee760f",
+    "57beeb7b3b5c33dd30675be763e775ad03171c2af49ef8041582644f55f28620",
+    "69e7d27d9dca68d3f9fbab1ada6037c2b8b3b205b9f239daf3de1cabe92750ca",
+    "c434b7bf82eb5180e83cfcfdf1a170e27457926d1d2ad36abbe4d4bf23ff9f15",
+    "790c3c435458c430b40b56a0eb1143a887760890cc05051706832b9344ff517c",
+    "6d324eec47562b3a94cb981b890b0f9f1f908138562d94896bab44785f1e0f32",
+    "c478d16e4e9b1a2cc283fa681b46f348b3692e17ba9be70eefc35b8c1d8a0f50",
+    "5198632b1352b4498cb4c40657f37b2eb0cade15e5443818793712745b12db8a",
+    "76696eba3ef9cdf8f8e0f4d4e0e047a8e4ec8662bb64134c639049878160d2dd",
+    "57a96e35e92425577c4abb1ef97ec36c44e5f931db9c2b6ccde5b4d9efdf5723",
+    "7f1f016c733d4173ac1e78a455ad974804daaec4d98ca44cc34bac0ff3252415",
+    "191a88e6a05c14eaad9b4d30b9cf3512b550f57285e6d97a92f2d4f05809c3a0",
+    "bc63e08831cd1946501760a426318329f8c2bccb3dfad5a489527321d1926ec7",
+    "b144fc173199ddcdf61635fb28dadaf76613df5452cebfb8c81f66a8c294936e",
+    "d57850bd59d4d0322c486fb3e8c3a76eee19fb1f0178648c0612d29d311f67b6",
+    "b5b04c8ef78768ba711c44ed5a476625fded866d2feaabf40f5de38d15b0b363",
+    "b1f0a79e0cd90f898b2c411b5af38482f58f583f347ba2738da94d2beea38c11",
+    "c8875d49f23744303a4c41e91b7fb20fa501f0f21ff0ea648770b2910d6f14fb",
+    "9ff172aec8416fd42b1934c2c3c343bd10913ef6252dbef1adf28cad570e6299",
+    "9aba8e7e9a54d382a0e2337d0fa83f3e097ec86334be693866d92b707c13e396",
+    "e795b885493e51cad47f3b77097c884f6c85672c9ec6ec1fc6f25f466244f2c5",
+    "763b62873d51ad62cd915f623c460c543e51382b0bcc53c18d81d45c0af94297",
+    "cd16dc53fde9e2f8a9109332eec8b3fc8e2e41777dc7535c0f59ce50ceb72a48",
+    "01a82aa785c8c5c60f1a853bee182aeed1f768189d2b277e02bc16372a56338d",
+    "ed15622cbf1477d15a41b93a1007fdf4023af0861f7b9171571c5f59dfe29b5e",
+    "8e619efc08078d24692157a3285dff3eb4e1e0641167eb9a2d67bcf4e1570ffc",
+    "0feb1e027e67f94d1e11e3d9c4e2d9e6e3ee3d6854b361b510680a7cecd99280",
+    "a06ed92988518a9e6faabc73275a76ea9aa22ad88a802ac56567f9d669258dfb",
+    "044c511ed14e2e84532a668871959c106db0d3afa5639791bdd5bc86c6b24ce8",
+    "a37261212ec6b525dc88858c09a6169c18b0798a10387b0e9e84189a113ed137",
+    "1fd2d18eaadb57b50aca956a258d8a6307f9285205bdcab6b1e782b972776339",
+    "5b7cbee3dbe679191ce498107f2f3c032a3e83f999719bf99c047cbb6edec3fb",
+    "1a4058c5b292e432a084b853ee08a8e39282dcbf76ac8b01ff3032be6640c86f",
+    "1b57d150f54d9fbddf06890290f0efd50719b31ba5bee675ec8e5d05fff1bf8a",
+    "55b43b6a97ea7b8509728f44a2ba73963ff0aea37609997e72617907fccfe154",
+    "931bc6412679e0b5a3a70479f3304282291edc7ce1cd39e4be3ecc918e3be77a",
+    "e463329c593d0d742ba149f7e0f94685831f90d5477202dbbf98248874b5c695",
+    "b2f51d686474a5059c8c62933297e5fa8ad2eff98848d1498f5b2eb4b8714785",
+    "80c0b64256f90e6b392208dd43224df7793266424aaa3284e04d0f05d031e487"
+  ],
+  "sampling_seed": 20261127,
+  "condition": "marked",
+  "delta": 6.0,
+  "n_stages": 32,
+  "routes": [
+    "mp",
+    "mp",
+    "mp",
+    "or",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "or",
+    "or",
+    "mp",
+    "and",
+    "and",
+    "mp",
+    "and",
+    "and",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "or",
+    "mp",
+    "mp",
+    "and",
+    "mp",
+    "mp",
+    "mp",
+    "mp",
+    "mp"
+  ],
+  "planned_canonical": [
+    "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p2\",\"premises\":[\"(m1->p2)\",\"m1\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m2\",\"premises\":[\"(p2->m2)\",\"p2\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p3\",\"premises\":[\"(m2->p3)\",\"m2\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(e3|p3)\",\"premises\":[\"p3\"],\"rule\":\"OR_INTRO\"}",
+    "{\"conclusion\":\"p4\",\"premises\":[\"((e3|p3)->p4)\",\"(e3|p3)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m4\",\"premises\":[\"(p4->m4)\",\"p4\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p5\",\"premises\":[\"(m4->p5)\",\"m4\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m5\",\"premises\":[\"(p5->m5)\",\"p5\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p6\",\"premises\":[\"(m5->p6)\",\"m5\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m6\",\"premises\":[\"(p6->m6)\",\"p6\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p7\",\"premises\":[\"(m6->p7)\",\"m6\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m7\",\"premises\":[\"(p7->m7)\",\"p7\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p8\",\"premises\":[\"(m7->p8)\",\"m7\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m8\",\"premises\":[\"(p8->m8)\",\"p8\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p9\",\"premises\":[\"(m8->p9)\",\"m8\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m9\",\"premises\":[\"(p9->m9)\",\"p9\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p10\",\"premises\":[\"(m9->p10)\",\"m9\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m10\",\"premises\":[\"(p10->m10)\",\"p10\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p11\",\"premises\":[\"(m10->p11)\",\"m10\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(e11|p11)\",\"premises\":[\"p11\"],\"rule\":\"OR_INTRO\"}",
+    "{\"conclusion\":\"p12\",\"premises\":[\"((e11|p11)->p12)\",\"(e11|p11)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(e12|p12)\",\"premises\":[\"p12\"],\"rule\":\"OR_INTRO\"}",
+    "{\"conclusion\":\"p13\",\"premises\":[\"((e12|p12)->p13)\",\"(e12|p12)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m13\",\"premises\":[\"(p13->m13)\",\"p13\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p14\",\"premises\":[\"(m13->p14)\",\"m13\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(d14&p14)\",\"premises\":[\"d14\",\"p14\"],\"rule\":\"AND_INTRO\"}",
+    "{\"conclusion\":\"p15\",\"premises\":[\"((d14&p14)->p15)\",\"(d14&p14)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(d15&p15)\",\"premises\":[\"d15\",\"p15\"],\"rule\":\"AND_INTRO\"}",
+    "{\"conclusion\":\"p16\",\"premises\":[\"((d15&p15)->p16)\",\"(d15&p15)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m16\",\"premises\":[\"(p16->m16)\",\"p16\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p17\",\"premises\":[\"(m16->p17)\",\"m16\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(d17&p17)\",\"premises\":[\"d17\",\"p17\"],\"rule\":\"AND_INTRO\"}",
+    "{\"conclusion\":\"p18\",\"premises\":[\"((d17&p17)->p18)\",\"(d17&p17)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(d18&p18)\",\"premises\":[\"d18\",\"p18\"],\"rule\":\"AND_INTRO\"}",
+    "{\"conclusion\":\"p19\",\"premises\":[\"((d18&p18)->p19)\",\"(d18&p18)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m19\",\"premises\":[\"(p19->m19)\",\"p19\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p20\",\"premises\":[\"(m19->p20)\",\"m19\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m20\",\"premises\":[\"(p20->m20)\",\"p20\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p21\",\"premises\":[\"(m20->p21)\",\"m20\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m21\",\"premises\":[\"(p21->m21)\",\"p21\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p22\",\"premises\":[\"(m21->p22)\",\"m21\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m22\",\"premises\":[\"(p22->m22)\",\"p22\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p23\",\"premises\":[\"(m22->p23)\",\"m22\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(e23|p23)\",\"premises\":[\"p23\"],\"rule\":\"OR_INTRO\"}",
+    "{\"conclusion\":\"p24\",\"premises\":[\"((e23|p23)->p24)\",\"(e23|p23)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m24\",\"premises\":[\"(p24->m24)\",\"p24\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p25\",\"premises\":[\"(m24->p25)\",\"m24\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m25\",\"premises\":[\"(p25->m25)\",\"p25\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p26\",\"premises\":[\"(m25->p26)\",\"m25\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"(d26&p26)\",\"premises\":[\"d26\",\"p26\"],\"rule\":\"AND_INTRO\"}",
+    "{\"conclusion\":\"p27\",\"premises\":[\"((d26&p26)->p27)\",\"(d26&p26)\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m27\",\"premises\":[\"(p27->m27)\",\"p27\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p28\",\"premises\":[\"(m27->p28)\",\"m27\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m28\",\"premises\":[\"(p28->m28)\",\"p28\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p29\",\"premises\":[\"(m28->p29)\",\"m28\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m29\",\"premises\":[\"(p29->m29)\",\"p29\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p30\",\"premises\":[\"(m29->p30)\",\"m29\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m30\",\"premises\":[\"(p30->m30)\",\"p30\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p31\",\"premises\":[\"(m30->p31)\",\"m30\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"m31\",\"premises\":[\"(p31->m31)\",\"p31\"],\"rule\":\"MP\"}",
+    "{\"conclusion\":\"p32\",\"premises\":[\"(m31->p32)\",\"m31\"],\"rule\":\"MP\"}"
+  ],
+  "policy_rows": [
+    {
+      "stage": 0,
+      "p": {
+        "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}": 0.97909625579601,
+        "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}": 0.004239386440527735,
+        "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}": 0.016664357763462326
+      },
+      "q": {
+        "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}": 0.10402340834278155,
+        "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}": 0.18170864399387546,
+        "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}": 0.714267947663343
+      },
+      "selected": "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 1,
+      "p": {
+        "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}": 0.9882866736136259,
+        "{\"conclusion\":\"(d1&p1)\",\"premises\":[\"d1\",\"p1\"],\"rule\":\"AND_INTRO\"}": 0.004530397252619392,
+        "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}": 0.007182929133754858
+      },
+      "q": {
+        "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}": 0.3500637116996607,
+        "{\"conclusion\":\"(d1&p1)\",\"premises\":[\"d1\",\"p1\"],\"rule\":\"AND_INTRO\"}": 0.6473920034277691,
+        "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}": 0.002544284872570183
+      },
+      "selected": "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 2,
+      "p": {
+        "{\"conclusion\":\"m2\",\"premises\":[\"(p2->m2)\",\"p2\"],\"rule\":\"MP\"}": 0.9917490764399889,
+        "{\"conclusion\":\"(d2&p2)\",\"premises\":[\"d2\",\"p2\"],\"rule\":\"AND_INTRO\"}": 0.001587135447820085,
+        "{\"conclusion\":\"(e2|p2)\",\"premises\":[\"p2\"],\"rule\":\"OR_INTRO\"}": 0.006663788112190979
+      },
+      "q": {
+        "{\"conclusion\":\"m2\",\"premises\":[\"(p2->m2)\",\"p2\"],\"rule\":\"MP\"}": 0.9933217046863245,
+        "{\"conclusion\":\"(d2&p2)\",\"premises\":[\"d2\",\"p2\"],\"rule\":\"AND_INTRO\"}": 3.940353819365216e-06,
+        "{\"conclusion\":\"(e2|p2)\",\"premises\":[\"p2\"],\"rule\":\"OR_INTRO\"}": 0.006674354959856162
+      },
+      "selected": "{\"conclusion\":\"m2\",\"premises\":[\"(p2->m2)\",\"p2\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 3,
+      "p": {
+        "{\"conclusion\":\"m3\",\"premises\":[\"(p3->m3)\",\"p3\"],\"rule\":\"MP\"}": 0.9956334645297935,
+        "{\"conclusion\":\"(d3&p3)\",\"premises\":[\"d3\",\"p3\"],\"rule\":\"AND_INTRO\"}": 0.0017666693638566206,
+        "{\"conclusion\":\"(e3|p3)\",\"premises\":[\"p3\"],\"rule\":\"OR_INTRO\"}": 0.0025998661063498306
+      },
+      "q": {
+        "{\"conclusion\":\"m3\",\"premises\":[\"(p3->m3)\",\"p3\"],\"rule\":\"MP\"}": 0.48656230757278207,
+        "{\"conclusion\":\"(d3&p3)\",\"premises\":[\"d3\",\"p3\"],\"rule\":\"AND_INTRO\"}": 0.0008633646346973441,
+        "{\"conclusion\":\"(e3|p3)\",\"premises\":[\"p3\"],\"rule\":\"OR_INTRO\"}": 0.5125743277925207
+      },
+      "selected": "{\"conclusion\":\"(e3|p3)\",\"premises\":[\"p3\"],\"rule\":\"OR_INTRO\"}",
+      "route": "or"
+    },
+    {
+      "stage": 4,
+      "p": {
+        "{\"conclusion\":\"m4\",\"premises\":[\"(p4->m4)\",\"p4\"],\"rule\":\"MP\"}": 0.9896356216368745,
+        "{\"conclusion\":\"(d4&p4)\",\"premises\":[\"d4\",\"p4\"],\"rule\":\"AND_INTRO\"}": 0.0016896427559704725,
+        "{\"conclusion\":\"(e4|p4)\",\"premises\":[\"p4\"],\"rule\":\"OR_INTRO\"}": 0.008674735607155168
+      },
+      "q": {
+        "{\"conclusion\":\"m4\",\"premises\":[\"(p4->m4)\",\"p4\"],\"rule\":\"MP\"}": 0.9896356216368745,
+        "{\"conclusion\":\"(d4&p4)\",\"premises\":[\"d4\",\"p4\"],\"rule\":\"AND_INTRO\"}": 0.0016896427559704725,
+        "{\"conclusion\":\"(e4|p4)\",\"premises\":[\"p4\"],\"rule\":\"OR_INTRO\"}": 0.008674735607155168
+      },
+      "selected": "{\"conclusion\":\"m4\",\"premises\":[\"(p4->m4)\",\"p4\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 5,
+      "p": {
+        "{\"conclusion\":\"m5\",\"premises\":[\"(p5->m5)\",\"p5\"],\"rule\":\"MP\"}": 0.9959871351842481,
+        "{\"conclusion\":\"(d5&p5)\",\"premises\":[\"d5\",\"p5\"],\"rule\":\"AND_INTRO\"}": 0.001640195895904751,
+        "{\"conclusion\":\"(e5|p5)\",\"premises\":[\"p5\"],\"rule\":\"OR_INTRO\"}": 0.002372668919846983
+      },
+      "q": {
+        "{\"conclusion\":\"m5\",\"premises\":[\"(p5->m5)\",\"p5\"],\"rule\":\"MP\"}": 0.5999698215473348,
+        "{\"conclusion\":\"(d5&p5)\",\"premises\":[\"d5\",\"p5\"],\"rule\":\"AND_INTRO\"}": 0.39860091325621455,
+        "{\"conclusion\":\"(e5|p5)\",\"premises\":[\"p5\"],\"rule\":\"OR_INTRO\"}": 0.0014292651964507178
+      },
+      "selected": "{\"conclusion\":\"m5\",\"premises\":[\"(p5->m5)\",\"p5\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 6,
+      "p": {
+        "{\"conclusion\":\"m6\",\"premises\":[\"(p6->m6)\",\"p6\"],\"rule\":\"MP\"}": 0.9897522735137155,
+        "{\"conclusion\":\"(d6&p6)\",\"premises\":[\"d6\",\"p6\"],\"rule\":\"AND_INTRO\"}": 0.002663079336460392,
+        "{\"conclusion\":\"(e6|p6)\",\"premises\":[\"p6\"],\"rule\":\"OR_INTRO\"}": 0.007584647149824048
+      },
+      "q": {
+        "{\"conclusion\":\"m6\",\"premises\":[\"(p6->m6)\",\"p6\"],\"rule\":\"MP\"}": 0.9972976748249288,
+        "{\"conclusion\":\"(d6&p6)\",\"premises\":[\"d6\",\"p6\"],\"rule\":\"AND_INTRO\"}": 0.002683381388655592,
+        "{\"conclusion\":\"(e6|p6)\",\"premises\":[\"p6\"],\"rule\":\"OR_INTRO\"}": 1.894378641560593e-05
+      },
+      "selected": "{\"conclusion\":\"m6\",\"premises\":[\"(p6->m6)\",\"p6\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 7,
+      "p": {
+        "{\"conclusion\":\"m7\",\"premises\":[\"(p7->m7)\",\"p7\"],\"rule\":\"MP\"}": 0.9964001015656162,
+        "{\"conclusion\":\"(d7&p7)\",\"premises\":[\"d7\",\"p7\"],\"rule\":\"AND_INTRO\"}": 0.0025173148636680243,
+        "{\"conclusion\":\"(e7|p7)\",\"premises\":[\"p7\"],\"rule\":\"OR_INTRO\"}": 0.0010825835707157399
+      },
+      "q": {
+        "{\"conclusion\":\"m7\",\"premises\":[\"(p7->m7)\",\"p7\"],\"rule\":\"MP\"}": 0.9989084356295151,
+        "{\"conclusion\":\"(d7&p7)\",\"premises\":[\"d7\",\"p7\"],\"rule\":\"AND_INTRO\"}": 6.255507747188131e-06,
+        "{\"conclusion\":\"(e7|p7)\",\"premises\":[\"p7\"],\"rule\":\"OR_INTRO\"}": 0.0010853088627376666
+      },
+      "selected": "{\"conclusion\":\"m7\",\"premises\":[\"(p7->m7)\",\"p7\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 8,
+      "p": {
+        "{\"conclusion\":\"m8\",\"premises\":[\"(p8->m8)\",\"p8\"],\"rule\":\"MP\"}": 0.9929238218302872,
+        "{\"conclusion\":\"(d8&p8)\",\"premises\":[\"d8\",\"p8\"],\"rule\":\"AND_INTRO\"}": 0.002749561681705575,
+        "{\"conclusion\":\"(e8|p8)\",\"premises\":[\"p8\"],\"rule\":\"OR_INTRO\"}": 0.004326616488007236
+      },
+      "q": {
+        "{\"conclusion\":\"m8\",\"premises\":[\"(p8->m8)\",\"p8\"],\"rule\":\"MP\"}": 0.9929238218302872,
+        "{\"conclusion\":\"(d8&p8)\",\"premises\":[\"d8\",\"p8\"],\"rule\":\"AND_INTRO\"}": 0.002749561681705575,
+        "{\"conclusion\":\"(e8|p8)\",\"premises\":[\"p8\"],\"rule\":\"OR_INTRO\"}": 0.004326616488007236
+      },
+      "selected": "{\"conclusion\":\"m8\",\"premises\":[\"(p8->m8)\",\"p8\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 9,
+      "p": {
+        "{\"conclusion\":\"m9\",\"premises\":[\"(p9->m9)\",\"p9\"],\"rule\":\"MP\"}": 0.9943413523642471,
+        "{\"conclusion\":\"(d9&p9)\",\"premises\":[\"d9\",\"p9\"],\"rule\":\"AND_INTRO\"}": 0.0019777874988196266,
+        "{\"conclusion\":\"(e9|p9)\",\"premises\":[\"p9\"],\"rule\":\"OR_INTRO\"}": 0.003680860136933322
+      },
+      "q": {
+        "{\"conclusion\":\"m9\",\"premises\":[\"(p9->m9)\",\"p9\"],\"rule\":\"MP\"}": 0.5536672608182513,
+        "{\"conclusion\":\"(d9&p9)\",\"premises\":[\"d9\",\"p9\"],\"rule\":\"AND_INTRO\"}": 0.44428316964043857,
+        "{\"conclusion\":\"(e9|p9)\",\"premises\":[\"p9\"],\"rule\":\"OR_INTRO\"}": 0.002049569541310212
+      },
+      "selected": "{\"conclusion\":\"m9\",\"premises\":[\"(p9->m9)\",\"p9\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 10,
+      "p": {
+        "{\"conclusion\":\"m10\",\"premises\":[\"(p10->m10)\",\"p10\"],\"rule\":\"MP\"}": 0.9937954702740005,
+        "{\"conclusion\":\"(d10&p10)\",\"premises\":[\"d10\",\"p10\"],\"rule\":\"AND_INTRO\"}": 0.0030453933404597008,
+        "{\"conclusion\":\"(e10|p10)\",\"premises\":[\"p10\"],\"rule\":\"OR_INTRO\"}": 0.0031591363855398894
+      },
+      "q": {
+        "{\"conclusion\":\"m10\",\"premises\":[\"(p10->m10)\",\"p10\"],\"rule\":\"MP\"}": 0.446538472978787,
+        "{\"conclusion\":\"(d10&p10)\",\"premises\":[\"d10\",\"p10\"],\"rule\":\"AND_INTRO\"}": 0.5520420438582019,
+        "{\"conclusion\":\"(e10|p10)\",\"premises\":[\"p10\"],\"rule\":\"OR_INTRO\"}": 0.0014194831630111651
+      },
+      "selected": "{\"conclusion\":\"m10\",\"premises\":[\"(p10->m10)\",\"p10\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 11,
+      "p": {
+        "{\"conclusion\":\"m11\",\"premises\":[\"(p11->m11)\",\"p11\"],\"rule\":\"MP\"}": 0.9920405044028968,
+        "{\"conclusion\":\"(d11&p11)\",\"premises\":[\"d11\",\"p11\"],\"rule\":\"AND_INTRO\"}": 0.003995088303266896,
+        "{\"conclusion\":\"(e11|p11)\",\"premises\":[\"p11\"],\"rule\":\"OR_INTRO\"}": 0.003964407293836254
+      },
+      "q": {
+        "{\"conclusion\":\"m11\",\"premises\":[\"(p11->m11)\",\"p11\"],\"rule\":\"MP\"}": 0.23602421406164334,
+        "{\"conclusion\":\"(d11&p11)\",\"premises\":[\"d11\",\"p11\"],\"rule\":\"AND_INTRO\"}": 0.383460319708235,
+        "{\"conclusion\":\"(e11|p11)\",\"premises\":[\"p11\"],\"rule\":\"OR_INTRO\"}": 0.38051546623012167
+      },
+      "selected": "{\"conclusion\":\"(e11|p11)\",\"premises\":[\"p11\"],\"rule\":\"OR_INTRO\"}",
+      "route": "or"
+    },
+    {
+      "stage": 12,
+      "p": {
+        "{\"conclusion\":\"m12\",\"premises\":[\"(p12->m12)\",\"p12\"],\"rule\":\"MP\"}": 0.9849636091921827,
+        "{\"conclusion\":\"(d12&p12)\",\"premises\":[\"d12\",\"p12\"],\"rule\":\"AND_INTRO\"}": 0.0040489963815447325,
+        "{\"conclusion\":\"(e12|p12)\",\"premises\":[\"p12\"],\"rule\":\"OR_INTRO\"}": 0.010987394426272442
+      },
+      "q": {
+        "{\"conclusion\":\"m12\",\"premises\":[\"(p12->m12)\",\"p12\"],\"rule\":\"MP\"}": 0.181672502016306,
+        "{\"conclusion\":\"(d12&p12)\",\"premises\":[\"d12\",\"p12\"],\"rule\":\"AND_INTRO\"}": 0.0007468207925910034,
+        "{\"conclusion\":\"(e12|p12)\",\"premises\":[\"p12\"],\"rule\":\"OR_INTRO\"}": 0.8175806771911031
+      },
+      "selected": "{\"conclusion\":\"(e12|p12)\",\"premises\":[\"p12\"],\"rule\":\"OR_INTRO\"}",
+      "route": "or"
+    },
+    {
+      "stage": 13,
+      "p": {
+        "{\"conclusion\":\"m13\",\"premises\":[\"(p13->m13)\",\"p13\"],\"rule\":\"MP\"}": 0.9921188254993747,
+        "{\"conclusion\":\"(d13&p13)\",\"premises\":[\"d13\",\"p13\"],\"rule\":\"AND_INTRO\"}": 0.005116664845163792,
+        "{\"conclusion\":\"(e13|p13)\",\"premises\":[\"p13\"],\"rule\":\"OR_INTRO\"}": 0.0027645096554613424
+      },
+      "q": {
+        "{\"conclusion\":\"m13\",\"premises\":[\"(p13->m13)\",\"p13\"],\"rule\":\"MP\"}": 0.4696379825103816,
+        "{\"conclusion\":\"(d13&p13)\",\"premises\":[\"d13\",\"p13\"],\"rule\":\"AND_INTRO\"}": 0.0024220689027395453,
+        "{\"conclusion\":\"(e13|p13)\",\"premises\":[\"p13\"],\"rule\":\"OR_INTRO\"}": 0.5279399485868789
+      },
+      "selected": "{\"conclusion\":\"m13\",\"premises\":[\"(p13->m13)\",\"p13\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 14,
+      "p": {
+        "{\"conclusion\":\"m14\",\"premises\":[\"(p14->m14)\",\"p14\"],\"rule\":\"MP\"}": 0.988646196479376,
+        "{\"conclusion\":\"(d14&p14)\",\"premises\":[\"d14\",\"p14\"],\"rule\":\"AND_INTRO\"}": 0.0065432254384083,
+        "{\"conclusion\":\"(e14|p14)\",\"premises\":[\"p14\"],\"rule\":\"OR_INTRO\"}": 0.004810578082215689
+      },
+      "q": {
+        "{\"conclusion\":\"m14\",\"premises\":[\"(p14->m14)\",\"p14\"],\"rule\":\"MP\"}": 0.9934132427627149,
+        "{\"conclusion\":\"(d14&p14)\",\"premises\":[\"d14\",\"p14\"],\"rule\":\"AND_INTRO\"}": 0.006574775510232062,
+        "{\"conclusion\":\"(e14|p14)\",\"premises\":[\"p14\"],\"rule\":\"OR_INTRO\"}": 1.1981727052983925e-05
+      },
+      "selected": "{\"conclusion\":\"(d14&p14)\",\"premises\":[\"d14\",\"p14\"],\"rule\":\"AND_INTRO\"}",
+      "route": "and"
+    },
+    {
+      "stage": 15,
+      "p": {
+        "{\"conclusion\":\"m15\",\"premises\":[\"(p15->m15)\",\"p15\"],\"rule\":\"MP\"}": 0.9921741836910947,
+        "{\"conclusion\":\"(d15&p15)\",\"premises\":[\"d15\",\"p15\"],\"rule\":\"AND_INTRO\"}": 0.0051101156128228985,
+        "{\"conclusion\":\"(e15|p15)\",\"premises\":[\"p15\"],\"rule\":\"OR_INTRO\"}": 0.0027157006960824076
+      },
+      "q": {
+        "{\"conclusion\":\"m15\",\"premises\":[\"(p15->m15)\",\"p15\"],\"rule\":\"MP\"}": 0.23911650107189603,
+        "{\"conclusion\":\"(d15&p15)\",\"premises\":[\"d15\",\"p15\"],\"rule\":\"AND_INTRO\"}": 0.4968430760363337,
+        "{\"conclusion\":\"(e15|p15)\",\"premises\":[\"p15\"],\"rule\":\"OR_INTRO\"}": 0.26404042289177027
+      },
+      "selected": "{\"conclusion\":\"(d15&p15)\",\"premises\":[\"d15\",\"p15\"],\"rule\":\"AND_INTRO\"}",
+      "route": "and"
+    },
+    {
+      "stage": 16,
+      "p": {
+        "{\"conclusion\":\"m16\",\"premises\":[\"(p16->m16)\",\"p16\"],\"rule\":\"MP\"}": 0.9922124259871209,
+        "{\"conclusion\":\"(d16&p16)\",\"premises\":[\"d16\",\"p16\"],\"rule\":\"AND_INTRO\"}": 0.004229430684372017,
+        "{\"conclusion\":\"(e16|p16)\",\"premises\":[\"p16\"],\"rule\":\"OR_INTRO\"}": 0.0035581433285069974
+      },
+      "q": {
+        "{\"conclusion\":\"m16\",\"premises\":[\"(p16->m16)\",\"p16\"],\"rule\":\"MP\"}": 0.992212425987121,
+        "{\"conclusion\":\"(d16&p16)\",\"premises\":[\"d16\",\"p16\"],\"rule\":\"AND_INTRO\"}": 0.0042294306843720176,
+        "{\"conclusion\":\"(e16|p16)\",\"premises\":[\"p16\"],\"rule\":\"OR_INTRO\"}": 0.003558143328506998
+      },
+      "selected": "{\"conclusion\":\"m16\",\"premises\":[\"(p16->m16)\",\"p16\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 17,
+      "p": {
+        "{\"conclusion\":\"m17\",\"premises\":[\"(p17->m17)\",\"p17\"],\"rule\":\"MP\"}": 0.9924435579586234,
+        "{\"conclusion\":\"(d17&p17)\",\"premises\":[\"d17\",\"p17\"],\"rule\":\"AND_INTRO\"}": 0.005326763438932943,
+        "{\"conclusion\":\"(e17|p17)\",\"premises\":[\"p17\"],\"rule\":\"OR_INTRO\"}": 0.002229678602443696
+      },
+      "q": {
+        "{\"conclusion\":\"m17\",\"premises\":[\"(p17->m17)\",\"p17\"],\"rule\":\"MP\"}": 0.2455978187849873,
+        "{\"conclusion\":\"(d17&p17)\",\"premises\":[\"d17\",\"p17\"],\"rule\":\"AND_INTRO\"}": 0.5318008045510393,
+        "{\"conclusion\":\"(e17|p17)\",\"premises\":[\"p17\"],\"rule\":\"OR_INTRO\"}": 0.22260137666397345
+      },
+      "selected": "{\"conclusion\":\"(d17&p17)\",\"premises\":[\"d17\",\"p17\"],\"rule\":\"AND_INTRO\"}",
+      "route": "and"
+    },
+    {
+      "stage": 18,
+      "p": {
+        "{\"conclusion\":\"m18\",\"premises\":[\"(p18->m18)\",\"p18\"],\"rule\":\"MP\"}": 0.993398064640628,
+        "{\"conclusion\":\"(d18&p18)\",\"premises\":[\"d18\",\"p18\"],\"rule\":\"AND_INTRO\"}": 0.003912518545858055,
+        "{\"conclusion\":\"(e18|p18)\",\"premises\":[\"p18\"],\"rule\":\"OR_INTRO\"}": 0.002689416813514019
+      },
+      "q": {
+        "{\"conclusion\":\"m18\",\"premises\":[\"(p18->m18)\",\"p18\"],\"rule\":\"MP\"}": 0.385859064108196,
+        "{\"conclusion\":\"(d18&p18)\",\"premises\":[\"d18\",\"p18\"],\"rule\":\"AND_INTRO\"}": 0.6130963034412317,
+        "{\"conclusion\":\"(e18|p18)\",\"premises\":[\"p18\"],\"rule\":\"OR_INTRO\"}": 0.001044632450572347
+      },
+      "selected": "{\"conclusion\":\"(d18&p18)\",\"premises\":[\"d18\",\"p18\"],\"rule\":\"AND_INTRO\"}",
+      "route": "and"
+    },
+    {
+      "stage": 19,
+      "p": {
+        "{\"conclusion\":\"m19\",\"premises\":[\"(p19->m19)\",\"p19\"],\"rule\":\"MP\"}": 0.992696360394478,
+        "{\"conclusion\":\"(d19&p19)\",\"premises\":[\"d19\",\"p19\"],\"rule\":\"AND_INTRO\"}": 0.005166407315527045,
+        "{\"conclusion\":\"(e19|p19)\",\"premises\":[\"p19\"],\"rule\":\"OR_INTRO\"}": 0.0021372322899951336
+      },
+      "q": {
+        "{\"conclusion\":\"m19\",\"premises\":[\"(p19->m19)\",\"p19\"],\"rule\":\"MP\"}": 0.25200488729473086,
+        "{\"conclusion\":\"(d19&p19)\",\"premises\":[\"d19\",\"p19\"],\"rule\":\"AND_INTRO\"}": 0.529112556339325,
+        "{\"conclusion\":\"(e19|p19)\",\"premises\":[\"p19\"],\"rule\":\"OR_INTRO\"}": 0.21888255636594414
+      },
+      "selected": "{\"conclusion\":\"m19\",\"premises\":[\"(p19->m19)\",\"p19\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 20,
+      "p": {
+        "{\"conclusion\":\"m20\",\"premises\":[\"(p20->m20)\",\"p20\"],\"rule\":\"MP\"}": 0.9952529210810888,
+        "{\"conclusion\":\"(d20&p20)\",\"premises\":[\"d20\",\"p20\"],\"rule\":\"AND_INTRO\"}": 0.0028766589519004086,
+        "{\"conclusion\":\"(e20|p20)\",\"premises\":[\"p20\"],\"rule\":\"OR_INTRO\"}": 0.0018704199670109267
+      },
+      "q": {
+        "{\"conclusion\":\"m20\",\"premises\":[\"(p20->m20)\",\"p20\"],\"rule\":\"MP\"}": 0.9952529210810888,
+        "{\"conclusion\":\"(d20&p20)\",\"premises\":[\"d20\",\"p20\"],\"rule\":\"AND_INTRO\"}": 0.0028766589519004086,
+        "{\"conclusion\":\"(e20|p20)\",\"premises\":[\"p20\"],\"rule\":\"OR_INTRO\"}": 0.0018704199670109267
+      },
+      "selected": "{\"conclusion\":\"m20\",\"premises\":[\"(p20->m20)\",\"p20\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 21,
+      "p": {
+        "{\"conclusion\":\"m21\",\"premises\":[\"(p21->m21)\",\"p21\"],\"rule\":\"MP\"}": 0.9942358046113302,
+        "{\"conclusion\":\"(d21&p21)\",\"premises\":[\"d21\",\"p21\"],\"rule\":\"AND_INTRO\"}": 0.004505352748437939,
+        "{\"conclusion\":\"(e21|p21)\",\"premises\":[\"p21\"],\"rule\":\"OR_INTRO\"}": 0.001258842640231931
+      },
+      "q": {
+        "{\"conclusion\":\"m21\",\"premises\":[\"(p21->m21)\",\"p21\"],\"rule\":\"MP\"}": 0.9942358046113302,
+        "{\"conclusion\":\"(d21&p21)\",\"premises\":[\"d21\",\"p21\"],\"rule\":\"AND_INTRO\"}": 0.004505352748437939,
+        "{\"conclusion\":\"(e21|p21)\",\"premises\":[\"p21\"],\"rule\":\"OR_INTRO\"}": 0.001258842640231931
+      },
+      "selected": "{\"conclusion\":\"m21\",\"premises\":[\"(p21->m21)\",\"p21\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 22,
+      "p": {
+        "{\"conclusion\":\"m22\",\"premises\":[\"(p22->m22)\",\"p22\"],\"rule\":\"MP\"}": 0.9925846193763941,
+        "{\"conclusion\":\"(d22&p22)\",\"premises\":[\"d22\",\"p22\"],\"rule\":\"AND_INTRO\"}": 0.003622265698944357,
+        "{\"conclusion\":\"(e22|p22)\",\"premises\":[\"p22\"],\"rule\":\"OR_INTRO\"}": 0.0037931149246614947
+      },
+      "q": {
+        "{\"conclusion\":\"m22\",\"premises\":[\"(p22->m22)\",\"p22\"],\"rule\":\"MP\"}": 0.9999814821324773,
+        "{\"conclusion\":\"(d22&p22)\",\"premises\":[\"d22\",\"p22\"],\"rule\":\"AND_INTRO\"}": 9.045609355708901e-06,
+        "{\"conclusion\":\"(e22|p22)\",\"premises\":[\"p22\"],\"rule\":\"OR_INTRO\"}": 9.472258166979966e-06
+      },
+      "selected": "{\"conclusion\":\"m22\",\"premises\":[\"(p22->m22)\",\"p22\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 23,
+      "p": {
+        "{\"conclusion\":\"m23\",\"premises\":[\"(p23->m23)\",\"p23\"],\"rule\":\"MP\"}": 0.9917077550454598,
+        "{\"conclusion\":\"(d23&p23)\",\"premises\":[\"d23\",\"p23\"],\"rule\":\"AND_INTRO\"}": 0.006341756742814717,
+        "{\"conclusion\":\"(e23|p23)\",\"premises\":[\"p23\"],\"rule\":\"OR_INTRO\"}": 0.0019504882117253757
+      },
+      "q": {
+        "{\"conclusion\":\"m23\",\"premises\":[\"(p23->m23)\",\"p23\"],\"rule\":\"MP\"}": 0.5555995476660748,
+        "{\"conclusion\":\"(d23&p23)\",\"premises\":[\"d23\",\"p23\"],\"rule\":\"AND_INTRO\"}": 0.0035529390183649634,
+        "{\"conclusion\":\"(e23|p23)\",\"premises\":[\"p23\"],\"rule\":\"OR_INTRO\"}": 0.44084751331556027
+      },
+      "selected": "{\"conclusion\":\"(e23|p23)\",\"premises\":[\"p23\"],\"rule\":\"OR_INTRO\"}",
+      "route": "or"
+    },
+    {
+      "stage": 24,
+      "p": {
+        "{\"conclusion\":\"m24\",\"premises\":[\"(p24->m24)\",\"p24\"],\"rule\":\"MP\"}": 0.9880570394041497,
+        "{\"conclusion\":\"(d24&p24)\",\"premises\":[\"d24\",\"p24\"],\"rule\":\"AND_INTRO\"}": 0.008677126351145923,
+        "{\"conclusion\":\"(e24|p24)\",\"premises\":[\"p24\"],\"rule\":\"OR_INTRO\"}": 0.003265834244704273
+      },
+      "q": {
+        "{\"conclusion\":\"m24\",\"premises\":[\"(p24->m24)\",\"p24\"],\"rule\":\"MP\"}": 0.991286391793382,
+        "{\"conclusion\":\"(d24&p24)\",\"premises\":[\"d24\",\"p24\"],\"rule\":\"AND_INTRO\"}": 0.008705486554652638,
+        "{\"conclusion\":\"(e24|p24)\",\"premises\":[\"p24\"],\"rule\":\"OR_INTRO\"}": 8.121651965458443e-06
+      },
+      "selected": "{\"conclusion\":\"m24\",\"premises\":[\"(p24->m24)\",\"p24\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 25,
+      "p": {
+        "{\"conclusion\":\"m25\",\"premises\":[\"(p25->m25)\",\"p25\"],\"rule\":\"MP\"}": 0.9948144164310694,
+        "{\"conclusion\":\"(d25&p25)\",\"premises\":[\"d25\",\"p25\"],\"rule\":\"AND_INTRO\"}": 0.004164928807326534,
+        "{\"conclusion\":\"(e25|p25)\",\"premises\":[\"p25\"],\"rule\":\"OR_INTRO\"}": 0.0010206547616040983
+      },
+      "q": {
+        "{\"conclusion\":\"m25\",\"premises\":[\"(p25->m25)\",\"p25\"],\"rule\":\"MP\"}": 0.9958282939250008,
+        "{\"conclusion\":\"(d25&p25)\",\"premises\":[\"d25\",\"p25\"],\"rule\":\"AND_INTRO\"}": 0.00416917354635708,
+        "{\"conclusion\":\"(e25|p25)\",\"premises\":[\"p25\"],\"rule\":\"OR_INTRO\"}": 2.5325286421972242e-06
+      },
+      "selected": "{\"conclusion\":\"m25\",\"premises\":[\"(p25->m25)\",\"p25\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 26,
+      "p": {
+        "{\"conclusion\":\"m26\",\"premises\":[\"(p26->m26)\",\"p26\"],\"rule\":\"MP\"}": 0.991029494931848,
+        "{\"conclusion\":\"(d26&p26)\",\"premises\":[\"d26\",\"p26\"],\"rule\":\"AND_INTRO\"}": 0.005585489342236049,
+        "{\"conclusion\":\"(e26|p26)\",\"premises\":[\"p26\"],\"rule\":\"OR_INTRO\"}": 0.0033850157259159657
+      },
+      "q": {
+        "{\"conclusion\":\"m26\",\"premises\":[\"(p26->m26)\",\"p26\"],\"rule\":\"MP\"}": 0.30514230265800774,
+        "{\"conclusion\":\"(d26&p26)\",\"premises\":[\"d26\",\"p26\"],\"rule\":\"AND_INTRO\"}": 0.6938154362403581,
+        "{\"conclusion\":\"(e26|p26)\",\"premises\":[\"p26\"],\"rule\":\"OR_INTRO\"}": 0.0010422611016341118
+      },
+      "selected": "{\"conclusion\":\"(d26&p26)\",\"premises\":[\"d26\",\"p26\"],\"rule\":\"AND_INTRO\"}",
+      "route": "and"
+    },
+    {
+      "stage": 27,
+      "p": {
+        "{\"conclusion\":\"m27\",\"premises\":[\"(p27->m27)\",\"p27\"],\"rule\":\"MP\"}": 0.9944822559368259,
+        "{\"conclusion\":\"(d27&p27)\",\"premises\":[\"d27\",\"p27\"],\"rule\":\"AND_INTRO\"}": 0.003819678525268878,
+        "{\"conclusion\":\"(e27|p27)\",\"premises\":[\"p27\"],\"rule\":\"OR_INTRO\"}": 0.0016980655379050151
+      },
+      "q": {
+        "{\"conclusion\":\"m27\",\"premises\":[\"(p27->m27)\",\"p27\"],\"rule\":\"MP\"}": 0.99828593547902,
+        "{\"conclusion\":\"(d27&p27)\",\"premises\":[\"d27\",\"p27\"],\"rule\":\"AND_INTRO\"}": 9.504249650382136e-06,
+        "{\"conclusion\":\"(e27|p27)\",\"premises\":[\"p27\"],\"rule\":\"OR_INTRO\"}": 0.0017045602713296449
+      },
+      "selected": "{\"conclusion\":\"m27\",\"premises\":[\"(p27->m27)\",\"p27\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 28,
+      "p": {
+        "{\"conclusion\":\"m28\",\"premises\":[\"(p28->m28)\",\"p28\"],\"rule\":\"MP\"}": 0.9944980990215732,
+        "{\"conclusion\":\"(d28&p28)\",\"premises\":[\"d28\",\"p28\"],\"rule\":\"AND_INTRO\"}": 0.0026529643191409787,
+        "{\"conclusion\":\"(e28|p28)\",\"premises\":[\"p28\"],\"rule\":\"OR_INTRO\"}": 0.0028489366592859625
+      },
+      "q": {
+        "{\"conclusion\":\"m28\",\"premises\":[\"(p28->m28)\",\"p28\"],\"rule\":\"MP\"}": 0.9944980990215732,
+        "{\"conclusion\":\"(d28&p28)\",\"premises\":[\"d28\",\"p28\"],\"rule\":\"AND_INTRO\"}": 0.0026529643191409787,
+        "{\"conclusion\":\"(e28|p28)\",\"premises\":[\"p28\"],\"rule\":\"OR_INTRO\"}": 0.0028489366592859625
+      },
+      "selected": "{\"conclusion\":\"m28\",\"premises\":[\"(p28->m28)\",\"p28\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 29,
+      "p": {
+        "{\"conclusion\":\"m29\",\"premises\":[\"(p29->m29)\",\"p29\"],\"rule\":\"MP\"}": 0.9922881998556785,
+        "{\"conclusion\":\"(d29&p29)\",\"premises\":[\"d29\",\"p29\"],\"rule\":\"AND_INTRO\"}": 0.0028882746885372395,
+        "{\"conclusion\":\"(e29|p29)\",\"premises\":[\"p29\"],\"rule\":\"OR_INTRO\"}": 0.004823525455784257
+      },
+      "q": {
+        "{\"conclusion\":\"m29\",\"premises\":[\"(p29->m29)\",\"p29\"],\"rule\":\"MP\"}": 0.9922881998556785,
+        "{\"conclusion\":\"(d29&p29)\",\"premises\":[\"d29\",\"p29\"],\"rule\":\"AND_INTRO\"}": 0.0028882746885372395,
+        "{\"conclusion\":\"(e29|p29)\",\"premises\":[\"p29\"],\"rule\":\"OR_INTRO\"}": 0.004823525455784257
+      },
+      "selected": "{\"conclusion\":\"m29\",\"premises\":[\"(p29->m29)\",\"p29\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 30,
+      "p": {
+        "{\"conclusion\":\"m30\",\"premises\":[\"(p30->m30)\",\"p30\"],\"rule\":\"MP\"}": 0.9962283809656771,
+        "{\"conclusion\":\"(d30&p30)\",\"premises\":[\"d30\",\"p30\"],\"rule\":\"AND_INTRO\"}": 0.0019678266135952486,
+        "{\"conclusion\":\"(e30|p30)\",\"premises\":[\"p30\"],\"rule\":\"OR_INTRO\"}": 0.001803792420727486
+      },
+      "q": {
+        "{\"conclusion\":\"m30\",\"premises\":[\"(p30->m30)\",\"p30\"],\"rule\":\"MP\"}": 0.9962283809656772,
+        "{\"conclusion\":\"(d30&p30)\",\"premises\":[\"d30\",\"p30\"],\"rule\":\"AND_INTRO\"}": 0.001967826613595249,
+        "{\"conclusion\":\"(e30|p30)\",\"premises\":[\"p30\"],\"rule\":\"OR_INTRO\"}": 0.0018037924207274863
+      },
+      "selected": "{\"conclusion\":\"m30\",\"premises\":[\"(p30->m30)\",\"p30\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    },
+    {
+      "stage": 31,
+      "p": {
+        "{\"conclusion\":\"m31\",\"premises\":[\"(p31->m31)\",\"p31\"],\"rule\":\"MP\"}": 0.9955195239401126,
+        "{\"conclusion\":\"(d31&p31)\",\"premises\":[\"d31\",\"p31\"],\"rule\":\"AND_INTRO\"}": 0.0029153385911258258,
+        "{\"conclusion\":\"(e31|p31)\",\"premises\":[\"p31\"],\"rule\":\"OR_INTRO\"}": 0.001565137468761639
+      },
+      "q": {
+        "{\"conclusion\":\"m31\",\"premises\":[\"(p31->m31)\",\"p31\"],\"rule\":\"MP\"}": 0.9984230501823734,
+        "{\"conclusion\":\"(d31&p31)\",\"premises\":[\"d31\",\"p31\"],\"rule\":\"AND_INTRO\"}": 7.2474783586286095e-06,
+        "{\"conclusion\":\"(e31|p31)\",\"premises\":[\"p31\"],\"rule\":\"OR_INTRO\"}": 0.001569702339267954
+      },
+      "selected": "{\"conclusion\":\"m31\",\"premises\":[\"(p31->m31)\",\"p31\"],\"rule\":\"MP\"}",
+      "route": "mp"
+    }
+  ],
+  "text": "From (p0->m0) and p0, infer m0 by modus ponens.\nFrom (m0->p1) and m0, infer p1 by modus ponens.\nFrom (p1->m1) and p1, infer m1 by modus ponens.\nFrom (m1->p2) and m1, infer p2 by modus ponens.\nFrom (p2->m2) and p2, infer m2 by modus ponens.\nFrom (m2->p3) and m2, infer p3 by modus ponens.\nFrom p3, infer (e3|p3) by disjunction introduction.\nFrom ((e3|p3)->p4) and (e3|p3), infer p4 by modus ponens.\nFrom (p4->m4) and p4, infer m4 by modus ponens.\nFrom (m4->p5) and m4, infer p5 by modus ponens.\nFrom (p5->m5) and p5, infer m5 by modus ponens.\nFrom (m5->p6) and m5, infer p6 by modus ponens.\nFrom (p6->m6) and p6, infer m6 by modus ponens.\nFrom (m6->p7) and m6, infer p7 by modus ponens.\nFrom (p7->m7) and p7, infer m7 by modus ponens.\nFrom (m7->p8) and m7, infer p8 by modus ponens.\nFrom (p8->m8) and p8, infer m8 by modus ponens.\nFrom (m8->p9) and m8, infer p9 by modus ponens.\nFrom (p9->m9) and p9, infer m9 by modus ponens.\nFrom (m9->p10) and m9, infer p10 by modus ponens.\nFrom (p10->m10) and p10, infer m10 by modus ponens.\nFrom (m10->p11) and m10, infer p11 by modus ponens.\nFrom p11, infer (e11|p11) by disjunction introduction.\nFrom ((e11|p11)->p12) and (e11|p11), infer p12 by modus ponens.\nFrom p12, infer (e12|p12) by disjunction introduction.\nFrom ((e12|p12)->p13) and (e12|p12), infer p13 by modus ponens.\nFrom (p13->m13) and p13, infer m13 by modus ponens.\nFrom (m13->p14) and m13, infer p14 by modus ponens.\nFrom d14 and p14, infer (d14&p14) by conjunction introduction.\nFrom ((d14&p14)->p15) and (d14&p14), infer p15 by modus ponens.\nFrom d15 and p15, infer (d15&p15) by conjunction introduction.\nFrom ((d15&p15)->p16) and (d15&p15), infer p16 by modus ponens.\nFrom (p16->m16) and p16, infer m16 by modus ponens.\nFrom (m16->p17) and m16, infer p17 by modus ponens.\nFrom d17 and p17, infer (d17&p17) by conjunction introduction.\nFrom ((d17&p17)->p18) and (d17&p17), infer p18 by modus ponens.\nFrom d18 and p18, infer (d18&p18) by conjunction introduction.\nFrom ((d18&p18)->p19) and (d18&p18), infer p19 by modus ponens.\nFrom (p19->m19) and p19, infer m19 by modus ponens.\nFrom (m19->p20) and m19, infer p20 by modus ponens.\nFrom (p20->m20) and p20, infer m20 by modus ponens.\nFrom (m20->p21) and m20, infer p21 by modus ponens.\nFrom (p21->m21) and p21, infer m21 by modus ponens.\nFrom (m21->p22) and m21, infer p22 by modus ponens.\nFrom (p22->m22) and p22, infer m22 by modus ponens.\nFrom (m22->p23) and m22, infer p23 by modus ponens.\nFrom p23, infer (e23|p23) by disjunction introduction.\nFrom ((e23|p23)->p24) and (e23|p23), infer p24 by modus ponens.\nFrom (p24->m24) and p24, infer m24 by modus ponens.\nFrom (m24->p25) and m24, infer p25 by modus ponens.\nFrom (p25->m25) and p25, infer m25 by modus ponens.\nFrom (m25->p26) and m25, infer p26 by modus ponens.\nFrom d26 and p26, infer (d26&p26) by conjunction introduction.\nFrom ((d26&p26)->p27) and (d26&p26), infer p27 by modus ponens.\nFrom (p27->m27) and p27, infer m27 by modus ponens.\nFrom (m27->p28) and m27, infer p28 by modus ponens.\nFrom (p28->m28) and p28, infer m28 by modus ponens.\nFrom (m28->p29) and m28, infer p29 by modus ponens.\nFrom (p29->m29) and p29, infer m29 by modus ponens.\nFrom (m29->p30) and m29, infer p30 by modus ponens.\nFrom (p30->m30) and p30, infer m30 by modus ponens.\nFrom (m30->p31) and m30, infer p31 by modus ponens.\nFrom (p31->m31) and p31, infer m31 by modus ponens.\nFrom (m31->p32) and m31, infer p32 by modus ponens.",
+  "planned_detection": {
+    "status": "complete_proof",
+    "n_choices": 32,
+    "p_value": 0.05,
+    "preferred": 21,
+    "detected": false,
+    "detector": "key_randomization_only; no synthetic-baseline likelihood ratio"
+  },
+  "planned_log_likelihood_ratio": 31.37916184971142,
+  "likelihood_ratio_scope": "fixed-delta alternative against the explicit local-state planner only"
+}

@@ -1,0 +1,40 @@
+{
+  "responses": [
+    {
+      "request_id": "37c123fe569cc2feca107c6c",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I004\", \"verdict\": \"supported\", \"sentences\": [1]}, {\"id\": \"I005\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"I008\", \"verdict\": \"supported\", \"sentences\": [2, 3]}, {\"id\": \"I009\", \"verdict\": \"supported\", \"sentences\": [3, 4]}]}"
+    },
+    {
+      "request_id": "c324f7915abf568222ac6428",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I004\", \"verdict\": \"supported\", \"sentences\": [1]}, {\"id\": \"I005\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"I006\", \"verdict\": \"supported\", \"sentences\": [2, 3]}, {\"id\": \"I007\", \"verdict\": \"supported\", \"sentences\": [3, 4]}]}"
+    },
+    {
+      "request_id": "8f1905069d657ddbd2a588e7",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I002\", \"verdict\": \"supported\", \"sentences\": [1]}]}"
+    },
+    {
+      "request_id": "60b87b6921a24e1e64da87a9",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I004\", \"verdict\": \"supported\", \"sentences\": [1]}, {\"id\": \"I005\", \"verdict\": \"supported\", \"sentences\": [1, 2]}]}"
+    },
+    {
+      "request_id": "c79df4f2e140a790ca6af7de",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I000\", \"verdict\": \"supported\", \"sentences\": [1]}, {\"id\": \"I001\", \"verdict\": \"supported\", \"sentences\": [1, 2]}]}"
+    },
+    {
+      "request_id": "8ea4fb8f433ea4cd55807145",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I000\", \"verdict\": \"supported\", \"sentences\": [2]}, {\"id\": \"I001\", \"verdict\": \"supported\", \"sentences\": [1, 2]}]}"
+    },
+    {
+      "request_id": "defd75cfa42d3f618dcf0ce8",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I002\", \"verdict\": \"supported\", \"sentences\": [1]}, {\"id\": \"I006\", \"verdict\": \"supported\", \"sentences\": [2]}]}"
+    },
+    {
+      "request_id": "e43e0d4c833ecd79c50735ba",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I000\", \"verdict\": \"supported\", \"sentences\": [1]}]}"
+    },
+    {
+      "request_id": "91d585970b0fa0db366279b6",
+      "response": "{\"path_status\": \"unique\", \"verdicts\": [{\"id\": \"I001\", \"verdict\": \"supported\", \"sentences\": [1]}]}"
+    }
+  ]
+}

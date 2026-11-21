@@ -1,0 +1,1950 @@
+{
+  "freeze": {
+    "protocol": "blinded-agent-recovery-v2",
+    "label": "fresh_holdout",
+    "batch_group": "holdout_batch_0",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "41eafa3307d1b40d4256b66f4284a16f9bf691d355fedb980c57da2a51a38b5e",
+    "source_sha256": {
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "semantic_recovery_ids.py": "f0780903a6511042127b0950682eeae6d1d41e1f59187b0ccc7f597ed3e108be",
+      "core.py": "83b842a00dcc111d1ab6fb857ccf26d3b5173c035a9d9ca981f0a93445507c03",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "99b218dc065bbd14b4eeb5738ca9422aab3cc06b759971627bafd4cb3039af1d"
+  },
+  "rows": [
+    {
+      "id": "fresh23",
+      "request_id": "06b7f9641e42d7b79b66307e",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh23",
+      "text": "Were I to combine p0 with d0, I would obtain p0 & d0; were I then to use (p0 & d0) -> p1, I would reach p1. That counterfactual sketch is not an account of steps taken.",
+      "recovery": {
+        "status": "abstained",
+        "accepted": false,
+        "complete": false,
+        "reason": "Proposer supplied no unique asserted inference path",
+        "model_status": "abstain",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [],
+        "evidence": [],
+        "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [],
+        "verdicts": [],
+        "rejected_ids": [],
+        "evidence_sentences": [],
+        "source_spans": [],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": false,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"abstain\",\"steps\":[]}",
+      "verification_response": null,
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 0,
+        "predicted_steps": 0,
+        "correct_steps": 0,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "abstain",
+        "expected_canonical": [],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh15",
+      "request_id": "6efdac3c0eb4e88084ab8c4d",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh15",
+      "text": "From the starting p0 I introduced the alternative e0 | p0. That is the only inferential move described here.",
+      "recovery": {
+        "status": "partial_evidence",
+        "accepted": true,
+        "complete": false,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(e0|p0)",
+            "premises": [
+              "p0"
+            ],
+            "rule": "OR_INTRO"
+          }
+        ],
+        "evidence": [
+          "From the starting p0 I introduced the alternative e0 | p0."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I004\",\"sentences\":[1]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I004",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I004",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 58,
+              "text": "From the starting p0 I introduced the alternative e0 | p0."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I004\",\"sentences\":[1]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 1,
+        "predicted_steps": 1,
+        "correct_steps": 1,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "or"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "partial",
+        "expected_canonical": [
+          "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}"
+        ],
+        "expected_routes": {
+          "0": "or"
+        }
+      }
+    },
+    {
+      "id": "fresh19",
+      "request_id": "d23673fd5e7374d886bdaad1",
+      "n_stages": 2,
+      "problem_id": "fresh-holdout-fresh19",
+      "text": "I obtain m0 by applying p0 -> m0 to p0. I obtain p1 by applying m0 -> p1 to m0. The last surviving step obtains p2 from p1 | e1 and (p1 | e1) -> p2. The construction of p1 | e1 was not recorded.",
+      "recovery": {
+        "status": "partial_evidence",
+        "accepted": true,
+        "complete": false,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "I obtain m0 by applying p0 -> m0 to p0.",
+          "I obtain p1 by applying m0 -> p1 to m0.",
+          "The last surviving step obtains p2 from p1 | e1 and (p1 | e1) -> p2."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I011\",\"sentences\":[3]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I000",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I001",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I011",
+            "sentences": [
+              3
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I000",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I001",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I011",
+            "verdict": "supported",
+            "sentences": [
+              3
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 39,
+              "text": "I obtain m0 by applying p0 -> m0 to p0."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 40,
+              "end": 79,
+              "text": "I obtain p1 by applying m0 -> p1 to m0."
+            }
+          ],
+          [
+            {
+              "sentence": 3,
+              "start": 80,
+              "end": 148,
+              "text": "The last surviving step obtains p2 from p1 | e1 and (p1 | e1) -> p2."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[3]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I011\",\"sentences\":[3]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[3]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 3,
+        "predicted_steps": 3,
+        "correct_steps": 3,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "mp"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "partial",
+        "expected_canonical": [
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp"
+        }
+      }
+    },
+    {
+      "id": "fresh03",
+      "request_id": "4db53f5a71af9367a1655348",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh03",
+      "text": "I put the facts d0 and p0 into a single conjunction, d0 & p0. Using that conjunction with (d0 & p0) -> p1 yields my stated result, p1.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "I put the facts d0 and p0 into a single conjunction, d0 & p0.",
+          "I put the facts d0 and p0 into a single conjunction, d0 & p0.\nUsing that conjunction with (d0 & p0) -> p1 yields my stated result, p1."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[1]},{\"id\":\"I003\",\"sentences\":[1,2]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I002",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I003",
+            "sentences": [
+              1,
+              2
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I002",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I003",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 61,
+              "text": "I put the facts d0 and p0 into a single conjunction, d0 & p0."
+            }
+          ],
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 61,
+              "text": "I put the facts d0 and p0 into a single conjunction, d0 & p0."
+            },
+            {
+              "sentence": 2,
+              "start": 62,
+              "end": 134,
+              "text": "Using that conjunction with (d0 & p0) -> p1 yields my stated result, p1."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[1]},{\"id\":\"I003\",\"sentences\":[1,2]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 2,
+        "predicted_steps": 2,
+        "correct_steps": 2,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "and"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and"
+        }
+      }
+    },
+    {
+      "id": "fresh11",
+      "request_id": "a9301cd35eaa879f501b8143",
+      "n_stages": 2,
+      "problem_id": "fresh-holdout-fresh11",
+      "text": "An earlier MP proposal was shelved; the following is the route I actually used. For the first transition, p0 and d0 jointly establish p0 & d0. This p0 & d0, with (p0 & d0) -> p1, establishes p1. For the next transition I introduce p1 | e1 from p1. I apply (p1 | e1) -> p2 to p1 | e1 and obtain p2.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(e1|p1)",
+            "premises": [
+              "p1"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "For the first transition, p0 and d0 jointly establish p0 & d0.",
+          "For the first transition, p0 and d0 jointly establish p0 & d0.\nThis p0 & d0, with (p0 & d0) -> p1, establishes p1.",
+          "For the next transition I introduce p1 | e1 from p1.",
+          "I apply (p1 | e1) -> p2 to p1 | e1 and obtain p2."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[2]},{\"id\":\"I003\",\"sentences\":[3]},{\"id\":\"I010\",\"sentences\":[4]},{\"id\":\"I011\",\"sentences\":[5]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I002",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I003",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I010",
+            "sentences": [
+              4
+            ]
+          },
+          {
+            "id": "I011",
+            "sentences": [
+              5
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I002",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I003",
+            "verdict": "supported",
+            "sentences": [
+              2,
+              3
+            ]
+          },
+          {
+            "id": "I010",
+            "verdict": "supported",
+            "sentences": [
+              4
+            ]
+          },
+          {
+            "id": "I011",
+            "verdict": "supported",
+            "sentences": [
+              5
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 2,
+              "start": 80,
+              "end": 142,
+              "text": "For the first transition, p0 and d0 jointly establish p0 & d0."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 80,
+              "end": 142,
+              "text": "For the first transition, p0 and d0 jointly establish p0 & d0."
+            },
+            {
+              "sentence": 3,
+              "start": 143,
+              "end": 194,
+              "text": "This p0 & d0, with (p0 & d0) -> p1, establishes p1."
+            }
+          ],
+          [
+            {
+              "sentence": 4,
+              "start": 195,
+              "end": 247,
+              "text": "For the next transition I introduce p1 | e1 from p1."
+            }
+          ],
+          [
+            {
+              "sentence": 5,
+              "start": 248,
+              "end": 297,
+              "text": "I apply (p1 | e1) -> p2 to p1 | e1 and obtain p2."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[5]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[2]},{\"id\":\"I003\",\"sentences\":[3]},{\"id\":\"I010\",\"sentences\":[4]},{\"id\":\"I011\",\"sentences\":[5]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[5]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 4,
+        "predicted_steps": 4,
+        "correct_steps": 4,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "and",
+          "1": "or"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and",
+          "1": "or"
+        }
+      }
+    },
+    {
+      "id": "fresh04",
+      "request_id": "db06a67fb30f3131f9058faf",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh04",
+      "text": "These are the final notes; formatting is immaterial. The step I took was to join p0 with d0, establishing p0 & d0. I then applied (p0 & d0) -> p1 to p0 & d0 and established p1.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "The step I took was to join p0 with d0, establishing p0 & d0.",
+          "I then applied (p0 & d0) -> p1 to p0 & d0 and established p1."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[2]},{\"id\":\"I003\",\"sentences\":[3]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I002",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I003",
+            "sentences": [
+              3
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I002",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I003",
+            "verdict": "supported",
+            "sentences": [
+              3
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 2,
+              "start": 53,
+              "end": 114,
+              "text": "The step I took was to join p0 with d0, establishing p0 & d0."
+            }
+          ],
+          [
+            {
+              "sentence": 3,
+              "start": 115,
+              "end": 176,
+              "text": "I then applied (p0 & d0) -> p1 to p0 & d0 and established p1."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[2]},{\"id\":\"I003\",\"sentences\":[3]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 2,
+        "predicted_steps": 2,
+        "correct_steps": 2,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "and"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "and"
+        }
+      }
+    },
+    {
+      "id": "fresh26",
+      "request_id": "36af3a3c993563c6fb72044f",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh26",
+      "text": "Tomorrow the procedure should introduce p0 | e0 from p0 and should apply (p0 | e0) -> p1 to that disjunction. Nothing in this note records an executed inference.",
+      "recovery": {
+        "status": "abstained",
+        "accepted": false,
+        "complete": false,
+        "reason": "Proposer supplied no unique asserted inference path",
+        "model_status": "abstain",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [],
+        "evidence": [],
+        "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [],
+        "verdicts": [],
+        "rejected_ids": [],
+        "evidence_sentences": [],
+        "source_spans": [],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": false,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"abstain\",\"steps\":[]}",
+      "verification_response": null,
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 0,
+        "predicted_steps": 0,
+        "correct_steps": 0,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "abstain",
+        "expected_canonical": [],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh29",
+      "request_id": "9082dc95ee6734137d05115f",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh29",
+      "text": "My entire deduction is p0, hence p0 & d0, without using or establishing d0. I supply no next inference to p1.",
+      "recovery": {
+        "status": "abstained",
+        "accepted": false,
+        "complete": false,
+        "reason": "Proposer supplied no unique asserted inference path",
+        "model_status": "abstain",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [],
+        "evidence": [],
+        "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [],
+        "verdicts": [],
+        "rejected_ids": [],
+        "evidence_sentences": [],
+        "source_spans": [],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": false,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"abstain\",\"steps\":[]}",
+      "verification_response": null,
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 0,
+        "predicted_steps": 0,
+        "correct_steps": 0,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "abstain",
+        "expected_canonical": [],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh24",
+      "request_id": "c0dc0daa2375d2b5273d91b3",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh24",
+      "text": "I declare that p0 forces e0, and then that e0 alone forces p1. These are my only asserted moves; no conditional connecting those claims is part of the argument.",
+      "recovery": {
+        "status": "abstained",
+        "accepted": false,
+        "complete": false,
+        "reason": "Proposer supplied no unique asserted inference path",
+        "model_status": "abstain",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [],
+        "evidence": [],
+        "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [],
+        "verdicts": [],
+        "rejected_ids": [],
+        "evidence_sentences": [],
+        "source_spans": [],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": false,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"abstain\",\"steps\":[]}",
+      "verification_response": null,
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 0,
+        "predicted_steps": 0,
+        "correct_steps": 0,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "abstain",
+        "expected_canonical": [],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh18",
+      "request_id": "9a8efafb0813cf4ee539fcc0",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh18",
+      "text": "The recorded step uses p0 | e0 with (p0 | e0) -> p1, producing p1. No introduction of p0 | e0 is described.",
+      "recovery": {
+        "status": "partial_evidence",
+        "accepted": true,
+        "complete": false,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((e0|p0)->p1)",
+              "(e0|p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "The recorded step uses p0 | e0 with (p0 | e0) -> p1, producing p1."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I005\",\"sentences\":[1]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I005",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I005",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 66,
+              "text": "The recorded step uses p0 | e0 with (p0 | e0) -> p1, producing p1."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I005\",\"sentences\":[1]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 1,
+        "predicted_steps": 1,
+        "correct_steps": 1,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "partial",
+        "expected_canonical": [
+          "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh25",
+      "request_id": "c1b166ba0efc5c381acefe44",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh25",
+      "text": "Would using p0 -> m0 on p0 establish m0? Would m0 -> p1 then establish p1? I am asking what is possible, not reporting a chosen argument.",
+      "recovery": {
+        "status": "abstained",
+        "accepted": false,
+        "complete": false,
+        "reason": "Proposer supplied no unique asserted inference path",
+        "model_status": "abstain",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [],
+        "evidence": [],
+        "model_output": "{\"status\":\"abstain\",\"steps\":[]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [],
+        "verdicts": [],
+        "rejected_ids": [],
+        "evidence_sentences": [],
+        "source_spans": [],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": false,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"abstain\",\"steps\":[]}",
+      "verification_response": null,
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 0,
+        "predicted_steps": 0,
+        "correct_steps": 0,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "abstain",
+        "expected_canonical": [],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh17",
+      "request_id": "172be84838f75d0c440bbc5f",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh17",
+      "text": "The recorded application takes p0 & d0 and (p0 & d0) -> p1 as its premises and reaches p1. The construction of p0 & d0 is not in this passage.",
+      "recovery": {
+        "status": "partial_evidence",
+        "accepted": true,
+        "complete": false,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "The recorded application takes p0 & d0 and (p0 & d0) -> p1 as its premises and reaches p1."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I003\",\"sentences\":[1]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I003",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I003",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 90,
+              "text": "The recorded application takes p0 & d0 and (p0 & d0) -> p1 as its premises and reaches p1."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I003\",\"sentences\":[1]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 1,
+        "predicted_steps": 1,
+        "correct_steps": 1,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {},
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "partial",
+        "expected_canonical": [
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {}
+      }
+    },
+    {
+      "id": "fresh05",
+      "request_id": "0c436f668e78a3974e749625",
+      "n_stages": 1,
+      "problem_id": "fresh-holdout-fresh05",
+      "text": "Since p0 holds, I weaken it to the disjunction e0 | p0. That e0 | p0 satisfies the antecedent of (e0 | p0) -> p1, so I conclude p1.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(e0|p0)",
+            "premises": [
+              "p0"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((e0|p0)->p1)",
+              "(e0|p0)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "Since p0 holds, I weaken it to the disjunction e0 | p0.",
+          "Since p0 holds, I weaken it to the disjunction e0 | p0.\nThat e0 | p0 satisfies the antecedent of (e0 | p0) -> p1, so I conclude p1."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I004\",\"sentences\":[1]},{\"id\":\"I005\",\"sentences\":[2]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I004",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I005",
+            "sentences": [
+              2
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I004",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I005",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 55,
+              "text": "Since p0 holds, I weaken it to the disjunction e0 | p0."
+            }
+          ],
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 55,
+              "text": "Since p0 holds, I weaken it to the disjunction e0 | p0."
+            },
+            {
+              "sentence": 2,
+              "start": 56,
+              "end": 131,
+              "text": "That e0 | p0 satisfies the antecedent of (e0 | p0) -> p1, so I conclude p1."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I004\",\"sentences\":[1]},{\"id\":\"I005\",\"sentences\":[2]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I004\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I005\",\"verdict\":\"supported\",\"sentences\":[1,2]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 2,
+        "predicted_steps": 2,
+        "correct_steps": 2,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "or"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(e0|p0)\",\"premises\":[\"p0\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((e0|p0)->p1)\",\"(e0|p0)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "or"
+        }
+      }
+    },
+    {
+      "id": "fresh09",
+      "request_id": "dfc21b4053813f78d7b64edd",
+      "n_stages": 2,
+      "problem_id": "fresh-holdout-fresh09",
+      "text": "To reach p2 I used p1 | e1 together with (p1 | e1) -> p2. I had obtained p1 | e1 by introducing a disjunction from p1. The p1 came from p0 & d0 and its conditional (p0 & d0) -> p1. At the beginning I combined p0 and d0 into p0 & d0.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "(d0&p0)",
+            "premises": [
+              "d0",
+              "p0"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "((d0&p0)->p1)",
+              "(d0&p0)"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(e1|p1)",
+            "premises": [
+              "p1"
+            ],
+            "rule": "OR_INTRO"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((e1|p1)->p2)",
+              "(e1|p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "At the beginning I combined p0 and d0 into p0 & d0.",
+          "The p1 came from p0 & d0 and its conditional (p0 & d0) -> p1.",
+          "I had obtained p1 | e1 by introducing a disjunction from p1.",
+          "To reach p2 I used p1 | e1 together with (p1 | e1) -> p2."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[4]},{\"id\":\"I003\",\"sentences\":[3]},{\"id\":\"I010\",\"sentences\":[2]},{\"id\":\"I011\",\"sentences\":[1]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I002",
+            "sentences": [
+              4
+            ]
+          },
+          {
+            "id": "I003",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I010",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I011",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I002",
+            "verdict": "supported",
+            "sentences": [
+              4
+            ]
+          },
+          {
+            "id": "I003",
+            "verdict": "supported",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I010",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I011",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            4
+          ],
+          [
+            3
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 4,
+              "start": 181,
+              "end": 232,
+              "text": "At the beginning I combined p0 and d0 into p0 & d0."
+            }
+          ],
+          [
+            {
+              "sentence": 3,
+              "start": 119,
+              "end": 180,
+              "text": "The p1 came from p0 & d0 and its conditional (p0 & d0) -> p1."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 58,
+              "end": 118,
+              "text": "I had obtained p1 | e1 by introducing a disjunction from p1."
+            }
+          ],
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 57,
+              "text": "To reach p2 I used p1 | e1 together with (p1 | e1) -> p2."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I002\",\"sentences\":[4]},{\"id\":\"I003\",\"sentences\":[3]},{\"id\":\"I010\",\"sentences\":[2]},{\"id\":\"I011\",\"sentences\":[1]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I002\",\"verdict\":\"supported\",\"sentences\":[4]},{\"id\":\"I003\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I010\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I011\",\"verdict\":\"supported\",\"sentences\":[1]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 4,
+        "predicted_steps": 4,
+        "correct_steps": 4,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "and",
+          "1": "or"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(d0&p0)\",\"premises\":[\"d0\",\"p0\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"(e1|p1)\",\"premises\":[\"p1\"],\"rule\":\"OR_INTRO\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"((d0&p0)->p1)\",\"(d0&p0)\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((e1|p1)->p2)\",\"(e1|p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "1": "or",
+          "0": "and"
+        }
+      }
+    },
+    {
+      "id": "fresh07",
+      "request_id": "4e6538f281b985ac177b00f7",
+      "n_stages": 2,
+      "problem_id": "fresh-holdout-fresh07",
+      "text": "I move from p0 to m0 by applying p0 -> m0 to p0. Applying m0 -> p1 to m0 next establishes p1. I join the established p1 and the available d1 to obtain p1 & d1. Finally, (p1 & d1) -> p2 applied to p1 & d1 gives p2.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "(d1&p1)",
+            "premises": [
+              "d1",
+              "p1"
+            ],
+            "rule": "AND_INTRO"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "((d1&p1)->p2)",
+              "(d1&p1)"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "I move from p0 to m0 by applying p0 -> m0 to p0.",
+          "Applying m0 -> p1 to m0 next establishes p1.",
+          "Applying m0 -> p1 to m0 next establishes p1.\nI join the established p1 and the available d1 to obtain p1 & d1.",
+          "Finally, (p1 & d1) -> p2 applied to p1 & d1 gives p2."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I008\",\"sentences\":[3]},{\"id\":\"I009\",\"sentences\":[4]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I000",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I001",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I008",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I009",
+            "sentences": [
+              4
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I000",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I001",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I008",
+            "verdict": "supported",
+            "sentences": [
+              2,
+              3
+            ]
+          },
+          {
+            "id": "I009",
+            "verdict": "supported",
+            "sentences": [
+              4
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 48,
+              "text": "I move from p0 to m0 by applying p0 -> m0 to p0."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 49,
+              "end": 93,
+              "text": "Applying m0 -> p1 to m0 next establishes p1."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 49,
+              "end": 93,
+              "text": "Applying m0 -> p1 to m0 next establishes p1."
+            },
+            {
+              "sentence": 3,
+              "start": 94,
+              "end": 159,
+              "text": "I join the established p1 and the available d1 to obtain p1 & d1."
+            }
+          ],
+          [
+            {
+              "sentence": 4,
+              "start": 160,
+              "end": 213,
+              "text": "Finally, (p1 & d1) -> p2 applied to p1 & d1 gives p2."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I008\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I009\",\"verdict\":\"supported\",\"sentences\":[4]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I008\",\"sentences\":[3]},{\"id\":\"I009\",\"sentences\":[4]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I008\",\"verdict\":\"supported\",\"sentences\":[2,3]},{\"id\":\"I009\",\"verdict\":\"supported\",\"sentences\":[4]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 4,
+        "predicted_steps": 4,
+        "correct_steps": 4,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "mp",
+          "1": "and"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"(d1&p1)\",\"premises\":[\"d1\",\"p1\"],\"rule\":\"AND_INTRO\"}",
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"((d1&p1)->p2)\",\"(d1&p1)\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp",
+          "1": "and"
+        }
+      }
+    },
+    {
+      "id": "fresh10",
+      "request_id": "16d15f782e2e02a099a3822d",
+      "n_stages": 2,
+      "problem_id": "fresh-holdout-fresh10",
+      "text": "p0, alongside the promise p0 -> m0, gave me m0. m0, alongside m0 -> p1, gave me p1. I used p1 and p1 -> m1 to get m1. I used m1 and m1 -> p2 to get p2. p0, alongside the promise p0 -> m0, gave me m0.",
+      "recovery": {
+        "status": "complete_proof",
+        "accepted": true,
+        "complete": true,
+        "reason": "Source-indexed, model-affirmed applications passed structural checks",
+        "model_status": "extracted",
+        "prompt_version": "sentence-grounded-recovery-v2",
+        "semantic_entailment_verified": false,
+        "steps": [
+          {
+            "conclusion": "m0",
+            "premises": [
+              "(p0->m0)",
+              "p0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p1",
+            "premises": [
+              "(m0->p1)",
+              "m0"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "m1",
+            "premises": [
+              "(p1->m1)",
+              "p1"
+            ],
+            "rule": "MP"
+          },
+          {
+            "conclusion": "p2",
+            "premises": [
+              "(m1->p2)",
+              "m1"
+            ],
+            "rule": "MP"
+          }
+        ],
+        "evidence": [
+          "p0, alongside the promise p0 -> m0, gave me m0.",
+          "m0, alongside m0 -> p1, gave me p1.",
+          "I used p1 and p1 -> m1 to get m1.",
+          "I used m1 and m1 -> p2 to get p2."
+        ],
+        "model_output": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1,5]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I006\",\"sentences\":[3]},{\"id\":\"I007\",\"sentences\":[4]}]}",
+        "interpretation_scope": "free_wording_with_explicit_known_domain_symbols",
+        "proposed": [
+          {
+            "id": "I000",
+            "sentences": [
+              1,
+              5
+            ]
+          },
+          {
+            "id": "I001",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I006",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I007",
+            "sentences": [
+              4
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "I000",
+            "verdict": "supported",
+            "sentences": [
+              1
+            ]
+          },
+          {
+            "id": "I001",
+            "verdict": "supported",
+            "sentences": [
+              2
+            ]
+          },
+          {
+            "id": "I006",
+            "verdict": "supported",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "I007",
+            "verdict": "supported",
+            "sentences": [
+              4
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "evidence_sentences": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "source_spans": [
+          [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 47,
+              "text": "p0, alongside the promise p0 -> m0, gave me m0."
+            }
+          ],
+          [
+            {
+              "sentence": 2,
+              "start": 48,
+              "end": 83,
+              "text": "m0, alongside m0 -> p1, gave me p1."
+            }
+          ],
+          [
+            {
+              "sentence": 3,
+              "start": 84,
+              "end": 117,
+              "text": "I used p1 and p1 -> m1 to get m1."
+            }
+          ],
+          [
+            {
+              "sentence": 4,
+              "start": 118,
+              "end": 151,
+              "text": "I used m1 and m1 -> p2 to get p2."
+            }
+          ]
+        ],
+        "evidence_format": "newline_joined_exact_source_sentences",
+        "verification_output": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I006\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I007\",\"verdict\":\"supported\",\"sentences\":[4]}]}",
+        "verifier_version": "asserted-application-verifier-v2",
+        "model_verification_performed": true,
+        "model_calls_independent_errors_claimed": false,
+        "calls": []
+      },
+      "proposal_response": "{\"status\":\"extracted\",\"steps\":[{\"id\":\"I000\",\"sentences\":[1,5]},{\"id\":\"I001\",\"sentences\":[2]},{\"id\":\"I006\",\"sentences\":[3]},{\"id\":\"I007\",\"sentences\":[4]}]}",
+      "verification_response": "{\"path_status\":\"unique\",\"verdicts\":[{\"id\":\"I000\",\"verdict\":\"supported\",\"sentences\":[1]},{\"id\":\"I001\",\"verdict\":\"supported\",\"sentences\":[2]},{\"id\":\"I006\",\"verdict\":\"supported\",\"sentences\":[3]},{\"id\":\"I007\",\"verdict\":\"supported\",\"sentences\":[4]}]}",
+      "metrics": {
+        "exact_steps": true,
+        "status_correct": true,
+        "strict_success": true,
+        "gold_steps": 4,
+        "predicted_steps": 4,
+        "correct_steps": 4,
+        "extra_steps": [],
+        "missing_steps": [],
+        "predicted_routes": {
+          "0": "mp",
+          "1": "mp"
+        },
+        "exact_explicit_routes": true,
+        "false_acceptance": false
+      },
+      "gold": {
+        "expected_status": "complete",
+        "expected_canonical": [
+          "{\"conclusion\":\"m0\",\"premises\":[\"(p0->m0)\",\"p0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"m1\",\"premises\":[\"(p1->m1)\",\"p1\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p1\",\"premises\":[\"(m0->p1)\",\"m0\"],\"rule\":\"MP\"}",
+          "{\"conclusion\":\"p2\",\"premises\":[\"(m1->p2)\",\"m1\"],\"rule\":\"MP\"}"
+        ],
+        "expected_routes": {
+          "0": "mp",
+          "1": "mp"
+        }
+      }
+    }
+  ],
+  "proposal_response_artifact_sha256": "ba48d226dfe072068cbc732f4fa23626883aa1b0ebccbf1dbfb0968d974bf501",
+  "verification_response_artifact_sha256": "0fd68efa5ebbdc8fff6c26da02ce6b83ad2921ff8651fc8685a84c16132e07cd"
+}
