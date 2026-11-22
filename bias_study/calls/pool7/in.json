@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep a couple of tables for games where spoken questions are welcome, so a learner can ask about a move without guessing whether their opponent minds."
+    },
+    {
+      "id": "s01",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match."
+    },
+    {
+      "id": "s02",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Ask spectators to save suggestions until the players invite them, so a newcomer gets the chance to work out a difficult move for themselves."
+    },
+    {
+      "id": "s03",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Put felt under the pieces that land with a clack. A small change to the sets can quiet a busy room without asking anyone to tiptoe."
+    },
+    {
+      "id": "s04",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Silence the beeps on communal clocks so the end of one game doesn't break a neighboring player's concentration."
+    },
+    {
+      "id": "s05",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep a few boards available for play without a clock, allowing someone who is still thinking through legal moves to take their time."
+    },
+    {
+      "id": "s06",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Give each set a picture of the starting position so two beginners can get going together without having to call across the room for help."
+    },
+    {
+      "id": "s07",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Offer a small sign that a seated player can turn toward the door when they'd welcome an opponent, taking the guesswork out of joining a stranger."
+    },
+    {
+      "id": "s08",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep a written waiting list during busy periods, letting visitors sit down to read instead of hovering over games that look nearly finished."
+    },
+    {
+      "id": "s09",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Put spare queens and other pieces in an easy-to-find drawer, so a promotion or a missing knight doesn't set off a room-wide search."
+    },
+    {
+      "id": "s10",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Arrange the tables so visitors heading for the exit can pass behind seated players without squeezing between a chair and its board."
+    },
+    {
+      "id": "s11",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Ask a host to greet newcomers just inside the door, where a quiet explanation of the room can happen without interrupting a game."
+    },
+    {
+      "id": "s12",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Leave a few single-position puzzles on a side desk so someone waiting for an opponent can enjoy chess without watching over a player's shoulder."
+    },
+    {
+      "id": "s13",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Invite both players to agree before starting whether they'll allow takebacks, heading off a dispute the first time someone overlooks a check."
+    },
+    {
+      "id": "s14",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep bags on hooks or a shelf away from the boards, saving seated players from repeated requests to move their belongings out of a walkway."
+    },
+    {
+      "id": "s15",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Give children who want to practise piece movement a set of their own, so they can explore how a knight jumps without borrowing from a live game."
+    },
+    {
+      "id": "s16",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Set up a place for post-game discussion a little away from the quiet boards, since a lively analysis can last much longer than the game itself."
+    },
+    {
+      "id": "s17",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Encourage a quiet word with the host if a disagreement develops, giving players a way to settle a rules question without drawing in the whole room."
+    },
+    {
+      "id": "s18",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Fit pads to the chair legs that scrape against the floor, making it easier to come and go without startling people deep in thought."
+    },
+    {
+      "id": "s19",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Let learners know when a volunteer will be free to teach, so they can plan a visit when asking for help feels expected."
+    },
+    {
+      "id": "s20",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep the sightline from the entrance to the tables open, allowing visitors to see whether the room is busy before walking through the playing area."
+    },
+    {
+      "id": "s21",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Ask anyone taking a call to step into the hallway, where they can speak normally while the people at their board hold the position."
+    },
+    {
+      "id": "s22",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Give players a quiet heads-up before closing time so a beginner still learning to judge game length can agree on a stopping point with their opponent."
+    },
+    {
+      "id": "s23",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Leave a pencil and paper for recording an unfinished position, allowing two visitors to pause a game without having to keep the board occupied."
+    }
+  ]
+}

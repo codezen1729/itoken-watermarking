@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "Bowls from different makers can look alike once the rack fills.",
+          "action": "Leave reusable cards and a pencil at the rack so makers can put their names on their boards as they arrive.",
+          "consequence": "Each board can still be identified after similar work arrives.",
+          "quote": "Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "A shelf above a vase can get in the way when a student sets it down.",
+          "action": "Reserve a bay with enough vertical clearance for tall work.",
+          "consequence": "The student can put the vase down upright.",
+          "quote": "Give tall pieces a bay with extra headroom. A student carrying a vase should be able to set it down without tilting it under a shelf."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "A shelf can leave too little room to grasp a board that is easy to pick up on a table.",
+          "action": "Supply boards sized to leave finger room at the edges inside the rack.",
+          "consequence": "Makers can get a grip on a shelved board to lift it out.",
+          "quote": "Stock ware boards that fit the rack with room for fingers at the edges, since a board that's easy to lift on the worktable can be awkward to retrieve from a shelf."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "Large pots can hide small test tiles.",
+          "action": "Provide a low tray with compartments for the tiles.",
+          "consequence": "The tiles stay together where makers can find them.",
+          "quote": "Offer a shallow, divided tray for small test tiles that would otherwise get lost behind pots."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "A maker may be keeping a piece covered until they return to trim it or add a handle.",
+          "action": "Let the maker clip handling instructions to the board.",
+          "consequence": "Another student can tell whether to uncover the piece.",
+          "quote": "Let people clip a handling note to their board when they're coming back to trim or attach a handle. A classmate can then tell whether it's okay to uncover the piece."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "Someone carrying work may need to search for an appropriate opening.",
+          "action": "Keep a table clear next to the rack.",
+          "consequence": "They can set their load down while they look.",
+          "quote": "Set aside a clear table beside the rack where someone can put a load down while they look for a suitable space."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "Some shelves are too deep to reach all the way across from the front.",
+          "action": "Keep a way to reach those shelves from behind.",
+          "consequence": "People can reach the back without leaning over wet rims.",
+          "quote": "If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "A maker may want one part of a piece to dry more slowly.",
+          "action": "Keep clean plastic and clips beside the rack so the maker can cover that part.",
+          "consequence": "The covered area can dry at the slower pace the maker wants.",
+          "quote": "Keep a basket of clean plastic sheets and clips nearby for makers who want part of a piece to dry more slowly."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "An unusually large class project may occupy an entire shelf.",
+          "action": "Have instructors mark those projects on the studio calendar.",
+          "consequence": "Other groups can anticipate when that much space will be in use.",
+          "quote": "Ask instructors to flag unusually large class projects on the studio calendar. Other groups can see when a whole shelf is likely to fill up."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "Some people have difficulty lifting a board of pottery above shoulder level.",
+          "action": "Reserve some rack space within easy reach for them.",
+          "consequence": "They can shelve their work without an overhead lift.",
+          "quote": "Save some easy-reach space for anyone who would struggle to lift a loaded board above shoulder height."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "After time away, a maker may forget which shelf holds their piece.",
+          "action": "Give shelves short, visible names that makers can record in their notebooks.",
+          "consequence": "Returning makers can use the name to locate their piece.",
+          "quote": "Give each shelf a short, visible name that a maker can jot in a notebook to find a piece after a week away."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "In dim light, a low dish at the back of a shelf can look like open space.",
+          "action": "Aim a small lamp along the back of the shelf.",
+          "consequence": "A maker can see which spots are free.",
+          "quote": "A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "On a weekly check, the volunteer needs to know how long boards have been there.",
+          "action": "Mark each board with its arrival date.",
+          "consequence": "The volunteer can identify owners to follow up with.",
+          "quote": "Date the arrival of each board so the volunteer doing the weekly round knows which owners to check in with."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Unclaimed work may be cleared to make room.",
+          "action": "Agree on how to contact its maker and post the procedure at the rack.",
+          "consequence": "The maker has an opportunity to collect the piece before its space is cleared.",
+          "quote": "Agree on a contact procedure for unclaimed work and post it by the rack, giving makers a chance to collect a piece before the studio clears its space."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Beginners may not know how much space to leave when placing pots on a board.",
+          "action": "Show a sample board on the teaching table with a hand's width of clearance between pots.",
+          "consequence": "Beginners can see the spacing before loading their own boards.",
+          "quote": "Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Carts may repeatedly hit an exposed rack corner during class changes.",
+          "action": "Place a low bumper at that corner when collisions are common.",
+          "consequence": "An impact from a passing cart is less likely to jolt the pottery.",
+          "quote": "Fit a low bumper beside the rack if carts regularly clip its exposed corner, sparing the work a jolt during busy changeovers."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Work that its maker considers finished still takes room on drying shelves.",
+          "action": "Mark a collection area for the kiln team to receive that work.",
+          "consequence": "Drying shelves have space for pieces that makers are still working on.",
+          "quote": "Give the kiln team a clearly marked collection point for pieces the maker considers finished, keeping the drying shelves available for work still under way."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A warped or splintered board can be a bad base for a flat platter.",
+          "action": "Remove damaged boards from the supply as soon as someone notices them.",
+          "consequence": "The next student can avoid setting a platter on an uneven board.",
+          "quote": "Take warped or splintered boards out of the supply as soon as someone spots them, before another student sets a flat platter on an uneven base."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Dried clay can remain on a shelf after a load is removed.",
+          "action": "Damp-wipe the empty shelf before loading it again.",
+          "consequence": "The next board has a clean surface and the old clay stays out of the air.",
+          "quote": "Wipe an emptied shelf with a damp sponge between loads so the next board goes onto a clean surface without kicking dried clay into the room."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A separate lid can be hard to match with its piece once similar lids accumulate.",
+          "action": "Dry the lid on the same board as its matching piece.",
+          "consequence": "The maker can find both parts together at the next session.",
+          "quote": "For a project with a separate lid, keep the two parts together on one board while they dry. The maker won't have to hunt through similar lids at the next session."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "A full class may need more room, and repacking delicate pieces is difficult.",
+          "action": "Provide an overflow rack with the same clearance between shelves.",
+          "consequence": "Whole boards can go onto the second rack with their pieces still in place.",
+          "quote": "Offer an overflow rack with the same shelf spacing as the main one so a full class can move whole boards without repacking fragile pieces."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Another person may see damage while the piece can still be repaired.",
+          "action": "Give that person a way to notify the maker privately.",
+          "consequence": "The maker can decide in time whether to make a repair.",
+          "quote": "Give anyone who spots damage a way to leave the maker a private note. The owner can decide whether to repair the piece while there's still time."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "A pile of unused boards can look like drying space already in use.",
+          "action": "Keep spare boards on their own stand by the worktables.",
+          "consequence": "Students can distinguish supplies from work occupying the rack.",
+          "quote": "Keep empty boards on a separate stand near the worktables so students don't mistake a supply pile for occupied drying space."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Work may need attention while its maker is away.",
+          "action": "Let members designate someone to check their pieces during their absence.",
+          "consequence": "Staff know whom to ask about a piece that needs attention.",
+          "quote": "Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+        }
+      ]
+    }
+  ]
+}

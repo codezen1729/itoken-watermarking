@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Match each caption file to the interview's catalog number so two recordings with similar titles don't end up playing with each other's words."
+    },
+    {
+      "id": "s01",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Mark a change of speaker with the name the person agreed to use. A listener who can't distinguish the voices can still follow the exchange."
+    },
+    {
+      "id": "s02",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Include a brief description of a meaningful sound, such as the train whistle both speakers stop to hear, when it helps explain their reaction."
+    },
+    {
+      "id": "s03",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Time each caption to the relevant phrase so a visitor can connect the words on screen with the same moment in the recording."
+    },
+    {
+      "id": "s04",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance."
+    },
+    {
+      "id": "s05",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Ask narrators or their nominated reviewers to confirm how people's names and local landmarks are spelled before the captions go on display."
+    },
+    {
+      "id": "s06",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Keep a narrator's own expressions in the captions. A familiar turn of phrase can carry part of the story that a polished rewrite would lose."
+    },
+    {
+      "id": "s07",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "If two reviewers still can't make out a word, mark it as inaudible so visitors know where the recording leaves a gap in the account."
+    },
+    {
+      "id": "s08",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Identify which languages are spoken and label each available translation by name so visitors can select the text they want."
+    },
+    {
+      "id": "s09",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "For overlapping conversation, give the two voices separate lines where both are intelligible. Visitors can see that the remarks were made together."
+    },
+    {
+      "id": "s10",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Provide a text-size control at each station and let visitors try it on a sample caption before starting a long interview."
+    },
+    {
+      "id": "s11",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Place captions on a solid, high-contrast background so their legibility survives a shift from a dark portrait to a pale archival photograph."
+    },
+    {
+      "id": "s12",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Put a replay control within easy reach for passages with several names or dates that a visitor may want to read again."
+    },
+    {
+      "id": "s13",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Start a fresh listening session with captions visible so a visitor can read the opening words without searching through settings."
+    },
+    {
+      "id": "s14",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Offer a printed transcript for each recording with the same title as the on-screen listing. People who prefer to read on paper can pick the matching copy."
+    },
+    {
+      "id": "s15",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Give long interviews a short list of topics with jump points, letting someone go straight to the passage about the old school or the flood."
+    },
+    {
+      "id": "s16",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere."
+    },
+    {
+      "id": "s17",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "When an audio edit removes a section, review the accompanying captions for both the missing passage and any timing shift afterward."
+    },
+    {
+      "id": "s18",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error."
+    },
+    {
+      "id": "s19",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Check that restrictions agreed with a narrator are reflected in the caption text, including any names that were silenced in the public recording."
+    },
+    {
+      "id": "s20",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Test the screen from the actual listening chair to catch a low caption line that a shelf edge or headphone stand might obscure."
+    },
+    {
+      "id": "s21",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Introduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted."
+    },
+    {
+      "id": "s22",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Keep optional background notes in the interview listing. Visitors can look up an unfamiliar local custom without losing their place in the speaker's sentence."
+    },
+    {
+      "id": "s23",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+    }
+  ]
+}

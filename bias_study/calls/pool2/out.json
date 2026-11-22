@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "Interviews can have titles similar enough to confuse their caption files.",
+          "action": "Associate each caption file with its interview's catalog number.",
+          "consequence": "Each recording plays with the words that belong to it.",
+          "quote": "Match each caption file to the interview's catalog number so two recordings with similar titles don't end up playing with each other's words."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "A visitor may have trouble telling voices apart.",
+          "action": "At each speaker change, show the speaker's agreed name.",
+          "consequence": "The visitor can tell who said each part of the exchange.",
+          "quote": "Mark a change of speaker with the name the person agreed to use. A listener who can't distinguish the voices can still follow the exchange."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "A sound may explain why the speakers paused or reacted.",
+          "action": "Briefly describe that sound in the captions when it explains the reaction.",
+          "consequence": "Visitors can understand what the speakers were responding to.",
+          "quote": "Include a brief description of a meaningful sound, such as the train whistle both speakers stop to hear, when it helps explain their reaction."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "A visitor needs to relate written words to the moment they were spoken.",
+          "action": "Synchronize each caption with the phrase it represents.",
+          "consequence": "The displayed words can be followed alongside that phrase in the audio.",
+          "quote": "Time each caption to the relevant phrase so a visitor can connect the words on screen with the same moment in the recording."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "An awkward line break can interrupt a phrase or a person's full name.",
+          "action": "Break lines where the sentence naturally divides and keep first and last names on one line.",
+          "consequence": "Visitors can take in each line quickly.",
+          "quote": "Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "Captions need the correct spellings of names and local landmarks.",
+          "action": "Have the narrator or a reviewer they nominate check the spellings before display.",
+          "consequence": "Visitors see spellings that have been checked by someone familiar with the account.",
+          "quote": "Ask narrators or their nominated reviewers to confirm how people's names and local landmarks are spelled before the captions go on display."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "A speaker's characteristic wording can convey part of the story on its own.",
+          "action": "Keep the narrator's phrasing when writing captions.",
+          "consequence": "The captions preserve meaning that a polished version might lose.",
+          "quote": "Keep a narrator's own expressions in the captions. A familiar turn of phrase can carry part of the story that a polished rewrite would lose."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "Two reviewers may still be unable to identify a word.",
+          "action": "Label the word as inaudible in that case.",
+          "consequence": "Visitors can see where the recording leaves the account unclear.",
+          "quote": "If two reviewers still can't make out a word, mark it as inaudible so visitors know where the recording leaves a gap in the account."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "Visitors need to know what languages they are hearing and which translations they can read.",
+          "action": "Identify the spoken languages and name each translation on offer.",
+          "consequence": "Visitors can select the text they want.",
+          "quote": "Identify which languages are spoken and label each available translation by name so visitors can select the text they want."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "Two speakers may be talking at once while both are still understandable.",
+          "action": "Put the two speakers' words on separate caption lines during the overlap.",
+          "consequence": "Visitors can see that the remarks happened at the same time.",
+          "quote": "For overlapping conversation, give the two voices separate lines where both are intelligible. Visitors can see that the remarks were made together."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A visitor may need to find a comfortable text size before a long interview.",
+          "action": "Give each station a size control and a sample caption on which to try it.",
+          "consequence": "The visitor can set a suitable size before the interview starts.",
+          "quote": "Provide a text-size control at each station and let visitors try it on a sample caption before starting a long interview."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "An archival image can change from dark to light behind the text.",
+          "action": "Put captions on a solid background that contrasts with the letters.",
+          "consequence": "Captions stay readable across changes of image.",
+          "quote": "Place captions on a solid, high-contrast background so their legibility survives a shift from a dark portrait to a pale archival photograph."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A visitor may want another look at a passage containing several names or dates.",
+          "action": "Place a replay control where the visitor can readily reach it.",
+          "consequence": "The visitor can return to that passage and read the details again.",
+          "quote": "Put a replay control within easy reach for passages with several names or dates that a visitor may want to read again."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A visitor can miss the opening words while looking for caption settings.",
+          "action": "Make captions visible when a new listening session starts.",
+          "consequence": "The visitor can read the opening from the start.",
+          "quote": "Start a fresh listening session with captions visible so a visitor can read the opening words without searching through settings."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Some people want to read an interview on paper and need to identify the right copy.",
+          "action": "Supply a paper transcript for every recording under the same title used on screen.",
+          "consequence": "A visitor can pick the printed version of the chosen interview.",
+          "quote": "Offer a printed transcript for each recording with the same title as the on-screen listing. People who prefer to read on paper can pick the matching copy."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Someone interested in one subject may be listening to a long interview.",
+          "action": "List the main topics with links to the corresponding moments.",
+          "consequence": "The listener can go directly to the topic they want.",
+          "quote": "Give long interviews a short list of topics with jump points, letting someone go straight to the passage about the old school or the flood."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "A reply may make little sense when a visitor relies on captions alone.",
+          "action": "Have a reviewer follow the whole interview with the sound off and flag unexplained replies.",
+          "consequence": "The review identifies places where the text fails to give the reply enough context.",
+          "quote": "Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Cutting a section of the audio can leave its words in the caption track.",
+          "action": "Check the captions at the cut against the removed passage.",
+          "consequence": "The review can catch text for words no longer heard.",
+          "quote": "When an audio edit removes a section, review the accompanying captions for both the missing passage and any timing shift afterward."
+        },
+        {
+          "premise": "Cutting a section of the audio can change the timing of everything that follows.",
+          "action": "Check the timing of captions after the cut.",
+          "consequence": "The review can catch later captions that have fallen out of sync.",
+          "quote": "When an audio edit removes a section, review the accompanying captions for both the missing passage and any timing shift afterward."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Staff need to locate the point where a visitor saw an error.",
+          "action": "Put fields for the interview title and playback time on the correction slip.",
+          "consequence": "Staff can find the reported mistake.",
+          "quote": "Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A narrator may have agreed to public access only with certain information withheld.",
+          "action": "Check caption text against those restrictions, including names muted in the recording.",
+          "consequence": "The captions honor the restrictions on the public account.",
+          "quote": "Check that restrictions agreed with a narrator are reflected in the caption text, including any names that were silenced in the public recording."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Objects near the screen can cover low caption lines from a seated visitor's viewpoint.",
+          "action": "Inspect the screen from the listening chair.",
+          "consequence": "The test reveals caption lines hidden from that seat.",
+          "quote": "Test the screen from the actual listening chair to catch a low caption line that a shelf edge or headphone stand might obscure."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "When the narrator reads someone else's letter or diary, a visitor may mistake the quoted words for the narrator's.",
+          "action": "Use the captions to introduce the excerpt as the narrator begins to read.",
+          "consequence": "Visitors can identify whose words they are reading.",
+          "quote": "Introduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "A visitor may want an explanation of an unfamiliar custom while following a sentence.",
+          "action": "Put optional background notes in the interview listing.",
+          "consequence": "Visitors can look up the custom and keep their place in the narration.",
+          "quote": "Keep optional background notes in the interview listing. Visitors can look up an unfamiliar local custom without losing their place in the speaker's sentence."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "People can arrive partway through a looped interview.",
+          "action": "Keep its title visible with the captions.",
+          "consequence": "A visitor who missed the beginning can identify the story in progress.",
+          "quote": "For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+        }
+      ]
+    }
+  ]
+}

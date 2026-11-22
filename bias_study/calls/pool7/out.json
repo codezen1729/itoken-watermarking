@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "Learners may be unsure whether an opponent welcomes spoken questions.",
+          "action": "Set aside a couple of tables where players expect questions during play.",
+          "consequence": "A learner there can ask about a move with confidence.",
+          "quote": "Keep a couple of tables for games where spoken questions are welcome, so a learner can ask about a move without guessing whether their opponent minds."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "A demonstration beside an active board can draw a crowd around that match.",
+          "action": "Place a teaching board in a corner away from games.",
+          "consequence": "A helper can demonstrate a position with space for interested visitors.",
+          "quote": "Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "An unsolicited suggestion can give away a move a newcomer could work out.",
+          "action": "Ask spectators to wait until players invite suggestions.",
+          "consequence": "The newcomer has time to think through the position independently.",
+          "quote": "Ask spectators to save suggestions until the players invite them, so a newcomer gets the chance to work out a difficult move for themselves."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "Some pieces make a clacking noise when placed on a board.",
+          "action": "Give those pieces felt bases.",
+          "consequence": "Ordinary play makes less noise throughout a busy room.",
+          "quote": "Put felt under the pieces that land with a clack. A small change to the sets can quiet a busy room without asking anyone to tiptoe."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "A clock sounding at the end of a game can distract nearby players.",
+          "action": "Mute the beeps on the room's shared clocks.",
+          "consequence": "Neighbors can keep concentrating when another game ends.",
+          "quote": "Silence the beeps on communal clocks so the end of one game doesn't break a neighboring player's concentration."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "A beginner may need time to decide whether a move is legal.",
+          "action": "Keep some boards for games with no clock.",
+          "consequence": "Learners at those boards can think through moves at their own pace.",
+          "quote": "Keep a few boards available for play without a clock, allowing someone who is still thinking through legal moves to take their time."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "Two beginners might need help setting up a board.",
+          "action": "Include a picture of the initial arrangement with every set.",
+          "consequence": "They can start a game together without calling across the room.",
+          "quote": "Give each set a picture of the starting position so two beginners can get going together without having to call across the room for help."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "A visitor may be unsure whether a stranger wants a game.",
+          "action": "Provide a sign the seated player can face toward the entrance whenever they want an opponent.",
+          "consequence": "An arriving visitor can see the invitation to join.",
+          "quote": "Offer a small sign that a seated player can turn toward the door when they'd welcome an opponent, taking the guesswork out of joining a stranger."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "Visitors waiting at busy times might hover over games that seem close to ending.",
+          "action": "Keep a written queue while the room is busy.",
+          "consequence": "Those waiting can sit down to read and keep their place.",
+          "quote": "Keep a written waiting list during busy periods, letting visitors sit down to read instead of hovering over games that look nearly finished."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "A promotion or a piece missing from a set can trigger a search.",
+          "action": "Store spare queens and other pieces in a clearly findable drawer.",
+          "consequence": "Players can obtain the piece they need without involving the room.",
+          "quote": "Put spare queens and other pieces in an easy-to-find drawer, so a promotion or a missing knight doesn't set off a room-wide search."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A tight exit route forces people to squeeze between a board and its player.",
+          "action": "Space tables to leave a route behind occupied chairs.",
+          "consequence": "Visitors can reach the exit without cutting through a game.",
+          "quote": "Arrange the tables so visitors heading for the exit can pass behind seated players without squeezing between a chair and its board."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "New arrivals may need an introduction while games are under way.",
+          "action": "Have a host welcome and quietly orient them just inside the entrance.",
+          "consequence": "Newcomers learn how the room works without disrupting play.",
+          "quote": "Ask a host to greet newcomers just inside the door, where a quiet explanation of the room can happen without interrupting a game."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A visitor waiting for an opponent may have nothing to do except watch a game up close.",
+          "action": "Put a few puzzles based on individual positions on a side desk.",
+          "consequence": "The visitor can enjoy chess independently while waiting.",
+          "quote": "Leave a few single-position puzzles on a side desk so someone waiting for an opponent can enjoy chess without watching over a player's shoulder."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A missed check can lead to disagreement over reversing a move.",
+          "action": "Have the two opponents agree on takebacks before the game begins.",
+          "consequence": "They have already settled the rule when a mistake occurs.",
+          "quote": "Invite both players to agree before starting whether they'll allow takebacks, heading off a dispute the first time someone overlooks a check."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Bags in the walkway lead to requests for players to move them.",
+          "action": "Use hooks or a shelf for bags away from the boards.",
+          "consequence": "Seated players can play without repeated interruptions over belongings.",
+          "quote": "Keep bags on hooks or a shelf away from the boards, saving seated players from repeated requests to move their belongings out of a walkway."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Children exploring piece movement need pieces to practise with.",
+          "action": "Provide a separate set to children who want to practise.",
+          "consequence": "They can try moves without taking pieces out of an ongoing match.",
+          "quote": "Give children who want to practise piece movement a set of their own, so they can explore how a knight jumps without borrowing from a live game."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Conversation about a finished match can be lively and last longer than the game.",
+          "action": "Provide space for analysis away from boards reserved for quiet play.",
+          "consequence": "Players can carry on their discussion while the quiet games proceed nearby.",
+          "quote": "Set up a place for post-game discussion a little away from the quiet boards, since a lively analysis can last much longer than the game itself."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A rules disagreement could draw other people into the argument.",
+          "action": "Encourage players to speak quietly with the host when one arises.",
+          "consequence": "They have a way to settle it without involving the whole room.",
+          "quote": "Encourage a quiet word with the host if a disagreement develops, giving players a way to settle a rules question without drawing in the whole room."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Scraping chair legs can startle concentrating players.",
+          "action": "Put pads on the legs of the noisy chairs.",
+          "consequence": "People can arrive or leave more quietly.",
+          "quote": "Fit pads to the chair legs that scrape against the floor, making it easier to come and go without startling people deep in thought."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Learners may want to visit when someone is available and expects to teach.",
+          "action": "Let them know when the volunteer can teach.",
+          "consequence": "They can choose a time when they feel comfortable seeking help.",
+          "quote": "Let learners know when a volunteer will be free to teach, so they can plan a visit when asking for help feels expected."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "A visitor might walk through the games simply to see how busy the room is.",
+          "action": "Keep the tables visible from the entrance.",
+          "consequence": "They can gauge occupancy before entering the playing area.",
+          "quote": "Keep the sightline from the entrance to the tables open, allowing visitors to see whether the room is busy before walking through the playing area."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "A caller needs somewhere they can use a normal speaking voice.",
+          "action": "Ask callers to take the conversation in the hallway while the people at their board keep the position.",
+          "consequence": "The call can proceed outside the room and the game stays ready to resume.",
+          "quote": "Ask anyone taking a call to step into the hallway, where they can speak normally while the people at their board hold the position."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "A beginner may misjudge how long the remaining game will take.",
+          "action": "Quietly give players advance notice that the room is closing.",
+          "consequence": "The beginner and opponent have time to agree where to stop.",
+          "quote": "Give players a quiet heads-up before closing time so a beginner still learning to judge game length can agree on a stopping point with their opponent."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Keeping an unfinished game set up ties up a board.",
+          "action": "Make paper and a pencil available so players can record the position.",
+          "consequence": "Two visitors can pause their game and free the board.",
+          "quote": "Leave a pencil and paper for recording an unfinished position, allowing two visitors to pause a game without having to keep the board occupied."
+        }
+      ]
+    }
+  ]
+}
