@@ -1,0 +1,45 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "455e16b745d35d64",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it. If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims. A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish. Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own.\n\nKeep empty boards on a separate stand near the worktables so students don't mistake a supply pile for occupied drying space. Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+    },
+    {
+      "id": "68a32fbd7273c803",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit. Have each organizer name someone reachable during the event. A driver running late can call the person with the keys. Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery. Provide a sheltered place to unfold wet returns and let them dry before they go back into storage.\n\nGive the event team removable row signs that clip on. They can reserve seats without leaving tape or adhesive on borrowed chairs. Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+    },
+    {
+      "id": "ed71c48807ee1a3e",
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "text": "Include a brief description of a meaningful sound, such as the train whistle both speakers stop to hear, when it helps explain their reaction. Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance. Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere. Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error.\n\nIntroduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted. For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+    },
+    {
+      "id": "0717437f4207a608",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Have a host meet people at the door and offer to walk them over to the lesson, sparing a first-time visitor the search for a familiar face. Model both a friendly invitation and a friendly decline during the welcome. Guests get to hear how either answer can end comfortably. Announce the type of dance before the music starts so a beginner has time to decide whether to get up for it. Show an easy version of a turn that keeps both feet close to the floor, giving anyone who finds spinning uncomfortable a way through the figure.\n\nKeep the teacher's face and feet well lit during demonstrations so people can use visual cues when the room is noisy. Invite people to chat briefly over a break with the music turned down. Someone who sat out a few songs can still get to know the group."
+    },
+    {
+      "id": "a493f5590e5f49de",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Welcome a loaf from a favorite neighborhood bakery. Someone without an oven can make an introduction every bit as interesting as a home baker's. Put blank ingredient cards beside the bread and leave room for fillings and toppings, which can be hard to identify from the crust. A stool at the exchange table gives anyone who tires of standing a chance to linger and talk to the bakers. Invite people to put a few words about a loaf's history beside it. Asking about a grandmother's skillet bread is an easier opening than introducing yourself to a room.\n\nSet a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away. Show the suggested size of a swap portion with a real example near the door, saving newcomers the awkwardness of guessing what's fair."
+    },
+    {
+      "id": "8af54e7b3995c506",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier. A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page. Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look. Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book.\n\nAn invitation to draw the fallen pods already on the table brings small details within reach without asking visitors to pick anything. Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company."
+    },
+    {
+      "id": "d27581add0da4a00",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it. Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end. Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer. Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact.\n\nCircle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand. Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+    },
+    {
+      "id": "1de8cb62eb5ae1f9",
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "text": "Keep a couple of tables for games where spoken questions are welcome, so a learner can ask about a move without guessing whether their opponent minds. Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match. Silence the beeps on communal clocks so the end of one game doesn't break a neighboring player's concentration. Give children who want to practise piece movement a set of their own, so they can explore how a knight jumps without borrowing from a live game.\n\nKeep the sightline from the entrance to the tables open, allowing visitors to see whether the room is busy before walking through the playing area. Give players a quiet heads-up before closing time so a beginner still learning to judge game length can agree on a stopping point with their opponent."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "pool_retained_triples": 199,
+  "arms": {
+    "control": {
+      "n": 8,
+      "detections": {
+        "plan": 0,
+        "original": 0,
+        "rewrite": 0
+      },
+      "faithful": 7,
+      "rewrite_positive_given_faithful": [
+        0,
+        7
+      ],
+      "rewrite_positive_given_faithful_positive_original": [
+        0,
+        0
+      ],
+      "joint_original_faithful_rewrite": [
+        0,
+        8
+      ],
+      "faithful_and_rewrite_positive": [
+        0,
+        8
+      ],
+      "votes": [
+        {
+          "preserved": 7,
+          "changed": 1
+        },
+        {
+          "preserved": 7,
+          "uncertain": 1
+        }
+      ],
+      "disagreements": 1,
+      "retained_steps": {
+        "plan": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "original": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "rewrite": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "abstentions": {
+        "plan": 0,
+        "original": 0,
+        "rewrite": 0
+      },
+      "mean_word_edit_fraction": 0.7339870519472034,
+      "selected_overlap_with_control": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "mean_conditional_yes": 0.9949283252858905,
+      "post_hoc_original_vs_plan_quote_alignment": {
+        "documents": 8,
+        "selected_snippets": 48,
+        "original_triples": 48,
+        "triples_with_unique_snippet_match": 48,
+        "snippets_covered": 48,
+        "documents_with_one_to_one_coverage": 8,
+        "aligned_to_single_plan_triple": 48,
+        "exact_triples": 0,
+        "compared_fields": 144,
+        "exact_fields": 0
+      }
+    },
+    "weak": {
+      "n": 8,
+      "detections": {
+        "plan": 0,
+        "original": 0,
+        "rewrite": 0
+      },
+      "faithful": 5,
+      "rewrite_positive_given_faithful": [
+        0,
+        5
+      ],
+      "rewrite_positive_given_faithful_positive_original": [
+        0,
+        0
+      ],
+      "joint_original_faithful_rewrite": [
+        0,
+        8
+      ],
+      "faithful_and_rewrite_positive": [
+        0,
+        8
+      ],
+      "votes": [
+        {
+          "preserved": 8
+        },
+        {
+          "preserved": 5,
+          "changed": 3
+        }
+      ],
+      "disagreements": 3,
+      "retained_steps": {
+        "plan": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "original": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "rewrite": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "abstentions": {
+        "plan": 0,
+        "original": 0,
+        "rewrite": 0
+      },
+      "mean_word_edit_fraction": 0.7224646138060007,
+      "selected_overlap_with_control": [
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5
+      ],
+      "mean_conditional_yes": 0.9954742911928358,
+      "post_hoc_original_vs_plan_quote_alignment": {
+        "documents": 8,
+        "selected_snippets": 48,
+        "original_triples": 48,
+        "triples_with_unique_snippet_match": 48,
+        "snippets_covered": 48,
+        "documents_with_one_to_one_coverage": 8,
+        "aligned_to_single_plan_triple": 48,
+        "exact_triples": 0,
+        "compared_fields": 144,
+        "exact_fields": 3
+      }
+    },
+    "strong": {
+      "n": 8,
+      "detections": {
+        "plan": 8,
+        "original": 0,
+        "rewrite": 0
+      },
+      "faithful": 6,
+      "rewrite_positive_given_faithful": [
+        0,
+        6
+      ],
+      "rewrite_positive_given_faithful_positive_original": [
+        0,
+        0
+      ],
+      "joint_original_faithful_rewrite": [
+        0,
+        8
+      ],
+      "faithful_and_rewrite_positive": [
+        0,
+        8
+      ],
+      "votes": [
+        {
+          "preserved": 8
+        },
+        {
+          "changed": 2,
+          "preserved": 6
+        }
+      ],
+      "disagreements": 2,
+      "retained_steps": {
+        "plan": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "original": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "rewrite": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "abstentions": {
+        "plan": 0,
+        "original": 0,
+        "rewrite": 0
+      },
+      "mean_word_edit_fraction": 0.7482939495040536,
+      "selected_overlap_with_control": [
+        1,
+        4,
+        1,
+        0,
+        1,
+        4,
+        2,
+        1
+      ],
+      "mean_conditional_yes": 0.9951026988291668,
+      "post_hoc_original_vs_plan_quote_alignment": {
+        "documents": 8,
+        "selected_snippets": 48,
+        "original_triples": 48,
+        "triples_with_unique_snippet_match": 48,
+        "snippets_covered": 48,
+        "documents_with_one_to_one_coverage": 8,
+        "aligned_to_single_plan_triple": 48,
+        "exact_triples": 0,
+        "compared_fields": 144,
+        "exact_fields": 2
+      }
+    }
+  },
+  "paired_original_detections": {
+    "strong_vs_weak": {
+      "gained": 0,
+      "lost": 0
+    },
+    "strong_vs_control": {
+      "gained": 0,
+      "lost": 0
+    }
+  }
+}

@@ -1,0 +1,2963 @@
+{
+  "model": {
+    "source_repo": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+    "revision": "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3",
+    "local_directory_name": "qwen2.5-0.5b-instruct-4bit",
+    "model_type": "qwen2",
+    "quantization": {
+      "group_size": 64,
+      "bits": 4
+    },
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.32.2",
+      "transformers": "5.24.0",
+      "tokenizers": "0.23.3"
+    },
+    "python": "3.13.3",
+    "device": "Device(cpu, 0)",
+    "max_context_tokens": 4096,
+    "prefill_chunk_size": 128,
+    "prefill_strategy": "evaluate cache states in chunks, then final prompt token logits",
+    "execution_mode": "dense-fp32",
+    "execution_representation": {
+      "transform": "cast affine scales/biases to execution dtype, dequantize packed weights, replace QuantizedLinear/QuantizedEmbedding, cast all floating parameters",
+      "execution_dtype": "mlx.core.float32",
+      "dequantized_layers": 169,
+      "parameter_sha256": "c5f9b34790639e0eb65a6240265e50e1436d3df0a1e1880126f4b90dd821f4b0",
+      "parameter_count": 494032768,
+      "parameter_bytes": 1976131072,
+      "hash_byte_order": "little",
+      "probability_equivalence_to_quantized_execution_claimed": false
+    },
+    "checkpoint": {
+      "files": [
+        {
+          "name": "config.json",
+          "size_bytes": 783,
+          "sha256": "b045e57ea90b8f1b35f89f954b176a5c1faa02bd0af2c89bcec191239d66cef4"
+        },
+        {
+          "name": "tokenizer.json",
+          "size_bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size_bytes": 7308,
+          "sha256": "f7c61e32b7a17d19bf8e7037dcb74079a833e53ea9801f24008cac68458f03b7"
+        },
+        {
+          "name": "vocab.json",
+          "size_bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        {
+          "name": "merges.txt",
+          "size_bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size_bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "name": "added_tokens.json",
+          "size_bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size_bytes": 44209,
+          "sha256": "54001cb4c11197119c206dde28e7be08e5872aab6c6d271aed339ec77e84f870"
+        },
+        {
+          "name": "download_manifest.json",
+          "size_bytes": 1659,
+          "sha256": "d0fcd8a886f29dff89b9ffac832a8087797a547e3fc9d5b3de4fb05d59395a07"
+        },
+        {
+          "name": "model.safetensors",
+          "size_bytes": 278064920,
+          "sha256": "ddffab9cbc7bf6dde941c6724841eeca8981fcfa81ca20ff8efff1396326d153"
+        }
+      ],
+      "weights_hashed": true,
+      "weights_size_bytes": 278064920,
+      "manifest_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339"
+    },
+    "scoring_temperature": 1.0,
+    "scoring_eos_token_id": 151645,
+    "generation_stop_token_ids": [
+      151645
+    ],
+    "model_invoked": true
+  },
+  "units": [
+    {
+      "unit": 0,
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "weights": [
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008147811517119408,
+            -5.77547025680542
+          ],
+          "log_weight": -0.0031232396342758557
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Give tall pieces a bay with extra headroom. A student carrying a vase should be able to set it down without tilting it under a shelf.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009925062768161297,
+            -5.189492225646973
+          ],
+          "log_weight": -0.005614651256286785
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Stock ware boards that fit the rack with room for fingers at the edges, since a board that's easy to lift on the worktable can be awkward to retrieve from a shelf.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009992575272917747,
+            -5.125782012939453
+          ],
+          "log_weight": -0.005983302651245467
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Offer a shallow, divided tray for small test tiles that would otherwise get lost behind pots.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007622679229825735,
+            -5.9746599197387695
+          ],
+          "log_weight": -0.0025585443756897296
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Let people clip a handling note to their board when they're coming back to trim or attach a handle. A classmate can then tell whether it's okay to uncover the piece.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010396725498139858,
+            -5.394044876098633
+          ],
+          "log_weight": -0.004580535836914203
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Set aside a clear table beside the rack where someone can put a load down while they look for a suitable space.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01698155328631401,
+            -4.5273919105529785
+          ],
+          "log_weight": -0.010933953673885248
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004813986364752054,
+            -6.309970855712891
+          ],
+          "log_weight": -0.0018251928896054095
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Keep a basket of clean plastic sheets and clips nearby for makers who want part of a piece to dry more slowly.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007190657779574394,
+            -5.858123779296875
+          ],
+          "log_weight": -0.0028730818603941357
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Ask instructors to flag unusually large class projects on the studio calendar. Other groups can see when a whole shelf is likely to fill up.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01073160395026207,
+            -5.489937782287598
+          ],
+          "log_weight": -0.004163959391855438
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Save some easy-reach space for anyone who would struggle to lift a loaded board above shoulder height.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005435450002551079,
+            -6.274966716766357
+          ],
+          "log_weight": -0.0018913260563008759
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Give each shelf a short, visible name that a maker can jot in a notebook to find a piece after a week away.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017772004008293152,
+            -5.132813930511475
+          ],
+          "log_weight": -0.00598776354012941
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011799070052802563,
+            -4.998140335083008
+          ],
+          "log_weight": -0.0068073872951749295
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Date the arrival of each board so the volunteer doing the weekly round knows which owners to check in with.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.023433644324541092,
+            -4.462528228759766
+          ],
+          "log_weight": -0.01173746919007861
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Agree on a contact procedure for unclaimed work and post it by the rack, giving makers a chance to collect a piece before the studio clears its space.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008247366175055504,
+            -5.721042633056641
+          ],
+          "log_weight": -0.003297981346877095
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009351381100714207,
+            -5.333587169647217
+          ],
+          "log_weight": -0.004860242748001597
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Fit a low bumper beside the rack if carts regularly clip its exposed corner, sparing the work a jolt during busy changeovers.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006146338302642107,
+            -6.164971351623535
+          ],
+          "log_weight": -0.0021125036918535857
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Give the kiln team a clearly marked collection point for pieces the maker considers finished, keeping the drying shelves available for work still under way.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005906271748244762,
+            -6.098633766174316
+          ],
+          "log_weight": -0.002256690201578318
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Take warped or splintered boards out of the supply as soon as someone spots them, before another student sets a flat platter on an uneven base.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008868945762515068,
+            -5.550626754760742
+          ],
+          "log_weight": -0.003911969078212664
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Wipe an emptied shelf with a damp sponge between loads so the next board goes onto a clean surface without kicking dried clay into the room.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007775516249239445,
+            -5.404129981994629
+          ],
+          "log_weight": -0.0045228328961437435
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: For a project with a separate lid, keep the two parts together on one board while they dry. The maker won't have to hunt through similar lids at the next session.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008437580429017544,
+            -5.304370403289795
+          ],
+          "log_weight": -0.004999418997579447
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Offer an overflow rack with the same shelf spacing as the main one so a full class can move whole boards without repacking fragile pieces.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006302599795162678,
+            -5.997366905212402
+          ],
+          "log_weight": -0.002497878506812418
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Give anyone who spots damage a way to leave the maker a private note. The owner can decide whether to repair the piece while there's still time.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.020374182611703873,
+            -4.216800689697266
+          ],
+          "log_weight": -0.014937142614460325
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Keep empty boards on a separate stand near the worktables so students don't mistake a supply pile for occupied drying space.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00924803875386715,
+            -5.5958476066589355
+          ],
+          "log_weight": -0.00374074487334391
+        },
+        {
+          "prompt": "Problem: At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?\nProposed step: Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.014932992868125439,
+            -5.124022006988525
+          ],
+          "log_weight": -0.006023407021371666
+        }
+      ],
+      "noise": [
+        1.6955151374043917,
+        0.3310172234158362,
+        0.26601602077170766,
+        -0.9309457561303129,
+        -0.7384851472104446,
+        0.013017632088760047,
+        1.2241640537753482,
+        -0.16037584364575128,
+        0.051018913116116504,
+        0.6601390388029574,
+        -0.21486756403199136,
+        1.3127483621039686,
+        -1.6509866381908433,
+        -0.43572074604039523,
+        1.741012246264043,
+        -0.8742608556503174,
+        0.01883750847148822,
+        0.9798390301178425,
+        -1.2650417824976643,
+        -0.5559034028005865,
+        -0.08290377462771888,
+        -0.1259744024101236,
+        0.8648320086476988,
+        2.182907932170308
+      ],
+      "variants": {
+        "control": {
+          "id": "f2bab7bc37dfda2a",
+          "selected": [
+            0,
+            6,
+            11,
+            14,
+            17,
+            23
+          ],
+          "text": "Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it. If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims. A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish. Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own.\n\nTake warped or splintered boards out of the supply as soon as someone spots them, before another student sets a flat platter on an uneven base. Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+        },
+        "weak": {
+          "id": "455e16b745d35d64",
+          "selected": [
+            0,
+            6,
+            11,
+            14,
+            22,
+            23
+          ],
+          "text": "Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it. If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims. A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish. Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own.\n\nKeep empty boards on a separate stand near the worktables so students don't mistake a supply pile for occupied drying space. Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+        },
+        "strong": {
+          "id": "d307650bc552abc1",
+          "selected": [
+            4,
+            9,
+            12,
+            19,
+            21,
+            23
+          ],
+          "text": "Let people clip a handling note to their board when they're coming back to trim or attach a handle. A classmate can then tell whether it's okay to uncover the piece. Save some easy-reach space for anyone who would struggle to lift a loaded board above shoulder height. Date the arrival of each board so the volunteer doing the weekly round knows which owners to check in with. For a project with a separate lid, keep the two parts together on one board while they dry. The maker won't have to hunt through similar lids at the next session.\n\nGive anyone who spots damage a way to leave the maker a private note. The owner can decide whether to repair the piece while there's still time. Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+        }
+      }
+    },
+    {
+      "unit": 1,
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "weights": [
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010656357742846012,
+            -5.601047515869141
+          ],
+          "log_weight": -0.003726614701620814
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Take bookings by phone as well as online and enter both in the same record. Someone without internet access can reserve a set on the same terms as anyone else.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0074125491082668304,
+            -5.995260715484619
+          ],
+          "log_weight": -0.002505914890258514
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Ask for the pickup and return times when a booking is made, since a Saturday evening event may mean the chairs are still out on Sunday morning.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010172073729336262,
+            -5.408205032348633
+          ],
+          "log_weight": -0.004515264819740649
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Have each organizer name someone reachable during the event. A driver running late can call the person with the keys.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009821780025959015,
+            -5.818636894226074
+          ],
+          "log_weight": -0.0029964898263897134
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Offer a waiting list for popular dates and ask borrowers to release surplus chairs when their head count drops.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006633168086409569,
+            -6.913712978363037
+          ],
+          "log_weight": -0.001000175354719711
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Publish the dimensions of a folded chair and a nested stack so a borrower can work out what will fit in their vehicle.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.022427374497056007,
+            -4.421019554138184
+          ],
+          "log_weight": -0.01221967114408008
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Attach the group's name and return number under each seat, giving anyone who finds a stray chair after cleanup a way to get it home.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008193451911211014,
+            -5.904359340667725
+          ],
+          "log_weight": -0.0027461940711033996
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Count the chairs together at handover and give the borrower a copy of the count to use when the room gets packed up.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.018294643610715866,
+            -4.8462347984313965
+          ],
+          "log_weight": -0.007971135139003981
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Keep a handcart by the store entrance for borrowers making several trips between the shelves and a vehicle.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008397861383855343,
+            -5.822042465209961
+          ],
+          "log_weight": -0.0029820747028090743
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Include a photo of the correct loading door with the pickup details. It can save a volunteer a walk around the building carrying chairs.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.03257126733660698,
+            -4.078866481781006
+          ],
+          "log_weight": -0.01733590165796107
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Show the borrower how to open and close one chair from the set so they can demonstrate it to the people setting up the hall.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.016695071011781693,
+            -5.0626373291015625
+          ],
+          "log_weight": -0.006414774970777647
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011729205958545208,
+            -5.025383949279785
+          ],
+          "log_weight": -0.006624576325481861
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Send a reminder on the morning of an agreed return so packing up the chairs stays on the organizer's list after the guests leave.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009094953536987305,
+            -5.70181941986084
+          ],
+          "log_weight": -0.003364730852523366
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Allow time between bookings to check and clean a returned batch before another group expects to collect it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007291372865438461,
+            -6.224816799163818
+          ],
+          "log_weight": -0.001992188121596317
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Provide a sheltered place to unfold wet returns and let them dry before they go back into storage.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008123335428535938,
+            -5.867898941040039
+          ],
+          "log_weight": -0.0028478246528233792
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Lay out parking positions for stacks on the storeroom floor so a borrower can put a load away without blocking the door.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01570405624806881,
+            -4.887179374694824
+          ],
+          "log_weight": -0.0076328485317825115
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Show the seat width and whether the chairs have arms in the booking information, giving hosts time to arrange other seating for guests who need it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017628183588385582,
+            -5.115667819976807
+          ],
+          "log_weight": -0.006090127597016867
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Give the event team removable row signs that clip on. They can reserve seats without leaving tape or adhesive on borrowed chairs.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013474470004439354,
+            -5.190129280090332
+          ],
+          "log_weight": -0.005630980916581228
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Explain any charge for borrowing or breakage before confirming the booking, while a small group can still plan its budget.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.025959011167287827,
+            -5.117561340332031
+          ],
+          "log_weight": -0.006129337784969373
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008683067746460438,
+            -6.222210884094238
+          ],
+          "log_weight": -0.0020001600770908805
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Give borrowers a simple way to report a chair left at a venue. A volunteer can arrange to recover just that chair instead of holding up the whole return.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010630055330693722,
+            -5.252546787261963
+          ],
+          "log_weight": -0.005276163929547344
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Offer to match car-free borrowers with volunteer drivers who have already agreed to help, widening the range of events the chairs can serve.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006785327568650246,
+            -6.92136287689209
+          ],
+          "log_weight": -0.0009927080507884933
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Record requests the group couldn't fill as well as completed loans. Repeated shortfalls on the same weekend can guide a future purchase.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008607312105596066,
+            -5.667212963104248
+          ],
+          "log_weight": -0.0034813093336894113
+        },
+        {
+          "prompt": "Problem: How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?\nProposed step: Ask whether the venue already has folding chairs that look like ours. Sorting the two sets into separate piles during cleanup is easier than tracing a mix-up the next day.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.02368013560771942,
+            -4.146324634552002
+          ],
+          "log_weight": -0.016071767061305028
+        }
+      ],
+      "noise": [
+        1.7110538678674658,
+        -0.41724056395613124,
+        1.0121289074438897,
+        4.3927644769173595,
+        0.6858991363658127,
+        2.018829567299227,
+        0.5265877804745024,
+        -0.07006137368671309,
+        0.7025094813367133,
+        0.48671550799822494,
+        0.674013994930445,
+        1.5505427250948662,
+        -0.6996906250772227,
+        1.4515942714161036,
+        0.03317206242166665,
+        0.038570416837510585,
+        -1.2376885181603006,
+        -1.7531968964652886,
+        0.8747289868154087,
+        4.379057427529988,
+        -0.6431189582952856,
+        0.06765293155580887,
+        0.02573316931482476,
+        1.3788825496628163
+      ],
+      "variants": {
+        "control": {
+          "id": "872304e5892fca85",
+          "selected": [
+            0,
+            3,
+            5,
+            11,
+            13,
+            19
+          ],
+          "text": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit. Have each organizer name someone reachable during the event. A driver running late can call the person with the keys. Publish the dimensions of a folded chair and a nested stack so a borrower can work out what will fit in their vehicle. Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery.\n\nAllow time between bookings to check and clean a returned batch before another group expects to collect it. Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+        },
+        "weak": {
+          "id": "2cbf76c819e0ee89",
+          "selected": [
+            0,
+            2,
+            3,
+            11,
+            13,
+            19
+          ],
+          "text": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit. Ask for the pickup and return times when a booking is made, since a Saturday evening event may mean the chairs are still out on Sunday morning. Have each organizer name someone reachable during the event. A driver running late can call the person with the keys. Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery.\n\nAllow time between bookings to check and clean a returned batch before another group expects to collect it. Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+        },
+        "strong": {
+          "id": "68a32fbd7273c803",
+          "selected": [
+            0,
+            3,
+            11,
+            14,
+            17,
+            19
+          ],
+          "text": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit. Have each organizer name someone reachable during the event. A driver running late can call the person with the keys. Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery. Provide a sheltered place to unfold wet returns and let them dry before they go back into storage.\n\nGive the event team removable row signs that clip on. They can reserve seats without leaving tape or adhesive on borrowed chairs. Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+        }
+      }
+    },
+    {
+      "unit": 2,
+      "problem": "How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?",
+      "weights": [
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Match each caption file to the interview's catalog number so two recordings with similar titles don't end up playing with each other's words.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00689733074977994,
+            -6.237583637237549
+          ],
+          "log_weight": -0.0019661665398829926
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Mark a change of speaker with the name the person agreed to use. A listener who can't distinguish the voices can still follow the exchange.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.012548891827464104,
+            -5.182089328765869
+          ],
+          "log_weight": -0.005671070873945099
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Include a brief description of a meaningful sound, such as the train whistle both speakers stop to hear, when it helps explain their reaction.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.02362751215696335,
+            -4.960555076599121
+          ],
+          "log_weight": -0.0071509848709893215
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Time each caption to the relevant phrase so a visitor can connect the words on screen with the same moment in the recording.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01100058201700449,
+            -6.340577125549316
+          ],
+          "log_weight": -0.0017812012613729333
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009397202171385288,
+            -5.918521404266357
+          ],
+          "log_weight": -0.0027108854827981744
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Ask narrators or their nominated reviewers to confirm how people's names and local landmarks are spelled before the captions go on display.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01114453375339508,
+            -5.729890823364258
+          ],
+          "log_weight": -0.0032784453090222536
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Keep a narrator's own expressions in the captions. A familiar turn of phrase can carry part of the story that a polished rewrite would lose.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009342405013740063,
+            -5.774711608886719
+          ],
+          "log_weight": -0.0031293364924319398
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: If two reviewers still can't make out a word, mark it as inaudible so visitors know where the recording leaves a gap in the account.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.015893327072262764,
+            -5.064782619476318
+          ],
+          "log_weight": -0.0063959584763874765
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Identify which languages are spoken and label each available translation by name so visitors can select the text they want.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01334026362746954,
+            -6.487791538238525
+          ],
+          "log_weight": -0.0015411568365516475
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: For overlapping conversation, give the two voices separate lines where both are intelligible. Visitors can see that the remarks were made together.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010252311825752258,
+            -5.652197360992432
+          ],
+          "log_weight": -0.003539692508975803
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Provide a text-size control at each station and let visitors try it on a sample caption before starting a long interview.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010585824027657509,
+            -5.538566589355469
+          ],
+          "log_weight": -0.003966129940828906
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Place captions on a solid, high-contrast background so their legibility survives a shift from a dark portrait to a pale archival photograph.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005863726604729891,
+            -6.437649250030518
+          ],
+          "log_weight": -0.001608280358087577
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Put a replay control within easy reach for passages with several names or dates that a visitor may want to read again.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008722302503883839,
+            -6.417871475219727
+          ],
+          "log_weight": -0.0016450708580244278
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Start a fresh listening session with captions visible so a visitor can read the opening words without searching through settings.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007394562941044569,
+            -6.078380584716797
+          ],
+          "log_weight": -0.0023062340633022895
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Offer a printed transcript for each recording with the same title as the on-screen listing. People who prefer to read on paper can pick the matching copy.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006404944229871035,
+            -6.180440902709961
+          ],
+          "log_weight": -0.0020806468203901085
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Give long interviews a short list of topics with jump points, letting someone go straight to the passage about the old school or the flood.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.028010401874780655,
+            -4.194361686706543
+          ],
+          "log_weight": -0.01538971254179054
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.030207734555006027,
+            -4.119166374206543
+          ],
+          "log_weight": -0.01661783004438356
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: When an audio edit removes a section, review the accompanying captions for both the missing passage and any timing shift afterward.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008593129925429821,
+            -6.705833911895752
+          ],
+          "log_weight": -0.0012335518089736132
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017024565488100052,
+            -4.930221080780029
+          ],
+          "log_weight": -0.007322087654327233
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Check that restrictions agreed with a narrator are reflected in the caption text, including any names that were silenced in the public recording.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010585824027657509,
+            -5.798799514770508
+          ],
+          "log_weight": -0.0030587667596992107
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Test the screen from the actual listening chair to catch a low caption line that a shelf edge or headphone stand might obscure.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01856253109872341,
+            -4.973888397216797
+          ],
+          "log_weight": -0.007021078366491925
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Introduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009107711724936962,
+            -6.205238342285156
+          ],
+          "log_weight": -0.00203522598697409
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: Keep optional background notes in the interview listing. Visitors can look up an unfamiliar local custom without losing their place in the speaker's sentence.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.014092926867306232,
+            -5.232518672943115
+          ],
+          "log_weight": -0.005401235370202363
+        },
+        {
+          "prompt": "Problem: How should we organize captions for the oral history listening room we're putting together at our local library so visitors can follow the recordings?\nProposed step: For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007108989637345076,
+            -6.761307239532471
+          ],
+          "log_weight": -0.001165295059581811
+        }
+      ],
+      "noise": [
+        -0.6655624406145908,
+        -1.1473171673213556,
+        1.109418528179987,
+        -0.7143008433028174,
+        2.207082942218363,
+        -0.16748223976188137,
+        -0.6234452942251737,
+        0.22523277063982966,
+        -1.2702229678450685,
+        -0.40043901082962946,
+        0.20909322422692772,
+        -0.11116795173549501,
+        -0.37502676299825183,
+        0.6686474045767289,
+        0.9572415028667093,
+        -1.0007703034460917,
+        3.774575452507573,
+        -0.3004634346486441,
+        1.327294949034303,
+        0.1677669999569547,
+        -1.090729720071922,
+        2.1721550701923187,
+        -0.6888279413885936,
+        2.547506649348267
+      ],
+      "variants": {
+        "control": {
+          "id": "ed71c48807ee1a3e",
+          "selected": [
+            2,
+            4,
+            16,
+            18,
+            21,
+            23
+          ],
+          "text": "Include a brief description of a meaningful sound, such as the train whistle both speakers stop to hear, when it helps explain their reaction. Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance. Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere. Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error.\n\nIntroduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted. For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+        },
+        "weak": {
+          "id": "ca14fc32f7758267",
+          "selected": [
+            4,
+            13,
+            16,
+            18,
+            21,
+            23
+          ],
+          "text": "Break lines at natural points in a sentence and keep a person's first and last name together to make the text easier to take in at a glance. Start a fresh listening session with captions visible so a visitor can read the opening words without searching through settings. Ask a reviewer to follow a complete interview with the sound muted and flag places where a reply seems to come out of nowhere. Give visitors a correction slip with space for the interview title and playback time so staff can find a reported error.\n\nIntroduce a recorded letter or diary excerpt in the captions when a narrator starts reading aloud, so visitors know whose words are being quoted. For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+        },
+        "strong": {
+          "id": "3cbef7a2339d0928",
+          "selected": [
+            9,
+            10,
+            13,
+            15,
+            22,
+            23
+          ],
+          "text": "For overlapping conversation, give the two voices separate lines where both are intelligible. Visitors can see that the remarks were made together. Provide a text-size control at each station and let visitors try it on a sample caption before starting a long interview. Start a fresh listening session with captions visible so a visitor can read the opening words without searching through settings. Give long interviews a short list of topics with jump points, letting someone go straight to the passage about the old school or the flood.\n\nKeep optional background notes in the interview listing. Visitors can look up an unfamiliar local custom without losing their place in the speaker's sentence. For an exhibit that plays on a loop, display the interview title alongside the captions so someone arriving midway can place the story."
+        }
+      }
+    },
+    {
+      "unit": 3,
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "weights": [
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Have a host meet people at the door and offer to walk them over to the lesson, sparing a first-time visitor the search for a familiar face.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004786580801010132,
+            -6.520750999450684
+          ],
+          "log_weight": -0.0014785346588216284
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Say on the invitation that people can come alone so potential guests know they don't need to find a partner before they arrive.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01923971250653267,
+            -5.046345233917236
+          ],
+          "log_weight": -0.006536355842132991
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Repeat a brief introduction partway through the evening for someone who missed the opening lesson or needed a little time to watch.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011179427616298199,
+            -5.214209079742432
+          ],
+          "log_weight": -0.0054848073481997064
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Give beginners a basic step they can use for a whole song, leaving them something dependable to return to when a new figure slips their mind.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006840146612375975,
+            -5.977859973907471
+          ],
+          "log_weight": -0.002548387961007908
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Ask a few regulars to volunteer for dances with first-timers so an arriving group doesn't find all the experienced partners paired off.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009690388105809689,
+            -5.711714744567871
+          ],
+          "log_weight": -0.0033336361373474737
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Model both a friendly invitation and a friendly decline during the welcome. Guests get to hear how either answer can end comfortably.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.023361211642622948,
+            -5.219902038574219
+          ],
+          "log_weight": -0.005520414648423792
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Make partner changes optional during the lesson so two people who feel steadier practicing together can keep their place.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007795624900609255,
+            -6.242708683013916
+          ],
+          "log_weight": -0.0019578816937597422
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Teach partner roles by describing what each person does and let people choose which part they want to learn.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008388523012399673,
+            -6.423025131225586
+          ],
+          "log_weight": -0.0016360757210623824
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Mix slower tracks into the program throughout the night, giving someone catching their breath a chance to rejoin at a manageable pace.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004608367569744587,
+            -6.8304901123046875
+          ],
+          "log_weight": -0.0010847300131421739
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Announce the type of dance before the music starts so a beginner has time to decide whether to get up for it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010759436525404453,
+            -5.251335144042969
+          ],
+          "log_weight": -0.005283225470191267
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Leave a little room beside the main floor for people to try a step a few times without being swept along by the crowd.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007192906457930803,
+            -5.884897708892822
+          ],
+          "log_weight": -0.002797291156880424
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Show an easy version of a turn that keeps both feet close to the floor, giving anyone who finds spinning uncomfortable a way through the figure.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01591338962316513,
+            -4.726181507110596
+          ],
+          "log_weight": -0.008962083854090554
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Teach a pair how to stop and pick up the beat again. Losing time needn't cost them the rest of the song.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008727974258363247,
+            -5.892049789428711
+          ],
+          "log_weight": -0.002781644554427077
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Ask regulars to check whether a partner wants feedback before giving tips, letting a beginner enjoy a dance without an unexpected lesson.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008343600668013096,
+            -6.243443489074707
+          ],
+          "log_weight": -0.00195751629407141
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Set out chairs with a view of the floor so watching a song feels like participating in the evening and offers a chance to see the steps.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006052025128155947,
+            -5.935474395751953
+          ],
+          "log_weight": -0.002656486462987746
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Put drinking water somewhere easy to spot and reach, allowing a new dancer to take a break without having to track down the host.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010729363188147545,
+            -5.32668924331665
+          ],
+          "log_weight": -0.004900533767542471
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Walk everyone through the direction of travel on a busy floor so a new couple knows where other dancers are likely to pass.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.021171877160668373,
+            -4.282017230987549
+          ],
+          "log_weight": -0.014011744524291918
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Give bags and coats a home away from the dancing area. A guest concentrating on unfamiliar steps shouldn't have to weave around belongings.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005639002192765474,
+            -6.066363334655762
+          ],
+          "log_weight": -0.0023299940717946667
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Keep the teacher's face and feet well lit during demonstrations so people can use visual cues when the room is noisy.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.015091409906744957,
+            -4.964081287384033
+          ],
+          "log_weight": -0.0070655477805549975
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Point out a named host who can help if a partner keeps pressing for a dance, giving newcomers someone specific to approach.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011114000342786312,
+            -5.527332305908203
+          ],
+          "log_weight": -0.004012962798611524
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Make the photo arrangement clear and take group pictures with willing participants so people can try unfamiliar movements without worrying about appearing in a post.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008990166708827019,
+            -6.004986763000488
+          ],
+          "log_weight": -0.002485603838387019
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Include the door price and payment options in the invitation so people can arrive with the fare in hand and head straight in to meet the host.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017581799998879433,
+            -4.9306793212890625
+          ],
+          "log_weight": -0.007322809885356038
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Invite people to chat briefly over a break with the music turned down. Someone who sat out a few songs can still get to know the group.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0045357439666986465,
+            -6.350557327270508
+          ],
+          "log_weight": -0.001752174311798871
+        },
+        {
+          "prompt": "Problem: What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?\nProposed step: Leave an anonymous question box by the exit and use the questions to shape the next introduction, reaching people who felt too shy to speak up in class.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.012506745755672455,
+            -5.1836018562316895
+          ],
+          "log_weight": -0.005662285954890955
+        }
+      ],
+      "noise": [
+        0.3477841879852646,
+        -0.43169697118707157,
+        -0.021783732812663006,
+        -1.2978252641671844,
+        -0.24921129501074513,
+        3.1679259202593495,
+        0.6932875214002167,
+        -0.7531912254061134,
+        0.6108838235007655,
+        0.9511269163770477,
+        -0.25470527975369806,
+        1.0465562885385635,
+        -0.8480635131670683,
+        -1.3057560829451313,
+        -0.8462270302804068,
+        0.7896250273076016,
+        -0.32338956196302887,
+        -0.46843319765908403,
+        3.7919401717259387,
+        0.26517879298749153,
+        0.5505175214523538,
+        0.8912829668354337,
+        3.525801906100864,
+        0.8503272025649328
+      ],
+      "variants": {
+        "control": {
+          "id": "2ce6a2e482e1fb1b",
+          "selected": [
+            5,
+            9,
+            11,
+            18,
+            21,
+            22
+          ],
+          "text": "Model both a friendly invitation and a friendly decline during the welcome. Guests get to hear how either answer can end comfortably. Announce the type of dance before the music starts so a beginner has time to decide whether to get up for it. Show an easy version of a turn that keeps both feet close to the floor, giving anyone who finds spinning uncomfortable a way through the figure. Keep the teacher's face and feet well lit during demonstrations so people can use visual cues when the room is noisy.\n\nInclude the door price and payment options in the invitation so people can arrive with the fare in hand and head straight in to meet the host. Invite people to chat briefly over a break with the music turned down. Someone who sat out a few songs can still get to know the group."
+        },
+        "weak": {
+          "id": "0717437f4207a608",
+          "selected": [
+            0,
+            5,
+            9,
+            11,
+            18,
+            22
+          ],
+          "text": "Have a host meet people at the door and offer to walk them over to the lesson, sparing a first-time visitor the search for a familiar face. Model both a friendly invitation and a friendly decline during the welcome. Guests get to hear how either answer can end comfortably. Announce the type of dance before the music starts so a beginner has time to decide whether to get up for it. Show an easy version of a turn that keeps both feet close to the floor, giving anyone who finds spinning uncomfortable a way through the figure.\n\nKeep the teacher's face and feet well lit during demonstrations so people can use visual cues when the room is noisy. Invite people to chat briefly over a break with the music turned down. Someone who sat out a few songs can still get to know the group."
+        },
+        "strong": {
+          "id": "e7b36c40c1b16f0f",
+          "selected": [
+            3,
+            6,
+            12,
+            15,
+            16,
+            17
+          ],
+          "text": "Give beginners a basic step they can use for a whole song, leaving them something dependable to return to when a new figure slips their mind. Make partner changes optional during the lesson so two people who feel steadier practicing together can keep their place. Teach a pair how to stop and pick up the beat again. Losing time needn't cost them the rest of the song. Put drinking water somewhere easy to spot and reach, allowing a new dancer to take a break without having to track down the host.\n\nWalk everyone through the direction of travel on a busy floor so a new couple knows where other dancers are likely to pass. Give bags and coats a home away from the dancing area. A guest concentrating on unfamiliar steps shouldn't have to weave around belongings."
+        }
+      }
+    },
+    {
+      "unit": 4,
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "weights": [
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Ask bakers to wrap a few small portions from each loaf so someone who lives alone can bring home several kinds without wasting bread.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009508677758276463,
+            -5.672003269195557
+          ],
+          "log_weight": -0.003467820422389219
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Welcome a loaf from a favorite neighborhood bakery. Someone without an oven can make an introduction every bit as interesting as a home baker's.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00787711888551712,
+            -5.788021087646484
+          ],
+          "log_weight": -0.003083511848922766
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Put blank ingredient cards beside the bread and leave room for fillings and toppings, which can be hard to identify from the crust.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0156880971044302,
+            -4.590932846069336
+          ],
+          "log_weight": -0.010251054968370019
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Give each tasting loaf its own board and knife so the garlic on one sample doesn't follow the next visitor into a slice of cinnamon bread.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008349275216460228,
+            -5.373581886291504
+          ],
+          "log_weight": -0.004665472078154684
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Save some bread from willing contributors for a later release during the advertised hours, so arriving straight from work still means finding a choice.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00755346892401576,
+            -5.505320072174072
+          ],
+          "log_weight": -0.004087543620117935
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: A stool at the exchange table gives anyone who tires of standing a chance to linger and talk to the bakers.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006527886260300875,
+            -6.002840995788574
+          ],
+          "log_weight": -0.0024848182128351763
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Invite people to put a few words about a loaf's history beside it. Asking about a grandmother's skillet bread is an easier opening than introducing yourself to a room.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017431508749723434,
+            -4.464909076690674
+          ],
+          "log_weight": -0.011640053503853727
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Set out paper bags big enough for a few slices and a pencil for writing on them, so people can tell their selections apart once they're home.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013080738484859467,
+            -4.796533584594727
+          ],
+          "log_weight": -0.008332249065340832
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Let contributors leave their bread with a host if they need to step out. A quick errand needn't cost them their place in the swap.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0047764964401721954,
+            -6.492802143096924
+          ],
+          "log_weight": -0.0015203937374961471
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Post the indoor rain location with the invitation so a wet morning doesn't send neighbors carrying loaves to an empty courtyard.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.016210652887821198,
+            -4.63160514831543
+          ],
+          "log_weight": -0.009849610742761576
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Place a quiet welcome at the entrance with a volunteer who can walk a newcomer through an exchange before the room gets busy.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00709608756005764,
+            -5.858817100524902
+          ],
+          "log_weight": -0.002870822320219621
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Leave space between displays for two people to pass while carrying trays, especially where visitors tend to stop to ask about a loaf.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008230932056903839,
+            -5.666689872741699
+          ],
+          "log_weight": -0.0034818192269486514
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Ask each baker how they like to eat their bread the following day. A reheating or toasting suggestion makes a less familiar loaf easier to choose.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.016598347574472427,
+            -4.672543048858643
+          ],
+          "log_weight": -0.009460042047554917
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Put the conversation seats a little way from the bread so a good story can continue while somebody else reaches the table.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013435421511530876,
+            -4.770013809204102
+          ],
+          "log_weight": -0.008558241345948226
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Offer recipe slips that bakers can fill in if they like, letting a visitor try the bread at home without asking a stranger for contact details.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007367938291281462,
+            -5.945169448852539
+          ],
+          "log_weight": -0.0026343495580550148
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Set a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007762623019516468,
+            -5.557219982147217
+          ],
+          "log_weight": -0.0038820224998925294
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Show the suggested size of a swap portion with a real example near the door, saving newcomers the awkwardness of guessing what's fair.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.016078924760222435,
+            -4.865270614624023
+          ],
+          "log_weight": -0.0078041759095189775
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Give the baker of a very popular loaf a place to leave a note about bringing it again, so missing out can turn into a reason to return.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007161187008023262,
+            -5.588498115539551
+          ],
+          "log_weight": -0.0037604458906099415
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Keep the invitation clear about when people can collect their serving tins and baskets, sparing the hosts a pile of unclaimed kitchenware.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010035180486738682,
+            -5.511274814605713
+          ],
+          "log_weight": -0.004073400902260187
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: A child who wants to help could draw a little portrait of a loaf for the table, giving families something to do together without handling the samples.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.027674535289406776,
+            -3.9554545879364014
+          ],
+          "log_weight": -0.01949604002019418
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Leave a cooling rack near check-in for bread that arrives warm, since bagging a steaming loaf can soften the crust before anyone tries it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006649154704064131,
+            -5.8001251220703125
+          ],
+          "log_weight": -0.0030427373586281617
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Invite contributors to choose a home for their spare bread in advance, allowing the closing crew to pass it along with the baker's agreement.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006862523499876261,
+            -6.295438766479492
+          ],
+          "log_weight": -0.0018556797160020257
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Put a street-facing sign at the actual entrance. First-time visitors juggling a loaf and a bike will appreciate spotting the way in from the pavement.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009394604712724686,
+            -5.247321128845215
+          ],
+          "log_weight": -0.005297203204781099
+        },
+        {
+          "prompt": "Problem: How could we run a community bread swap where people get to try something new and feel comfortable coming back?\nProposed step: Keep a sheet where visitors can request a bread they remember fondly, giving a neighbor who knows how to bake it an idea for the next gathering.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007357761263847351,
+            -5.896815299987793
+          ],
+          "log_weight": -0.002764652904684353
+        }
+      ],
+      "noise": [
+        1.243894482769386,
+        -0.8434800461246664,
+        1.2936611461121474,
+        -0.24898781777768003,
+        1.4229207578836298,
+        1.2262324966188305,
+        -0.7751575814673516,
+        2.818579466549863,
+        -0.02710044724067858,
+        0.034533534946982775,
+        -0.04122167725779915,
+        -0.004523589249539013,
+        1.7757482090956027,
+        0.8178841059446299,
+        -0.6479804185300002,
+        1.8098238408536662,
+        0.5136576045538501,
+        0.9722540286113385,
+        0.4751118750923301,
+        1.9461802647967725,
+        0.19237119658720575,
+        1.8169774869051383,
+        0.1508936002831545,
+        1.2146955700771824
+      ],
+      "variants": {
+        "control": {
+          "id": "987889719f832ab3",
+          "selected": [
+            4,
+            7,
+            12,
+            15,
+            19,
+            21
+          ],
+          "text": "Save some bread from willing contributors for a later release during the advertised hours, so arriving straight from work still means finding a choice. Set out paper bags big enough for a few slices and a pencil for writing on them, so people can tell their selections apart once they're home. Ask each baker how they like to eat their bread the following day. A reheating or toasting suggestion makes a less familiar loaf easier to choose. Set a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away.\n\nA child who wants to help could draw a little portrait of a loaf for the table, giving families something to do together without handling the samples. Invite contributors to choose a home for their spare bread in advance, allowing the closing crew to pass it along with the baker's agreement."
+        },
+        "weak": {
+          "id": "e902454d1dc46773",
+          "selected": [
+            0,
+            7,
+            12,
+            19,
+            21,
+            23
+          ],
+          "text": "Ask bakers to wrap a few small portions from each loaf so someone who lives alone can bring home several kinds without wasting bread. Set out paper bags big enough for a few slices and a pencil for writing on them, so people can tell their selections apart once they're home. Ask each baker how they like to eat their bread the following day. A reheating or toasting suggestion makes a less familiar loaf easier to choose. A child who wants to help could draw a little portrait of a loaf for the table, giving families something to do together without handling the samples.\n\nInvite contributors to choose a home for their spare bread in advance, allowing the closing crew to pass it along with the baker's agreement. Keep a sheet where visitors can request a bread they remember fondly, giving a neighbor who knows how to bake it an idea for the next gathering."
+        },
+        "strong": {
+          "id": "a493f5590e5f49de",
+          "selected": [
+            1,
+            2,
+            5,
+            6,
+            15,
+            16
+          ],
+          "text": "Welcome a loaf from a favorite neighborhood bakery. Someone without an oven can make an introduction every bit as interesting as a home baker's. Put blank ingredient cards beside the bread and leave room for fillings and toppings, which can be hard to identify from the crust. A stool at the exchange table gives anyone who tires of standing a chance to linger and talk to the bakers. Invite people to put a few words about a loaf's history beside it. Asking about a grandmother's skillet bread is an easier opening than introducing yourself to a room.\n\nSet a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away. Show the suggested size of a swap portion with a real example near the door, saving newcomers the awkwardness of guessing what's fair."
+        }
+      }
+    },
+    {
+      "unit": 5,
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "weights": [
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Station a book where a seated visitor can see an interesting plant clearly, so drawing needn't involve balancing the book on one knee in a path.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0068853734992444515,
+            -5.691764831542969
+          ],
+          "log_weight": -0.003391186122046015
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007614989299327135,
+            -5.790896415710449
+          ],
+          "log_weight": -0.0030738674520834576
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Offer a prompt as small as drawing the edge of one leaf, giving visitors with only a minute a subject they can finish.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.028683418408036232,
+            -3.97578501701355
+          ],
+          "log_weight": -0.019126507194997814
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006143257953226566,
+            -5.935891628265381
+          ],
+          "log_weight": -0.002655621739071299
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Choose a binding that lies open by itself so a visitor can hold a pencil in one hand and steady a child's hand with the other.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007884452119469643,
+            -5.714494228363037
+          ],
+          "log_weight": -0.0033184102861119683
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Supply soft graphite for the communal books so a bold drawing on one side of a sheet leaves the next side usable.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008031336590647697,
+            -5.731410503387451
+          ],
+          "log_weight": -0.003263316502218962
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Set out a few pencil grips of different widths to give visitors who find a slim barrel awkward a comfortable way to draw.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006415604613721371,
+            -6.048249244689941
+          ],
+          "log_weight": -0.0023743749325144965
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: A simple picture of an open book and a drawing hand can invite someone to join in even if they can't read the garden's welcome sign.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0075850579887628555,
+            -5.629449367523193
+          ],
+          "log_weight": -0.0036113611295179497
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Encourage artists to jot down the date if they wish. People leafing back in autumn can then spot how early the magnolia opened.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011590640991926193,
+            -6.035674571990967
+          ],
+          "log_weight": -0.002416844303637599
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006114230025559664,
+            -6.117993354797363
+          ],
+          "log_weight": -0.0022139294873300412
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Set up a second copy of a completed book for browsing nearby, freeing the current volume for visitors who are waiting to draw.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005897264927625656,
+            -6.826812267303467
+          ],
+          "log_weight": -0.0010901280463610817
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Give the sketchbook a dry home under cover with a clear place to return it, so a sudden shower doesn't soak a season's drawings.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004614063072949648,
+            -6.302497863769531
+          ],
+          "log_weight": -0.0018385037942852964
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Ask visitors to turn the book toward the plant when taking a reference photo, keeping other guests out of the frame in a busy glasshouse.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011236364021897316,
+            -5.7079620361328125
+          ],
+          "log_weight": -0.003351317259262517
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Welcome a line about a scent or sound alongside a sketch, letting the page preserve something its outline alone can't convey.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009696881286799908,
+            -5.4686279296875
+          ],
+          "log_weight": -0.004249064945200389
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006552638486027718,
+            -6.419672966003418
+          ],
+          "log_weight": -0.0016385563199463916
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Let children and adults work side by side on a spread if both want to. Two views of the same flower give them something concrete to compare.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007124968804419041,
+            -7.021130561828613
+          ],
+          "log_weight": -0.0008987954999167044
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: An invitation to draw the fallen pods already on the table brings small details within reach without asking visitors to pick anything.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006466890685260296,
+            -5.966183662414551
+          ],
+          "log_weight": -0.0025773186386621855
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: A pencil sharpener with a closed shavings cup lets visitors restore a fine point for tiny details without scattering wood curls into the beds.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0066399178467690945,
+            -6.03582239151001
+          ],
+          "log_weight": -0.0024045680450578647
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Ask a volunteer to flip through each volume for loose leaves at closing, when a small repair can still save a drawing from going astray.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013292974792420864,
+            -5.019873142242432
+          ],
+          "log_weight": -0.0066714520241421904
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Provide a slip that visitors can take home with the sketchbook station marked on a garden map, making it easier to return with a friend.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0075972434133291245,
+            -6.905378818511963
+          ],
+          "log_weight": -0.0010095138763909191
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Give finished volumes a shelf sorted by season, so a returning visitor can find what other people noticed during the same month in earlier years.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006412761751562357,
+            -6.4455952644348145
+          ],
+          "log_weight": -0.0015964372879817574
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004019397310912609,
+            -7.231813907623291
+          ],
+          "log_weight": -0.0007258570518598462
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Post a written invitation to leave drawings unsigned, so adding a page doesn't require making a public introduction.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013771282508969307,
+            -4.780466079711914
+          ],
+          "log_weight": -0.008472463016185698
+        },
+        {
+          "prompt": "Problem: What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?\nProposed step: Keep a magnifying lens at the station for visitors curious about a vein or a patch of bark, turning a barely visible feature into a subject of its own.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005697202868759632,
+            -6.103843688964844
+          ],
+          "log_weight": -0.002244507967435857
+        }
+      ],
+      "noise": [
+        -0.5358902145550637,
+        1.8345411425599332,
+        -1.0079640149892342,
+        2.785525370700784,
+        0.33038161148308137,
+        -0.5663076813461622,
+        0.38336498966248794,
+        -0.41710855944537584,
+        -0.21350205255408705,
+        1.576251760100121,
+        0.11154562749467337,
+        -0.5546334196791828,
+        0.7271135140120893,
+        0.3025029679629942,
+        2.5250972104680813,
+        0.11621150290402231,
+        1.6393620764398507,
+        -0.08885540718207022,
+        -0.981524486273377,
+        -0.4749720589971954,
+        1.2568716074403818,
+        3.31700249724379,
+        0.511786374795629,
+        1.3513409584191043
+      ],
+      "variants": {
+        "control": {
+          "id": "8af54e7b3995c506",
+          "selected": [
+            1,
+            3,
+            9,
+            14,
+            16,
+            21
+          ],
+          "text": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier. A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page. Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look. Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book.\n\nAn invitation to draw the fallen pods already on the table brings small details within reach without asking visitors to pick anything. Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company."
+        },
+        "weak": {
+          "id": "4aac663d3292ef28",
+          "selected": [
+            1,
+            3,
+            9,
+            14,
+            20,
+            21
+          ],
+          "text": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier. A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page. Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look. Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book.\n\nGive finished volumes a shelf sorted by season, so a returning visitor can find what other people noticed during the same month in earlier years. Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company."
+        },
+        "strong": {
+          "id": "e4b8b57caad69b90",
+          "selected": [
+            1,
+            3,
+            4,
+            9,
+            12,
+            14
+          ],
+          "text": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier. A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page. Choose a binding that lies open by itself so a visitor can hold a pencil in one hand and steady a child's hand with the other. Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look.\n\nAsk visitors to turn the book toward the plant when taking a reference photo, keeping other guests out of the frame in a busy glasshouse. Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book."
+        }
+      }
+    },
+    {
+      "unit": 6,
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "weights": [
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Send each performer a short list of what to wear or bring, since a trouser hem measured over slippers may sit differently over the show shoes.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.015700887888669968,
+            -4.77565336227417
+          ],
+          "log_weight": -0.008529536352033877
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Allow a little extra time for people with several changes, so one elaborate costume doesn't quietly push the rest of the evening behind.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007065312005579472,
+            -6.215672016143799
+          ],
+          "log_weight": -0.0020100174382595547
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Set up a screened changing area with a chair and hooks so nobody has to balance on one foot or leave their own clothes on the floor.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008536633104085922,
+            -5.664638042449951
+          ],
+          "log_weight": -0.0034900230842241364
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Ask before touching a performer to adjust a collar or sleeve, giving them time to say they'd prefer to move the fabric themselves.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.02590569481253624,
+            -4.222433090209961
+          ],
+          "log_weight": -0.01493564690487051
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Hang every part of an outfit together in scene order so a fitter can spend the appointment checking clothes instead of hunting for the matching waistcoat.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008350693620741367,
+            -5.75004243850708
+          ],
+          "log_weight": -0.003204195383991769
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Have someone check people in just outside the fitting area, which keeps arrivals from wandering into a change already in progress.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008945862762629986,
+            -5.552320957183838
+          ],
+          "log_weight": -0.0039056597500391425
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.012945655733346939,
+            -5.175228595733643
+          ],
+          "log_weight": -0.005712260610573376
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Try the movements the role actually calls for, such as sitting on a low stool or raising both arms, to catch a tight seam while the performer is present.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.015767777338624,
+            -4.64264440536499
+          ],
+          "log_weight": -0.009737708720143371
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Give each alteration note a garment name and the wearer's left or right side. The person sewing tomorrow should be able to pick it up without a demonstration.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.016361363232135773,
+            -4.647987365722656
+          ],
+          "log_weight": -0.009691793205475516
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Ask the performer where anything rubs after they've had the costume on for a few minutes, because discomfort doesn't always show in the mirror.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.03258742392063141,
+            -3.7317681312561035
+          ],
+          "log_weight": -0.024442620929645508
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Use removable clips to hold a proposed change while the performer looks in the mirror, so they can comment before any fabric gets cut.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007321076933294535,
+            -5.914844989776611
+          ],
+          "log_weight": -0.0027152212677634714
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00677171116694808,
+            -6.348631381988525
+          ],
+          "log_weight": -0.0017594754791660826
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007498925551772118,
+            -5.80434513092041
+          ],
+          "log_weight": -0.003032515377591057
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: If a reference photo would help the sewer, ask permission and frame just the garment detail that needs work, leaving room for a performer to decline.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0145820127800107,
+            -5.05974817276001
+          ],
+          "log_weight": -0.006419739445526696
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Have the note taker read back the requested change while the costume is still on, when a misunderstood sleeve length takes seconds to put right.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009135116823017597,
+            -5.33969783782959
+          ],
+          "log_weight": -0.0048296632967915944
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Invite people to mention access needs privately when booking, giving the team time to arrange a suitable changing space before they arrive.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00720403203740716,
+            -6.354894638061523
+          ],
+          "log_weight": -0.0017492548863188625
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Set a few minutes aside for testing the fastest backstage change with the dresser, since a perfectly fitted jacket can still take too long to fasten.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013394607231020927,
+            -4.989556789398193
+          ],
+          "log_weight": -0.006876795195335187
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01128763984888792,
+            -5.3056793212890625
+          ],
+          "log_weight": -0.0050071104772903465
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Keep drinks and snacks on a separate table for waiting volunteers so a long evening's coffee doesn't end up on a pale costume.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008710484951734543,
+            -5.870898723602295
+          ],
+          "log_weight": -0.002840971917433658
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Assign each approved alteration to a particular sewer before packing up, making it clear who will act on a note once everyone goes home.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.012075652368366718,
+            -5.566293716430664
+          ],
+          "log_weight": -0.0038636208294974394
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Set aside a short drop-in window for performers whose shifts make a fixed appointment hard to keep, without making the booked guests wait behind them.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006272984202951193,
+            -6.378930568695068
+          ],
+          "log_weight": -0.0017061587417436606
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Use a lamp near the mirror that lets the team see fastenings and seams on dark fabric, cutting down on changes missed in a dim rehearsal room.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006496500689536333,
+            -5.943996429443359
+          ],
+          "log_weight": -0.002635143103754752
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Circle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.012011932209134102,
+            -5.2021403312683105
+          ],
+          "log_weight": -0.005555829179552958
+        },
+        {
+          "prompt": "Problem: How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?\nProposed step: Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0313052274286747,
+            -4.259572982788086
+          ],
+          "log_weight": -0.014472388638348047
+        }
+      ],
+      "noise": [
+        0.3195117940862972,
+        0.8122807685243635,
+        0.1529004142275252,
+        0.8707207995887489,
+        -0.14988004105689648,
+        0.8626814821151906,
+        1.0794095804677797,
+        1.306096377307421,
+        1.6309749209160835,
+        -0.4834784067627799,
+        -1.1282972466568648,
+        2.832259758158587,
+        1.8034208724591503,
+        1.0255454756241655,
+        -0.042976452676753686,
+        0.2084994320222307,
+        -0.8211868554365778,
+        2.1358106805767627,
+        -1.8028649756067618,
+        -0.7258741552321542,
+        -1.093035287733557,
+        -0.4383016614980221,
+        2.1049308683510217,
+        2.7485090479910754
+      ],
+      "variants": {
+        "control": {
+          "id": "714bcac0b79110ef",
+          "selected": [
+            8,
+            11,
+            12,
+            17,
+            22,
+            23
+          ],
+          "text": "Give each alteration note a garment name and the wearer's left or right side. The person sewing tomorrow should be able to pick it up without a demonstration. Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end. Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer. Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact.\n\nCircle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand. Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+        },
+        "weak": {
+          "id": "d27581add0da4a00",
+          "selected": [
+            6,
+            11,
+            12,
+            17,
+            22,
+            23
+          ],
+          "text": "Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it. Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end. Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer. Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact.\n\nCircle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand. Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+        },
+        "strong": {
+          "id": "b97aa79994e1957c",
+          "selected": [
+            0,
+            1,
+            6,
+            12,
+            14,
+            23
+          ],
+          "text": "Send each performer a short list of what to wear or bring, since a trouser hem measured over slippers may sit differently over the show shoes. Allow a little extra time for people with several changes, so one elaborate costume doesn't quietly push the rest of the evening behind. Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it. Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer.\n\nHave the note taker read back the requested change while the costume is still on, when a misunderstood sleeve length takes seconds to put right. Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+        }
+      }
+    },
+    {
+      "unit": 7,
+      "problem": "How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?",
+      "weights": [
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Keep a couple of tables for games where spoken questions are welcome, so a learner can ask about a move without guessing whether their opponent minds.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.007010623347014189,
+            -6.193600654602051
+          ],
+          "log_weight": -0.002054716153805876
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004518062341958284,
+            -6.757638454437256
+          ],
+          "log_weight": -0.0011665510263836392
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Ask spectators to save suggestions until the players invite them, so a newcomer gets the chance to work out a difficult move for themselves.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.01035165786743164,
+            -5.52128267288208
+          ],
+          "log_weight": -0.004034193835953576
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Put felt under the pieces that land with a clack. A small change to the sets can quiet a busy room without asking anyone to tiptoe.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006078210659325123,
+            -6.189427852630615
+          ],
+          "log_weight": -0.0020613781642308017
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Silence the beeps on communal clocks so the end of one game doesn't break a neighboring player's concentration.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.009494153782725334,
+            -5.503842830657959
+          ],
+          "log_weight": -0.004101509785456509
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Keep a few boards available for play without a clock, allowing someone who is still thinking through legal moves to take their time.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.004653457552194595,
+            -6.6609721183776855
+          ],
+          "log_weight": -0.0012850453719890761
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Give each set a picture of the starting position so two beginners can get going together without having to call across the room for help.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.017609793692827225,
+            -4.657549858093262
+          ],
+          "log_weight": -0.009611933489161199
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Offer a small sign that a seated player can turn toward the door when they'd welcome an opponent, taking the guesswork out of joining a stranger.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.00846890453249216,
+            -5.720373630523682
+          ],
+          "log_weight": -0.0033009147980619918
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Keep a written waiting list during busy periods, letting visitors sit down to read instead of hovering over games that look nearly finished.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005345456302165985,
+            -6.516341209411621
+          ],
+          "log_weight": -0.0014858938152362685
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Put spare queens and other pieces in an easy-to-find drawer, so a promotion or a missing knight doesn't set off a room-wide search.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005375099368393421,
+            -5.987131118774414
+          ],
+          "log_weight": -0.002521208601755501
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Arrange the tables so visitors heading for the exit can pass behind seated players without squeezing between a chair and its board.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006489038933068514,
+            -6.423670291900635
+          ],
+          "log_weight": -0.0016319211729107176
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Ask a host to greet newcomers just inside the door, where a quiet explanation of the room can happen without interrupting a game.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005172323901206255,
+            -6.408616542816162
+          ],
+          "log_weight": -0.0016544749513216122
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Leave a few single-position puzzles on a side desk so someone waiting for an opponent can enjoy chess without watching over a player's shoulder.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006021809298545122,
+            -6.689932346343994
+          ],
+          "log_weight": -0.0012500951010648437
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Invite both players to agree before starting whether they'll allow takebacks, heading off a dispute the first time someone overlooks a check.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.013024848885834217,
+            -5.481404781341553
+          ],
+          "log_weight": -0.004209189089252878
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Keep bags on hooks or a shelf away from the boards, saving seated players from repeated requests to move their belongings out of a walkway.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006295965984463692,
+            -6.304378509521484
+          ],
+          "log_weight": -0.0018381387767051668
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Give children who want to practise piece movement a set of their own, so they can explore how a knight jumps without borrowing from a live game.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008710130117833614,
+            -5.7755537033081055
+          ],
+          "log_weight": -0.003124733289903984
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Set up a place for post-game discussion a little away from the quiet boards, since a lively analysis can last much longer than the game itself.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008356131613254547,
+            -5.612936019897461
+          ],
+          "log_weight": -0.0036742084583272806
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Encourage a quiet word with the host if a disagreement develops, giving players a way to settle a rules question without drawing in the whole room.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.0069399503991007805,
+            -6.183897972106934
+          ],
+          "log_weight": -0.0020745822058731607
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Fit pads to the chair legs that scrape against the floor, making it easier to come and go without startling people deep in thought.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.008071542717516422,
+            -5.84674596786499
+          ],
+          "log_weight": -0.0029084673764454786
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Let learners know when a volunteer will be free to teach, so they can plan a visit when asking for help feels expected.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006813388783484697,
+            -6.1119866371154785
+          ],
+          "log_weight": -0.0022288091270890424
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Keep the sightline from the entrance to the tables open, allowing visitors to see whether the room is busy before walking through the playing area.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.006340861786156893,
+            -6.488329887390137
+          ],
+          "log_weight": -0.0015295924993615892
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Ask anyone taking a call to step into the hallway, where they can speak normally while the people at their board hold the position.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.011807669885456562,
+            -5.277773857116699
+          ],
+          "log_weight": -0.005151111057056548
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Give players a quiet heads-up before closing time so a beginner still learning to judge game length can agree on a stopping point with their opponent.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.005405927076935768,
+            -6.3546013832092285
+          ],
+          "log_weight": -0.0017466267953933712
+        },
+        {
+          "prompt": "Problem: How can we keep our public chess room calm while making it a comfortable place for someone still learning the game?\nProposed step: Leave a pencil and paper for recording an unfinished position, allowing two visitors to pause a game without having to keep the board occupied.\nWould this step help achieve the objective? Answer Yes or No.",
+          "token_ids": [
+            9454,
+            2753
+          ],
+          "logprobs": [
+            -0.010972637683153152,
+            -5.782866954803467
+          ],
+          "log_weight": -0.0031090152975222878
+        }
+      ],
+      "noise": [
+        0.3804240297524005,
+        2.2246128878806455,
+        -0.40813041186936927,
+        0.5184203120910156,
+        0.08111772205618986,
+        -0.6727358159140039,
+        0.5537906203136606,
+        2.891379355271917,
+        1.7491131492551322,
+        -1.0057453488367742,
+        -1.5632757696264514,
+        -0.09334449632566204,
+        0.6147018188898472,
+        2.0274635288823535,
+        -0.25432274551042233,
+        0.20611292345762078,
+        1.7763013865036066,
+        2.278648177962111,
+        -0.1985927754011893,
+        0.2884779307115299,
+        0.42775547951834636,
+        -0.2751756606093319,
+        -0.24597517399352142,
+        1.738841894313901
+      ],
+      "variants": {
+        "control": {
+          "id": "84046a236022e3ba",
+          "selected": [
+            1,
+            7,
+            8,
+            13,
+            16,
+            17
+          ],
+          "text": "Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match. Offer a small sign that a seated player can turn toward the door when they'd welcome an opponent, taking the guesswork out of joining a stranger. Keep a written waiting list during busy periods, letting visitors sit down to read instead of hovering over games that look nearly finished. Invite both players to agree before starting whether they'll allow takebacks, heading off a dispute the first time someone overlooks a check.\n\nSet up a place for post-game discussion a little away from the quiet boards, since a lively analysis can last much longer than the game itself. Encourage a quiet word with the host if a disagreement develops, giving players a way to settle a rules question without drawing in the whole room."
+        },
+        "weak": {
+          "id": "57a1ffc9b6f9d017",
+          "selected": [
+            1,
+            7,
+            8,
+            16,
+            17,
+            23
+          ],
+          "text": "Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match. Offer a small sign that a seated player can turn toward the door when they'd welcome an opponent, taking the guesswork out of joining a stranger. Keep a written waiting list during busy periods, letting visitors sit down to read instead of hovering over games that look nearly finished. Set up a place for post-game discussion a little away from the quiet boards, since a lively analysis can last much longer than the game itself.\n\nEncourage a quiet word with the host if a disagreement develops, giving players a way to settle a rules question without drawing in the whole room. Leave a pencil and paper for recording an unfinished position, allowing two visitors to pause a game without having to keep the board occupied."
+        },
+        "strong": {
+          "id": "1de8cb62eb5ae1f9",
+          "selected": [
+            0,
+            1,
+            4,
+            15,
+            20,
+            22
+          ],
+          "text": "Keep a couple of tables for games where spoken questions are welcome, so a learner can ask about a move without guessing whether their opponent minds. Place a demonstration board in a corner away from active games, giving a helper room to show a position without gathering a crowd around someone else's match. Silence the beeps on communal clocks so the end of one game doesn't break a neighboring player's concentration. Give children who want to practise piece movement a set of their own, so they can explore how a knight jumps without borrowing from a live game.\n\nKeep the sightline from the entrance to the tables open, allowing visitors to see whether the room is busy before walking through the playing area. Give players a quiet heads-up before closing time so a beginner still learning to judge game length can agree on a stopping point with their opponent."
+        }
+      }
+    }
+  ]
+}
