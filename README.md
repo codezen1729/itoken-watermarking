@@ -6,6 +6,12 @@ The original **controlled symbolic prototype** uses a finite autoregressive refe
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
+## Open-ended recovery of reasoning steps
+
+The [catalog-free experiment](open_study/REPORT.md) lets each reader discover and describe reasoning steps from a problem and its prose. Across eight marked ideas, the detector flagged one original and zero free rewrites, with the same counts in eight controls. The two fidelity readers agreed that three marked free rewrites preserved the reasoning. All three originals were below threshold, so the primary cohort could not estimate survival among faithful rewrites of detectable originals.
+
+A [separate light copyedit](open_study/COPYEDIT_REPORT.md) tested the one initially detectable marked text and its matched control. Both readers accepted both copyedits as faithful, and both detector p-values went from 0.010 to 0.015. The [source texts, reader outputs and reproduction instructions](open_study/README.md) accompany the results.
+
 ## Natural-language ideas without explicit symbols
 
 The [natural-language experiment](NATURAL_REPORT.md) removes artificial atoms, route labels, and required wording. Eight different planning problems use fresh learned probabilities and separate agents for authoring, rewording, recovery, verification, and both fidelity checks. All five initially detectable marks remained detectable; overall detection was **5/8 marked rewrites and 0/8 controls**.

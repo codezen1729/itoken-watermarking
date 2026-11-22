@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "A sports pitch can look beautifully dark on an afternoon visit and blaze under floodlights after dusk. Walk the common at the intended hour and mark a patch where people can see the sky without looking across a lamp."
+    },
+    {
+      "id": "s1",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "The groundskeeper knows when the sprinklers start and which gates get locked. Agree on an observing area and departure time with them before putting either detail on the invitation."
+    },
+    {
+      "id": "s2",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "The Moon gives a beginner something recognizable to find with the naked eye. Choose a night when a crescent or quarter Moon will stand above the local roofline during the gathering."
+    },
+    {
+      "id": "s3",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Several neighbors may arrive expecting the colors they see in space photographs. A hand-drawn preview of what the Moon will look like through the borrowed instruments gives them a realistic first target."
+    },
+    {
+      "id": "s4",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Clouds often leave people wondering whether to set off from home. Give the invitation a specific time and place for the go-ahead message, with a reserve evening listed alongside it."
+    },
+    {
+      "id": "s5",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "A sign that points across a lawn is little help to someone pushing a wheelchair or a buggy. Trace the firm route from the entrance and describe its distance, surface and tightest turn in the invitation."
+    },
+    {
+      "id": "s6",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "White phone screens can undo the effort of letting eyes settle into the dark. Offer printed charts at the welcome table so nobody needs a bright display to follow the activity."
+    },
+    {
+      "id": "s7",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "New arrivals naturally look for the busiest spot and can blunder into a tripod. Put the greeting point on the approach path and have someone show them where the telescope legs begin."
+    },
+    {
+      "id": "s8",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Trees hide more sky than a horizon diagram suggests. Check the intended targets from the chosen patch at the observing hour and carry a second target list for the unobstructed part of the sky."
+    },
+    {
+      "id": "s9",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Finding a constellation becomes easier when the paper turns with the viewer. Mark one conspicuous landmark on a simple chart so people can line up the page from their actual starting position."
+    },
+    {
+      "id": "s10",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "A telescope pointed at nothing in particular makes a poor first demonstration. Have its lender align the finder before dusk so the volunteer can return quickly to a target after an accidental bump."
+    },
+    {
+      "id": "s11",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "People differ in where a sharply focused image appears. Demonstrate the focus knob while the first visitor is at the eyepiece so everyone in earshot knows which control they may adjust."
+    },
+    {
+      "id": "s12",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Children may struggle to reach an eyepiece set for a standing adult. Try the lower telescope position with a stable chair before opening and direct seated visitors to that instrument."
+    },
+    {
+      "id": "s13",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "A family waiting behind one observer can feel pressured to take a single hurried glance. Hand out return slips at the telescope so people can explore the sky nearby until their turn comes around."
+    },
+    {
+      "id": "s14",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Two similar views can answer different questions. Keep one telescope at low magnification to show the whole Moon and have the other follow one feature that visitors can first locate in the wider view."
+    },
+    {
+      "id": "s15",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Someone who prefers to keep both feet moving can still learn to observe. Set out a short naked-eye trail with stopping places from which a guide can point out shapes between buildings or trees."
+    },
+    {
+      "id": "s16",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "An invitation to notice one detail gives quiet visitors a way into the conversation. Leave pencils and small cards for people to sketch the boundary between the Moon's lit and shaded portions."
+    },
+    {
+      "id": "s17",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Some neighbors will arrive halfway through and miss the opening explanation. Repeat a short orientation on the approach path a few times during the evening so newcomers can join without interrupting a telescope view."
+    },
+    {
+      "id": "s18",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Standing on grass feels colder than walking there, especially for an observer waiting a turn. Mention warm layers in the invitation and place a few seats on the sheltered edge of the observing area."
+    },
+    {
+      "id": "s19",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Sound carries beyond the common after dusk. Gather small groups close to their guide so directions can be given in a conversational voice that also leaves other observers free to listen."
+    },
+    {
+      "id": "s20",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "A photograph of the crowd can introduce an unexpected flash. Designate a photo spot by the entrance and ask anyone using it to aim away from the observing patch."
+    },
+    {
+      "id": "s21",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "Tripod caps and chart clips disappear readily into grass. Give each instrument a shallow parts tray and compare its contents with a packing photograph before returning the borrowed kit."
+    },
+    {
+      "id": "s22",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "The last observers still need light to leave while volunteers are packing. Assign one volunteer to stay at the gate with a shielded light until everyone and both instruments have reached the path."
+    },
+    {
+      "id": "s23",
+      "problem": "A neighborhood association has borrowed two telescopes for a free evening on the common. How could volunteers give first-time stargazers a satisfying evening and leave the common ready for its usual users?",
+      "text": "An evening judged by telescope turns alone could overlook the person who finally recognized a constellation. At departure, invite visitors to name one thing they could now find again and use those replies to shape a second gathering."
+    }
+  ]
+}

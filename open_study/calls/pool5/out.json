@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "A site that appears dark in daylight may face floodlights after dusk.",
+          "action": "Visit the common at the proposed observing hour and mark a spot with a view clear of lamps.",
+          "consequence": "People can look at the sky without facing glare.",
+          "quote": "A sports pitch can look beautifully dark on an afternoon visit and blaze under floodlights after dusk. Walk the common at the intended hour and mark a patch where people can see the sky without looking across a lamp."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "The groundskeeper knows the watering and gate schedules.",
+          "action": "Settle the site and departure time with the groundskeeper before advertising them.",
+          "consequence": "The announced arrangements can accommodate sprinklers and gate closures.",
+          "quote": "The groundskeeper knows when the sprinklers start and which gates get locked. Agree on an observing area and departure time with them before putting either detail on the invitation."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Beginners can identify the Moon without a telescope.",
+          "action": "Schedule the gathering when a crescent or quarter Moon clears nearby rooftops.",
+          "consequence": "Visitors have a visible, familiar target to find.",
+          "quote": "The Moon gives a beginner something recognizable to find with the naked eye. Choose a night when a crescent or quarter Moon will stand above the local roofline during the gathering."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Space photos may give visitors unrealistic expectations of what they will see.",
+          "action": "Show a drawing of the Moon as it appears in the loaned telescopes.",
+          "consequence": "Beginners know what detail and appearance to look for.",
+          "quote": "Several neighbors may arrive expecting the colors they see in space photographs. A hand-drawn preview of what the Moon will look like through the borrowed instruments gives them a realistic first target."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Cloud cover can leave guests unsure whether to leave home.",
+          "action": "List when and where to check for the decision and give a backup evening in the invitation.",
+          "consequence": "Guests can determine whether to come that evening or wait for the reserve date.",
+          "quote": "Clouds often leave people wondering whether to set off from home. Give the invitation a specific time and place for the go-ahead message, with a reserve evening listed alongside it."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A direction across grass does not tell wheelchair or buggy users whether they can get through.",
+          "action": "Follow the firm entrance route and publish its length, surface and tightest turn.",
+          "consequence": "Visitors can judge and follow the approach.",
+          "quote": "A sign that points across a lawn is little help to someone pushing a wheelchair or a buggy. Trace the firm route from the entrance and describe its distance, surface and tightest turn in the invitation."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "A bright phone screen spoils dark adaptation.",
+          "action": "Offer paper charts where visitors arrive.",
+          "consequence": "People can follow the activity while keeping their eyes adjusted to the dark.",
+          "quote": "White phone screens can undo the effort of letting eyes settle into the dark. Offer printed charts at the welcome table so nobody needs a bright display to follow the activity."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "An arriving visitor heading toward the crowd might hit a tripod.",
+          "action": "Place a greeter on the approach to point out where the legs are.",
+          "consequence": "Newcomers can approach the equipment without stumbling into it.",
+          "quote": "New arrivals naturally look for the busiest spot and can blunder into a tripod. Put the greeting point on the approach path and have someone show them where the telescope legs begin."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Trees can hide targets that look visible on a diagram.",
+          "action": "Check the targets from the site at the event hour and prepare alternatives in open sky.",
+          "consequence": "Observers have objects to turn to if trees block the planned view.",
+          "quote": "Trees hide more sky than a horizon diagram suggests. Check the intended targets from the chosen patch at the observing hour and carry a second target list for the unobstructed part of the sky."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "A constellation is easier to find when the chart matches the direction the viewer faces.",
+          "action": "Put a recognizable landmark on the chart.",
+          "consequence": "Visitors can orient the page at their own viewing position.",
+          "quote": "Finding a constellation becomes easier when the paper turns with the viewer. Mark one conspicuous landmark on a simple chart so people can line up the page from their actual starting position."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "The first view is lost if a bumped telescope no longer points at the target.",
+          "action": "Ask the lender to align the finder before dark.",
+          "consequence": "The volunteer can reacquire the target quickly.",
+          "quote": "A telescope pointed at nothing in particular makes a poor first demonstration. Have its lender align the finder before dusk so the volunteer can return quickly to a target after an accidental bump."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "The focus that gives a sharp image varies between viewers.",
+          "action": "Show how to use the focus knob with the first visitor at the eyepiece.",
+          "consequence": "Visitors within earshot learn which control they can use for their own view.",
+          "quote": "People differ in where a sharply focused image appears. Demonstrate the focus knob while the first visitor is at the eyepiece so everyone in earshot knows which control they may adjust."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Children can be too short for an eyepiece set for a standing adult.",
+          "action": "Test a lowered instrument with a stable chair before opening, then direct seated users to it.",
+          "consequence": "Those visitors can reach the eyepiece.",
+          "quote": "Children may struggle to reach an eyepiece set for a standing adult. Try the lower telescope position with a stable chair before opening and direct seated visitors to that instrument."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A waiting family may feel rushed to take a brief look.",
+          "action": "Give people slips to return for their turns.",
+          "consequence": "They can look at the nearby sky while they wait and need not crowd the current observer.",
+          "quote": "A family waiting behind one observer can feel pressured to take a single hurried glance. Hand out return slips at the telescope so people can explore the sky nearby until their turn comes around."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A whole-Moon view and a close view can show different things.",
+          "action": "Keep one telescope at low power and train the other on a feature visible through the first.",
+          "consequence": "Visitors can locate that feature on the Moon before looking more closely.",
+          "quote": "Two similar views can answer different questions. Keep one telescope at low magnification to show the whole Moon and have the other follow one feature that visitors can first locate in the wider view."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Some visitors prefer moving around while observing.",
+          "action": "Lay out a short walk with stops where a guide can point to sky shapes visible between obstructions.",
+          "consequence": "Visitors can learn naked-eye observation as they move along the route.",
+          "quote": "Someone who prefers to keep both feet moving can still learn to observe. Set out a short naked-eye trail with stopping places from which a guide can point out shapes between buildings or trees."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "A specific detail to notice can help quiet visitors join the conversation.",
+          "action": "Supply pencils and cards for sketches of the Moon's light-shadow boundary.",
+          "consequence": "Visitors have a particular observation to share.",
+          "quote": "An invitation to notice one detail gives quiet visitors a way into the conversation. Leave pencils and small cards for people to sketch the boundary between the Moon's lit and shaded portions."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Late arrivals may have missed the first briefing.",
+          "action": "Repeat a brief welcome on the approach during the evening.",
+          "consequence": "Newcomers can join without interrupting someone at the eyepiece.",
+          "quote": "Some neighbors will arrive halfway through and miss the opening explanation. Repeat a short orientation on the approach path a few times during the evening so newcomers can join without interrupting a telescope view."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Waiting still on the grass feels colder than walking.",
+          "action": "Mention warm layers in the invitation and provide seats at a sheltered edge.",
+          "consequence": "Those waiting to observe can dress for the cold and sit out of the wind.",
+          "quote": "Standing on grass feels colder than walking there, especially for an observer waiting a turn. Mention warm layers in the invitation and place a few seats on the sheltered edge of the observing area."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Voices carry past the common at night.",
+          "action": "Have guides bring small groups close enough to hear normal speech.",
+          "consequence": "They can give directions quietly and let others listen without interference.",
+          "quote": "Sound carries beyond the common after dusk. Gather small groups close to their guide so directions can be given in a conversational voice that also leaves other observers free to listen."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "An unexpected camera flash can hit the observing area.",
+          "action": "Set a photo location near the entrance and ask photographers to face away from the observers.",
+          "consequence": "Flashes are directed away from people watching the sky.",
+          "quote": "A photograph of the crowd can introduce an unexpected flash. Designate a photo spot by the entrance and ask anyone using it to aim away from the observing patch."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Small telescope parts can vanish in the grass.",
+          "action": "Keep a shallow parts tray for each telescope and check it against the packing photo before return.",
+          "consequence": "Volunteers can account for the small pieces of the borrowed kit.",
+          "quote": "Tripod caps and chart clips disappear readily into grass. Give each instrument a shallow parts tray and compare its contents with a packing photograph before returning the borrowed kit."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "People still leaving need light while equipment is being packed.",
+          "action": "Post a volunteer with a shielded light at the gate until all people and both telescopes reach the path.",
+          "consequence": "The exit stays lit through the last departure.",
+          "quote": "The last observers still need light to leave while volunteers are packing. Assign one volunteer to stay at the gate with a shielded light until everyone and both instruments have reached the path."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Counting telescope turns misses achievements such as learning to recognize a constellation.",
+          "action": "Ask departing visitors what they could find again and use their answers when planning the next event.",
+          "consequence": "The next gathering can reflect what visitors learned to recognize.",
+          "quote": "An evening judged by telescope turns alone could overlook the person who finally recognized a constellation. At departure, invite visitors to name one thing they could now find again and use those replies to shape a second gathering."
+        }
+      ]
+    }
+  ]
+}

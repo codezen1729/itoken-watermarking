@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A shelf built from everyone's spare scores may still overlook the players who turn up most often. Ask local groups about their instruments and rehearsal needs, then use their answers to guide the first collection."
+    },
+    {
+      "id": "s1",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A donated folder can contain both the donor's own arrangement and another publisher's edition. Record what use the contributor can authorize for each item before deciding which materials to lend and which to post online."
+    },
+    {
+      "id": "s2",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Two arrangements with the same song title can be completely different to play. Give each entry its arranger, edition and opening tempo marking so borrowers can recognize the version their group rehearses."
+    },
+    {
+      "id": "s3",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Singers often know their comfortable range more precisely than their preferred genre. Record the lowest and highest sung notes for each vocal part so they can screen a piece before borrowing it."
+    },
+    {
+      "id": "s4",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "An ensemble named on a cover may require an unexpected doubling halfway through. Check the actual parts and list every required instrument alongside any optional substitutions the arrangement provides."
+    },
+    {
+      "id": "s5",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A clarinet player may search by the instrument in hand and another player by the key heard in the room. Record the part's transposition separately from the work's concert key so both searches make sense."
+    },
+    {
+      "id": "s6",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A beginner can make better use of a concrete difficulty note than an unexplained star rating. Have a player identify features such as shifting meter or sustained high notes that influence rehearsal time."
+    },
+    {
+      "id": "s7",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "An unfamiliar local composition may find an audience once players hear its shape. When its creator agrees, pair the catalog entry with a short performance excerpt and credit those who made the recording."
+    },
+    {
+      "id": "s8",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Small type on a high shelf is hard to inspect in a busy corridor. Keep a printed browsing binder at seated height and use shelf codes that match the stickers on the music folders."
+    },
+    {
+      "id": "s9",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Pieces remembered by an opening line can vanish from a title-only index. Add alternate titles and first lines where available so a half-remembered piece has more than one path to its entry."
+    },
+    {
+      "id": "s10",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Loose parts can migrate between near-identical folders after rehearsal. Give each part the same collection code as its folder in a removable sleeve, with the instrument name visible at the top."
+    },
+    {
+      "id": "s11",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A quartet loses a rehearsal when the second violin part is missing. Put a parts inventory inside the folder and have the borrower and return volunteer check it at opposite ends of the loan."
+    },
+    {
+      "id": "s12",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Singling out the only borrower of a rare part on a public sign-out sheet can feel intrusive. Keep contact details in the center's private loan record and show only availability in the browsing catalog."
+    },
+    {
+      "id": "s13",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "An entire group may plan around a score being available on a certain evening. Let a named representative reserve the folder for a rehearsal and display the date it is expected back."
+    },
+    {
+      "id": "s14",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Players may need a part for several rehearsals before their concert. Allow a renewal when nobody is waiting and have volunteers check the reservation list before promising a longer loan."
+    },
+    {
+      "id": "s15",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Penciled bowings from one group can confuse the next one. Supply removable annotation slips and invite ensembles to save their own agreed markings separately when they return a shared set."
+    },
+    {
+      "id": "s16",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Many published bindings resist a music stand and can be damaged by forcing them flat. Provide a stand for trying a score at the center so borrowers can see how the edition sits before taking it away."
+    },
+    {
+      "id": "s17",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A digital score can look tidy on screen yet cut off the lowest staff in print. Test an authorized printable file on the center's ordinary printer and record the paper size that preserves the whole page."
+    },
+    {
+      "id": "s18",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A musician returning after a year may want the exact revision used at a previous concert. Date each contributed revision and retain the earlier catalog record with a link to its successor."
+    },
+    {
+      "id": "s19",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A small ensemble can discover an unwanted page turn only in the middle of performance. Invite borrowers to leave edition-specific playing notes in the catalog so the next group can prepare for that spot."
+    },
+    {
+      "id": "s20",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Several copies of a popular score may be more useful than another copy of a seldom-played arrangement. Count unmet requests by edition and use those figures when asking donors for additions."
+    },
+    {
+      "id": "s21",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A person bringing in a boxful of scores may know their history better than anyone else. Give contributors room to record a former owner's name or an ensemble connection when they wish it preserved."
+    },
+    {
+      "id": "s22",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "A damaged folder may still look available to someone planning a rehearsal. Mark it awaiting repair in the catalog and describe what needs attention so a volunteer can return it to circulation deliberately."
+    },
+    {
+      "id": "s23",
+      "problem": "Local instrumentalists and singers want to share sheet music through their community center. How could they build a collection that musicians can browse, borrow, play from and keep useful as it grows?",
+      "text": "Browse counts alone miss the music people actually bring to life. Invite each returning group to recommend one piece they enjoyed playing, then display a rotating selection of those titles beside the shelf."
+    }
+  ]
+}

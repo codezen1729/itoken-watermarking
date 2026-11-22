@@ -1,0 +1,280 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "The lawn slopes toward the changing rooms.",
+          "action": "Place the screen downhill.",
+          "consequence": "Blanket sitters farther up the slope can see over the people in front.",
+          "quote": "The lawn slopes gently toward the changing rooms. Put the screen at the low end so people sitting on a blanket can see over the row ahead."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Reflections from west-facing windows cross the lawn at dusk.",
+          "action": "Try projecting at the scheduled screening time.",
+          "consequence": "Organizers can tell whether a small change in screen position is needed.",
+          "quote": "At dusk the west-facing windows throw a bright reflection across the picnic ground. A projection test at the actual show time will reveal whether the screen needs to shift a few feet."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Families with toddlers tend to leave early.",
+          "action": "Save blanket spots for them beside the exit path.",
+          "consequence": "They can leave without making rows of other viewers get up.",
+          "quote": "Families bringing toddlers often leave before the credits. Reserve blanket space beside the exit path so those departures do not set off a chain of people standing up."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Tall loungers would obstruct the view from low rugs.",
+          "action": "Mark out the chair section behind the blankets before dark.",
+          "consequence": "Later arrivals can unfold chairs where they will leave blanket viewers a clear view.",
+          "quote": "Pool loungers sit much higher than picnic rugs. Mark a chair area behind the blankets while there is still daylight and late arrivals will know where they can unfold a seat."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Watering softens the grass between the entrance and the tables.",
+          "action": "Reserve places to watch along the paved strip.",
+          "consequence": "Wheelchair users can watch alongside their friends on firm ground.",
+          "quote": "The grass between the gate and the picnic tables gets soft after watering. Set aside viewing places along the paved strip so wheelchair users can sit with their friends."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "The regular club sign leads cyclists to a locked entrance.",
+          "action": "Give directions at the street corner where riders can change course.",
+          "consequence": "They can reach the picnic gate before following the wrong approach.",
+          "quote": "A cyclist following the usual club sign ends up at the locked pool entrance. Put a direction board at the street corner where riders can still turn toward the picnic gate."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "The counter usually accepts cash from club members.",
+          "action": "Include the prices and accepted means of payment in the invitation.",
+          "consequence": "Families can bring suitable change or decide to bring their own food.",
+          "quote": "The snack counter normally takes cash from members. Print prices and payment methods on the invitation so a family can bring the right change or pack its own picnic."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Homes stand just across the lane from the screening area.",
+          "action": "Point the speakers toward the spectators and check the sound from the lane.",
+          "consequence": "Organizers can direct sound toward viewers and hear whether dialogue still reaches nearby bedrooms.",
+          "quote": "Several nearby homes face the lawn across a narrow lane. Aim the speakers into the audience and listen from the lane during the sound check to catch dialogue that carries into bedrooms."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Wind can make quiet dialogue inaudible.",
+          "action": "Enable captions and check that someone in the last row can read them before guests come in.",
+          "consequence": "Viewers at the back can follow lines that the wind obscures.",
+          "quote": "Even on a quiet evening, wind can swallow a softly spoken line. Turn on captions and have somebody read them from the back row before admitting guests."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "The groundskeeper knows the underground irrigation routes.",
+          "action": "Ask her to mark safe anchoring spots before erecting the screen.",
+          "consequence": "The stakes can go in without puncturing a pipe and flooding the lawn.",
+          "quote": "The groundskeeper knows where the irrigation pipes cross the lawn. Have her mark suitable anchor points before the screen goes up to keep a misplaced stake from flooding the viewing area."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "The projector and kettle draw power from the same circuit.",
+          "action": "Have the caretaker run both at once in advance.",
+          "consequence": "A problem with the combined load can be caught before tea service cuts the film off.",
+          "quote": "The projector and the kettle usually share the clubhouse circuit. Ask the caretaker to test them together ahead of time so the first round of tea does not interrupt the opening scene."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "People walking back from the toilets can easily miss a loose lead.",
+          "action": "Route the projector cable around the edge and cover it where it crosses the path at the booth.",
+          "consequence": "People are less likely to trip over the cable.",
+          "quote": "A loose cable is hard to spot on the walk back from the toilets. Run the projector lead along the boundary and cover the crossing where the path meets the booth."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Changing-room light illuminates the toilet route but spills onto the screen through the open door.",
+          "action": "Place a freestanding shade beside the door.",
+          "consequence": "The picture stays clear while the path to the toilets remains lit.",
+          "quote": "Light from the changing rooms helps people find the toilets but washes out the picture when the door swings open. A freestanding shade beside the doorway can protect the image while leaving the route bright."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A solo newcomer may mistake groups on a crowded lawn for closed parties.",
+          "action": "Ask a greeter to note gaps and offer to guide newcomers to one.",
+          "consequence": "Someone arriving alone can find a place to sit.",
+          "quote": "For someone arriving alone, a full lawn can look like a collection of private parties. Have a greeter keep track of gaps and offer to show newcomers an open spot."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "The pool and the picnic area have different bottle rules.",
+          "action": "State the groundskeeper’s container rule in the invitation.",
+          "consequence": "Guests can transfer drinks to suitable containers before arriving.",
+          "quote": "Pool rules and picnic rules differ about glass bottles. Include the groundskeeper's container rule in the invitation so guests can repack drinks before reaching the gate."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A young child may recall a striped awning more readily than a volunteer’s name.",
+          "action": "Point out the snack awning as the meeting spot in the welcome.",
+          "consequence": "A child separated from a parent has a recognizable place to go.",
+          "quote": "A small child looking for a parent may remember the striped snack awning more easily than a volunteer's name. Introduce it as the meeting place during the welcome."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "It gets cold quickly beside the water.",
+          "action": "Tell guests about bringing layers in the invitation.",
+          "consequence": "They can dress for falling temperatures.",
+          "quote": "Evenings get cool quickly beside the water. Mention layers in the invitation and keep a basket of clean loan blankets at the clubhouse for guests who start shivering midfilm."
+        },
+        {
+          "premise": "Some guests will feel cold partway through the film.",
+          "action": "Have clean blankets available to borrow at the clubhouse.",
+          "consequence": "Those guests can warm up during the screening.",
+          "quote": "Evenings get cool quickly beside the water. Mention layers in the invitation and keep a basket of clean loan blankets at the clubhouse for guests who start shivering midfilm."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "The existing gate count measures swimmers and misses the spectators.",
+          "action": "Stock a box with one token per available place and give one to each person arriving.",
+          "consequence": "The greeter can tell when the lawn has reached capacity.",
+          "quote": "The club's gate counter records swimmers, not spectators. Hand one reusable token to each arrival from a box sized to the lawn's capacity so the greeter knows when the site is full."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Changing afternoon forecasts can leave families traveling to a canceled screening.",
+          "action": "Set a time for the groundskeeper to decide and post the rain decision where the invitation appeared.",
+          "consequence": "Families can find the update before setting off.",
+          "quote": "A forecast that changes during the afternoon can send families on a wasted trip. Give the groundskeeper a decision time and publish the rain update where people found the original invitation."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A household streaming subscription might exclude a public showing.",
+          "action": "Obtain outdoor screening rights before announcing the title.",
+          "consequence": "The advertised film can actually be shown.",
+          "quote": "A streaming subscription may cover only household viewing. Secure permission for the outdoor screening before announcing the title so the club can advertise a film it can actually show."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Last-minute snack payments at the credits create a line at the exit.",
+          "action": "Call last orders during a scheduled break.",
+          "consequence": "Guests can pay before folding their chairs and keep the exit clear.",
+          "quote": "Closing the snack counter during the credits sends a queue straight into the main exit. Announce last orders during a planned break so people can settle up before packing their chairs."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "A rack that was easy to find by day may be hard to find after the show.",
+          "action": "Light the bicycle racks from the side.",
+          "consequence": "Departing riders can locate their bikes in the dark.",
+          "quote": "Guests can find their bicycles by daylight and still struggle after the film. Light the racks from the side and check the path back to the street once the projector is off."
+        },
+        {
+          "premise": "The projector will be off when guests ride home.",
+          "action": "Check the route from the racks to the street with the projector off.",
+          "consequence": "Organizers can see whether departing riders can find their way out in those lighting conditions.",
+          "quote": "Guests can find their bicycles by daylight and still struggle after the film. Light the racks from the side and check the path back to the street once the projector is off."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Popcorn scraps are difficult to see on the lawn after dark.",
+          "action": "Arrange a brief daylight litter sweep with the groundskeeper.",
+          "consequence": "The next swimmers arrive to clean grounds.",
+          "quote": "Bits of popcorn are difficult to find on grass after dark. Schedule a short daylight sweep with the groundskeeper so the first swimmers do not inherit the previous evening's litter."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "The secretary must return borrowed equipment the following morning.",
+          "action": "Keep the packing boxes together and identify each lender.",
+          "consequence": "The teardown crew can reunite each machine with its own remote and leads.",
+          "quote": "The club secretary has to return borrowed gear the next morning. Keep its packing boxes together with the lenders' names so teardown volunteers can put the right remote and cables back with each machine."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+[
+  {
+    "unit": 0,
+    "condition": "unmarked",
+    "id": "5ca1ce0b560a51da",
+    "planned": {
+      "score": -0.35559110745673445,
+      "p": 0.755,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "5ca1ce0b560a51da",
+      "status": "preserved",
+      "reason": "The downhill screen still gives rug users a sightline, while testing at the 'actual show time' becomes testing 'at the hour the film will start' because of the dusk glare. The rewrite keeps the early-exit blankets, rear chairs, paved spaces with companions, advance payment information, checks from the lane and back row, greeter, and recognizable meeting point. It also keeps permission before publicizing the film and sorting equipment by lender for the secretary's morning returns."
+    },
+    "original": {
+      "score": -0.3518664437590822,
+      "p": 0.755,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "5ca1ce0b560a51da",
+        "status": "partial",
+        "reason": "All twelve arrangements appear, including testing glare at show time, listening from the lane, checking captions from the back before admission and keeping boxes with lenders' names. The lost-child step changes one comparison. The source says a child may remember the striped awning more easily than a volunteer's name. The premise compares recognizing the awning with recognizing the volunteer. The meeting-place action and its purpose are accurate."
+      }
+    },
+    "rewritten": {
+      "score": -0.36051107698213064,
+      "p": 0.76,
+      "detected": false,
+      "proposed": 11,
+      "retained": 11,
+      "review": {
+        "id": "5ca1ce0b560a51da",
+        "status": "partial",
+        "reason": "The film-night advice is represented, including rear chair spaces, exit-side blankets, paved wheelchair spaces and matching borrowed equipment to its accessories. Step 8 overstates what the lane sound check establishes. The source says it indicates how much conversation might reach the bedrooms opposite. The consequence says organizers can hear how much of the soundtrack actually reaches the neighbors."
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "condition": "unmarked",
+    "id": "89e007cde6cd08ff",
+    "planned": {
+      "score": -1.291553898812831,
+      "p": 1.0,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "89e007cde6cd08ff",
+      "status": "preserved",
+      "reason": "Advance examples, photos and reminders about loose parts still address wasted trips, tool choice and missing components. The door seating, separate trays, adjustable lamp, sturdy bench, owner approval, guided last stitches and handover note keep their purposes. 'Before they reach the shared work surface' remains 'before the item goes onto a communal table,' with the lead deciding how to handle leaks. The switch to advice and bookings still happens with a quarter hour left so unfinished jobs can be closed."
+    },
+    "original": {
+      "score": -1.3722794332140429,
+      "p": 1.0,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "89e007cde6cd08ff",
+        "status": "partial",
+        "reason": "The lamp triple correctly connects bringing fittings and loose pieces to avoiding a failed repair. Its premise substitutes the risk of leaving a part behind for the source's explicit reason that carrying the lamp across town is already work for the owner. The other jobs and their reasons are represented, including obtaining agreement before patching, flagging leaks before the shared table, leaving a note for a replacement volunteer and switching intake in the last fifteen minutes."
+      }
+    },
+    "rewritten": {
+      "score": -1.3190846094886433,
+      "p": 1.0,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "89e007cde6cd08ff",
+        "status": "partial",
+        "reason": "Step 6 shifts the rule for separating loose hardware. The source assigns every repair its own tray and keeps that tray with the owner's things. The extracted action assigns a separate tray to each owner's things, which could mix parts from two repairs brought by one owner. The other steps cover preparation, intake, handover, workstations, teaching and closing."
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "condition": "unmarked",
+    "id": "60f99a47cbe11796",
+    "planned": {
+      "score": -0.46362255016191134,
+      "p": 0.775,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "60f99a47cbe11796",
+      "status": "preserved",
+      "reason": "The same decisions follow from heat at the window, local names, a large donation, uncertain dates or parentage, an unidentified coating and the risk of weeding out seedlings. The rewrite keeps local frost observations, label quantities, preharvest advice and a notebook that outlasts a packet. 'Compare the tally with drawer positions' becomes 'first look at where the varieties sit' before asking for more seed, preserving visibility as a possible explanation for quick pickup."
+    },
+    "original": {
+      "score": -0.43803121083841434,
+      "p": 0.765,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "60f99a47cbe11796",
+        "status": "partial",
+        "reason": "The first-leaves triple captures the display, provenance and weed-identification purpose of the photos, but omits the library's action of asking local growers to supply them. The packet-sizing triple drops the qualification that pot counts or row lengths are approximate. The remaining relations cover the cooler wall, local names, portioning, uncertain harvest years, frost calendar, original-label check, parentage, drawer-position bias, preharvest reminder and notebook."
+      }
+    },
+    "rewritten": {
+      "score": -0.521593860339378,
+      "p": 0.8,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "60f99a47cbe11796",
+        "status": "complete",
+        "reason": "All twelve recommendations have a corresponding reason and action, including marking uncertainty about a crop year, inspecting the commercial label for hard-to-spot coatings, distinguishing uncertain parentage, recording local growing experience, and checking cabinet placement before using pickup counts to request more seed."
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "condition": "unmarked",
+    "id": "ae2d3f74a6e87b13",
+    "planned": {
+      "score": -0.8637636760780304,
+      "p": 0.935,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "ae2d3f74a6e87b13",
+      "status": "changed",
+      "reason": "The delivery deadline changes from 'before the first class comes outside' to 'before the youngest class comes out.' Those classes need not be the same, so the van could still meet pupils at the gate. The original also ties crate reconciliation to the 'last collection' when the kitchen reopens. The rewrite keeps the collection check but adds 'when the six weeks are up,' a duration the source never gives."
+    },
+    "original": {
+      "score": -0.8746377317176005,
+      "p": 0.93,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "ae2d3f74a6e87b13",
+        "status": "complete",
+        "reason": "Each of the twelve arrangements retains its trigger, action and purpose. The office sends changes by the morning cutoff, the designated adult matches covered portions to records before serving, and children wash at their classroom sinks on the way. The furniture and return steps preserve daily accessible places among peers, storage agreed with the music teacher and the final crate count against the delivery log."
+      }
+    },
+    "rewritten": {
+      "score": -0.8203962024362212,
+      "p": 0.93,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "ae2d3f74a6e87b13",
+        "status": "complete",
+        "reason": "The triples cover the loaded trolley trial, van and attendance deadlines, both uses of familiar classroom facilities, meal identification and delivery, accessible and quiet seats, drinks after sitting, clearing the instrument cupboard and checking returned crates. Each action retains its operational reason."
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "condition": "unmarked",
+    "id": "f3396999c816c774",
+    "planned": {
+      "score": 0.1611475253305643,
+      "p": 0.33,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "f3396999c816c774",
+      "status": "changed",
+      "reason": "The gate volunteer originally stays with the light until 'everyone and both instruments have reached the path.' 'Until the last guest and both telescopes are safely on the path' leaves out other volunteers who may still be packing. The groundskeeper agreement, Moon visibility, weather notice, accessible approach, finder alignment and the arrangements for visitors during observing otherwise carry across."
+    },
+    "original": {
+      "score": 0.23054214241502388,
+      "p": 0.285,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "f3396999c816c774",
+        "status": "partial",
+        "reason": "The return-slip step changes who feels pressure. The source identifies the family waiting behind an observer as feeling obliged to take a hurried glance, then lets them explore until their turn. The triple attributes relief to the observer with an audience behind them. The finder step captures recovering after a bump but omits the separate reason about giving beginners a first demonstration with a target. The other measures include the go-ahead message and backup evening, firm approach route and shielded gate light until both telescopes and all people reach the path."
+      }
+    },
+    "rewritten": {
+      "score": 0.16391574480318236,
+      "p": 0.335,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "f3396999c816c774",
+        "status": "complete",
+        "reason": "The date and route decisions retain the roofline, groundskeeper, clouds and accessible approach. Setup and observing steps retain finder alignment, tripod feet, chart orientation, both benefits of return slips, and sketching as a prompt to talk. The final steps preserve audibility for the other group and lighting the exit until the guests and telescopes reach the path."
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "condition": "unmarked",
+    "id": "ff7fed71c866aa5e",
+    "planned": {
+      "score": -0.04543917718553877,
+      "p": 0.52,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "ff7fed71c866aa5e",
+      "status": "changed",
+      "reason": "The organizing question stays, but the design of the stops changes. The original asks for 'a different answer in a resident's voice' at each stop. 'Let a different neighbor answer at each stop' requires changing speakers and allows them to give the same answer about use of the river. The original allows one resident to describe different uses. The listening tests, on-site interviews, speaker approval, navigation aids, rest information and correction procedure otherwise carry across."
+    },
+    "original": {
+      "score": -0.026919419313137388,
+      "p": 0.515,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "ff7fed71c866aa5e",
+        "status": "partial",
+        "reason": "The warehouse step keeps the landmark, viewpoint, map location and navigation purpose but reduces photographing the end wall and reusing that photograph on the map to showing the wall from the walker's angle. The remaining steps cover the resident-voiced river theme, listening tests, pause cues, on-site interviews, speaker approval, newcomer trial, consistent names, verified rest stops, dated detours, short URL and transcript corrections."
+      }
+    },
+    "rewritten": {
+      "score": -0.0227460255867572,
+      "p": 0.51,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "ff7fed71c866aa5e",
+        "status": "complete",
+        "reason": "Every recommendation has a supported counterpart, from a shared river question, visible traces and speaker approval through on-site sound testing, visual directions and a newcomer trial. The later steps preserve the seatless intervals, shareable web address, dated detours and stop-specific correction contact."
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "condition": "unmarked",
+    "id": "6ae6a244847cd875",
+    "planned": {
+      "score": -0.15712998628022623,
+      "p": 0.6,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "6ae6a244847cd875",
+      "status": "preserved",
+      "reason": "The parts check still finds doublings and permitted alternatives, and the 'part's transposition separately from the work's concert key' becomes giving them 'their own entries' for the two searches. The rewrite keeps player-described difficulty, permission and credit for a recording, seated browsing, alternate lookup names, matching part codes, checks at both ends of a loan, private contacts, rehearsal booking and return date. Trying bindings on a stand still prevents damage, and donation choices still use unfilled requests for particular editions."
+    },
+    "original": {
+      "score": -0.23828783767320538,
+      "p": 0.655,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "6ae6a244847cd875",
+        "status": "partial",
+        "reason": "The reservation step retains the group representative and expected return date but drops the specification that the representative be named. The loose-parts step retains the removable sleeve, matching code and visible instrument name but drops the instruction to put that name at the top. The other relations preserve conditions such as creator agreement and recording credits, borrower and volunteer inventory checks at opposite ends of the loan, private contact details and unmet requests counted by edition."
+      }
+    },
+    "rewritten": {
+      "score": -0.1698008101248707,
+      "p": 0.62,
+      "detected": false,
+      "proposed": 13,
+      "retained": 13,
+      "review": {
+        "id": "6ae6a244847cd875",
+        "status": "partial",
+        "reason": "Step 2 changes a clarinetist searching with an instrument in hand into a player holding a part. Step 3 changes someone who has played this particular piece into an experienced player, losing the requirement for firsthand knowledge of its rehearsal demands. The catalog entries, borrowing checks, privacy and edition-specific donation counts otherwise track the source."
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "condition": "unmarked",
+    "id": "b7b139e6e69086ba",
+    "planned": {
+      "score": 1.3000937126483187,
+      "p": 0.015,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "b7b139e6e69086ba",
+      "status": "preserved",
+      "reason": "The manufacturer's count and builder's description still help people judge the work, while marking a known gap leaves the choice to the taker. The rewrite keeps the disassembly steps, piece-size outline, children's shelf and age guidance, replacement image and damp-box inspection. A 'short identifier' becomes a 'short code' serving the same three purposes of reporting problems, reuniting pieces and locating a photographed set. Counts in both directions at each opening still determine when there is room for another donation window."
+    },
+    "original": {
+      "score": 1.3963689189881687,
+      "p": 0.01,
+      "detected": true,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "b7b139e6e69086ba",
+        "status": "complete",
+        "reason": "All twelve decisions and their purposes are present. The triples distinguish manufacturer's count from the builder's difficulty description, mark known gaps on removable notes, and use actual piece size and a sample outline for grip comparisons. They also retain the donor's replacement image for a damaged lid, the good-light moisture check, identifier-based fault reports and piece matching, intake and outgoing tallies at each opening, and the box identifier under the completed-puzzle photo."
+      }
+    },
+    "rewritten": {
+      "score": 1.211670033609887,
+      "p": 0.015,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "b7b139e6e69086ba",
+        "status": "complete",
+        "reason": "All twelve steps are supported. They cover intake condition, a usable lid image, disassembly, size and difficulty information, marked gaps, grip and child access, coded previews, fault reports and return of stray pieces. The last step keeps both incoming and outgoing counts and connects them to timing donations."
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "condition": "marked",
+    "id": "fbe3d773f91fdfeb",
+    "planned": {
+      "score": -0.318608568848358,
+      "p": 0.725,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "fbe3d773f91fdfeb",
+      "status": "preserved",
+      "reason": "Families with toddlers still get spaces by the exit so others can stay seated. The cash and picnic options, permission before publicizing the title, afternoon weather decision and original announcement channel all survive. The proposed door test illustrates the existing tradeoff: the original shade leaves the route bright, and the rewrite's screen lets people see their way to the toilets. The accessibility, sightline, sound, welcome and equipment-return arrangements retain their purposes and actors."
+    },
+    "original": {
+      "score": -0.28549913553973943,
+      "p": 0.725,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "fbe3d773f91fdfeb",
+        "status": "complete",
+        "reason": "All twelve recommendations are represented. For example, the soft lawn leads to paved viewing places where wheelchair users can sit with friends. The changing-room shade preserves both the picture and the lit toilet route. The final entries preserve the weather decision, screening permission before advertising, and the lender names needed to repack equipment."
+      }
+    },
+    "rewritten": {
+      "score": -0.2767275599097169,
+      "p": 0.705,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "fbe3d773f91fdfeb",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The invitation covers screening rights, snack payments and the weather call. The seating arrangements address sightlines, early exits, soft turf and lone arrivals. The rehearsal checks distinguish sound reaching houses, captions readable from the back and light from the changing room. The striped meeting point and labeled cartons account for the closing advice."
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "condition": "marked",
+    "id": "5a57e4f4ade419b4",
+    "planned": {
+      "score": -1.197322280797292,
+      "p": 1.0,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "5a57e4f4ade419b4",
+      "status": "preserved",
+      "reason": "The owner's account still precedes opening the item because bench inspection can hide an intermittent fault. Battery leaks are still flagged at intake for the lead, and the qualified volunteer still documents final checks before release. The rewrite calls the lead the person 'leading the morning', an incidental time detail. The invitation, seating, bench and lamp arrangements, guided last stitches, handover note and pickup trial retain their rationales. 'For the last quarter hour' preserves the change to advice or later bookings so jobs are not left in pieces."
+    },
+    "original": {
+      "score": -1.2919627489150136,
+      "p": 1.0,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "5a57e4f4ade419b4",
+        "status": "complete",
+        "reason": "All twelve repair-session arguments have counterparts. Asking the owner when the fault occurs precedes disassembly, the visitor finishes the last stitches to learn the mend, and a qualified volunteer records the intermittent iron’s checks before clearance. The final entry preserves the fifteen-minute switch to advice and bookings while existing jobs finish."
+      }
+    },
+    "rewritten": {
+      "score": -1.3247782096335599,
+      "p": 1.0,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "5a57e4f4ade419b4",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The invitation distinguishes sewing skills from motor repair and requests loose parts. Intake covers seated waiting, the owner's description of a handling-dependent fault and leaking batteries. The triples also account for bench stability, task lighting, supervised stitching, work notes for a handoff, the qualified volunteer's final checks, a trial at pickup and the final quarter-hour cutoff."
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "condition": "marked",
+    "id": "a7bfb090786649d4",
+    "planned": {
+      "score": -0.46362255016191134,
+      "p": 0.775,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "a7bfb090786649d4",
+      "status": "changed",
+      "reason": "The original sends the seed-saving reminder 'before harvest', so gardeners know which plants to leave standing before they start picking. The rewrite requires it only 'before they pick their last pods for dinner'. It could arrive after they have harvested the plants they should have kept. The reminder still aims to yield mature seed, but the timing that protects that outcome is weaker."
+    },
+    "original": {
+      "score": -0.42239947428501096,
+      "p": 0.755,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "a7bfb090786649d4",
+        "status": "complete",
+        "reason": "All twelve seed-library arguments are covered, including uncertainty in the harvest date, checking the original label before accepting coated seed, and identifying seedlings by first-leaf pictures. The extraction distinguishes packet visibility from demand before donors change what they grow and preserves the preharvest reminder and the variety-specific notebook."
+      }
+    },
+    "rewritten": {
+      "score": -0.44425176748385414,
+      "p": 0.75,
+      "detected": false,
+      "proposed": 13,
+      "retained": 13,
+      "review": {
+        "id": "a7bfb090786649d4",
+        "status": "complete",
+        "reason": "All 13 relations are supported. Harvest-year recall and marking doubtful dates are distinct steps, as are dividing a donation and labeling its planting capacity. The other triples account for the inside-wall location, commercial labels, uncertain parentage, local bean names, frost observations, first-leaf photographs and the notebook. Both renewal decisions are covered, including the risk of confusing cabinet visibility with demand and the timing of seed-saving reminders."
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "condition": "marked",
+    "id": "aefb0cecd67dfb59",
+    "planned": {
+      "score": -0.7606395558346382,
+      "p": 0.905,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "aefb0cecd67dfb59",
+      "status": "changed",
+      "reason": "The original ties the crate reconciliation to 'the last collection' when the kitchen reopens, without specifying how long the arrangement runs. The rewrite adds 'when the six weeks are up'. It keeps the final pickup and delivery record but gives staff a specific end date unsupported by the source. The morning attendance cutoff and the trained receiver's check before serving retain their original timing."
+    },
+    "original": {
+      "score": -0.8014813519520126,
+      "p": 0.915,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "aefb0cecd67dfb59",
+        "status": "complete",
+        "reason": "The twelve triples track the delivery, meal service, and handback arrangements. They retain the loaded trolley test, the attendance cutoff, the receiving school’s name on each carrier, and the individual covered portion matched to a child’s record. The temperature check, instrument cupboard access, and final crate count also retain their original reasons."
+      }
+    },
+    "rewritten": {
+      "score": -0.8274979933444064,
+      "p": 0.925,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "aefb0cecd67dfb59",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The trolley trial tests the doorway lip, attendance changes inform meal quantities, and destination labels resolve overlapping room numbers. Separate checks address temperature and matching individual meals to children. The extraction also covers classroom pegs and sinks, drinks at tables, quiet seating, guarding spills, clearing the instrument cupboard and checking crates at the final pickup."
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "condition": "marked",
+    "id": "00c705b8c504be5f",
+    "planned": {
+      "score": 0.23127649710915854,
+      "p": 0.275,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "00c705b8c504be5f",
+      "status": "preserved",
+      "reason": "The crescent or quarter Moon still has to clear the local buildings during the gathering. 'Before dusk' becomes 'before the daylight goes' for aligning the finder, so the volunteer can recover a bumped target. Return slips still relieve pressure at the eyepiece, and the final question about what visitors can find again still captures learning that telescope counts miss. The cloud notice, accessible approach, focus demonstration, chart alignment, warmth, voice level and lunar sketch all keep their original uses."
+    },
+    "original": {
+      "score": 0.2203580874161292,
+      "p": 0.285,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "00c705b8c504be5f",
+        "status": "partial",
+        "reason": "The access instruction asks organizers to describe the firm route’s “tightest turn.” Triple 3 changes this to its “narrowest turn.” An approach can be wide yet require a sharp turn, so the substituted description can lose information relevant to wheelchair or buggy users. The Moon timing, finder alignment after a bump, return slips, sketch cards, and departure feedback are covered."
+      }
+    },
+    "rewritten": {
+      "score": 0.15014227396698074,
+      "p": 0.325,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "00c705b8c504be5f",
+        "status": "complete",
+        "reason": "All 12 relations are supported, from choosing a visible Moon and publishing a weather fallback through describing the firm approach and providing layers advice and sheltered seating. The finder, tripod, focus and turn-slip instructions each retain their rationale. The landmark on the star chart, small groups within earshot, drawing the Moon's boundary and asking what guests could find again account for the remaining advice."
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "condition": "marked",
+    "id": "4900daaeed206494",
+    "planned": {
+      "score": -0.04543917718553877,
+      "p": 0.52,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "4900daaeed206494",
+      "status": "changed",
+      "reason": "The source justifies a typeable starting URL because 'not everyone wants to install an app'. The rewrite states 'Few people want a new app', turning a claim about the existence of reluctant visitors into a prevalence claim about most visitors. The practical provision survives. Other dependencies, including agreement with the speaker before publication, testing at the likely walking hour and giving a dated alternate route, are retained."
+    },
+    "original": {
+      "score": 0.010318026002592795,
+      "p": 0.48,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "4900daaeed206494",
+        "status": "partial",
+        "reason": "The opening asks that each stop “reveal a different answer” to how the neighborhood uses the river. Triple 1 shifts the distinction to “a distinct resident’s account” and several perspectives. Different speakers could all describe the same use, while one resident could describe two different uses. The other entries retain the listening tests, viewpoint photo, interviewee approval, street trial, rest points, alternate approach, and corrections contact."
+      }
+    },
+    "rewritten": {
+      "score": -0.0705936075958079,
+      "p": 0.575,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "4900daaeed206494",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The guiding question, surviving site details and speaker review explain how stories are chosen and cleared. The noise test, track opening, end-wall photograph and consistent names explain how walkers hear and follow them. The extraction retains the newcomer trial, verified benches and distances, short web address, dated detour and stop title for later corrections."
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "condition": "marked",
+    "id": "7e76e2549131bd08",
+    "planned": {
+      "score": -0.08283469851876828,
+      "p": 0.545,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "7e76e2549131bd08",
+      "status": "preserved",
+      "reason": "The arranger, edition and opening tempo still distinguish versions, and the part transposition and concert key remain separate searches. A recording still needs the creator's agreement and credits. The original check at 'opposite ends of the loan' becomes the borrower checking on the way out and the volunteer checking on return. The public availability and private contact records, named reservations, removable markings, stand trial and repair status all retain their functions."
+    },
+    "original": {
+      "score": -0.11610243025127852,
+      "p": 0.545,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "7e76e2549131bd08",
+        "status": "partial",
+        "reason": "The first recommendation asks about local groups’ instruments and “rehearsal needs” to select initial holdings. Triple 1 narrows the second question to “what they rehearse,” which captures repertoire but can miss what the group needs for rehearsal. The later entries preserve the edition details, transposition and concert key, recording permission and credit, parts checks at both ends of the loan, and repair status."
+      }
+    },
+    "rewritten": {
+      "score": -0.13226186206701154,
+      "p": 0.58,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "7e76e2549131bd08",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The stocking survey, arrangement identifiers, separate transposition field and authorized, credited clip each address a distinct selection need. The binder, stand, labeled sleeves and parts checklist cover browsing, trying scores and keeping sets together. The public return date, private contact details, removable rehearsal notes and repair status each retain their purpose."
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "condition": "marked",
+    "id": "a229301f67274d45",
+    "planned": {
+      "score": 1.3631356003871196,
+      "p": 0.015,
+      "detected": false
+    },
+    "fidelity": {
+      "id": "a229301f67274d45",
+      "status": "changed",
+      "reason": "Because a child can reach 'whatever is on the bottom shelf', the original says to 'Reserve that space for boxed children's puzzles'. The rewrite says 'Put boxed children's sets at the bottom'. This preserves their location and visible age guidance but permits other sets within reach on the same shelf. The box code still links home reports, recovered pieces and the noticeboard photograph."
+    },
+    "original": {
+      "score": 1.3742594868930345,
+      "p": 0.01,
+      "detected": true,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "a229301f67274d45",
+        "status": "complete",
+        "reason": "All twelve recommendations are represented. The comparison of illustrations and sky leads to donor descriptions of the challenge, missing pieces are marked on the box image for takers to judge, and the piece-size outline helps visitors compare sets. The final entries preserve moisture inspection, issue reporting by identifier, matching found pieces, and identifying the noticeboard photograph."
+      }
+    },
+    "rewritten": {
+      "score": 1.2850162709650759,
+      "p": 0.015,
+      "detected": false,
+      "proposed": 12,
+      "retained": 12,
+      "review": {
+        "id": "a229301f67274d45",
+        "status": "complete",
+        "reason": "All 12 relations are supported. The extraction covers staffed intake, damp boxes, bagging loose pieces, replacing a damaged guide picture, counts and scene descriptions, piece outlines, and age labels on low shelves. It preserves the distinction between marking a known gap and returning a recovered piece. The short code has both of its other stated uses, reporting a problem and locating a set from a completed-build photo."
+      }
+    }
+  }
+]

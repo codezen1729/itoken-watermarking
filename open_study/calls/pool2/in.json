@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "People may bring a sewing machine expecting a sewing volunteer to repair the motor. Describe a few jobs the volunteers can actually tackle in the invitation so residents can judge whether to make the trip."
+    },
+    {
+      "id": "s1",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A photograph of a broken hinge tells a woodworker more than the booking note 'cabinet trouble.' Invite people to send a picture ahead of time so the volunteer can bring the right clamps."
+    },
+    {
+      "id": "s2",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Carrying a broken lamp across town is work in itself. Remind people to bring its shade, fittings and any loose pieces so a missing part does not prevent a repair."
+    },
+    {
+      "id": "s3",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "An item may behave perfectly until it is handled a particular way. Ask the owner to describe when the fault appears before anyone takes it apart, preserving clues the bench inspection might miss."
+    },
+    {
+      "id": "s4",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Screws from two radios look much alike once they are on a crowded table. Give each job its own shallow tray so the parts and the owner's belongings travel together."
+    },
+    {
+      "id": "s5",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Threading a needle is difficult under the hall's high ceiling lights. Put a movable task lamp on the sewing table so the volunteer and the garment's owner can see the stitch clearly."
+    },
+    {
+      "id": "s6",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "The hall's folding tables wobble when somebody leans on a vise. Assign clamping jobs to the solid workbench so the neighboring repairer can work without tools creeping toward the edge."
+    },
+    {
+      "id": "s7",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A visitor holding a heavy toaster should not have to queue on their feet. Take their name at the door and give them a seat within earshot of the person calling jobs."
+    },
+    {
+      "id": "s8",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Some visitors arrive without an appointment after spotting the sign outside. Keep a few short consultations free so a volunteer can look at the item before promising bench time."
+    },
+    {
+      "id": "s9",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A worn jacket may carry more sentimental value than its owner mentions at first. Show the proposed patch against the fabric and get their agreement before making a visible alteration."
+    },
+    {
+      "id": "s10",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "When a volunteer does every stitch, the same loose button will bring its owner back. Let the visitor finish the last few stitches with guidance so they leave knowing how to repeat the mend."
+    },
+    {
+      "id": "s11",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "The spare-parts tins contain several nearly identical fasteners. Keep an example of the original alongside the replacement while checking the fit so a screw that looks close does not strip the thread."
+    },
+    {
+      "id": "s12",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A visitor might hear three different guesses about what's wrong while waiting. Have the bench volunteer explain what they have confirmed before discussing parts, giving the owner a sound basis for deciding what to spend."
+    },
+    {
+      "id": "s13",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Battery compartments sometimes arrive with obvious leaks. Ask the intake volunteer to flag those items before they reach the shared work surface so the session lead can arrange appropriate handling."
+    },
+    {
+      "id": "s14",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Only some volunteers have the training to assess mains-powered appliances. Direct those jobs to the designated electrical bench so a well-meaning general helper does not return an unchecked appliance to use."
+    },
+    {
+      "id": "s15",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "An iron with an intermittent fault can seem fixed the instant the cord is moved. Have the qualified volunteer record the final checks before the item is cleared for collection."
+    },
+    {
+      "id": "s16",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A shortage of one unusual zipper pull should not consume the rest of the morning. Write down the size and a local supplier so the owner can come back with the matching piece."
+    },
+    {
+      "id": "s17",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "The old service manuals belong to a retired technician who uses them at home. Put a reference shelf beside the benches so people can consult them without accidentally packing them with repaired goods."
+    },
+    {
+      "id": "s18",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Visitors may leave a phone number while they step outside. Keep the sign-in sheet with the coordinator and call people by first name so waiting guests cannot browse other residents' details."
+    },
+    {
+      "id": "s19",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "If an owner goes home for a missing attachment, another volunteer may inherit the repair. Tie a short work note to the handle so the next person can pick up at the right point."
+    },
+    {
+      "id": "s20",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Experienced volunteers often skip a lunch break when a queue forms. Stagger short bench closures and tell the greeter the times so visitors get realistic estimates and everyone gets a rest."
+    },
+    {
+      "id": "s21",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Someone picking up a repaired umbrella will open it as soon as they leave. Clear a patch of floor near collection so the owner can try it with the volunteer still there."
+    },
+    {
+      "id": "s22",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "Fifteen minutes before the hall closes, opening another clock creates a tableful of parts with nowhere to go. Switch intake to advice and future bookings while the current jobs are wrapped up."
+    },
+    {
+      "id": "s23",
+      "problem": "A neighborhood hall is starting a monthly repair morning where volunteers help residents mend everyday household belongings. How should the group organize its first session?",
+      "text": "A total of repaired items hides which jobs repeatedly stalled. During cleanup, jot down the parts or skills people needed most so next month's invitation reaches a volunteer who can fill a real gap."
+    }
+  ]
+}

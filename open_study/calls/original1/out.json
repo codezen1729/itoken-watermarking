@@ -1,0 +1,620 @@
+{
+  "documents": [
+    {
+      "id": "5ca1ce0b560a51da",
+      "steps": [
+        {
+          "premise": "The lawn slopes toward the changing rooms.",
+          "action": "Place the screen at the foot of the slope.",
+          "consequence": "People on blankets can see over the row in front.",
+          "quote": "The lawn slopes gently toward the changing rooms. Put the screen at the low end so people sitting on a blanket can see over the row ahead."
+        },
+        {
+          "premise": "The windows reflect low evening light across the lawn.",
+          "action": "Test the projection at show time.",
+          "consequence": "Organizers can tell if shifting the screen would avoid glare.",
+          "quote": "At dusk the west-facing windows throw a bright reflection across the picnic ground. A projection test at the actual show time will reveal whether the screen needs to shift a few feet."
+        },
+        {
+          "premise": "Families with toddlers often leave early.",
+          "action": "Reserve blanket spots along the exit path for them.",
+          "consequence": "They can leave without making other viewers stand.",
+          "quote": "Families bringing toddlers often leave before the credits. Reserve blanket space beside the exit path so those departures do not set off a chain of people standing up."
+        },
+        {
+          "premise": "High loungers and low blankets share the lawn.",
+          "action": "Mark out chair space behind the blankets before dark.",
+          "consequence": "Latecomers know where to set up without blocking the blankets.",
+          "quote": "Pool loungers sit much higher than picnic rugs. Mark a chair area behind the blankets while there is still daylight and late arrivals will know where they can unfold a seat."
+        },
+        {
+          "premise": "Watering softens the grass on the way from the gate.",
+          "action": "Reserve viewing spots on the paved strip.",
+          "consequence": "Wheelchair users can watch alongside friends.",
+          "quote": "The grass between the gate and the picnic tables gets soft after watering. Set aside viewing places along the paved strip so wheelchair users can sit with their friends."
+        },
+        {
+          "premise": "The club counter usually accepts cash from its members.",
+          "action": "Include prices and ways to pay on the invitation.",
+          "consequence": "Families can bring suitable change or their own food.",
+          "quote": "The snack counter normally takes cash from members. Print prices and payment methods on the invitation so a family can bring the right change or pack its own picnic."
+        },
+        {
+          "premise": "The houses across the lane face the screen area.",
+          "action": "Aim speakers toward viewers and check the sound from the lane.",
+          "consequence": "Organizers can hear whether dialogue reaches neighbors' bedrooms.",
+          "quote": "Several nearby homes face the lawn across a narrow lane. Aim the speakers into the audience and listen from the lane during the sound check to catch dialogue that carries into bedrooms."
+        },
+        {
+          "premise": "Wind can obscure quiet speech.",
+          "action": "Enable captions and check that someone at the back can read them before opening.",
+          "consequence": "Viewers can follow lines they miss even from the last row.",
+          "quote": "Even on a quiet evening, wind can swallow a softly spoken line. Turn on captions and have somebody read them from the back row before admitting guests."
+        },
+        {
+          "premise": "A lone visitor may think all the groups are private.",
+          "action": "Ask a greeter to track spaces and guide newcomers to one.",
+          "consequence": "Someone arriving alone can find a place to join the audience.",
+          "quote": "For someone arriving alone, a full lawn can look like a collection of private parties. Have a greeter keep track of gaps and offer to show newcomers an open spot."
+        },
+        {
+          "premise": "A lost child may recognize the striped awning more readily than a volunteer.",
+          "action": "Point it out during the welcome as the meeting place.",
+          "consequence": "A child looking for a parent has a spot they can remember.",
+          "quote": "A small child looking for a parent may remember the striped snack awning more easily than a volunteer's name. Introduce it as the meeting place during the welcome."
+        },
+        {
+          "premise": "A household subscription might exclude a public showing.",
+          "action": "Get outdoor screening permission before naming the film publicly.",
+          "consequence": "The club can show the title it advertises.",
+          "quote": "A streaming subscription may cover only household viewing. Secure permission for the outdoor screening before announcing the title so the club can advertise a film it can actually show."
+        },
+        {
+          "premise": "Borrowed equipment is due back the next morning.",
+          "action": "Keep its boxes together and label them by lender.",
+          "consequence": "Volunteers can repack each machine with the right remote and cables.",
+          "quote": "The club secretary has to return borrowed gear the next morning. Keep its packing boxes together with the lenders' names so teardown volunteers can put the right remote and cables back with each machine."
+        }
+      ]
+    },
+    {
+      "id": "89e007cde6cd08ff",
+      "steps": [
+        {
+          "premise": "Residents can misunderstand what a volunteer's specialty covers.",
+          "action": "Give examples of repairs volunteers can do in the invitation.",
+          "consequence": "Residents can decide if bringing an item is worthwhile.",
+          "quote": "People may bring a sewing machine expecting a sewing volunteer to repair the motor. Describe a few jobs the volunteers can actually tackle in the invitation so residents can judge whether to make the trip."
+        },
+        {
+          "premise": "A vague booking description can hide which tools a job needs.",
+          "action": "Invite residents to send a photo before the session.",
+          "consequence": "The volunteer can bring tools suited to that repair.",
+          "quote": "A photograph of a broken hinge tells a woodworker more than the booking note 'cabinet trouble.' Invite people to send a picture ahead of time so the volunteer can bring the right clamps."
+        },
+        {
+          "premise": "An owner may make the trip with only part of the item.",
+          "action": "Remind them to bring its fittings, accessories and loose parts.",
+          "consequence": "The repair can proceed without having to retrieve a missing piece.",
+          "quote": "Carrying a broken lamp across town is work in itself. Remind people to bring its shade, fittings and any loose pieces so a missing part does not prevent a repair."
+        },
+        {
+          "premise": "Parts from similar jobs are hard to distinguish on a busy table.",
+          "action": "Keep each job's parts in a separate shallow tray.",
+          "consequence": "The pieces stay with the right owner's belongings.",
+          "quote": "Screws from two radios look much alike once they are on a crowded table. Give each job its own shallow tray so the parts and the owner's belongings travel together."
+        },
+        {
+          "premise": "The ceiling lights leave fine needlework difficult to see.",
+          "action": "Provide an adjustable lamp at the sewing table.",
+          "consequence": "Both people can see the stitch.",
+          "quote": "Threading a needle is difficult under the hall's high ceiling lights. Put a movable task lamp on the sewing table so the volunteer and the garment's owner can see the stitch clearly."
+        },
+        {
+          "premise": "Pressure on a vise makes the folding tables wobble.",
+          "action": "Do clamping work at the solid bench.",
+          "consequence": "The adjacent worker's tools stay clear of the edge.",
+          "quote": "The hall's folding tables wobble when somebody leans on a vise. Assign clamping jobs to the solid workbench so the neighboring repairer can work without tools creeping toward the edge."
+        },
+        {
+          "premise": "Standing in line with a heavy appliance is tiring.",
+          "action": "Register the visitor at the door and seat them near enough to hear the caller.",
+          "consequence": "They can wait seated and still hear their turn.",
+          "quote": "A visitor holding a heavy toaster should not have to queue on their feet. Take their name at the door and give them a seat within earshot of the person calling jobs."
+        },
+        {
+          "premise": "A visibly worn garment may matter deeply to its owner.",
+          "action": "Show the patch on the fabric and obtain agreement before applying it.",
+          "consequence": "The owner gets to decide how the mend will look.",
+          "quote": "A worn jacket may carry more sentimental value than its owner mentions at first. Show the proposed patch against the fabric and get their agreement before making a visible alteration."
+        },
+        {
+          "premise": "Watching someone else do every stitch leaves an owner dependent on help.",
+          "action": "Guide the visitor through finishing the last stitches.",
+          "consequence": "They can perform the same mend again themselves.",
+          "quote": "When a volunteer does every stitch, the same loose button will bring its owner back. Let the visitor finish the last few stitches with guidance so they leave knowing how to repeat the mend."
+        },
+        {
+          "premise": "Some items arrive with visibly leaking batteries.",
+          "action": "Have intake flag those before they reach the shared table.",
+          "consequence": "The lead can arrange suitable handling.",
+          "quote": "Battery compartments sometimes arrive with obvious leaks. Ask the intake volunteer to flag those items before they reach the shared work surface so the session lead can arrange appropriate handling."
+        },
+        {
+          "premise": "A different volunteer may resume work after the owner retrieves an attachment.",
+          "action": "Fasten a short progress note to the item's handle.",
+          "consequence": "The next volunteer knows where to continue.",
+          "quote": "If an owner goes home for a missing attachment, another volunteer may inherit the repair. Tie a short work note to the handle so the next person can pick up at the right point."
+        },
+        {
+          "premise": "Starting a job in the last fifteen minutes can leave it in pieces at closing.",
+          "action": "Use that intake time for advice and later bookings while existing jobs finish.",
+          "consequence": "Volunteers can close without a freshly dismantled item on the table.",
+          "quote": "Fifteen minutes before the hall closes, opening another clock creates a tableful of parts with nowhere to go. Switch intake to advice and future bookings while the current jobs are wrapped up."
+        }
+      ]
+    },
+    {
+      "id": "60f99a47cbe11796",
+      "steps": [
+        {
+          "premise": "Afternoon sunlight heats the cabinet.",
+          "action": "Move it to a cooler inside wall.",
+          "consequence": "Seeds keep better until planting time.",
+          "quote": "Afternoon sun heats the catalog under the front window. Move it to the cooler interior wall so the contents are less likely to deteriorate while waiting for planting season."
+        },
+        {
+          "premise": "One bean variety has several local names.",
+          "action": "List those names beside the variety on the drawer card.",
+          "consequence": "Gardeners can find it under a familiar name.",
+          "quote": "Gardeners call the same bean by several local names. Put those names on the drawer card beside the variety name so neighbors can recognize the seed they came looking for."
+        },
+        {
+          "premise": "One donation may contain enough seed for many gardens.",
+          "action": "Divide it among small envelopes at a packing session.",
+          "consequence": "A visitor can take a useful portion and leave seed for others.",
+          "quote": "A donated jar can contain enough lettuce seed for dozens of gardens. Portion it into small envelopes at a packing afternoon so the first visitor can take a useful amount without emptying the supply."
+        },
+        {
+          "premise": "Donors may remember a harvest better than the date they saved the seed.",
+          "action": "Ask for the harvest year and flag dates the donor is unsure of.",
+          "consequence": "Borrowers can weigh the age and uncertainty of older seed.",
+          "quote": "Gardeners may know when they picked a tomato without remembering when they saved the seed. Ask for the harvest year at donation and mark uncertain dates clearly so borrowers can judge older stock."
+        },
+        {
+          "premise": "Frost persists later in some nearby beds.",
+          "action": "Ask the gardener who knows them to annotate the sowing calendar.",
+          "consequence": "Neighbors can interpret sowing dates in light of local conditions.",
+          "quote": "One community gardener has noticed which beds stay frosty well into spring. Invite her to annotate the sowing calendar with local observations so the printed dates make sense on nearby streets."
+        },
+        {
+          "premise": "Commercial ornamental seed may have an unidentified coating.",
+          "action": "Request the original label and have staff review it before accepting leftovers.",
+          "consequence": "Staff can check what the donor is offering before it enters the collection.",
+          "quote": "Seeds sold for ornamental use sometimes come with a coating the library cannot identify. Ask donors for the original label and have staff check it before accepting commercial leftovers."
+        },
+        {
+          "premise": "Seed of uncertain parentage may grow unlike the original vegetable.",
+          "action": "Describe that uncertainty plainly on the packet.",
+          "consequence": "Gardeners seeking predictable results can choose another.",
+          "quote": "Seeds saved from a supermarket squash may grow quite differently from the parent. Give uncertain parentage a plain-language note so growers who need predictable results can choose another packet."
+        },
+        {
+          "premise": "A novice may mistake a new seedling for a weed.",
+          "action": "Display local growers' photographs of first leaves by the cabinet.",
+          "consequence": "Beginners can recognize the plants as they sprout.",
+          "quote": "New gardeners sometimes pull up a seedling with the weeds. Ask local growers for pictures of the first leaves and display them beside the cabinet to help visitors recognize what emerges."
+        },
+        {
+          "premise": "Visitors may take more free seed than their plot can hold.",
+          "action": "Label packets with the pots or row length they will sow.",
+          "consequence": "Visitors can take an amount that suits their space.",
+          "quote": "A whole drawer of free seed may tempt a visitor to take more than they can plant. Print the approximate number of pots or row length on the label so they can choose enough for their space."
+        },
+        {
+          "premise": "A prominent drawer can make a variety disappear quickly.",
+          "action": "Check drawer placement against take-up before asking donors to plant more.",
+          "consequence": "Donors need not expand a crop on misleading evidence of demand.",
+          "quote": "The peas that disappear first might simply be the easiest packet to see. Compare the tally with drawer positions before asking donors to devote more of their gardens to that variety."
+        },
+        {
+          "premise": "Harvesting every pod for food leaves no mature seed to donate.",
+          "action": "Before harvest, remind neighbors which plants to leave in place.",
+          "consequence": "Donors have seed that can ripen for the library.",
+          "quote": "Some neighbors would happily save seed but pick every pod for dinner. Put a reminder out before harvest explaining which plants to leave standing so donors still have mature seed to bring in."
+        },
+        {
+          "premise": "Growing observations may disappear when a packet moves on.",
+          "action": "Keep a notebook by the drawers for borrowers' experiences with each variety.",
+          "consequence": "Later gardeners can consult observations tied to local conditions.",
+          "quote": "An interesting growing note can get lost when a packet changes hands. Keep a notebook near the drawers where borrowers can record how that variety fared on a windy balcony or in heavy soil."
+        }
+      ]
+    },
+    {
+      "id": "ae2d3f74a6e87b13",
+      "steps": [
+        {
+          "premise": "Young pupils use the van's entrance.",
+          "action": "Arrange a delivery slot before the first class comes outdoors.",
+          "consequence": "Staff can unload without children crossing the trolley's path.",
+          "quote": "The delivery van and the younger pupils use the same side gate. Agree on a delivery window before the first class comes outside so staff can unload without children weaving around the trolley."
+        },
+        {
+          "premise": "A small threshold on foot may obstruct a loaded trolley.",
+          "action": "Try the delivery route with a full trolley before opening day.",
+          "consequence": "Staff can identify where to provide a ramp or use another entrance.",
+          "quote": "The assembly hall has a raised threshold that is barely noticeable on foot. Push a loaded trolley along the delivery route before opening day to find where a ramp or another entrance is needed."
+        },
+        {
+          "premise": "Cooks need portion counts before cooking begins.",
+          "action": "Have the office send attendance changes by an agreed morning cutoff.",
+          "consequence": "The kitchen can still adjust the number of portions.",
+          "quote": "The cooking school needs numbers before its pots go on. Have the office send attendance changes at an agreed morning cutoff so the cooks can adjust portions while there is still time."
+        },
+        {
+          "premise": "Individual meals can look like the standard portions.",
+          "action": "Have the assigned adult match the covered meal against the child's record before taking it to the seat.",
+          "consequence": "The intended child gets the correct portion.",
+          "quote": "Several children receive individualized meals that look much like the standard dish. Have the designated adult match each covered portion with the child's meal record before bringing it to their place."
+        },
+        {
+          "premise": "A single sink would slow the line at the hall.",
+          "action": "Have classes wash at their regular sinks on the way.",
+          "consequence": "They can join the moving lunch line when they arrive.",
+          "quote": "The hall has one handwashing station near the stage. Let each class wash at its usual sinks on the way down so the lunch queue can keep moving once children arrive."
+        },
+        {
+          "premise": "Wet-weather coats take up scarce aisle space.",
+          "action": "Leave coats on the regular classroom pegs at lunch.",
+          "consequence": "Pupils with trays have a clear route between tables.",
+          "quote": "On wet days coats make narrow aisles even tighter. Keep the usual classroom pegs in use for lunch so children carrying trays have a clear path between tables."
+        },
+        {
+          "premise": "Shorter children cannot see the food in the pans.",
+          "action": "Put a picture of today's plate at the start of the queue.",
+          "consequence": "They can identify the meal before they reach the server.",
+          "quote": "The smallest children cannot see into the serving pans. Display a photo of the day's plate where the line begins so they can recognize what's on offer before reaching the server."
+        },
+        {
+          "premise": "Carrying a tray and cup around a turn invites spills.",
+          "action": "Put water jugs on the tables.",
+          "consequence": "Pupils can pour once seated instead of carrying a drink on the turn.",
+          "quote": "A child juggling a cup and a tray may spill both on the turn into the hall. Put water jugs on the tables so pupils can sit down before pouring a drink."
+        },
+        {
+          "premise": "Some pupils count on having a quiet place for lunch.",
+          "action": "Place a table away from the trolley and speaker.",
+          "consequence": "They can continue their usual quiet lunch routine.",
+          "quote": "Some children normally eat in a quieter corner of the dining room. Set a table away from the trolley and loudspeaker so they can keep that part of their lunchtime routine."
+        },
+        {
+          "premise": "An open center aisle is of little help if benches block all the table ends.",
+          "action": "Include accessible places among classmates at each morning's setup.",
+          "consequence": "Pupils using wheelchairs can reach a place and eat with peers.",
+          "quote": "Wheelchair users can approach the tables along the central aisle yet still find every end blocked by a bench. Leave accessible places among classmates when laying out the furniture each morning."
+        },
+        {
+          "premise": "Stacked lunch tables could block instruments needed for the next class.",
+          "action": "Mark storage spots with the music teacher.",
+          "consequence": "Music can start with the cupboard accessible.",
+          "quote": "The hall is needed for afternoon music, and stacked tables can block the instrument cupboard. Mark parking places for furniture with the music teacher so the room is ready for the next lesson."
+        },
+        {
+          "premise": "The lending school owns the crates left at the end of the arrangement.",
+          "action": "At the last pickup, count the crates against the delivery log.",
+          "consequence": "Staff can account for crates sent back.",
+          "quote": "The final delivery crates will still belong to the lending school when the kitchen reopens. Count them against the delivery log during the last collection so staff know what has gone home."
+        }
+      ]
+    },
+    {
+      "id": "f3396999c816c774",
+      "steps": [
+        {
+          "premise": "The groundskeeper knows the sprinkler and gate schedules.",
+          "action": "Agree on the site and departure time with them before announcing either.",
+          "consequence": "The advertised plan fits how the grounds and gates operate.",
+          "quote": "The groundskeeper knows when the sprinklers start and which gates get locked. Agree on an observing area and departure time with them before putting either detail on the invitation."
+        },
+        {
+          "premise": "Beginners can recognize the Moon unaided.",
+          "action": "Pick an evening when a crescent or quarter Moon clears nearby roofs during the event.",
+          "consequence": "Beginners have a recognizable target in view.",
+          "quote": "The Moon gives a beginner something recognizable to find with the naked eye. Choose a night when a crescent or quarter Moon will stand above the local roofline during the gathering."
+        },
+        {
+          "premise": "Cloud cover leaves families unsure whether to leave home.",
+          "action": "Publish when and where to check the decision and list a backup evening.",
+          "consequence": "People can decide whether to set out or plan for the alternative date.",
+          "quote": "Clouds often leave people wondering whether to set off from home. Give the invitation a specific time and place for the go-ahead message, with a reserve evening listed alongside it."
+        },
+        {
+          "premise": "Directions across grass may be unusable with a wheelchair or buggy.",
+          "action": "Trace a firm route from the entrance and publish its distance, surface and tightest turn.",
+          "consequence": "Visitors can judge and follow a suitable approach.",
+          "quote": "A sign that points across a lawn is little help to someone pushing a wheelchair or a buggy. Trace the firm route from the entrance and describe its distance, surface and tightest turn in the invitation."
+        },
+        {
+          "premise": "Someone heading straight for the crowd may walk into a tripod.",
+          "action": "Greet arrivals on the approach and show them the telescope legs.",
+          "consequence": "Newcomers can steer clear of the equipment.",
+          "quote": "New arrivals naturally look for the busiest spot and can blunder into a tripod. Put the greeting point on the approach path and have someone show them where the telescope legs begin."
+        },
+        {
+          "premise": "A chart is easier to use when oriented to the viewer.",
+          "action": "Put a conspicuous local landmark on the chart.",
+          "consequence": "Observers can align it from where they stand and find constellations.",
+          "quote": "Finding a constellation becomes easier when the paper turns with the viewer. Mark one conspicuous landmark on a simple chart so people can line up the page from their actual starting position."
+        },
+        {
+          "premise": "A bumped telescope can lose its demonstration target.",
+          "action": "Have the lender align its finder before dark.",
+          "consequence": "The volunteer can quickly aim it back at the target.",
+          "quote": "A telescope pointed at nothing in particular makes a poor first demonstration. Have its lender align the finder before dusk so the volunteer can return quickly to a target after an accidental bump."
+        },
+        {
+          "premise": "An audience directly behind the eyepiece can make each look feel rushed.",
+          "action": "Issue slips for a return turn at the telescope.",
+          "consequence": "People can explore nearby while waiting, easing pressure on the observer.",
+          "quote": "A family waiting behind one observer can feel pressured to take a single hurried glance. Hand out return slips at the telescope so people can explore the sky nearby until their turn comes around."
+        },
+        {
+          "premise": "Quiet visitors can enter the conversation through a specific observation.",
+          "action": "Offer cards and pencils to sketch the Moon's light-dark boundary.",
+          "consequence": "They have a detail to notice and share.",
+          "quote": "An invitation to notice one detail gives quiet visitors a way into the conversation. Leave pencils and small cards for people to sketch the boundary between the Moon's lit and shaded portions."
+        },
+        {
+          "premise": "People waiting on grass get colder than people walking on it.",
+          "action": "Suggest warm clothing on the invitation and provide seats at the sheltered edge.",
+          "consequence": "Observers can wait more comfortably.",
+          "quote": "Standing on grass feels colder than walking there, especially for an observer waiting a turn. Mention warm layers in the invitation and place a few seats on the sheltered edge of the observing area."
+        },
+        {
+          "premise": "Voices carry off the common at night.",
+          "action": "Bring small groups close to the guide.",
+          "consequence": "Guides can speak at conversational volume while others can still listen.",
+          "quote": "Sound carries beyond the common after dusk. Gather small groups close to their guide so directions can be given in a conversational voice that also leaves other observers free to listen."
+        },
+        {
+          "premise": "Packing may start while people still need to see their way out.",
+          "action": "Keep one volunteer at the gate with a shielded light until everyone and both telescopes reach the path.",
+          "consequence": "The final people and instruments can leave by a lit route.",
+          "quote": "The last observers still need light to leave while volunteers are packing. Assign one volunteer to stay at the gate with a shielded light until everyone and both instruments have reached the path."
+        }
+      ]
+    },
+    {
+      "id": "ff7fed71c866aa5e",
+      "steps": [
+        {
+          "premise": "There is too much in the district to absorb on a short walk.",
+          "action": "Organize the stops around uses of the river, with a resident giving a different example at each.",
+          "consequence": "Visitors have a common theme through which to understand the district.",
+          "quote": "A whole district is difficult to hold in mind on a short walk. Build the route around how the neighborhood uses the river and let each stop reveal a different answer in a resident's voice."
+        },
+        {
+          "premise": "Riverside noise may drown out interviews.",
+          "action": "Try the listening spots at likely visiting times and move inaudible stops inland.",
+          "consequence": "Listeners can hear the speech where they stand.",
+          "quote": "The river can be busy enough to drown out the best line in an interview. Test listening positions at the time visitors are likely to walk and move a stop inland if its speech disappears."
+        },
+        {
+          "premise": "Concentrating on an interview can make visitors pass its subject.",
+          "action": "Start each stop with a precise feature to look for and ask listeners to pause there.",
+          "consequence": "They are beside the intended building before the story starts.",
+          "quote": "A visitor following an interview may walk right past the building it describes. Open each stop with one precise visual cue and ask listeners to settle there before the story begins."
+        },
+        {
+          "premise": "Similar-looking warehouses make the turn easy to miss.",
+          "action": "Show the distinctive end wall from the walker's angle at that turn on the map.",
+          "consequence": "Visitors can match their view to the turning point.",
+          "quote": "A row of nearly identical warehouses invites wrong turns. Photograph the distinctive end wall from the direction of travel and reuse that viewpoint on the map where the turn occurs."
+        },
+        {
+          "premise": "A remembered detail is more meaningful if listeners can inspect it.",
+          "action": "Have the resident lead the interviewer to a surviving feature and record the resident's observations there.",
+          "consequence": "The story connects to something visitors can see for themselves.",
+          "quote": "A resident's memory lands differently when listeners can inspect something it mentions. Ask interviewees to bring the interviewer to a surviving detail, then record what they notice while standing beside it."
+        },
+        {
+          "premise": "A contributor might reconsider making a family story public.",
+          "action": "Play the edited clip to them and agree on its wording, credit and public use before inclusion.",
+          "consequence": "The published extract reflects the speaker's decision about what to share.",
+          "quote": "An interview may include a family story its speaker later wants to keep private. Play the edited extract to the speaker and agree on its wording, credit and public use before including it."
+        },
+        {
+          "premise": "Directions drafted at a desk can be confusing in the street.",
+          "action": "Follow a newcomer trying an early recording and note where they have to look back.",
+          "consequence": "The group can identify instructions that fail on the walk.",
+          "quote": "Spoken directions can sound obvious at a desk and fail within seconds on the street. Give an early cut to a newcomer, walk a few paces behind and note where they have to look back."
+        },
+        {
+          "premise": "A street name heard once can be hard to identify.",
+          "action": "Use matching plain place names with stop titles on the map, player and signs.",
+          "consequence": "Visitors can recognize the same location across the materials.",
+          "quote": "A long street name can be hard to recognize when heard only once. Pair stop titles with the same plain place names on the map, player and direction signs that a visitor will consult."
+        },
+        {
+          "premise": "Someone needing a rest needs to gauge the remaining walk.",
+          "action": "Mark checked benches, benchless stretches and the distance to the next stop on the map.",
+          "consequence": "Visitors can judge how far they must go and where they can rest.",
+          "quote": "A visitor who needs a rest should be able to judge how far remains. Mark verified benches and the distance to the next stop on the map, including stretches with nowhere to sit."
+        },
+        {
+          "premise": "Temporary closures can invalidate printed arrows.",
+          "action": "Put a dated notice and another route to the stop on the tour page.",
+          "consequence": "Walkers can reach the stop without following a sign to a locked gate.",
+          "quote": "When a path closes temporarily, a printed arrow can send people to a locked gate. Keep a dated route notice on the tour page with an alternate approach to the affected stop."
+        },
+        {
+          "premise": "Some visitors will skip installing an app for a short outing.",
+          "action": "Post a short readable tour URL at the start.",
+          "consequence": "They can type the address or tell it to someone else.",
+          "quote": "Not everyone wants to install an app for a half-hour walk. Give the tour a short, readable web address on the starting notice so someone can type it or share it aloud."
+        },
+        {
+          "premise": "A local listener may discover a naming error well after launch.",
+          "action": "Place a correction contact by every transcript and ask reporters for the stop title.",
+          "consequence": "Volunteers can find the passage that needs checking.",
+          "quote": "A listener who knows the area may spot a mistaken name months after launch. Put a correction contact beside each transcript and ask for the stop title so volunteers can locate the disputed passage."
+        }
+      ]
+    },
+    {
+      "id": "6ae6a244847cd875",
+      "steps": [
+        {
+          "premise": "The cover may omit an instrument that a player must double on later.",
+          "action": "Check the parts and list all required instruments and substitutions the arrangement allows.",
+          "consequence": "Groups can see what players and instruments the piece actually needs.",
+          "quote": "An ensemble named on a cover may require an unexpected doubling halfway through. Check the actual parts and list every required instrument alongside any optional substitutions the arrangement provides."
+        },
+        {
+          "premise": "Players may search by their transposing instrument or by the key the ensemble hears.",
+          "action": "Catalog the part's transposition separately from concert key.",
+          "consequence": "Either search can lead to the music.",
+          "quote": "A clarinet player may search by the instrument in hand and another player by the key heard in the room. Record the part's transposition separately from the work's concert key so both searches make sense."
+        },
+        {
+          "premise": "An unexplained difficulty score gives beginners little to plan with.",
+          "action": "Ask a player to describe specific demands, such as a changing meter or long high notes.",
+          "consequence": "Beginners can judge what the rehearsals will require.",
+          "quote": "A beginner can make better use of a concrete difficulty note than an unexplained star rating. Have a player identify features such as shifting meter or sustained high notes that influence rehearsal time."
+        },
+        {
+          "premise": "Players may pass over an unfamiliar local work until they hear it.",
+          "action": "With the composer's agreement, attach a short performance sample and credit the recording contributors.",
+          "consequence": "Players can hear the work and decide whether to try it.",
+          "quote": "An unfamiliar local composition may find an audience once players hear its shape. When its creator agrees, pair the catalog entry with a short performance excerpt and credit those who made the recording."
+        },
+        {
+          "premise": "Corridor shelves make small print difficult to browse.",
+          "action": "Offer a printed binder at seated height with codes matching the folder stickers.",
+          "consequence": "Musicians can read the listings and find the matching folders.",
+          "quote": "Small type on a high shelf is hard to inspect in a busy corridor. Keep a printed browsing binder at seated height and use shelf codes that match the stickers on the music folders."
+        },
+        {
+          "premise": "Someone may remember the opening words but not the catalog title.",
+          "action": "Index available first lines and alternate titles.",
+          "consequence": "A partial memory can still lead the player to the piece.",
+          "quote": "Pieces remembered by an opening line can vanish from a title-only index. Add alternate titles and first lines where available so a half-remembered piece has more than one path to its entry."
+        },
+        {
+          "premise": "Rehearsal parts may be put into look-alike folders.",
+          "action": "Use removable sleeves showing the folder's collection code and a visible instrument name.",
+          "consequence": "Players can identify a part and match it back to its own folder.",
+          "quote": "Loose parts can migrate between near-identical folders after rehearsal. Give each part the same collection code as its folder in a removable sleeve, with the instrument name visible at the top."
+        },
+        {
+          "premise": "One missing part can cost an ensemble its rehearsal.",
+          "action": "Put a checklist in the folder and have the borrower check at pickup and the volunteer check at return.",
+          "consequence": "Missing parts can be caught at either end of the loan.",
+          "quote": "A quartet loses a rehearsal when the second violin part is missing. Put a parts inventory inside the folder and have the borrower and return volunteer check it at opposite ends of the loan."
+        },
+        {
+          "premise": "A public sign-out sheet may identify the only person borrowing a rare part.",
+          "action": "Keep borrower contacts in private records and limit public listings to availability.",
+          "consequence": "People can check for music without exposing the borrower.",
+          "quote": "Singling out the only borrower of a rare part on a public sign-out sheet can feel intrusive. Keep contact details in the center's private loan record and show only availability in the browsing catalog."
+        },
+        {
+          "premise": "Several players may depend on one score for a particular evening.",
+          "action": "Allow a group representative to reserve it and show the expected return date.",
+          "consequence": "Ensembles can plan rehearsals around the score's availability.",
+          "quote": "An entire group may plan around a score being available on a certain evening. Let a named representative reserve the folder for a rehearsal and display the date it is expected back."
+        },
+        {
+          "premise": "Some bound scores sit poorly on a stand and forcing them open risks damage.",
+          "action": "Keep a stand at the center for trying out an edition before borrowing.",
+          "consequence": "Players can assess how it sits before taking it home.",
+          "quote": "Many published bindings resist a music stand and can be damaged by forcing them flat. Provide a stand for trying a score at the center so borrowers can see how the edition sits before taking it away."
+        },
+        {
+          "premise": "Extra copies are most useful where existing copies fail to meet demand.",
+          "action": "Tally unfilled requests by edition and use the counts to guide donor appeals.",
+          "consequence": "Donations can add copies of the editions people need.",
+          "quote": "Several copies of a popular score may be more useful than another copy of a seldom-played arrangement. Count unmet requests by edition and use those figures when asking donors for additions."
+        }
+      ]
+    },
+    {
+      "id": "b7b139e6e69086ba",
+      "steps": [
+        {
+          "premise": "Similar packaging can conceal different piece counts.",
+          "action": "Copy the manufacturer's title and stated count onto each donated puzzle's label.",
+          "consequence": "Neighbors can compare the commitment each puzzle entails.",
+          "quote": "A familiar brand can reuse a box design across several piece counts. Label each donated puzzle with its title and stated count from the manufacturer's panel so people can compare likely commitments."
+        },
+        {
+          "premise": "Pictures with the same number of pieces can pose quite different challenges.",
+          "action": "Invite donors to describe the image and the areas they found difficult.",
+          "consequence": "Takers can judge the particular build's difficulty.",
+          "quote": "A thousand-piece puzzle with distinct illustrated characters feels different from a thousand pieces of sky. Let contributors add a plain description of the image and the stretches that made their build challenging."
+        },
+        {
+          "premise": "Some puzzlers will accept a gap and others will not.",
+          "action": "Group playable incomplete sets together and mark known gaps on their box pictures with removable notes.",
+          "consequence": "A taker can decide whether that gap is acceptable.",
+          "quote": "People vary in how much a missing piece bothers them. Keep playable incomplete puzzles together and show the known gap on the box image with a removable note so takers can decide."
+        },
+        {
+          "premise": "Turning large sections over makes an assembled puzzle easier to dismantle.",
+          "action": "Invite the last builder to inspect the backs and separate joined pieces before donating.",
+          "consequence": "The next puzzler can begin a fresh solve.",
+          "quote": "An already assembled jigsaw is easier to take down when large sections are turned over first. Invite the last builder to check the backs and separate connected pieces before donating it for a fresh solve."
+        },
+        {
+          "premise": "Small, tightly packed pieces can be difficult to grip.",
+          "action": "Mark the actual piece size of large-piece puzzles and show a sample outline on each card.",
+          "consequence": "People can compare the pieces and choose ones they can handle.",
+          "quote": "People with limited grip may find small, thickly packed pieces awkward to handle. Mark large-piece sets by their actual piece size and keep a sample outline on their cards for comparison."
+        },
+        {
+          "premise": "A browsing caregiver's child may reach the lowest shelf.",
+          "action": "Keep boxed children's puzzles there with the original age information visible.",
+          "consequence": "Children reach puzzles intended for them and caregivers can check suitability.",
+          "quote": "A small child may reach whatever is on the bottom shelf while a caregiver browses. Reserve that space for boxed children's puzzles and keep the original age guidance visible on each one."
+        },
+        {
+          "premise": "A box lid can be the builder's only picture reference.",
+          "action": "Check that the picture is readable and include a clear donor image when the lid is damaged.",
+          "consequence": "The next builder has a usable reference.",
+          "quote": "An image printed on the lid may be the only reference available while assembling. Check that the picture is legible and include a clean image from the donor when a damaged lid needs a substitute."
+        },
+        {
+          "premise": "Moisture or mildew may damage neighboring boxes in a closed cupboard.",
+          "action": "Inspect donations in good light and ask donors to take affected boxes back.",
+          "consequence": "Damp boxes stay out of shared storage.",
+          "quote": "Damp cardboard can spoil the boxes beside it once a cupboard closes. Examine incoming boxes in good light and ask the donor to take back any that show moisture or mildew."
+        },
+        {
+          "premise": "Someone discovering a fault at home may have forgotten the title.",
+          "action": "Put a short identifier on every accepted box.",
+          "consequence": "A resident can identify the affected puzzle without describing the picture.",
+          "quote": "People may forget a puzzle's title by the time they discover a problem at home. Give accepted boxes a short identifier so a resident can report an issue without trying to describe the artwork."
+        },
+        {
+          "premise": "A piece found later could complete a puzzle previously reported incomplete.",
+          "action": "Store found pieces in labeled desk envelopes and match them by puzzle ID.",
+          "consequence": "The piece can be returned to the right set.",
+          "quote": "When a reported missing piece turns up under the dining table, a whole puzzle can become complete again. Keep found pieces in labeled envelopes behind the desk and match them using the puzzle identifier."
+        },
+        {
+          "premise": "Counting the stock alone does not distinguish rapid exchange from boxes piling up.",
+          "action": "Count boxes in and out at every opening and consult the trend.",
+          "consequence": "Volunteers can schedule the next donation window when there is room.",
+          "quote": "Volunteers need a way to tell high turnover from slow accumulation. Tally incoming and outgoing boxes during each opening and use the trend to decide when the next donation window can fit."
+        },
+        {
+          "premise": "Some neighbors want to see the finished picture before choosing.",
+          "action": "Invite builders to post a completed-puzzle photo with its box ID underneath.",
+          "consequence": "A viewer can locate the particular puzzle pictured.",
+          "quote": "Neighbors sometimes need to picture a completed puzzle before they choose it. Invite builders to contribute a snapshot for a noticeboard and put its box identifier underneath so someone can look for the same one."
+        }
+      ]
+    }
+  ]
+}

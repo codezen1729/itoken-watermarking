@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The lawn slopes gently toward the changing rooms. Put the screen at the low end so people sitting on a blanket can see over the row ahead."
+    },
+    {
+      "id": "s1",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "At dusk the west-facing windows throw a bright reflection across the picnic ground. A projection test at the actual show time will reveal whether the screen needs to shift a few feet."
+    },
+    {
+      "id": "s2",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Families bringing toddlers often leave before the credits. Reserve blanket space beside the exit path so those departures do not set off a chain of people standing up."
+    },
+    {
+      "id": "s3",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Pool loungers sit much higher than picnic rugs. Mark a chair area behind the blankets while there is still daylight and late arrivals will know where they can unfold a seat."
+    },
+    {
+      "id": "s4",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The grass between the gate and the picnic tables gets soft after watering. Set aside viewing places along the paved strip so wheelchair users can sit with their friends."
+    },
+    {
+      "id": "s5",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "A cyclist following the usual club sign ends up at the locked pool entrance. Put a direction board at the street corner where riders can still turn toward the picnic gate."
+    },
+    {
+      "id": "s6",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The snack counter normally takes cash from members. Print prices and payment methods on the invitation so a family can bring the right change or pack its own picnic."
+    },
+    {
+      "id": "s7",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Several nearby homes face the lawn across a narrow lane. Aim the speakers into the audience and listen from the lane during the sound check to catch dialogue that carries into bedrooms."
+    },
+    {
+      "id": "s8",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Even on a quiet evening, wind can swallow a softly spoken line. Turn on captions and have somebody read them from the back row before admitting guests."
+    },
+    {
+      "id": "s9",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The groundskeeper knows where the irrigation pipes cross the lawn. Have her mark suitable anchor points before the screen goes up to keep a misplaced stake from flooding the viewing area."
+    },
+    {
+      "id": "s10",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The projector and the kettle usually share the clubhouse circuit. Ask the caretaker to test them together ahead of time so the first round of tea does not interrupt the opening scene."
+    },
+    {
+      "id": "s11",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "A loose cable is hard to spot on the walk back from the toilets. Run the projector lead along the boundary and cover the crossing where the path meets the booth."
+    },
+    {
+      "id": "s12",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Light from the changing rooms helps people find the toilets but washes out the picture when the door swings open. A freestanding shade beside the doorway can protect the image while leaving the route bright."
+    },
+    {
+      "id": "s13",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "For someone arriving alone, a full lawn can look like a collection of private parties. Have a greeter keep track of gaps and offer to show newcomers an open spot."
+    },
+    {
+      "id": "s14",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Pool rules and picnic rules differ about glass bottles. Include the groundskeeper's container rule in the invitation so guests can repack drinks before reaching the gate."
+    },
+    {
+      "id": "s15",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "A small child looking for a parent may remember the striped snack awning more easily than a volunteer's name. Introduce it as the meeting place during the welcome."
+    },
+    {
+      "id": "s16",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Evenings get cool quickly beside the water. Mention layers in the invitation and keep a basket of clean loan blankets at the clubhouse for guests who start shivering midfilm."
+    },
+    {
+      "id": "s17",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The club's gate counter records swimmers, not spectators. Hand one reusable token to each arrival from a box sized to the lawn's capacity so the greeter knows when the site is full."
+    },
+    {
+      "id": "s18",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "A forecast that changes during the afternoon can send families on a wasted trip. Give the groundskeeper a decision time and publish the rain update where people found the original invitation."
+    },
+    {
+      "id": "s19",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "A streaming subscription may cover only household viewing. Secure permission for the outdoor screening before announcing the title so the club can advertise a film it can actually show."
+    },
+    {
+      "id": "s20",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Closing the snack counter during the credits sends a queue straight into the main exit. Announce last orders during a planned break so people can settle up before packing their chairs."
+    },
+    {
+      "id": "s21",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Guests can find their bicycles by daylight and still struggle after the film. Light the racks from the side and check the path back to the street once the projector is off."
+    },
+    {
+      "id": "s22",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "Bits of popcorn are difficult to find on grass after dark. Schedule a short daylight sweep with the groundskeeper so the first swimmers do not inherit the previous evening's litter."
+    },
+    {
+      "id": "s23",
+      "problem": "The neighborhood swimming club offered its grassy picnic ground for a free outdoor film night. How could the organizers make the evening work well for neighbors of different ages?",
+      "text": "The club secretary has to return borrowed gear the next morning. Keep its packing boxes together with the lenders' names so teardown volunteers can put the right remote and cables back with each machine."
+    }
+  ]
+}

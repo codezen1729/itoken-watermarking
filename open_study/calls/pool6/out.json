@@ -1,0 +1,280 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "A short walk cannot easily convey a whole district at once.",
+          "action": "Organize the stops around how people use the river, with a different resident's answer at each.",
+          "consequence": "Listeners can understand the neighborhood through a single recurring question.",
+          "quote": "A whole district is difficult to hold in mind on a short walk. Build the route around how the neighborhood uses the river and let each stop reveal a different answer in a resident's voice."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "A bus passenger must find the start before playing the tour.",
+          "action": "Start at a permanent landmark visible from the bus stop and put its close-up on the tour page.",
+          "consequence": "Arriving visitors can match the photograph to the starting place.",
+          "quote": "Visitors arriving by bus need a starting point they can recognize before pressing play. Begin beside a permanent feature visible from the stop and include a close photograph of it on the tour page."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Visitors can estimate the return journey more readily if they finish close to the start.",
+          "action": "Lay out a compact loop.",
+          "consequence": "Walkers finish near their point of departure.",
+          "quote": "A route that ends near its beginning makes the return trip easier to judge. Walk a compact loop and time it with generous pauses for looking and listening before advertising its duration."
+        },
+        {
+          "premise": "Looking and listening take time along the route.",
+          "action": "Walk the loop and time it with generous stops before publishing a duration.",
+          "consequence": "Visitors get a duration that includes time to experience the stops.",
+          "quote": "A route that ends near its beginning makes the return trip easier to judge. Walk a compact loop and time it with generous pauses for looking and listening before advertising its duration."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "River noise can mask a recorded voice.",
+          "action": "Try listening at the expected visiting hour and move an inaudible stop inland.",
+          "consequence": "Walkers can hear the interview.",
+          "quote": "The river can be busy enough to drown out the best line in an interview. Test listening positions at the time visitors are likely to walk and move a stop inland if its speech disappears."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Someone absorbed in an interview may pass the site being described.",
+          "action": "Begin the stop with a precise sight to look for and have the listener settle before playing the story.",
+          "consequence": "Listeners hear the account at the building it refers to.",
+          "quote": "A visitor following an interview may walk right past the building it describes. Open each stop with one precise visual cue and ask listeners to settle there before the story begins."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Crossing a street requires undivided attention.",
+          "action": "End one track on the near sidewalk and start the next on the far side.",
+          "consequence": "Walkers can cross in silence at their own pace.",
+          "quote": "Intersections demand a person's full attention. End the track on the near pavement and let the next one start across the street so visitors can cross at their own pace with the audio paused."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Similar warehouse fronts make the correct turn hard to pick out.",
+          "action": "Photograph the distinctive end wall from the walker's approach and show that view at the turn on the map.",
+          "consequence": "Visitors can recognize where to turn.",
+          "quote": "A row of nearly identical warehouses invites wrong turns. Photograph the distinctive end wall from the direction of travel and reuse that viewpoint on the map where the turn occurs."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "The short riverside route may require steps.",
+          "action": "Walk the level option, describe its surfaces and show where it rejoins the route.",
+          "consequence": "Visitors can choose a suitable path before leaving.",
+          "quote": "The shortest path on a preview map may involve steps by the water. Walk the level alternative, describe its surfaces and add its rejoining point so listeners can choose a route before setting out."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Listeners can relate to a memory by examining something in it.",
+          "action": "Have the resident lead the interviewer to a surviving detail and record the resident's observations there.",
+          "consequence": "Walkers can examine the same detail as they hear the account.",
+          "quote": "A resident's memory lands differently when listeners can inspect something it mentions. Ask interviewees to bring the interviewer to a surviving detail, then record what they notice while standing beside it."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "A contributor may reconsider sharing a family story.",
+          "action": "Play the edited clip to the speaker and settle wording, attribution and public use before inclusion.",
+          "consequence": "The tour uses the version the speaker agrees to share.",
+          "quote": "An interview may include a family story its speaker later wants to keep private. Play the edited extract to the speaker and agree on its wording, credit and public use before including it."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Memories of the same landing can differ between residents.",
+          "action": "Let each resident date their recollection and tell it in their own voice.",
+          "consequence": "Listeners can hear how the landing changed between the times described.",
+          "quote": "Two neighbors may remember the same landing differently. Let each locate the memory in time and speak in their own voice so listeners can hear how the place changed between their accounts."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A guessed date can sound as certain as a documented one in narration.",
+          "action": "Verify the date in a named local record.",
+          "consequence": "The script's dating has an identifiable factual basis.",
+          "quote": "A historical date in a script sounds authoritative even when it came from a guess. Check dates against a named local record and place the source beside the transcript for readers who want to follow it."
+        },
+        {
+          "premise": "Some readers will want to trace the date to its source.",
+          "action": "Cite the local record next to the transcript.",
+          "consequence": "Readers can follow the evidence themselves.",
+          "quote": "A historical date in a script sounds authoritative even when it came from a guess. Check dates against a named local record and place the source beside the transcript for readers who want to follow it."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Directions that seem clear indoors may fail on the street.",
+          "action": "Give a newcomer an early recording, follow a little behind and note where they look back.",
+          "consequence": "The group can locate instructions that disorient actual walkers.",
+          "quote": "Spoken directions can sound obvious at a desk and fail within seconds on the street. Give an early cut to a newcomer, walk a few paces behind and note where they have to look back."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "One continuous track ties the visitor to the editor's timing.",
+          "action": "Publish a short, independent recording for every stop.",
+          "consequence": "Walkers can linger, skip a stop or resume after a detour.",
+          "quote": "One long recording forces walkers to match an editor's pace. Publish a separate short track for each stop so a listener can linger over a mural or skip ahead after a detour."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A mobile signal may drop out on part of the route.",
+          "action": "Make the audio and map downloadable at the start.",
+          "consequence": "Visitors can complete the walk without a connection.",
+          "quote": "A stairwell or underpass may interrupt a mobile connection. Offer the recordings and map as a download at the start so a listener can take the whole walk offline."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Speech captions alone can omit a sound that contributes to the story.",
+          "action": "Name significant sounds, such as a ferry bell, in the transcript.",
+          "consequence": "People reading along can follow the meaning conveyed by those sounds.",
+          "quote": "A listener who uses captions may miss the significance of a sound between lines of speech. In the transcript, identify the ferry bell or tools when that sound carries part of the story."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "A sudden change from quiet speech to loud surroundings can be uncomfortable on headphones.",
+          "action": "Listen on ordinary earbuds and smooth changes in level while preserving the place's distinctive sounds.",
+          "consequence": "Visitors can keep listening comfortably through the transition.",
+          "quote": "An abrupt jump from a quiet narrator to a busy workshop can make people pull off their headphones. Compare track levels on ordinary earbuds and soften transitions while retaining the character of the setting."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A long spoken street name can be hard to identify after one hearing.",
+          "action": "Use matching, simple place names with stop titles on the map, player and signs.",
+          "consequence": "Visitors can match what they heard to the stop across these aids.",
+          "quote": "A long street name can be hard to recognize when heard only once. Pair stop titles with the same plain place names on the map, player and direction signs that a visitor will consult."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Someone who needs to rest must know how far they will have to go.",
+          "action": "Map confirmed benches, benchless sections and distances to subsequent stops.",
+          "consequence": "Walkers can judge the distance to a break.",
+          "quote": "A visitor who needs a rest should be able to judge how far remains. Mark verified benches and the distance to the next stop on the map, including stretches with nowhere to sit."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Groups tend to stop exactly where the recording directs them.",
+          "action": "Choose positions clear of doors and narrow paths and test them with a small group.",
+          "consequence": "Others can pass a group that has stopped to listen.",
+          "quote": "Listeners gather where a recording tells them to stand. Choose listening spots back from doorways and narrow walkways, then test whether a small group can stop there while others pass."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "A temporary closure can leave printed directions pointing at a locked gate.",
+          "action": "Post a dated update online with another way to reach that stop.",
+          "consequence": "Walkers can bypass the closure.",
+          "quote": "When a path closes temporarily, a printed arrow can send people to a locked gate. Keep a dated route notice on the tour page with an alternate approach to the affected stop."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Some visitors prefer to take a short tour without installing an app.",
+          "action": "Put a short, readable tour URL on the notice at the starting point.",
+          "consequence": "Visitors can type the address or pass it on by speaking it.",
+          "quote": "Not everyone wants to install an app for a half-hour walk. Give the tour a short, readable web address on the starting notice so someone can type it or share it aloud."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Locals may discover an incorrect name long after launch.",
+          "action": "Place a corrections contact by each transcript and ask the sender to include the stop title.",
+          "consequence": "Volunteers can find the specific passage a listener disputes.",
+          "quote": "A listener who knows the area may spot a mistaken name months after launch. Put a correction contact beside each transcript and ask for the stop title so volunteers can locate the disputed passage."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Returning to a familiar sound can reveal how the walk changed the listener's hearing of it.",
+          "action": "End back at the river and pause the narration briefly.",
+          "consequence": "Visitors hear the waterfront itself again in the context of the walk.",
+          "quote": "A loop can end by returning the listener to a sound they heard differently at the start. Revisit the river at the final stop and leave a brief silence for the real waterfront to answer."
+        }
+      ]
+    }
+  ]
+}

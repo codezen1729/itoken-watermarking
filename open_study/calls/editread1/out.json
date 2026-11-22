@@ -1,0 +1,81 @@
+{
+  "documents": [
+    {
+      "id": "b7b139e6e69086ba",
+      "steps": [
+        {
+          "premise": "A brand can reuse one box design for puzzles of different sizes.",
+          "action": "For every donation, copy the title and stated piece count from the manufacturer's panel onto a label.",
+          "consequence": "Neighbors can compare the likely work involved.",
+          "quote": "A familiar brand may use the same box design for several piece counts. For each donated puzzle, copy the title and stated piece count from the manufacturer's panel onto a label so people can compare how much work the puzzles are likely to take."
+        },
+        {
+          "premise": "Even at the same piece count, an image full of distinct characters poses a different challenge from a stretch of sky.",
+          "action": "Have contributors describe the picture in plain language and identify the parts they found difficult.",
+          "consequence": "Takers can judge the challenge posed by the image.",
+          "quote": "Assembling a thousand pieces depicting distinct illustrated characters feels different from assembling a thousand pieces of sky. Let contributors describe the image in plain language and point out the parts they found challenging to put together."
+        },
+        {
+          "premise": "Neighbors differ in how much a missing piece bothers them.",
+          "action": "Group playable incomplete puzzles together and put a removable note on each box image showing the known gap.",
+          "consequence": "Takers can decide whether they are happy to solve that puzzle.",
+          "quote": "A missing piece bothers some people more than others. Group playable incomplete puzzles together and mark the known gap on the box image with a removable note so takers can decide for themselves."
+        },
+        {
+          "premise": "Turning large assembled sections over first makes disassembly easier.",
+          "action": "Invite the last builder to turn the sections over, check the backs and separate connected pieces before donating.",
+          "consequence": "The next builder can solve the puzzle from scratch.",
+          "quote": "Turning large sections over first makes an assembled jigsaw easier to take apart. Invite the last builder to check the backs and separate connected pieces before donating the puzzle for someone to solve afresh."
+        },
+        {
+          "premise": "People with limited grip may struggle to handle small, tightly packed pieces.",
+          "action": "Mark each large-piece set with the actual piece size and put a sample outline on its card.",
+          "consequence": "People can compare the pieces and judge which size they can handle.",
+          "quote": "Small, tightly packed pieces can be awkward to handle for people with limited grip. Label large-piece sets with the actual piece size and keep a sample outline on each card for comparison."
+        },
+        {
+          "premise": "A small child may reach the bottom shelf while a caregiver is browsing.",
+          "action": "Reserve that shelf for boxed children's puzzles and keep the original age guidance visible.",
+          "consequence": "The child encounters children's sets, and the caregiver can check which ones suit the child's age.",
+          "quote": "While a caregiver browses, a small child may reach whatever is on the bottom shelf. Set that shelf aside for boxed children's puzzles and keep the original age guidance visible on each box."
+        },
+        {
+          "premise": "Builders may depend on the lid picture as their only reference.",
+          "action": "Check that the picture is legible and include a clean image from the donor if a damaged lid needs a substitute.",
+          "consequence": "The builder has a usable picture to consult.",
+          "quote": "The picture on the lid may be the only reference a builder has. Check that the image is legible. If a damaged lid calls for a substitute, include a clean image from the donor."
+        },
+        {
+          "premise": "Damp cardboard can spoil other boxes in the closed cupboard.",
+          "action": "Inspect incoming boxes in good light and ask donors to take back boxes showing moisture or mildew.",
+          "consequence": "Damp donations do not spoil neighboring boxes.",
+          "quote": "Once the cupboard is closed, damp cardboard can spoil neighboring boxes. Inspect incoming boxes in good light and ask donors to take back any that show signs of moisture or mildew."
+        },
+        {
+          "premise": "A resident who discovers a problem at home may have forgotten the puzzle's title.",
+          "action": "Give each accepted box a short identifier.",
+          "consequence": "The resident can identify the puzzle in a report without describing the artwork.",
+          "quote": "By the time people discover a problem at home, they may have forgotten the puzzle's title. Give each accepted box a short identifier so a resident can report a problem without having to describe the artwork."
+        },
+        {
+          "premise": "A piece reported missing may turn up later.",
+          "action": "Keep found pieces in labeled envelopes behind the desk and match them to their puzzles using the identifiers.",
+          "consequence": "Returning a piece to its puzzle can make the set complete again.",
+          "quote": "A puzzle can be complete again when a piece reported missing turns up under the dining table. Keep found pieces in labeled envelopes behind the desk and use the puzzle identifier to match them."
+        },
+        {
+          "premise": "High turnover and a slowly growing collection have different implications for cupboard space.",
+          "action": "Count incoming and outgoing boxes at each opening and look at the trend.",
+          "consequence": "Volunteers can decide when there is room to accept donations again.",
+          "quote": "Volunteers need to distinguish high turnover from a collection that is slowly growing. At each opening, tally the boxes coming in and going out. Use the trend to decide when there's room for the next donation window."
+        },
+        {
+          "premise": "Some neighbors want to see what a finished puzzle looks like before choosing it.",
+          "action": "Invite builders to contribute a snapshot for the noticeboard and put the box identifier beneath it.",
+          "consequence": "A neighbor who likes the pictured puzzle can look for the matching box.",
+          "quote": "Sometimes neighbors need to picture a finished puzzle before choosing it. Invite builders to contribute a snapshot for the noticeboard, and write the box identifier beneath the photo so someone can look for that puzzle."
+        }
+      ]
+    }
+  ]
+}

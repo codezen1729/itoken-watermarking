@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The delivery van and the younger pupils use the same side gate. Agree on a delivery window before the first class comes outside so staff can unload without children weaving around the trolley."
+    },
+    {
+      "id": "s1",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The assembly hall has a raised threshold that is barely noticeable on foot. Push a loaded trolley along the delivery route before opening day to find where a ramp or another entrance is needed."
+    },
+    {
+      "id": "s2",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Steam clouds the handwriting on foil lids. Put the dish name and intended class on a label outside each carrier so the receiving team can direct it without uncovering every tray."
+    },
+    {
+      "id": "s3",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The cooking school needs numbers before its pots go on. Have the office send attendance changes at an agreed morning cutoff so the cooks can adjust portions while there is still time."
+    },
+    {
+      "id": "s4",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Different classes in the two schools use the same room number. Put the receiving school's name on every carrier so the driver can sort the load correctly at the first stop."
+    },
+    {
+      "id": "s5",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "A substitute cook may swap an ingredient when a supplier is short. Require an updated ingredient sheet with each delivery so staff serving children with allergies can check that day's actual meal."
+    },
+    {
+      "id": "s6",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Several children receive individualized meals that look much like the standard dish. Have the designated adult match each covered portion with the child's meal record before bringing it to their place."
+    },
+    {
+      "id": "s7",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "A delayed van can leave a whole class standing in the corridor. Have the receiving adult signal the classroom when the food is ready so children can spend the extra minutes indoors."
+    },
+    {
+      "id": "s8",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The hall has one handwashing station near the stage. Let each class wash at its usual sinks on the way down so the lunch queue can keep moving once children arrive."
+    },
+    {
+      "id": "s9",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "On wet days coats make narrow aisles even tighter. Keep the usual classroom pegs in use for lunch so children carrying trays have a clear path between tables."
+    },
+    {
+      "id": "s10",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The smallest children cannot see into the serving pans. Display a photo of the day's plate where the line begins so they can recognize what's on offer before reaching the server."
+    },
+    {
+      "id": "s11",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "A child juggling a cup and a tray may spill both on the turn into the hall. Put water jugs on the tables so pupils can sit down before pouring a drink."
+    },
+    {
+      "id": "s12",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The youngest class needs longer to settle into unfamiliar seats. Give it the first sitting and time the return trays during the trial week so the next class gets a realistic start time."
+    },
+    {
+      "id": "s13",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Some children normally eat in a quieter corner of the dining room. Set a table away from the trolley and loudspeaker so they can keep that part of their lunchtime routine."
+    },
+    {
+      "id": "s14",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Wheelchair users can approach the tables along the central aisle yet still find every end blocked by a bench. Leave accessible places among classmates when laying out the furniture each morning."
+    },
+    {
+      "id": "s15",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The hall's varnished floor makes spilled gravy difficult to see. Station cleaning supplies with the duty adult so a spill can be guarded and wiped before the next group crosses it."
+    },
+    {
+      "id": "s16",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "A late coach can bring a sports group back after its usual sitting. Ask trip leaders to share return times so the meal supervisor can arrange suitable portions and a place to eat."
+    },
+    {
+      "id": "s17",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The nearby school's ladles may deliver larger portions than the planned serving size. Compare a sample plate with the kitchen's portion guide before service so the last table gets the same meal as the first."
+    },
+    {
+      "id": "s18",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "A warm carrier gives little indication of the temperature of its contents. Have the trained receiving lead check and log the food under the school's handling procedure before it is served."
+    },
+    {
+      "id": "s19",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The hall is needed for afternoon music, and stacked tables can block the instrument cupboard. Mark parking places for furniture with the music teacher so the room is ready for the next lesson."
+    },
+    {
+      "id": "s20",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Clean cutlery for the next sitting can get splashed at the tray return. Place the return tubs near the exit so used plates travel away from the fresh settings."
+    },
+    {
+      "id": "s21",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Some children are likely to bring packed lunches during the disruption. Let them sit with classmates who take the delivered meal so changing lunch arrangements does not break up their usual groups."
+    },
+    {
+      "id": "s22",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "Leftovers from a popular dish could mean the portions were too large. Record uneaten servings separately from untouched pans so the cooks know whether to adjust the recipe, the portion size or the order."
+    },
+    {
+      "id": "s23",
+      "problem": "An elementary school has to serve lunch in its assembly hall for six weeks while its kitchen is renovated. Meals will arrive from a nearby school. How can staff make the temporary arrangement work?",
+      "text": "The final delivery crates will still belong to the lending school when the kitchen reopens. Count them against the delivery log during the last collection so staff know what has gone home."
+    }
+  ]
+}
