@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Initial donations can quickly overfill a cupboard.",
+          "action": "Measure the shelves using real puzzle boxes and cap intake with room to lift boxes out.",
+          "consequence": "The collection fits and neighbors can still remove a puzzle.",
+          "quote": "A cupboard fills faster than a hall committee expects when the first donations arrive in moving boxes. Measure its shelves with actual puzzle boxes and set an intake limit that leaves room to lift them out."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Donors who arrive to find the hall shut may leave boxes in the corridor.",
+          "action": "Publicize when staff will receive donations and where donors should go during that window.",
+          "consequence": "Donors can hand over their boxes while someone is there to receive them.",
+          "quote": "People arriving specifically to contribute may leave boxes in a corridor when the hall is closed. Advertise a staffed intake window and explain where to bring a puzzle during that time."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "A first-time participant may have no puzzle to contribute.",
+          "action": "Let anyone take a puzzle during opening hours and describe donations as a way to restock over time.",
+          "consequence": "People can participate before they own a puzzle to give.",
+          "quote": "A person who has never owned a jigsaw is an obvious first borrower. Let anyone take one during opening hours and present donations as a way to replenish the shelf over time."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Neighbors may assume they must return the exact box they take.",
+          "action": "Use the shelf sign to explain that they may keep the puzzle, pass it on or bring it back after finishing.",
+          "consequence": "Takers know what they can do with their puzzle.",
+          "quote": "A neighbor may interpret taking a puzzle as a promise to return that exact box. Explain on the shelf sign that puzzles can be kept, passed along or brought back after somebody finishes them."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "A manufacturer may use similar packaging for puzzles of different sizes.",
+          "action": "Label each donation with the title and stated piece count on the manufacturer's panel.",
+          "consequence": "People can compare how much each puzzle might involve.",
+          "quote": "A familiar brand can reuse a box design across several piece counts. Label each donated puzzle with its title and stated count from the manufacturer's panel so people can compare likely commitments."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Piece count tells people little about how much room a puzzle takes up.",
+          "action": "Put the completed puzzle's dimensions on its shelf card.",
+          "consequence": "Residents can check whether it fits on their table.",
+          "quote": "Piece count alone gives a poor indication of the table space a puzzle needs. Copy the finished dimensions onto the shelf card so a resident can check whether a kitchen table will suffice."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "The image can make puzzles of identical piece count very different to solve.",
+          "action": "Invite contributors to describe the picture and identify the areas they found demanding.",
+          "consequence": "Takers can judge the likely challenge from someone who built it.",
+          "quote": "A thousand-piece puzzle with distinct illustrated characters feels different from a thousand pieces of sky. Let contributors add a plain description of the image and the stretches that made their build challenging."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Donors differ in whether they have firsthand knowledge of the contents.",
+          "action": "Record whether the donor completed it, knows a piece is missing or has never checked.",
+          "consequence": "Takers can distinguish known condition from an unchecked puzzle.",
+          "quote": "A donor who finished a puzzle last weekend has different information from someone clearing an attic. Record whether the donor completed it, knows of a missing piece or has never checked the contents."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "A missing piece matters more to some solvers than to others.",
+          "action": "Group playable incomplete sets and mark each known gap on the box picture with a removable note.",
+          "consequence": "Takers can judge whether they are happy to assemble it.",
+          "quote": "People vary in how much a missing piece bothers them. Keep playable incomplete puzzles together and show the known gap on the box image with a removable note so takers can decide."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "A tilted box can open as it is taken from a stack.",
+          "action": "Have intake volunteers seal loose pieces in a resealable bag before shelving the box.",
+          "consequence": "The pieces stay together even if the box opens.",
+          "quote": "Boxes come open when they are tilted out of a tight stack. Ask intake volunteers to put loose pieces into a resealable bag and close it before placing the box on the shelf."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Pieces from unmarked bags can mix on the sorting table.",
+          "action": "Assess one open box at a time and close its bag before beginning the next.",
+          "consequence": "Each donation keeps its own pieces.",
+          "quote": "Two unmarked bags on a sorting table can lead to an accidental mixture. Handle one open box at a time and close its bag before assessing the next donation."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "An assembled jigsaw comes apart more easily when large sections are flipped over.",
+          "action": "Invite the last builder to turn the sections, inspect the backs and separate joined pieces before donating.",
+          "consequence": "The next person can build the puzzle from loose pieces.",
+          "quote": "An already assembled jigsaw is easier to take down when large sections are turned over first. Invite the last builder to check the backs and separate connected pieces before donating it for a fresh solve."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Solvers with limited grip may struggle with small pieces.",
+          "action": "Show actual piece size on large-piece labels and include a sample outline on the card.",
+          "consequence": "People can compare piece sizes and choose a set they can handle.",
+          "quote": "People with limited grip may find small, thickly packed pieces awkward to handle. Mark large-piece sets by their actual piece size and keep a sample outline on their cards for comparison."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Small children can reach the bottom shelf while a caregiver looks around.",
+          "action": "Use that shelf for boxed children's puzzles and leave each original age recommendation visible.",
+          "consequence": "Reachable boxes are intended for children and caregivers can check their suitability.",
+          "quote": "A small child may reach whatever is on the bottom shelf while a caregiver browses. Reserve that space for boxed children's puzzles and keep the original age guidance visible on each one."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "The lid may carry the only picture available as an assembly guide.",
+          "action": "Check that the image is readable and include a clean picture from the donor if the lid is damaged.",
+          "consequence": "The next builder has a usable reference.",
+          "quote": "An image printed on the lid may be the only reference available while assembling. Check that the picture is legible and include a clean image from the donor when a damaged lid needs a substitute."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A worn box can contain usable pieces and a usable reference image.",
+          "action": "When both are usable, rehouse them in a sturdy container and transfer the title, dimensions and condition note.",
+          "consequence": "The puzzle remains available with the information people need to choose it.",
+          "quote": "A faded or crushed box can hide a perfectly good puzzle. Transfer it to a firm container if the pieces and reference image are usable, and carry over the title, dimensions and condition note."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Damp or mildewed boxes can spoil adjacent boxes in a closed cupboard.",
+          "action": "Inspect donations in good light and have donors take back boxes showing moisture or mildew.",
+          "consequence": "The surrounding stock is protected from damage.",
+          "quote": "Damp cardboard can spoil the boxes beside it once a cupboard closes. Examine incoming boxes in good light and ask the donor to take back any that show moisture or mildew."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Someone who finds a problem at home may have forgotten the title.",
+          "action": "Assign a short identifier to each accepted box.",
+          "consequence": "A resident can identify the puzzle in a report without describing its picture.",
+          "quote": "People may forget a puzzle's title by the time they discover a problem at home. Give accepted boxes a short identifier so a resident can report an issue without trying to describe the artwork."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "A piece thought lost may turn up after someone reports it missing.",
+          "action": "Store found pieces behind the desk in labeled envelopes and match them by puzzle identifier.",
+          "consequence": "A recovered piece can rejoin the correct puzzle and complete it.",
+          "quote": "When a reported missing piece turns up under the dining table, a whole puzzle can become complete again. Keep found pieces in labeled envelopes behind the desk and match them using the puzzle identifier."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "After a puzzle leaves the hall, its builder has current knowledge of its condition.",
+          "action": "Include a condition card for the taker to update after assembly and pass along inside the box.",
+          "consequence": "The next recipient receives the latest report.",
+          "quote": "Takers become the best source of fresh condition reports after a puzzle leaves the hall. Include a small card they can update after assembly and pass on with the box to its next home."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Many boxes with similar subjects can obscure how much variety the collection offers.",
+          "action": "Group boxes by image and vary which ones face outward.",
+          "consequence": "People notice less familiar subjects.",
+          "quote": "A collection with many similar landscapes can look larger than its real choice of subjects. Group the boxes by image and rotate the front-facing selection so less familiar themes get seen."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Volunteers need to distinguish rapid circulation from a growing backlog.",
+          "action": "Count boxes coming in and going out at every opening and consult the trend when scheduling intake.",
+          "consequence": "They can choose a donation window when there will be room.",
+          "quote": "Volunteers need a way to tell high turnover from slow accumulation. Tally incoming and outgoing boxes during each opening and use the trend to decide when the next donation window can fit."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Untouched boxes can crowd the shelf and make it difficult to browse.",
+          "action": "Date new arrivals and put the oldest titles on a labeled giveaway table during a hall event.",
+          "consequence": "Long-standing stock gets another chance to find a home and browsing space opens up.",
+          "quote": "A crowded shelf can discourage browsing while the same few boxes remain untouched. Date each arrival and move the oldest titles to a clearly marked giveaway table during a hall event."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Some people want to see a finished puzzle before they choose it.",
+          "action": "Invite builders to post a photo on the noticeboard with its box identifier underneath.",
+          "consequence": "Neighbors can recognize a puzzle they like and find the corresponding box.",
+          "quote": "Neighbors sometimes need to picture a completed puzzle before they choose it. Invite builders to contribute a snapshot for a noticeboard and put its box identifier underneath so someone can look for the same one."
+        }
+      ]
+    }
+  ]
+}

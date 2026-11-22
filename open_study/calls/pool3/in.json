@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "The card drawers are deep enough to hide the shorter envelopes. Fit a removable riser at the back of each drawer so a visitor can see and lift the last packet."
+    },
+    {
+      "id": "s1",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Afternoon sun heats the catalog under the front window. Move it to the cooler interior wall so the contents are less likely to deteriorate while waiting for planting season."
+    },
+    {
+      "id": "s2",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Gardeners call the same bean by several local names. Put those names on the drawer card beside the variety name so neighbors can recognize the seed they came looking for."
+    },
+    {
+      "id": "s3",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A donated jar can contain enough lettuce seed for dozens of gardens. Portion it into small envelopes at a packing afternoon so the first visitor can take a useful amount without emptying the supply."
+    },
+    {
+      "id": "s4",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Tiny seed is difficult to reseal in a folded scrap of paper. Use properly closed packets and check the seams over a tray so spilled poppy seed does not mix with another variety."
+    },
+    {
+      "id": "s5",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A parent with a balcony pot has different growing space from someone with an allotment. Add the mature spread to each packet so the parent can take home something the pot can support."
+    },
+    {
+      "id": "s6",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Gardeners may know when they picked a tomato without remembering when they saved the seed. Ask for the harvest year at donation and mark uncertain dates clearly so borrowers can judge older stock."
+    },
+    {
+      "id": "s7",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Rows of unfamiliar variety names can leave a beginner stuck at the cabinet. Display a small selection suited to sowing this month so they can go home ready to plant."
+    },
+    {
+      "id": "s8",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "One community gardener has noticed which beds stay frosty well into spring. Invite her to annotate the sowing calendar with local observations so the printed dates make sense on nearby streets."
+    },
+    {
+      "id": "s9",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Seeds sold for ornamental use sometimes come with a coating the library cannot identify. Ask donors for the original label and have staff check it before accepting commercial leftovers."
+    },
+    {
+      "id": "s10",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Some flowers spread aggressively in this district. Have a local horticulturist review unfamiliar donations before packets reach the cabinet so the sharing scheme does not introduce a problem plant."
+    },
+    {
+      "id": "s11",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Seeds saved from a supermarket squash may grow quite differently from the parent. Give uncertain parentage a plain-language note so growers who need predictable results can choose another packet."
+    },
+    {
+      "id": "s12",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A donor's handwriting can be hard to decipher once it is copied onto small envelopes. Read the variety name back at intake so a spelling mistake does not spread through an entire batch."
+    },
+    {
+      "id": "s13",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "The library's usual checkout slip asks for a due date. Use a simple tally for seed packets so new gardeners understand that taking seed does not create a debt after a failed crop."
+    },
+    {
+      "id": "s14",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Neighbors with something to donate may arrive when the gardening volunteer is away. Leave collection envelopes and a covered intake box at the desk so unreviewed seed stays apart from the public drawers."
+    },
+    {
+      "id": "s15",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A packet saved several years ago may still be viable. Test a small sample before distributing the batch and record the result so gardeners can adjust how thickly they sow."
+    },
+    {
+      "id": "s16",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Two people packing different tomatoes at the same table can easily switch labels. Finish and close one batch before opening the next so the names stay attached to the right seed."
+    },
+    {
+      "id": "s17",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A low drawer can be difficult to reach from a chair. Keep a large-print list at counter height and let desk staff fetch packets when the cabinet layout gets in the way."
+    },
+    {
+      "id": "s18",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "New gardeners sometimes pull up a seedling with the weeds. Ask local growers for pictures of the first leaves and display them beside the cabinet to help visitors recognize what emerges."
+    },
+    {
+      "id": "s19",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "A whole drawer of free seed may tempt a visitor to take more than they can plant. Print the approximate number of pots or row length on the label so they can choose enough for their space."
+    },
+    {
+      "id": "s20",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "The peas that disappear first might simply be the easiest packet to see. Compare the tally with drawer positions before asking donors to devote more of their gardens to that variety."
+    },
+    {
+      "id": "s21",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "Some neighbors would happily save seed but pick every pod for dinner. Put a reminder out before harvest explaining which plants to leave standing so donors still have mature seed to bring in."
+    },
+    {
+      "id": "s22",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "An interesting growing note can get lost when a packet changes hands. Keep a notebook near the drawers where borrowers can record how that variety fared on a windy balcony or in heavy soil."
+    },
+    {
+      "id": "s23",
+      "problem": "A branch library has an old card catalog and several local gardeners who want to share vegetable and flower seeds. How could the library turn their offer into a lasting neighborhood service?",
+      "text": "During the quietest winter week, have volunteers empty and inspect the drawers together. They can remove damaged envelopes and tell donors which gaps to fill before the spring rush."
+    }
+  ]
+}

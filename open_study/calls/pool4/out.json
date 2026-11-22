@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Young pupils enter through the van's gate.",
+          "action": "Schedule the delivery before the first class goes outside.",
+          "consequence": "Staff can move the trolley without children crossing its path.",
+          "quote": "The delivery van and the younger pupils use the same side gate. Agree on a delivery window before the first class comes outside so staff can unload without children weaving around the trolley."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "A raised lip on the hall entrance is easy to overlook when walking.",
+          "action": "Try the route with a loaded trolley before the first delivery.",
+          "consequence": "Staff can identify where they need a ramp or different entrance.",
+          "quote": "The assembly hall has a raised threshold that is barely noticeable on foot. Push a loaded trolley along the delivery route before opening day to find where a ramp or another entrance is needed."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Steam makes the writing on tray lids hard to read.",
+          "action": "Label the outside of each carrier with the dish and destination class.",
+          "consequence": "Receiving staff can route a carrier without opening its trays.",
+          "quote": "Steam clouds the handwriting on foil lids. Put the dish name and intended class on a label outside each carrier so the receiving team can direct it without uncovering every tray."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "The cooks need the head count before they start cooking.",
+          "action": "Set a morning deadline for the office to report changes in attendance.",
+          "consequence": "The kitchen can still change the number of portions.",
+          "quote": "The cooking school needs numbers before its pots go on. Have the office send attendance changes at an agreed morning cutoff so the cooks can adjust portions while there is still time."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Room numbers occur at both schools.",
+          "action": "Label each carrier with the receiving school's name.",
+          "consequence": "The driver can identify the correct load at the first stop.",
+          "quote": "Different classes in the two schools use the same room number. Put the receiving school's name on every carrier so the driver can sort the load correctly at the first stop."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A supply shortage may lead a substitute cook to change an ingredient.",
+          "action": "Send a current ingredient list with each delivery.",
+          "consequence": "Staff can check the actual dish when serving pupils with allergies.",
+          "quote": "A substitute cook may swap an ingredient when a supplier is short. Require an updated ingredient sheet with each delivery so staff serving children with allergies can check that day's actual meal."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "A child's individual meal can look like a regular serving.",
+          "action": "Have the designated adult check the covered portion against that child's meal record before taking it to the child.",
+          "consequence": "Each child gets the meal intended for them.",
+          "quote": "Several children receive individualized meals that look much like the standard dish. Have the designated adult match each covered portion with the child's meal record before bringing it to their place."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "A delayed delivery can keep a class waiting in the corridor.",
+          "action": "Have the adult receiving the meal notify the classroom once it is ready.",
+          "consequence": "The class can wait in its room until it is time to eat.",
+          "quote": "A delayed van can leave a whole class standing in the corridor. Have the receiving adult signal the classroom when the food is ready so children can spend the extra minutes indoors."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "The hall has only one handwashing station.",
+          "action": "Have each class use its normal sinks en route to lunch.",
+          "consequence": "Children can join the moving lunch line on arrival.",
+          "quote": "The hall has one handwashing station near the stage. Let each class wash at its usual sinks on the way down so the lunch queue can keep moving once children arrive."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Coats crowd the aisles on rainy days.",
+          "action": "Have children leave coats on their regular classroom pegs for lunch.",
+          "consequence": "Pupils can carry trays between the tables unobstructed.",
+          "quote": "On wet days coats make narrow aisles even tighter. Keep the usual classroom pegs in use for lunch so children carrying trays have a clear path between tables."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Small pupils cannot see the food in the pans.",
+          "action": "Show a picture of today's plate at the beginning of the queue.",
+          "consequence": "They can identify the meal before reaching the serving point.",
+          "quote": "The smallest children cannot see into the serving pans. Display a photo of the day's plate where the line begins so they can recognize what's on offer before reaching the server."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Carrying a cup along with a tray risks a spill on the turn into the hall.",
+          "action": "Set out water jugs at the tables.",
+          "consequence": "Children can pour their drinks once seated.",
+          "quote": "A child juggling a cup and a tray may spill both on the turn into the hall. Put water jugs on the tables so pupils can sit down before pouring a drink."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "The youngest class takes extra time to settle in new seats.",
+          "action": "Schedule that class first and observe when its trays come back in the trial week.",
+          "consequence": "Staff can schedule the next class using the time the youngest class actually takes.",
+          "quote": "The youngest class needs longer to settle into unfamiliar seats. Give it the first sitting and time the return trays during the trial week so the next class gets a realistic start time."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Some children are used to eating somewhere quiet.",
+          "action": "Provide a table away from the trolley and the loudspeaker.",
+          "consequence": "Those children can continue their quiet lunch routine.",
+          "quote": "Some children normally eat in a quieter corner of the dining room. Set a table away from the trolley and loudspeaker so they can keep that part of their lunchtime routine."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Benches can block wheelchair access to a table even when the aisle is passable.",
+          "action": "Set up accessible spaces among classmates every morning.",
+          "consequence": "Wheelchair users can reach a place at the table with their class.",
+          "quote": "Wheelchair users can approach the tables along the central aisle yet still find every end blocked by a bench. Leave accessible places among classmates when laying out the furniture each morning."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Gravy is hard to spot on the shiny hall floor.",
+          "action": "Keep cleaning materials with the adult on duty.",
+          "consequence": "The adult can guard the spill and wipe it up before another class walks through.",
+          "quote": "The hall's varnished floor makes spilled gravy difficult to see. Station cleaning supplies with the duty adult so a spill can be guarded and wiped before the next group crosses it."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Sports groups can return by coach after their scheduled lunch.",
+          "action": "Have trip leaders tell the meal supervisor when the group will return.",
+          "consequence": "The supervisor can arrange portions and somewhere for the group to eat.",
+          "quote": "A late coach can bring a sports group back after its usual sitting. Ask trip leaders to share return times so the meal supervisor can arrange suitable portions and a place to eat."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Borrowed ladles can serve more food per plate than the kitchen planned.",
+          "action": "Check a sample plate against the kitchen's guide before serving.",
+          "consequence": "Servings can be kept consistent through the last table.",
+          "quote": "The nearby school's ladles may deliver larger portions than the planned serving size. Compare a sample plate with the kitchen's portion guide before service so the last table gets the same meal as the first."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "The carrier's warmth is a poor guide to the food temperature.",
+          "action": "Have the trained receiving lead measure and record the food temperature under school procedures before service.",
+          "consequence": "The lead can establish the actual temperature before children eat.",
+          "quote": "A warm carrier gives little indication of the temperature of its contents. Have the trained receiving lead check and log the food under the school's handling procedure before it is served."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Stored lunch tables could obstruct the cupboard needed for afternoon music.",
+          "action": "Agree with the music teacher where furniture should go and mark those places.",
+          "consequence": "The instruments remain accessible for the next lesson.",
+          "quote": "The hall is needed for afternoon music, and stacked tables can block the instrument cupboard. Mark parking places for furniture with the music teacher so the room is ready for the next lesson."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Returning dirty trays can splash clean cutlery for the next sitting.",
+          "action": "Set the return tubs near the exit.",
+          "consequence": "Used dishes go away from the fresh table settings.",
+          "quote": "Clean cutlery for the next sitting can get splashed at the tray return. Place the return tubs near the exit so used plates travel away from the fresh settings."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Some pupils may switch to packed lunches during the renovation.",
+          "action": "Seat them with classmates eating delivered lunches.",
+          "consequence": "Their usual lunch groups can stay together.",
+          "quote": "Some children are likely to bring packed lunches during the disruption. Let them sit with classmates who take the delivered meal so changing lunch arrangements does not break up their usual groups."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Plate leftovers can reflect oversized portions even for a well-liked dish.",
+          "action": "Log food left by diners separately from pans that were never served.",
+          "consequence": "Cooks can judge whether to change the dish, serving size or amount ordered.",
+          "quote": "Leftovers from a popular dish could mean the portions were too large. Record uneaten servings separately from untouched pans so the cooks know whether to adjust the recipe, the portion size or the order."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "The lending school owns the crates even after temporary meals end.",
+          "action": "At the last pickup, count the crates against the delivery log.",
+          "consequence": "Staff can account for which crates have gone back.",
+          "quote": "The final delivery crates will still belong to the lending school when the kitchen reopens. Count them against the delivery log during the last collection so staff know what has gone home."
+        }
+      ]
+    }
+  ]
+}

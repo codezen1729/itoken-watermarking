@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Short envelopes can disappear at the back of deep card drawers.",
+          "action": "Fit a removable riser behind the packets in each drawer.",
+          "consequence": "Visitors can see and pick up even the rearmost packet.",
+          "quote": "The card drawers are deep enough to hide the shorter envelopes. Fit a removable riser at the back of each drawer so a visitor can see and lift the last packet."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Afternoon sun heats the seeds by the front window.",
+          "action": "Move the catalog against a cooler interior wall.",
+          "consequence": "Stored seed is less likely to deteriorate before planting season.",
+          "quote": "Afternoon sun heats the catalog under the front window. Move it to the cooler interior wall so the contents are less likely to deteriorate while waiting for planting season."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Neighbors use different local names for the same bean.",
+          "action": "List the local names alongside the variety on the drawer card.",
+          "consequence": "People can recognize the seed under the name they know.",
+          "quote": "Gardeners call the same bean by several local names. Put those names on the drawer card beside the variety name so neighbors can recognize the seed they came looking for."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "A jar of donated lettuce seed could supply many gardeners.",
+          "action": "Divide it among small envelopes at a packing session.",
+          "consequence": "The first visitor can take a useful portion and leave seed for others.",
+          "quote": "A donated jar can contain enough lettuce seed for dozens of gardens. Portion it into small envelopes at a packing afternoon so the first visitor can take a useful amount without emptying the supply."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Very small seeds can escape from loosely folded paper.",
+          "action": "Close each packet securely and inspect the seams over a tray.",
+          "consequence": "Escaped seed is less likely to mix with another variety.",
+          "quote": "Tiny seed is difficult to reseal in a folded scrap of paper. Use properly closed packets and check the seams over a tray so spilled poppy seed does not mix with another variety."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A balcony pot has less space than an allotment.",
+          "action": "Mark each packet with the mature plant’s spread.",
+          "consequence": "A gardener can pick something that fits the space available.",
+          "quote": "A parent with a balcony pot has different growing space from someone with an allotment. Add the mature spread to each packet so the parent can take home something the pot can support."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Donors may remember harvest timing more clearly than when the seed was saved.",
+          "action": "Ask for the harvest year when accepting donations and flag doubtful dates.",
+          "consequence": "Borrowers can judge the age of the stock with the uncertainty visible.",
+          "quote": "Gardeners may know when they picked a tomato without remembering when they saved the seed. Ask for the harvest year at donation and mark uncertain dates clearly so borrowers can judge older stock."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Too many unfamiliar varieties may leave a beginner unable to choose.",
+          "action": "Display a few seeds suitable to sow this month.",
+          "consequence": "A beginning gardener can select something to plant immediately.",
+          "quote": "Rows of unfamiliar variety names can leave a beginner stuck at the cabinet. Display a small selection suited to sowing this month so they can go home ready to plant."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Frost lingers in some local beds and a community gardener knows which ones.",
+          "action": "Ask her to add those observations to the sowing calendar.",
+          "consequence": "Neighbors can interpret planting dates in light of local conditions.",
+          "quote": "One community gardener has noticed which beds stay frosty well into spring. Invite her to annotate the sowing calendar with local observations so the printed dates make sense on nearby streets."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Commercial ornamental seed can carry an unidentified coating.",
+          "action": "Request the original package label and have staff check it before taking commercial leftovers.",
+          "consequence": "Staff can assess the donation with information about the coating before accepting it.",
+          "quote": "Seeds sold for ornamental use sometimes come with a coating the library cannot identify. Ask donors for the original label and have staff check it before accepting commercial leftovers."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Some flowers become aggressive spreaders under local conditions.",
+          "action": "Have a local horticulturist review unfamiliar seed before it enters the drawers.",
+          "consequence": "The library can avoid passing on a problem plant.",
+          "quote": "Some flowers spread aggressively in this district. Have a local horticulturist review unfamiliar donations before packets reach the cabinet so the sharing scheme does not introduce a problem plant."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Seed saved from a purchased squash may produce plants unlike the parent.",
+          "action": "Explain uncertain parentage in ordinary language on the packet.",
+          "consequence": "Growers who need predictable plants can choose other seed.",
+          "quote": "Seeds saved from a supermarket squash may grow quite differently from the parent. Give uncertain parentage a plain-language note so growers who need predictable results can choose another packet."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Hard-to-read donor handwriting can lead to the same copying error on many packets.",
+          "action": "Read the name of the variety back to the donor at intake.",
+          "consequence": "The name can be checked before the whole batch is labeled.",
+          "quote": "A donor's handwriting can be hard to decipher once it is copied onto small envelopes. Read the variety name back at intake so a spelling mistake does not spread through an entire batch."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A due date on the usual checkout slip would imply that seed has to be returned.",
+          "action": "Count outgoing seed packets with a simple tally.",
+          "consequence": "Borrowers can see they owe no seed if their crop fails.",
+          "quote": "The library's usual checkout slip asks for a due date. Use a simple tally for seed packets so new gardeners understand that taking seed does not create a debt after a failed crop."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Donors may come while the gardening volunteer is away.",
+          "action": "Provide envelopes and a covered collection box at the library desk.",
+          "consequence": "Donors can leave seed for review without mixing it into available stock.",
+          "quote": "Neighbors with something to donate may arrive when the gardening volunteer is away. Leave collection envelopes and a covered intake box at the desk so unreviewed seed stays apart from the public drawers."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Some older seed still germinates, but its performance is uncertain.",
+          "action": "Test a sample before releasing the batch and record the result.",
+          "consequence": "Growers can choose a sowing density based on the test.",
+          "quote": "A packet saved several years ago may still be viable. Test a small sample before distributing the batch and record the result so gardeners can adjust how thickly they sow."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Working on multiple tomato batches at one table makes a label swap easy.",
+          "action": "Seal and finish one batch before opening another.",
+          "consequence": "Each variety stays under its own name.",
+          "quote": "Two people packing different tomatoes at the same table can easily switch labels. Finish and close one batch before opening the next so the names stay attached to the right seed."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A seated visitor may be unable to reach a low drawer.",
+          "action": "Provide a large-print list at counter height and have desk staff retrieve selected packets when needed.",
+          "consequence": "The visitor can choose and obtain seed despite the cabinet layout.",
+          "quote": "A low drawer can be difficult to reach from a chair. Keep a large-print list at counter height and let desk staff fetch packets when the cabinet layout gets in the way."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Beginners may mistake a new seedling for a weed.",
+          "action": "Collect local growers’ photos of its first leaves and display them by the cabinet.",
+          "consequence": "Visitors can recognize the emerging plant and leave it in the ground.",
+          "quote": "New gardeners sometimes pull up a seedling with the weeds. Ask local growers for pictures of the first leaves and display them beside the cabinet to help visitors recognize what emerges."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Free seed may encourage a visitor to take more than they can use.",
+          "action": "Label packets with the approximate pots or length of row each will plant.",
+          "consequence": "Visitors can select an amount matched to their available space.",
+          "quote": "A whole drawer of free seed may tempt a visitor to take more than they can plant. Print the approximate number of pots or row length on the label so they can choose enough for their space."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Highly visible packets can be taken quickly irrespective of demand for the variety.",
+          "action": "Compare withdrawal counts against drawer position before requesting more planting from donors.",
+          "consequence": "Requests for extra seed can account for the effect of placement.",
+          "quote": "The peas that disappear first might simply be the easiest packet to see. Compare the tally with drawer positions before asking donors to devote more of their gardens to that variety."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Potential donors may harvest every edible pod before seed matures.",
+          "action": "Before harvest, remind them which plants to leave standing.",
+          "consequence": "They can let seed mature for donation.",
+          "quote": "Some neighbors would happily save seed but pick every pod for dinner. Put a reminder out before harvest explaining which plants to leave standing so donors still have mature seed to bring in."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Experience recorded only with a packet can be lost when it goes to someone else.",
+          "action": "Keep a notebook by the drawers for borrowers to record each variety’s performance under their conditions.",
+          "consequence": "The growing observations remain available after packets change hands.",
+          "quote": "An interesting growing note can get lost when a packet changes hands. Keep a notebook near the drawers where borrowers can record how that variety fared on a windy balcony or in heavy soil."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "The winter lull gives volunteers time to check the drawers together.",
+          "action": "Empty and inspect the drawers during the quietest week and pull out damaged packets.",
+          "consequence": "Damaged envelopes are removed ahead of spring.",
+          "quote": "During the quietest winter week, have volunteers empty and inspect the drawers together. They can remove damaged envelopes and tell donors which gaps to fill before the spring rush."
+        },
+        {
+          "premise": "A winter stock check can reveal what is missing before the busy season.",
+          "action": "Use the volunteers’ inspection to tell donors which gaps need filling.",
+          "consequence": "Donors can replenish those varieties ahead of the spring rush.",
+          "quote": "During the quietest winter week, have volunteers empty and inspect the drawers together. They can remove damaged envelopes and tell donors which gaps to fill before the spring rush."
+        }
+      ]
+    }
+  ]
+}

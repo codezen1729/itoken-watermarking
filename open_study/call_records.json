@@ -1,0 +1,221 @@
+{
+  "transport": "Fresh conversation agents inheriting the parent model, gpt-6.2-astra. Semantic judgments are tool-enabled. The service did not expose a resolved checkpoint, temperature, seed or token probabilities for agent judgments. Access limits were by instruction.",
+  "authors": [
+    "open_authors",
+    "open_author_more"
+  ],
+  "calls": [
+    {
+      "packet": "pool1",
+      "agent": "read_free_a",
+      "items": 24,
+      "input_sha256": "c8e560a9f1fea9c3272f40eafeaa88b4dda4d2f8767cb41c5d02bfc8def9d3f3",
+      "output_sha256": "b48a84f9304564b68e9bb7b3723b633804e865d3f46383ad855d656fe5cfb4c3"
+    },
+    {
+      "packet": "pool2",
+      "agent": "read_free_a",
+      "items": 24,
+      "input_sha256": "c5b5ec80c2c53d33e13679c848cdb558755c46ae99cb849bb8144d59be204609",
+      "output_sha256": "ec7b943b4c4377a6b8808f190784a8a83ae9690b24867672c395d61d87a5299b"
+    },
+    {
+      "packet": "pool3",
+      "agent": "read_free_a",
+      "items": 24,
+      "input_sha256": "eaa438ef5697c40568251deb451c529c9097467372c9e60269d0fd41ad8374c4",
+      "output_sha256": "e2550e3e94d350ae27af25698d2651876714528051c1d5d16b78712f821390a8"
+    },
+    {
+      "packet": "pool4",
+      "agent": "read_free_b",
+      "items": 24,
+      "input_sha256": "20161940f82a733ec3e1ca9324b215b1d7f87359fd38b012e83a552871d14ef0",
+      "output_sha256": "7fcac846200c81311f48c6d7cd3cdecbc15955b8060b58ecd397af05b9e692eb"
+    },
+    {
+      "packet": "pool5",
+      "agent": "read_free_b",
+      "items": 24,
+      "input_sha256": "5a7a568e7dbb7bb06dfa6e53a23beda00cfdc02a460a507c9dbfac4e0f462ca8",
+      "output_sha256": "717dc6d3230f032235c3b9b42a093dafa92b06466f038b5bcc203bd08b6a10cd"
+    },
+    {
+      "packet": "pool6",
+      "agent": "read_free_b",
+      "items": 24,
+      "input_sha256": "f04795e69b475073a4a503dbc8b674fe67f6aec9668a261d729e8498a36a2cf4",
+      "output_sha256": "6299af1b52031eb4c5ce8df36f44af4cbd73e5efa051e7cc648c987fdcfe50a3"
+    },
+    {
+      "packet": "pool7",
+      "agent": "read_free_c",
+      "items": 24,
+      "input_sha256": "63a43bcc61724c9a7872b9aeec93040f10802d6ddf11979a3f6455bc6f512ba0",
+      "output_sha256": "4e5554bd5d19b1007439640eb526d8d61647d5cad458e05f5f6ace97304b0283"
+    },
+    {
+      "packet": "pool8",
+      "agent": "read_free_c",
+      "items": 24,
+      "input_sha256": "cb7c1395516faf20d6fdb263d7622fd27f2683881e8902f511a41b289e4ac24c",
+      "output_sha256": "0b87c830129ce2fd9536a26e9cef0cccef02fd0a7526b8670b6ef7b5ddb0f49e"
+    },
+    {
+      "packet": "original1",
+      "agent": "open_original_a",
+      "items": 8,
+      "input_sha256": "3c5af03df642788b09c1238338202323e73f5ef998d65b24d64bb66f8cffdb3a",
+      "output_sha256": "31cf3ccd75df454cb62ff8a444348e4ab738b4df64fdb4e5b9b25e8ffab57c15"
+    },
+    {
+      "packet": "rewritten1",
+      "agent": "open_revised_a",
+      "items": 8,
+      "input_sha256": "5e0ef03f6d0d8ba753e14dbe800784d728353b333c098f23eaa40ae937627335",
+      "output_sha256": "ba207de585e3d44852d4204d5b0b5b32402bc0eea5fe8240473017cdbc205a53"
+    },
+    {
+      "packet": "rewrite1",
+      "agent": "free_rewriter_a",
+      "items": 8,
+      "input_sha256": "1a2c9afd3adc9bd9cee1b6ef52a076304ef942696ca25c4b17918a34681dcdc2",
+      "output_sha256": "5395ad089508ba0224160d29391e40ee3650f07dda5ebade347fc8a614f5a815"
+    },
+    {
+      "packet": "fidelity1",
+      "agent": "assess_free_a",
+      "items": 8,
+      "input_sha256": "778a01b78fa2671186f5e85a9db378d6fa2ac4e31b1dc8de67c3a458cb5b1bcc",
+      "output_sha256": "15531c24d6676a437eed8d7d8dc41acddb7531d33a599b6f3cf44941e36c7c83"
+    },
+    {
+      "packet": "second1",
+      "agent": "check_free_a",
+      "items": 8,
+      "input_sha256": "778a01b78fa2671186f5e85a9db378d6fa2ac4e31b1dc8de67c3a458cb5b1bcc",
+      "output_sha256": "6fbddf2153162c75c446222831fd1a5c599bf84a094170747077ce7fd3ddd5ad"
+    },
+    {
+      "packet": "review_original1",
+      "agent": "review_original_a",
+      "items": 8,
+      "input_sha256": "f2cea96af1d32d6e85deede41297534690e6f2badb313baa2f89882120fb2201",
+      "output_sha256": "46a53d08611a9be26f6d528b32a01c6d400f65eb8683ab78c82a235b0c7af820"
+    },
+    {
+      "packet": "review_rewritten1",
+      "agent": "review_rewrite_a",
+      "items": 8,
+      "input_sha256": "097e7d2578674b6d3eeba5d450b3c814af04724606ee9be92f47a7f1e2db1ae1",
+      "output_sha256": "a36407a6803337e08f220a67bb386aba8cee990d041514b7ebb8a8a562efcb65"
+    },
+    {
+      "packet": "original2",
+      "agent": "open_original_b",
+      "items": 8,
+      "input_sha256": "7caede0e16b6ecee7bcf6da154ddea786882859cd6c591c91af2ea7856a98882",
+      "output_sha256": "f9efe4ffff725361051f7192ef6a6fbb7a861ac7ab92df36276e173223c591d3"
+    },
+    {
+      "packet": "rewritten2",
+      "agent": "open_revised_b",
+      "items": 8,
+      "input_sha256": "8ab7bc1dd9851f3817df0f1477c548e11db8684be130d1668f6d9020909ae348",
+      "output_sha256": "155e897692ca7dca0df8bd14dff16c408e21f48d2786f4bb47633d167c16aeef"
+    },
+    {
+      "packet": "rewrite2",
+      "agent": "free_rewriter_b",
+      "items": 8,
+      "input_sha256": "4f42b44d7a20117ceb9910ac62988a1527f8baf0a3a7f596148cca26ddfbd3ea",
+      "output_sha256": "2be45f872555f4bbfab7e89dfb111537a7d6dac4c27e74d604ce6f42cd8e9db5"
+    },
+    {
+      "packet": "fidelity2",
+      "agent": "assess_free_b",
+      "items": 8,
+      "input_sha256": "e4c5ef9df2e6fb361288b013d89843a859802cb62cfd70d86887dc6d79710b10",
+      "output_sha256": "05b83bfbb9aa71bc6f79486fbba701b75f8b1acb6a358ce24b5692cf8d8bab76"
+    },
+    {
+      "packet": "second2",
+      "agent": "check_free_b",
+      "items": 8,
+      "input_sha256": "e4c5ef9df2e6fb361288b013d89843a859802cb62cfd70d86887dc6d79710b10",
+      "output_sha256": "22f9ce5cade12c094f2eaf3b775b9f03c6e7809551c097a6f11a759970f1a111"
+    },
+    {
+      "packet": "review_original2",
+      "agent": "review_original_b",
+      "items": 8,
+      "input_sha256": "0b3724c6429bdc87e82ce2e0a5ab97d2f1e683b83c06deed96946c6d8337eb7a",
+      "output_sha256": "ab642b96f2eab8e93d3df3d005c76c1d2bfd49fe7788fbdf714126285e216f29"
+    },
+    {
+      "packet": "review_rewritten2",
+      "agent": "review_rewrite_b",
+      "items": 8,
+      "input_sha256": "5b5cd9f96838a662087718781050ca83814650d19630d1c6f0847fb5b3507ebe",
+      "output_sha256": "ed17d676eee661d743f5a4a3d0a2c5886af327f067d4a71be5004876f018526d"
+    }
+  ],
+  "supplemental_calls": [
+    {
+      "packet": "edit1",
+      "agent": "copyeditor_a",
+      "items": 1,
+      "input_sha256": "928b2b37b68b312260765192e59ed5ae42c99fb134b50ba7e4f7081184b6ab66",
+      "output_sha256": "07c4e8fd2f36dde97571dd3224f1ae097bb1639b4de43c3e7977efadbadbb9f6"
+    },
+    {
+      "packet": "editread1",
+      "agent": "editread_a",
+      "items": 1,
+      "input_sha256": "7652139de6a777960135b3470a833a8dd90ad165497ff43060e0cb32328d6bdd",
+      "output_sha256": "a3eb7ebfc38322035817eda62735b98127bd4e1ad163bebf88113d92f9ecca86"
+    },
+    {
+      "packet": "editjudge1",
+      "agent": "editjudge_a",
+      "items": 1,
+      "input_sha256": "6c37a013142260c4b0ed6e8c178250f24f4f4831db5cbf922fd784475164bfe9",
+      "output_sha256": "5f4bef4d7738497e59ca90937a71c49c789ef7e35bc6a21d7b0c43ac666a8e7c"
+    },
+    {
+      "packet": "editcheck1",
+      "agent": "editcheck_a",
+      "items": 1,
+      "input_sha256": "6c37a013142260c4b0ed6e8c178250f24f4f4831db5cbf922fd784475164bfe9",
+      "output_sha256": "c846a7e51b0b16d6719d11349d13d40fc78a1fdfde1cc852efad4cdc69789894"
+    },
+    {
+      "packet": "edit2",
+      "agent": "copyeditor_b",
+      "items": 1,
+      "input_sha256": "bbd08e8ae0e2eefcbc7fa9a1f222c143c8759fb6881d6c7516e52424a08d03fe",
+      "output_sha256": "31b7154ca3d0673c347ef54dfecb8c4be6d01c1252ce6da470c0bd2324bf1d68"
+    },
+    {
+      "packet": "editread2",
+      "agent": "editread_b",
+      "items": 1,
+      "input_sha256": "a5d052de98c75c027fa7df68a096ec3120b716e913e6dbefbd0b749a5c20687b",
+      "output_sha256": "ebdf3aa5209a9dec3c727732ccc99503084679db2a650e15d2f235a3ba03c24c"
+    },
+    {
+      "packet": "editjudge2",
+      "agent": "editjudge_b",
+      "items": 1,
+      "input_sha256": "cd82034dfcdab8f6f828e7ac824a3227144efc2086b540fd0ad6e4259c188789",
+      "output_sha256": "11f01a0455a952374f8bc5ce60d6456a0c4a1c91dd744eeaa0d8646d9af513c2"
+    },
+    {
+      "packet": "editcheck2",
+      "agent": "editcheck_b",
+      "items": 1,
+      "input_sha256": "cd82034dfcdab8f6f828e7ac824a3227144efc2086b540fd0ad6e4259c188789",
+      "output_sha256": "7b58a55807d2966ea2cc19cec9bf4792ee2988c7e9257dc7819b8159b10425a2"
+    }
+  ]
+}

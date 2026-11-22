@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Residents may misinterpret a volunteer’s specialty, for example expecting a sewer to mend a motor.",
+          "action": "List examples of repairs the available volunteers can handle in the invitation.",
+          "consequence": "Residents can decide whether their item is worth bringing.",
+          "quote": "People may bring a sewing machine expecting a sewing volunteer to repair the motor. Describe a few jobs the volunteers can actually tackle in the invitation so residents can judge whether to make the trip."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "A vague booking description can hide the kind of break in a hinge.",
+          "action": "Ask the resident to send a picture before the session.",
+          "consequence": "The woodworker can select suitable clamps to bring.",
+          "quote": "A photograph of a broken hinge tells a woodworker more than the booking note 'cabinet trouble.' Invite people to send a picture ahead of time so the volunteer can bring the right clamps."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Even after carrying a lamp across town, its owner could be missing a piece needed to fix it.",
+          "action": "Remind owners to bring the shade, fittings and loose pieces along with the lamp.",
+          "consequence": "The repair can proceed with all its parts present.",
+          "quote": "Carrying a broken lamp across town is work in itself. Remind people to bring its shade, fittings and any loose pieces so a missing part does not prevent a repair."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "An intermittent fault might never show up during an ordinary bench inspection.",
+          "action": "Before disassembly, ask the owner which handling or circumstances produce the fault.",
+          "consequence": "The repairer retains diagnostic clues from the owner.",
+          "quote": "An item may behave perfectly until it is handled a particular way. Ask the owner to describe when the fault appears before anyone takes it apart, preserving clues the bench inspection might miss."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Parts from similar items become hard to distinguish on a shared table.",
+          "action": "Put each job’s parts in its own shallow tray.",
+          "consequence": "Each owner’s small parts stay with their belongings.",
+          "quote": "Screws from two radios look much alike once they are on a crowded table. Give each job its own shallow tray so the parts and the owner's belongings travel together."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "The ceiling lights make fine sewing work hard to see.",
+          "action": "Place an adjustable work light on the sewing table.",
+          "consequence": "Both the owner and the volunteer can see the stitches.",
+          "quote": "Threading a needle is difficult under the hall's high ceiling lights. Put a movable task lamp on the sewing table so the volunteer and the garment's owner can see the stitch clearly."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Leaning on a vise shakes a folding table.",
+          "action": "Use the solid workbench for repairs that need clamping.",
+          "consequence": "Tools at the neighboring workstation stay in place.",
+          "quote": "The hall's folding tables wobble when somebody leans on a vise. Assign clamping jobs to the solid workbench so the neighboring repairer can work without tools creeping toward the edge."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Standing in line with a heavy toaster is burdensome.",
+          "action": "Register the visitor at the door and seat them within hearing distance of the job caller.",
+          "consequence": "They can wait seated and still hear their turn.",
+          "quote": "A visitor holding a heavy toaster should not have to queue on their feet. Take their name at the door and give them a seat within earshot of the person calling jobs."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "People who see the sign may arrive without bookings.",
+          "action": "Leave a few brief consultations unbooked.",
+          "consequence": "A volunteer can assess a walk-in item before committing to a repair slot.",
+          "quote": "Some visitors arrive without an appointment after spotting the sign outside. Keep a few short consultations free so a volunteer can look at the item before promising bench time."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "An owner may have an unspoken sentimental attachment to a garment.",
+          "action": "Show them how the patch looks on the jacket and obtain consent before altering it.",
+          "consequence": "The owner can decide whether to accept the visible change.",
+          "quote": "A worn jacket may carry more sentimental value than its owner mentions at first. Show the proposed patch against the fabric and get their agreement before making a visible alteration."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "If the volunteer does every stitch, the owner stays dependent on help with a loose button.",
+          "action": "Coach the visitor through the final stitches.",
+          "consequence": "They gain the practice to do the mend themselves next time.",
+          "quote": "When a volunteer does every stitch, the same loose button will bring its owner back. Let the visitor finish the last few stitches with guidance so they leave knowing how to repeat the mend."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Look-alike fasteners can differ enough to damage the original thread.",
+          "action": "Keep the original beside the proposed replacement and check the fit.",
+          "consequence": "The repairer can avoid stripping the thread with the wrong screw.",
+          "quote": "The spare-parts tins contain several nearly identical fasteners. Keep an example of the original alongside the replacement while checking the fit so a screw that looks close does not strip the thread."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "An owner may have heard contradictory guesses in the queue.",
+          "action": "Have the bench volunteer explain confirmed findings before discussing replacement parts.",
+          "consequence": "The owner can base a spending decision on what is known.",
+          "quote": "A visitor might hear three different guesses about what's wrong while waiting. Have the bench volunteer explain what they have confirmed before discussing parts, giving the owner a sound basis for deciding what to spend."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Some battery compartments show visible leaks on arrival.",
+          "action": "Have the intake volunteer flag leaking items before they get to the communal worktop.",
+          "consequence": "The session lead can arrange suitable handling.",
+          "quote": "Battery compartments sometimes arrive with obvious leaks. Ask the intake volunteer to flag those items before they reach the shared work surface so the session lead can arrange appropriate handling."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Only some volunteers are trained to assess mains appliances.",
+          "action": "Send those appliances to the designated electrical bench.",
+          "consequence": "A trained volunteer can assess them before anyone returns them to service.",
+          "quote": "Only some volunteers have the training to assess mains-powered appliances. Direct those jobs to the designated electrical bench so a well-meaning general helper does not return an unchecked appliance to use."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Moving an iron’s lead may make an intermittent fault disappear briefly.",
+          "action": "Require the qualified volunteer to record the final checks before releasing the iron for collection.",
+          "consequence": "A momentary return to normal does not suffice to clear the item.",
+          "quote": "An iron with an intermittent fault can seem fixed the instant the cord is moved. Have the qualified volunteer record the final checks before the item is cleared for collection."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Searching for a scarce zipper pull could take up the rest of the session.",
+          "action": "Write down the required size and a local place to find it.",
+          "consequence": "The owner can return with a matching part.",
+          "quote": "A shortage of one unusual zipper pull should not consume the rest of the morning. Write down the size and a local supplier so the owner can come back with the matching piece."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "The borrowed service manuals are still needed by their owner.",
+          "action": "Give them a reference shelf near the workbenches.",
+          "consequence": "People can look things up and leave the manuals behind when packing their repairs.",
+          "quote": "The old service manuals belong to a retired technician who uses them at home. Put a reference shelf beside the benches so people can consult them without accidentally packing them with repaired goods."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Sign-in details may include a resident’s phone number.",
+          "action": "Keep the sheet with the coordinator and call waiting visitors by first name.",
+          "consequence": "Other visitors cannot browse residents’ contact information.",
+          "quote": "Visitors may leave a phone number while they step outside. Keep the sign-in sheet with the coordinator and call people by first name so waiting guests cannot browse other residents' details."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A different repairer may take over while the owner fetches an attachment.",
+          "action": "Attach a brief progress note to the item’s handle.",
+          "consequence": "The next volunteer knows where to resume.",
+          "quote": "If an owner goes home for a missing attachment, another volunteer may inherit the repair. Tie a short work note to the handle so the next person can pick up at the right point."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "A queue can lead volunteers to forgo lunch.",
+          "action": "Stagger short closures of the benches.",
+          "consequence": "Every volunteer has time to rest.",
+          "quote": "Experienced volunteers often skip a lunch break when a queue forms. Stagger short bench closures and tell the greeter the times so visitors get realistic estimates and everyone gets a rest."
+        },
+        {
+          "premise": "A bench closure affects how long a visitor will wait.",
+          "action": "Give the greeter the break schedule.",
+          "consequence": "Visitors receive wait estimates that allow for the breaks.",
+          "quote": "Experienced volunteers often skip a lunch break when a queue forms. Stagger short bench closures and tell the greeter the times so visitors get realistic estimates and everyone gets a rest."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "An umbrella owner will want to test it as soon as they collect it.",
+          "action": "Clear floor space near collection.",
+          "consequence": "The owner can open the umbrella while the volunteer is still on hand.",
+          "quote": "Someone picking up a repaired umbrella will open it as soon as they leave. Clear a patch of floor near collection so the owner can try it with the volunteer still there."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Opening another clock in the last fifteen minutes could leave it in pieces at closing time.",
+          "action": "Offer advice and later bookings for new arrivals while finishing work already in progress.",
+          "consequence": "Repairs underway can be wrapped up without starting another disassembly.",
+          "quote": "Fifteen minutes before the hall closes, opening another clock creates a tableful of parts with nowhere to go. Switch intake to advice and future bookings while the current jobs are wrapped up."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "A count of completed repairs conceals recurring shortages that hold up jobs.",
+          "action": "During cleanup, record which parts and skills were most often missing.",
+          "consequence": "Next month’s invitation can recruit help for an observed gap.",
+          "quote": "A total of repaired items hides which jobs repeatedly stalled. During cleanup, jot down the parts or skills people needed most so next month's invitation reaches a volunteer who can fill a real gap."
+        }
+      ]
+    }
+  ]
+}
