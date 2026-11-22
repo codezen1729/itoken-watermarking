@@ -1,0 +1,280 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "A performer's footwear can change where the trouser hem falls.",
+          "action": "Send each performer a brief list of what to bring or wear, including the show shoes when measuring trousers.",
+          "consequence": "The fitter sees the hem at the height it will sit in the show.",
+          "quote": "Send each performer a short list of what to wear or bring, since a trouser hem measured over slippers may sit differently over the show shoes."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "Several changes or an elaborate costume can run over an ordinary appointment.",
+          "action": "Give performers with multiple changes extra time.",
+          "consequence": "The following fittings can start on schedule.",
+          "quote": "Allow a little extra time for people with several changes, so one elaborate costume doesn't quietly push the rest of the evening behind."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "Standing on one leg can make changing awkward.",
+          "action": "Put a chair in the screened changing area.",
+          "consequence": "Performers can sit while changing.",
+          "quote": "Set up a screened changing area with a chair and hooks so nobody has to balance on one foot or leave their own clothes on the floor."
+        },
+        {
+          "premise": "People need somewhere to put the clothes they take off.",
+          "action": "Fit hooks in the screened changing area.",
+          "consequence": "Performers can keep their own clothes off the floor.",
+          "quote": "Set up a screened changing area with a chair and hooks so nobody has to balance on one foot or leave their own clothes on the floor."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "A performer may prefer to adjust the garment themselves.",
+          "action": "Get permission and wait for their response before touching them to adjust the clothing.",
+          "consequence": "They can choose to move the fabric themselves.",
+          "quote": "Ask before touching a performer to adjust a collar or sleeve, giving them time to say they'd prefer to move the fabric themselves."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "Searching for a missing matching piece uses appointment time.",
+          "action": "Hang each complete outfit together, ordered by scene.",
+          "consequence": "The fitter can use the appointment to check the clothing.",
+          "quote": "Hang every part of an outfit together in scene order so a fitter can spend the appointment checking clothes instead of hunting for the matching waistcoat."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "Someone arriving might walk in on a performer who is changing.",
+          "action": "Station a person immediately outside the fitting space to check arrivals in.",
+          "consequence": "People can arrive without interrupting a change.",
+          "quote": "Have someone check people in just outside the fitting area, which keeps arrivals from wandering into a change already in progress."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "A travel delay can leave an appointment empty.",
+          "action": "Give performers one named person to notify if they are running late.",
+          "consequence": "The team hears in time to use the opening.",
+          "quote": "Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "A seam can bind during a movement the role requires.",
+          "action": "Have the performer try those movements while wearing the costume.",
+          "consequence": "The team can spot the restriction during the fitting.",
+          "quote": "Try the movements the role actually calls for, such as sitting on a low stool or raising both arms, to catch a tight seam while the performer is present."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "The person doing the sewing later needs to identify the piece and which side to alter.",
+          "action": "Record the garment and the side from the wearer's point of view on every note.",
+          "consequence": "The sewer can carry out the change without someone demonstrating it.",
+          "quote": "Give each alteration note a garment name and the wearer's left or right side. The person sewing tomorrow should be able to pick it up without a demonstration."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "Rubbing may take time to notice and be invisible in the mirror.",
+          "action": "After the performer has worn the outfit for a few minutes, ask where it rubs.",
+          "consequence": "Their account identifies discomfort that a visual check could miss.",
+          "quote": "Ask the performer where anything rubs after they've had the costume on for a few minutes, because discomfort doesn't always show in the mirror."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "The performer needs a chance to judge the proposed change before cutting.",
+          "action": "Clip the change in place temporarily and let the wearer see it in the mirror.",
+          "consequence": "The wearer can give feedback while the fabric is still intact.",
+          "quote": "Use removable clips to hold a proposed change while the performer looks in the mirror, so they can comment before any fabric gets cut."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Finished garments could get swept into the alterations pile at cleanup.",
+          "action": "Put stage-ready garments on a dedicated rail.",
+          "consequence": "They stay separate when the room is cleared.",
+          "quote": "Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A fitter needs to watch the time while attending to the wearer.",
+          "action": "Put a legible clock where the fitter can see it.",
+          "consequence": "They can pace the session while keeping their attention on the performer.",
+          "quote": "Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A photo could help the sewer, but the performer may prefer to decline.",
+          "action": "If a picture would be useful, ask the performer's permission first.",
+          "consequence": "The performer can decide whether the photo is taken.",
+          "quote": "If a reference photo would help the sewer, ask permission and frame just the garment detail that needs work, leaving room for a performer to decline."
+        },
+        {
+          "premise": "The sewer needs a record of a particular detail.",
+          "action": "For a permitted reference photo, frame just the part of the garment that needs work.",
+          "consequence": "The resulting image shows only the relevant detail.",
+          "quote": "If a reference photo would help the sewer, ask permission and frame just the garment detail that needs work, leaving room for a performer to decline."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A misunderstanding about a measurement is quick to fix while the performer is wearing the costume.",
+          "action": "Have the person taking notes read the alteration request back then.",
+          "consequence": "The team can correct the note on the spot.",
+          "quote": "Have the note taker read back the requested change while the costume is still on, when a misunderstood sleeve length takes seconds to put right."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Preparing an accessible changing space may take advance notice.",
+          "action": "At booking, invite the performer to share access needs privately.",
+          "consequence": "The team has time to arrange a suitable space before the fitting.",
+          "quote": "Invite people to mention access needs privately when booking, giving the team time to arrange a suitable changing space before they arrive."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Fastening a well-fitting costume might still take longer than a quick change allows.",
+          "action": "Allow a few minutes to try the fastest backstage change with the dresser.",
+          "consequence": "The team can discover whether the fastenings can be managed in time.",
+          "quote": "Set a few minutes aside for testing the fastest backstage change with the dresser, since a perfectly fitted jacket can still take too long to fasten."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "The owner may require a borrowed piece to be returned without certain changes.",
+          "action": "Attach the owner's alteration restrictions to the borrowed garment on the rail.",
+          "consequence": "Volunteers can avoid making a prohibited change.",
+          "quote": "Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Refreshments near the costumes can spill on them.",
+          "action": "Put waiting volunteers' food and drinks on a separate table.",
+          "consequence": "A spill is less likely to soil a costume.",
+          "quote": "Keep drinks and snacks on a separate table for waiting volunteers so a long evening's coffee doesn't end up on a pale costume."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "After the team goes home, a note alone may leave responsibility unclear.",
+          "action": "Before packing up, give each approved alteration to a specific sewer.",
+          "consequence": "Everyone knows who will carry out each change.",
+          "quote": "Assign each approved alteration to a particular sewer before packing up, making it clear who will act on a note once everyone goes home."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Performers' work shifts can make a fixed slot impractical.",
+          "action": "Reserve a short, separate window for drop-in fittings.",
+          "consequence": "Those performers can attend while booked guests keep their place.",
+          "quote": "Set aside a short drop-in window for performers whose shifts make a fixed appointment hard to keep, without making the booked guests wait behind them."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Dim room light can hide fastenings and seams on dark clothing.",
+          "action": "Put a lamp by the mirror that lights those details.",
+          "consequence": "The team is less likely to miss a needed change.",
+          "quote": "Use a lamp near the mirror that lets the team see fastenings and seams on dark fabric, cutting down on changes missed in a dim rehearsal room."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Some changes need checking again, and the wearer and garment are present now.",
+          "action": "Circle the changes requiring a refit and settle a return time with the wearer then.",
+          "consequence": "The team has a record of what to recheck and when the wearer will return.",
+          "quote": "Circle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "The amount of sewing may exceed the time available before a garment is needed.",
+          "action": "If that happens, write down the priorities the team agrees on.",
+          "consequence": "Sewers can tackle imminent rehearsal needs in time.",
+          "quote": "Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "Drawing from the path can mean balancing a sketchbook on one's knee.",
+          "action": "Set a book at a place with seating and a clear view of a plant worth sketching.",
+          "consequence": "The visitor can draw the plant from a comfortable position.",
+          "quote": "Station a book where a seated visitor can see an interesting plant clearly, so drawing needn't involve balancing the book on one knee in a path."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "Putting an imperfect mark in a public book can feel daunting.",
+          "action": "Invite a gardener to leave an unfinished pencil sketch near the beginning.",
+          "consequence": "Seeing tentative marks makes it easier to make one's own.",
+          "quote": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "Some visitors have no more than a minute to draw.",
+          "action": "Suggest a subject as small as a single leaf edge.",
+          "consequence": "They have a drawing they can complete in the time available.",
+          "quote": "Offer a prompt as small as drawing the edge of one leaf, giving visitors with only a minute a subject they can finish."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "Looking at a whole planted border can make choosing what fits on the page difficult.",
+          "action": "Provide a small cardboard frame to look through.",
+          "consequence": "The visitor can pick out a manageable group of stems to draw.",
+          "quote": "A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "A person drawing while guiding a child's hand already has both hands occupied.",
+          "action": "Use a binding that stays open on its own.",
+          "consequence": "The adult can hold the pencil and help the child at the same time.",
+          "quote": "Choose a binding that lies open by itself so a visitor can hold a pencil in one hand and steady a child's hand with the other."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "Strong marks on one face of a sheet could make the reverse harder to use.",
+          "action": "Give visitors soft graphite for shared sketchbooks.",
+          "consequence": "They can make bold drawings and still leave usable space on the other side.",
+          "quote": "Supply soft graphite for the communal books so a bold drawing on one side of a sheet leaves the next side usable."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "Some visitors struggle to hold a narrow pencil.",
+          "action": "Offer pencil grips in a range of widths.",
+          "consequence": "They can select a grip that feels comfortable to draw with.",
+          "quote": "Set out a few pencil grips of different widths to give visitors who find a slim barrel awkward a comfortable way to draw."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "A visitor might be unable to read the garden's written welcome.",
+          "action": "Show a picture of a hand drawing in an open book.",
+          "consequence": "They can recognize that they too are invited to draw.",
+          "quote": "A simple picture of an open book and a drawing hand can invite someone to join in even if they can't read the garden's welcome sign."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "Later readers may want to know when the plants in a sketch looked that way.",
+          "action": "Invite artists to add a date at their discretion.",
+          "consequence": "In autumn a reader can look back and see when the magnolia was already in bloom.",
+          "quote": "Encourage artists to jot down the date if they wish. People leafing back in autumn can then spot how early the magnolia opened."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "A drawing can make someone curious about the actual plant.",
+          "action": "Include space beside a sketch for the plant's location in the garden.",
+          "consequence": "A reader can find that seed head or other feature and see it up close.",
+          "quote": "Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "People browsing can occupy the volume others are waiting to draw in.",
+          "action": "Place a copy of a finished book nearby for people to look through.",
+          "consequence": "The current volume is available to those wanting to make a sketch.",
+          "quote": "Set up a second copy of a completed book for browsing nearby, freeing the current volume for visitors who are waiting to draw."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A sudden rain shower could spoil a season's drawings.",
+          "action": "Give the book a sheltered, dry spot and make its return location clear.",
+          "consequence": "Visitors can put it back where the drawings are protected from rain.",
+          "quote": "Give the sketchbook a dry home under cover with a clear place to return it, so a sudden shower doesn't soak a season's drawings."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Other guests can end up in a reference photo in a busy glasshouse.",
+          "action": "Ask people to turn the sketchbook toward the plant for the photo.",
+          "consequence": "They can frame the reference without including other visitors.",
+          "quote": "Ask visitors to turn the book toward the plant when taking a reference photo, keeping other guests out of the frame in a busy glasshouse."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "An outline on the page misses the sounds and smells of the scene.",
+          "action": "Welcome a short written observation of a sound or scent next to the drawing.",
+          "consequence": "The page records a sensory detail the drawing alone would lose.",
+          "quote": "Welcome a line about a scent or sound alongside a sketch, letting the page preserve something its outline alone can't convey."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Some visitors like to test their marks before adding one to a public page.",
+          "action": "Keep scrap paper with the pencils.",
+          "consequence": "They can try a stroke privately before drawing in the shared book.",
+          "quote": "Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A child and an adult may see the same flower differently.",
+          "action": "Let them draw side by side on the same spread if both wish to.",
+          "consequence": "They can compare the two pictures of their subject.",
+          "quote": "Let children and adults work side by side on a spread if both want to. Two views of the same flower give them something concrete to compare."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Drawing small plant details up close could otherwise require picking material.",
+          "action": "Invite people to sketch the fallen pods already on the table.",
+          "consequence": "Visitors can study details within reach while leaving the plants alone.",
+          "quote": "An invitation to draw the fallen pods already on the table brings small details within reach without asking visitors to pick anything."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Tiny details call for a fine pencil point.",
+          "action": "Provide a pencil sharpener at the drawing station.",
+          "consequence": "Visitors can restore the point for detailed work.",
+          "quote": "A pencil sharpener with a closed shavings cup lets visitors restore a fine point for tiny details without scattering wood curls into the beds."
+        },
+        {
+          "premise": "Sharpening can leave wood shavings in the garden beds.",
+          "action": "Use a sharpener with an enclosed cup.",
+          "consequence": "The cup collects the shavings as visitors sharpen their pencils.",
+          "quote": "A pencil sharpener with a closed shavings cup lets visitors restore a fine point for tiny details without scattering wood curls into the beds."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "A loose page may fall out and take a drawing with it.",
+          "action": "Have a volunteer check each book at closing and make a small repair when a leaf is loose.",
+          "consequence": "Drawings can be secured before they go missing.",
+          "quote": "Ask a volunteer to flip through each volume for loose leaves at closing, when a small repair can still save a drawing from going astray."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A visitor may want to find the sketchbook station again with a friend.",
+          "action": "Give visitors a take-home garden map slip with the station marked.",
+          "consequence": "They can use it to find their way back together.",
+          "quote": "Provide a slip that visitors can take home with the sketchbook station marked on a garden map, making it easier to return with a friend."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Returning visitors may want to compare what people noticed at the same time in earlier years.",
+          "action": "Shelve completed sketchbooks by season.",
+          "consequence": "Readers can locate earlier observations from the month they have in mind.",
+          "quote": "Give finished volumes a shelf sorted by season, so a returning visitor can find what other people noticed during the same month in earlier years."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Some visitors enjoy drawing with other people while observing in silence.",
+          "action": "Occasionally offer a quiet drawing time before a garden tour.",
+          "consequence": "They can try the shared books in company under quiet conditions.",
+          "quote": "Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Signing or introducing oneself publicly may deter a visitor from adding a drawing.",
+          "action": "Put up a written invitation explicitly welcoming unsigned drawings.",
+          "consequence": "Someone can contribute a page without having to identify themselves.",
+          "quote": "Post a written invitation to leave drawings unsigned, so adding a page doesn't require making a public introduction."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "A small vein or texture in bark may be too hard to see to draw.",
+          "action": "Leave a magnifying lens at the sketchbook station.",
+          "consequence": "Enlarging the detail lets a visitor draw it as the subject itself.",
+          "quote": "Keep a magnifying lens at the station for visitors curious about a vein or a patch of bark, turning a barely visible feature into a subject of its own."
+        }
+      ]
+    }
+  ]
+}

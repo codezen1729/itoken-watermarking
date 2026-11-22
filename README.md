@@ -6,6 +6,10 @@ The original **controlled symbolic prototype** uses a finite autoregressive refe
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
+## Stronger watermark selection on fresh ideas
+
+Across eight new problems, the strong rule changed an average of 4.25 of the six selected arguments. Its key was detectable in **8/8 generator plans, 0/8 independently read originals and 0/8 rewrites** at the fixed 1% threshold. The weak and control arms had zero positives at all three stages. Two independent readers judged six strong rewrites faithful. All six were negative, and none had an initially detectable original from which to measure survival. The [report](bias_study/REPORT.md) includes a worked example, [raw readings](bias_study/calls/), and [replay instructions](bias_study/README.md).
+
 ## Open-ended recovery of reasoning steps
 
 The [catalog-free experiment](open_study/REPORT.md) lets each reader discover and describe reasoning steps from a problem and its prose. Across eight marked ideas, the detector flagged one original and zero free rewrites, with the same counts in eight controls. The two fidelity readers agreed that three marked free rewrites preserved the reasoning. All three originals were below threshold, so the primary cohort could not estimate survival among faithful rewrites of detectable originals.

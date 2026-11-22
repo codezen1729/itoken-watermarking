@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Ask bakers to wrap a few small portions from each loaf so someone who lives alone can bring home several kinds without wasting bread."
+    },
+    {
+      "id": "s01",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Welcome a loaf from a favorite neighborhood bakery. Someone without an oven can make an introduction every bit as interesting as a home baker's."
+    },
+    {
+      "id": "s02",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Put blank ingredient cards beside the bread and leave room for fillings and toppings, which can be hard to identify from the crust."
+    },
+    {
+      "id": "s03",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Give each tasting loaf its own board and knife so the garlic on one sample doesn't follow the next visitor into a slice of cinnamon bread."
+    },
+    {
+      "id": "s04",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Save some bread from willing contributors for a later release during the advertised hours, so arriving straight from work still means finding a choice."
+    },
+    {
+      "id": "s05",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "A stool at the exchange table gives anyone who tires of standing a chance to linger and talk to the bakers."
+    },
+    {
+      "id": "s06",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Invite people to put a few words about a loaf's history beside it. Asking about a grandmother's skillet bread is an easier opening than introducing yourself to a room."
+    },
+    {
+      "id": "s07",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Set out paper bags big enough for a few slices and a pencil for writing on them, so people can tell their selections apart once they're home."
+    },
+    {
+      "id": "s08",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Let contributors leave their bread with a host if they need to step out. A quick errand needn't cost them their place in the swap."
+    },
+    {
+      "id": "s09",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Post the indoor rain location with the invitation so a wet morning doesn't send neighbors carrying loaves to an empty courtyard."
+    },
+    {
+      "id": "s10",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Place a quiet welcome at the entrance with a volunteer who can walk a newcomer through an exchange before the room gets busy."
+    },
+    {
+      "id": "s11",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Leave space between displays for two people to pass while carrying trays, especially where visitors tend to stop to ask about a loaf."
+    },
+    {
+      "id": "s12",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Ask each baker how they like to eat their bread the following day. A reheating or toasting suggestion makes a less familiar loaf easier to choose."
+    },
+    {
+      "id": "s13",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Put the conversation seats a little way from the bread so a good story can continue while somebody else reaches the table."
+    },
+    {
+      "id": "s14",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Offer recipe slips that bakers can fill in if they like, letting a visitor try the bread at home without asking a stranger for contact details."
+    },
+    {
+      "id": "s15",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Set a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away."
+    },
+    {
+      "id": "s16",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Show the suggested size of a swap portion with a real example near the door, saving newcomers the awkwardness of guessing what's fair."
+    },
+    {
+      "id": "s17",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Give the baker of a very popular loaf a place to leave a note about bringing it again, so missing out can turn into a reason to return."
+    },
+    {
+      "id": "s18",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Keep the invitation clear about when people can collect their serving tins and baskets, sparing the hosts a pile of unclaimed kitchenware."
+    },
+    {
+      "id": "s19",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "A child who wants to help could draw a little portrait of a loaf for the table, giving families something to do together without handling the samples."
+    },
+    {
+      "id": "s20",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Leave a cooling rack near check-in for bread that arrives warm, since bagging a steaming loaf can soften the crust before anyone tries it."
+    },
+    {
+      "id": "s21",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Invite contributors to choose a home for their spare bread in advance, allowing the closing crew to pass it along with the baker's agreement."
+    },
+    {
+      "id": "s22",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Put a street-facing sign at the actual entrance. First-time visitors juggling a loaf and a bike will appreciate spotting the way in from the pavement."
+    },
+    {
+      "id": "s23",
+      "problem": "How could we run a community bread swap where people get to try something new and feel comfortable coming back?",
+      "text": "Keep a sheet where visitors can request a bread they remember fondly, giving a neighbor who knows how to bake it an idea for the next gathering."
+    }
+  ]
+}

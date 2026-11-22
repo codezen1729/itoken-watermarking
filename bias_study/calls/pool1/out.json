@@ -1,0 +1,274 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "The group may have different numbers of chairs free on different dates.",
+          "action": "List the available count for each date on the shared calendar.",
+          "consequence": "Organizers can check whether there are enough chairs for their event.",
+          "quote": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "Some organizers cannot make a reservation over the internet.",
+          "action": "Accept telephone bookings and enter them in the same record as online bookings.",
+          "consequence": "People without internet access can reserve under the same conditions.",
+          "quote": "Take bookings by phone as well as online and enter both in the same record. Someone without internet access can reserve a set on the same terms as anyone else."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "A chair loan may extend into the day after the event.",
+          "action": "Ask for pickup and return times when taking the reservation.",
+          "consequence": "The booking reflects when the chairs will actually be out.",
+          "quote": "Ask for the pickup and return times when a booking is made, since a Saturday evening event may mean the chairs are still out on Sunday morning."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "A late driver may need to coordinate access during the event.",
+          "action": "Ask the organizer to name someone the driver can reach then.",
+          "consequence": "The driver can call the person who has the keys.",
+          "quote": "Have each organizer name someone reachable during the event. A driver running late can call the person with the keys."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "Popular dates may attract requests for chairs that are already booked.",
+          "action": "Keep a waiting list for those dates.",
+          "consequence": "Organizers can register interest in chairs that become free.",
+          "quote": "Offer a waiting list for popular dates and ask borrowers to release surplus chairs when their head count drops."
+        },
+        {
+          "premise": "A borrower who expects fewer guests may have reserved more chairs than needed.",
+          "action": "Ask the borrower to release the extra chairs when the guest count falls.",
+          "consequence": "The extra seats become available to others.",
+          "quote": "Offer a waiting list for popular dates and ask borrowers to release surplus chairs when their head count drops."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "A borrower needs to know how much cargo space chairs take up alone and in stacks.",
+          "action": "Publish measurements for a folded chair and a stack of nested chairs.",
+          "consequence": "Borrowers can work out what their vehicles will hold.",
+          "quote": "Publish the dimensions of a folded chair and a nested stack so a borrower can work out what will fit in their vehicle."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "A chair found after cleanup may be separated from the group that owns it.",
+          "action": "Put the group's name and return contact number underneath each seat.",
+          "consequence": "The finder can get in touch to return the chair.",
+          "quote": "Attach the group's name and return number under each seat, giving anyone who finds a stray chair after cleanup a way to get it home."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "Borrowers will need to know how many chairs to gather at pack-up.",
+          "action": "At handover, count the chairs with the borrower and give them a copy of the tally.",
+          "consequence": "The borrower has the agreed count to check against when packing up.",
+          "quote": "Count the chairs together at handover and give the borrower a copy of the count to use when the room gets packed up."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "Moving a load between storage and a vehicle can take several trips.",
+          "action": "Keep a handcart at the store entrance for borrowers.",
+          "consequence": "Borrowers can wheel chairs between the shelves and their vehicle.",
+          "quote": "Keep a handcart by the store entrance for borrowers making several trips between the shelves and a vehicle."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "The wrong entrance can leave a volunteer carrying chairs around the building.",
+          "action": "Send a picture of the loading door with pickup instructions.",
+          "consequence": "The volunteer can go straight to the correct door.",
+          "quote": "Include a photo of the correct loading door with the pickup details. It can save a volunteer a walk around the building carrying chairs."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "The people setting up the hall will need to operate the borrowed chairs.",
+          "action": "Show the borrower how one chair in the set opens and folds.",
+          "consequence": "The borrower can pass the demonstration on to the setup team.",
+          "quote": "Show the borrower how to open and close one chair from the set so they can demonstrate it to the people setting up the hall."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A defective chair might be selected for the next delivery.",
+          "action": "Give it a visible repair tag and store it separately.",
+          "consequence": "The damaged chair is kept out of the outgoing load.",
+          "quote": "Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "After guests leave, the organizer still has to remember to pack up the chairs.",
+          "action": "Remind them on the morning the return is due.",
+          "consequence": "Packing the chairs stays on their list for that day.",
+          "quote": "Send a reminder on the morning of an agreed return so packing up the chairs stays on the organizer's list after the guests leave."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A returned batch needs inspection and cleaning before it is collected again.",
+          "action": "Leave time for those tasks between reservations.",
+          "consequence": "The group can prepare the chairs before the next pickup.",
+          "quote": "Allow time between bookings to check and clean a returned batch before another group expects to collect it."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Some chairs may be wet when returned.",
+          "action": "Unfold them in a sheltered place to dry before putting them away.",
+          "consequence": "The chairs enter storage dry.",
+          "quote": "Provide a sheltered place to unfold wet returns and let them dry before they go back into storage."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Stacks put away in the wrong place can obstruct the storeroom door.",
+          "action": "Mark stack positions on the floor.",
+          "consequence": "A borrower can put the chairs away and leave the entrance clear.",
+          "quote": "Lay out parking positions for stacks on the storeroom floor so a borrower can put a load away without blocking the door."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Seat width and chair arms may make a borrowed chair unsuitable for a guest.",
+          "action": "State the width and whether chairs have arms in booking information.",
+          "consequence": "Hosts have time to arrange suitable alternatives for those guests.",
+          "quote": "Show the seat width and whether the chairs have arms in the booking information, giving hosts time to arrange other seating for guests who need it."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "An event team may want reserved seats without sticking anything to borrowed chairs.",
+          "action": "Supply removable signs that clip onto rows.",
+          "consequence": "The team can mark reservations without leaving adhesive on the chairs.",
+          "quote": "Give the event team removable row signs that clip on. They can reserve seats without leaving tape or adhesive on borrowed chairs."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Borrowing costs or breakage charges can affect a small group's event budget.",
+          "action": "Set out applicable charges before the group confirms its booking.",
+          "consequence": "The group can plan for the expense in time.",
+          "quote": "Explain any charge for borrowing or breakage before confirming the booking, while a small group can still plan its budget."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "The organizer may need to leave before the chairs can be returned.",
+          "action": "Allow the borrower to designate another person to return them.",
+          "consequence": "The chairs can still arrive by the agreed time.",
+          "quote": "Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "A single chair left at the venue can delay an otherwise complete return.",
+          "action": "Let the borrower report it so a volunteer can arrange a separate pickup.",
+          "consequence": "The rest of the chairs can be returned while the stray chair is recovered.",
+          "quote": "Give borrowers a simple way to report a chair left at a venue. A volunteer can arrange to recover just that chair instead of holding up the whole return."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "Borrowers without cars may have no way to transport the chairs.",
+          "action": "Offer to connect them with drivers who have volunteered to help.",
+          "consequence": "The group can lend chairs to events that would otherwise lack transport.",
+          "quote": "Offer to match car-free borrowers with volunteer drivers who have already agreed to help, widening the range of events the chairs can serve."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "Completed loans alone do not show recurrent unmet demand.",
+          "action": "Record unfilled requests alongside loans and look for repeated shortages on the same weekend.",
+          "consequence": "The group can use those shortages to guide a later purchase.",
+          "quote": "Record requests the group couldn't fill as well as completed loans. Repeated shortfalls on the same weekend can guide a future purchase."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "The venue may own chairs that resemble the loaned ones.",
+          "action": "Check for lookalike chairs and separate the two sets into piles during cleanup.",
+          "consequence": "The group can avoid having to trace mistakenly exchanged chairs the next day.",
+          "quote": "Ask whether the venue already has folding chairs that look like ours. Sorting the two sets into separate piles during cleanup is easier than tracing a mix-up the next day."
+        }
+      ]
+    }
+  ]
+}

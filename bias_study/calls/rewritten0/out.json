@@ -1,0 +1,332 @@
+{
+  "documents": [
+    {
+      "id": "f2bab7bc37dfda2a",
+      "steps": [
+        {
+          "premise": "Once similar bowls sit together, it can be hard to tell who made them.",
+          "action": "Leave reusable name cards and a pencil at the rack so makers can label their boards as they put them down.",
+          "consequence": "A name identifies the maker even after similar pieces arrive.",
+          "quote": "A maker should be able to put their name on a board before a dozen bowls that look much the same end up next to it. A pencil and a stack of reusable name cards beside the rack make that easy."
+        },
+        {
+          "premise": "Some shelves extend beyond arm’s reach from the front.",
+          "action": "Keep access to the back of those shelves clear.",
+          "consequence": "Makers can reach their pots without leaning over fresh rims.",
+          "quote": "If a shelf is deeper than someone can reach from the front, keep a way clear to the back. They can then reach their pot without leaning across freshly made rims."
+        },
+        {
+          "premise": "A shallow dish can be hard to see on a dark shelf.",
+          "action": "Aim a small light along the back of the shelf.",
+          "consequence": "People can tell which gaps are free.",
+          "quote": "On a dark shelf, aim a small light along the back so people can tell whether a gap is really empty or holds a shallow dish."
+        },
+        {
+          "premise": "Beginners need room to get a hand between their pots.",
+          "action": "Before beginners load a board, show them one on the teaching table with a hand’s breadth between pots.",
+          "consequence": "They can see how much space to leave on their own boards.",
+          "quote": "Set up a board on the teaching table with a hand's breadth between the pots. Before loading their own boards, beginners can see the gap they need to leave for a hand to pass through."
+        },
+        {
+          "premise": "A board that warps or splinters leaves an uneven surface for the next platter.",
+          "action": "Whoever spots it should take it out of the stack straight away.",
+          "consequence": "The next student avoids setting a flat piece on the damaged board.",
+          "quote": "As soon as anyone notices a board has warped or started to splinter, pull it from the stack before the next student puts a flat platter on that uneven surface."
+        },
+        {
+          "premise": "A pot may need attention while its maker is away.",
+          "action": "Let the member name someone to check on their pots.",
+          "consequence": "Staff know whom to contact about the piece.",
+          "quote": "Members who will be away can name someone to look in on their pots, so staff know whom to ask if a piece needs attention."
+        }
+      ]
+    },
+    {
+      "id": "2cbf76c819e0ee89",
+      "steps": [
+        {
+          "premise": "The number of chairs available depends on the event date.",
+          "action": "Show the available chair count when an organizer looks up a date on the shared calendar.",
+          "consequence": "The organizer can judge whether the group has enough chairs for that event.",
+          "quote": "When organizers look up a date on the shared booking calendar, they should be able to see how many chairs are free and judge whether there are enough for their event."
+        },
+        {
+          "premise": "A group can still have the chairs the morning after its event.",
+          "action": "Require collection and return times when organizers book.",
+          "consequence": "The booking covers the full time the chairs will be out.",
+          "quote": "Have them give both collection and return times when they book. Chairs picked up for Saturday evening might still be with that group on Sunday morning."
+        },
+        {
+          "premise": "Chairs need attention between loans.",
+          "action": "Allow a gap after each return and before the next collection.",
+          "consequence": "There is time to inspect and clean the chairs before the next group arrives.",
+          "quote": "Leave a gap between one booking and the next so there's time to inspect and clean the chairs that come back before the next group arrives to collect them."
+        },
+        {
+          "premise": "A delayed driver needs to reach the person who can open up.",
+          "action": "Ask the organizer who will hold the keys and answer the phone during the event.",
+          "consequence": "The driver knows whom to call if running late.",
+          "quote": "Ask organizers who will have the keys and be available by phone during the event, so a driver who's behind schedule knows whom to call."
+        },
+        {
+          "premise": "The organizer might have to leave early.",
+          "action": "Let the borrower designate another person to bring the chairs back.",
+          "consequence": "The chairs can still be returned on time.",
+          "quote": "Give borrowers the option of designating someone else to bring the chairs back. That way the return can happen on time even if the organizer has to leave early."
+        },
+        {
+          "premise": "A chair with a loose hinge or missing foot needs repair.",
+          "action": "Attach a conspicuous repair tag and store the chair separately.",
+          "consequence": "It stays out of the next delivery.",
+          "quote": "If a chair has a wobbly hinge or has lost a foot, attach a repair tag that's hard to miss and store it apart from the others so it stays out of the next delivery."
+        }
+      ]
+    },
+    {
+      "id": "3cbef7a2339d0928",
+      "steps": [
+        {
+          "premise": "A visitor looking for a caption setting can miss the opening words.",
+          "action": "Turn captions on when each listening session opens.",
+          "consequence": "Visitors can follow the recording from the first words.",
+          "quote": "Have the captions showing whenever a new listening session opens. That lets a visitor catch the first words without hunting for a setting."
+        },
+        {
+          "premise": "Visitors may need different type sizes to read a long interview comfortably.",
+          "action": "Provide a sample caption with adjustable type size at each station.",
+          "consequence": "Visitors can choose a readable size before the interview.",
+          "quote": "At every station, offer a sample caption on which visitors can adjust the type size before settling into a long interview."
+        },
+        {
+          "premise": "Sometimes both voices are intelligible even though they overlap.",
+          "action": "Give each speaker a separate caption line when both can be made out.",
+          "consequence": "Readers can tell the speakers made the comments simultaneously.",
+          "quote": "When two people speak at once and you can make out both voices, put each on a line of its own so readers can tell the comments came at the same time."
+        },
+        {
+          "premise": "A listener may want one account from a long interview.",
+          "action": "Provide a short topic list with links to the corresponding points in the recording.",
+          "consequence": "Listeners can jump directly to the account they want.",
+          "quote": "For longer interviews, a brief topic list with links into the recording lets a listener go directly to the account of the flood or the old school."
+        },
+        {
+          "premise": "Some visitors want context about a reference in the interview.",
+          "action": "Put optional background notes in the interview listing.",
+          "consequence": "Visitors can look up a local custom and keep their place in the sentence.",
+          "quote": "Put background notes in the interview listing for anyone who wants them. A visitor curious about a local custom can look it up and keep their place in the sentence."
+        },
+        {
+          "premise": "Visitors can enter a looping exhibit halfway through an interview.",
+          "action": "Show the interview title beside the captions.",
+          "consequence": "A visitor arriving mid-story knows which interview is playing.",
+          "quote": "When an exhibit repeats on a loop, show the interview's title next to the captions so even a visitor who walks in halfway through knows which story they're hearing."
+        }
+      ]
+    },
+    {
+      "id": "2ce6a2e482e1fb1b",
+      "steps": [
+        {
+          "premise": "Guests need to know how much to bring and how they can pay.",
+          "action": "State the admission price and payment options on the invitation.",
+          "consequence": "Guests can arrive ready to pay and go straight in to meet the host.",
+          "quote": "Put the admission price and ways to pay on the invitation. Guests can have their money ready at the door and go straight in to meet the host."
+        },
+        {
+          "premise": "Beginners may be unsure how to handle a dance invitation, especially if they want to decline.",
+          "action": "During the welcome, act out asking someone to dance and declining politely.",
+          "consequence": "Newcomers hear how to keep the exchange friendly whatever their answer.",
+          "quote": "As you welcome everyone, act out inviting someone to dance and politely turning an invitation down, so newcomers hear how the exchange can end on friendly terms whichever answer they give."
+        },
+        {
+          "premise": "Beginners need a moment to decide whether to take part.",
+          "action": "Announce each dance before the music starts.",
+          "consequence": "Beginners have time to decide if they want to get up.",
+          "quote": "Name each dance before its music begins to give beginners a moment to decide if they'd like to get up."
+        },
+        {
+          "premise": "Noise can make a demonstration difficult to follow by ear.",
+          "action": "Light the teacher’s feet and face during the demonstration.",
+          "consequence": "People can follow the teacher by sight.",
+          "quote": "During demonstrations, light the teacher's feet and face well enough for people to follow by sight even when it's noisy."
+        },
+        {
+          "premise": "Spinning is uncomfortable for some dancers.",
+          "action": "Show a simpler version of the turn that keeps both feet low.",
+          "consequence": "Those dancers can still take part in the figure.",
+          "quote": "Demonstrate a simpler turn with both feet staying low, so people who find spinning uncomfortable can still do the figure."
+        },
+        {
+          "premise": "People who have sat out several songs may have had few chances to meet others.",
+          "action": "Turn the music down at a break and invite everyone to chat for a few minutes.",
+          "consequence": "People who sat out can get acquainted too.",
+          "quote": "At a break, lower the music and invite everyone to talk for a few minutes. Guests who've sat out several songs will have a chance to get acquainted too."
+        }
+      ]
+    },
+    {
+      "id": "e902454d1dc46773",
+      "steps": [
+        {
+          "premise": "A person living alone may waste bread if taking several kinds means taking large portions.",
+          "action": "Ask each baker to wrap a few small servings from each loaf they bring.",
+          "consequence": "One person can take home a variety they can use.",
+          "quote": "Have each baker wrap a few small servings of every loaf they bring. A person who lives on their own can then take a variety home without ending up with bread that goes to waste."
+        },
+        {
+          "premise": "Several kinds of bread can be difficult to identify once visitors get home.",
+          "action": "Provide paper bags sized for a few slices and a pencil for labeling them.",
+          "consequence": "Visitors can tell their breads apart at home.",
+          "quote": "Supply paper bags that will hold a few slices apiece and a pencil to label them, so visitors can still tell which bread is which when they get home."
+        },
+        {
+          "premise": "Visitors may hesitate to pick an unfamiliar loaf if they are unsure how to enjoy it later.",
+          "action": "While people choose, ask the baker how they like the bread the next day.",
+          "consequence": "Hearing how the baker toasts or warms it can make the choice easier.",
+          "quote": "As people choose, ask bakers how they enjoy their bread a day later. Knowing that the baker likes a particular loaf toasted or warmed up can make an unfamiliar kind easier to pick."
+        },
+        {
+          "premise": "A child may want to help at the swap.",
+          "action": "Invite the child to draw a loaf for display on the table.",
+          "consequence": "The family can participate together without touching the samples.",
+          "quote": "If a child is keen to help, invite them to sketch a loaf to display on the table. The family can do that together and leave the samples untouched."
+        },
+        {
+          "premise": "There may be bread left when the swap closes.",
+          "action": "Have each contributor decide beforehand where their extra bread should go.",
+          "consequence": "The closing crew can pass it on with the baker’s agreement.",
+          "quote": "Ask contributors to decide in advance where they'd like any extra bread to go, so the people closing up have the baker's agreement when they pass it on."
+        },
+        {
+          "premise": "A bread someone remembers fondly may be one a neighbor knows how to make.",
+          "action": "Provide a sheet where visitors can write down those breads.",
+          "consequence": "A neighbor may act on a suggestion for the next swap.",
+          "quote": "Give visitors a sheet to write down breads they remember with affection. A neighbor who knows how to make one may take the suggestion up for the next swap."
+        }
+      ]
+    },
+    {
+      "id": "e4b8b57caad69b90",
+      "steps": [
+        {
+          "premise": "People may feel self-conscious about an imperfect drawing in a shared book.",
+          "action": "Ask a gardener to leave a partly finished pencil sketch near the front.",
+          "consequence": "Seeing the tentative marks may make a visitor more comfortable adding their own.",
+          "quote": "Invite a gardener to leave a partly finished pencil sketch on one of the first pages. Seeing a few tentative strokes there may help someone feel comfortable making an imperfect mark in a book everyone can see."
+        },
+        {
+          "premise": "A visitor may want to try a mark before putting it in the shared book.",
+          "action": "Keep scrap paper in the pencil tray.",
+          "consequence": "The visitor can practice the stroke privately first.",
+          "quote": "Tuck a few scraps of paper into the pencil tray too, so a visitor can try out a stroke in private before drawing it in the book."
+        },
+        {
+          "premise": "A visitor may struggle to fit a whole garden border onto the page.",
+          "action": "Offer a small cardboard viewfinder to frame just a cluster of stems.",
+          "consequence": "The visitor can choose a manageable subject.",
+          "quote": "For someone wondering how to fit a whole border onto a page, offer a little cardboard viewfinder to frame a manageable cluster of stems."
+        },
+        {
+          "premise": "A visitor steadying a child’s hand has only one hand free to draw.",
+          "action": "Choose a binding that holds the book open by itself.",
+          "consequence": "The visitor can draw and steady the child’s hand at the same time.",
+          "quote": "Use a binding that stays open on its own. A visitor can then draw with one hand while steadying a child's hand with the other."
+        },
+        {
+          "premise": "Someone who sees a sketch may want to examine the actual plant.",
+          "action": "Leave space beside every sketch for its location in the garden.",
+          "consequence": "An interested viewer can find the plant for a closer look.",
+          "quote": "Beside each sketch, leave room to say where in the garden the plant grows. Someone intrigued by a drawing of a seed head can find it and look more closely."
+        },
+        {
+          "premise": "Other guests can appear in reference photos in a busy glasshouse.",
+          "action": "Ask photographers to orient the book toward the plant.",
+          "consequence": "Other guests stay outside the frame.",
+          "quote": "Ask anyone taking a reference photo to face the book toward the plant. That keeps other guests out of the frame in a busy glasshouse."
+        }
+      ]
+    },
+    {
+      "id": "714bcac0b79110ef",
+      "steps": [
+        {
+          "premise": "The fitter needs to keep time while attending to the performer.",
+          "action": "Place an easy-to-read clock in the fitter’s line of sight.",
+          "consequence": "The fitter can track the appointment without repeatedly turning away.",
+          "quote": "Position a legible clock where the fitter can keep track of the appointment without having to turn away from the performer again and again."
+        },
+        {
+          "premise": "A different volunteer may need to sew the alteration the next day.",
+          "action": "Identify the garment on each note and describe left or right from the wearer’s perspective.",
+          "consequence": "The next volunteer can carry out the alteration without a demonstration.",
+          "quote": "On every alteration note, identify the garment and specify left or right from the wearer's point of view. Tomorrow's volunteer should be able to do the sewing without anyone having to show them what was meant."
+        },
+        {
+          "premise": "Owners may need borrowed garments returned in their original condition.",
+          "action": "Label garments on the rail with the alteration limits their owners set.",
+          "consequence": "Volunteers can check the limits before making a change the owner would object to.",
+          "quote": "While borrowed garments are on the rail, label them with the limits their owners have set. No one should discover after shortening a hem that the owner needs it back at its original length."
+        },
+        {
+          "premise": "Some alterations require the wearer to come back.",
+          "action": "Circle each such change and agree on a return time while the garment and the wearer’s schedule are at hand.",
+          "consequence": "The team has flagged the alteration and arranged the follow-up fitting.",
+          "quote": "If a change calls for another fitting, circle it and settle on a time for the wearer to come back while you still have the garment and the wearer's schedule in front of you."
+        },
+        {
+          "premise": "The team may have more sewing than it can finish and some costumes are needed sooner.",
+          "action": "Write down the jobs the team has agreed to do first.",
+          "consequence": "A costume needed for the next day’s rehearsal can be handled in time.",
+          "quote": "When the sewing exceeds what the team can get through, record which jobs you've agreed to tackle first so a costume needed for rehearsal tomorrow is dealt with in time."
+        },
+        {
+          "premise": "During cleanup, finished costumes can get mixed in with pieces awaiting work.",
+          "action": "Give stage-ready costumes their own rail.",
+          "consequence": "Finished pieces stay separate from outstanding alterations at the end of the evening.",
+          "quote": "Give stage-ready pieces a rail of their own so they stay clear of the pile awaiting alterations during the end-of-evening cleanup."
+        }
+      ]
+    },
+    {
+      "id": "57a1ffc9b6f9d017",
+      "steps": [
+        {
+          "premise": "A newcomer may be unsure whether someone at a board wants to play.",
+          "action": "Give the seated player a small sign to turn toward the entrance when they want an opponent.",
+          "consequence": "An arriving visitor can see that the player welcomes a game.",
+          "quote": "Give someone sitting at a board a small sign to face toward the entrance when they'd like an opponent. A newcomer can then tell whether a stranger is open to a game."
+        },
+        {
+          "premise": "In a busy room, people waiting for a board may hover around games that look close to ending.",
+          "action": "Keep a written waiting list of visitors’ names.",
+          "consequence": "Visitors can sit and read while they wait for a turn.",
+          "quote": "When the room gets busy, put names on a written waiting list so visitors can sit and read while they wait, without hovering over a match that seems about to end."
+        },
+        {
+          "premise": "Showing someone a position can draw spectators around an ongoing match.",
+          "action": "Keep a demonstration board in a corner away from active games.",
+          "consequence": "A helper can show the position there without crowding other players.",
+          "quote": "Keep a demonstration board in a corner clear of games in progress. A helper can show someone a position there without bringing onlookers around another pair's match."
+        },
+        {
+          "premise": "A lively discussion after a game can last longer than the game itself.",
+          "action": "Provide a place away from the quiet boards for players to review a finished game.",
+          "consequence": "Players can discuss their moves while nearby games stay quiet.",
+          "quote": "Give players a spot a little way from the quiet boards to talk over a finished game. An animated discussion of the moves can run much longer than the match."
+        },
+        {
+          "premise": "A rules disagreement between players can involve others in the room.",
+          "action": "Encourage the players to speak quietly to the host.",
+          "consequence": "They can resolve the question without drawing everyone else in.",
+          "quote": "If players disagree, encourage them to speak quietly to the host so they can resolve a question about the rules without involving everyone else."
+        },
+        {
+          "premise": "Two players may need to pause before a game is finished.",
+          "action": "Keep paper and a pencil available so they can record the position.",
+          "consequence": "Another visitor can use the board during the pause.",
+          "quote": "Keep a pencil and paper handy for two visitors to note the position if they need to pause their game. That frees the board for someone else in the meantime."
+        }
+      ]
+    }
+  ]
+}

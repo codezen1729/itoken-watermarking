@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Keep a pencil and reusable name cards by the rack so a maker can claim a board before a dozen similar bowls land beside it."
+    },
+    {
+      "id": "s01",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Give tall pieces a bay with extra headroom. A student carrying a vase should be able to set it down without tilting it under a shelf."
+    },
+    {
+      "id": "s02",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Stock ware boards that fit the rack with room for fingers at the edges, since a board that's easy to lift on the worktable can be awkward to retrieve from a shelf."
+    },
+    {
+      "id": "s03",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Offer a shallow, divided tray for small test tiles that would otherwise get lost behind pots."
+    },
+    {
+      "id": "s04",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Let people clip a handling note to their board when they're coming back to trim or attach a handle. A classmate can then tell whether it's okay to uncover the piece."
+    },
+    {
+      "id": "s05",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Set aside a clear table beside the rack where someone can put a load down while they look for a suitable space."
+    },
+    {
+      "id": "s06",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "If a shelf is too deep to reach across from one side, leave access behind it so nobody has to lean over a row of fresh rims."
+    },
+    {
+      "id": "s07",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Keep a basket of clean plastic sheets and clips nearby for makers who want part of a piece to dry more slowly."
+    },
+    {
+      "id": "s08",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Ask instructors to flag unusually large class projects on the studio calendar. Other groups can see when a whole shelf is likely to fill up."
+    },
+    {
+      "id": "s09",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Save some easy-reach space for anyone who would struggle to lift a loaded board above shoulder height."
+    },
+    {
+      "id": "s10",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Give each shelf a short, visible name that a maker can jot in a notebook to find a piece after a week away."
+    },
+    {
+      "id": "s11",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "A small lamp aimed along the back of a dim shelf makes an empty spot easier to distinguish from a space occupied by a low dish."
+    },
+    {
+      "id": "s12",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Date the arrival of each board so the volunteer doing the weekly round knows which owners to check in with."
+    },
+    {
+      "id": "s13",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Agree on a contact procedure for unclaimed work and post it by the rack, giving makers a chance to collect a piece before the studio clears its space."
+    },
+    {
+      "id": "s14",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Leave an example board on the teaching table with the pots spaced for a hand to pass between them. Beginners can see how much room to allow before they load their own."
+    },
+    {
+      "id": "s15",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Fit a low bumper beside the rack if carts regularly clip its exposed corner, sparing the work a jolt during busy changeovers."
+    },
+    {
+      "id": "s16",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Give the kiln team a clearly marked collection point for pieces the maker considers finished, keeping the drying shelves available for work still under way."
+    },
+    {
+      "id": "s17",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Take warped or splintered boards out of the supply as soon as someone spots them, before another student sets a flat platter on an uneven base."
+    },
+    {
+      "id": "s18",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Wipe an emptied shelf with a damp sponge between loads so the next board goes onto a clean surface without kicking dried clay into the room."
+    },
+    {
+      "id": "s19",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "For a project with a separate lid, keep the two parts together on one board while they dry. The maker won't have to hunt through similar lids at the next session."
+    },
+    {
+      "id": "s20",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Offer an overflow rack with the same shelf spacing as the main one so a full class can move whole boards without repacking fragile pieces."
+    },
+    {
+      "id": "s21",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Give anyone who spots damage a way to leave the maker a private note. The owner can decide whether to repair the piece while there's still time."
+    },
+    {
+      "id": "s22",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Keep empty boards on a separate stand near the worktables so students don't mistake a supply pile for occupied drying space."
+    },
+    {
+      "id": "s23",
+      "problem": "At our community pottery studio, how could we make the shared drying rack easier to use when several classes have work in progress?",
+      "text": "Let members nominate someone to check their work during an absence, giving staff a known person to ask if a piece needs attention."
+    }
+  ]
+}

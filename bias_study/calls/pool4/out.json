@@ -1,0 +1,268 @@
+{
+  "documents": [
+    {
+      "id": "s00",
+      "steps": [
+        {
+          "premise": "A whole loaf of each kind can be too much for one person to eat.",
+          "action": "Have bakers wrap some small portions of every loaf.",
+          "consequence": "Someone living alone can take home a variety they can use up.",
+          "quote": "Ask bakers to wrap a few small portions from each loaf so someone who lives alone can bring home several kinds without wasting bread."
+        }
+      ]
+    },
+    {
+      "id": "s01",
+      "steps": [
+        {
+          "premise": "A neighbor without an oven can still know an interesting bread.",
+          "action": "Accept contributions from a favorite local bakery.",
+          "consequence": "That neighbor can introduce the group to a loaf too.",
+          "quote": "Welcome a loaf from a favorite neighborhood bakery. Someone without an oven can make an introduction every bit as interesting as a home baker's."
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "steps": [
+        {
+          "premise": "A loaf's crust may give few clues to its filling or topping.",
+          "action": "Place ingredient cards beside the loaves with space to record those details.",
+          "consequence": "Visitors can find out what each bread contains.",
+          "quote": "Put blank ingredient cards beside the bread and leave room for fillings and toppings, which can be hard to identify from the crust."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "steps": [
+        {
+          "premise": "Sharing cutting equipment can carry flavors from one loaf to another.",
+          "action": "Give each sample loaf a separate board and knife.",
+          "consequence": "A cinnamon slice keeps its own flavor after a visitor samples garlic bread.",
+          "quote": "Give each tasting loaf its own board and knife so the garlic on one sample doesn't follow the next visitor into a slice of cinnamon bread."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "steps": [
+        {
+          "premise": "People coming from work may arrive after the first loaves go.",
+          "action": "With contributors' agreement, hold some bread for release later within the posted hours.",
+          "consequence": "Later arrivals can still pick from a selection.",
+          "quote": "Save some bread from willing contributors for a later release during the advertised hours, so arriving straight from work still means finding a choice."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "steps": [
+        {
+          "premise": "Standing at the exchange can tire some visitors.",
+          "action": "Provide a stool at the exchange table.",
+          "consequence": "They can stay and talk with the bakers while seated.",
+          "quote": "A stool at the exchange table gives anyone who tires of standing a chance to linger and talk to the bakers."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "steps": [
+        {
+          "premise": "Introducing oneself to a room can feel difficult.",
+          "action": "Invite bakers to leave a brief story with their loaf.",
+          "consequence": "Visitors have a specific detail they can ask about to start a conversation.",
+          "quote": "Invite people to put a few words about a loaf's history beside it. Asking about a grandmother's skillet bread is an easier opening than introducing yourself to a room."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "steps": [
+        {
+          "premise": "Slices from different loaves may be hard to identify at home.",
+          "action": "Set out bags that hold several slices and a pencil to label them.",
+          "consequence": "People can tell which bread they brought home in each bag.",
+          "quote": "Set out paper bags big enough for a few slices and a pencil for writing on them, so people can tell their selections apart once they're home."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "steps": [
+        {
+          "premise": "A contributor may need to leave briefly for an errand.",
+          "action": "Let a host look after the person's bread while they're out.",
+          "consequence": "They retain their place in the exchange.",
+          "quote": "Let contributors leave their bread with a host if they need to step out. A quick errand needn't cost them their place in the swap."
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "steps": [
+        {
+          "premise": "Rain can move the swap away from its usual courtyard.",
+          "action": "Include the indoor wet-weather location in the invitation.",
+          "consequence": "Neighbors carrying bread can go to the right place when it rains.",
+          "quote": "Post the indoor rain location with the invitation so a wet morning doesn't send neighbors carrying loaves to an empty courtyard."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A newcomer may need to see how an exchange works before the room fills.",
+          "action": "Put a volunteer at a quiet entrance welcome spot to walk them through a swap.",
+          "consequence": "They can learn the exchange process before it gets busy.",
+          "quote": "Place a quiet welcome at the entrance with a volunteer who can walk a newcomer through an exchange before the room gets busy."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "People carrying trays need passing room, particularly near a display where people stop to ask questions.",
+          "action": "Space the displays far enough apart for two people with trays.",
+          "consequence": "Visitors can pass each other even where someone pauses.",
+          "quote": "Leave space between displays for two people to pass while carrying trays, especially where visitors tend to stop to ask about a loaf."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A visitor may hesitate to choose an unfamiliar loaf if unsure how to serve it the next day.",
+          "action": "Ask the baker how they like to eat it the day after, such as toasted or reheated.",
+          "consequence": "A serving suggestion makes the choice easier.",
+          "quote": "Ask each baker how they like to eat their bread the following day. A reheating or toasting suggestion makes a less familiar loaf easier to choose."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A conversation beside a display can tie up access to the bread.",
+          "action": "Place seats for talking a short distance from the table.",
+          "consequence": "People can keep chatting while others reach the loaves.",
+          "quote": "Put the conversation seats a little way from the bread so a good story can continue while somebody else reaches the table."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A visitor may want to bake a loaf they tried without exchanging contact details with a stranger.",
+          "action": "Provide slips for any willing baker to write out the recipe.",
+          "consequence": "Visitors can take the recipe and try baking it at home.",
+          "quote": "Offer recipe slips that bakers can fill in if they like, letting a visitor try the bread at home without asking a stranger for contact details."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A failed batch can leave a neighbor without a loaf to exchange.",
+          "action": "Reserve spare contributions in a basket for empty-handed guests.",
+          "consequence": "They can still come and take part.",
+          "quote": "Set a basket of spare contributions aside for people who turn up empty-handed. A batch that didn't rise shouldn't have to keep a neighbor away."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Newcomers may be unsure what amount makes a fair exchange.",
+          "action": "Display an actual example of the suggested portion near the entrance.",
+          "consequence": "Guests can judge a fair portion without guessing.",
+          "quote": "Show the suggested size of a swap portion with a real example near the door, saving newcomers the awkwardness of guessing what's fair."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Some people will miss out on a popular loaf.",
+          "action": "Offer its baker a place to leave a note about bringing it again.",
+          "consequence": "People who missed a share have a reason to come back.",
+          "quote": "Give the baker of a very popular loaf a place to leave a note about bringing it again, so missing out can turn into a reason to return."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Serving tins and baskets can be left for the hosts to deal with.",
+          "action": "State in the invitation when owners can pick them up.",
+          "consequence": "Owners know when to retrieve their things, reducing unclaimed kitchenware.",
+          "quote": "Keep the invitation clear about when people can collect their serving tins and baskets, sparing the hosts a pile of unclaimed kitchenware."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A child may want a role at the swap.",
+          "action": "Invite the child to draw a picture of a loaf for the display.",
+          "consequence": "The family has a way to help together while leaving the samples untouched.",
+          "quote": "A child who wants to help could draw a little portrait of a loaf for the table, giving families something to do together without handling the samples."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "steps": [
+        {
+          "premise": "Steam trapped around a newly baked loaf can soften its crust.",
+          "action": "Provide a cooling rack near check-in for warm arrivals.",
+          "consequence": "A loaf can cool before bagging and keep its crust for tasting.",
+          "quote": "Leave a cooling rack near check-in for bread that arrives warm, since bagging a steaming loaf can soften the crust before anyone tries it."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "steps": [
+        {
+          "premise": "The closing crew may have bread left over that belongs to contributors.",
+          "action": "Ask bakers ahead of time to choose where their spare bread should go.",
+          "consequence": "The crew can pass it along to a destination the baker agreed to.",
+          "quote": "Invite contributors to choose a home for their spare bread in advance, allowing the closing crew to pass it along with the baker's agreement."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "steps": [
+        {
+          "premise": "A newcomer approaching from the street may already be managing a bike and a loaf.",
+          "action": "Put a sign at the entrance where people on the pavement can see it.",
+          "consequence": "First-time visitors can spot the way in as they approach.",
+          "quote": "Put a street-facing sign at the actual entrance. First-time visitors juggling a loaf and a bike will appreciate spotting the way in from the pavement."
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "steps": [
+        {
+          "premise": "Visitors may remember a bread they would enjoy tasting again.",
+          "action": "Give them a sheet to write down those requests.",
+          "consequence": "A neighbor familiar with a requested bread gets an idea for what to bring next time.",
+          "quote": "Keep a sheet where visitors can request a bread they remember fondly, giving a neighbor who knows how to bake it an idea for the next gathering."
+        }
+      ]
+    }
+  ]
+}

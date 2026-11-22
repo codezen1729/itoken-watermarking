@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Station a book where a seated visitor can see an interesting plant clearly, so drawing needn't involve balancing the book on one knee in a path."
+    },
+    {
+      "id": "s01",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Let a gardener contribute an unfinished pencil study near the front. A few searching lines make putting an imperfect mark in a public book feel easier."
+    },
+    {
+      "id": "s02",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Offer a prompt as small as drawing the edge of one leaf, giving visitors with only a minute a subject they can finish."
+    },
+    {
+      "id": "s03",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "A small cardboard viewfinder helps someone faced with a whole border pick a patch of stems that fits on the page."
+    },
+    {
+      "id": "s04",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Choose a binding that lies open by itself so a visitor can hold a pencil in one hand and steady a child's hand with the other."
+    },
+    {
+      "id": "s05",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Supply soft graphite for the communal books so a bold drawing on one side of a sheet leaves the next side usable."
+    },
+    {
+      "id": "s06",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Set out a few pencil grips of different widths to give visitors who find a slim barrel awkward a comfortable way to draw."
+    },
+    {
+      "id": "s07",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "A simple picture of an open book and a drawing hand can invite someone to join in even if they can't read the garden's welcome sign."
+    },
+    {
+      "id": "s08",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Encourage artists to jot down the date if they wish. People leafing back in autumn can then spot how early the magnolia opened."
+    },
+    {
+      "id": "s09",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Leave space for the plant's garden location beside a drawing, helping another visitor track down an intriguing seed head for a closer look."
+    },
+    {
+      "id": "s10",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Set up a second copy of a completed book for browsing nearby, freeing the current volume for visitors who are waiting to draw."
+    },
+    {
+      "id": "s11",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Give the sketchbook a dry home under cover with a clear place to return it, so a sudden shower doesn't soak a season's drawings."
+    },
+    {
+      "id": "s12",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Ask visitors to turn the book toward the plant when taking a reference photo, keeping other guests out of the frame in a busy glasshouse."
+    },
+    {
+      "id": "s13",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Welcome a line about a scent or sound alongside a sketch, letting the page preserve something its outline alone can't convey."
+    },
+    {
+      "id": "s14",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Keep a few pieces of scrap paper in the pencil tray for people who want to try a mark privately before committing it to the shared book."
+    },
+    {
+      "id": "s15",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Let children and adults work side by side on a spread if both want to. Two views of the same flower give them something concrete to compare."
+    },
+    {
+      "id": "s16",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "An invitation to draw the fallen pods already on the table brings small details within reach without asking visitors to pick anything."
+    },
+    {
+      "id": "s17",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "A pencil sharpener with a closed shavings cup lets visitors restore a fine point for tiny details without scattering wood curls into the beds."
+    },
+    {
+      "id": "s18",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Ask a volunteer to flip through each volume for loose leaves at closing, when a small repair can still save a drawing from going astray."
+    },
+    {
+      "id": "s19",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Provide a slip that visitors can take home with the sketchbook station marked on a garden map, making it easier to return with a friend."
+    },
+    {
+      "id": "s20",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Give finished volumes a shelf sorted by season, so a returning visitor can find what other people noticed during the same month in earlier years."
+    },
+    {
+      "id": "s21",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Offer an occasional quiet drawing period before a garden tour, letting visitors who like to observe in silence try the books in company."
+    },
+    {
+      "id": "s22",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Post a written invitation to leave drawings unsigned, so adding a page doesn't require making a public introduction."
+    },
+    {
+      "id": "s23",
+      "problem": "What would help our botanic garden's shared sketchbooks become something visitors actually enjoy drawing in and looking through?",
+      "text": "Keep a magnifying lens at the station for visitors curious about a vein or a patch of bark, turning a barely visible feature into a subject of its own."
+    }
+  ]
+}

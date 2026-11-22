@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Put the number of available chairs against each date on a shared booking calendar so organizers can see whether a request will fit."
+    },
+    {
+      "id": "s01",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Take bookings by phone as well as online and enter both in the same record. Someone without internet access can reserve a set on the same terms as anyone else."
+    },
+    {
+      "id": "s02",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Ask for the pickup and return times when a booking is made, since a Saturday evening event may mean the chairs are still out on Sunday morning."
+    },
+    {
+      "id": "s03",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Have each organizer name someone reachable during the event. A driver running late can call the person with the keys."
+    },
+    {
+      "id": "s04",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Offer a waiting list for popular dates and ask borrowers to release surplus chairs when their head count drops."
+    },
+    {
+      "id": "s05",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Publish the dimensions of a folded chair and a nested stack so a borrower can work out what will fit in their vehicle."
+    },
+    {
+      "id": "s06",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Attach the group's name and return number under each seat, giving anyone who finds a stray chair after cleanup a way to get it home."
+    },
+    {
+      "id": "s07",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Count the chairs together at handover and give the borrower a copy of the count to use when the room gets packed up."
+    },
+    {
+      "id": "s08",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Keep a handcart by the store entrance for borrowers making several trips between the shelves and a vehicle."
+    },
+    {
+      "id": "s09",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Include a photo of the correct loading door with the pickup details. It can save a volunteer a walk around the building carrying chairs."
+    },
+    {
+      "id": "s10",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Show the borrower how to open and close one chair from the set so they can demonstrate it to the people setting up the hall."
+    },
+    {
+      "id": "s11",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Give a chair with a loose hinge or missing foot a conspicuous repair tag and a separate storage spot, keeping it out of the next delivery."
+    },
+    {
+      "id": "s12",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Send a reminder on the morning of an agreed return so packing up the chairs stays on the organizer's list after the guests leave."
+    },
+    {
+      "id": "s13",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Allow time between bookings to check and clean a returned batch before another group expects to collect it."
+    },
+    {
+      "id": "s14",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Provide a sheltered place to unfold wet returns and let them dry before they go back into storage."
+    },
+    {
+      "id": "s15",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Lay out parking positions for stacks on the storeroom floor so a borrower can put a load away without blocking the door."
+    },
+    {
+      "id": "s16",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Show the seat width and whether the chairs have arms in the booking information, giving hosts time to arrange other seating for guests who need it."
+    },
+    {
+      "id": "s17",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Give the event team removable row signs that clip on. They can reserve seats without leaving tape or adhesive on borrowed chairs."
+    },
+    {
+      "id": "s18",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Explain any charge for borrowing or breakage before confirming the booking, while a small group can still plan its budget."
+    },
+    {
+      "id": "s19",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Let a borrower nominate another person to make the return so the chairs can get back on time even when the event organizer has to leave early."
+    },
+    {
+      "id": "s20",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Give borrowers a simple way to report a chair left at a venue. A volunteer can arrange to recover just that chair instead of holding up the whole return."
+    },
+    {
+      "id": "s21",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Offer to match car-free borrowers with volunteer drivers who have already agreed to help, widening the range of events the chairs can serve."
+    },
+    {
+      "id": "s22",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Record requests the group couldn't fill as well as completed loans. Repeated shortfalls on the same weekend can guide a future purchase."
+    },
+    {
+      "id": "s23",
+      "problem": "How could our neighborhood group make it easier for local event organizers to borrow our folding chairs and get them back to us?",
+      "text": "Ask whether the venue already has folding chairs that look like ours. Sorting the two sets into separate piles during cleanup is easier than tracing a mix-up the next day."
+    }
+  ]
+}

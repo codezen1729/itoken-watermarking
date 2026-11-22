@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Send each performer a short list of what to wear or bring, since a trouser hem measured over slippers may sit differently over the show shoes."
+    },
+    {
+      "id": "s01",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Allow a little extra time for people with several changes, so one elaborate costume doesn't quietly push the rest of the evening behind."
+    },
+    {
+      "id": "s02",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Set up a screened changing area with a chair and hooks so nobody has to balance on one foot or leave their own clothes on the floor."
+    },
+    {
+      "id": "s03",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Ask before touching a performer to adjust a collar or sleeve, giving them time to say they'd prefer to move the fabric themselves."
+    },
+    {
+      "id": "s04",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Hang every part of an outfit together in scene order so a fitter can spend the appointment checking clothes instead of hunting for the matching waistcoat."
+    },
+    {
+      "id": "s05",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Have someone check people in just outside the fitting area, which keeps arrivals from wandering into a change already in progress."
+    },
+    {
+      "id": "s06",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Let performers send word to one named contact if their journey is delayed, so the team can fill a gap while there's still time to use it."
+    },
+    {
+      "id": "s07",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Try the movements the role actually calls for, such as sitting on a low stool or raising both arms, to catch a tight seam while the performer is present."
+    },
+    {
+      "id": "s08",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Give each alteration note a garment name and the wearer's left or right side. The person sewing tomorrow should be able to pick it up without a demonstration."
+    },
+    {
+      "id": "s09",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Ask the performer where anything rubs after they've had the costume on for a few minutes, because discomfort doesn't always show in the mirror."
+    },
+    {
+      "id": "s10",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Use removable clips to hold a proposed change while the performer looks in the mirror, so they can comment before any fabric gets cut."
+    },
+    {
+      "id": "s11",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Reserve a rail for garments ready to go onstage, keeping them out of the alterations pile when the room is cleared at the end."
+    },
+    {
+      "id": "s12",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Keep an easy-to-read clock within the fitter's sight so they can pace an appointment without repeatedly looking away from the performer."
+    },
+    {
+      "id": "s13",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "If a reference photo would help the sewer, ask permission and frame just the garment detail that needs work, leaving room for a performer to decline."
+    },
+    {
+      "id": "s14",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Have the note taker read back the requested change while the costume is still on, when a misunderstood sleeve length takes seconds to put right."
+    },
+    {
+      "id": "s15",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Invite people to mention access needs privately when booking, giving the team time to arrange a suitable changing space before they arrive."
+    },
+    {
+      "id": "s16",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Set a few minutes aside for testing the fastest backstage change with the dresser, since a perfectly fitted jacket can still take too long to fasten."
+    },
+    {
+      "id": "s17",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Mark borrowed pieces on the rail with the owner's alteration limits, saving a volunteer from shortening a hem that must be returned intact."
+    },
+    {
+      "id": "s18",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Keep drinks and snacks on a separate table for waiting volunteers so a long evening's coffee doesn't end up on a pale costume."
+    },
+    {
+      "id": "s19",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Assign each approved alteration to a particular sewer before packing up, making it clear who will act on a note once everyone goes home."
+    },
+    {
+      "id": "s20",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Set aside a short drop-in window for performers whose shifts make a fixed appointment hard to keep, without making the booked guests wait behind them."
+    },
+    {
+      "id": "s21",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Use a lamp near the mirror that lets the team see fastenings and seams on dark fabric, cutting down on changes missed in a dim rehearsal room."
+    },
+    {
+      "id": "s22",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Circle any change that needs another fitting and agree on a return time with the wearer, while their schedule and the garment are both to hand."
+    },
+    {
+      "id": "s23",
+      "problem": "How can our volunteer costume team run an evening of fittings that respects people's time and leaves us clear about the alterations?",
+      "text": "Write down the agreed priorities if there's more sewing than the team can finish, so a costume needed at tomorrow's rehearsal gets attention in time."
+    }
+  ]
+}

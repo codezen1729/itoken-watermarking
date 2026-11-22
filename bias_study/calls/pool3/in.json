@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public problem and document. Recover the distinct reasoning steps actually advocated, in your own concise ordinary English. A step links a stated or clearly implied reason to a concrete mechanism/action and its intended consequence. Keep roles, ordering, conditions and scope. Do not fill in unstated reasoning. Separate distinct causal applications, merge duplicates, and abstain on unsupported or unresolved ones. Return any number of steps. For each give premise, action, consequence, and quote (one exact contiguous source passage supporting the step). Use [] if none. No fixed vocabulary or reference answers are supplied.",
+  "documents": [
+    {
+      "id": "s00",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Have a host meet people at the door and offer to walk them over to the lesson, sparing a first-time visitor the search for a familiar face."
+    },
+    {
+      "id": "s01",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Say on the invitation that people can come alone so potential guests know they don't need to find a partner before they arrive."
+    },
+    {
+      "id": "s02",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Repeat a brief introduction partway through the evening for someone who missed the opening lesson or needed a little time to watch."
+    },
+    {
+      "id": "s03",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Give beginners a basic step they can use for a whole song, leaving them something dependable to return to when a new figure slips their mind."
+    },
+    {
+      "id": "s04",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Ask a few regulars to volunteer for dances with first-timers so an arriving group doesn't find all the experienced partners paired off."
+    },
+    {
+      "id": "s05",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Model both a friendly invitation and a friendly decline during the welcome. Guests get to hear how either answer can end comfortably."
+    },
+    {
+      "id": "s06",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Make partner changes optional during the lesson so two people who feel steadier practicing together can keep their place."
+    },
+    {
+      "id": "s07",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Teach partner roles by describing what each person does and let people choose which part they want to learn."
+    },
+    {
+      "id": "s08",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Mix slower tracks into the program throughout the night, giving someone catching their breath a chance to rejoin at a manageable pace."
+    },
+    {
+      "id": "s09",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Announce the type of dance before the music starts so a beginner has time to decide whether to get up for it."
+    },
+    {
+      "id": "s10",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Leave a little room beside the main floor for people to try a step a few times without being swept along by the crowd."
+    },
+    {
+      "id": "s11",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Show an easy version of a turn that keeps both feet close to the floor, giving anyone who finds spinning uncomfortable a way through the figure."
+    },
+    {
+      "id": "s12",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Teach a pair how to stop and pick up the beat again. Losing time needn't cost them the rest of the song."
+    },
+    {
+      "id": "s13",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Ask regulars to check whether a partner wants feedback before giving tips, letting a beginner enjoy a dance without an unexpected lesson."
+    },
+    {
+      "id": "s14",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Set out chairs with a view of the floor so watching a song feels like participating in the evening and offers a chance to see the steps."
+    },
+    {
+      "id": "s15",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Put drinking water somewhere easy to spot and reach, allowing a new dancer to take a break without having to track down the host."
+    },
+    {
+      "id": "s16",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Walk everyone through the direction of travel on a busy floor so a new couple knows where other dancers are likely to pass."
+    },
+    {
+      "id": "s17",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Give bags and coats a home away from the dancing area. A guest concentrating on unfamiliar steps shouldn't have to weave around belongings."
+    },
+    {
+      "id": "s18",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Keep the teacher's face and feet well lit during demonstrations so people can use visual cues when the room is noisy."
+    },
+    {
+      "id": "s19",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Point out a named host who can help if a partner keeps pressing for a dance, giving newcomers someone specific to approach."
+    },
+    {
+      "id": "s20",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Make the photo arrangement clear and take group pictures with willing participants so people can try unfamiliar movements without worrying about appearing in a post."
+    },
+    {
+      "id": "s21",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Include the door price and payment options in the invitation so people can arrive with the fare in hand and head straight in to meet the host."
+    },
+    {
+      "id": "s22",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Invite people to chat briefly over a break with the music turned down. Someone who sat out a few songs can still get to know the group."
+    },
+    {
+      "id": "s23",
+      "problem": "What could we do at our neighborhood dance social to help beginners who tend to leave after a few songs feel welcome for the evening?",
+      "text": "Leave an anonymous question box by the exit and use the questions to shape the next introduction, reaching people who felt too shy to speak up in class."
+    }
+  ]
+}
