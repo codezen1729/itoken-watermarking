@@ -1,0 +1,2307 @@
+{
+  "freeze": {
+    "protocol": "natural-agent-transport-v1",
+    "label": "natural-original",
+    "batch_group": "cmarkedv0b4",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "7dd6b72f4974b0252ddb835b38a6b5db9f27bc187b6f29b3fdee0e43f1dc7ac0",
+    "bindings_sha256": "0df99939869e52acdcc9023a0601089d6c42d6358f7a52bec73b2b65a51bd4bd",
+    "source_sha256": {
+      "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+      "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "7cbae8e6f19e66d4a54965472f6cf781c97aeffa82b4ee9475d6ba3d005eb649"
+  },
+  "rows": [
+    {
+      "id": "7d79fdba6e593f65",
+      "problem_id": "problem_1069801cdff8",
+      "text": "Give newcomers the illustrated studio guide and let them take as long as they need to walk the route. At the end, have each newcomer describe to the steward how a session works. The steward can pick up on anything they missed before they work independently. For booking, the steward posts the order in which members may choose sessions from the sheet. Rotate who gets an early choice each round. Members can fit the benches still available to their own schedules, and anyone arriving can take an unclaimed session.\n\nStart a project with a small working sample. Once a member has seen how the material behaves, they can use the project card to set out what to do next, what supplies to lay out and where they expect to stop. Before lifting a tool off its numbered hook, the member writes their name on the corresponding line. Anyone who finds the hook empty can go straight to the borrower, who returns the tool within the session. If a tool proves faulty, stop using it and put it in the marked tray. The person who noticed the problem fills in a repair card with what they saw or felt during use. The steward then has the tool out of circulation and a specific account to pass on for inspection.\n\nPut brief questions on the help list under their topics. The steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do. If one question keeps coming back, the steward can choose it for that week's optional demonstration and invite members over to the demonstration corner. Someone just starting the technique may learn it before reaching the same sticking point.\n\nBefore hammering at the noisy-work station, announce what you are about to do and wait for acknowledgment from the people nearby. That gives someone doing delicate work a chance to pause. For a wet piece, its maker picks a vacant rack space and tags the piece there with their name and the earliest time it can safely be handled. The next person looking for drying space can see when a place might open up. For work going into storage between visits, pack it and mark the owner and review date. Show it to the steward, who assigns a free shelf position and logs the location so the work can be found again within the member's usual allowance.\n\nSort clean, useful offcuts as you make them. Match the piece to the examples by the labeled containers and put it straight into the right one for someone else to use. For members offering their own spare materials, the steward gathers labeled offers showing quantities and conditions. Hold a weekly exchange so owners can meet people interested in taking an offer and answer questions before they accept it. At the end of every opening day, the steward counts common supplies and brings the restock card up to date, including any orders already due. Several low stocks can then be considered together when deciding what to order.\n\nReserve the last few minutes at neighboring benches for the two members to work as a pair. Go through the cleanup checklist together on one bench, then do the same on the other. A second pair of eyes helps spot a forgotten tool or scraps. Before starting their next session, members read any dated changes on the board and acknowledge them by their names. The steward can follow up individually with anyone who still needs to hear the update. During the shift overlap, both stewards walk around together and write down outstanding duties on the handover pad as they go. The incoming steward has seen the low shelf or maintenance issue behind the note and knows which follow-ups are still owed.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_af900452074f": "choice_7efff2c0a968",
+          "decision_d04eadb89670": "choice_958f5019a6d2",
+          "decision_6383cfac596b": "choice_aec7f9cedd8e",
+          "decision_a6a9b6cd6e4b": "choice_4976635fe703",
+          "decision_65f618ef18c2": "choice_70bf19ca9283",
+          "decision_bc5962445d8e": "choice_0390840ae447",
+          "decision_6f32daf6730d": "choice_ec9293d1be3c",
+          "decision_4b8738612992": "choice_d2e06e764c1d",
+          "decision_cd7df5e879f6": "choice_8a152e7fcb99",
+          "decision_4faba2dc53f0": "choice_74085dd1c27f",
+          "decision_6427357198e3": "choice_3f9a4d8c3deb",
+          "decision_dadbf9da52b7": "choice_55009636773d",
+          "decision_3729330e7c57": "choice_4bc71b738b21",
+          "decision_84be91506f83": "choice_b7bfd93b3c71",
+          "decision_cfd5493757cd": "choice_58e25dd8538b",
+          "decision_02a7a0bf9e70": "choice_5afcd291493f"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_af900452074f": "Before lifting a tool off its numbered hook, the member writes their name on the corresponding line.\nAnyone who finds the hook empty can go straight to the borrower, who returns the tool within the session.",
+          "decision_d04eadb89670": "For booking, the steward posts the order in which members may choose sessions from the sheet.\nRotate who gets an early choice each round.\nMembers can fit the benches still available to their own schedules, and anyone arriving can take an unclaimed session.",
+          "decision_6383cfac596b": "Give newcomers the illustrated studio guide and let them take as long as they need to walk the route.\nAt the end, have each newcomer describe to the steward how a session works.\nThe steward can pick up on anything they missed before they work independently.",
+          "decision_a6a9b6cd6e4b": "Reserve the last few minutes at neighboring benches for the two members to work as a pair.\nGo through the cleanup checklist together on one bench, then do the same on the other.\nA second pair of eyes helps spot a forgotten tool or scraps.",
+          "decision_65f618ef18c2": "Sort clean, useful offcuts as you make them.\nMatch the piece to the examples by the labeled containers and put it straight into the right one for someone else to use.",
+          "decision_bc5962445d8e": "For members offering their own spare materials, the steward gathers labeled offers showing quantities and conditions.\nHold a weekly exchange so owners can meet people interested in taking an offer and answer questions before they accept it.",
+          "decision_6f32daf6730d": "Put brief questions on the help list under their topics.\nThe steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do.",
+          "decision_4b8738612992": "Put brief questions on the help list under their topics.\nThe steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do.\nIf one question keeps coming back, the steward can choose it for that week's optional demonstration and invite members over to the demonstration corner.\nSomeone just starting the technique may learn it before reaching the same sticking point.",
+          "decision_cd7df5e879f6": "For a wet piece, its maker picks a vacant rack space and tags the piece there with their name and the earliest time it can safely be handled.\nThe next person looking for drying space can see when a place might open up.",
+          "decision_4faba2dc53f0": "If a tool proves faulty, stop using it and put it in the marked tray.\nThe person who noticed the problem fills in a repair card with what they saw or felt during use.\nThe steward then has the tool out of circulation and a specific account to pass on for inspection.",
+          "decision_6427357198e3": "Before hammering at the noisy-work station, announce what you are about to do and wait for acknowledgment from the people nearby.\nThat gives someone doing delicate work a chance to pause.",
+          "decision_dadbf9da52b7": "At the end of every opening day, the steward counts common supplies and brings the restock card up to date, including any orders already due.\nSeveral low stocks can then be considered together when deciding what to order.",
+          "decision_3729330e7c57": "Start a project with a small working sample.\nOnce a member has seen how the material behaves, they can use the project card to set out what to do next, what supplies to lay out and where they expect to stop.",
+          "decision_84be91506f83": "During the shift overlap, both stewards walk around together and write down outstanding duties on the handover pad as they go.\nThe incoming steward has seen the low shelf or maintenance issue behind the note and knows which follow-ups are still owed.",
+          "decision_cfd5493757cd": "For work going into storage between visits, pack it and mark the owner and review date.\nShow it to the steward, who assigns a free shelf position and logs the location so the work can be found again within the member's usual allowance.",
+          "decision_02a7a0bf9e70": "Before starting their next session, members read any dated changes on the board and acknowledge them by their names.\nThe steward can follow up individually with anyone who still needs to hear the update."
+        },
+        "source_spans": {
+          "decision_af900452074f": [
+            {
+              "sentence": 9,
+              "start": 724,
+              "end": 824,
+              "text": "Before lifting a tool off its numbered hook, the member writes their name on the corresponding line."
+            },
+            {
+              "sentence": 10,
+              "start": 825,
+              "end": 930,
+              "text": "Anyone who finds the hook empty can go straight to the borrower, who returns the tool within the session."
+            }
+          ],
+          "decision_d04eadb89670": [
+            {
+              "sentence": 4,
+              "start": 258,
+              "end": 351,
+              "text": "For booking, the steward posts the order in which members may choose sessions from the sheet."
+            },
+            {
+              "sentence": 5,
+              "start": 352,
+              "end": 395,
+              "text": "Rotate who gets an early choice each round."
+            },
+            {
+              "sentence": 6,
+              "start": 396,
+              "end": 514,
+              "text": "Members can fit the benches still available to their own schedules, and anyone arriving can take an unclaimed session."
+            }
+          ],
+          "decision_6383cfac596b": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 101,
+              "text": "Give newcomers the illustrated studio guide and let them take as long as they need to walk the route."
+            },
+            {
+              "sentence": 2,
+              "start": 102,
+              "end": 177,
+              "text": "At the end, have each newcomer describe to the steward how a session works."
+            },
+            {
+              "sentence": 3,
+              "start": 178,
+              "end": 257,
+              "text": "The steward can pick up on anything they missed before they work independently."
+            }
+          ],
+          "decision_a6a9b6cd6e4b": [
+            {
+              "sentence": 30,
+              "start": 2921,
+              "end": 3011,
+              "text": "Reserve the last few minutes at neighboring benches for the two members to work as a pair."
+            },
+            {
+              "sentence": 31,
+              "start": 3012,
+              "end": 3098,
+              "text": "Go through the cleanup checklist together on one bench, then do the same on the other."
+            },
+            {
+              "sentence": 32,
+              "start": 3099,
+              "end": 3159,
+              "text": "A second pair of eyes helps spot a forgotten tool or scraps."
+            }
+          ],
+          "decision_65f618ef18c2": [
+            {
+              "sentence": 24,
+              "start": 2290,
+              "end": 2334,
+              "text": "Sort clean, useful offcuts as you make them."
+            },
+            {
+              "sentence": 25,
+              "start": 2335,
+              "end": 2456,
+              "text": "Match the piece to the examples by the labeled containers and put it straight into the right one for someone else to use."
+            }
+          ],
+          "decision_bc5962445d8e": [
+            {
+              "sentence": 26,
+              "start": 2457,
+              "end": 2574,
+              "text": "For members offering their own spare materials, the steward gathers labeled offers showing quantities and conditions."
+            },
+            {
+              "sentence": 27,
+              "start": 2575,
+              "end": 2697,
+              "text": "Hold a weekly exchange so owners can meet people interested in taking an offer and answer questions before they accept it."
+            }
+          ],
+          "decision_6f32daf6730d": [
+            {
+              "sentence": 14,
+              "start": 1198,
+              "end": 1254,
+              "text": "Put brief questions on the help list under their topics."
+            },
+            {
+              "sentence": 15,
+              "start": 1255,
+              "end": 1401,
+              "text": "The steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do."
+            }
+          ],
+          "decision_4b8738612992": [
+            {
+              "sentence": 14,
+              "start": 1198,
+              "end": 1254,
+              "text": "Put brief questions on the help list under their topics."
+            },
+            {
+              "sentence": 15,
+              "start": 1255,
+              "end": 1401,
+              "text": "The steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do."
+            },
+            {
+              "sentence": 16,
+              "start": 1402,
+              "end": 1554,
+              "text": "If one question keeps coming back, the steward can choose it for that week's optional demonstration and invite members over to the demonstration corner."
+            },
+            {
+              "sentence": 17,
+              "start": 1555,
+              "end": 1644,
+              "text": "Someone just starting the technique may learn it before reaching the same sticking point."
+            }
+          ],
+          "decision_cd7df5e879f6": [
+            {
+              "sentence": 20,
+              "start": 1834,
+              "end": 1975,
+              "text": "For a wet piece, its maker picks a vacant rack space and tags the piece there with their name and the earliest time it can safely be handled."
+            },
+            {
+              "sentence": 21,
+              "start": 1976,
+              "end": 2052,
+              "text": "The next person looking for drying space can see when a place might open up."
+            }
+          ],
+          "decision_4faba2dc53f0": [
+            {
+              "sentence": 11,
+              "start": 931,
+              "end": 1000,
+              "text": "If a tool proves faulty, stop using it and put it in the marked tray."
+            },
+            {
+              "sentence": 12,
+              "start": 1001,
+              "end": 1097,
+              "text": "The person who noticed the problem fills in a repair card with what they saw or felt during use."
+            },
+            {
+              "sentence": 13,
+              "start": 1098,
+              "end": 1196,
+              "text": "The steward then has the tool out of circulation and a specific account to pass on for inspection."
+            }
+          ],
+          "decision_6427357198e3": [
+            {
+              "sentence": 18,
+              "start": 1646,
+              "end": 1775,
+              "text": "Before hammering at the noisy-work station, announce what you are about to do and wait for acknowledgment from the people nearby."
+            },
+            {
+              "sentence": 19,
+              "start": 1776,
+              "end": 1833,
+              "text": "That gives someone doing delicate work a chance to pause."
+            }
+          ],
+          "decision_dadbf9da52b7": [
+            {
+              "sentence": 28,
+              "start": 2698,
+              "end": 2839,
+              "text": "At the end of every opening day, the steward counts common supplies and brings the restock card up to date, including any orders already due."
+            },
+            {
+              "sentence": 29,
+              "start": 2840,
+              "end": 2919,
+              "text": "Several low stocks can then be considered together when deciding what to order."
+            }
+          ],
+          "decision_3729330e7c57": [
+            {
+              "sentence": 7,
+              "start": 516,
+              "end": 560,
+              "text": "Start a project with a small working sample."
+            },
+            {
+              "sentence": 8,
+              "start": 561,
+              "end": 723,
+              "text": "Once a member has seen how the material behaves, they can use the project card to set out what to do next, what supplies to lay out and where they expect to stop."
+            }
+          ],
+          "decision_84be91506f83": [
+            {
+              "sentence": 35,
+              "start": 3364,
+              "end": 3490,
+              "text": "During the shift overlap, both stewards walk around together and write down outstanding duties on the handover pad as they go."
+            },
+            {
+              "sentence": 36,
+              "start": 3491,
+              "end": 3614,
+              "text": "The incoming steward has seen the low shelf or maintenance issue behind the note and knows which follow-ups are still owed."
+            }
+          ],
+          "decision_cfd5493757cd": [
+            {
+              "sentence": 22,
+              "start": 2053,
+              "end": 2140,
+              "text": "For work going into storage between visits, pack it and mark the owner and review date."
+            },
+            {
+              "sentence": 23,
+              "start": 2141,
+              "end": 2288,
+              "text": "Show it to the steward, who assigns a free shelf position and logs the location so the work can be found again within the member's usual allowance."
+            }
+          ],
+          "decision_02a7a0bf9e70": [
+            {
+              "sentence": 33,
+              "start": 3160,
+              "end": 3276,
+              "text": "Before starting their next session, members read any dated changes on the board and acknowledge them by their names."
+            },
+            {
+              "sentence": 34,
+              "start": 3277,
+              "end": 3363,
+              "text": "The steward can follow up individually with anyone who still needs to hear the update."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_3fbce761c905a33c84",
+            "sentences": [
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_5bb083644237fa2837",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_6d19561b1f13be419a",
+            "sentences": [
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_71b98198b7e102279f",
+            "sentences": [
+              30,
+              31,
+              32
+            ]
+          },
+          {
+            "id": "O_861862f2ec5de7e0e2",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_8835b91d116cecff9c",
+            "sentences": [
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_98f459a2b69248d488",
+            "sentences": [
+              33,
+              34
+            ]
+          },
+          {
+            "id": "O_a85da287c80f76d2c7",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_b0424ae0ca722ab19a",
+            "sentences": [
+              35,
+              36
+            ]
+          },
+          {
+            "id": "O_b48154df70a9335fdb",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_c8a07e145c412d0d03",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_cc439929959ae091df",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_d29906256cc9f361f4",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_e2e9d1c31a7105928e",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_ece333753c795861d0",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_fb97e0b46c61fe4c8f",
+            "sentences": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_861862f2ec5de7e0e2",
+            "verdict": "supported",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_6d19561b1f13be419a",
+            "verdict": "supported",
+            "sentences": [
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_fb97e0b46c61fe4c8f",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "O_71b98198b7e102279f",
+            "verdict": "supported",
+            "sentences": [
+              30,
+              31,
+              32
+            ]
+          },
+          {
+            "id": "O_5bb083644237fa2837",
+            "verdict": "supported",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_3fbce761c905a33c84",
+            "verdict": "supported",
+            "sentences": [
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_e2e9d1c31a7105928e",
+            "verdict": "supported",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_b48154df70a9335fdb",
+            "verdict": "supported",
+            "sentences": [
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_ece333753c795861d0",
+            "verdict": "supported",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_8835b91d116cecff9c",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_c8a07e145c412d0d03",
+            "verdict": "supported",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_d29906256cc9f361f4",
+            "verdict": "supported",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_a85da287c80f76d2c7",
+            "verdict": "supported",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_b0424ae0ca722ab19a",
+            "verdict": "supported",
+            "sentences": [
+              35,
+              36
+            ]
+          },
+          {
+            "id": "O_cc439929959ae091df",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_98f459a2b69248d488",
+            "verdict": "supported",
+            "sentences": [
+              33,
+              34
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_fb97e0b46c61fe4c8f\", \"sentences\": [1, 2, 3]}, {\"id\": \"O_6d19561b1f13be419a\", \"sentences\": [4, 5, 6]}, {\"id\": \"O_a85da287c80f76d2c7\", \"sentences\": [7, 8]}, {\"id\": \"O_861862f2ec5de7e0e2\", \"sentences\": [9, 10]}, {\"id\": \"O_8835b91d116cecff9c\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_e2e9d1c31a7105928e\", \"sentences\": [14, 15]}, {\"id\": \"O_b48154df70a9335fdb\", \"sentences\": [16, 17]}, {\"id\": \"O_c8a07e145c412d0d03\", \"sentences\": [18, 19]}, {\"id\": \"O_ece333753c795861d0\", \"sentences\": [20, 21]}, {\"id\": \"O_cc439929959ae091df\", \"sentences\": [22, 23]}, {\"id\": \"O_5bb083644237fa2837\", \"sentences\": [24, 25]}, {\"id\": \"O_3fbce761c905a33c84\", \"sentences\": [26, 27]}, {\"id\": \"O_d29906256cc9f361f4\", \"sentences\": [28, 29]}, {\"id\": \"O_71b98198b7e102279f\", \"sentences\": [30, 31, 32]}, {\"id\": \"O_98f459a2b69248d488\", \"sentences\": [33, 34]}, {\"id\": \"O_b0424ae0ca722ab19a\", \"sentences\": [35, 36]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_861862f2ec5de7e0e2\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_6d19561b1f13be419a\", \"verdict\": \"supported\", \"sentences\": [4, 5, 6]}, {\"id\": \"O_fb97e0b46c61fe4c8f\", \"verdict\": \"supported\", \"sentences\": [1, 2, 3]}, {\"id\": \"O_71b98198b7e102279f\", \"verdict\": \"supported\", \"sentences\": [30, 31, 32]}, {\"id\": \"O_5bb083644237fa2837\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_3fbce761c905a33c84\", \"verdict\": \"supported\", \"sentences\": [26, 27]}, {\"id\": \"O_e2e9d1c31a7105928e\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_b48154df70a9335fdb\", \"verdict\": \"supported\", \"sentences\": [14, 15, 16, 17]}, {\"id\": \"O_ece333753c795861d0\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_8835b91d116cecff9c\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_c8a07e145c412d0d03\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_d29906256cc9f361f4\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_a85da287c80f76d2c7\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_b0424ae0ca722ab19a\", \"verdict\": \"supported\", \"sentences\": [35, 36]}, {\"id\": \"O_cc439929959ae091df\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_98f459a2b69248d488\", \"verdict\": \"supported\", \"sentences\": [33, 34]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_fb97e0b46c61fe4c8f\", \"sentences\": [1, 2, 3]}, {\"id\": \"O_6d19561b1f13be419a\", \"sentences\": [4, 5, 6]}, {\"id\": \"O_a85da287c80f76d2c7\", \"sentences\": [7, 8]}, {\"id\": \"O_861862f2ec5de7e0e2\", \"sentences\": [9, 10]}, {\"id\": \"O_8835b91d116cecff9c\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_e2e9d1c31a7105928e\", \"sentences\": [14, 15]}, {\"id\": \"O_b48154df70a9335fdb\", \"sentences\": [16, 17]}, {\"id\": \"O_c8a07e145c412d0d03\", \"sentences\": [18, 19]}, {\"id\": \"O_ece333753c795861d0\", \"sentences\": [20, 21]}, {\"id\": \"O_cc439929959ae091df\", \"sentences\": [22, 23]}, {\"id\": \"O_5bb083644237fa2837\", \"sentences\": [24, 25]}, {\"id\": \"O_3fbce761c905a33c84\", \"sentences\": [26, 27]}, {\"id\": \"O_d29906256cc9f361f4\", \"sentences\": [28, 29]}, {\"id\": \"O_71b98198b7e102279f\", \"sentences\": [30, 31, 32]}, {\"id\": \"O_98f459a2b69248d488\", \"sentences\": [33, 34]}, {\"id\": \"O_b0424ae0ca722ab19a\", \"sentences\": [35, 36]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_861862f2ec5de7e0e2\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_6d19561b1f13be419a\", \"verdict\": \"supported\", \"sentences\": [4, 5, 6]}, {\"id\": \"O_fb97e0b46c61fe4c8f\", \"verdict\": \"supported\", \"sentences\": [1, 2, 3]}, {\"id\": \"O_71b98198b7e102279f\", \"verdict\": \"supported\", \"sentences\": [30, 31, 32]}, {\"id\": \"O_5bb083644237fa2837\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_3fbce761c905a33c84\", \"verdict\": \"supported\", \"sentences\": [26, 27]}, {\"id\": \"O_e2e9d1c31a7105928e\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_b48154df70a9335fdb\", \"verdict\": \"supported\", \"sentences\": [14, 15, 16, 17]}, {\"id\": \"O_ece333753c795861d0\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_8835b91d116cecff9c\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_c8a07e145c412d0d03\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_d29906256cc9f361f4\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_a85da287c80f76d2c7\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_b0424ae0ca722ab19a\", \"verdict\": \"supported\", \"sentences\": [35, 36]}, {\"id\": \"O_cc439929959ae091df\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_98f459a2b69248d488\", \"verdict\": \"supported\", \"sentences\": [33, 34]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "fe565b63a4e06494",
+      "problem_id": "problem_3e71306587d5",
+      "text": "Have the host welcome people in person and ask whether they'd like to play straight away or have a little time to settle in. Writing the name and answer on the welcome sheet helps the host gather the next groups, and a guest arriving alone already knows someone to approach. Invite everyone to look through the collection and put interest markers by games they'd enjoy trying. Use the marks to suggest titles that appeal to the people who have actually arrived. The rest of the available collection is open to requests too.\n\nAsk willing teachers to call out the games they can get going. People can gather around a teacher, see who else is interested and ask what the game involves. The host checks the number against the game's player range before a table begins. Anyone can pass and wait for another start. A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together. Until then, the guest can pick something from the waiting basket. Choose any activity there, put it back as soon as the next table calls, and keep the place already arranged.\n\nAt the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along. Open the floor for questions after everyone has heard the whole explanation. Then give each person a practice turn to try an action that's new to them. Reset the pieces when everyone has had a go so that the first scored choice comes after some hands-on experience. Before play, let each learner who wants strategic help pick a willing partner. When asked, that partner can quietly talk through choices using only information visible to the players concerned. The learner makes the move and knows whom to ask the next time.\n\nEach table writes its agreed stopping time on a card in plain view, leaving time to pack up before closing. Choose someone playing there to give advance notice as the deadline approaches, and agree how to note an unfinished position if people want to save it. For pacing during play, set a timer everyone can see for checkpoints the table chooses together. When it sounds, take a moment to see how much time remains. Nobody has to spend the whole game watching the minutes. If a rule causes a dispute, pause and give two players a short time to look it up. The others can wait for the pair to report back. Accept their reading or play on with their temporary ruling and check the outstanding question after the evening.\n\nHave each table pick someone to listen for rising voices. They can suggest taking a long social conversation to the conversation corner while neighboring players can still hear their own turns. For refreshments, a player can agree a short absence with the group, have food or a drink in the refreshment area and be back for their next action. Anyone needing a personal break should say so aloud. Agree on an immediate place to pause and name the action that will come next. Protect any private information and wait to take actions requiring the absent player.\n\nWhen a game finishes, have the players sort all the pieces into the labeled bags. The teacher can then verify each bag against the checklist while everyone is still at the table to help find a missing piece. Return the checked box to the collection. The next day, the host sends an optional short prompt about the choice of games, how easy it was to get into one and any difficulty participating. People have a little distance from the evening, and grouping their replies before planning the next one lets the host spot experiences common to several tables.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_d31d3ada1f2f": "choice_e42d8a5385a4",
+          "decision_1636cbb51875": "choice_f82bdbf20450",
+          "decision_719166d04868": "choice_768d7007e6f3",
+          "decision_e197fc73dddc": "choice_dfec6b7dc5cb",
+          "decision_4d89f3f56486": "choice_845745f46830",
+          "decision_62f38e784a18": "choice_8996cacbe461",
+          "decision_5ee7fd1699e5": "choice_935920100812",
+          "decision_cb9375339465": "choice_93cb1f438ab0",
+          "decision_43d3db7644bf": "choice_30341822dc9f",
+          "decision_aa66695aaab8": "choice_1c1f51933d80",
+          "decision_f996758977e6": "choice_801d36189b17",
+          "decision_d772c7680542": "choice_4d8bbda9297f",
+          "decision_0d902fc3e240": "choice_8b0891267501",
+          "decision_1cb8fa812006": "choice_93c9beddcfd0",
+          "decision_d594901e79d3": "choice_abe1bbf8c7af",
+          "decision_272bba36c7c0": "choice_7712dbd23649"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_d31d3ada1f2f": "At the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along.\nThen give each person a practice turn to try an action that's new to them.\nReset the pieces when everyone has had a go so that the first scored choice comes after some hands-on experience.",
+          "decision_1636cbb51875": "For refreshments, a player can agree a short absence with the group, have food or a drink in the refreshment area and be back for their next action.",
+          "decision_719166d04868": "Ask willing teachers to call out the games they can get going.\nPeople can gather around a teacher, see who else is interested and ask what the game involves.\nThe host checks the number against the game's player range before a table begins.\nAnyone can pass and wait for another start.",
+          "decision_e197fc73dddc": "Each table writes its agreed stopping time on a card in plain view, leaving time to pack up before closing.\nChoose someone playing there to give advance notice as the deadline approaches, and agree how to note an unfinished position if people want to save it.",
+          "decision_4d89f3f56486": "A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together.\nUntil then, the guest can pick something from the waiting basket.\nChoose any activity there, put it back as soon as the next table calls, and keep the place already arranged.",
+          "decision_62f38e784a18": "At the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along.\nOpen the floor for questions after everyone has heard the whole explanation.",
+          "decision_5ee7fd1699e5": "The next day, the host sends an optional short prompt about the choice of games, how easy it was to get into one and any difficulty participating.\nPeople have a little distance from the evening, and grouping their replies before planning the next one lets the host spot experiences common to several tables.",
+          "decision_cb9375339465": "Have each table pick someone to listen for rising voices.\nThey can suggest taking a long social conversation to the conversation corner while neighboring players can still hear their own turns.",
+          "decision_43d3db7644bf": "If a rule causes a dispute, pause and give two players a short time to look it up.\nThe others can wait for the pair to report back.\nAccept their reading or play on with their temporary ruling and check the outstanding question after the evening.",
+          "decision_aa66695aaab8": "Have the host welcome people in person and ask whether they'd like to play straight away or have a little time to settle in.\nWriting the name and answer on the welcome sheet helps the host gather the next groups, and a guest arriving alone already knows someone to approach.",
+          "decision_f996758977e6": "A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together.",
+          "decision_d772c7680542": "For pacing during play, set a timer everyone can see for checkpoints the table chooses together.\nWhen it sounds, take a moment to see how much time remains.\nNobody has to spend the whole game watching the minutes.",
+          "decision_0d902fc3e240": "Before play, let each learner who wants strategic help pick a willing partner.\nWhen asked, that partner can quietly talk through choices using only information visible to the players concerned.\nThe learner makes the move and knows whom to ask the next time.",
+          "decision_1cb8fa812006": "Anyone needing a personal break should say so aloud.\nAgree on an immediate place to pause and name the action that will come next.\nProtect any private information and wait to take actions requiring the absent player.",
+          "decision_d594901e79d3": "When a game finishes, have the players sort all the pieces into the labeled bags.\nThe teacher can then verify each bag against the checklist while everyone is still at the table to help find a missing piece.\nReturn the checked box to the collection.",
+          "decision_272bba36c7c0": "Invite everyone to look through the collection and put interest markers by games they'd enjoy trying.\nUse the marks to suggest titles that appeal to the people who have actually arrived."
+        },
+        "source_spans": {
+          "decision_d31d3ada1f2f": [
+            {
+              "sentence": 13,
+              "start": 1158,
+              "end": 1284,
+              "text": "At the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along."
+            },
+            {
+              "sentence": 15,
+              "start": 1362,
+              "end": 1436,
+              "text": "Then give each person a practice turn to try an action that's new to them."
+            },
+            {
+              "sentence": 16,
+              "start": 1437,
+              "end": 1550,
+              "text": "Reset the pieces when everyone has had a go so that the first scored choice comes after some hands-on experience."
+            }
+          ],
+          "decision_1636cbb51875": [
+            {
+              "sentence": 30,
+              "start": 2725,
+              "end": 2873,
+              "text": "For refreshments, a player can agree a short absence with the group, have food or a drink in the refreshment area and be back for their next action."
+            }
+          ],
+          "decision_719166d04868": [
+            {
+              "sentence": 6,
+              "start": 525,
+              "end": 587,
+              "text": "Ask willing teachers to call out the games they can get going."
+            },
+            {
+              "sentence": 7,
+              "start": 588,
+              "end": 682,
+              "text": "People can gather around a teacher, see who else is interested and ask what the game involves."
+            },
+            {
+              "sentence": 8,
+              "start": 683,
+              "end": 764,
+              "text": "The host checks the number against the game's player range before a table begins."
+            },
+            {
+              "sentence": 9,
+              "start": 765,
+              "end": 808,
+              "text": "Anyone can pass and wait for another start."
+            }
+          ],
+          "decision_e197fc73dddc": [
+            {
+              "sentence": 20,
+              "start": 1810,
+              "end": 1917,
+              "text": "Each table writes its agreed stopping time on a card in plain view, leaving time to pack up before closing."
+            },
+            {
+              "sentence": 21,
+              "start": 1918,
+              "end": 2069,
+              "text": "Choose someone playing there to give advance notice as the deadline approaches, and agree how to note an unfinished position if people want to save it."
+            }
+          ],
+          "decision_4d89f3f56486": [
+            {
+              "sentence": 10,
+              "start": 809,
+              "end": 981,
+              "text": "A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together."
+            },
+            {
+              "sentence": 11,
+              "start": 982,
+              "end": 1047,
+              "text": "Until then, the guest can pick something from the waiting basket."
+            },
+            {
+              "sentence": 12,
+              "start": 1048,
+              "end": 1156,
+              "text": "Choose any activity there, put it back as soon as the next table calls, and keep the place already arranged."
+            }
+          ],
+          "decision_62f38e784a18": [
+            {
+              "sentence": 13,
+              "start": 1158,
+              "end": 1284,
+              "text": "At the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along."
+            },
+            {
+              "sentence": 14,
+              "start": 1285,
+              "end": 1361,
+              "text": "Open the floor for questions after everyone has heard the whole explanation."
+            }
+          ],
+          "decision_5ee7fd1699e5": [
+            {
+              "sentence": 37,
+              "start": 3342,
+              "end": 3488,
+              "text": "The next day, the host sends an optional short prompt about the choice of games, how easy it was to get into one and any difficulty participating."
+            },
+            {
+              "sentence": 38,
+              "start": 3489,
+              "end": 3649,
+              "text": "People have a little distance from the evening, and grouping their replies before planning the next one lets the host spot experiences common to several tables."
+            }
+          ],
+          "decision_cb9375339465": [
+            {
+              "sentence": 28,
+              "start": 2531,
+              "end": 2588,
+              "text": "Have each table pick someone to listen for rising voices."
+            },
+            {
+              "sentence": 29,
+              "start": 2589,
+              "end": 2724,
+              "text": "They can suggest taking a long social conversation to the conversation corner while neighboring players can still hear their own turns."
+            }
+          ],
+          "decision_43d3db7644bf": [
+            {
+              "sentence": 25,
+              "start": 2284,
+              "end": 2366,
+              "text": "If a rule causes a dispute, pause and give two players a short time to look it up."
+            },
+            {
+              "sentence": 26,
+              "start": 2367,
+              "end": 2415,
+              "text": "The others can wait for the pair to report back."
+            },
+            {
+              "sentence": 27,
+              "start": 2416,
+              "end": 2529,
+              "text": "Accept their reading or play on with their temporary ruling and check the outstanding question after the evening."
+            }
+          ],
+          "decision_aa66695aaab8": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 124,
+              "text": "Have the host welcome people in person and ask whether they'd like to play straight away or have a little time to settle in."
+            },
+            {
+              "sentence": 2,
+              "start": 125,
+              "end": 274,
+              "text": "Writing the name and answer on the welcome sheet helps the host gather the next groups, and a guest arriving alone already knows someone to approach."
+            }
+          ],
+          "decision_f996758977e6": [
+            {
+              "sentence": 10,
+              "start": 809,
+              "end": 981,
+              "text": "A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together."
+            }
+          ],
+          "decision_d772c7680542": [
+            {
+              "sentence": 22,
+              "start": 2070,
+              "end": 2166,
+              "text": "For pacing during play, set a timer everyone can see for checkpoints the table chooses together."
+            },
+            {
+              "sentence": 23,
+              "start": 2167,
+              "end": 2226,
+              "text": "When it sounds, take a moment to see how much time remains."
+            },
+            {
+              "sentence": 24,
+              "start": 2227,
+              "end": 2283,
+              "text": "Nobody has to spend the whole game watching the minutes."
+            }
+          ],
+          "decision_0d902fc3e240": [
+            {
+              "sentence": 17,
+              "start": 1551,
+              "end": 1629,
+              "text": "Before play, let each learner who wants strategic help pick a willing partner."
+            },
+            {
+              "sentence": 18,
+              "start": 1630,
+              "end": 1744,
+              "text": "When asked, that partner can quietly talk through choices using only information visible to the players concerned."
+            },
+            {
+              "sentence": 19,
+              "start": 1745,
+              "end": 1808,
+              "text": "The learner makes the move and knows whom to ask the next time."
+            }
+          ],
+          "decision_1cb8fa812006": [
+            {
+              "sentence": 31,
+              "start": 2874,
+              "end": 2926,
+              "text": "Anyone needing a personal break should say so aloud."
+            },
+            {
+              "sentence": 32,
+              "start": 2927,
+              "end": 3004,
+              "text": "Agree on an immediate place to pause and name the action that will come next."
+            },
+            {
+              "sentence": 33,
+              "start": 3005,
+              "end": 3090,
+              "text": "Protect any private information and wait to take actions requiring the absent player."
+            }
+          ],
+          "decision_d594901e79d3": [
+            {
+              "sentence": 34,
+              "start": 3092,
+              "end": 3173,
+              "text": "When a game finishes, have the players sort all the pieces into the labeled bags."
+            },
+            {
+              "sentence": 35,
+              "start": 3174,
+              "end": 3299,
+              "text": "The teacher can then verify each bag against the checklist while everyone is still at the table to help find a missing piece."
+            },
+            {
+              "sentence": 36,
+              "start": 3300,
+              "end": 3341,
+              "text": "Return the checked box to the collection."
+            }
+          ],
+          "decision_272bba36c7c0": [
+            {
+              "sentence": 3,
+              "start": 275,
+              "end": 376,
+              "text": "Invite everyone to look through the collection and put interest markers by games they'd enjoy trying."
+            },
+            {
+              "sentence": 4,
+              "start": 377,
+              "end": 461,
+              "text": "Use the marks to suggest titles that appeal to the people who have actually arrived."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_19089161cd7f70f19c",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_2d9295ae8c6c66e92f",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_342efdb0662f70dd59",
+            "sentences": [
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_4867eadfd967b4d487",
+            "sentences": [
+              22,
+              23,
+              24
+            ]
+          },
+          {
+            "id": "O_5a16e3252540e20c5d",
+            "sentences": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_5ce3a495f5d6330ff8",
+            "sentences": [
+              25,
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_8095ea7b9d87a22184",
+            "sentences": [
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_880fa0a225cce9f822",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_8a185f19fadafe326f",
+            "sentences": [
+              30
+            ]
+          },
+          {
+            "id": "O_b537090d19ebb80804",
+            "sentences": [
+              34,
+              35,
+              36
+            ]
+          },
+          {
+            "id": "O_b6d0a973aa5cf778a2",
+            "sentences": [
+              10
+            ]
+          },
+          {
+            "id": "O_c75085d3ac1fe811ff",
+            "sentences": [
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_ca4ea50d907626ff4d",
+            "sentences": [
+              37,
+              38
+            ]
+          },
+          {
+            "id": "O_d83f2c0a7e372d238d",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_f746344ac99e2c8fe6",
+            "sentences": [
+              15,
+              16
+            ]
+          },
+          {
+            "id": "O_fe52d577ab43ede695",
+            "sentences": [
+              11,
+              12
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_f746344ac99e2c8fe6",
+            "verdict": "supported",
+            "sentences": [
+              13,
+              15,
+              16
+            ]
+          },
+          {
+            "id": "O_8a185f19fadafe326f",
+            "verdict": "supported",
+            "sentences": [
+              30
+            ]
+          },
+          {
+            "id": "O_5a16e3252540e20c5d",
+            "verdict": "supported",
+            "sentences": [
+              6,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_2d9295ae8c6c66e92f",
+            "verdict": "supported",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_fe52d577ab43ede695",
+            "verdict": "supported",
+            "sentences": [
+              10,
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_342efdb0662f70dd59",
+            "verdict": "supported",
+            "sentences": [
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_ca4ea50d907626ff4d",
+            "verdict": "supported",
+            "sentences": [
+              37,
+              38
+            ]
+          },
+          {
+            "id": "O_880fa0a225cce9f822",
+            "verdict": "supported",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_5ce3a495f5d6330ff8",
+            "verdict": "supported",
+            "sentences": [
+              25,
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_d83f2c0a7e372d238d",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_b6d0a973aa5cf778a2",
+            "verdict": "supported",
+            "sentences": [
+              10
+            ]
+          },
+          {
+            "id": "O_4867eadfd967b4d487",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23,
+              24
+            ]
+          },
+          {
+            "id": "O_8095ea7b9d87a22184",
+            "verdict": "supported",
+            "sentences": [
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_c75085d3ac1fe811ff",
+            "verdict": "supported",
+            "sentences": [
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_b537090d19ebb80804",
+            "verdict": "supported",
+            "sentences": [
+              34,
+              35,
+              36
+            ]
+          },
+          {
+            "id": "O_19089161cd7f70f19c",
+            "verdict": "supported",
+            "sentences": [
+              3,
+              4
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_d83f2c0a7e372d238d\", \"sentences\": [1, 2]}, {\"id\": \"O_19089161cd7f70f19c\", \"sentences\": [3, 4]}, {\"id\": \"O_5a16e3252540e20c5d\", \"sentences\": [6, 7, 8]}, {\"id\": \"O_b6d0a973aa5cf778a2\", \"sentences\": [10]}, {\"id\": \"O_fe52d577ab43ede695\", \"sentences\": [11, 12]}, {\"id\": \"O_342efdb0662f70dd59\", \"sentences\": [13, 14]}, {\"id\": \"O_f746344ac99e2c8fe6\", \"sentences\": [15, 16]}, {\"id\": \"O_8095ea7b9d87a22184\", \"sentences\": [17, 18, 19]}, {\"id\": \"O_2d9295ae8c6c66e92f\", \"sentences\": [20, 21]}, {\"id\": \"O_4867eadfd967b4d487\", \"sentences\": [22, 23, 24]}, {\"id\": \"O_5ce3a495f5d6330ff8\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_880fa0a225cce9f822\", \"sentences\": [28, 29]}, {\"id\": \"O_8a185f19fadafe326f\", \"sentences\": [30]}, {\"id\": \"O_c75085d3ac1fe811ff\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_b537090d19ebb80804\", \"sentences\": [34, 35, 36]}, {\"id\": \"O_ca4ea50d907626ff4d\", \"sentences\": [37, 38]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_f746344ac99e2c8fe6\", \"verdict\": \"supported\", \"sentences\": [13, 15, 16]}, {\"id\": \"O_8a185f19fadafe326f\", \"verdict\": \"supported\", \"sentences\": [30]}, {\"id\": \"O_5a16e3252540e20c5d\", \"verdict\": \"supported\", \"sentences\": [6, 7, 8, 9]}, {\"id\": \"O_2d9295ae8c6c66e92f\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_fe52d577ab43ede695\", \"verdict\": \"supported\", \"sentences\": [10, 11, 12]}, {\"id\": \"O_342efdb0662f70dd59\", \"verdict\": \"supported\", \"sentences\": [13, 14]}, {\"id\": \"O_ca4ea50d907626ff4d\", \"verdict\": \"supported\", \"sentences\": [37, 38]}, {\"id\": \"O_880fa0a225cce9f822\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_5ce3a495f5d6330ff8\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_d83f2c0a7e372d238d\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_b6d0a973aa5cf778a2\", \"verdict\": \"supported\", \"sentences\": [10]}, {\"id\": \"O_4867eadfd967b4d487\", \"verdict\": \"supported\", \"sentences\": [22, 23, 24]}, {\"id\": \"O_8095ea7b9d87a22184\", \"verdict\": \"supported\", \"sentences\": [17, 18, 19]}, {\"id\": \"O_c75085d3ac1fe811ff\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_b537090d19ebb80804\", \"verdict\": \"supported\", \"sentences\": [34, 35, 36]}, {\"id\": \"O_19089161cd7f70f19c\", \"verdict\": \"supported\", \"sentences\": [3, 4]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_d83f2c0a7e372d238d\", \"sentences\": [1, 2]}, {\"id\": \"O_19089161cd7f70f19c\", \"sentences\": [3, 4]}, {\"id\": \"O_5a16e3252540e20c5d\", \"sentences\": [6, 7, 8]}, {\"id\": \"O_b6d0a973aa5cf778a2\", \"sentences\": [10]}, {\"id\": \"O_fe52d577ab43ede695\", \"sentences\": [11, 12]}, {\"id\": \"O_342efdb0662f70dd59\", \"sentences\": [13, 14]}, {\"id\": \"O_f746344ac99e2c8fe6\", \"sentences\": [15, 16]}, {\"id\": \"O_8095ea7b9d87a22184\", \"sentences\": [17, 18, 19]}, {\"id\": \"O_2d9295ae8c6c66e92f\", \"sentences\": [20, 21]}, {\"id\": \"O_4867eadfd967b4d487\", \"sentences\": [22, 23, 24]}, {\"id\": \"O_5ce3a495f5d6330ff8\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_880fa0a225cce9f822\", \"sentences\": [28, 29]}, {\"id\": \"O_8a185f19fadafe326f\", \"sentences\": [30]}, {\"id\": \"O_c75085d3ac1fe811ff\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_b537090d19ebb80804\", \"sentences\": [34, 35, 36]}, {\"id\": \"O_ca4ea50d907626ff4d\", \"sentences\": [37, 38]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_f746344ac99e2c8fe6\", \"verdict\": \"supported\", \"sentences\": [13, 15, 16]}, {\"id\": \"O_8a185f19fadafe326f\", \"verdict\": \"supported\", \"sentences\": [30]}, {\"id\": \"O_5a16e3252540e20c5d\", \"verdict\": \"supported\", \"sentences\": [6, 7, 8, 9]}, {\"id\": \"O_2d9295ae8c6c66e92f\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_fe52d577ab43ede695\", \"verdict\": \"supported\", \"sentences\": [10, 11, 12]}, {\"id\": \"O_342efdb0662f70dd59\", \"verdict\": \"supported\", \"sentences\": [13, 14]}, {\"id\": \"O_ca4ea50d907626ff4d\", \"verdict\": \"supported\", \"sentences\": [37, 38]}, {\"id\": \"O_880fa0a225cce9f822\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_5ce3a495f5d6330ff8\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_d83f2c0a7e372d238d\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_b6d0a973aa5cf778a2\", \"verdict\": \"supported\", \"sentences\": [10]}, {\"id\": \"O_4867eadfd967b4d487\", \"verdict\": \"supported\", \"sentences\": [22, 23, 24]}, {\"id\": \"O_8095ea7b9d87a22184\", \"verdict\": \"supported\", \"sentences\": [17, 18, 19]}, {\"id\": \"O_c75085d3ac1fe811ff\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_b537090d19ebb80804\", \"verdict\": \"supported\", \"sentences\": [34, 35, 36]}, {\"id\": \"O_19089161cd7f70f19c\", \"verdict\": \"supported\", \"sentences\": [3, 4]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "f57e5cbe05ae8fa4",
+      "problem_id": "problem_7c02a6b2d60e",
+      "text": "Send the singers a draft series of rehearsal dates drawn from the room's available slots. The booking organizer should leave time for people to point out clashes while dates can still be changed, then reserve the sequence. Once rehearsals are booked, send a reminder at a regular point before each one with a link to respond about attendance. Give the conductor a summary of the replies in time to plan for the voice parts likely to be in the room.\n\nTell everyone which numbered scores to bring and send the authorized digital copies in advance so singers can look them over at home. The organizer should have the corresponding paper scores ready to pick up on arrival. Divide early setup among willing members on a rotating list. With a reminder telling each volunteer whether to set out the chairs, put out the folders or prepare the conductor's stand, the same few people needn't arrive early every time.\n\nAsk the section leaders which of the prepared pieces their singers most need to revisit. The conductor can weigh the needs of the different parts, work out a balanced order within the booked time and publish it before rehearsal. At the start, name the block of work that will be followed by the main break. Singers will know where the pause fits and can finish a musical task together before resting. Anyone who needs to step out briefly can still do so.\n\nPost the order of the familiar warmup exercises and give each part of the warmup to a different section leader to guide. This lets several voices lead a few minutes of preparation while everyone follows the conductor's approved sequence. Have the choir sing a short phrase so the conductor can hear how the room sounds with the singers in place. The conductor can then request chair adjustments within each voice section, keeping accessible paths open and checking everyone can see the gestures from their new seats.\n\nWhen a passage catches the choir out, listen to it as sung. The conductor should identify the one feature most likely to be causing trouble, have the choir work on that element by itself, then put it back with the rest of the phrase. Within the time for sectional work, the conductor can stay with the part that needs direct help. At the same time, the other leaders take their sections to separate corners to practice their assigned bars, ready to rejoin the choir when the block ends.\n\nFor shared entrances and cutoffs, first show the gesture for each cue and have the singers put a reminder in their scores. They can use the marking to look up in time when they sing it. After a passage sung together, invite one voice section at a time to say what it could hear. Rotate the invitation so singers in different parts of the room get a turn, then let the conductor decide what to adjust. Singers pencil in a changed dynamic or phrasing as it is given. The conductor goes back over the affected bars aloud before everyone leaves so a misheard marking can be corrected. The organizer then publishes the confirmed markings by piece and bar.\n\nArrange the practice folder around difficult passages. For each one, the conductor lists the available part recordings with the relevant bars so a singer can go from a remembered rehearsal problem directly to their own line. End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes. A singer who missed the session should receive those notes with links to the marking changes and recordings. They can bring their score up to date and work through what they missed on their own schedule before coming back.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_faf230423b00": "choice_268130b38793",
+          "decision_8e32b39ab51c": "choice_6ef551e58505",
+          "decision_b04afc087b03": "choice_40fc6a9b754e",
+          "decision_c693308338b6": "choice_1a550151d10d",
+          "decision_e123df0d4c61": "choice_c1d0e570d158",
+          "decision_3c288aadfbc9": "choice_21cfadcfe61e",
+          "decision_6c329ebd0141": "choice_9705956db713",
+          "decision_b4b071a1e9c4": "choice_b36c6b85b139",
+          "decision_964a9073f798": "choice_7a60d53d56c8",
+          "decision_35d1adfafbe4": "choice_461dc545f284",
+          "decision_7080eb919bd1": "choice_5c80ba3d4049",
+          "decision_d76a9f779d9b": "choice_7b9fca59b50a",
+          "decision_01db0d9ee017": "choice_d63f5065878c",
+          "decision_6bebf95df8b2": "choice_bca9cd099d0f",
+          "decision_2a6ca4fef878": "choice_999817e66177",
+          "decision_ccff2156987f": "choice_ca21cd2575fd"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_faf230423b00": "End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes.",
+          "decision_8e32b39ab51c": "When a passage catches the choir out, listen to it as sung.\nThe conductor should identify the one feature most likely to be causing trouble, have the choir work on that element by itself, then put it back with the rest of the phrase.",
+          "decision_b04afc087b03": "Have the choir sing a short phrase so the conductor can hear how the room sounds with the singers in place.\nThe conductor can then request chair adjustments within each voice section, keeping accessible paths open and checking everyone can see the gestures from their new seats.",
+          "decision_c693308338b6": "Divide early setup among willing members on a rotating list.\nWith a reminder telling each volunteer whether to set out the chairs, put out the folders or prepare the conductor's stand, the same few people needn't arrive early every time.",
+          "decision_e123df0d4c61": "Arrange the practice folder around difficult passages.\nFor each one, the conductor lists the available part recordings with the relevant bars so a singer can go from a remembered rehearsal problem directly to their own line.",
+          "decision_3c288aadfbc9": "Within the time for sectional work, the conductor can stay with the part that needs direct help.\nAt the same time, the other leaders take their sections to separate corners to practice their assigned bars, ready to rejoin the choir when the block ends.",
+          "decision_6c329ebd0141": "Ask the section leaders which of the prepared pieces their singers most need to revisit.\nThe conductor can weigh the needs of the different parts, work out a balanced order within the booked time and publish it before rehearsal.",
+          "decision_b4b071a1e9c4": "Post the order of the familiar warmup exercises and give each part of the warmup to a different section leader to guide.\nThis lets several voices lead a few minutes of preparation while everyone follows the conductor's approved sequence.",
+          "decision_964a9073f798": "For shared entrances and cutoffs, first show the gesture for each cue and have the singers put a reminder in their scores.\nThey can use the marking to look up in time when they sing it.",
+          "decision_35d1adfafbe4": "Send the singers a draft series of rehearsal dates drawn from the room's available slots.\nThe booking organizer should leave time for people to point out clashes while dates can still be changed, then reserve the sequence.",
+          "decision_7080eb919bd1": "End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes.\nA singer who missed the session should receive those notes with links to the marking changes and recordings.\nThey can bring their score up to date and work through what they missed on their own schedule before coming back.",
+          "decision_d76a9f779d9b": "Singers pencil in a changed dynamic or phrasing as it is given.\nThe conductor goes back over the affected bars aloud before everyone leaves so a misheard marking can be corrected.\nThe organizer then publishes the confirmed markings by piece and bar.",
+          "decision_01db0d9ee017": "At the start, name the block of work that will be followed by the main break.\nSingers will know where the pause fits and can finish a musical task together before resting.",
+          "decision_6bebf95df8b2": "Once rehearsals are booked, send a reminder at a regular point before each one with a link to respond about attendance.\nGive the conductor a summary of the replies in time to plan for the voice parts likely to be in the room.",
+          "decision_2a6ca4fef878": "Tell everyone which numbered scores to bring and send the authorized digital copies in advance so singers can look them over at home.\nThe organizer should have the corresponding paper scores ready to pick up on arrival.",
+          "decision_ccff2156987f": "After a passage sung together, invite one voice section at a time to say what it could hear.\nRotate the invitation so singers in different parts of the room get a turn, then let the conductor decide what to adjust."
+        },
+        "source_spans": {
+          "decision_faf230423b00": [
+            {
+              "sentence": 31,
+              "start": 3248,
+              "end": 3351,
+              "text": "End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes."
+            }
+          ],
+          "decision_8e32b39ab51c": [
+            {
+              "sentence": 18,
+              "start": 1883,
+              "end": 1942,
+              "text": "When a passage catches the choir out, listen to it as sung."
+            },
+            {
+              "sentence": 19,
+              "start": 1943,
+              "end": 2116,
+              "text": "The conductor should identify the one feature most likely to be causing trouble, have the choir work on that element by itself, then put it back with the rest of the phrase."
+            }
+          ],
+          "decision_b04afc087b03": [
+            {
+              "sentence": 16,
+              "start": 1603,
+              "end": 1710,
+              "text": "Have the choir sing a short phrase so the conductor can hear how the room sounds with the singers in place."
+            },
+            {
+              "sentence": 17,
+              "start": 1711,
+              "end": 1881,
+              "text": "The conductor can then request chair adjustments within each voice section, keeping accessible paths open and checking everyone can see the gestures from their new seats."
+            }
+          ],
+          "decision_c693308338b6": [
+            {
+              "sentence": 7,
+              "start": 670,
+              "end": 730,
+              "text": "Divide early setup among willing members on a rotating list."
+            },
+            {
+              "sentence": 8,
+              "start": 731,
+              "end": 907,
+              "text": "With a reminder telling each volunteer whether to set out the chairs, put out the folders or prepare the conductor's stand, the same few people needn't arrive early every time."
+            }
+          ],
+          "decision_e123df0d4c61": [
+            {
+              "sentence": 29,
+              "start": 3023,
+              "end": 3077,
+              "text": "Arrange the practice folder around difficult passages."
+            },
+            {
+              "sentence": 30,
+              "start": 3078,
+              "end": 3247,
+              "text": "For each one, the conductor lists the available part recordings with the relevant bars so a singer can go from a remembered rehearsal problem directly to their own line."
+            }
+          ],
+          "decision_3c288aadfbc9": [
+            {
+              "sentence": 20,
+              "start": 2117,
+              "end": 2213,
+              "text": "Within the time for sectional work, the conductor can stay with the part that needs direct help."
+            },
+            {
+              "sentence": 21,
+              "start": 2214,
+              "end": 2369,
+              "text": "At the same time, the other leaders take their sections to separate corners to practice their assigned bars, ready to rejoin the choir when the block ends."
+            }
+          ],
+          "decision_6c329ebd0141": [
+            {
+              "sentence": 9,
+              "start": 909,
+              "end": 997,
+              "text": "Ask the section leaders which of the prepared pieces their singers most need to revisit."
+            },
+            {
+              "sentence": 10,
+              "start": 998,
+              "end": 1137,
+              "text": "The conductor can weigh the needs of the different parts, work out a balanced order within the booked time and publish it before rehearsal."
+            }
+          ],
+          "decision_b4b071a1e9c4": [
+            {
+              "sentence": 14,
+              "start": 1365,
+              "end": 1485,
+              "text": "Post the order of the familiar warmup exercises and give each part of the warmup to a different section leader to guide."
+            },
+            {
+              "sentence": 15,
+              "start": 1486,
+              "end": 1602,
+              "text": "This lets several voices lead a few minutes of preparation while everyone follows the conductor's approved sequence."
+            }
+          ],
+          "decision_964a9073f798": [
+            {
+              "sentence": 22,
+              "start": 2371,
+              "end": 2493,
+              "text": "For shared entrances and cutoffs, first show the gesture for each cue and have the singers put a reminder in their scores."
+            },
+            {
+              "sentence": 23,
+              "start": 2494,
+              "end": 2556,
+              "text": "They can use the marking to look up in time when they sing it."
+            }
+          ],
+          "decision_35d1adfafbe4": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 89,
+              "text": "Send the singers a draft series of rehearsal dates drawn from the room's available slots."
+            },
+            {
+              "sentence": 2,
+              "start": 90,
+              "end": 222,
+              "text": "The booking organizer should leave time for people to point out clashes while dates can still be changed, then reserve the sequence."
+            }
+          ],
+          "decision_7080eb919bd1": [
+            {
+              "sentence": 31,
+              "start": 3248,
+              "end": 3351,
+              "text": "End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes."
+            },
+            {
+              "sentence": 32,
+              "start": 3352,
+              "end": 3460,
+              "text": "A singer who missed the session should receive those notes with links to the marking changes and recordings."
+            },
+            {
+              "sentence": 33,
+              "start": 3461,
+              "end": 3574,
+              "text": "They can bring their score up to date and work through what they missed on their own schedule before coming back."
+            }
+          ],
+          "decision_d76a9f779d9b": [
+            {
+              "sentence": 26,
+              "start": 2772,
+              "end": 2835,
+              "text": "Singers pencil in a changed dynamic or phrasing as it is given."
+            },
+            {
+              "sentence": 27,
+              "start": 2836,
+              "end": 2951,
+              "text": "The conductor goes back over the affected bars aloud before everyone leaves so a misheard marking can be corrected."
+            },
+            {
+              "sentence": 28,
+              "start": 2952,
+              "end": 3021,
+              "text": "The organizer then publishes the confirmed markings by piece and bar."
+            }
+          ],
+          "decision_01db0d9ee017": [
+            {
+              "sentence": 11,
+              "start": 1138,
+              "end": 1215,
+              "text": "At the start, name the block of work that will be followed by the main break."
+            },
+            {
+              "sentence": 12,
+              "start": 1216,
+              "end": 1309,
+              "text": "Singers will know where the pause fits and can finish a musical task together before resting."
+            }
+          ],
+          "decision_6bebf95df8b2": [
+            {
+              "sentence": 3,
+              "start": 223,
+              "end": 342,
+              "text": "Once rehearsals are booked, send a reminder at a regular point before each one with a link to respond about attendance."
+            },
+            {
+              "sentence": 4,
+              "start": 343,
+              "end": 448,
+              "text": "Give the conductor a summary of the replies in time to plan for the voice parts likely to be in the room."
+            }
+          ],
+          "decision_2a6ca4fef878": [
+            {
+              "sentence": 5,
+              "start": 450,
+              "end": 583,
+              "text": "Tell everyone which numbered scores to bring and send the authorized digital copies in advance so singers can look them over at home."
+            },
+            {
+              "sentence": 6,
+              "start": 584,
+              "end": 669,
+              "text": "The organizer should have the corresponding paper scores ready to pick up on arrival."
+            }
+          ],
+          "decision_ccff2156987f": [
+            {
+              "sentence": 24,
+              "start": 2557,
+              "end": 2649,
+              "text": "After a passage sung together, invite one voice section at a time to say what it could hear."
+            },
+            {
+              "sentence": 25,
+              "start": 2650,
+              "end": 2771,
+              "text": "Rotate the invitation so singers in different parts of the room get a turn, then let the conductor decide what to adjust."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_04a4ca1a5ca91b2f54",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_0717972878a85b9e03",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_072fb8ce1aaf8b72af",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_2c25de08af4c19b07d",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_2dcb0d69d7992bbe7e",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_4c5f01203bda465863",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_529b95c30e0da41c02",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_536f19bb4d2ed3d374",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_625fba32bfc7c5b3b2",
+            "sentences": [
+              26,
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_631cb968c459180858",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_8b2eb8259678db870b",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_a69842f055015a43a4",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_c48d5a9502ae275d6e",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_f67958901b3548e836",
+            "sentences": [
+              31
+            ]
+          },
+          {
+            "id": "O_fa3d2043b54f230380",
+            "sentences": [
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_fe4f0367a627343e63",
+            "sentences": [
+              29,
+              30
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_f67958901b3548e836",
+            "verdict": "supported",
+            "sentences": [
+              31
+            ]
+          },
+          {
+            "id": "O_c48d5a9502ae275d6e",
+            "verdict": "supported",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_529b95c30e0da41c02",
+            "verdict": "supported",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_072fb8ce1aaf8b72af",
+            "verdict": "supported",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_fe4f0367a627343e63",
+            "verdict": "supported",
+            "sentences": [
+              29,
+              30
+            ]
+          },
+          {
+            "id": "O_8b2eb8259678db870b",
+            "verdict": "supported",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_04a4ca1a5ca91b2f54",
+            "verdict": "supported",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_2c25de08af4c19b07d",
+            "verdict": "supported",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_631cb968c459180858",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_4c5f01203bda465863",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_fa3d2043b54f230380",
+            "verdict": "supported",
+            "sentences": [
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_625fba32bfc7c5b3b2",
+            "verdict": "supported",
+            "sentences": [
+              26,
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_a69842f055015a43a4",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_0717972878a85b9e03",
+            "verdict": "supported",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_536f19bb4d2ed3d374",
+            "verdict": "supported",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_2dcb0d69d7992bbe7e",
+            "verdict": "supported",
+            "sentences": [
+              24,
+              25
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_4c5f01203bda465863\", \"sentences\": [1, 2]}, {\"id\": \"O_0717972878a85b9e03\", \"sentences\": [3, 4]}, {\"id\": \"O_536f19bb4d2ed3d374\", \"sentences\": [5, 6]}, {\"id\": \"O_072fb8ce1aaf8b72af\", \"sentences\": [7, 8]}, {\"id\": \"O_04a4ca1a5ca91b2f54\", \"sentences\": [9, 10]}, {\"id\": \"O_a69842f055015a43a4\", \"sentences\": [11, 12]}, {\"id\": \"O_2c25de08af4c19b07d\", \"sentences\": [14, 15]}, {\"id\": \"O_529b95c30e0da41c02\", \"sentences\": [16, 17]}, {\"id\": \"O_c48d5a9502ae275d6e\", \"sentences\": [18, 19]}, {\"id\": \"O_8b2eb8259678db870b\", \"sentences\": [20, 21]}, {\"id\": \"O_631cb968c459180858\", \"sentences\": [22, 23]}, {\"id\": \"O_2dcb0d69d7992bbe7e\", \"sentences\": [24, 25]}, {\"id\": \"O_625fba32bfc7c5b3b2\", \"sentences\": [26, 27, 28]}, {\"id\": \"O_fe4f0367a627343e63\", \"sentences\": [29, 30]}, {\"id\": \"O_f67958901b3548e836\", \"sentences\": [31]}, {\"id\": \"O_fa3d2043b54f230380\", \"sentences\": [32, 33]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_f67958901b3548e836\", \"verdict\": \"supported\", \"sentences\": [31]}, {\"id\": \"O_c48d5a9502ae275d6e\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_529b95c30e0da41c02\", \"verdict\": \"supported\", \"sentences\": [16, 17]}, {\"id\": \"O_072fb8ce1aaf8b72af\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_fe4f0367a627343e63\", \"verdict\": \"supported\", \"sentences\": [29, 30]}, {\"id\": \"O_8b2eb8259678db870b\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_04a4ca1a5ca91b2f54\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_2c25de08af4c19b07d\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_631cb968c459180858\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_4c5f01203bda465863\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_fa3d2043b54f230380\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_625fba32bfc7c5b3b2\", \"verdict\": \"supported\", \"sentences\": [26, 27, 28]}, {\"id\": \"O_a69842f055015a43a4\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_0717972878a85b9e03\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_536f19bb4d2ed3d374\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_2dcb0d69d7992bbe7e\", \"verdict\": \"supported\", \"sentences\": [24, 25]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_4c5f01203bda465863\", \"sentences\": [1, 2]}, {\"id\": \"O_0717972878a85b9e03\", \"sentences\": [3, 4]}, {\"id\": \"O_536f19bb4d2ed3d374\", \"sentences\": [5, 6]}, {\"id\": \"O_072fb8ce1aaf8b72af\", \"sentences\": [7, 8]}, {\"id\": \"O_04a4ca1a5ca91b2f54\", \"sentences\": [9, 10]}, {\"id\": \"O_a69842f055015a43a4\", \"sentences\": [11, 12]}, {\"id\": \"O_2c25de08af4c19b07d\", \"sentences\": [14, 15]}, {\"id\": \"O_529b95c30e0da41c02\", \"sentences\": [16, 17]}, {\"id\": \"O_c48d5a9502ae275d6e\", \"sentences\": [18, 19]}, {\"id\": \"O_8b2eb8259678db870b\", \"sentences\": [20, 21]}, {\"id\": \"O_631cb968c459180858\", \"sentences\": [22, 23]}, {\"id\": \"O_2dcb0d69d7992bbe7e\", \"sentences\": [24, 25]}, {\"id\": \"O_625fba32bfc7c5b3b2\", \"sentences\": [26, 27, 28]}, {\"id\": \"O_fe4f0367a627343e63\", \"sentences\": [29, 30]}, {\"id\": \"O_f67958901b3548e836\", \"sentences\": [31]}, {\"id\": \"O_fa3d2043b54f230380\", \"sentences\": [32, 33]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_f67958901b3548e836\", \"verdict\": \"supported\", \"sentences\": [31]}, {\"id\": \"O_c48d5a9502ae275d6e\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_529b95c30e0da41c02\", \"verdict\": \"supported\", \"sentences\": [16, 17]}, {\"id\": \"O_072fb8ce1aaf8b72af\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_fe4f0367a627343e63\", \"verdict\": \"supported\", \"sentences\": [29, 30]}, {\"id\": \"O_8b2eb8259678db870b\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_04a4ca1a5ca91b2f54\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_2c25de08af4c19b07d\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_631cb968c459180858\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_4c5f01203bda465863\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_fa3d2043b54f230380\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_625fba32bfc7c5b3b2\", \"verdict\": \"supported\", \"sentences\": [26, 27, 28]}, {\"id\": \"O_a69842f055015a43a4\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_0717972878a85b9e03\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_536f19bb4d2ed3d374\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_2dcb0d69d7992bbe7e\", \"verdict\": \"supported\", \"sentences\": [24, 25]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "cddf62b0a0dd10ee",
+      "problem_id": "problem_4be89c3a3bc5",
+      "text": "In the run-up to the fair, ask volunteers on each block to talk with neighbors who might bring something and send the organizers a summary by category. A doorstep conversation can reach someone who would skip a form, and rough quantities are enough to plan tables. The published criteria will apply to everything when it arrives. Circulate an intake sheet showing available arrival windows so contributors can choose a time that suits them and volunteers can anticipate busy periods. Leave a little room for walk-ins throughout. Using volunteers' stated availability and preferred jobs, the coordinator draws up the shifts and sends everyone the roster ahead of the fair. That gives people time to prepare and makes any gaps in coverage apparent.\n\nKeep contributors with their goods at intake while a volunteer checks each item against the condition list. A question about a chip or a missing accessory can be settled on the spot before acceptance. As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories. Having the interviewer write the label keeps details consistent across the displays. Bag or tie all the pieces of a complete set together here and keep its description where a visitor can read it. The set reaches the table as one bundle and can stay together through a busy afternoon.\n\nSign the tables by the room where the goods would ordinarily be used. Someone looking for a saucepan can go to the kitchen table, and someone furnishing a bedroom can start at the bedroom sign. Keep the aisles clear and put overflow on the reserve shelves. A runner makes a regular circuit to see what space has opened and brings out reserve items that fit. Table volunteers can stay with visitors as the stock turns over.\n\nAt the entrance, a welcome volunteer gathers a few arrivals at a time for a short explanation of browsing, making a claim, holding goods and collecting them. Make clear that anyone may give or take freely without a matching contribution. Let people go on to browse, and offer individual clarification by the entrance diagram for anyone with a question. Visitors looking for something they haven't found can leave a wanted note by its category sign. If suitable goods appear, the table volunteer moves the matched note to a common collection point where people can check for news. Posting a request carries no promise the goods will come in.\n\nIf several people ask for the same item, record the requests and their times on the sheet. At the end of the brief decision window, the volunteer gives the claim to the person whose request was recorded earliest. People can see the basis for the decision in the times on the sheet. A recipient who wants to keep browsing can take the goods to the holding volunteer. Before shelving them, the volunteer records the recipient's name and confirms the pickup deadline with them, up to twenty minutes away. Both people then know who is looking after the item and when it is due out.\n\nAt collection, show the claim record to the volunteer keeping the outgoing register. They verify the claim, record the item's identifier and issue a checked slip for the recipient to show when taking the goods out. This keeps the paperwork ahead of the physical handover. People can ask for carrying assistance right there without giving a reason. The volunteer assigns the next available helper and cart for the trip to the nearby pickup area when the goods are ready to go.\n\nBefore admitting contributors for closing collection, sort everything still unclaimed according to its contributor's recorded choice. Keep the returns easy to find and group the donations for the arranged pickup after the collection period. For feedback, hold a few short, optional conversations separately with visitors, contributors and volunteers about how finding things, claiming them and running the fair went. Compare the notes afterward so the organizers can hear how the same routine felt on different sides of a table and see where a change could help several groups.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_512a3f852563": "choice_9300fd777e94",
+          "decision_2f6fb93af909": "choice_280bc1ec3224",
+          "decision_ee29440d96e5": "choice_ed2f84cff88e",
+          "decision_0616741ccfd1": "choice_3860b12ad01d",
+          "decision_47484ace809a": "choice_99de13c08800",
+          "decision_b9de32a36c70": "choice_d48aa8a700a2",
+          "decision_ee00677c5692": "choice_e1d0be088a4d",
+          "decision_4c7582137f3c": "choice_06b0c46781a5",
+          "decision_b48a117f22f5": "choice_21bec0b5a0d1",
+          "decision_6d830daa9827": "choice_e418cff460bc",
+          "decision_66bdc8c4642b": "choice_851e1934f7d0",
+          "decision_76955a70c571": "choice_0655c292ab5c",
+          "decision_c5d320651898": "choice_952c1afaab65",
+          "decision_3f6eb3a6337e": "choice_688397b14ef8",
+          "decision_26850f104ee3": "choice_4f2960c6522b",
+          "decision_71042de1e5ec": "choice_98649e7f662a"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_512a3f852563": "At collection, show the claim record to the volunteer keeping the outgoing register.\nPeople can ask for carrying assistance right there without giving a reason.\nThe volunteer assigns the next available helper and cart for the trip to the nearby pickup area when the goods are ready to go.",
+          "decision_2f6fb93af909": "A recipient who wants to keep browsing can take the goods to the holding volunteer.\nBefore shelving them, the volunteer records the recipient's name and confirms the pickup deadline with them, up to twenty minutes away.\nBoth people then know who is looking after the item and when it is due out.",
+          "decision_ee29440d96e5": "Keep contributors with their goods at intake while a volunteer checks each item against the condition list.\nA question about a chip or a missing accessory can be settled on the spot before acceptance.",
+          "decision_0616741ccfd1": "Keep contributors with their goods at intake while a volunteer checks each item against the condition list.\nAs the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories.\nHaving the interviewer write the label keeps details consistent across the displays.",
+          "decision_47484ace809a": "Circulate an intake sheet showing available arrival windows so contributors can choose a time that suits them and volunteers can anticipate busy periods.\nLeave a little room for walk-ins throughout.",
+          "decision_b9de32a36c70": "At collection, show the claim record to the volunteer keeping the outgoing register.\nThey verify the claim, record the item's identifier and issue a checked slip for the recipient to show when taking the goods out.\nThis keeps the paperwork ahead of the physical handover.",
+          "decision_ee00677c5692": "Using volunteers' stated availability and preferred jobs, the coordinator draws up the shifts and sends everyone the roster ahead of the fair.\nThat gives people time to prepare and makes any gaps in coverage apparent.",
+          "decision_4c7582137f3c": "As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories.\nBag or tie all the pieces of a complete set together here and keep its description where a visitor can read it.\nThe set reaches the table as one bundle and can stay together through a busy afternoon.",
+          "decision_b48a117f22f5": "If several people ask for the same item, record the requests and their times on the sheet.\nAt the end of the brief decision window, the volunteer gives the claim to the person whose request was recorded earliest.\nPeople can see the basis for the decision in the times on the sheet.",
+          "decision_6d830daa9827": "For feedback, hold a few short, optional conversations separately with visitors, contributors and volunteers about how finding things, claiming them and running the fair went.\nCompare the notes afterward so the organizers can hear how the same routine felt on different sides of a table and see where a change could help several groups.",
+          "decision_66bdc8c4642b": "At the entrance, a welcome volunteer gathers a few arrivals at a time for a short explanation of browsing, making a claim, holding goods and collecting them.\nLet people go on to browse, and offer individual clarification by the entrance diagram for anyone with a question.",
+          "decision_76955a70c571": "Keep the aisles clear and put overflow on the reserve shelves.\nA runner makes a regular circuit to see what space has opened and brings out reserve items that fit.\nTable volunteers can stay with visitors as the stock turns over.",
+          "decision_c5d320651898": "Sign the tables by the room where the goods would ordinarily be used.\nSomeone looking for a saucepan can go to the kitchen table, and someone furnishing a bedroom can start at the bedroom sign.",
+          "decision_3f6eb3a6337e": "Before admitting contributors for closing collection, sort everything still unclaimed according to its contributor's recorded choice.\nKeep the returns easy to find and group the donations for the arranged pickup after the collection period.",
+          "decision_26850f104ee3": "Visitors looking for something they haven't found can leave a wanted note by its category sign.\nIf suitable goods appear, the table volunteer moves the matched note to a common collection point where people can check for news.",
+          "decision_71042de1e5ec": "In the run-up to the fair, ask volunteers on each block to talk with neighbors who might bring something and send the organizers a summary by category.\nA doorstep conversation can reach someone who would skip a form, and rough quantities are enough to plan tables."
+        },
+        "source_spans": {
+          "decision_512a3f852563": [
+            {
+              "sentence": 31,
+              "start": 3041,
+              "end": 3125,
+              "text": "At collection, show the claim record to the volunteer keeping the outgoing register."
+            },
+            {
+              "sentence": 34,
+              "start": 3313,
+              "end": 3388,
+              "text": "People can ask for carrying assistance right there without giving a reason."
+            },
+            {
+              "sentence": 35,
+              "start": 3389,
+              "end": 3516,
+              "text": "The volunteer assigns the next available helper and cart for the trip to the nearby pickup area when the goods are ready to go."
+            }
+          ],
+          "decision_2f6fb93af909": [
+            {
+              "sentence": 28,
+              "start": 2744,
+              "end": 2827,
+              "text": "A recipient who wants to keep browsing can take the goods to the holding volunteer."
+            },
+            {
+              "sentence": 29,
+              "start": 2828,
+              "end": 2963,
+              "text": "Before shelving them, the volunteer records the recipient's name and confirms the pickup deadline with them, up to twenty minutes away."
+            },
+            {
+              "sentence": 30,
+              "start": 2964,
+              "end": 3039,
+              "text": "Both people then know who is looking after the item and when it is due out."
+            }
+          ],
+          "decision_ee29440d96e5": [
+            {
+              "sentence": 8,
+              "start": 748,
+              "end": 855,
+              "text": "Keep contributors with their goods at intake while a volunteer checks each item against the condition list."
+            },
+            {
+              "sentence": 9,
+              "start": 856,
+              "end": 948,
+              "text": "A question about a chip or a missing accessory can be settled on the spot before acceptance."
+            }
+          ],
+          "decision_0616741ccfd1": [
+            {
+              "sentence": 8,
+              "start": 748,
+              "end": 855,
+              "text": "Keep contributors with their goods at intake while a volunteer checks each item against the condition list."
+            },
+            {
+              "sentence": 10,
+              "start": 949,
+              "end": 1109,
+              "text": "As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories."
+            },
+            {
+              "sentence": 11,
+              "start": 1110,
+              "end": 1194,
+              "text": "Having the interviewer write the label keeps details consistent across the displays."
+            }
+          ],
+          "decision_47484ace809a": [
+            {
+              "sentence": 4,
+              "start": 330,
+              "end": 483,
+              "text": "Circulate an intake sheet showing available arrival windows so contributors can choose a time that suits them and volunteers can anticipate busy periods."
+            },
+            {
+              "sentence": 5,
+              "start": 484,
+              "end": 528,
+              "text": "Leave a little room for walk-ins throughout."
+            }
+          ],
+          "decision_b9de32a36c70": [
+            {
+              "sentence": 31,
+              "start": 3041,
+              "end": 3125,
+              "text": "At collection, show the claim record to the volunteer keeping the outgoing register."
+            },
+            {
+              "sentence": 32,
+              "start": 3126,
+              "end": 3255,
+              "text": "They verify the claim, record the item's identifier and issue a checked slip for the recipient to show when taking the goods out."
+            },
+            {
+              "sentence": 33,
+              "start": 3256,
+              "end": 3312,
+              "text": "This keeps the paperwork ahead of the physical handover."
+            }
+          ],
+          "decision_ee00677c5692": [
+            {
+              "sentence": 6,
+              "start": 529,
+              "end": 671,
+              "text": "Using volunteers' stated availability and preferred jobs, the coordinator draws up the shifts and sends everyone the roster ahead of the fair."
+            },
+            {
+              "sentence": 7,
+              "start": 672,
+              "end": 746,
+              "text": "That gives people time to prepare and makes any gaps in coverage apparent."
+            }
+          ],
+          "decision_4c7582137f3c": [
+            {
+              "sentence": 10,
+              "start": 949,
+              "end": 1109,
+              "text": "As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories."
+            },
+            {
+              "sentence": 12,
+              "start": 1195,
+              "end": 1306,
+              "text": "Bag or tie all the pieces of a complete set together here and keep its description where a visitor can read it."
+            },
+            {
+              "sentence": 13,
+              "start": 1307,
+              "end": 1394,
+              "text": "The set reaches the table as one bundle and can stay together through a busy afternoon."
+            }
+          ],
+          "decision_b48a117f22f5": [
+            {
+              "sentence": 25,
+              "start": 2462,
+              "end": 2552,
+              "text": "If several people ask for the same item, record the requests and their times on the sheet."
+            },
+            {
+              "sentence": 26,
+              "start": 2553,
+              "end": 2674,
+              "text": "At the end of the brief decision window, the volunteer gives the claim to the person whose request was recorded earliest."
+            },
+            {
+              "sentence": 27,
+              "start": 2675,
+              "end": 2743,
+              "text": "People can see the basis for the decision in the times on the sheet."
+            }
+          ],
+          "decision_6d830daa9827": [
+            {
+              "sentence": 38,
+              "start": 3759,
+              "end": 3934,
+              "text": "For feedback, hold a few short, optional conversations separately with visitors, contributors and volunteers about how finding things, claiming them and running the fair went."
+            },
+            {
+              "sentence": 39,
+              "start": 3935,
+              "end": 4095,
+              "text": "Compare the notes afterward so the organizers can hear how the same routine felt on different sides of a table and see where a change could help several groups."
+            }
+          ],
+          "decision_66bdc8c4642b": [
+            {
+              "sentence": 19,
+              "start": 1820,
+              "end": 1977,
+              "text": "At the entrance, a welcome volunteer gathers a few arrivals at a time for a short explanation of browsing, making a claim, holding goods and collecting them."
+            },
+            {
+              "sentence": 21,
+              "start": 2058,
+              "end": 2172,
+              "text": "Let people go on to browse, and offer individual clarification by the entrance diagram for anyone with a question."
+            }
+          ],
+          "decision_76955a70c571": [
+            {
+              "sentence": 16,
+              "start": 1590,
+              "end": 1652,
+              "text": "Keep the aisles clear and put overflow on the reserve shelves."
+            },
+            {
+              "sentence": 17,
+              "start": 1653,
+              "end": 1753,
+              "text": "A runner makes a regular circuit to see what space has opened and brings out reserve items that fit."
+            },
+            {
+              "sentence": 18,
+              "start": 1754,
+              "end": 1818,
+              "text": "Table volunteers can stay with visitors as the stock turns over."
+            }
+          ],
+          "decision_c5d320651898": [
+            {
+              "sentence": 14,
+              "start": 1396,
+              "end": 1465,
+              "text": "Sign the tables by the room where the goods would ordinarily be used."
+            },
+            {
+              "sentence": 15,
+              "start": 1466,
+              "end": 1589,
+              "text": "Someone looking for a saucepan can go to the kitchen table, and someone furnishing a bedroom can start at the bedroom sign."
+            }
+          ],
+          "decision_3f6eb3a6337e": [
+            {
+              "sentence": 36,
+              "start": 3518,
+              "end": 3651,
+              "text": "Before admitting contributors for closing collection, sort everything still unclaimed according to its contributor's recorded choice."
+            },
+            {
+              "sentence": 37,
+              "start": 3652,
+              "end": 3758,
+              "text": "Keep the returns easy to find and group the donations for the arranged pickup after the collection period."
+            }
+          ],
+          "decision_26850f104ee3": [
+            {
+              "sentence": 22,
+              "start": 2173,
+              "end": 2268,
+              "text": "Visitors looking for something they haven't found can leave a wanted note by its category sign."
+            },
+            {
+              "sentence": 23,
+              "start": 2269,
+              "end": 2399,
+              "text": "If suitable goods appear, the table volunteer moves the matched note to a common collection point where people can check for news."
+            }
+          ],
+          "decision_71042de1e5ec": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 151,
+              "text": "In the run-up to the fair, ask volunteers on each block to talk with neighbors who might bring something and send the organizers a summary by category."
+            },
+            {
+              "sentence": 2,
+              "start": 152,
+              "end": 264,
+              "text": "A doorstep conversation can reach someone who would skip a form, and rough quantities are enough to plan tables."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_108f80e54c17cbac90",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_29d7789ca9306a5ada",
+            "sentences": [
+              10,
+              11
+            ]
+          },
+          {
+            "id": "O_3eadc9d0f9dc9ae41d",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_419519304cfc73f7ae",
+            "sentences": [
+              36,
+              37
+            ]
+          },
+          {
+            "id": "O_476a5e34e1d73a26f0",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_4999ee0f94192f0b31",
+            "sentences": [
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_55fb88c69d73787537",
+            "sentences": [
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_9c933b552e5783be1a",
+            "sentences": [
+              25,
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_ace4504e7ef2b6a1a8",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_af292a74ece7260f6b",
+            "sentences": [
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_bb04e20c3d92459291",
+            "sentences": [
+              38,
+              39
+            ]
+          },
+          {
+            "id": "O_c5372acddf96744b6b",
+            "sentences": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "id": "O_c578db2791aa91cfac",
+            "sentences": [
+              19,
+              21
+            ]
+          },
+          {
+            "id": "O_ebe7f14354b501be36",
+            "sentences": [
+              4,
+              5
+            ]
+          },
+          {
+            "id": "O_f0ad694b65df2b24e2",
+            "sentences": [
+              31,
+              34,
+              35
+            ]
+          },
+          {
+            "id": "O_f326f73101e3c5eaa2",
+            "sentences": [
+              17,
+              18
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_f0ad694b65df2b24e2",
+            "verdict": "supported",
+            "sentences": [
+              31,
+              34,
+              35
+            ]
+          },
+          {
+            "id": "O_c5372acddf96744b6b",
+            "verdict": "supported",
+            "sentences": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "id": "O_4999ee0f94192f0b31",
+            "verdict": "supported",
+            "sentences": [
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_29d7789ca9306a5ada",
+            "verdict": "supported",
+            "sentences": [
+              8,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "O_ebe7f14354b501be36",
+            "verdict": "supported",
+            "sentences": [
+              4,
+              5
+            ]
+          },
+          {
+            "id": "O_af292a74ece7260f6b",
+            "verdict": "supported",
+            "sentences": [
+              31,
+              32,
+              33
+            ]
+          },
+          {
+            "id": "O_476a5e34e1d73a26f0",
+            "verdict": "supported",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_55fb88c69d73787537",
+            "verdict": "supported",
+            "sentences": [
+              10,
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_9c933b552e5783be1a",
+            "verdict": "supported",
+            "sentences": [
+              25,
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_bb04e20c3d92459291",
+            "verdict": "supported",
+            "sentences": [
+              38,
+              39
+            ]
+          },
+          {
+            "id": "O_c578db2791aa91cfac",
+            "verdict": "supported",
+            "sentences": [
+              19,
+              21
+            ]
+          },
+          {
+            "id": "O_f326f73101e3c5eaa2",
+            "verdict": "supported",
+            "sentences": [
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "id": "O_108f80e54c17cbac90",
+            "verdict": "supported",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_419519304cfc73f7ae",
+            "verdict": "supported",
+            "sentences": [
+              36,
+              37
+            ]
+          },
+          {
+            "id": "O_ace4504e7ef2b6a1a8",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_3eadc9d0f9dc9ae41d",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_3eadc9d0f9dc9ae41d\", \"sentences\": [1, 2]}, {\"id\": \"O_ebe7f14354b501be36\", \"sentences\": [4, 5]}, {\"id\": \"O_476a5e34e1d73a26f0\", \"sentences\": [6, 7]}, {\"id\": \"O_4999ee0f94192f0b31\", \"sentences\": [8, 9]}, {\"id\": \"O_29d7789ca9306a5ada\", \"sentences\": [10, 11]}, {\"id\": \"O_55fb88c69d73787537\", \"sentences\": [12, 13]}, {\"id\": \"O_108f80e54c17cbac90\", \"sentences\": [14, 15]}, {\"id\": \"O_f326f73101e3c5eaa2\", \"sentences\": [17, 18]}, {\"id\": \"O_c578db2791aa91cfac\", \"sentences\": [19, 21]}, {\"id\": \"O_ace4504e7ef2b6a1a8\", \"sentences\": [22, 23]}, {\"id\": \"O_9c933b552e5783be1a\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_c5372acddf96744b6b\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_af292a74ece7260f6b\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_f0ad694b65df2b24e2\", \"sentences\": [31, 34, 35]}, {\"id\": \"O_419519304cfc73f7ae\", \"sentences\": [36, 37]}, {\"id\": \"O_bb04e20c3d92459291\", \"sentences\": [38, 39]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_f0ad694b65df2b24e2\", \"verdict\": \"supported\", \"sentences\": [31, 34, 35]}, {\"id\": \"O_c5372acddf96744b6b\", \"verdict\": \"supported\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_4999ee0f94192f0b31\", \"verdict\": \"supported\", \"sentences\": [8, 9]}, {\"id\": \"O_29d7789ca9306a5ada\", \"verdict\": \"supported\", \"sentences\": [8, 10, 11]}, {\"id\": \"O_ebe7f14354b501be36\", \"verdict\": \"supported\", \"sentences\": [4, 5]}, {\"id\": \"O_af292a74ece7260f6b\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_476a5e34e1d73a26f0\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_55fb88c69d73787537\", \"verdict\": \"supported\", \"sentences\": [10, 12, 13]}, {\"id\": \"O_9c933b552e5783be1a\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_bb04e20c3d92459291\", \"verdict\": \"supported\", \"sentences\": [38, 39]}, {\"id\": \"O_c578db2791aa91cfac\", \"verdict\": \"supported\", \"sentences\": [19, 21]}, {\"id\": \"O_f326f73101e3c5eaa2\", \"verdict\": \"supported\", \"sentences\": [16, 17, 18]}, {\"id\": \"O_108f80e54c17cbac90\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_419519304cfc73f7ae\", \"verdict\": \"supported\", \"sentences\": [36, 37]}, {\"id\": \"O_ace4504e7ef2b6a1a8\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_3eadc9d0f9dc9ae41d\", \"verdict\": \"supported\", \"sentences\": [1, 2]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_3eadc9d0f9dc9ae41d\", \"sentences\": [1, 2]}, {\"id\": \"O_ebe7f14354b501be36\", \"sentences\": [4, 5]}, {\"id\": \"O_476a5e34e1d73a26f0\", \"sentences\": [6, 7]}, {\"id\": \"O_4999ee0f94192f0b31\", \"sentences\": [8, 9]}, {\"id\": \"O_29d7789ca9306a5ada\", \"sentences\": [10, 11]}, {\"id\": \"O_55fb88c69d73787537\", \"sentences\": [12, 13]}, {\"id\": \"O_108f80e54c17cbac90\", \"sentences\": [14, 15]}, {\"id\": \"O_f326f73101e3c5eaa2\", \"sentences\": [17, 18]}, {\"id\": \"O_c578db2791aa91cfac\", \"sentences\": [19, 21]}, {\"id\": \"O_ace4504e7ef2b6a1a8\", \"sentences\": [22, 23]}, {\"id\": \"O_9c933b552e5783be1a\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_c5372acddf96744b6b\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_af292a74ece7260f6b\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_f0ad694b65df2b24e2\", \"sentences\": [31, 34, 35]}, {\"id\": \"O_419519304cfc73f7ae\", \"sentences\": [36, 37]}, {\"id\": \"O_bb04e20c3d92459291\", \"sentences\": [38, 39]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_f0ad694b65df2b24e2\", \"verdict\": \"supported\", \"sentences\": [31, 34, 35]}, {\"id\": \"O_c5372acddf96744b6b\", \"verdict\": \"supported\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_4999ee0f94192f0b31\", \"verdict\": \"supported\", \"sentences\": [8, 9]}, {\"id\": \"O_29d7789ca9306a5ada\", \"verdict\": \"supported\", \"sentences\": [8, 10, 11]}, {\"id\": \"O_ebe7f14354b501be36\", \"verdict\": \"supported\", \"sentences\": [4, 5]}, {\"id\": \"O_af292a74ece7260f6b\", \"verdict\": \"supported\", \"sentences\": [31, 32, 33]}, {\"id\": \"O_476a5e34e1d73a26f0\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_55fb88c69d73787537\", \"verdict\": \"supported\", \"sentences\": [10, 12, 13]}, {\"id\": \"O_9c933b552e5783be1a\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_bb04e20c3d92459291\", \"verdict\": \"supported\", \"sentences\": [38, 39]}, {\"id\": \"O_c578db2791aa91cfac\", \"verdict\": \"supported\", \"sentences\": [19, 21]}, {\"id\": \"O_f326f73101e3c5eaa2\", \"verdict\": \"supported\", \"sentences\": [16, 17, 18]}, {\"id\": \"O_108f80e54c17cbac90\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_419519304cfc73f7ae\", \"verdict\": \"supported\", \"sentences\": [36, 37]}, {\"id\": \"O_ace4504e7ef2b6a1a8\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_3eadc9d0f9dc9ae41d\", \"verdict\": \"supported\", \"sentences\": [1, 2]}], \"ambiguous_decisions\": []}"
+    }
+  ],
+  "proposal_responses_sha256": "b8e62b951dcb20ed6af7721e67e62a02103d9bd14039289c85f3ef4f54f640a8",
+  "verification_responses_sha256": "84f3f0dd82394353c1f9c7e4a6e54f10d10edb08f7e9e767e02ad4e6d8d45325"
+}

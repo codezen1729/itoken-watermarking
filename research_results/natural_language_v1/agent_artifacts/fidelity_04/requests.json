@@ -1,0 +1,289 @@
+{
+  "instruction": "Independently compare the original and rewrite. For every supplied decision topic, judge whether the rewrite preserves the mechanism the original actually advocates, its consequence, roles, timing, scope, and relevant premises. An endpoint match or shared words is insufficient. Do not repair missing or reversed reasoning. Return preserved/changed/omitted/uncertain for each decision and explain any non-preserved judgment with evidence. If a topic was absent from the original and remains absent, that may count as preserved; do not invent a missing original choice. Return an overall status of preserved/changed/uncertain and identify added conflicting decisions. No intended solution is supplied: compare only what these two texts actually say.",
+  "documents": [
+    {
+      "document_id": "7d79fdba6e593f65",
+      "decision_topics": [
+        {
+          "decision_id": "decision_6383cfac596b",
+          "question": "How should a new member learn the studio routine?"
+        },
+        {
+          "decision_id": "decision_d04eadb89670",
+          "question": "How should members obtain bench time?"
+        },
+        {
+          "decision_id": "decision_3729330e7c57",
+          "question": "How should a member prepare a project plan?"
+        },
+        {
+          "decision_id": "decision_af900452074f",
+          "question": "How should shared hand tools be checked out?"
+        },
+        {
+          "decision_id": "decision_6f32daf6730d",
+          "question": "How should requests for project help be handled?"
+        },
+        {
+          "decision_id": "decision_dadbf9da52b7",
+          "question": "How should shared consumables be replenished?"
+        },
+        {
+          "decision_id": "decision_65f618ef18c2",
+          "question": "How should usable offcuts enter the shared scrap supply?"
+        },
+        {
+          "decision_id": "decision_cfd5493757cd",
+          "question": "How should unfinished projects be stored between sessions?"
+        },
+        {
+          "decision_id": "decision_6427357198e3",
+          "question": "How should short noisy tasks be coordinated?"
+        },
+        {
+          "decision_id": "decision_cd7df5e879f6",
+          "question": "How should projects use the drying rack?"
+        },
+        {
+          "decision_id": "decision_a6a9b6cd6e4b",
+          "question": "How should bench cleanup be organized?"
+        },
+        {
+          "decision_id": "decision_4faba2dc53f0",
+          "question": "How should a damaged tool be reported?"
+        },
+        {
+          "decision_id": "decision_4b8738612992",
+          "question": "How should a short technique demonstration be selected?"
+        },
+        {
+          "decision_id": "decision_bc5962445d8e",
+          "question": "How should personally owned surplus materials be shared?"
+        },
+        {
+          "decision_id": "decision_02a7a0bf9e70",
+          "question": "How should members receive changes to studio routines?"
+        },
+        {
+          "decision_id": "decision_84be91506f83",
+          "question": "How should unfinished studio duties pass between stewards?"
+        }
+      ],
+      "original": "Give newcomers the illustrated studio guide and let them take as long as they need to walk the route. At the end, have each newcomer describe to the steward how a session works. The steward can pick up on anything they missed before they work independently. For booking, the steward posts the order in which members may choose sessions from the sheet. Rotate who gets an early choice each round. Members can fit the benches still available to their own schedules, and anyone arriving can take an unclaimed session.\n\nStart a project with a small working sample. Once a member has seen how the material behaves, they can use the project card to set out what to do next, what supplies to lay out and where they expect to stop. Before lifting a tool off its numbered hook, the member writes their name on the corresponding line. Anyone who finds the hook empty can go straight to the borrower, who returns the tool within the session. If a tool proves faulty, stop using it and put it in the marked tray. The person who noticed the problem fills in a repair card with what they saw or felt during use. The steward then has the tool out of circulation and a specific account to pass on for inspection.\n\nPut brief questions on the help list under their topics. The steward can call together members puzzled by the same technique and show them once, while other members carry on with work they can safely do. If one question keeps coming back, the steward can choose it for that week's optional demonstration and invite members over to the demonstration corner. Someone just starting the technique may learn it before reaching the same sticking point.\n\nBefore hammering at the noisy-work station, announce what you are about to do and wait for acknowledgment from the people nearby. That gives someone doing delicate work a chance to pause. For a wet piece, its maker picks a vacant rack space and tags the piece there with their name and the earliest time it can safely be handled. The next person looking for drying space can see when a place might open up. For work going into storage between visits, pack it and mark the owner and review date. Show it to the steward, who assigns a free shelf position and logs the location so the work can be found again within the member's usual allowance.\n\nSort clean, useful offcuts as you make them. Match the piece to the examples by the labeled containers and put it straight into the right one for someone else to use. For members offering their own spare materials, the steward gathers labeled offers showing quantities and conditions. Hold a weekly exchange so owners can meet people interested in taking an offer and answer questions before they accept it. At the end of every opening day, the steward counts common supplies and brings the restock card up to date, including any orders already due. Several low stocks can then be considered together when deciding what to order.\n\nReserve the last few minutes at neighboring benches for the two members to work as a pair. Go through the cleanup checklist together on one bench, then do the same on the other. A second pair of eyes helps spot a forgotten tool or scraps. Before starting their next session, members read any dated changes on the board and acknowledge them by their names. The steward can follow up individually with anyone who still needs to hear the update. During the shift overlap, both stewards walk around together and write down outstanding duties on the handover pad as they go. The incoming steward has seen the low shelf or maintenance issue behind the note and knows which follow-ups are still owed.",
+      "rewrite": "New members get a picture guide to the studio and walk through it at their own pace. Ask them to talk the steward through a session afterward so there is time to clear up any gaps before they start working on their own. For each round of bookings, the steward puts up a list showing whose turn it is to choose from the session sheet. Give different people the first picks from round to round. Each member chooses among the remaining bench times to suit their schedule. A person who turns up can use a session nobody has taken.\n\nTry the material on a small working sample before planning the rest of the project. With the results in hand, the member puts the next steps, the supplies to get ready and the intended stopping point on their project card. Tools each have a numbered hook and a matching space for the borrower's name. Sign there before taking the tool, and bring it back during the same session. Someone who comes across an empty hook can see whom to ask. If something feels or looks wrong in use, set the tool aside immediately in the tray for faulty tools. Whoever spotted the fault should describe the experience on a repair card, giving the steward both a tool safely withdrawn from use and particulars for the person inspecting it.\n\nMembers can leave a short question under the relevant subject on the help list and get on with any work they can safely manage. The steward can bring people with the same question together for one explanation. A question that crops up repeatedly also makes a good choice for the week's optional demonstration. Invite members to the demonstration corner so those new to the technique have a chance to learn it before they run into difficulty.\n\nTell the people around the noisy-work station when you are going to hammer and wait for them to respond before you begin. They may need a moment to put delicate work on hold. Anyone leaving a wet piece to dry chooses an empty spot on the rack and labels the piece with their name and the earliest safe handling time. Others can then judge when drying space might become available. To store a project until another visit, pack it, label it with the owner's name and a date for review, and take it to the steward. The steward allocates a vacant shelf space within that member's usual allowance and records where to retrieve the project.\n\nAs you produce usable, clean scraps, compare them with the samples beside the labeled bins and drop them into the appropriate one for others to use. For spare material belonging to individual members, the steward collects offers labeled with the amounts and the conditions attached. Bring the owners and prospective takers together once a week so they can discuss an offer before anyone accepts. At the close of each day the studio opens, the steward takes stock of shared supplies and updates the restocking card with the counts and any deliveries already on order. This lets the person ordering consider several shortages at once.\n\nNeighbors should spend the last few minutes of a session checking both their benches together. Finish the cleanup list at one before moving to the other so that both people can look for missed scraps and tools. When members next come in, have them read the dated notices on the board and mark their acknowledgment beside their names before they start. The steward can see who needs an individual update. Schedule a walk around the studio together for the outgoing and incoming stewards during their overlap. Enter unfinished jobs in the handover pad along the way so the incoming steward sees where supplies are running low or repairs are needed and knows what remains to be done."
+    },
+    {
+      "document_id": "fe565b63a4e06494",
+      "decision_topics": [
+        {
+          "decision_id": "decision_aa66695aaab8",
+          "question": "How should guests make their arrival known?"
+        },
+        {
+          "decision_id": "decision_272bba36c7c0",
+          "question": "How should games enter the evening’s suggested selection?"
+        },
+        {
+          "decision_id": "decision_719166d04868",
+          "question": "How should guests form tables for the next games?"
+        },
+        {
+          "decision_id": "decision_62f38e784a18",
+          "question": "How should the main rules explanation be delivered?"
+        },
+        {
+          "decision_id": "decision_d31d3ada1f2f",
+          "question": "How should players try unfamiliar actions before scored play?"
+        },
+        {
+          "decision_id": "decision_f996758977e6",
+          "question": "How should late arrivals find a game that will start soon?"
+        },
+        {
+          "decision_id": "decision_4d89f3f56486",
+          "question": "How should guests use short activities while waiting?"
+        },
+        {
+          "decision_id": "decision_d772c7680542",
+          "question": "How should tables monitor their progress through a game?"
+        },
+        {
+          "decision_id": "decision_43d3db7644bf",
+          "question": "How should a table resolve an unclear rule?"
+        },
+        {
+          "decision_id": "decision_0d902fc3e240",
+          "question": "How should inexperienced players receive strategic guidance?"
+        },
+        {
+          "decision_id": "decision_1636cbb51875",
+          "question": "How should refreshments fit around games?"
+        },
+        {
+          "decision_id": "decision_cb9375339465",
+          "question": "How should conversation volume be kept comfortable?"
+        },
+        {
+          "decision_id": "decision_1cb8fa812006",
+          "question": "How should players signal a need for a personal break?"
+        },
+        {
+          "decision_id": "decision_d594901e79d3",
+          "question": "How should game components be checked after play?"
+        },
+        {
+          "decision_id": "decision_e197fc73dddc",
+          "question": "How should the evening’s final stopping time be communicated?"
+        },
+        {
+          "decision_id": "decision_5ee7fd1699e5",
+          "question": "How should guests suggest improvements for the next evening?"
+        }
+      ],
+      "original": "Have the host welcome people in person and ask whether they'd like to play straight away or have a little time to settle in. Writing the name and answer on the welcome sheet helps the host gather the next groups, and a guest arriving alone already knows someone to approach. Invite everyone to look through the collection and put interest markers by games they'd enjoy trying. Use the marks to suggest titles that appeal to the people who have actually arrived. The rest of the available collection is open to requests too.\n\nAsk willing teachers to call out the games they can get going. People can gather around a teacher, see who else is interested and ask what the game involves. The host checks the number against the game's player range before a table begins. Anyone can pass and wait for another start. A welcome volunteer can take someone who comes late over to a table that's nearly finished, introduce them briefly and note any agreement to play in the next game together. Until then, the guest can pick something from the waiting basket. Choose any activity there, put it back as soon as the next table calls, and keep the place already arranged.\n\nAt the table, the teacher should talk everyone through the essential rules with the printed aid where people can follow along. Open the floor for questions after everyone has heard the whole explanation. Then give each person a practice turn to try an action that's new to them. Reset the pieces when everyone has had a go so that the first scored choice comes after some hands-on experience. Before play, let each learner who wants strategic help pick a willing partner. When asked, that partner can quietly talk through choices using only information visible to the players concerned. The learner makes the move and knows whom to ask the next time.\n\nEach table writes its agreed stopping time on a card in plain view, leaving time to pack up before closing. Choose someone playing there to give advance notice as the deadline approaches, and agree how to note an unfinished position if people want to save it. For pacing during play, set a timer everyone can see for checkpoints the table chooses together. When it sounds, take a moment to see how much time remains. Nobody has to spend the whole game watching the minutes. If a rule causes a dispute, pause and give two players a short time to look it up. The others can wait for the pair to report back. Accept their reading or play on with their temporary ruling and check the outstanding question after the evening.\n\nHave each table pick someone to listen for rising voices. They can suggest taking a long social conversation to the conversation corner while neighboring players can still hear their own turns. For refreshments, a player can agree a short absence with the group, have food or a drink in the refreshment area and be back for their next action. Anyone needing a personal break should say so aloud. Agree on an immediate place to pause and name the action that will come next. Protect any private information and wait to take actions requiring the absent player.\n\nWhen a game finishes, have the players sort all the pieces into the labeled bags. The teacher can then verify each bag against the checklist while everyone is still at the table to help find a missing piece. Return the checked box to the collection. The next day, the host sends an optional short prompt about the choice of games, how easy it was to get into one and any difficulty participating. People have a little distance from the evening, and grouping their replies before planning the next one lets the host spot experiences common to several tables.",
+      "rewrite": "Greet each guest face to face. The host can ask whether they feel like joining a game now or would prefer a few minutes to get comfortable, then note their name and preference on the welcome sheet. That gives the host a starting point for forming groups and gives anyone who came alone a familiar face. Let guests browse the games and mark the ones that catch their interest. The host can suggest games based on those marks and take requests for anything else in the collection that's available.\n\nInvite people who are happy to teach to announce which games they could start. Interested guests can join them for a closer look, ask what playing would involve and meet the other prospective players. Before they start, the host checks that the game accommodates the group. Guests are free to sit this one out and join a later game. When someone arrives late, a welcome volunteer can introduce them at a table nearing the end of play. If they agree to play the next game together, the volunteer makes a note. While waiting, the guest can try any activity from the waiting basket. They return it when the table calls and take the place already agreed.\n\nLay the printed rules aid where everyone can consult it while the teacher explains the essentials. Once everyone has heard the explanation, take questions and give each player a trial turn with an unfamiliar action. After the last trial, restore the starting position before anyone makes a choice that counts. Learners who would like tactical advice can choose a willing player as their partner before play begins. They can ask that person again whenever they need help. The partner talks over the options quietly, using only what the players involved can see, and leaves the actual move to the learner.\n\nWork back from closing to leave enough time to put the game away. Each group agrees on a finish time, displays it on a card and asks one of the players to warn the table as it draws near. Agree in advance how to record a position if the group wants to resume an unfinished game. The players also choose points during play for a visible timer to give a signal. They can check the time left at those points without anyone having to watch the clock throughout. When players disagree over a rule, stop play and let two of them spend a short time looking it up while the rest wait. Hear their conclusion and use their interpretation. If the question is still open, use the pair's provisional decision for the evening and check it afterward.\n\nChoose a player at each table to keep an ear on the volume. If a long chat is getting loud, they can invite the people talking to continue in the conversation corner before it gets hard to hear play at the next table. A player wanting a snack or drink can arrange a short time away with the group, use the refreshment area and return for their next action. A player who needs a personal break tells the table aloud. Find a place to stop right away, say what action is due next, keep private information protected and hold off on any move that needs the absent player.\n\nAt the end of play, everyone helps sort the components into their labeled bags. Before people leave the table, the teacher checks each bag against the list so the whole group is still on hand to look for anything missing. Put the verified game back in the collection. The following day the host invites brief, optional feedback on the games available, how people found a game to join and anything that got in the way of taking part. Guests have had time to reflect by then. Grouping the answers before arranging another evening helps the host recognize issues shared across tables."
+    },
+    {
+      "document_id": "f57e5cbe05ae8fa4",
+      "decision_topics": [
+        {
+          "decision_id": "decision_35d1adfafbe4",
+          "question": "How should rehearsal dates be chosen from available room slots?"
+        },
+        {
+          "decision_id": "decision_6bebf95df8b2",
+          "question": "How should expected attendance reach the conductor?"
+        },
+        {
+          "decision_id": "decision_2a6ca4fef878",
+          "question": "How should singers obtain the music needed for rehearsal?"
+        },
+        {
+          "decision_id": "decision_6c329ebd0141",
+          "question": "How should the order of rehearsal pieces be set?"
+        },
+        {
+          "decision_id": "decision_b4b071a1e9c4",
+          "question": "Who should guide the shared vocal warmup?"
+        },
+        {
+          "decision_id": "decision_b04afc087b03",
+          "question": "How should chairs be arranged within voice sections?"
+        },
+        {
+          "decision_id": "decision_3c288aadfbc9",
+          "question": "How should short sectional practice be organized?"
+        },
+        {
+          "decision_id": "decision_8e32b39ab51c",
+          "question": "How should a difficult passage be diagnosed?"
+        },
+        {
+          "decision_id": "decision_e123df0d4c61",
+          "question": "How should practice recordings be made easy to use?"
+        },
+        {
+          "decision_id": "decision_964a9073f798",
+          "question": "How should singers learn shared entrances and cutoffs?"
+        },
+        {
+          "decision_id": "decision_ccff2156987f",
+          "question": "How should singers offer observations about musical balance?"
+        },
+        {
+          "decision_id": "decision_d76a9f779d9b",
+          "question": "How should changes to score markings be kept consistent?"
+        },
+        {
+          "decision_id": "decision_7080eb919bd1",
+          "question": "How should an absent singer catch up?"
+        },
+        {
+          "decision_id": "decision_01db0d9ee017",
+          "question": "How should the main rehearsal break be timed?"
+        },
+        {
+          "decision_id": "decision_c693308338b6",
+          "question": "How should room setup duties be shared?"
+        },
+        {
+          "decision_id": "decision_faf230423b00",
+          "question": "How should the choir agree what to practice before next time?"
+        }
+      ],
+      "original": "Send the singers a draft series of rehearsal dates drawn from the room's available slots. The booking organizer should leave time for people to point out clashes while dates can still be changed, then reserve the sequence. Once rehearsals are booked, send a reminder at a regular point before each one with a link to respond about attendance. Give the conductor a summary of the replies in time to plan for the voice parts likely to be in the room.\n\nTell everyone which numbered scores to bring and send the authorized digital copies in advance so singers can look them over at home. The organizer should have the corresponding paper scores ready to pick up on arrival. Divide early setup among willing members on a rotating list. With a reminder telling each volunteer whether to set out the chairs, put out the folders or prepare the conductor's stand, the same few people needn't arrive early every time.\n\nAsk the section leaders which of the prepared pieces their singers most need to revisit. The conductor can weigh the needs of the different parts, work out a balanced order within the booked time and publish it before rehearsal. At the start, name the block of work that will be followed by the main break. Singers will know where the pause fits and can finish a musical task together before resting. Anyone who needs to step out briefly can still do so.\n\nPost the order of the familiar warmup exercises and give each part of the warmup to a different section leader to guide. This lets several voices lead a few minutes of preparation while everyone follows the conductor's approved sequence. Have the choir sing a short phrase so the conductor can hear how the room sounds with the singers in place. The conductor can then request chair adjustments within each voice section, keeping accessible paths open and checking everyone can see the gestures from their new seats.\n\nWhen a passage catches the choir out, listen to it as sung. The conductor should identify the one feature most likely to be causing trouble, have the choir work on that element by itself, then put it back with the rest of the phrase. Within the time for sectional work, the conductor can stay with the part that needs direct help. At the same time, the other leaders take their sections to separate corners to practice their assigned bars, ready to rejoin the choir when the block ends.\n\nFor shared entrances and cutoffs, first show the gesture for each cue and have the singers put a reminder in their scores. They can use the marking to look up in time when they sing it. After a passage sung together, invite one voice section at a time to say what it could hear. Rotate the invitation so singers in different parts of the room get a turn, then let the conductor decide what to adjust. Singers pencil in a changed dynamic or phrasing as it is given. The conductor goes back over the affected bars aloud before everyone leaves so a misheard marking can be corrected. The organizer then publishes the confirmed markings by piece and bar.\n\nArrange the practice folder around difficult passages. For each one, the conductor lists the available part recordings with the relevant bars so a singer can go from a remembered rehearsal problem directly to their own line. End rehearsal by naming two priorities for optional practice and putting the precise bars in the notes. A singer who missed the session should receive those notes with links to the marking changes and recordings. They can bring their score up to date and work through what they missed on their own schedule before coming back.",
+      "rewrite": "Start with the times the rehearsal room is free. The person handling bookings sends the choir a proposed run of dates and gives singers a chance to flag conflicts while there is still room to move things around. Then book the series. At a consistent interval before each booked rehearsal, send a reminder with a link for singers to say whether they'll be there. Pass a summary to the conductor early enough to plan around the expected turnout in each part.\n\nTell singers which numbered scores they'll need to bring and circulate the approved digital copies early enough for a read at home. The organizer lays out the matching paper copies for people to collect as they arrive. Ask for volunteers to take turns coming early for setup and remind each person of their particular job, whether it's arranging chairs, laying out folders or getting the conductor's stand ready. Rotating the duties spreads the early starts around.\n\nBefore setting the rehearsal order, the conductor asks each section leader which prepared pieces their part would most benefit from singing again. Allow for the different sections' needs and the time booked, then share the order ahead of the session. At the outset, tell the singers which stretch of work will end with the main break. That way the choir knows when it will finish a task and rest together, and anyone needing a brief absence can still step out.\n\nDisplay the familiar warmup sequence approved by the conductor. A different section leader guides each stage, giving several people a short turn leading the choir through its preparation. With the singers seated, have them sing a short phrase for the conductor to assess the sound in the occupied room. The conductor can then ask singers to move their chairs within their sections, keeping accessible routes clear and making sure the cues will be visible from every new seat.\n\nWhen the choir struggles with a phrase, the conductor listens to what the singers are doing and picks the single likeliest source of the difficulty. Practice that feature in isolation before singing it in the context of the phrase again. During sectional time the conductor stays with the part needing personal attention. The other leaders work simultaneously in separate corners with their own singers on the bars they've been given. All the parts come back together at the end of the allotted time.\n\nDemonstrate how a common entry or cutoff will be signaled and ask singers to mark the cue in their music so they'll remember to look up. After the parts have sung a passage together, hear from one section at a time about what reached their ears. Take turns asking different sections so the conductor hears from around the room before choosing an adjustment. As the conductor changes a dynamic or the shaping of a phrase, singers pencil it into their scores. Revisit the revised bars aloud before dismissal so singers can catch anything they misunderstood. The organizer then circulates the agreed markings with the piece and bar for each.\n\nGroup the materials for home practice by the tricky passage that prompted them. For each passage, the conductor indicates the bars and the recordings available for each part, so someone who remembers struggling in rehearsal can find their own line. Close the session by suggesting two priorities for anyone choosing to practice, and specify the bars in the rehearsal notes. Send absent singers those notes and links to both the revised markings and the recordings. They can update their copies and cover the missed work when it suits them before they return."
+    },
+    {
+      "document_id": "cddf62b0a0dd10ee",
+      "decision_topics": [
+        {
+          "decision_id": "decision_71042de1e5ec",
+          "question": "How should organizers learn what neighbors expect to contribute?"
+        },
+        {
+          "decision_id": "decision_47484ace809a",
+          "question": "How should contribution arrivals be spread across the intake period?"
+        },
+        {
+          "decision_id": "decision_ee29440d96e5",
+          "question": "How should contributed goods be checked before display?"
+        },
+        {
+          "decision_id": "decision_0616741ccfd1",
+          "question": "How should useful item descriptions be prepared?"
+        },
+        {
+          "decision_id": "decision_c5d320651898",
+          "question": "How should the display tables be organized?"
+        },
+        {
+          "decision_id": "decision_76955a70c571",
+          "question": "How should reserve stock reach the display tables?"
+        },
+        {
+          "decision_id": "decision_66bdc8c4642b",
+          "question": "How should arriving visitors learn how the fair works?"
+        },
+        {
+          "decision_id": "decision_b48a117f22f5",
+          "question": "How should competing requests for the same item be settled?"
+        },
+        {
+          "decision_id": "decision_2f6fb93af909",
+          "question": "How should claimed items be held while recipients continue browsing?"
+        },
+        {
+          "decision_id": "decision_4c7582137f3c",
+          "question": "How should pieces of a complete set remain together?"
+        },
+        {
+          "decision_id": "decision_512a3f852563",
+          "question": "How should visitors arrange help carrying goods out?"
+        },
+        {
+          "decision_id": "decision_ee00677c5692",
+          "question": "How should volunteers receive their working assignments?"
+        },
+        {
+          "decision_id": "decision_26850f104ee3",
+          "question": "How should requests for currently missing goods be recorded?"
+        },
+        {
+          "decision_id": "decision_b9de32a36c70",
+          "question": "How should outgoing goods be recorded at collection?"
+        },
+        {
+          "decision_id": "decision_3f6eb3a6337e",
+          "question": "How should unclaimed goods be processed after the fair closes?"
+        },
+        {
+          "decision_id": "decision_6d830daa9827",
+          "question": "How should organizers learn which parts of the fair need improvement?"
+        }
+      ],
+      "original": "In the run-up to the fair, ask volunteers on each block to talk with neighbors who might bring something and send the organizers a summary by category. A doorstep conversation can reach someone who would skip a form, and rough quantities are enough to plan tables. The published criteria will apply to everything when it arrives. Circulate an intake sheet showing available arrival windows so contributors can choose a time that suits them and volunteers can anticipate busy periods. Leave a little room for walk-ins throughout. Using volunteers' stated availability and preferred jobs, the coordinator draws up the shifts and sends everyone the roster ahead of the fair. That gives people time to prepare and makes any gaps in coverage apparent.\n\nKeep contributors with their goods at intake while a volunteer checks each item against the condition list. A question about a chip or a missing accessory can be settled on the spot before acceptance. As the item is accepted, the volunteer asks for details and fills out the standard label with the identifier, description, limitations and included accessories. Having the interviewer write the label keeps details consistent across the displays. Bag or tie all the pieces of a complete set together here and keep its description where a visitor can read it. The set reaches the table as one bundle and can stay together through a busy afternoon.\n\nSign the tables by the room where the goods would ordinarily be used. Someone looking for a saucepan can go to the kitchen table, and someone furnishing a bedroom can start at the bedroom sign. Keep the aisles clear and put overflow on the reserve shelves. A runner makes a regular circuit to see what space has opened and brings out reserve items that fit. Table volunteers can stay with visitors as the stock turns over.\n\nAt the entrance, a welcome volunteer gathers a few arrivals at a time for a short explanation of browsing, making a claim, holding goods and collecting them. Make clear that anyone may give or take freely without a matching contribution. Let people go on to browse, and offer individual clarification by the entrance diagram for anyone with a question. Visitors looking for something they haven't found can leave a wanted note by its category sign. If suitable goods appear, the table volunteer moves the matched note to a common collection point where people can check for news. Posting a request carries no promise the goods will come in.\n\nIf several people ask for the same item, record the requests and their times on the sheet. At the end of the brief decision window, the volunteer gives the claim to the person whose request was recorded earliest. People can see the basis for the decision in the times on the sheet. A recipient who wants to keep browsing can take the goods to the holding volunteer. Before shelving them, the volunteer records the recipient's name and confirms the pickup deadline with them, up to twenty minutes away. Both people then know who is looking after the item and when it is due out.\n\nAt collection, show the claim record to the volunteer keeping the outgoing register. They verify the claim, record the item's identifier and issue a checked slip for the recipient to show when taking the goods out. This keeps the paperwork ahead of the physical handover. People can ask for carrying assistance right there without giving a reason. The volunteer assigns the next available helper and cart for the trip to the nearby pickup area when the goods are ready to go.\n\nBefore admitting contributors for closing collection, sort everything still unclaimed according to its contributor's recorded choice. Keep the returns easy to find and group the donations for the arranged pickup after the collection period. For feedback, hold a few short, optional conversations separately with visitors, contributors and volunteers about how finding things, claiming them and running the fair went. Compare the notes afterward so the organizers can hear how the same routine felt on different sides of a table and see where a change could help several groups.",
+      "rewrite": "Before the fair, recruit volunteers on each block to ask neighbors what they might bring. Have them report back by category with approximate quantities for planning table space. Talking at the door includes people who might never fill in a form. Check everything against the published criteria when it actually arrives. Let contributors select an arrival slot on a shared intake sheet, leaving some capacity for unscheduled arrivals in every period. Volunteers can see when to expect a rush. The coordinator uses volunteers' preferred duties and available hours to arrange shifts and circulates the roster in advance so people can prepare and uncovered shifts stand out.\n\nAt intake, a contributor stays until a volunteer has compared each item with the condition list. This gives them a chance to clear up a question about damage or an absent part before the volunteer accepts it. For every accepted item the volunteer interviews the contributor and writes up the standard label, recording the item's identifying reference, what it is, any limitations and the accessories that go with it. A volunteer completing the label from the answers helps keep descriptions consistent. Tie or bag the parts of complete sets together before sending them out to the floor, with the description visible. Visitors can still tell what's included while the pieces stay together through the afternoon.\n\nOrganize the tables by household room, with signs that direct someone after a saucepan to the kitchen goods or someone outfitting a bedroom to the bedroom goods. Leave the aisles open by storing excess goods on reserve shelves. A runner checks the tables at regular intervals and fills newly open spaces with suitable reserve stock, leaving the table volunteers free to attend to visitors.\n\nAs visitors come in, the welcome volunteer brings a few together at a time to explain how to look around, claim something, leave it on hold and collect it. Everyone is welcome to give or take without bringing something in exchange. Let the group begin browsing and use the entrance diagram to answer individual questions. Someone who can't find an item can post a request by the appropriate category sign. If a suitable item turns up, the table volunteer takes the request to a central collection point where visitors can look for a match. A request is no guarantee that the item will appear.\n\nFor competing requests, enter each person's request and the time on the sheet. Once the short decision period ends, award the item to the earliest recorded requester. The times are available for people to see how the volunteer decided. Anyone with a claim who wishes to continue looking around can bring their goods to the volunteer managing holds. That volunteer writes down the recipient's name and confirms a pickup time no more than twenty minutes away before putting the goods on a shelf. Both know who has the item and when it must be collected.\n\nTo take an item home, present the claim record to the volunteer at the outgoing register. The volunteer confirms the claim, enters the item's identifying reference and gives the recipient a checked slip to show on the way out. Complete those steps before handing over the goods. At that same point anyone can request carrying help without explaining why. When the item is ready, the volunteer assigns the next free helper and cart to take it to the nearby pickup area.\n\nAt closing, use each contributor's previously recorded instructions to sort the unclaimed items before letting contributors in to collect them. Arrange the returns for easy retrieval and put the donations together for their scheduled pickup after collection ends. Invite visitors, contributors and volunteers to give feedback in separate, brief conversations if they wish. Ask how it went finding and claiming goods and keeping the fair running. Afterward the organizers compare their notes to see how a procedure worked for people in different roles and which changes might benefit several groups."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "assessments": [
+    {
+      "document_id": "5dc52e25134c41af",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_8f30e5c1cb3a",
+          "verdict": "preserved",
+          "reason": "Staff spread pickups and reserve space after receiving ranked windows."
+        },
+        {
+          "decision_id": "decision_a4f983e6c177",
+          "verdict": "preserved",
+          "reason": "Staff use the list to prepare titles shortly before readers are due and conserve space."
+        },
+        {
+          "decision_id": "decision_632e2926f2e9",
+          "verdict": "preserved",
+          "reason": "The helper gathers names at the entrance and brings several at once on a regular round."
+        },
+        {
+          "decision_id": "decision_586c46ce6bd6",
+          "verdict": "preserved",
+          "reason": "Alternating short blocks give appointments and walk-ins turns during busy periods."
+        },
+        {
+          "decision_id": "decision_af8caffec512",
+          "verdict": "preserved",
+          "reason": "Staff finish handing over books before recording questions for helper follow-up."
+        },
+        {
+          "decision_id": "decision_1d91d9d94b72",
+          "verdict": "preserved",
+          "reason": "The desk copy pairs reader and window with a labeled location independent of neighboring books."
+        },
+        {
+          "decision_id": "decision_e99c80b7d5b1",
+          "verdict": "preserved",
+          "reason": "Staff offer open windows and leave the book in place until the reader chooses."
+        },
+        {
+          "decision_id": "decision_264f6c08f632",
+          "verdict": "preserved",
+          "reason": "Readers leave books with slips and helpers check them in using the arrival information."
+        },
+        {
+          "decision_id": "decision_18ceec9fc309",
+          "verdict": "preserved",
+          "reason": "Grouping checked returns by destination lets a helper cover one stretch per trip."
+        },
+        {
+          "decision_id": "decision_39f403e9ac55",
+          "verdict": "preserved",
+          "reason": "A helper checks the list at loading and delivery on fixed tray rounds."
+        },
+        {
+          "decision_id": "decision_ec7803bbd281",
+          "verdict": "preserved",
+          "reason": "The entrance helper offers help and lists requests readers accept on the spot."
+        },
+        {
+          "decision_id": "decision_198c1ffba842",
+          "verdict": "preserved",
+          "reason": "A helper maintains the notice while staff speak to the readers concerned."
+        },
+        {
+          "decision_id": "decision_4097a1e6e449",
+          "verdict": "preserved",
+          "reason": "Readers receive cards with their books and can write and deposit them by the exit."
+        },
+        {
+          "decision_id": "decision_23eac4fd2979",
+          "verdict": "preserved",
+          "reason": "The outgoing helper prepares the record before overlap and explains it during overlap."
+        },
+        {
+          "decision_id": "decision_ede10bc15c2f",
+          "verdict": "preserved",
+          "reason": "The entrance notice maps quiet seats readers can choose on arrival."
+        },
+        {
+          "decision_id": "decision_60e6b65bf11b",
+          "verdict": "preserved",
+          "reason": "The team proposes one change at closing and requires it to fit the wait log and feedback."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "e9ff54c070f00827",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_995ed35b4d41",
+          "verdict": "preserved",
+          "reason": "The drink counter sends the card ahead so the cup can be ready for the guest."
+        },
+        {
+          "decision_id": "decision_8342e49aaeb7",
+          "verdict": "preserved",
+          "reason": "Period-specific allocations limit the stock the first rush can claim."
+        },
+        {
+          "decision_id": "decision_efc50eefa7f6",
+          "verdict": "preserved",
+          "reason": "Staff enter cup details and the guest enters their own return commitment."
+        },
+        {
+          "decision_id": "decision_52c1844753ed",
+          "verdict": "preserved",
+          "reason": "The guest receives a portable return map with the cup and sees the route traced on the counter map."
+        },
+        {
+          "decision_id": "decision_9b8cc7fdb0c2",
+          "verdict": "preserved",
+          "reason": "The intake volunteer immediately looks over each cup before crating it."
+        },
+        {
+          "decision_id": "decision_8204e82647ee",
+          "verdict": "preserved",
+          "reason": "Once a small crate accumulates, its descriptions are matched to loan entries together."
+        },
+        {
+          "decision_id": "decision_117204fcc63a",
+          "verdict": "preserved",
+          "reason": "A ready mark on the transfer list triggers the trip to washing."
+        },
+        {
+          "decision_id": "decision_418d780a0676",
+          "verdict": "preserved",
+          "reason": "The washer lists clean cups before returning them, making incoming stock visible."
+        },
+        {
+          "decision_id": "decision_e99487beea19",
+          "verdict": "preserved",
+          "reason": "The board announces a common return period and figures are gathered after it ends."
+        },
+        {
+          "decision_id": "decision_92b118e19f92",
+          "verdict": "preserved",
+          "reason": "Guest and volunteer work out a new due time from the guest’s estimate and the volunteer records it."
+        },
+        {
+          "decision_id": "decision_247b053e1c19",
+          "verdict": "preserved",
+          "reason": "Two people divide cup intake and recordkeeping for a short stint."
+        },
+        {
+          "decision_id": "decision_42560af6a041",
+          "verdict": "preserved",
+          "reason": "One volunteer updates the notice while another works through requests."
+        },
+        {
+          "decision_id": "decision_273822a1bb88",
+          "verdict": "preserved",
+          "reason": "Lending asks guests about easier returns and passes comments to return points before guests come back."
+        },
+        {
+          "decision_id": "decision_ab8895b1bfed",
+          "verdict": "preserved",
+          "reason": "Both shifts update the note together as each task changes hands."
+        },
+        {
+          "decision_id": "decision_99fdd656ca17",
+          "verdict": "preserved",
+          "reason": "The lending station starts modestly stocked and draws from the nearby shelf as requests grow."
+        },
+        {
+          "decision_id": "decision_6f2c62255721",
+          "verdict": "preserved",
+          "reason": "The team checks the most frequent comment against lending totals and return times before choosing a trial."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "24af7e05f9460e8c",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_c7a5ccd3f1e9",
+          "verdict": "preserved",
+          "reason": "Volunteers mark possible times and the coordinator schedules where these coincide."
+        },
+        {
+          "decision_id": "decision_8729fe7d747d",
+          "verdict": "preserved",
+          "reason": "The coordinator assigns all unclaimed jobs provisionally before volunteers swap poor fits."
+        },
+        {
+          "decision_id": "decision_5d23452f7abf",
+          "verdict": "preserved",
+          "reason": "A waiting volunteer lists the request and agrees a return time with the current user."
+        },
+        {
+          "decision_id": "decision_1ac6dffd7825",
+          "verdict": "preserved",
+          "reason": "Bed observations are posted before volunteers claim watering based on need."
+        },
+        {
+          "decision_id": "decision_c5430d8600b5",
+          "verdict": "preserved",
+          "reason": "Volunteers take manageable roster periods and the coordinator fills remaining gaps."
+        },
+        {
+          "decision_id": "decision_88c6d406e0c2",
+          "verdict": "preserved",
+          "reason": "A learner watches an experienced gardener first and then uses the card."
+        },
+        {
+          "decision_id": "decision_b2aaf226f573",
+          "verdict": "preserved",
+          "reason": "Growers and neighbors settle the harvest quantity and collection time together on the board."
+        },
+        {
+          "decision_id": "decision_061471c74449",
+          "verdict": "preserved",
+          "reason": "Members explain the purpose of one specific idea, then combine compatible suggestions."
+        },
+        {
+          "decision_id": "decision_34dd090aaf76",
+          "verdict": "preserved",
+          "reason": "The coordinator pairs people after they independently mark possible compost periods."
+        },
+        {
+          "decision_id": "decision_0837251f1030",
+          "verdict": "preserved",
+          "reason": "Dated observation cards and copies in bed files support both ways of retrieving observations."
+        },
+        {
+          "decision_id": "decision_f1b96dbf8d14",
+          "verdict": "preserved",
+          "reason": "Visitors can suggest changes to announced path-work times before work starts."
+        },
+        {
+          "decision_id": "decision_d13f8423f8df",
+          "verdict": "preserved",
+          "reason": "Volunteers settle quantities and portions together before entering a single materials request."
+        },
+        {
+          "decision_id": "decision_689c0fe67da1",
+          "verdict": "preserved",
+          "reason": "Usual gardeners list welcome care before others select temporary jobs."
+        },
+        {
+          "decision_id": "decision_22b8508b7232",
+          "verdict": "preserved",
+          "reason": "Visitors explore with the map first and may consult the host on remaining questions."
+        },
+        {
+          "decision_id": "decision_a1457af06d91",
+          "verdict": "preserved",
+          "reason": "The absent volunteer updates calendar attendance first and then flags affected jobs."
+        },
+        {
+          "decision_id": "decision_b064e8fe7a29",
+          "verdict": "preserved",
+          "reason": "Members establish capacity from participation records before selecting an observed need they can meet."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "cccff3c954d5d785",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_095faae08d2f",
+          "verdict": "preserved",
+          "reason": "Reception hears what brought the visitor in before indicating a starting room matched to that interest."
+        },
+        {
+          "decision_id": "decision_3e20cae8aa07",
+          "verdict": "preserved",
+          "reason": "The guide names two themes and the group chooses one together."
+        },
+        {
+          "decision_id": "decision_954b40fc1668",
+          "verdict": "preserved",
+          "reason": "Successive labels pose the same question and the last connects the examples after visitors compare them."
+        },
+        {
+          "decision_id": "decision_d069333dcdbb",
+          "verdict": "preserved",
+          "reason": "Visitors write questions in advance so the volunteer can group and discuss them at the pause."
+        },
+        {
+          "decision_id": "decision_034dcf8498b0",
+          "verdict": "preserved",
+          "reason": "Room volunteers suggest routes directly to moving visitors while the map stays at reception."
+        },
+        {
+          "decision_id": "decision_a52c0a61ba2b",
+          "verdict": "preserved",
+          "reason": "Visitors pick their highlights and reception helps shorten the selection to fit available time."
+        },
+        {
+          "decision_id": "decision_ce7fdbc55099",
+          "verdict": "preserved",
+          "reason": "Each welcome volunteer stays with their group to answer its early collection questions."
+        },
+        {
+          "decision_id": "decision_bbe43118a354",
+          "verdict": "preserved",
+          "reason": "Visitors read the local account before approaching the object and answering the question."
+        },
+        {
+          "decision_id": "decision_2435ae99c474",
+          "verdict": "preserved",
+          "reason": "Visitors look closely first and turn the sheet over to discover the response prompt."
+        },
+        {
+          "decision_id": "decision_896834903e5b",
+          "verdict": "preserved",
+          "reason": "Volunteers track repeated questions and draft revisions addressing those difficulties."
+        },
+        {
+          "decision_id": "decision_e574ca310618",
+          "verdict": "preserved",
+          "reason": "Reception asks about a previously enjoyed room and suggests a connected object in another room."
+        },
+        {
+          "decision_id": "decision_47bd37ecde77",
+          "verdict": "preserved",
+          "reason": "One volunteer changes the display while others remind people in their rooms."
+        },
+        {
+          "decision_id": "decision_93f87b72b73f",
+          "verdict": "preserved",
+          "reason": "The volunteer and visitor fill in the card as they talk and can clarify details immediately."
+        },
+        {
+          "decision_id": "decision_109bee88f2c1",
+          "verdict": "preserved",
+          "reason": "The organizer chooses a focus after learning which rooms and volunteer times are available."
+        },
+        {
+          "decision_id": "decision_afed3418c84e",
+          "verdict": "preserved",
+          "reason": "Visitors choose a room before describing a moment or object, allowing comments to be grouped by place."
+        },
+        {
+          "decision_id": "decision_e1233fe46483",
+          "verdict": "preserved",
+          "reason": "A repeated comment is checked against room counts and volunteer observations before selecting an improvement."
+        }
+      ],
+      "added_conflicting_decisions": []
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "instruction": "Write a coherent natural-language proposal solving the supplied problem using every selected planning application. These are the intended decisions, not a menu to choose from. Express the mechanism and its consequence clearly for all sixteen decisions; you may integrate several decisions in a paragraph. Use ordinary prose, not numbered steps or option labels, and do not copy the supplied sentences verbatim. Do not put internal IDs, formal logic symbols, placeholder variables, or route tags in the text. References to alternatives are allowed only if their rejected or hypothetical status is clear. Do not silently replace, omit, or reverse a selected mechanism. A natural proposal of roughly 500–900 words is sufficient, but completeness takes priority over length. Return one document for every input, even if difficult.",
+  "documents": [
+    {
+      "document_id": "76ff65c662df89ae",
+      "problem": "A small library becomes crowded during afternoon pickups and returns. It has a request sheet, adjustable pickup windows, a few trained helpers, labeled shelves, and enough room to separate several activities. Staff want a practical plan that preserves walk-in access. Each decision below concerns a different part of the service; none requires exclusive use of all helpers or space.",
+      "goal": "Keep books moving and make the afternoon service easier to use without excluding readers who arrive without an appointment.",
+      "selected_applications": [
+        {
+          "question": "How should readers and staff agree on pickup windows?",
+          "context": "Readers can give preferences on a shared request sheet, and staff can reserve space in several pickup windows.",
+          "application": "Readers rank pickup windows on the request sheet before staff reserve shelf space. Staff can use those preferences to spread pickups across the available windows."
+        },
+        {
+          "question": "Who should choose when a requested book is prepared?",
+          "context": "A preparation list shows each requested book, its reader, and its agreed pickup window.",
+          "application": "Readers confirm they are on their way, and staff then prepare the requested books from the preparation list. Preparation effort follows readers who are likely to collect soon."
+        },
+        {
+          "question": "How should a reader announce arrival?",
+          "context": "The entrance has an arrival sheet, and the pickup desk can see it without leaving its station.",
+          "application": "A helper gathers names from arriving readers and carries the arrival sheet to the pickup desk at regular intervals. The desk receives grouped arrival updates without a continuous line of introductions."
+        },
+        {
+          "question": "How should walk-ins share the pickup desk with booked readers?",
+          "context": "The desk serves both booked readers and walk-ins, and staff can divide its working time into short service blocks.",
+          "application": "Staff begin each service block with the longer waiting group, whether booked readers or walk-ins. Service follows the greater current wait instead of a fixed group order."
+        },
+        {
+          "question": "How should quick questions be separated from book collection?",
+          "context": "A question pad is available beside the pickup desk, and a helper can answer routine questions.",
+          "application": "The helper asks waiting readers for routine questions and writes answers on the pad before they reach the pickup desk. Common issues can be settled during the wait rather than at collection."
+        },
+        {
+          "question": "How should shelf labels help staff locate requested books?",
+          "context": "Requested books can be grouped on several shelves, and labels can show either a reader name or a pickup window.",
+          "application": "Staff assign a shelf location to each requested book and put that location beside both reader name and pickup window on a desk list. The desk list directs the search without sorting the shelves by either field."
+        },
+        {
+          "question": "What should happen when a reader misses a pickup window?",
+          "context": "A missed pickup can be held for one more service period, and the reader can be contacted.",
+          "application": "Staff contact the reader with the remaining pickup windows and move the book only after the reader selects one. The reader chooses among the remaining spaces before the extra hold is arranged."
+        },
+        {
+          "question": "How should a returned book enter the checking queue?",
+          "context": "Returned books need a brief condition check, and a return slip can record the book and its arrival.",
+          "application": "Readers place returned books beside completed return slips, and helpers check them in arrival order. The slips preserve order without requiring a separate intake conversation."
+        },
+        {
+          "question": "How should checked returns be reshelved?",
+          "context": "Checked returns are placed on a trolley, and helpers can sort by shelf location or by the age of the return.",
+          "application": "Helpers divide checked returns into small trolley batches and sort each batch by shelf location before shelving it. Short batches balance prompt return with compact shelving trips."
+        },
+        {
+          "question": "How should a book move between the preparation area and the desk?",
+          "context": "A transfer tray and a written transfer list can connect book preparation with the pickup desk.",
+          "application": "Desk staff send a transfer list for the readers currently waiting, and preparation helpers fill the tray to match it. Transfers follow immediate pickup demand."
+        },
+        {
+          "question": "How should readers request extra assistance?",
+          "context": "Some readers prefer help carrying or locating books, and a helper can provide it without requiring a reason.",
+          "application": "A helper offers assistance at arrival and records accepted requests on a list. Readers can choose help after seeing what they need that day."
+        },
+        {
+          "question": "How should a reader hear about a temporary delay?",
+          "context": "Staff can update a delay notice and speak with readers whose pickup is affected.",
+          "application": "A helper keeps the delay notice current while staff speak with affected readers at the same time. Shared and individual updates proceed without waiting for one another."
+        },
+        {
+          "question": "How should feedback be gathered without slowing departures?",
+          "context": "A short feedback card and a nearby collection box are available for readers leaving the service.",
+          "application": "A helper offers feedback cards near the exit and points readers to the collection box. The pickup desk does not need to introduce the feedback request."
+        },
+        {
+          "question": "How should helpers hand over unfinished tasks?",
+          "context": "Helpers overlap briefly at a shift change and can use a shared list of unfinished tasks.",
+          "application": "The outgoing helper writes the unfinished-task list before the overlap and explains it to the incoming helper. The handover starts from a prepared record."
+        },
+        {
+          "question": "How should the library encourage quieter waiting?",
+          "context": "Readers can wait in several spots, and a quiet-waiting notice can be moved around the pickup area.",
+          "application": "Staff place the quiet-waiting notice beside the waiting spots before the service starts. Readers encounter the expectation as they choose where to wait."
+        },
+        {
+          "question": "How should staff choose one improvement for the next afternoon?",
+          "context": "The team has a wait log, reader feedback, and a short closing discussion.",
+          "application": "Staff identify the longest waits in the log and use reader feedback to choose one improvement during closing. The improvement begins with a measured bottleneck and checks its effect on readers."
+        }
+      ]
+    },
+    {
+      "document_id": "b6c18aa5a477b92e",
+      "problem": "A neighborhood café wants to lend reusable cups at community gatherings and recover them afterward. It has a modest cup stock, washable collection crates, a simple lending record, and volunteers who can share short shifts. The plan concerns a small pilot with no deposit or sales system. Different decisions address separate moments in lending, return, and review.",
+      "goal": "Make cup lending and return convenient while keeping the available stock and volunteer work understandable.",
+      "selected_applications": [
+        {
+          "question": "How should guests indicate that they want a reusable cup?",
+          "context": "Guests can make a request at the drink counter, and a request card can pass between the drink and cup stations.",
+          "application": "A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations. Both stations receive the same choices while guests remain in the queue."
+        },
+        {
+          "question": "How should available cups be allocated during busy periods?",
+          "context": "There are fewer cups than peak simultaneous requests, but guests can wait or use their own cups.",
+          "application": "Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need. Allocation follows intended use time rather than request time."
+        },
+        {
+          "question": "How should a borrowed cup be recorded?",
+          "context": "A lending record can connect a cup’s distinguishing description with the guest’s chosen return time.",
+          "application": "The volunteer records the cup description and asks the guest to add a return time. The guest makes the return commitment in the lending record."
+        },
+        {
+          "question": "How should guests learn where to return cups?",
+          "context": "The café can show a return map on the counter and on small cards beside the cups.",
+          "application": "Guests look at the counter map before choosing a cup and take a return card if needed. The return route is considered before the loan begins."
+        },
+        {
+          "question": "How should a return point collect used cups?",
+          "context": "A return point has collection crates and space for guests to pause without blocking the serving area.",
+          "application": "A volunteer accepts used cups and places them in collection crates as guests arrive. Each returned cup receives an immediate intake check."
+        },
+        {
+          "question": "How should returned cups be matched to the lending record?",
+          "context": "Cup descriptions in the lending record are sufficient to match returns without storing personal contact details.",
+          "application": "Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record. Recording is concentrated into short batches."
+        },
+        {
+          "question": "How should crates reach the washing station?",
+          "context": "The return point and washing station are connected by a short route, and a transfer list can record crates.",
+          "application": "A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list. Transfers follow the buildup of returned cups."
+        },
+        {
+          "question": "How should cleaned cups rejoin available stock?",
+          "context": "Cleaned cups are ready for reuse after the café’s normal washing procedure and can be listed as available.",
+          "application": "The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station. The lending team can anticipate the incoming supply."
+        },
+        {
+          "question": "How should the team handle cups that have not returned on time?",
+          "context": "The gathering has an announcement board and several return points, but the team does not track guests individually.",
+          "application": "Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count. The reminder reaches likely return locations before the count is refreshed."
+        },
+        {
+          "question": "How should guests extend a loan during the gathering?",
+          "context": "A guest may need a cup longer than expected, and the lending record has room for an updated return time.",
+          "application": "Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time. A brief conversation turns the guest’s estimate into a shared commitment."
+        },
+        {
+          "question": "How should volunteers divide intake and recording work?",
+          "context": "Two volunteers are available at busy return points, and either can handle intake or the lending record.",
+          "application": "One volunteer handles cup intake while the other updates the lending record throughout a short block. Each person can concentrate on one part of the return process."
+        },
+        {
+          "question": "How should the café explain a temporary cup shortage?",
+          "context": "A stock notice and the request list are visible near the lending station.",
+          "application": "One volunteer updates the stock notice while another works through the request list. Shared information and individual arrangements proceed together."
+        },
+        {
+          "question": "How should guests offer feedback about the cup loan?",
+          "context": "Guests can leave a short comment at the lending station or at a return point.",
+          "application": "The lending station asks guests what would make return easier and forwards comments to the return points. Feedback can improve the process before those loans end."
+        },
+        {
+          "question": "How should the team prepare a fresh volunteer shift?",
+          "context": "Incoming volunteers can read a short handover note and overlap with the outgoing team.",
+          "application": "Both teams update the handover note during each transfer of a task in the overlap. The record follows the actual transfer of responsibility."
+        },
+        {
+          "question": "How should spare cups be positioned for the next gathering?",
+          "context": "After counting returns, the team can divide spare cups between the lending station and a nearby reserve shelf.",
+          "application": "The team divides spare cups between the lending station and reserve shelf by the expected length of each service block. The initial placement reflects the planned service schedule."
+        },
+        {
+          "question": "How should the pilot choose its next change?",
+          "context": "The team has lending counts, return times, and guest comments from one gathering.",
+          "application": "The team starts with the most common guest comment and checks lending counts and return times before choosing a change. The next trial addresses a reported difficulty supported by usage records."
+        }
+      ]
+    },
+    {
+      "document_id": "959d558bac444aca",
+      "problem": "A small community garden has established beds, safe shared tools, a water supply, and volunteers whose availability varies. Gardening methods are already agreed; the new work is organizing participation, observations, and shared resources. Each decision below covers a distinct coordination need and can be combined with any choices at the other decisions.",
+      "goal": "Keep routine garden work visible and shared without requiring everyone to attend at the same time.",
+      "selected_applications": [
+        {
+          "question": "How should volunteers find a working session they can attend?",
+          "context": "A calendar can display both possible garden sessions and volunteers’ available times.",
+          "application": "The coordinator places possible garden sessions on the calendar before volunteers choose available times. A proposed schedule gives volunteers a common starting point."
+        },
+        {
+          "question": "How should unclaimed routine work be allocated?",
+          "context": "A work board lists routine tasks, their expected effort, and the volunteers who can take them.",
+          "application": "The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks. A complete initial allocation can be corrected by the people doing the work."
+        },
+        {
+          "question": "How should shared tools move between volunteers?",
+          "context": "A tool list can show current users and expected return times beside the storage area.",
+          "application": "Volunteers request shared tools on the tool list, and current users agree on return times with them. Handover times respond to actual waiting users."
+        },
+        {
+          "question": "How should watering observations lead to assigned work?",
+          "context": "The agreed watering guidance uses bed observations, and volunteers can leave observations on a board.",
+          "application": "Volunteers inspect beds and post observations before anyone claims watering work from the board. Assignments follow a shared account of current need."
+        },
+        {
+          "question": "How should volunteers choose who tends young seedlings?",
+          "context": "Several volunteers know the agreed seedling routine, and a roster can cover short care periods.",
+          "application": "Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward. Most care periods follow volunteered availability."
+        },
+        {
+          "question": "How should an unfamiliar volunteer learn a routine task?",
+          "context": "A task card and an experienced volunteer are available for each routine garden activity.",
+          "application": "The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check. Practice begins independently with a later correction opportunity."
+        },
+        {
+          "question": "How should harvest offers be matched to available collectors?",
+          "context": "Harvest quantities can be posted on a board, and neighbors can state when they can collect.",
+          "application": "Neighbors state collection times before garden volunteers divide harvest quantities among those times. Harvest portions are arranged around actual collection availability."
+        },
+        {
+          "question": "How should ideas for a communal bed be compared?",
+          "context": "Members can submit bed ideas, explain their purposes, and discuss them at a short meeting.",
+          "application": "Members bring one bed idea and its purpose to the meeting, then combine compatible proposals. A shared plan grows from connections between concrete suggestions."
+        },
+        {
+          "question": "How should compost-turning sessions be organized?",
+          "context": "The agreed compost routine permits several possible work periods, and a session needs two volunteers.",
+          "application": "The coordinator posts paired compost work periods and invites volunteers to claim either place. An explicit two-person structure makes incomplete sessions visible."
+        },
+        {
+          "question": "How should garden observations be kept useful?",
+          "context": "A notebook can record observations by bed, by date, or with links between both.",
+          "application": "Volunteers keep a page for each date and list the beds observed that day. Conditions across the garden can be compared at one visit."
+        },
+        {
+          "question": "How should path maintenance respond to visitor use?",
+          "context": "Volunteers can note busy garden paths and schedule small maintenance tasks without closing the garden.",
+          "application": "Volunteers observe visitor use before choosing path-maintenance times. Maintenance can avoid the periods when a path is busiest."
+        },
+        {
+          "question": "How should shared material requests be combined?",
+          "context": "A materials list can record requested quantities and which garden activity needs them.",
+          "application": "Volunteers jointly review activities and material quantities before adding a combined request to the list. Demand and allocation are settled in one discussion."
+        },
+        {
+          "question": "How should an unused shared plot receive temporary care?",
+          "context": "A plot may be unattended for a short period, and its usual gardeners can state what help is welcome.",
+          "application": "The usual gardeners list welcome care tasks before other volunteers choose temporary assignments. Temporary help follows the gardeners’ stated needs."
+        },
+        {
+          "question": "How should new visitors understand the shared spaces?",
+          "context": "A garden map and a host volunteer can explain shared paths, work areas, and gathering places.",
+          "application": "Visitors use the garden map first and ask the host about any unclear shared spaces. The map supports self-guided orientation with optional help."
+        },
+        {
+          "question": "How should volunteers announce a change in their plans?",
+          "context": "The session calendar and task board can show both attendance and the work affected by an absence.",
+          "application": "Volunteers update their calendar attendance and then mark affected tasks on the board. The work change follows the announced absence."
+        },
+        {
+          "question": "How should the garden choose its next seasonal priority?",
+          "context": "The group has observation notes, participation records, and ideas from a closing discussion.",
+          "application": "Members propose a seasonal priority during discussion and check it against both sets of records. A new idea is tested against conditions and available participation."
+        }
+      ]
+    },
+    {
+      "document_id": "279e747af99ff2c5",
+      "problem": "A volunteer-run local museum wants to make a weekend visit easier to navigate. It has a modest collection, printed guides, a reception table, flexible volunteer positions, and several rooms that can remain open independently. The decisions concern interpretation and visitor organization, not conservation rules or safety policy.",
+      "goal": "Help visitors find a satisfying route through the museum while keeping reception and volunteers manageable.",
+      "selected_applications": [
+        {
+          "question": "How should visitors choose a starting room?",
+          "context": "A room map shows several possible starting points, and reception can ask about visitors’ interests.",
+          "application": "Reception asks about visitors’ interests before pointing out a starting room on the map. The suggested start follows the visitor’s stated curiosity."
+        },
+        {
+          "question": "How should a short guided visit choose its emphasis?",
+          "context": "A guide can cover several themes, and the group can express preferences before the visit starts.",
+          "application": "The guide proposes a short visit with one theme and adjusts it after hearing preferences. A prepared route provides a starting point for changes."
+        },
+        {
+          "question": "How should written labels connect related objects?",
+          "context": "Related objects are displayed in different places, and their labels can refer to one another.",
+          "application": "Individual labels ask a shared question, and a final label draws together the related objects. Visitors compare examples before reading the connecting explanation."
+        },
+        {
+          "question": "How should visitors collect questions for a volunteer?",
+          "context": "Question cards are available, and a volunteer can hold short discussion pauses in a room.",
+          "application": "The volunteer starts the discussion pause with a question and invites visitors to add question cards. An opening exchange helps visitors decide what they want to ask."
+        },
+        {
+          "question": "How should crowded rooms influence suggested routes?",
+          "context": "Volunteers can see room crowding, and the reception map can show several equally acceptable routes.",
+          "application": "Reception sends a small group along a route and then asks room volunteers whether the next group should follow it. Guidance is adjusted after observing each group’s effect."
+        },
+        {
+          "question": "How should a visitor with little time plan a visit?",
+          "context": "A guide sheet lists room highlights and approximate viewing times without requiring a fixed order.",
+          "application": "Visitors select highlights from the guide sheet, and reception helps trim them to the available time. The suggested visit begins with the visitor’s interests."
+        },
+        {
+          "question": "How should volunteers divide interpretation and reception?",
+          "context": "Two volunteers can answer collection questions or welcome arrivals during a short service period.",
+          "application": "One volunteer handles reception and the other interpretation for the entire service period. Each maintains continuity in one role."
+        },
+        {
+          "question": "How should visitors encounter a local story?",
+          "context": "The museum has an object, a written local story, and a question inviting visitors’ reflections.",
+          "application": "Visitors read the story before seeing the object and answering the reflection question. The narrative provides context for the object."
+        },
+        {
+          "question": "How should a self-guided activity use a printed prompt?",
+          "context": "Visitors can observe objects and record brief responses on a printed activity sheet.",
+          "application": "The sheet asks visitors to observe first, then reveals a prompt for their response. Initial noticing is left open before a focused reflection."
+        },
+        {
+          "question": "How should room descriptions be improved?",
+          "context": "Volunteers can record repeated visitor questions and draft revised room descriptions.",
+          "application": "Volunteers draft revised room descriptions and then check which visitor questions still recur. A proposed improvement is evaluated through later questions."
+        },
+        {
+          "question": "How should a returning visitor find something different?",
+          "context": "Reception knows the visitor’s previous rooms and has a list of objects connected to those rooms.",
+          "application": "Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere. A familiar interest provides a bridge to a new area."
+        },
+        {
+          "question": "How should a short closing reminder reach visitors?",
+          "context": "Volunteers can give a closing reminder in rooms, and reception can display the remaining visiting time.",
+          "application": "One volunteer updates the time display while the others give room reminders. The shared and local messages change together."
+        },
+        {
+          "question": "How should visitors share a memory linked to an exhibit?",
+          "context": "A memory card can be left beside the exhibit or discussed with a volunteer.",
+          "application": "Visitors write a memory card first and choose whether to discuss it with a volunteer. They can decide what to share before a conversation."
+        },
+        {
+          "question": "How should the museum prepare for a visiting group?",
+          "context": "A group organizer can share interests, and the museum can describe available rooms and volunteer times.",
+          "application": "The organizer and museum compare interests, rooms, and volunteer times in one planning call. The visit is assembled through simultaneous negotiation."
+        },
+        {
+          "question": "How should visitor comments be connected to places?",
+          "context": "Comment cards can identify a room, an object, or a point in the visit.",
+          "application": "The comment card shows the visit route, and visitors mark where an object or moment stood out. Place and experience are recorded together on a route."
+        },
+        {
+          "question": "How should the museum choose a small improvement?",
+          "context": "The team has room counts, visitor comments, and volunteer observations from the weekend.",
+          "application": "The team proposes an improvement and asks which counts, comments, and observations would support trying it. The proposal is tested against the available evidence."
+        }
+      ]
+    }
+  ]
+}

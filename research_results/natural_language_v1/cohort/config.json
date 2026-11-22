@@ -1,0 +1,22 @@
+{
+  "protocol": "natural-language-choices-v1",
+  "units": 8,
+  "decisions_per_unit": 16,
+  "delta": [
+    0,
+    6
+  ],
+  "seed": 1701,
+  "alpha": 0.01,
+  "surrogate_count": 199,
+  "catalog_sha256": "210bfd35b72553905caacef93c74fa31216a35593eadc6316616d3351c5dc4f9",
+  "bank_sha256": "bb1d7f7a43b03315b0effd29ad5184ee6ed88be0fac8dbcd4f4ece62c7de8b17",
+  "key_sampling": "target and 199 surrogate keys independently drawn once with secrets.token_bytes(32)",
+  "pairing": "common choice uniforms within unit, separate from all key randomness",
+  "source_sha256": {
+    "natural_planner.py": "0f0bb6b4321a7f68ee0215d1bb9dfa99bc5f15c50217a5df420670da7391ccf2",
+    "real_model.py": "f47857189318bd67c0a18b50ab43acf213ae0e022205b9c08202755f1d8a26ae",
+    "watermark.py": "60c5908fbdce77493b826725194e5ee36541457be9d76b8bdc2bad9d3325b717",
+    "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+  }
+}

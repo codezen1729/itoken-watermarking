@@ -1,0 +1,23 @@
+{
+  "model": {
+    "requested_model": "gpt-6.2-astra",
+    "requested_reasoning_effort": "high",
+    "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+    "resolved_model_snapshot_available": false,
+    "token_logprobs_available": false,
+    "temperature_and_seed_available": false,
+    "api_finish_reason_available": false,
+    "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+  },
+  "schema": "natural semantic decisions with no source IDs",
+  "source_sha256": {
+    "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+    "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+    "natural_lexical_baseline.py": "10d503b838d9989e6e36b063f49624d29afe480ae00e5c24727a2346cd054bd0",
+    "natural_challenge_holdout.json": "0439100321c8105f8dcbcb121689d7b77e13daf9f8bf994b0d508274c9bcdd82",
+    "NATURAL_PROTOCOL.md": "8f2b2e3b9cf6aaae885e1af2075703dd19a6a5eab7acdca53b3d6f955df387b3"
+  },
+  "ordering_seed": 1702,
+  "batches": 2,
+  "cases": 24
+}

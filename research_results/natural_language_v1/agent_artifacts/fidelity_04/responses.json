@@ -1,0 +1,352 @@
+{
+  "assessments": [
+    {
+      "document_id": "7d79fdba6e593f65",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_6383cfac596b",
+          "verdict": "preserved",
+          "reason": "Self-paced illustrated route, followed by an account to the steward before independent work."
+        },
+        {
+          "decision_id": "decision_d04eadb89670",
+          "verdict": "preserved",
+          "reason": "Steward posts rotating pick order; remaining slots suit member schedules and walk-ins may take unclaimed sessions."
+        },
+        {
+          "decision_id": "decision_3729330e7c57",
+          "verdict": "preserved",
+          "reason": "Try a working sample first, then record next steps, supplies and stopping point."
+        },
+        {
+          "decision_id": "decision_af900452074f",
+          "verdict": "preserved",
+          "reason": "Sign the line for the numbered hook before borrowing and return the tool that session."
+        },
+        {
+          "decision_id": "decision_6f32daf6730d",
+          "verdict": "preserved",
+          "reason": "List brief questions by topic; steward gives a shared explanation while others can work safely."
+        },
+        {
+          "decision_id": "decision_dadbf9da52b7",
+          "verdict": "preserved",
+          "reason": "Steward counts supplies at closing each opening day and records pending orders so shortages can be addressed together."
+        },
+        {
+          "decision_id": "decision_65f618ef18c2",
+          "verdict": "preserved",
+          "reason": "Members immediately sort usable clean scraps into labeled bins using the examples."
+        },
+        {
+          "decision_id": "decision_cfd5493757cd",
+          "verdict": "preserved",
+          "reason": "Owner and review labels precede steward assignment and logging of a free shelf within the allowance."
+        },
+        {
+          "decision_id": "decision_6427357198e3",
+          "verdict": "preserved",
+          "reason": "The person about to hammer announces it and waits for nearby people to respond."
+        },
+        {
+          "decision_id": "decision_cd7df5e879f6",
+          "verdict": "preserved",
+          "reason": "An empty space is selected and the wet piece is labeled with name and earliest safe handling time."
+        },
+        {
+          "decision_id": "decision_a6a9b6cd6e4b",
+          "verdict": "preserved",
+          "reason": "Neighbors work through the checklist together at one bench and then the other in the closing minutes."
+        },
+        {
+          "decision_id": "decision_4faba2dc53f0",
+          "verdict": "preserved",
+          "reason": "The finder stops using the tool, places it in the fault tray and describes the fault on a repair card for inspection."
+        },
+        {
+          "decision_id": "decision_4b8738612992",
+          "verdict": "preserved",
+          "reason": "Recurring questions from the help list feed the optional weekly demonstration in the demonstration corner."
+        },
+        {
+          "decision_id": "decision_bc5962445d8e",
+          "verdict": "preserved",
+          "reason": "Steward collects labeled offers, then owners can discuss quantities and conditions with prospective takers at a weekly exchange."
+        },
+        {
+          "decision_id": "decision_02a7a0bf9e70",
+          "verdict": "preserved",
+          "reason": "Members read dated board notices and acknowledge by name before starting; steward can identify individuals for follow-up."
+        },
+        {
+          "decision_id": "decision_84be91506f83",
+          "verdict": "preserved",
+          "reason": "Stewards walk together during overlap and record outstanding jobs as they inspect them."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "fe565b63a4e06494",
+      "status": "changed",
+      "decisions": [
+        {
+          "decision_id": "decision_aa66695aaab8",
+          "verdict": "preserved",
+          "reason": "Face-to-face host greeting, readiness preference and name on welcome sheet."
+        },
+        {
+          "decision_id": "decision_272bba36c7c0",
+          "verdict": "preserved",
+          "reason": "Guests mark games they like; suggestions use those marks while other available titles remain open to requests."
+        },
+        {
+          "decision_id": "decision_719166d04868",
+          "verdict": "preserved",
+          "reason": "Willing teachers announce games, interested guests gather voluntarily and the host checks the player count."
+        },
+        {
+          "decision_id": "decision_62f38e784a18",
+          "verdict": "preserved",
+          "reason": "Teacher explains essentials with a visible printed aid; questions follow the full explanation."
+        },
+        {
+          "decision_id": "decision_d31d3ada1f2f",
+          "verdict": "preserved",
+          "reason": "Every player tries an unfamiliar action, then the position resets before scored play."
+        },
+        {
+          "decision_id": "decision_f996758977e6",
+          "verdict": "preserved",
+          "reason": "Volunteer introduces the late guest to a nearly finished table and notes an agreement for the next game."
+        },
+        {
+          "decision_id": "decision_4d89f3f56486",
+          "verdict": "preserved",
+          "reason": "Guest chooses a waiting-basket activity and returns it when called without losing the arranged place."
+        },
+        {
+          "decision_id": "decision_d772c7680542",
+          "verdict": "preserved",
+          "reason": "Table chooses checkpoints for a visible timer, then checks time remaining at the signal."
+        },
+        {
+          "decision_id": "decision_43d3db7644bf",
+          "verdict": "preserved",
+          "reason": "Two players look up a rule during a short pause and report; unresolved questions receive a provisional decision and later check."
+        },
+        {
+          "decision_id": "decision_0d902fc3e240",
+          "verdict": "preserved",
+          "reason": "Learner chooses a willing partner before play, can ask for quiet advice based on visible information, and makes the move."
+        },
+        {
+          "decision_id": "decision_1636cbb51875",
+          "verdict": "preserved",
+          "reason": "Player arranges a short absence, uses the refreshment area and returns for their next action."
+        },
+        {
+          "decision_id": "decision_cb9375339465",
+          "verdict": "preserved",
+          "reason": "A chosen listener suggests that an extended loud conversation move to the conversation corner."
+        },
+        {
+          "decision_id": "decision_1cb8fa812006",
+          "verdict": "preserved",
+          "reason": "Announce the break aloud, agree where to pause and what comes next, protect private information and defer dependent moves."
+        },
+        {
+          "decision_id": "decision_d594901e79d3",
+          "verdict": "preserved",
+          "reason": "Players bag components; teacher checks each bag with everyone present before the box returns to the collection."
+        },
+        {
+          "decision_id": "decision_e197fc73dddc",
+          "verdict": "preserved",
+          "reason": "Players agree and display a stopping time allowing pack-up, select a player to warn them, and agree how to save a position."
+        },
+        {
+          "decision_id": "decision_5ee7fd1699e5",
+          "verdict": "changed",
+          "reason": "The next-day optional prompt and grouped replies remain, but asking how guests found a game to join shifts the explicit question from ease of getting into a game to the process of finding one. The general participation-barrier question remains in both."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "f57e5cbe05ae8fa4",
+      "status": "changed",
+      "decisions": [
+        {
+          "decision_id": "decision_35d1adfafbe4",
+          "verdict": "preserved",
+          "reason": "Organizer circulates dates based on room availability, hears conflicts while plans are adjustable, then books."
+        },
+        {
+          "decision_id": "decision_6bebf95df8b2",
+          "verdict": "preserved",
+          "reason": "Regular advance reminder links to attendance response; conductor gets a timely summary by part."
+        },
+        {
+          "decision_id": "decision_2a6ca4fef878",
+          "verdict": "preserved",
+          "reason": "Numbered score instructions and authorized digital copies precede rehearsal; matching paper scores wait at arrival."
+        },
+        {
+          "decision_id": "decision_6c329ebd0141",
+          "verdict": "preserved",
+          "reason": "Conductor elicits section needs for prepared pieces, balances needs within available time, then shares the order in advance."
+        },
+        {
+          "decision_id": "decision_b4b071a1e9c4",
+          "verdict": "preserved",
+          "reason": "Different section leaders lead stages of a posted familiar sequence approved by the conductor."
+        },
+        {
+          "decision_id": "decision_b04afc087b03",
+          "verdict": "preserved",
+          "reason": "A sung phrase tests the occupied room before the conductor adjusts chairs within parts while preserving access and sightlines."
+        },
+        {
+          "decision_id": "decision_3c288aadfbc9",
+          "verdict": "preserved",
+          "reason": "Conductor directly helps one section as other leaders simultaneously take assigned bars in separate corners and rejoin at block end."
+        },
+        {
+          "decision_id": "decision_8e32b39ab51c",
+          "verdict": "preserved",
+          "reason": "Conductor listens, singles out a likely cause, isolates it for practice and reintegrates the phrase."
+        },
+        {
+          "decision_id": "decision_e123df0d4c61",
+          "verdict": "preserved",
+          "reason": "Recordings are grouped by difficult passage with bars and available part lines identified by the conductor."
+        },
+        {
+          "decision_id": "decision_964a9073f798",
+          "verdict": "preserved",
+          "reason": "Show the cue and mark the score so singers look up in time."
+        },
+        {
+          "decision_id": "decision_ccff2156987f",
+          "verdict": "preserved",
+          "reason": "Sections take turns reporting what they heard after shared singing; conductor decides the adjustment."
+        },
+        {
+          "decision_id": "decision_d76a9f779d9b",
+          "verdict": "preserved",
+          "reason": "Singers pencil changes as given, affected bars receive an oral review before dismissal and organizer circulates confirmed markings by piece and bar."
+        },
+        {
+          "decision_id": "decision_7080eb919bd1",
+          "verdict": "preserved",
+          "reason": "Absent singers get notes with links to changes and recordings for independent catch-up before returning."
+        },
+        {
+          "decision_id": "decision_01db0d9ee017",
+          "verdict": "preserved",
+          "reason": "The opening announcement ties the main break to completion of a work block while allowing brief individual absences."
+        },
+        {
+          "decision_id": "decision_c693308338b6",
+          "verdict": "changed",
+          "reason": "The original assigns early setup among willing members on a rotating list. The rewrite keeps turns and individual job reminders but drops the list used to organize that rotation."
+        },
+        {
+          "decision_id": "decision_faf230423b00",
+          "verdict": "preserved",
+          "reason": "Session ends with two optional practice priorities, with exact bars in the notes."
+        }
+      ],
+      "added_conflicting_decisions": []
+    },
+    {
+      "document_id": "cddf62b0a0dd10ee",
+      "status": "preserved",
+      "decisions": [
+        {
+          "decision_id": "decision_71042de1e5ec",
+          "verdict": "preserved",
+          "reason": "Block volunteers ask neighbors at the door and report approximate quantities by category; published criteria apply at intake."
+        },
+        {
+          "decision_id": "decision_47484ace809a",
+          "verdict": "preserved",
+          "reason": "Contributors choose windows on the intake sheet, with capacity for walk-ins throughout."
+        },
+        {
+          "decision_id": "decision_ee29440d96e5",
+          "verdict": "preserved",
+          "reason": "Contributor stays while a volunteer checks each item against the condition list and resolves questions before acceptance."
+        },
+        {
+          "decision_id": "decision_0616741ccfd1",
+          "verdict": "preserved",
+          "reason": "Volunteer interviews contributor at intake and completes a standard label with identifier, description, limitations and accessories."
+        },
+        {
+          "decision_id": "decision_c5d320651898",
+          "verdict": "preserved",
+          "reason": "Signs organize tables by the household room of use."
+        },
+        {
+          "decision_id": "decision_76955a70c571",
+          "verdict": "preserved",
+          "reason": "Runner regularly checks openings and brings fitting items from reserve shelves, leaving aisles clear and table volunteers available."
+        },
+        {
+          "decision_id": "decision_66bdc8c4642b",
+          "verdict": "preserved",
+          "reason": "Welcome volunteer briefs small arrival groups about procedures and free exchange, then answers individual questions by the diagram."
+        },
+        {
+          "decision_id": "decision_b48a117f22f5",
+          "verdict": "preserved",
+          "reason": "Record competing requests with times and award to the earliest recorded requester after the short window."
+        },
+        {
+          "decision_id": "decision_2f6fb93af909",
+          "verdict": "preserved",
+          "reason": "Holding volunteer notes the recipient and agrees a deadline within twenty minutes before shelving the item."
+        },
+        {
+          "decision_id": "decision_4c7582137f3c",
+          "verdict": "preserved",
+          "reason": "Tie or bag the set together at intake with its description visible before it reaches display."
+        },
+        {
+          "decision_id": "decision_512a3f852563",
+          "verdict": "preserved",
+          "reason": "Anyone may ask at collection without a reason; volunteer assigns the next available helper and cart for the nearby pickup area."
+        },
+        {
+          "decision_id": "decision_ee00677c5692",
+          "verdict": "preserved",
+          "reason": "Coordinator uses job preferences and availability to schedule shifts and sends the roster ahead so gaps are visible."
+        },
+        {
+          "decision_id": "decision_26850f104ee3",
+          "verdict": "preserved",
+          "reason": "Visitors post wanted notes by category; table volunteer moves a matched request to a central check point, without guaranteeing supply."
+        },
+        {
+          "decision_id": "decision_b9de32a36c70",
+          "verdict": "preserved",
+          "reason": "Outgoing volunteer verifies claim, records item ID and issues a checked exit slip before handover."
+        },
+        {
+          "decision_id": "decision_3f6eb3a6337e",
+          "verdict": "preserved",
+          "reason": "Before admitting contributors at closing, sort unclaimed goods by recorded choices and assemble donations for pickup after collection."
+        },
+        {
+          "decision_id": "decision_6d830daa9827",
+          "verdict": "preserved",
+          "reason": "Separate brief optional conversations with visitors, contributors and volunteers cover finding, claiming and operations; organizers compare notes across roles."
+        }
+      ],
+      "added_conflicting_decisions": []
+    }
+  ]
+}

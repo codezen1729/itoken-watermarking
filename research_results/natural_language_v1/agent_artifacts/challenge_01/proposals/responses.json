@@ -1,0 +1,52 @@
+{
+  "responses": [
+    {
+      "request_id": "eb5996ac166daacf8f60cf92",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_1a45538b772a51822e\", \"sentences\": [1]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "1ace0ab7b7564aec5c19bb64",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_dfac35791cd0924d41\", \"sentences\": [1]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "bee8bdfa2e0a0873e5dc3fb5",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_fe73cdbbb095d57755\", \"sentences\": [1]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "348510364cb7f5915aaa9e18",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_319f37d6cc66ef281f\", \"sentences\": [1]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "f5df54874f127131de52dfeb",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_e5241aa0d1d53d2b17\", \"sentences\": [1]}, {\"id\": \"O_652981df479a9abea2\", \"sentences\": [2]}, {\"id\": \"O_5067bc4a734db70b2c\", \"sentences\": [3]}, {\"id\": \"O_fe73cdbbb095d57755\", \"sentences\": [4]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "1b58189716ecb1e2e68cf812",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_132dc7d259bb7968c7\", \"sentences\": [1]}, {\"id\": \"O_fefa219e4ac8b9385f\", \"sentences\": [2]}, {\"id\": \"O_fd01335ea04d5c3735\", \"sentences\": [3]}, {\"id\": \"O_6a8fa0814c0ac907e1\", \"sentences\": [4]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "3fd4a53b185f6719269370b2",
+      "response": "{\"status\": \"ambiguous\", \"choices\": [], \"ambiguous_decisions\": [\"D_d2ae15e3a41aa16d33\"]}"
+    },
+    {
+      "request_id": "c1f32dd3a47d49ef77b51afc",
+      "response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_5067bc4a734db70b2c\", \"sentences\": [1]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "a88354f8237b53149e89604e",
+      "response": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "e8c1b605f474082dbd80ea21",
+      "response": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "93776888206e684b0925265a",
+      "response": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}"
+    },
+    {
+      "request_id": "4419b9a3815d0b1908268349",
+      "response": "{\"status\": \"abstain\", \"choices\": [], \"ambiguous_decisions\": []}"
+    }
+  ]
+}

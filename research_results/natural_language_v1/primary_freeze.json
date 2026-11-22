@@ -1,0 +1,33 @@
+{
+  "model": {
+    "requested_model": "gpt-6.2-astra",
+    "requested_reasoning_effort": "high",
+    "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+    "resolved_model_snapshot_available": false,
+    "token_logprobs_available": false,
+    "temperature_and_seed_available": false,
+    "api_finish_reason_available": false,
+    "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+  },
+  "units": 8,
+  "decisions": 16,
+  "delta": [
+    0,
+    6
+  ],
+  "alpha": 0.01,
+  "surrogate_keys": 199,
+  "route_seed": 1701,
+  "source_sha256": {
+    "natural_planner.py": "0f0bb6b4321a7f68ee0215d1bb9dfa99bc5f15c50217a5df420670da7391ccf2",
+    "natural_study.py": "c9de979fb6fb3c31610aa420c69a6d1fbb3692f43461e837ef2dd9019a47f076",
+    "natural_failures.py": "bd281d50244f4a49e00b92e5dcbdcdb0c2c66fa5166b04bd82fe05ecf1469e7f",
+    "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+    "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+    "natural_lexical_baseline.py": "10d503b838d9989e6e36b063f49624d29afe480ae00e5c24727a2346cd054bd0",
+    "natural_ideas_catalog.json": "210bfd35b72553905caacef93c74fa31216a35593eadc6316616d3351c5dc4f9",
+    "NATURAL_PROTOCOL.md": "8f2b2e3b9cf6aaae885e1af2075703dd19a6a5eab7acdca53b3d6f955df387b3"
+  },
+  "contexts": "independent author, rewrite, proposer, verifier, author-fidelity and rewrite-fidelity contexts; condition and variant separated",
+  "scope": "curated semantic-choice catalog; no formal proof claim"
+}

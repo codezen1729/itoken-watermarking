@@ -1,0 +1,2134 @@
+{
+  "freeze": {
+    "protocol": "natural-agent-transport-v1",
+    "label": "natural-original",
+    "batch_group": "cmarkedv0b3",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "3306194ff493208d8fc2f97ed2bcc1d5eb34c67af1a666aee71c2b9320e125b0",
+    "bindings_sha256": "704e5de1a24440ef64ca429157499e0e7b7dc973a26c36782b7e0f32b7a0dbde",
+    "source_sha256": {
+      "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+      "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "68837f3e3f2fc40bcacad994e898b294b901039f30bf7323110d5295730fc69c"
+  },
+  "rows": [
+    {
+      "id": "5dc52e25134c41af",
+      "problem_id": "problem_64bd2bc90792",
+      "text": "Give readers space on the request sheet to rank the windows when they could come in. With those rankings in hand, staff can spread pickups over the afternoon and reserve shelf space for each window. The preparation list should show who is coming for each title and when. Staff use that list to get a book ready shortly before its reader is due, leaving room for the books needed in the meantime. Give every requested book a labeled shelf location and enter it on the desk copy alongside the reader and window. A staff member can look up a reader and go straight to the indicated spot regardless of how the neighboring books are arranged.\n\nHave a helper run the tray between preparation and pickup on a fixed round. The helper checks the transfer list when loading the tray and again on delivery, so neither station has to call for individual titles. If someone misses a window, staff contact them with the windows that still have space. Leave the book where it is until the reader chooses a new time, then move it for the extra service period.\n\nAt the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk. An arriving reader can choose a spot on the way in. A helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once. The helper also offers to find or carry books and lists the requests readers accept. Someone who turns out to need a hand that day can ask on the spot without giving a reason.\n\nDivide desk time into short blocks and alternate between appointments and walk-ins. Even on an afternoon when every appointment is booked, walk-ins will know their turn is coming. Finish handing over the books first. If a reader still has a routine question, write it on the pad so a helper can follow up while the desk handles the next collection. Give the reader a feedback card with their books and invite them to drop it in the box by the exit, where there is time to write. When a pickup is delayed, have a helper keep the posted notice current while desk staff talk directly with the readers concerned.\n\nSet aside a place for returns where readers can leave each book beside its completed slip. Helpers use the arrival information on the slips to check the books in order, freeing readers to leave once they have set theirs down. On the trolley, group checked books by their shelf destinations. A helper can then take all the books for one stretch of shelving in a single trip.\n\nBefore shifts overlap, the outgoing helper should write down the work still pending. Use the overlap to talk the incoming helper through that record. At closing, put forward one practical change for tomorrow. Check what the wait log says about the problem and what readers wrote on their cards. Agree to try the change once the team can explain how it fits both.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_ede10bc15c2f": "choice_9a1eca86058c",
+          "decision_1d91d9d94b72": "choice_dd42cc47ad99",
+          "decision_e99c80b7d5b1": "choice_16a87acc8861",
+          "decision_39f403e9ac55": "choice_d4bd60bffd7d",
+          "decision_8f30e5c1cb3a": "choice_c1faa81429bd",
+          "decision_ec7803bbd281": "choice_f7328232e91f",
+          "decision_18ceec9fc309": "choice_33e7e22947c5",
+          "decision_198c1ffba842": "choice_09fa5d040412",
+          "decision_23eac4fd2979": "choice_3970d7fb8943",
+          "decision_632e2926f2e9": "choice_166735b3e2b1",
+          "decision_60e6b65bf11b": "choice_9a90aa444ff4",
+          "decision_4097a1e6e449": "choice_ee551c6c7a51",
+          "decision_264f6c08f632": "choice_fca9f6b2e6c6",
+          "decision_af8caffec512": "choice_f52c2b58e17f",
+          "decision_a4f983e6c177": "choice_7fcdd58fd9fa",
+          "decision_586c46ce6bd6": "choice_8a3db443c398"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_ede10bc15c2f": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk.\nAn arriving reader can choose a spot on the way in.",
+          "decision_1d91d9d94b72": "Give every requested book a labeled shelf location and enter it on the desk copy alongside the reader and window.\nA staff member can look up a reader and go straight to the indicated spot regardless of how the neighboring books are arranged.",
+          "decision_e99c80b7d5b1": "If someone misses a window, staff contact them with the windows that still have space.\nLeave the book where it is until the reader chooses a new time, then move it for the extra service period.",
+          "decision_39f403e9ac55": "Have a helper run the tray between preparation and pickup on a fixed round.\nThe helper checks the transfer list when loading the tray and again on delivery, so neither station has to call for individual titles.",
+          "decision_8f30e5c1cb3a": "Give readers space on the request sheet to rank the windows when they could come in.\nWith those rankings in hand, staff can spread pickups over the afternoon and reserve shelf space for each window.",
+          "decision_ec7803bbd281": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk.\nAn arriving reader can choose a spot on the way in.\nA helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once.\nThe helper also offers to find or carry books and lists the requests readers accept.\nSomeone who turns out to need a hand that day can ask on the spot without giving a reason.",
+          "decision_18ceec9fc309": "On the trolley, group checked books by their shelf destinations.\nA helper can then take all the books for one stretch of shelving in a single trip.",
+          "decision_198c1ffba842": "When a pickup is delayed, have a helper keep the posted notice current while desk staff talk directly with the readers concerned.",
+          "decision_23eac4fd2979": "Before shifts overlap, the outgoing helper should write down the work still pending.\nUse the overlap to talk the incoming helper through that record.",
+          "decision_632e2926f2e9": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk.\nAn arriving reader can choose a spot on the way in.\nA helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once.",
+          "decision_60e6b65bf11b": "At closing, put forward one practical change for tomorrow.\nCheck what the wait log says about the problem and what readers wrote on their cards.\nAgree to try the change once the team can explain how it fits both.",
+          "decision_4097a1e6e449": "Give the reader a feedback card with their books and invite them to drop it in the box by the exit, where there is time to write.",
+          "decision_264f6c08f632": "Set aside a place for returns where readers can leave each book beside its completed slip.\nHelpers use the arrival information on the slips to check the books in order, freeing readers to leave once they have set theirs down.",
+          "decision_af8caffec512": "Finish handing over the books first.\nIf a reader still has a routine question, write it on the pad so a helper can follow up while the desk handles the next collection.",
+          "decision_a4f983e6c177": "The preparation list should show who is coming for each title and when.\nStaff use that list to get a book ready shortly before its reader is due, leaving room for the books needed in the meantime.",
+          "decision_586c46ce6bd6": "Divide desk time into short blocks and alternate between appointments and walk-ins.\nEven on an afternoon when every appointment is booked, walk-ins will know their turn is coming."
+        },
+        "source_spans": {
+          "decision_ede10bc15c2f": [
+            {
+              "sentence": 11,
+              "start": 1045,
+              "end": 1160,
+              "text": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk."
+            },
+            {
+              "sentence": 12,
+              "start": 1161,
+              "end": 1212,
+              "text": "An arriving reader can choose a spot on the way in."
+            }
+          ],
+          "decision_1d91d9d94b72": [
+            {
+              "sentence": 5,
+              "start": 396,
+              "end": 509,
+              "text": "Give every requested book a labeled shelf location and enter it on the desk copy alongside the reader and window."
+            },
+            {
+              "sentence": 6,
+              "start": 510,
+              "end": 637,
+              "text": "A staff member can look up a reader and go straight to the indicated spot regardless of how the neighboring books are arranged."
+            }
+          ],
+          "decision_e99c80b7d5b1": [
+            {
+              "sentence": 9,
+              "start": 850,
+              "end": 936,
+              "text": "If someone misses a window, staff contact them with the windows that still have space."
+            },
+            {
+              "sentence": 10,
+              "start": 937,
+              "end": 1043,
+              "text": "Leave the book where it is until the reader chooses a new time, then move it for the extra service period."
+            }
+          ],
+          "decision_39f403e9ac55": [
+            {
+              "sentence": 7,
+              "start": 639,
+              "end": 714,
+              "text": "Have a helper run the tray between preparation and pickup on a fixed round."
+            },
+            {
+              "sentence": 8,
+              "start": 715,
+              "end": 849,
+              "text": "The helper checks the transfer list when loading the tray and again on delivery, so neither station has to call for individual titles."
+            }
+          ],
+          "decision_8f30e5c1cb3a": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 84,
+              "text": "Give readers space on the request sheet to rank the windows when they could come in."
+            },
+            {
+              "sentence": 2,
+              "start": 85,
+              "end": 198,
+              "text": "With those rankings in hand, staff can spread pickups over the afternoon and reserve shelf space for each window."
+            }
+          ],
+          "decision_ec7803bbd281": [
+            {
+              "sentence": 11,
+              "start": 1045,
+              "end": 1160,
+              "text": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk."
+            },
+            {
+              "sentence": 12,
+              "start": 1161,
+              "end": 1212,
+              "text": "An arriving reader can choose a spot on the way in."
+            },
+            {
+              "sentence": 13,
+              "start": 1213,
+              "end": 1338,
+              "text": "A helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once."
+            },
+            {
+              "sentence": 14,
+              "start": 1339,
+              "end": 1423,
+              "text": "The helper also offers to find or carry books and lists the requests readers accept."
+            },
+            {
+              "sentence": 15,
+              "start": 1424,
+              "end": 1514,
+              "text": "Someone who turns out to need a hand that day can ask on the spot without giving a reason."
+            }
+          ],
+          "decision_18ceec9fc309": [
+            {
+              "sentence": 24,
+              "start": 2352,
+              "end": 2416,
+              "text": "On the trolley, group checked books by their shelf destinations."
+            },
+            {
+              "sentence": 25,
+              "start": 2417,
+              "end": 2499,
+              "text": "A helper can then take all the books for one stretch of shelving in a single trip."
+            }
+          ],
+          "decision_198c1ffba842": [
+            {
+              "sentence": 21,
+              "start": 1995,
+              "end": 2124,
+              "text": "When a pickup is delayed, have a helper keep the posted notice current while desk staff talk directly with the readers concerned."
+            }
+          ],
+          "decision_23eac4fd2979": [
+            {
+              "sentence": 26,
+              "start": 2501,
+              "end": 2585,
+              "text": "Before shifts overlap, the outgoing helper should write down the work still pending."
+            },
+            {
+              "sentence": 27,
+              "start": 2586,
+              "end": 2650,
+              "text": "Use the overlap to talk the incoming helper through that record."
+            }
+          ],
+          "decision_632e2926f2e9": [
+            {
+              "sentence": 11,
+              "start": 1045,
+              "end": 1160,
+              "text": "At the entrance, display the quiet-waiting notice with a small map showing where people can sit away from the desk."
+            },
+            {
+              "sentence": 12,
+              "start": 1161,
+              "end": 1212,
+              "text": "An arriving reader can choose a spot on the way in."
+            },
+            {
+              "sentence": 13,
+              "start": 1213,
+              "end": 1338,
+              "text": "A helper takes names there and brings the arrival sheet to the desk at regular intervals, giving staff several names at once."
+            }
+          ],
+          "decision_60e6b65bf11b": [
+            {
+              "sentence": 28,
+              "start": 2651,
+              "end": 2709,
+              "text": "At closing, put forward one practical change for tomorrow."
+            },
+            {
+              "sentence": 29,
+              "start": 2710,
+              "end": 2795,
+              "text": "Check what the wait log says about the problem and what readers wrote on their cards."
+            },
+            {
+              "sentence": 30,
+              "start": 2796,
+              "end": 2863,
+              "text": "Agree to try the change once the team can explain how it fits both."
+            }
+          ],
+          "decision_4097a1e6e449": [
+            {
+              "sentence": 20,
+              "start": 1865,
+              "end": 1994,
+              "text": "Give the reader a feedback card with their books and invite them to drop it in the box by the exit, where there is time to write."
+            }
+          ],
+          "decision_264f6c08f632": [
+            {
+              "sentence": 22,
+              "start": 2126,
+              "end": 2216,
+              "text": "Set aside a place for returns where readers can leave each book beside its completed slip."
+            },
+            {
+              "sentence": 23,
+              "start": 2217,
+              "end": 2351,
+              "text": "Helpers use the arrival information on the slips to check the books in order, freeing readers to leave once they have set theirs down."
+            }
+          ],
+          "decision_af8caffec512": [
+            {
+              "sentence": 18,
+              "start": 1696,
+              "end": 1732,
+              "text": "Finish handing over the books first."
+            },
+            {
+              "sentence": 19,
+              "start": 1733,
+              "end": 1864,
+              "text": "If a reader still has a routine question, write it on the pad so a helper can follow up while the desk handles the next collection."
+            }
+          ],
+          "decision_a4f983e6c177": [
+            {
+              "sentence": 3,
+              "start": 199,
+              "end": 270,
+              "text": "The preparation list should show who is coming for each title and when."
+            },
+            {
+              "sentence": 4,
+              "start": 271,
+              "end": 395,
+              "text": "Staff use that list to get a book ready shortly before its reader is due, leaving room for the books needed in the meantime."
+            }
+          ],
+          "decision_586c46ce6bd6": [
+            {
+              "sentence": 16,
+              "start": 1516,
+              "end": 1599,
+              "text": "Divide desk time into short blocks and alternate between appointments and walk-ins."
+            },
+            {
+              "sentence": 17,
+              "start": 1600,
+              "end": 1695,
+              "text": "Even on an afternoon when every appointment is booked, walk-ins will know their turn is coming."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_1531a8f0293ff0b945",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_1ddfec29b3f2c4eb29",
+            "sentences": [
+              21
+            ]
+          },
+          {
+            "id": "O_209e8ff265e4a9d726",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_2cb270561034b5dabd",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_360abaa77ddadbd899",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_3d358ee494072cb49c",
+            "sentences": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "id": "O_527d34bf9a85b6d443",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_5355fa69fbae4b99e8",
+            "sentences": [
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_53cec8bf382cff965f",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_61cbea561734fb7778",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_a09193890f57c554e1",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_a50ee6b11b4315bd89",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_ab97a91af020b57ec8",
+            "sentences": [
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_aceb15e0beee6c9476",
+            "sentences": [
+              11,
+              13
+            ]
+          },
+          {
+            "id": "O_b181332c0a846bfb94",
+            "sentences": [
+              20
+            ]
+          },
+          {
+            "id": "O_e37da6666c564f9187",
+            "sentences": [
+              18,
+              19
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_360abaa77ddadbd899",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_53cec8bf382cff965f",
+            "verdict": "supported",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_61cbea561734fb7778",
+            "verdict": "supported",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_a09193890f57c554e1",
+            "verdict": "supported",
+            "sentences": [
+              7,
+              8
+            ]
+          },
+          {
+            "id": "O_527d34bf9a85b6d443",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_5355fa69fbae4b99e8",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_1531a8f0293ff0b945",
+            "verdict": "supported",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_1ddfec29b3f2c4eb29",
+            "verdict": "supported",
+            "sentences": [
+              21
+            ]
+          },
+          {
+            "id": "O_ab97a91af020b57ec8",
+            "verdict": "supported",
+            "sentences": [
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_aceb15e0beee6c9476",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_3d358ee494072cb49c",
+            "verdict": "supported",
+            "sentences": [
+              28,
+              29,
+              30
+            ]
+          },
+          {
+            "id": "O_b181332c0a846bfb94",
+            "verdict": "supported",
+            "sentences": [
+              20
+            ]
+          },
+          {
+            "id": "O_209e8ff265e4a9d726",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_e37da6666c564f9187",
+            "verdict": "supported",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_a50ee6b11b4315bd89",
+            "verdict": "supported",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_2cb270561034b5dabd",
+            "verdict": "supported",
+            "sentences": [
+              16,
+              17
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_527d34bf9a85b6d443\", \"sentences\": [1, 2]}, {\"id\": \"O_a50ee6b11b4315bd89\", \"sentences\": [3, 4]}, {\"id\": \"O_53cec8bf382cff965f\", \"sentences\": [5, 6]}, {\"id\": \"O_a09193890f57c554e1\", \"sentences\": [7, 8]}, {\"id\": \"O_61cbea561734fb7778\", \"sentences\": [9, 10]}, {\"id\": \"O_360abaa77ddadbd899\", \"sentences\": [11, 12]}, {\"id\": \"O_aceb15e0beee6c9476\", \"sentences\": [11, 13]}, {\"id\": \"O_5355fa69fbae4b99e8\", \"sentences\": [13, 14, 15]}, {\"id\": \"O_2cb270561034b5dabd\", \"sentences\": [16, 17]}, {\"id\": \"O_e37da6666c564f9187\", \"sentences\": [18, 19]}, {\"id\": \"O_b181332c0a846bfb94\", \"sentences\": [20]}, {\"id\": \"O_1ddfec29b3f2c4eb29\", \"sentences\": [21]}, {\"id\": \"O_209e8ff265e4a9d726\", \"sentences\": [22, 23]}, {\"id\": \"O_1531a8f0293ff0b945\", \"sentences\": [24, 25]}, {\"id\": \"O_ab97a91af020b57ec8\", \"sentences\": [26, 27]}, {\"id\": \"O_3d358ee494072cb49c\", \"sentences\": [28, 29, 30]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_360abaa77ddadbd899\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_53cec8bf382cff965f\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_61cbea561734fb7778\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_a09193890f57c554e1\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_527d34bf9a85b6d443\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_5355fa69fbae4b99e8\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13, 14, 15]}, {\"id\": \"O_1531a8f0293ff0b945\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_1ddfec29b3f2c4eb29\", \"verdict\": \"supported\", \"sentences\": [21]}, {\"id\": \"O_ab97a91af020b57ec8\", \"verdict\": \"supported\", \"sentences\": [26, 27]}, {\"id\": \"O_aceb15e0beee6c9476\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_3d358ee494072cb49c\", \"verdict\": \"supported\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_b181332c0a846bfb94\", \"verdict\": \"supported\", \"sentences\": [20]}, {\"id\": \"O_209e8ff265e4a9d726\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_e37da6666c564f9187\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_a50ee6b11b4315bd89\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_2cb270561034b5dabd\", \"verdict\": \"supported\", \"sentences\": [16, 17]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_527d34bf9a85b6d443\", \"sentences\": [1, 2]}, {\"id\": \"O_a50ee6b11b4315bd89\", \"sentences\": [3, 4]}, {\"id\": \"O_53cec8bf382cff965f\", \"sentences\": [5, 6]}, {\"id\": \"O_a09193890f57c554e1\", \"sentences\": [7, 8]}, {\"id\": \"O_61cbea561734fb7778\", \"sentences\": [9, 10]}, {\"id\": \"O_360abaa77ddadbd899\", \"sentences\": [11, 12]}, {\"id\": \"O_aceb15e0beee6c9476\", \"sentences\": [11, 13]}, {\"id\": \"O_5355fa69fbae4b99e8\", \"sentences\": [13, 14, 15]}, {\"id\": \"O_2cb270561034b5dabd\", \"sentences\": [16, 17]}, {\"id\": \"O_e37da6666c564f9187\", \"sentences\": [18, 19]}, {\"id\": \"O_b181332c0a846bfb94\", \"sentences\": [20]}, {\"id\": \"O_1ddfec29b3f2c4eb29\", \"sentences\": [21]}, {\"id\": \"O_209e8ff265e4a9d726\", \"sentences\": [22, 23]}, {\"id\": \"O_1531a8f0293ff0b945\", \"sentences\": [24, 25]}, {\"id\": \"O_ab97a91af020b57ec8\", \"sentences\": [26, 27]}, {\"id\": \"O_3d358ee494072cb49c\", \"sentences\": [28, 29, 30]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_360abaa77ddadbd899\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_53cec8bf382cff965f\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_61cbea561734fb7778\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_a09193890f57c554e1\", \"verdict\": \"supported\", \"sentences\": [7, 8]}, {\"id\": \"O_527d34bf9a85b6d443\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_5355fa69fbae4b99e8\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13, 14, 15]}, {\"id\": \"O_1531a8f0293ff0b945\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_1ddfec29b3f2c4eb29\", \"verdict\": \"supported\", \"sentences\": [21]}, {\"id\": \"O_ab97a91af020b57ec8\", \"verdict\": \"supported\", \"sentences\": [26, 27]}, {\"id\": \"O_aceb15e0beee6c9476\", \"verdict\": \"supported\", \"sentences\": [11, 12, 13]}, {\"id\": \"O_3d358ee494072cb49c\", \"verdict\": \"supported\", \"sentences\": [28, 29, 30]}, {\"id\": \"O_b181332c0a846bfb94\", \"verdict\": \"supported\", \"sentences\": [20]}, {\"id\": \"O_209e8ff265e4a9d726\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_e37da6666c564f9187\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_a50ee6b11b4315bd89\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_2cb270561034b5dabd\", \"verdict\": \"supported\", \"sentences\": [16, 17]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "e9ff54c070f00827",
+      "problem_id": "problem_da01c1c6ae1e",
+      "text": "A guest should be able to ask for a loan where they order their drink. The counter volunteer sends a request card ahead to the cup station, giving the people there a chance to have a cup ready by the time the guest arrives. Set aside a few available cups for each upcoming period of service and take requests against that period's supply. This gives people arriving later a chance to borrow, even if the first rush would have taken every cup on the shelf.\n\nAt the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it. That entry is their commitment for the loan. Give them a little return map with the cup and trace the route on the counter map so they can recognize their way back. While they are there, ask what would make it easier for them to return the cup. Pass their comments to the return points while the gathering is under way, giving those volunteers time to help before the guests make the trip.\n\nPeople who need their cups longer can tell a volunteer how much more time they need. The volunteer works out the new time with them and writes it in the lending record so both know when the cup is due. For cups that go overdue, put a short, clearly timed return period on the announcement board for everyone. After that period has passed, collect the latest figures from the return points. Guests get a common opportunity to bring cups back, and the café can follow up on its stock using the figures from the gathering.\n\nAt a busy return point, assign one person to take cups and another to keep the record for a short stint. The first person accepts each cup, looks it over immediately and places it in a collection crate. Once a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record. Guests can move on as soon as their cups have been received. Mark a crate ready on the transfer list when it is ready to leave. That mark calls for a volunteer to carry it to washing, so the trips follow the flow of actual returns.\n\nAfter the regular wash, the washing volunteer puts the clean cups on the available-stock list before taking them back to lending. The people handing them out can see what is on its way. If supplies run short, have one volunteer update the stock notice at the same time that another works down the request list with waiting guests. During a shift overlap, the outgoing and incoming volunteers update their note together as each task changes hands, making clear who now has the list, the next crate or the counter.\n\nCount the returned stock when planning for the next gathering. Start with a modest supply at the lending station and keep the rest of the spare cups on the nearby shelf. Bring more forward as the request list lengthens. To decide what else to change, begin with the comment heard most often from guests. Check the lending totals and actual return times for evidence of that difficulty, and choose a trial that addresses the difficulty those records support.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_e99487beea19": "choice_8783d29c95dc",
+          "decision_995ed35b4d41": "choice_b70bd81095cf",
+          "decision_52c1844753ed": "choice_cab83567540d",
+          "decision_99fdd656ca17": "choice_5b9208bc4a23",
+          "decision_8342e49aaeb7": "choice_42a2dec8b3f7",
+          "decision_42560af6a041": "choice_b3559631e72c",
+          "decision_247b053e1c19": "choice_4b5083d843d0",
+          "decision_92b118e19f92": "choice_f8f574fb6640",
+          "decision_efc50eefa7f6": "choice_13992b33b0de",
+          "decision_ab8895b1bfed": "choice_793245a5d8fd",
+          "decision_6f2c62255721": "choice_6b4f9b50544f",
+          "decision_418d780a0676": "choice_3fff873077df",
+          "decision_8204e82647ee": "choice_db49c38145a9",
+          "decision_117204fcc63a": "choice_75aad51db198",
+          "decision_273822a1bb88": "choice_5a8384f71323",
+          "decision_9b8cc7fdb0c2": "choice_017fe7ef3106"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_e99487beea19": "For cups that go overdue, put a short, clearly timed return period on the announcement board for everyone.\nAfter that period has passed, collect the latest figures from the return points.\nGuests get a common opportunity to bring cups back, and the café can follow up on its stock using the figures from the gathering.",
+          "decision_995ed35b4d41": "A guest should be able to ask for a loan where they order their drink.\nThe counter volunteer sends a request card ahead to the cup station, giving the people there a chance to have a cup ready by the time the guest arrives.",
+          "decision_52c1844753ed": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it.\nGive them a little return map with the cup and trace the route on the counter map so they can recognize their way back.",
+          "decision_99fdd656ca17": "Count the returned stock when planning for the next gathering.\nStart with a modest supply at the lending station and keep the rest of the spare cups on the nearby shelf.\nBring more forward as the request list lengthens.",
+          "decision_8342e49aaeb7": "Set aside a few available cups for each upcoming period of service and take requests against that period's supply.\nThis gives people arriving later a chance to borrow, even if the first rush would have taken every cup on the shelf.",
+          "decision_42560af6a041": "If supplies run short, have one volunteer update the stock notice at the same time that another works down the request list with waiting guests.",
+          "decision_247b053e1c19": "At a busy return point, assign one person to take cups and another to keep the record for a short stint.\nThe first person accepts each cup, looks it over immediately and places it in a collection crate.\nOnce a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record.",
+          "decision_92b118e19f92": "People who need their cups longer can tell a volunteer how much more time they need.\nThe volunteer works out the new time with them and writes it in the lending record so both know when the cup is due.",
+          "decision_efc50eefa7f6": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it.\nThat entry is their commitment for the loan.",
+          "decision_ab8895b1bfed": "During a shift overlap, the outgoing and incoming volunteers update their note together as each task changes hands, making clear who now has the list, the next crate or the counter.",
+          "decision_6f2c62255721": "To decide what else to change, begin with the comment heard most often from guests.\nCheck the lending totals and actual return times for evidence of that difficulty, and choose a trial that addresses the difficulty those records support.",
+          "decision_418d780a0676": "After the regular wash, the washing volunteer puts the clean cups on the available-stock list before taking them back to lending.\nThe people handing them out can see what is on its way.",
+          "decision_8204e82647ee": "At a busy return point, assign one person to take cups and another to keep the record for a short stint.\nThe first person accepts each cup, looks it over immediately and places it in a collection crate.\nOnce a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record.",
+          "decision_117204fcc63a": "Mark a crate ready on the transfer list when it is ready to leave.\nThat mark calls for a volunteer to carry it to washing, so the trips follow the flow of actual returns.",
+          "decision_273822a1bb88": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it.\nWhile they are there, ask what would make it easier for them to return the cup.\nPass their comments to the return points while the gathering is under way, giving those volunteers time to help before the guests make the trip.",
+          "decision_9b8cc7fdb0c2": "At a busy return point, assign one person to take cups and another to keep the record for a short stint.\nThe first person accepts each cup, looks it over immediately and places it in a collection crate.\nGuests can move on as soon as their cups have been received."
+        },
+        "source_spans": {
+          "decision_e99487beea19": [
+            {
+              "sentence": 12,
+              "start": 1196,
+              "end": 1302,
+              "text": "For cups that go overdue, put a short, clearly timed return period on the announcement board for everyone."
+            },
+            {
+              "sentence": 13,
+              "start": 1303,
+              "end": 1383,
+              "text": "After that period has passed, collect the latest figures from the return points."
+            },
+            {
+              "sentence": 14,
+              "start": 1384,
+              "end": 1513,
+              "text": "Guests get a common opportunity to bring cups back, and the café can follow up on its stock using the figures from the gathering."
+            }
+          ],
+          "decision_995ed35b4d41": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 70,
+              "text": "A guest should be able to ask for a loan where they order their drink."
+            },
+            {
+              "sentence": 2,
+              "start": 71,
+              "end": 223,
+              "text": "The counter volunteer sends a request card ahead to the cup station, giving the people there a chance to have a cup ready by the time the guest arrives."
+            }
+          ],
+          "decision_52c1844753ed": [
+            {
+              "sentence": 5,
+              "start": 457,
+              "end": 602,
+              "text": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it."
+            },
+            {
+              "sentence": 7,
+              "start": 648,
+              "end": 767,
+              "text": "Give them a little return map with the cup and trace the route on the counter map so they can recognize their way back."
+            }
+          ],
+          "decision_99fdd656ca17": [
+            {
+              "sentence": 25,
+              "start": 2602,
+              "end": 2664,
+              "text": "Count the returned stock when planning for the next gathering."
+            },
+            {
+              "sentence": 26,
+              "start": 2665,
+              "end": 2771,
+              "text": "Start with a modest supply at the lending station and keep the rest of the spare cups on the nearby shelf."
+            },
+            {
+              "sentence": 27,
+              "start": 2772,
+              "end": 2821,
+              "text": "Bring more forward as the request list lengthens."
+            }
+          ],
+          "decision_8342e49aaeb7": [
+            {
+              "sentence": 3,
+              "start": 224,
+              "end": 338,
+              "text": "Set aside a few available cups for each upcoming period of service and take requests against that period's supply."
+            },
+            {
+              "sentence": 4,
+              "start": 339,
+              "end": 455,
+              "text": "This gives people arriving later a chance to borrow, even if the first rush would have taken every cup on the shelf."
+            }
+          ],
+          "decision_42560af6a041": [
+            {
+              "sentence": 23,
+              "start": 2274,
+              "end": 2418,
+              "text": "If supplies run short, have one volunteer update the stock notice at the same time that another works down the request list with waiting guests."
+            }
+          ],
+          "decision_247b053e1c19": [
+            {
+              "sentence": 15,
+              "start": 1515,
+              "end": 1619,
+              "text": "At a busy return point, assign one person to take cups and another to keep the record for a short stint."
+            },
+            {
+              "sentence": 16,
+              "start": 1620,
+              "end": 1717,
+              "text": "The first person accepts each cup, looks it over immediately and places it in a collection crate."
+            },
+            {
+              "sentence": 17,
+              "start": 1718,
+              "end": 1854,
+              "text": "Once a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record."
+            }
+          ],
+          "decision_92b118e19f92": [
+            {
+              "sentence": 10,
+              "start": 994,
+              "end": 1078,
+              "text": "People who need their cups longer can tell a volunteer how much more time they need."
+            },
+            {
+              "sentence": 11,
+              "start": 1079,
+              "end": 1195,
+              "text": "The volunteer works out the new time with them and writes it in the lending record so both know when the cup is due."
+            }
+          ],
+          "decision_efc50eefa7f6": [
+            {
+              "sentence": 5,
+              "start": 457,
+              "end": 602,
+              "text": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it."
+            },
+            {
+              "sentence": 6,
+              "start": 603,
+              "end": 647,
+              "text": "That entry is their commitment for the loan."
+            }
+          ],
+          "decision_ab8895b1bfed": [
+            {
+              "sentence": 24,
+              "start": 2419,
+              "end": 2600,
+              "text": "During a shift overlap, the outgoing and incoming volunteers update their note together as each task changes hands, making clear who now has the list, the next crate or the counter."
+            }
+          ],
+          "decision_6f2c62255721": [
+            {
+              "sentence": 28,
+              "start": 2822,
+              "end": 2905,
+              "text": "To decide what else to change, begin with the comment heard most often from guests."
+            },
+            {
+              "sentence": 29,
+              "start": 2906,
+              "end": 3059,
+              "text": "Check the lending totals and actual return times for evidence of that difficulty, and choose a trial that addresses the difficulty those records support."
+            }
+          ],
+          "decision_418d780a0676": [
+            {
+              "sentence": 21,
+              "start": 2088,
+              "end": 2217,
+              "text": "After the regular wash, the washing volunteer puts the clean cups on the available-stock list before taking them back to lending."
+            },
+            {
+              "sentence": 22,
+              "start": 2218,
+              "end": 2273,
+              "text": "The people handing them out can see what is on its way."
+            }
+          ],
+          "decision_8204e82647ee": [
+            {
+              "sentence": 15,
+              "start": 1515,
+              "end": 1619,
+              "text": "At a busy return point, assign one person to take cups and another to keep the record for a short stint."
+            },
+            {
+              "sentence": 16,
+              "start": 1620,
+              "end": 1717,
+              "text": "The first person accepts each cup, looks it over immediately and places it in a collection crate."
+            },
+            {
+              "sentence": 17,
+              "start": 1718,
+              "end": 1854,
+              "text": "Once a small crate has accumulated, the second person matches all the descriptions in that crate to their entries in the lending record."
+            }
+          ],
+          "decision_117204fcc63a": [
+            {
+              "sentence": 19,
+              "start": 1916,
+              "end": 1982,
+              "text": "Mark a crate ready on the transfer list when it is ready to leave."
+            },
+            {
+              "sentence": 20,
+              "start": 1983,
+              "end": 2086,
+              "text": "That mark calls for a volunteer to carry it to washing, so the trips follow the flow of actual returns."
+            }
+          ],
+          "decision_273822a1bb88": [
+            {
+              "sentence": 5,
+              "start": 457,
+              "end": 602,
+              "text": "At the cup station, write down the distinguishing details of the cup and hand the record to the guest to enter the time they expect to return it."
+            },
+            {
+              "sentence": 8,
+              "start": 768,
+              "end": 847,
+              "text": "While they are there, ask what would make it easier for them to return the cup."
+            },
+            {
+              "sentence": 9,
+              "start": 848,
+              "end": 992,
+              "text": "Pass their comments to the return points while the gathering is under way, giving those volunteers time to help before the guests make the trip."
+            }
+          ],
+          "decision_9b8cc7fdb0c2": [
+            {
+              "sentence": 15,
+              "start": 1515,
+              "end": 1619,
+              "text": "At a busy return point, assign one person to take cups and another to keep the record for a short stint."
+            },
+            {
+              "sentence": 16,
+              "start": 1620,
+              "end": 1717,
+              "text": "The first person accepts each cup, looks it over immediately and places it in a collection crate."
+            },
+            {
+              "sentence": 18,
+              "start": 1855,
+              "end": 1915,
+              "text": "Guests can move on as soon as their cups have been received."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_191d96e52da5dbfed4",
+            "sentences": [
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_1b8c388cd7798ef59f",
+            "sentences": [
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "id": "O_1f13c796d5bc8a8510",
+            "sentences": [
+              15,
+              16
+            ]
+          },
+          {
+            "id": "O_290fc630e88ad6a40f",
+            "sentences": [
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_3d4e776f44f4b1ea1b",
+            "sentences": [
+              19,
+              20
+            ]
+          },
+          {
+            "id": "O_51d012596024c0413a",
+            "sentences": [
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_53e913fb4d50878a5e",
+            "sentences": [
+              21,
+              22
+            ]
+          },
+          {
+            "id": "O_7140015649be935fdf",
+            "sentences": [
+              24
+            ]
+          },
+          {
+            "id": "O_88db1413d7f6a49643",
+            "sentences": [
+              23
+            ]
+          },
+          {
+            "id": "O_8cac16caa1a85206fe",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_91165d2db1a1e1062c",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_a15e1cc76e165d0ace",
+            "sentences": [
+              5,
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_ad7d23aa9d7d893288",
+            "sentences": [
+              7
+            ]
+          },
+          {
+            "id": "O_d0d4e9b32e92873791",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_f40bc51d183e319b95",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_fda6623c8272e88d75",
+            "sentences": [
+              10,
+              11
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_191d96e52da5dbfed4",
+            "verdict": "supported",
+            "sentences": [
+              12,
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_8cac16caa1a85206fe",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_ad7d23aa9d7d893288",
+            "verdict": "supported",
+            "sentences": [
+              5,
+              7
+            ]
+          },
+          {
+            "id": "O_290fc630e88ad6a40f",
+            "verdict": "supported",
+            "sentences": [
+              25,
+              26,
+              27
+            ]
+          },
+          {
+            "id": "O_f40bc51d183e319b95",
+            "verdict": "supported",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_88db1413d7f6a49643",
+            "verdict": "supported",
+            "sentences": [
+              23
+            ]
+          },
+          {
+            "id": "O_51d012596024c0413a",
+            "verdict": "supported",
+            "sentences": [
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_fda6623c8272e88d75",
+            "verdict": "supported",
+            "sentences": [
+              10,
+              11
+            ]
+          },
+          {
+            "id": "O_d0d4e9b32e92873791",
+            "verdict": "supported",
+            "sentences": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "O_7140015649be935fdf",
+            "verdict": "supported",
+            "sentences": [
+              24
+            ]
+          },
+          {
+            "id": "O_91165d2db1a1e1062c",
+            "verdict": "supported",
+            "sentences": [
+              28,
+              29
+            ]
+          },
+          {
+            "id": "O_53e913fb4d50878a5e",
+            "verdict": "supported",
+            "sentences": [
+              21,
+              22
+            ]
+          },
+          {
+            "id": "O_1b8c388cd7798ef59f",
+            "verdict": "supported",
+            "sentences": [
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_3d4e776f44f4b1ea1b",
+            "verdict": "supported",
+            "sentences": [
+              19,
+              20
+            ]
+          },
+          {
+            "id": "O_a15e1cc76e165d0ace",
+            "verdict": "supported",
+            "sentences": [
+              5,
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_1f13c796d5bc8a8510",
+            "verdict": "supported",
+            "sentences": [
+              15,
+              16,
+              18
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_8cac16caa1a85206fe\", \"sentences\": [1, 2]}, {\"id\": \"O_f40bc51d183e319b95\", \"sentences\": [3, 4]}, {\"id\": \"O_d0d4e9b32e92873791\", \"sentences\": [5, 6]}, {\"id\": \"O_ad7d23aa9d7d893288\", \"sentences\": [7]}, {\"id\": \"O_a15e1cc76e165d0ace\", \"sentences\": [5, 8, 9]}, {\"id\": \"O_fda6623c8272e88d75\", \"sentences\": [10, 11]}, {\"id\": \"O_191d96e52da5dbfed4\", \"sentences\": [12, 13, 14]}, {\"id\": \"O_51d012596024c0413a\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_1f13c796d5bc8a8510\", \"sentences\": [15, 16]}, {\"id\": \"O_1b8c388cd7798ef59f\", \"sentences\": [16, 17, 18]}, {\"id\": \"O_3d4e776f44f4b1ea1b\", \"sentences\": [19, 20]}, {\"id\": \"O_53e913fb4d50878a5e\", \"sentences\": [21, 22]}, {\"id\": \"O_88db1413d7f6a49643\", \"sentences\": [23]}, {\"id\": \"O_7140015649be935fdf\", \"sentences\": [24]}, {\"id\": \"O_290fc630e88ad6a40f\", \"sentences\": [26, 27]}, {\"id\": \"O_91165d2db1a1e1062c\", \"sentences\": [28, 29]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_191d96e52da5dbfed4\", \"verdict\": \"supported\", \"sentences\": [12, 13, 14]}, {\"id\": \"O_8cac16caa1a85206fe\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_ad7d23aa9d7d893288\", \"verdict\": \"supported\", \"sentences\": [5, 7]}, {\"id\": \"O_290fc630e88ad6a40f\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_f40bc51d183e319b95\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_88db1413d7f6a49643\", \"verdict\": \"supported\", \"sentences\": [23]}, {\"id\": \"O_51d012596024c0413a\", \"verdict\": \"supported\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_fda6623c8272e88d75\", \"verdict\": \"supported\", \"sentences\": [10, 11]}, {\"id\": \"O_d0d4e9b32e92873791\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_7140015649be935fdf\", \"verdict\": \"supported\", \"sentences\": [24]}, {\"id\": \"O_91165d2db1a1e1062c\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_53e913fb4d50878a5e\", \"verdict\": \"supported\", \"sentences\": [21, 22]}, {\"id\": \"O_1b8c388cd7798ef59f\", \"verdict\": \"supported\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_3d4e776f44f4b1ea1b\", \"verdict\": \"supported\", \"sentences\": [19, 20]}, {\"id\": \"O_a15e1cc76e165d0ace\", \"verdict\": \"supported\", \"sentences\": [5, 8, 9]}, {\"id\": \"O_1f13c796d5bc8a8510\", \"verdict\": \"supported\", \"sentences\": [15, 16, 18]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_8cac16caa1a85206fe\", \"sentences\": [1, 2]}, {\"id\": \"O_f40bc51d183e319b95\", \"sentences\": [3, 4]}, {\"id\": \"O_d0d4e9b32e92873791\", \"sentences\": [5, 6]}, {\"id\": \"O_ad7d23aa9d7d893288\", \"sentences\": [7]}, {\"id\": \"O_a15e1cc76e165d0ace\", \"sentences\": [5, 8, 9]}, {\"id\": \"O_fda6623c8272e88d75\", \"sentences\": [10, 11]}, {\"id\": \"O_191d96e52da5dbfed4\", \"sentences\": [12, 13, 14]}, {\"id\": \"O_51d012596024c0413a\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_1f13c796d5bc8a8510\", \"sentences\": [15, 16]}, {\"id\": \"O_1b8c388cd7798ef59f\", \"sentences\": [16, 17, 18]}, {\"id\": \"O_3d4e776f44f4b1ea1b\", \"sentences\": [19, 20]}, {\"id\": \"O_53e913fb4d50878a5e\", \"sentences\": [21, 22]}, {\"id\": \"O_88db1413d7f6a49643\", \"sentences\": [23]}, {\"id\": \"O_7140015649be935fdf\", \"sentences\": [24]}, {\"id\": \"O_290fc630e88ad6a40f\", \"sentences\": [26, 27]}, {\"id\": \"O_91165d2db1a1e1062c\", \"sentences\": [28, 29]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_191d96e52da5dbfed4\", \"verdict\": \"supported\", \"sentences\": [12, 13, 14]}, {\"id\": \"O_8cac16caa1a85206fe\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_ad7d23aa9d7d893288\", \"verdict\": \"supported\", \"sentences\": [5, 7]}, {\"id\": \"O_290fc630e88ad6a40f\", \"verdict\": \"supported\", \"sentences\": [25, 26, 27]}, {\"id\": \"O_f40bc51d183e319b95\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_88db1413d7f6a49643\", \"verdict\": \"supported\", \"sentences\": [23]}, {\"id\": \"O_51d012596024c0413a\", \"verdict\": \"supported\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_fda6623c8272e88d75\", \"verdict\": \"supported\", \"sentences\": [10, 11]}, {\"id\": \"O_d0d4e9b32e92873791\", \"verdict\": \"supported\", \"sentences\": [5, 6]}, {\"id\": \"O_7140015649be935fdf\", \"verdict\": \"supported\", \"sentences\": [24]}, {\"id\": \"O_91165d2db1a1e1062c\", \"verdict\": \"supported\", \"sentences\": [28, 29]}, {\"id\": \"O_53e913fb4d50878a5e\", \"verdict\": \"supported\", \"sentences\": [21, 22]}, {\"id\": \"O_1b8c388cd7798ef59f\", \"verdict\": \"supported\", \"sentences\": [15, 16, 17]}, {\"id\": \"O_3d4e776f44f4b1ea1b\", \"verdict\": \"supported\", \"sentences\": [19, 20]}, {\"id\": \"O_a15e1cc76e165d0ace\", \"verdict\": \"supported\", \"sentences\": [5, 8, 9]}, {\"id\": \"O_1f13c796d5bc8a8510\", \"verdict\": \"supported\", \"sentences\": [15, 16, 18]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "24af7e05f9460e8c",
+      "problem_id": "problem_d062cf0c23f8",
+      "text": "Start each round of scheduling by inviting volunteers to put the times they could come on the garden calendar. The coordinator can see where those times coincide and enter sessions that people can actually attend. For routine jobs still unclaimed, the coordinator puts a proposed name against each job on the work board, using the effort listed there. Once every job has an initial assignment, volunteers can swap jobs that fit their time or experience poorly. If plans change later, the person who will be away changes their attendance on the calendar first and then flags each affected job on the board, so someone checking the work can see what needs cover.\n\nUse a roster divided into short periods for seedling care. Invite the volunteers who know the routine to take the periods they can manage, then have the coordinator arrange cover for the remaining gaps. Compost turning needs two people together. Ask each person to mark the compost periods they could work independently of anyone else's choice, and let the coordinator make pairs where the choices overlap. Someone learning a routine job should first see an experienced gardener do it. They can then follow the card themselves with a concrete example in mind.\n\nBefore anyone claims watering for the day, inspect the beds and post the observations where everyone can read them. Volunteers can use that shared picture and the agreed guidance to claim the beds needing attention. For the longer record, write observations on dated cards and put copies in the files for the beds concerned. A gardener can reconstruct a whole visit from its date or follow what happened to one bed across several visits. When a shared plot will be unattended, ask its usual gardeners to list the care they would welcome. Other volunteers can then pick temporary jobs from that list.\n\nAnyone waiting for a shared tool should enter their request on the list by the store. The person using it agrees on a return time with the person waiting, making the next handover practical for both. When several activities need supplies, bring the volunteers together to review what each activity requires and in what quantity. Agree on the portions during that discussion and put a single combined request on the materials list.\n\nLet new visitors explore with the garden map first, with a host available to answer any remaining questions about paths and common areas. Announce proposed path-work times in advance and invite visitors to suggest adjustments before the work starts. For harvest collection, have neighbors and growers settle both the amount and the collection time together on the board so each offer has somewhere to go when it is picked.\n\nAsk members to bring one specific communal-bed idea to the meeting and explain what they hope it will do. Combine suggestions whose purposes and use of the bed fit together into a plan the group can share. At the seasonal discussion, look first at participation records to establish how much work volunteers can take on. Use the observation notes to choose a need that fits that capacity, so the priority comes with a realistic prospect of regular care.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_0837251f1030": "choice_07dc4bf5635d",
+          "decision_689c0fe67da1": "choice_f860de8d5f6f",
+          "decision_c7a5ccd3f1e9": "choice_3e1eeaa6c4e5",
+          "decision_b2aaf226f573": "choice_a8b279692365",
+          "decision_f1b96dbf8d14": "choice_37a9d613a68a",
+          "decision_1ac6dffd7825": "choice_787c4cd12ef8",
+          "decision_22b8508b7232": "choice_d097a7704a31",
+          "decision_061471c74449": "choice_497ba0c66024",
+          "decision_8729fe7d747d": "choice_515c94e16578",
+          "decision_c5430d8600b5": "choice_0ac925c0bd7e",
+          "decision_b064e8fe7a29": "choice_e461aaffefde",
+          "decision_34dd090aaf76": "choice_ed4af45e6104",
+          "decision_88c6d406e0c2": "choice_b6c54b9b6d01",
+          "decision_d13f8423f8df": "choice_d5c97138c134",
+          "decision_5d23452f7abf": "choice_eca83556cff2",
+          "decision_a1457af06d91": "choice_0890167b2520"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_0837251f1030": "For the longer record, write observations on dated cards and put copies in the files for the beds concerned.\nA gardener can reconstruct a whole visit from its date or follow what happened to one bed across several visits.",
+          "decision_689c0fe67da1": "When a shared plot will be unattended, ask its usual gardeners to list the care they would welcome.\nOther volunteers can then pick temporary jobs from that list.",
+          "decision_c7a5ccd3f1e9": "Start each round of scheduling by inviting volunteers to put the times they could come on the garden calendar.\nThe coordinator can see where those times coincide and enter sessions that people can actually attend.",
+          "decision_b2aaf226f573": "For harvest collection, have neighbors and growers settle both the amount and the collection time together on the board so each offer has somewhere to go when it is picked.",
+          "decision_f1b96dbf8d14": "Announce proposed path-work times in advance and invite visitors to suggest adjustments before the work starts.",
+          "decision_1ac6dffd7825": "Before anyone claims watering for the day, inspect the beds and post the observations where everyone can read them.\nVolunteers can use that shared picture and the agreed guidance to claim the beds needing attention.",
+          "decision_22b8508b7232": "Let new visitors explore with the garden map first, with a host available to answer any remaining questions about paths and common areas.",
+          "decision_061471c74449": "Ask members to bring one specific communal-bed idea to the meeting and explain what they hope it will do.\nCombine suggestions whose purposes and use of the bed fit together into a plan the group can share.",
+          "decision_8729fe7d747d": "For routine jobs still unclaimed, the coordinator puts a proposed name against each job on the work board, using the effort listed there.\nOnce every job has an initial assignment, volunteers can swap jobs that fit their time or experience poorly.",
+          "decision_c5430d8600b5": "Use a roster divided into short periods for seedling care.\nInvite the volunteers who know the routine to take the periods they can manage, then have the coordinator arrange cover for the remaining gaps.",
+          "decision_b064e8fe7a29": "At the seasonal discussion, look first at participation records to establish how much work volunteers can take on.\nUse the observation notes to choose a need that fits that capacity, so the priority comes with a realistic prospect of regular care.",
+          "decision_34dd090aaf76": "Compost turning needs two people together.\nAsk each person to mark the compost periods they could work independently of anyone else's choice, and let the coordinator make pairs where the choices overlap.",
+          "decision_88c6d406e0c2": "Someone learning a routine job should first see an experienced gardener do it.\nThey can then follow the card themselves with a concrete example in mind.",
+          "decision_d13f8423f8df": "When several activities need supplies, bring the volunteers together to review what each activity requires and in what quantity.\nAgree on the portions during that discussion and put a single combined request on the materials list.",
+          "decision_5d23452f7abf": "Anyone waiting for a shared tool should enter their request on the list by the store.\nThe person using it agrees on a return time with the person waiting, making the next handover practical for both.",
+          "decision_a1457af06d91": "If plans change later, the person who will be away changes their attendance on the calendar first and then flags each affected job on the board, so someone checking the work can see what needs cover."
+        },
+        "source_spans": {
+          "decision_0837251f1030": [
+            {
+              "sentence": 14,
+              "start": 1439,
+              "end": 1547,
+              "text": "For the longer record, write observations on dated cards and put copies in the files for the beds concerned."
+            },
+            {
+              "sentence": 15,
+              "start": 1548,
+              "end": 1660,
+              "text": "A gardener can reconstruct a whole visit from its date or follow what happened to one bed across several visits."
+            }
+          ],
+          "decision_689c0fe67da1": [
+            {
+              "sentence": 16,
+              "start": 1661,
+              "end": 1760,
+              "text": "When a shared plot will be unattended, ask its usual gardeners to list the care they would welcome."
+            },
+            {
+              "sentence": 17,
+              "start": 1761,
+              "end": 1822,
+              "text": "Other volunteers can then pick temporary jobs from that list."
+            }
+          ],
+          "decision_c7a5ccd3f1e9": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 110,
+              "text": "Start each round of scheduling by inviting volunteers to put the times they could come on the garden calendar."
+            },
+            {
+              "sentence": 2,
+              "start": 111,
+              "end": 213,
+              "text": "The coordinator can see where those times coincide and enter sessions that people can actually attend."
+            }
+          ],
+          "decision_b2aaf226f573": [
+            {
+              "sentence": 24,
+              "start": 2506,
+              "end": 2678,
+              "text": "For harvest collection, have neighbors and growers settle both the amount and the collection time together on the board so each offer has somewhere to go when it is picked."
+            }
+          ],
+          "decision_f1b96dbf8d14": [
+            {
+              "sentence": 23,
+              "start": 2394,
+              "end": 2505,
+              "text": "Announce proposed path-work times in advance and invite visitors to suggest adjustments before the work starts."
+            }
+          ],
+          "decision_1ac6dffd7825": [
+            {
+              "sentence": 12,
+              "start": 1223,
+              "end": 1338,
+              "text": "Before anyone claims watering for the day, inspect the beds and post the observations where everyone can read them."
+            },
+            {
+              "sentence": 13,
+              "start": 1339,
+              "end": 1438,
+              "text": "Volunteers can use that shared picture and the agreed guidance to claim the beds needing attention."
+            }
+          ],
+          "decision_22b8508b7232": [
+            {
+              "sentence": 22,
+              "start": 2256,
+              "end": 2393,
+              "text": "Let new visitors explore with the garden map first, with a host available to answer any remaining questions about paths and common areas."
+            }
+          ],
+          "decision_061471c74449": [
+            {
+              "sentence": 25,
+              "start": 2680,
+              "end": 2785,
+              "text": "Ask members to bring one specific communal-bed idea to the meeting and explain what they hope it will do."
+            },
+            {
+              "sentence": 26,
+              "start": 2786,
+              "end": 2885,
+              "text": "Combine suggestions whose purposes and use of the bed fit together into a plan the group can share."
+            }
+          ],
+          "decision_8729fe7d747d": [
+            {
+              "sentence": 3,
+              "start": 214,
+              "end": 351,
+              "text": "For routine jobs still unclaimed, the coordinator puts a proposed name against each job on the work board, using the effort listed there."
+            },
+            {
+              "sentence": 4,
+              "start": 352,
+              "end": 460,
+              "text": "Once every job has an initial assignment, volunteers can swap jobs that fit their time or experience poorly."
+            }
+          ],
+          "decision_c5430d8600b5": [
+            {
+              "sentence": 6,
+              "start": 662,
+              "end": 720,
+              "text": "Use a roster divided into short periods for seedling care."
+            },
+            {
+              "sentence": 7,
+              "start": 721,
+              "end": 864,
+              "text": "Invite the volunteers who know the routine to take the periods they can manage, then have the coordinator arrange cover for the remaining gaps."
+            }
+          ],
+          "decision_b064e8fe7a29": [
+            {
+              "sentence": 27,
+              "start": 2886,
+              "end": 3000,
+              "text": "At the seasonal discussion, look first at participation records to establish how much work volunteers can take on."
+            },
+            {
+              "sentence": 28,
+              "start": 3001,
+              "end": 3133,
+              "text": "Use the observation notes to choose a need that fits that capacity, so the priority comes with a realistic prospect of regular care."
+            }
+          ],
+          "decision_34dd090aaf76": [
+            {
+              "sentence": 8,
+              "start": 865,
+              "end": 907,
+              "text": "Compost turning needs two people together."
+            },
+            {
+              "sentence": 9,
+              "start": 908,
+              "end": 1068,
+              "text": "Ask each person to mark the compost periods they could work independently of anyone else's choice, and let the coordinator make pairs where the choices overlap."
+            }
+          ],
+          "decision_88c6d406e0c2": [
+            {
+              "sentence": 10,
+              "start": 1069,
+              "end": 1147,
+              "text": "Someone learning a routine job should first see an experienced gardener do it."
+            },
+            {
+              "sentence": 11,
+              "start": 1148,
+              "end": 1221,
+              "text": "They can then follow the card themselves with a concrete example in mind."
+            }
+          ],
+          "decision_d13f8423f8df": [
+            {
+              "sentence": 20,
+              "start": 2024,
+              "end": 2152,
+              "text": "When several activities need supplies, bring the volunteers together to review what each activity requires and in what quantity."
+            },
+            {
+              "sentence": 21,
+              "start": 2153,
+              "end": 2254,
+              "text": "Agree on the portions during that discussion and put a single combined request on the materials list."
+            }
+          ],
+          "decision_5d23452f7abf": [
+            {
+              "sentence": 18,
+              "start": 1824,
+              "end": 1909,
+              "text": "Anyone waiting for a shared tool should enter their request on the list by the store."
+            },
+            {
+              "sentence": 19,
+              "start": 1910,
+              "end": 2023,
+              "text": "The person using it agrees on a return time with the person waiting, making the next handover practical for both."
+            }
+          ],
+          "decision_a1457af06d91": [
+            {
+              "sentence": 5,
+              "start": 461,
+              "end": 660,
+              "text": "If plans change later, the person who will be away changes their attendance on the calendar first and then flags each affected job on the board, so someone checking the work can see what needs cover."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_00f1aa6eca8ee57ad3",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_2121830ad1d6c5e98f",
+            "sentences": [
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_33cdc6ec2a8b8a105b",
+            "sentences": [
+              24
+            ]
+          },
+          {
+            "id": "O_4ddb275eca274ee450",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_5514db515e9c766a8b",
+            "sentences": [
+              5
+            ]
+          },
+          {
+            "id": "O_7d50689b682a7f4957",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_8e72979ea6b5b59fb6",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_8eefba1cfce4bd3f15",
+            "sentences": [
+              10,
+              11
+            ]
+          },
+          {
+            "id": "O_991616a9f2e8afd2c1",
+            "sentences": [
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_9be690de0efce4ace3",
+            "sentences": [
+              23
+            ]
+          },
+          {
+            "id": "O_e07ae5d77fba7581a3",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_efedbe15fd3212c0d7",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_f2b776d3ab864546c9",
+            "sentences": [
+              22
+            ]
+          },
+          {
+            "id": "O_f4d4705924352a91ea",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_f5dc83fc1190179494",
+            "sentences": [
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_fd06524563ce90564c",
+            "sentences": [
+              25,
+              26
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_e07ae5d77fba7581a3",
+            "verdict": "supported",
+            "sentences": [
+              14,
+              15
+            ]
+          },
+          {
+            "id": "O_7d50689b682a7f4957",
+            "verdict": "supported",
+            "sentences": [
+              16,
+              17
+            ]
+          },
+          {
+            "id": "O_efedbe15fd3212c0d7",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_33cdc6ec2a8b8a105b",
+            "verdict": "supported",
+            "sentences": [
+              24
+            ]
+          },
+          {
+            "id": "O_9be690de0efce4ace3",
+            "verdict": "supported",
+            "sentences": [
+              23
+            ]
+          },
+          {
+            "id": "O_f5dc83fc1190179494",
+            "verdict": "supported",
+            "sentences": [
+              12,
+              13
+            ]
+          },
+          {
+            "id": "O_f2b776d3ab864546c9",
+            "verdict": "supported",
+            "sentences": [
+              22
+            ]
+          },
+          {
+            "id": "O_fd06524563ce90564c",
+            "verdict": "supported",
+            "sentences": [
+              25,
+              26
+            ]
+          },
+          {
+            "id": "O_00f1aa6eca8ee57ad3",
+            "verdict": "supported",
+            "sentences": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "O_4ddb275eca274ee450",
+            "verdict": "supported",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_2121830ad1d6c5e98f",
+            "verdict": "supported",
+            "sentences": [
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_991616a9f2e8afd2c1",
+            "verdict": "supported",
+            "sentences": [
+              8,
+              9
+            ]
+          },
+          {
+            "id": "O_8eefba1cfce4bd3f15",
+            "verdict": "supported",
+            "sentences": [
+              10,
+              11
+            ]
+          },
+          {
+            "id": "O_f4d4705924352a91ea",
+            "verdict": "supported",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_8e72979ea6b5b59fb6",
+            "verdict": "supported",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_5514db515e9c766a8b",
+            "verdict": "supported",
+            "sentences": [
+              5
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_efedbe15fd3212c0d7\", \"sentences\": [1, 2]}, {\"id\": \"O_00f1aa6eca8ee57ad3\", \"sentences\": [3, 4]}, {\"id\": \"O_5514db515e9c766a8b\", \"sentences\": [5]}, {\"id\": \"O_4ddb275eca274ee450\", \"sentences\": [6, 7]}, {\"id\": \"O_991616a9f2e8afd2c1\", \"sentences\": [8, 9]}, {\"id\": \"O_8eefba1cfce4bd3f15\", \"sentences\": [10, 11]}, {\"id\": \"O_f5dc83fc1190179494\", \"sentences\": [12, 13]}, {\"id\": \"O_e07ae5d77fba7581a3\", \"sentences\": [14, 15]}, {\"id\": \"O_7d50689b682a7f4957\", \"sentences\": [16, 17]}, {\"id\": \"O_8e72979ea6b5b59fb6\", \"sentences\": [18, 19]}, {\"id\": \"O_f4d4705924352a91ea\", \"sentences\": [20, 21]}, {\"id\": \"O_f2b776d3ab864546c9\", \"sentences\": [22]}, {\"id\": \"O_9be690de0efce4ace3\", \"sentences\": [23]}, {\"id\": \"O_33cdc6ec2a8b8a105b\", \"sentences\": [24]}, {\"id\": \"O_fd06524563ce90564c\", \"sentences\": [25, 26]}, {\"id\": \"O_2121830ad1d6c5e98f\", \"sentences\": [27, 28]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_e07ae5d77fba7581a3\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_7d50689b682a7f4957\", \"verdict\": \"supported\", \"sentences\": [16, 17]}, {\"id\": \"O_efedbe15fd3212c0d7\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_33cdc6ec2a8b8a105b\", \"verdict\": \"supported\", \"sentences\": [24]}, {\"id\": \"O_9be690de0efce4ace3\", \"verdict\": \"supported\", \"sentences\": [23]}, {\"id\": \"O_f5dc83fc1190179494\", \"verdict\": \"supported\", \"sentences\": [12, 13]}, {\"id\": \"O_f2b776d3ab864546c9\", \"verdict\": \"supported\", \"sentences\": [22]}, {\"id\": \"O_fd06524563ce90564c\", \"verdict\": \"supported\", \"sentences\": [25, 26]}, {\"id\": \"O_00f1aa6eca8ee57ad3\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_4ddb275eca274ee450\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_2121830ad1d6c5e98f\", \"verdict\": \"supported\", \"sentences\": [27, 28]}, {\"id\": \"O_991616a9f2e8afd2c1\", \"verdict\": \"supported\", \"sentences\": [8, 9]}, {\"id\": \"O_8eefba1cfce4bd3f15\", \"verdict\": \"supported\", \"sentences\": [10, 11]}, {\"id\": \"O_f4d4705924352a91ea\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_8e72979ea6b5b59fb6\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_5514db515e9c766a8b\", \"verdict\": \"supported\", \"sentences\": [5]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_efedbe15fd3212c0d7\", \"sentences\": [1, 2]}, {\"id\": \"O_00f1aa6eca8ee57ad3\", \"sentences\": [3, 4]}, {\"id\": \"O_5514db515e9c766a8b\", \"sentences\": [5]}, {\"id\": \"O_4ddb275eca274ee450\", \"sentences\": [6, 7]}, {\"id\": \"O_991616a9f2e8afd2c1\", \"sentences\": [8, 9]}, {\"id\": \"O_8eefba1cfce4bd3f15\", \"sentences\": [10, 11]}, {\"id\": \"O_f5dc83fc1190179494\", \"sentences\": [12, 13]}, {\"id\": \"O_e07ae5d77fba7581a3\", \"sentences\": [14, 15]}, {\"id\": \"O_7d50689b682a7f4957\", \"sentences\": [16, 17]}, {\"id\": \"O_8e72979ea6b5b59fb6\", \"sentences\": [18, 19]}, {\"id\": \"O_f4d4705924352a91ea\", \"sentences\": [20, 21]}, {\"id\": \"O_f2b776d3ab864546c9\", \"sentences\": [22]}, {\"id\": \"O_9be690de0efce4ace3\", \"sentences\": [23]}, {\"id\": \"O_33cdc6ec2a8b8a105b\", \"sentences\": [24]}, {\"id\": \"O_fd06524563ce90564c\", \"sentences\": [25, 26]}, {\"id\": \"O_2121830ad1d6c5e98f\", \"sentences\": [27, 28]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_e07ae5d77fba7581a3\", \"verdict\": \"supported\", \"sentences\": [14, 15]}, {\"id\": \"O_7d50689b682a7f4957\", \"verdict\": \"supported\", \"sentences\": [16, 17]}, {\"id\": \"O_efedbe15fd3212c0d7\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_33cdc6ec2a8b8a105b\", \"verdict\": \"supported\", \"sentences\": [24]}, {\"id\": \"O_9be690de0efce4ace3\", \"verdict\": \"supported\", \"sentences\": [23]}, {\"id\": \"O_f5dc83fc1190179494\", \"verdict\": \"supported\", \"sentences\": [12, 13]}, {\"id\": \"O_f2b776d3ab864546c9\", \"verdict\": \"supported\", \"sentences\": [22]}, {\"id\": \"O_fd06524563ce90564c\", \"verdict\": \"supported\", \"sentences\": [25, 26]}, {\"id\": \"O_00f1aa6eca8ee57ad3\", \"verdict\": \"supported\", \"sentences\": [3, 4]}, {\"id\": \"O_4ddb275eca274ee450\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_2121830ad1d6c5e98f\", \"verdict\": \"supported\", \"sentences\": [27, 28]}, {\"id\": \"O_991616a9f2e8afd2c1\", \"verdict\": \"supported\", \"sentences\": [8, 9]}, {\"id\": \"O_8eefba1cfce4bd3f15\", \"verdict\": \"supported\", \"sentences\": [10, 11]}, {\"id\": \"O_f4d4705924352a91ea\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_8e72979ea6b5b59fb6\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_5514db515e9c766a8b\", \"verdict\": \"supported\", \"sentences\": [5]}], \"ambiguous_decisions\": []}"
+    },
+    {
+      "id": "cccff3c954d5d785",
+      "problem_id": "problem_da905d277859",
+      "text": "Give weekend visitors a chance to say what brought them in. The volunteer at reception can listen to that answer and point out a starting room on the map that speaks to their interest. If someone has been before, ask which room they particularly enjoyed, then use the list of connections to suggest an object in a different room. For visitors with a bus to catch, hand them the guide sheet and let them pick out their own highlights. Reception can go through the approximate viewing times with them and help shorten their selection to fit the time they have.\n\nHave each of the two volunteers on welcome duty take a small group at the table and stay with that group for its early collection questions. Visitors then have someone they already know to turn to as they start looking around. On a short guided visit, the guide can name two themes the rooms will support and ask the group to choose one together before setting off. For a group booking in advance, send the organizer descriptions of the available rooms and the times volunteers can join them. Let the organizer pick a focus once they know what will be possible.\n\nKeep the route map available at reception throughout the day. If a room fills up, its volunteer can speak directly to people already making their way through the galleries and suggest a quieter route from where they are standing. Inside the rooms, use the individual labels of related objects to pose the same question at each stop. At the last object, give visitors a label that brings the examples together, letting people make their own comparisons before encountering the museum's explanation.\n\nFor the local story display, put the written account where people will read it first, then bring them to the object and invite them to answer the reflection question. They will have the local events in mind when they look. On the printed activity sheet, ask people simply to look closely at an object before turning over the sheet to discover what they are invited to write about. A visitor who remembers something of their own can sit with a volunteer and fill out a memory card together as they talk. Either can clarify a detail while the account is taking shape.\n\nPut question cards within reach before a scheduled discussion pause. Visitors can jot things down as they look around, giving the volunteer time to gather related questions and discuss them together during the pause. Keep track of the questions that keep coming up. When volunteers revise the room descriptions, they can draft wording that answers those specific difficulties. For more general comments, ask visitors to choose the room on the card first and then describe the object or moment they have in mind. That makes it possible to gather comments about the same place even when they concern different parts of the experience.\n\nNear closing time, one volunteer should change the display at reception while the others give the reminder in their rooms, keeping people at the entrance and in the galleries informed together. In the weekend review, begin with a comment that several visitors made. Check the counts for the room concerned and what the volunteers observed there before choosing a small improvement that fits the experience recorded in all three sources.",
+      "recovery": {
+        "status": "complete_choices",
+        "accepted": true,
+        "complete": true,
+        "choices": {
+          "decision_afed3418c84e": "choice_092c7234b0ba",
+          "decision_e1233fe46483": "choice_088f1dfc655f",
+          "decision_3e20cae8aa07": "choice_9eb53f07dd10",
+          "decision_ce7fdbc55099": "choice_d1fafd5b2fb7",
+          "decision_2435ae99c474": "choice_b5794d7ae547",
+          "decision_034dcf8498b0": "choice_31f7c49c9ef1",
+          "decision_d069333dcdbb": "choice_b9d87e0ea62e",
+          "decision_a52c0a61ba2b": "choice_3c82c8a65ebb",
+          "decision_e574ca310618": "choice_96a90b594501",
+          "decision_93f87b72b73f": "choice_7391a9a18de5",
+          "decision_109bee88f2c1": "choice_8409688b34d2",
+          "decision_bbe43118a354": "choice_5c30b2679a72",
+          "decision_095faae08d2f": "choice_1a4b7956f093",
+          "decision_896834903e5b": "choice_6647258b789f",
+          "decision_954b40fc1668": "choice_fe90f8aa88b0",
+          "decision_47bd37ecde77": "choice_eb15e379b417"
+        },
+        "ambiguous_decisions": [],
+        "unresolved_decisions": [],
+        "evidence": {
+          "decision_afed3418c84e": "For more general comments, ask visitors to choose the room on the card first and then describe the object or moment they have in mind.\nThat makes it possible to gather comments about the same place even when they concern different parts of the experience.",
+          "decision_e1233fe46483": "In the weekend review, begin with a comment that several visitors made.\nCheck the counts for the room concerned and what the volunteers observed there before choosing a small improvement that fits the experience recorded in all three sources.",
+          "decision_3e20cae8aa07": "On a short guided visit, the guide can name two themes the rooms will support and ask the group to choose one together before setting off.",
+          "decision_ce7fdbc55099": "Have each of the two volunteers on welcome duty take a small group at the table and stay with that group for its early collection questions.\nVisitors then have someone they already know to turn to as they start looking around.",
+          "decision_2435ae99c474": "On the printed activity sheet, ask people simply to look closely at an object before turning over the sheet to discover what they are invited to write about.",
+          "decision_034dcf8498b0": "Keep the route map available at reception throughout the day.\nIf a room fills up, its volunteer can speak directly to people already making their way through the galleries and suggest a quieter route from where they are standing.",
+          "decision_d069333dcdbb": "Put question cards within reach before a scheduled discussion pause.\nVisitors can jot things down as they look around, giving the volunteer time to gather related questions and discuss them together during the pause.",
+          "decision_a52c0a61ba2b": "For visitors with a bus to catch, hand them the guide sheet and let them pick out their own highlights.\nReception can go through the approximate viewing times with them and help shorten their selection to fit the time they have.",
+          "decision_e574ca310618": "If someone has been before, ask which room they particularly enjoyed, then use the list of connections to suggest an object in a different room.",
+          "decision_93f87b72b73f": "A visitor who remembers something of their own can sit with a volunteer and fill out a memory card together as they talk.\nEither can clarify a detail while the account is taking shape.",
+          "decision_109bee88f2c1": "For a group booking in advance, send the organizer descriptions of the available rooms and the times volunteers can join them.\nLet the organizer pick a focus once they know what will be possible.",
+          "decision_bbe43118a354": "For the local story display, put the written account where people will read it first, then bring them to the object and invite them to answer the reflection question.\nThey will have the local events in mind when they look.",
+          "decision_095faae08d2f": "Give weekend visitors a chance to say what brought them in.\nThe volunteer at reception can listen to that answer and point out a starting room on the map that speaks to their interest.",
+          "decision_896834903e5b": "Keep track of the questions that keep coming up.\nWhen volunteers revise the room descriptions, they can draft wording that answers those specific difficulties.",
+          "decision_954b40fc1668": "Inside the rooms, use the individual labels of related objects to pose the same question at each stop.\nAt the last object, give visitors a label that brings the examples together, letting people make their own comparisons before encountering the museum's explanation.",
+          "decision_47bd37ecde77": "Near closing time, one volunteer should change the display at reception while the others give the reminder in their rooms, keeping people at the entrance and in the galleries informed together."
+        },
+        "source_spans": {
+          "decision_afed3418c84e": [
+            {
+              "sentence": 24,
+              "start": 2566,
+              "end": 2700,
+              "text": "For more general comments, ask visitors to choose the room on the card first and then describe the object or moment they have in mind."
+            },
+            {
+              "sentence": 25,
+              "start": 2701,
+              "end": 2821,
+              "text": "That makes it possible to gather comments about the same place even when they concern different parts of the experience."
+            }
+          ],
+          "decision_e1233fe46483": [
+            {
+              "sentence": 27,
+              "start": 3017,
+              "end": 3088,
+              "text": "In the weekend review, begin with a comment that several visitors made."
+            },
+            {
+              "sentence": 28,
+              "start": 3089,
+              "end": 3259,
+              "text": "Check the counts for the room concerned and what the volunteers observed there before choosing a small improvement that fits the experience recorded in all three sources."
+            }
+          ],
+          "decision_3e20cae8aa07": [
+            {
+              "sentence": 8,
+              "start": 787,
+              "end": 925,
+              "text": "On a short guided visit, the guide can name two themes the rooms will support and ask the group to choose one together before setting off."
+            }
+          ],
+          "decision_ce7fdbc55099": [
+            {
+              "sentence": 6,
+              "start": 560,
+              "end": 700,
+              "text": "Have each of the two volunteers on welcome duty take a small group at the table and stay with that group for its early collection questions."
+            },
+            {
+              "sentence": 7,
+              "start": 701,
+              "end": 786,
+              "text": "Visitors then have someone they already know to turn to as they start looking around."
+            }
+          ],
+          "decision_2435ae99c474": [
+            {
+              "sentence": 17,
+              "start": 1845,
+              "end": 2002,
+              "text": "On the printed activity sheet, ask people simply to look closely at an object before turning over the sheet to discover what they are invited to write about."
+            }
+          ],
+          "decision_034dcf8498b0": [
+            {
+              "sentence": 11,
+              "start": 1123,
+              "end": 1184,
+              "text": "Keep the route map available at reception throughout the day."
+            },
+            {
+              "sentence": 12,
+              "start": 1185,
+              "end": 1352,
+              "text": "If a room fills up, its volunteer can speak directly to people already making their way through the galleries and suggest a quieter route from where they are standing."
+            }
+          ],
+          "decision_d069333dcdbb": [
+            {
+              "sentence": 20,
+              "start": 2189,
+              "end": 2257,
+              "text": "Put question cards within reach before a scheduled discussion pause."
+            },
+            {
+              "sentence": 21,
+              "start": 2258,
+              "end": 2405,
+              "text": "Visitors can jot things down as they look around, giving the volunteer time to gather related questions and discuss them together during the pause."
+            }
+          ],
+          "decision_a52c0a61ba2b": [
+            {
+              "sentence": 4,
+              "start": 330,
+              "end": 433,
+              "text": "For visitors with a bus to catch, hand them the guide sheet and let them pick out their own highlights."
+            },
+            {
+              "sentence": 5,
+              "start": 434,
+              "end": 558,
+              "text": "Reception can go through the approximate viewing times with them and help shorten their selection to fit the time they have."
+            }
+          ],
+          "decision_e574ca310618": [
+            {
+              "sentence": 3,
+              "start": 185,
+              "end": 329,
+              "text": "If someone has been before, ask which room they particularly enjoyed, then use the list of connections to suggest an object in a different room."
+            }
+          ],
+          "decision_93f87b72b73f": [
+            {
+              "sentence": 18,
+              "start": 2003,
+              "end": 2124,
+              "text": "A visitor who remembers something of their own can sit with a volunteer and fill out a memory card together as they talk."
+            },
+            {
+              "sentence": 19,
+              "start": 2125,
+              "end": 2187,
+              "text": "Either can clarify a detail while the account is taking shape."
+            }
+          ],
+          "decision_109bee88f2c1": [
+            {
+              "sentence": 9,
+              "start": 926,
+              "end": 1052,
+              "text": "For a group booking in advance, send the organizer descriptions of the available rooms and the times volunteers can join them."
+            },
+            {
+              "sentence": 10,
+              "start": 1053,
+              "end": 1121,
+              "text": "Let the organizer pick a focus once they know what will be possible."
+            }
+          ],
+          "decision_bbe43118a354": [
+            {
+              "sentence": 15,
+              "start": 1622,
+              "end": 1788,
+              "text": "For the local story display, put the written account where people will read it first, then bring them to the object and invite them to answer the reflection question."
+            },
+            {
+              "sentence": 16,
+              "start": 1789,
+              "end": 1844,
+              "text": "They will have the local events in mind when they look."
+            }
+          ],
+          "decision_095faae08d2f": [
+            {
+              "sentence": 1,
+              "start": 0,
+              "end": 59,
+              "text": "Give weekend visitors a chance to say what brought them in."
+            },
+            {
+              "sentence": 2,
+              "start": 60,
+              "end": 184,
+              "text": "The volunteer at reception can listen to that answer and point out a starting room on the map that speaks to their interest."
+            }
+          ],
+          "decision_896834903e5b": [
+            {
+              "sentence": 22,
+              "start": 2406,
+              "end": 2454,
+              "text": "Keep track of the questions that keep coming up."
+            },
+            {
+              "sentence": 23,
+              "start": 2455,
+              "end": 2565,
+              "text": "When volunteers revise the room descriptions, they can draft wording that answers those specific difficulties."
+            }
+          ],
+          "decision_954b40fc1668": [
+            {
+              "sentence": 13,
+              "start": 1353,
+              "end": 1455,
+              "text": "Inside the rooms, use the individual labels of related objects to pose the same question at each stop."
+            },
+            {
+              "sentence": 14,
+              "start": 1456,
+              "end": 1620,
+              "text": "At the last object, give visitors a label that brings the examples together, letting people make their own comparisons before encountering the museum's explanation."
+            }
+          ],
+          "decision_47bd37ecde77": [
+            {
+              "sentence": 26,
+              "start": 2823,
+              "end": 3016,
+              "text": "Near closing time, one volunteer should change the display at reception while the others give the reminder in their rooms, keeping people at the entrance and in the galleries informed together."
+            }
+          ]
+        },
+        "proposed": [
+          {
+            "id": "O_0b3daa35231d7030e8",
+            "sentences": [
+              17
+            ]
+          },
+          {
+            "id": "O_2138eaa930d3f06741",
+            "sentences": [
+              15,
+              16
+            ]
+          },
+          {
+            "id": "O_5de9242506f2e76d38",
+            "sentences": [
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_5f47af7fcfdd3c1227",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "O_776afb57f4e3031581",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_7a7345325564c94cf8",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_7e9987e9aba31a60af",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_86c200f342d6c41eef",
+            "sentences": [
+              4,
+              5
+            ]
+          },
+          {
+            "id": "O_8da84947da7b0ed82c",
+            "sentences": [
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_993720f3cab5299644",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_a8af13043de1ba8993",
+            "sentences": [
+              26
+            ]
+          },
+          {
+            "id": "O_b1c2d05c126aa35faf",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_c896d0a99fd2259cb0",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_d7d1265d8f32a1154c",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_f07da8b6fb832cfc72",
+            "sentences": [
+              8
+            ]
+          },
+          {
+            "id": "O_fef7e789cde4559fbd",
+            "sentences": [
+              9,
+              10
+            ]
+          }
+        ],
+        "verdicts": [
+          {
+            "id": "O_b1c2d05c126aa35faf",
+            "verdict": "supported",
+            "sentences": [
+              24,
+              25
+            ]
+          },
+          {
+            "id": "O_5de9242506f2e76d38",
+            "verdict": "supported",
+            "sentences": [
+              27,
+              28
+            ]
+          },
+          {
+            "id": "O_f07da8b6fb832cfc72",
+            "verdict": "supported",
+            "sentences": [
+              8
+            ]
+          },
+          {
+            "id": "O_c896d0a99fd2259cb0",
+            "verdict": "supported",
+            "sentences": [
+              6,
+              7
+            ]
+          },
+          {
+            "id": "O_0b3daa35231d7030e8",
+            "verdict": "supported",
+            "sentences": [
+              17
+            ]
+          },
+          {
+            "id": "O_7e9987e9aba31a60af",
+            "verdict": "supported",
+            "sentences": [
+              11,
+              12
+            ]
+          },
+          {
+            "id": "O_7a7345325564c94cf8",
+            "verdict": "supported",
+            "sentences": [
+              20,
+              21
+            ]
+          },
+          {
+            "id": "O_86c200f342d6c41eef",
+            "verdict": "supported",
+            "sentences": [
+              4,
+              5
+            ]
+          },
+          {
+            "id": "O_5f47af7fcfdd3c1227",
+            "verdict": "supported",
+            "sentences": [
+              3
+            ]
+          },
+          {
+            "id": "O_776afb57f4e3031581",
+            "verdict": "supported",
+            "sentences": [
+              18,
+              19
+            ]
+          },
+          {
+            "id": "O_fef7e789cde4559fbd",
+            "verdict": "supported",
+            "sentences": [
+              9,
+              10
+            ]
+          },
+          {
+            "id": "O_2138eaa930d3f06741",
+            "verdict": "supported",
+            "sentences": [
+              15,
+              16
+            ]
+          },
+          {
+            "id": "O_d7d1265d8f32a1154c",
+            "verdict": "supported",
+            "sentences": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "O_993720f3cab5299644",
+            "verdict": "supported",
+            "sentences": [
+              22,
+              23
+            ]
+          },
+          {
+            "id": "O_8da84947da7b0ed82c",
+            "verdict": "supported",
+            "sentences": [
+              13,
+              14
+            ]
+          },
+          {
+            "id": "O_a8af13043de1ba8993",
+            "verdict": "supported",
+            "sentences": [
+              26
+            ]
+          }
+        ],
+        "rejected_ids": [],
+        "model_output": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_d7d1265d8f32a1154c\", \"sentences\": [1, 2]}, {\"id\": \"O_5f47af7fcfdd3c1227\", \"sentences\": [3]}, {\"id\": \"O_86c200f342d6c41eef\", \"sentences\": [4, 5]}, {\"id\": \"O_c896d0a99fd2259cb0\", \"sentences\": [6, 7]}, {\"id\": \"O_f07da8b6fb832cfc72\", \"sentences\": [8]}, {\"id\": \"O_fef7e789cde4559fbd\", \"sentences\": [9, 10]}, {\"id\": \"O_7e9987e9aba31a60af\", \"sentences\": [11, 12]}, {\"id\": \"O_8da84947da7b0ed82c\", \"sentences\": [13, 14]}, {\"id\": \"O_2138eaa930d3f06741\", \"sentences\": [15, 16]}, {\"id\": \"O_0b3daa35231d7030e8\", \"sentences\": [17]}, {\"id\": \"O_776afb57f4e3031581\", \"sentences\": [18, 19]}, {\"id\": \"O_7a7345325564c94cf8\", \"sentences\": [20, 21]}, {\"id\": \"O_993720f3cab5299644\", \"sentences\": [22, 23]}, {\"id\": \"O_b1c2d05c126aa35faf\", \"sentences\": [24, 25]}, {\"id\": \"O_a8af13043de1ba8993\", \"sentences\": [26]}, {\"id\": \"O_5de9242506f2e76d38\", \"sentences\": [27, 28]}], \"ambiguous_decisions\": []}",
+        "verification_output": "{\"verdicts\": [{\"id\": \"O_b1c2d05c126aa35faf\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_5de9242506f2e76d38\", \"verdict\": \"supported\", \"sentences\": [27, 28]}, {\"id\": \"O_f07da8b6fb832cfc72\", \"verdict\": \"supported\", \"sentences\": [8]}, {\"id\": \"O_c896d0a99fd2259cb0\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_0b3daa35231d7030e8\", \"verdict\": \"supported\", \"sentences\": [17]}, {\"id\": \"O_7e9987e9aba31a60af\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_7a7345325564c94cf8\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_86c200f342d6c41eef\", \"verdict\": \"supported\", \"sentences\": [4, 5]}, {\"id\": \"O_5f47af7fcfdd3c1227\", \"verdict\": \"supported\", \"sentences\": [3]}, {\"id\": \"O_776afb57f4e3031581\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_fef7e789cde4559fbd\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_2138eaa930d3f06741\", \"verdict\": \"supported\", \"sentences\": [15, 16]}, {\"id\": \"O_d7d1265d8f32a1154c\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_993720f3cab5299644\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_8da84947da7b0ed82c\", \"verdict\": \"supported\", \"sentences\": [13, 14]}, {\"id\": \"O_a8af13043de1ba8993\", \"verdict\": \"supported\", \"sentences\": [26]}], \"ambiguous_decisions\": []}",
+        "prompt_version": "natural-choice-recovery-v1",
+        "verifier_version": "natural-choice-verification-v1",
+        "model_verification_performed": true,
+        "semantic_entailment_verified": false,
+        "reason": "",
+        "interpretation_scope": "natural_language_with_a_supplied_finite_semantic_choice_catalog"
+      },
+      "proposal_response": "{\"status\": \"extracted\", \"choices\": [{\"id\": \"O_d7d1265d8f32a1154c\", \"sentences\": [1, 2]}, {\"id\": \"O_5f47af7fcfdd3c1227\", \"sentences\": [3]}, {\"id\": \"O_86c200f342d6c41eef\", \"sentences\": [4, 5]}, {\"id\": \"O_c896d0a99fd2259cb0\", \"sentences\": [6, 7]}, {\"id\": \"O_f07da8b6fb832cfc72\", \"sentences\": [8]}, {\"id\": \"O_fef7e789cde4559fbd\", \"sentences\": [9, 10]}, {\"id\": \"O_7e9987e9aba31a60af\", \"sentences\": [11, 12]}, {\"id\": \"O_8da84947da7b0ed82c\", \"sentences\": [13, 14]}, {\"id\": \"O_2138eaa930d3f06741\", \"sentences\": [15, 16]}, {\"id\": \"O_0b3daa35231d7030e8\", \"sentences\": [17]}, {\"id\": \"O_776afb57f4e3031581\", \"sentences\": [18, 19]}, {\"id\": \"O_7a7345325564c94cf8\", \"sentences\": [20, 21]}, {\"id\": \"O_993720f3cab5299644\", \"sentences\": [22, 23]}, {\"id\": \"O_b1c2d05c126aa35faf\", \"sentences\": [24, 25]}, {\"id\": \"O_a8af13043de1ba8993\", \"sentences\": [26]}, {\"id\": \"O_5de9242506f2e76d38\", \"sentences\": [27, 28]}], \"ambiguous_decisions\": []}",
+      "verification_response": "{\"verdicts\": [{\"id\": \"O_b1c2d05c126aa35faf\", \"verdict\": \"supported\", \"sentences\": [24, 25]}, {\"id\": \"O_5de9242506f2e76d38\", \"verdict\": \"supported\", \"sentences\": [27, 28]}, {\"id\": \"O_f07da8b6fb832cfc72\", \"verdict\": \"supported\", \"sentences\": [8]}, {\"id\": \"O_c896d0a99fd2259cb0\", \"verdict\": \"supported\", \"sentences\": [6, 7]}, {\"id\": \"O_0b3daa35231d7030e8\", \"verdict\": \"supported\", \"sentences\": [17]}, {\"id\": \"O_7e9987e9aba31a60af\", \"verdict\": \"supported\", \"sentences\": [11, 12]}, {\"id\": \"O_7a7345325564c94cf8\", \"verdict\": \"supported\", \"sentences\": [20, 21]}, {\"id\": \"O_86c200f342d6c41eef\", \"verdict\": \"supported\", \"sentences\": [4, 5]}, {\"id\": \"O_5f47af7fcfdd3c1227\", \"verdict\": \"supported\", \"sentences\": [3]}, {\"id\": \"O_776afb57f4e3031581\", \"verdict\": \"supported\", \"sentences\": [18, 19]}, {\"id\": \"O_fef7e789cde4559fbd\", \"verdict\": \"supported\", \"sentences\": [9, 10]}, {\"id\": \"O_2138eaa930d3f06741\", \"verdict\": \"supported\", \"sentences\": [15, 16]}, {\"id\": \"O_d7d1265d8f32a1154c\", \"verdict\": \"supported\", \"sentences\": [1, 2]}, {\"id\": \"O_993720f3cab5299644\", \"verdict\": \"supported\", \"sentences\": [22, 23]}, {\"id\": \"O_8da84947da7b0ed82c\", \"verdict\": \"supported\", \"sentences\": [13, 14]}, {\"id\": \"O_a8af13043de1ba8993\", \"verdict\": \"supported\", \"sentences\": [26]}], \"ambiguous_decisions\": []}"
+    }
+  ],
+  "proposal_responses_sha256": "9a25244086eecbe831110b9a06b95611afa7ac36d330c23246645b14ea1910e8",
+  "verification_responses_sha256": "358258c7b44c4ab9092060adf39a8703f7eb19b6c8493a815489401df7a766f7"
+}

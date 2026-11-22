@@ -1,0 +1,1661 @@
+{
+  "protocol": "natural-empty-source-accounting-v1",
+  "assignment": {
+    "cases": [
+      {
+        "id": "76ff65c662df89ae",
+        "problem": {
+          "id": "problem_64bd2bc90792",
+          "title": "A calmer afternoon at the neighborhood library",
+          "problem": "A small library becomes crowded during afternoon pickups and returns. It has a request sheet, adjustable pickup windows, a few trained helpers, labeled shelves, and enough room to separate several activities. Staff want a practical plan that preserves walk-in access. Each decision below concerns a different part of the service; none requires exclusive use of all helpers or space.",
+          "goal": "Keep books moving and make the afternoon service easier to use without excluding readers who arrive without an appointment.",
+          "decisions": [
+            {
+              "id": "decision_8f30e5c1cb3a",
+              "question": "How should readers and staff agree on pickup windows?",
+              "context": "Readers can give preferences on a shared request sheet, and staff can reserve space in several pickup windows.",
+              "options": [
+                {
+                  "id": "choice_c1faa81429bd",
+                  "mechanism": "Readers rank pickup windows on the request sheet before staff reserve shelf space.",
+                  "consequence": "Staff can use those preferences to spread pickups across the available windows.",
+                  "application": "Readers rank pickup windows on the request sheet before staff reserve shelf space. Staff can use those preferences to spread pickups across the available windows."
+                },
+                {
+                  "id": "choice_de8b33a9165c",
+                  "mechanism": "Staff propose pickup windows on the request sheet before readers confirm or request a change.",
+                  "consequence": "The initial spread comes from staff, with reader preferences correcting unsuitable assignments.",
+                  "application": "Staff propose pickup windows on the request sheet before readers confirm or request a change. The initial spread comes from staff, with reader preferences correcting unsuitable assignments."
+                },
+                {
+                  "id": "choice_ba79d4c49343",
+                  "mechanism": "Readers claim pickup windows on the request sheet while staff reserve shelf space as claims arrive.",
+                  "consequence": "The available spaces limit crowding as readers make their own choices.",
+                  "application": "Readers claim pickup windows on the request sheet while staff reserve shelf space as claims arrive. The available spaces limit crowding as readers make their own choices."
+                }
+              ]
+            },
+            {
+              "id": "decision_a4f983e6c177",
+              "question": "Who should choose when a requested book is prepared?",
+              "context": "A preparation list shows each requested book, its reader, and its agreed pickup window.",
+              "options": [
+                {
+                  "id": "choice_7fcdd58fd9fa",
+                  "mechanism": "Staff prepare each requested book shortly before its pickup window, following the preparation list.",
+                  "consequence": "Shelf space remains available for books whose readers are arriving soon.",
+                  "application": "Staff prepare each requested book shortly before its pickup window, following the preparation list. Shelf space remains available for books whose readers are arriving soon."
+                },
+                {
+                  "id": "choice_1f6f71896fef",
+                  "mechanism": "Helpers prepare the requested books in one early pass, and staff use the preparation list to group them by pickup window.",
+                  "consequence": "The desk avoids repeated preparation during the afternoon rush.",
+                  "application": "Helpers prepare the requested books in one early pass, and staff use the preparation list to group them by pickup window. The desk avoids repeated preparation during the afternoon rush."
+                },
+                {
+                  "id": "choice_50b82b95cd70",
+                  "mechanism": "Readers confirm they are on their way, and staff then prepare the requested books from the preparation list.",
+                  "consequence": "Preparation effort follows readers who are likely to collect soon.",
+                  "application": "Readers confirm they are on their way, and staff then prepare the requested books from the preparation list. Preparation effort follows readers who are likely to collect soon."
+                }
+              ]
+            },
+            {
+              "id": "decision_632e2926f2e9",
+              "question": "How should a reader announce arrival?",
+              "context": "The entrance has an arrival sheet, and the pickup desk can see it without leaving its station.",
+              "options": [
+                {
+                  "id": "choice_e65f1722aafc",
+                  "mechanism": "Readers add their names to the arrival sheet, and the pickup desk calls them when their books are ready.",
+                  "consequence": "Readers can wait away from the desk until called.",
+                  "application": "Readers add their names to the arrival sheet, and the pickup desk calls them when their books are ready. Readers can wait away from the desk until called."
+                },
+                {
+                  "id": "choice_c025d6c8a241",
+                  "mechanism": "The pickup desk adds names to the arrival sheet after briefly greeting each reader.",
+                  "consequence": "A short personal check records arrivals before readers move aside.",
+                  "application": "The pickup desk adds names to the arrival sheet after briefly greeting each reader. A short personal check records arrivals before readers move aside."
+                },
+                {
+                  "id": "choice_166735b3e2b1",
+                  "mechanism": "A helper gathers names from arriving readers and carries the arrival sheet to the pickup desk at regular intervals.",
+                  "consequence": "The desk receives grouped arrival updates without a continuous line of introductions.",
+                  "application": "A helper gathers names from arriving readers and carries the arrival sheet to the pickup desk at regular intervals. The desk receives grouped arrival updates without a continuous line of introductions."
+                }
+              ]
+            },
+            {
+              "id": "decision_586c46ce6bd6",
+              "question": "How should walk-ins share the pickup desk with booked readers?",
+              "context": "The desk serves both booked readers and walk-ins, and staff can divide its working time into short service blocks.",
+              "options": [
+                {
+                  "id": "choice_8a3db443c398",
+                  "mechanism": "Staff alternate short service blocks between booked readers and walk-ins at the pickup desk.",
+                  "consequence": "Both groups receive a regular turn even when the other group is busy.",
+                  "application": "Staff alternate short service blocks between booked readers and walk-ins at the pickup desk. Both groups receive a regular turn even when the other group is busy."
+                },
+                {
+                  "id": "choice_0ecf87ef8786",
+                  "mechanism": "Staff reserve an initial portion of each service block for booked readers and use the remainder for walk-ins.",
+                  "consequence": "Booked arrivals have predictable access while walk-ins use the continuing spare time.",
+                  "application": "Staff reserve an initial portion of each service block for booked readers and use the remainder for walk-ins. Booked arrivals have predictable access while walk-ins use the continuing spare time."
+                },
+                {
+                  "id": "choice_7b4445f4310a",
+                  "mechanism": "Staff begin each service block with the longer waiting group, whether booked readers or walk-ins.",
+                  "consequence": "Service follows the greater current wait instead of a fixed group order.",
+                  "application": "Staff begin each service block with the longer waiting group, whether booked readers or walk-ins. Service follows the greater current wait instead of a fixed group order."
+                }
+              ]
+            },
+            {
+              "id": "decision_af8caffec512",
+              "question": "How should quick questions be separated from book collection?",
+              "context": "A question pad is available beside the pickup desk, and a helper can answer routine questions.",
+              "options": [
+                {
+                  "id": "choice_5b9f11daf2ab",
+                  "mechanism": "Readers write routine questions on the pad, and the helper answers them while staff handle book collection.",
+                  "consequence": "Questions can be addressed without interrupting each collection.",
+                  "application": "Readers write routine questions on the pad, and the helper answers them while staff handle book collection. Questions can be addressed without interrupting each collection."
+                },
+                {
+                  "id": "choice_dec57ee1d9db",
+                  "mechanism": "The helper asks waiting readers for routine questions and writes answers on the pad before they reach the pickup desk.",
+                  "consequence": "Common issues can be settled during the wait rather than at collection.",
+                  "application": "The helper asks waiting readers for routine questions and writes answers on the pad before they reach the pickup desk. Common issues can be settled during the wait rather than at collection."
+                },
+                {
+                  "id": "choice_f52c2b58e17f",
+                  "mechanism": "Staff finish each book collection before noting any remaining routine question on the pad for the helper.",
+                  "consequence": "The collection transaction stays short while a separate follow-up remains available.",
+                  "application": "Staff finish each book collection before noting any remaining routine question on the pad for the helper. The collection transaction stays short while a separate follow-up remains available."
+                }
+              ]
+            },
+            {
+              "id": "decision_1d91d9d94b72",
+              "question": "How should shelf labels help staff locate requested books?",
+              "context": "Requested books can be grouped on several shelves, and labels can show either a reader name or a pickup window.",
+              "options": [
+                {
+                  "id": "choice_2fbd5bf9a1e1",
+                  "mechanism": "Staff group requested books by pickup window and add reader names within each shelf label.",
+                  "consequence": "The time grouping narrows the search before staff check a name.",
+                  "application": "Staff group requested books by pickup window and add reader names within each shelf label. The time grouping narrows the search before staff check a name."
+                },
+                {
+                  "id": "choice_744bcbc70836",
+                  "mechanism": "Staff group requested books by reader name and add pickup windows within each shelf label.",
+                  "consequence": "The name grouping narrows the search while the window remains visible.",
+                  "application": "Staff group requested books by reader name and add pickup windows within each shelf label. The name grouping narrows the search while the window remains visible."
+                },
+                {
+                  "id": "choice_dd42cc47ad99",
+                  "mechanism": "Staff assign a shelf location to each requested book and put that location beside both reader name and pickup window on a desk list.",
+                  "consequence": "The desk list directs the search without sorting the shelves by either field.",
+                  "application": "Staff assign a shelf location to each requested book and put that location beside both reader name and pickup window on a desk list. The desk list directs the search without sorting the shelves by either field."
+                }
+              ]
+            },
+            {
+              "id": "decision_e99c80b7d5b1",
+              "question": "What should happen when a reader misses a pickup window?",
+              "context": "A missed pickup can be held for one more service period, and the reader can be contacted.",
+              "options": [
+                {
+                  "id": "choice_4a96e72aa05c",
+                  "mechanism": "Staff contact the reader to agree on a new pickup window before moving the book to the next period’s holding shelf.",
+                  "consequence": "The extra hold follows a confirmed intention to collect.",
+                  "application": "Staff contact the reader to agree on a new pickup window before moving the book to the next period’s holding shelf. The extra hold follows a confirmed intention to collect."
+                },
+                {
+                  "id": "choice_7c4b2983e992",
+                  "mechanism": "Staff move the book to the next period’s holding shelf and then contact the reader with the new pickup window.",
+                  "consequence": "The book remains available while the reader receives a default second opportunity.",
+                  "application": "Staff move the book to the next period’s holding shelf and then contact the reader with the new pickup window. The book remains available while the reader receives a default second opportunity."
+                },
+                {
+                  "id": "choice_16a87acc8861",
+                  "mechanism": "Staff contact the reader with the remaining pickup windows and move the book only after the reader selects one.",
+                  "consequence": "The reader chooses among the remaining spaces before the extra hold is arranged.",
+                  "application": "Staff contact the reader with the remaining pickup windows and move the book only after the reader selects one. The reader chooses among the remaining spaces before the extra hold is arranged."
+                }
+              ]
+            },
+            {
+              "id": "decision_264f6c08f632",
+              "question": "How should a returned book enter the checking queue?",
+              "context": "Returned books need a brief condition check, and a return slip can record the book and its arrival.",
+              "options": [
+                {
+                  "id": "choice_fca9f6b2e6c6",
+                  "mechanism": "Readers place returned books beside completed return slips, and helpers check them in arrival order.",
+                  "consequence": "The slips preserve order without requiring a separate intake conversation.",
+                  "application": "Readers place returned books beside completed return slips, and helpers check them in arrival order. The slips preserve order without requiring a separate intake conversation."
+                },
+                {
+                  "id": "choice_8a05d9166b06",
+                  "mechanism": "Helpers accept returned books and complete the return slips during a brief intake conversation.",
+                  "consequence": "Questions about a return are resolved before it enters the checking queue.",
+                  "application": "Helpers accept returned books and complete the return slips during a brief intake conversation. Questions about a return are resolved before it enters the checking queue."
+                },
+                {
+                  "id": "choice_7add80735c87",
+                  "mechanism": "Readers hand over returned books, and helpers complete return slips during periodic grouped checks.",
+                  "consequence": "The handover stays quick while recording and checking happen together later.",
+                  "application": "Readers hand over returned books, and helpers complete return slips during periodic grouped checks. The handover stays quick while recording and checking happen together later."
+                }
+              ]
+            },
+            {
+              "id": "decision_18ceec9fc309",
+              "question": "How should checked returns be reshelved?",
+              "context": "Checked returns are placed on a trolley, and helpers can sort by shelf location or by the age of the return.",
+              "options": [
+                {
+                  "id": "choice_33e7e22947c5",
+                  "mechanism": "Helpers sort the trolley by shelf location and reshelve each location’s checked returns together.",
+                  "consequence": "Each shelving trip covers a compact part of the library.",
+                  "application": "Helpers sort the trolley by shelf location and reshelve each location’s checked returns together. Each shelving trip covers a compact part of the library."
+                },
+                {
+                  "id": "choice_3f8f552c0593",
+                  "mechanism": "Helpers take the oldest checked returns from the trolley first and follow their shelf locations.",
+                  "consequence": "Books waiting longest become available again first.",
+                  "application": "Helpers take the oldest checked returns from the trolley first and follow their shelf locations. Books waiting longest become available again first."
+                },
+                {
+                  "id": "choice_645321c3d561",
+                  "mechanism": "Helpers divide checked returns into small trolley batches and sort each batch by shelf location before shelving it.",
+                  "consequence": "Short batches balance prompt return with compact shelving trips.",
+                  "application": "Helpers divide checked returns into small trolley batches and sort each batch by shelf location before shelving it. Short batches balance prompt return with compact shelving trips."
+                }
+              ]
+            },
+            {
+              "id": "decision_39f403e9ac55",
+              "question": "How should a book move between the preparation area and the desk?",
+              "context": "A transfer tray and a written transfer list can connect book preparation with the pickup desk.",
+              "options": [
+                {
+                  "id": "choice_ed7f571f1346",
+                  "mechanism": "Preparation helpers fill the transfer tray and send it with a list after a small batch is ready.",
+                  "consequence": "The desk receives books and their records together in grouped deliveries.",
+                  "application": "Preparation helpers fill the transfer tray and send it with a list after a small batch is ready. The desk receives books and their records together in grouped deliveries."
+                },
+                {
+                  "id": "choice_2d36381a89d8",
+                  "mechanism": "Desk staff send a transfer list for the readers currently waiting, and preparation helpers fill the tray to match it.",
+                  "consequence": "Transfers follow immediate pickup demand.",
+                  "application": "Desk staff send a transfer list for the readers currently waiting, and preparation helpers fill the tray to match it. Transfers follow immediate pickup demand."
+                },
+                {
+                  "id": "choice_d4bd60bffd7d",
+                  "mechanism": "A helper carries the transfer tray at fixed intervals and checks the written list at both ends.",
+                  "consequence": "Regular rounds connect the two areas without repeated individual requests.",
+                  "application": "A helper carries the transfer tray at fixed intervals and checks the written list at both ends. Regular rounds connect the two areas without repeated individual requests."
+                }
+              ]
+            },
+            {
+              "id": "decision_ec7803bbd281",
+              "question": "How should readers request extra assistance?",
+              "context": "Some readers prefer help carrying or locating books, and a helper can provide it without requiring a reason.",
+              "options": [
+                {
+                  "id": "choice_e5cc094c4f4b",
+                  "mechanism": "Readers request assistance when choosing a pickup window, and staff place the request on the helper’s list.",
+                  "consequence": "The helper can be available when those readers arrive.",
+                  "application": "Readers request assistance when choosing a pickup window, and staff place the request on the helper’s list. The helper can be available when those readers arrive."
+                },
+                {
+                  "id": "choice_f7328232e91f",
+                  "mechanism": "A helper offers assistance at arrival and records accepted requests on a list.",
+                  "consequence": "Readers can choose help after seeing what they need that day.",
+                  "application": "A helper offers assistance at arrival and records accepted requests on a list. Readers can choose help after seeing what they need that day."
+                },
+                {
+                  "id": "choice_0581060f3f86",
+                  "mechanism": "Staff offer assistance at collection and pass accepted requests to the helper’s list.",
+                  "consequence": "Help is offered at the point where carrying or locating difficulties become clear.",
+                  "application": "Staff offer assistance at collection and pass accepted requests to the helper’s list. Help is offered at the point where carrying or locating difficulties become clear."
+                }
+              ]
+            },
+            {
+              "id": "decision_198c1ffba842",
+              "question": "How should a reader hear about a temporary delay?",
+              "context": "Staff can update a delay notice and speak with readers whose pickup is affected.",
+              "options": [
+                {
+                  "id": "choice_653bc12291be",
+                  "mechanism": "Staff update the delay notice first and then speak with affected readers who want an individual update.",
+                  "consequence": "A common message reaches everyone before personal follow-up.",
+                  "application": "Staff update the delay notice first and then speak with affected readers who want an individual update. A common message reaches everyone before personal follow-up."
+                },
+                {
+                  "id": "choice_1ae7a669b8b9",
+                  "mechanism": "Staff speak with affected readers first and then update the delay notice with the shared explanation.",
+                  "consequence": "The notice reflects the questions raised in those conversations.",
+                  "application": "Staff speak with affected readers first and then update the delay notice with the shared explanation. The notice reflects the questions raised in those conversations."
+                },
+                {
+                  "id": "choice_09fa5d040412",
+                  "mechanism": "A helper keeps the delay notice current while staff speak with affected readers at the same time.",
+                  "consequence": "Shared and individual updates proceed without waiting for one another.",
+                  "application": "A helper keeps the delay notice current while staff speak with affected readers at the same time. Shared and individual updates proceed without waiting for one another."
+                }
+              ]
+            },
+            {
+              "id": "decision_4097a1e6e449",
+              "question": "How should feedback be gathered without slowing departures?",
+              "context": "A short feedback card and a nearby collection box are available for readers leaving the service.",
+              "options": [
+                {
+                  "id": "choice_ee551c6c7a51",
+                  "mechanism": "Staff hand readers a feedback card at collection and invite them to place it in the box on the way out.",
+                  "consequence": "Readers can respond after the transaction has finished.",
+                  "application": "Staff hand readers a feedback card at collection and invite them to place it in the box on the way out. Readers can respond after the transaction has finished."
+                },
+                {
+                  "id": "choice_f752dd5dd139",
+                  "mechanism": "A helper offers feedback cards near the exit and points readers to the collection box.",
+                  "consequence": "The pickup desk does not need to introduce the feedback request.",
+                  "application": "A helper offers feedback cards near the exit and points readers to the collection box. The pickup desk does not need to introduce the feedback request."
+                },
+                {
+                  "id": "choice_984dad30023c",
+                  "mechanism": "Readers take feedback cards from a stand beside the collection box after seeing a brief invitation near the exit.",
+                  "consequence": "Feedback remains self-directed and separate from staff interactions.",
+                  "application": "Readers take feedback cards from a stand beside the collection box after seeing a brief invitation near the exit. Feedback remains self-directed and separate from staff interactions."
+                }
+              ]
+            },
+            {
+              "id": "decision_23eac4fd2979",
+              "question": "How should helpers hand over unfinished tasks?",
+              "context": "Helpers overlap briefly at a shift change and can use a shared list of unfinished tasks.",
+              "options": [
+                {
+                  "id": "choice_3970d7fb8943",
+                  "mechanism": "The outgoing helper writes the unfinished-task list before the overlap and explains it to the incoming helper.",
+                  "consequence": "The handover starts from a prepared record.",
+                  "application": "The outgoing helper writes the unfinished-task list before the overlap and explains it to the incoming helper. The handover starts from a prepared record."
+                },
+                {
+                  "id": "choice_63a1b75907f4",
+                  "mechanism": "The incoming helper reviews the work during the overlap and writes the unfinished-task list with the outgoing helper.",
+                  "consequence": "The new helper checks understanding while the record is made.",
+                  "application": "The incoming helper reviews the work during the overlap and writes the unfinished-task list with the outgoing helper. The new helper checks understanding while the record is made."
+                },
+                {
+                  "id": "choice_7fcef310e835",
+                  "mechanism": "Both helpers mark unfinished tasks on the shared list as they occur, then review only unresolved entries during the overlap.",
+                  "consequence": "The handover focuses on work that still needs attention.",
+                  "application": "Both helpers mark unfinished tasks on the shared list as they occur, then review only unresolved entries during the overlap. The handover focuses on work that still needs attention."
+                }
+              ]
+            },
+            {
+              "id": "decision_ede10bc15c2f",
+              "question": "How should the library encourage quieter waiting?",
+              "context": "Readers can wait in several spots, and a quiet-waiting notice can be moved around the pickup area.",
+              "options": [
+                {
+                  "id": "choice_34085c236122",
+                  "mechanism": "Staff place the quiet-waiting notice beside the waiting spots before the service starts.",
+                  "consequence": "Readers encounter the expectation as they choose where to wait.",
+                  "application": "Staff place the quiet-waiting notice beside the waiting spots before the service starts. Readers encounter the expectation as they choose where to wait."
+                },
+                {
+                  "id": "choice_b4f7fadbcf21",
+                  "mechanism": "A helper points out quieter waiting spots and then places the notice where readers have gathered.",
+                  "consequence": "The reminder follows the actual waiting pattern.",
+                  "application": "A helper points out quieter waiting spots and then places the notice where readers have gathered. The reminder follows the actual waiting pattern."
+                },
+                {
+                  "id": "choice_9a1eca86058c",
+                  "mechanism": "Staff place the notice at the entrance with a simple map of quieter waiting spots.",
+                  "consequence": "Readers can choose a suitable place before reaching the crowded desk.",
+                  "application": "Staff place the notice at the entrance with a simple map of quieter waiting spots. Readers can choose a suitable place before reaching the crowded desk."
+                }
+              ]
+            },
+            {
+              "id": "decision_60e6b65bf11b",
+              "question": "How should staff choose one improvement for the next afternoon?",
+              "context": "The team has a wait log, reader feedback, and a short closing discussion.",
+              "options": [
+                {
+                  "id": "choice_89eaf75a09d8",
+                  "mechanism": "Staff identify the longest waits in the log and use reader feedback to choose one improvement during closing.",
+                  "consequence": "The improvement begins with a measured bottleneck and checks its effect on readers.",
+                  "application": "Staff identify the longest waits in the log and use reader feedback to choose one improvement during closing. The improvement begins with a measured bottleneck and checks its effect on readers."
+                },
+                {
+                  "id": "choice_aa16e42ef2c4",
+                  "mechanism": "Staff identify the most repeated concern in reader feedback and check the wait log before choosing one improvement.",
+                  "consequence": "The improvement begins with reader experience and checks its operational pattern.",
+                  "application": "Staff identify the most repeated concern in reader feedback and check the wait log before choosing one improvement. The improvement begins with reader experience and checks its operational pattern."
+                },
+                {
+                  "id": "choice_9a90aa444ff4",
+                  "mechanism": "Staff propose one improvement during closing and compare both the wait log and reader feedback before agreeing to try it.",
+                  "consequence": "The proposed change must fit both kinds of evidence.",
+                  "application": "Staff propose one improvement during closing and compare both the wait log and reader feedback before agreeing to try it. The proposed change must fit both kinds of evidence."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Let readers choose among the afternoons and collection times they can manage, ranking those options on their request sheets. Staff should consider the sheets together before allocating shelf space. Two readers with the same first choice may both be happy with appointments that bring them in at different times. Record each booking under the reader’s name with the title requested. Their message that they are setting out is the cue to prepare the title from that list. This lets someone book well ahead without drawing a helper away from people collecting now.\n\nAllocate each book a place on whichever shelf has space. Write the spot on the desk list next to the name and appointment time, so either piece of information will lead staff to it. For a missed collection, offer the reader a choice of times still available. Once they choose, move the book and book the additional period that was being held for them.\n\nPeople taking a seat should find the quiet-waiting notice there when the doors open. A helper can welcome several arrivals, record their names and carry the sheet to the desk at intervals. At the greeting, ask each person whether they would like help finding or carrying anything and record the help they choose. Use the wait to deal with everyday questions. A helper can ask what people need to know and write the answers on the question pad, so readers are ready when called.\n\nWork the collection desk in short periods. As each begins, check the waits for people with appointments and those without, then serve the group that has waited longer first. In this way a lengthening walk-in queue gets attention too. Send a written account of who is present to the helpers preparing books. They can fill the delivery tray with titles for those people. If service runs late, staff should speak to the affected readers while a helper changes the public notice. On the way out, a helper can hand readers a comment card and show them where to drop it, freeing the desk for collections.\n\nSet aside a place for people to leave returns with a slip they fill out themselves. They can go once they have left their books. Helpers use the slips to inspect the books in the order received. As soon as a few have been checked, put them on the trolley in shelf order so a single quick trip puts them back in use.\n\nAn outgoing helper should make a list of unfinished work before the relief helper arrives. While both are there, go over the list together. To plan the following afternoon, use the closing review to identify the worst delays in the log. Read the comments about those particular stages and choose one change based on readers’ experiences there."
+      },
+      {
+        "id": "b6c18aa5a477b92e",
+        "problem": {
+          "id": "problem_da01c1c6ae1e",
+          "title": "A neighborhood café that lends reusable cups",
+          "problem": "A neighborhood café wants to lend reusable cups at community gatherings and recover them afterward. It has a modest cup stock, washable collection crates, a simple lending record, and volunteers who can share short shifts. The plan concerns a small pilot with no deposit or sales system. Different decisions address separate moments in lending, return, and review.",
+          "goal": "Make cup lending and return convenient while keeping the available stock and volunteer work understandable.",
+          "decisions": [
+            {
+              "id": "decision_995ed35b4d41",
+              "question": "How should guests indicate that they want a reusable cup?",
+              "context": "Guests can make a request at the drink counter, and a request card can pass between the drink and cup stations.",
+              "options": [
+                {
+                  "id": "choice_b70bd81095cf",
+                  "mechanism": "Guests request a reusable cup at the drink counter, which sends a request card to the cup station.",
+                  "consequence": "The cup station prepares for a guest before the guest reaches it.",
+                  "application": "Guests request a reusable cup at the drink counter, which sends a request card to the cup station. The cup station prepares for a guest before the guest reaches it."
+                },
+                {
+                  "id": "choice_e35edd22bc69",
+                  "mechanism": "Guests collect a request card at the cup station and show it when ordering at the drink counter.",
+                  "consequence": "The cup choice is settled before the drink is prepared.",
+                  "application": "Guests collect a request card at the cup station and show it when ordering at the drink counter. The cup choice is settled before the drink is prepared."
+                },
+                {
+                  "id": "choice_0b02051cee60",
+                  "mechanism": "A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations.",
+                  "consequence": "Both stations receive the same choices while guests remain in the queue.",
+                  "application": "A volunteer gathers reusable-cup requests from waiting guests and takes the cards to both stations. Both stations receive the same choices while guests remain in the queue."
+                }
+              ]
+            },
+            {
+              "id": "decision_8342e49aaeb7",
+              "question": "How should available cups be allocated during busy periods?",
+              "context": "There are fewer cups than peak simultaneous requests, but guests can wait or use their own cups.",
+              "options": [
+                {
+                  "id": "choice_d5c16700f1d7",
+                  "mechanism": "Volunteers assign available cups in request order and tell later guests when a return is expected.",
+                  "consequence": "The waiting order is clear when stock runs short.",
+                  "application": "Volunteers assign available cups in request order and tell later guests when a return is expected. The waiting order is clear when stock runs short."
+                },
+                {
+                  "id": "choice_42a2dec8b3f7",
+                  "mechanism": "Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period.",
+                  "consequence": "Early requests cannot consume the whole afternoon’s lending stock.",
+                  "application": "Volunteers reserve a small number of available cups for each upcoming service period and take requests within that period. Early requests cannot consume the whole afternoon’s lending stock."
+                },
+                {
+                  "id": "choice_2684131dc3b8",
+                  "mechanism": "Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need.",
+                  "consequence": "Allocation follows intended use time rather than request time.",
+                  "application": "Volunteers ask guests when they will need a cup and allocate available cups to the earliest stated need. Allocation follows intended use time rather than request time."
+                }
+              ]
+            },
+            {
+              "id": "decision_efc50eefa7f6",
+              "question": "How should a borrowed cup be recorded?",
+              "context": "A lending record can connect a cup’s distinguishing description with the guest’s chosen return time.",
+              "options": [
+                {
+                  "id": "choice_13992b33b0de",
+                  "mechanism": "The volunteer records the cup description and asks the guest to add a return time.",
+                  "consequence": "The guest makes the return commitment in the lending record.",
+                  "application": "The volunteer records the cup description and asks the guest to add a return time. The guest makes the return commitment in the lending record."
+                },
+                {
+                  "id": "choice_5ec6711e11a0",
+                  "mechanism": "The guest enters the cup description and return time, and the volunteer checks the entry before handover.",
+                  "consequence": "The record is completed by the borrower and checked once.",
+                  "application": "The guest enters the cup description and return time, and the volunteer checks the entry before handover. The record is completed by the borrower and checked once."
+                },
+                {
+                  "id": "choice_531edee60d6d",
+                  "mechanism": "The volunteer asks for the return time while handing over the cup and completes both fields afterward.",
+                  "consequence": "The handover conversation supplies the record without a separate writing step for the guest.",
+                  "application": "The volunteer asks for the return time while handing over the cup and completes both fields afterward. The handover conversation supplies the record without a separate writing step for the guest."
+                }
+              ]
+            },
+            {
+              "id": "decision_52c1844753ed",
+              "question": "How should guests learn where to return cups?",
+              "context": "The café can show a return map on the counter and on small cards beside the cups.",
+              "options": [
+                {
+                  "id": "choice_285b88a5ec55",
+                  "mechanism": "Guests look at the counter map before choosing a cup and take a return card if needed.",
+                  "consequence": "The return route is considered before the loan begins.",
+                  "application": "Guests look at the counter map before choosing a cup and take a return card if needed. The return route is considered before the loan begins."
+                },
+                {
+                  "id": "choice_cab83567540d",
+                  "mechanism": "Volunteers give each guest a return card with the cup and point to the same route on the counter map.",
+                  "consequence": "The return explanation accompanies the handover.",
+                  "application": "Volunteers give each guest a return card with the cup and point to the same route on the counter map. The return explanation accompanies the handover."
+                },
+                {
+                  "id": "choice_765cab5e13de",
+                  "mechanism": "Volunteers display the return cards beside the cups and use the counter map to answer questions afterward.",
+                  "consequence": "Guests can learn the route themselves while help remains available.",
+                  "application": "Volunteers display the return cards beside the cups and use the counter map to answer questions afterward. Guests can learn the route themselves while help remains available."
+                }
+              ]
+            },
+            {
+              "id": "decision_9b8cc7fdb0c2",
+              "question": "How should a return point collect used cups?",
+              "context": "A return point has collection crates and space for guests to pause without blocking the serving area.",
+              "options": [
+                {
+                  "id": "choice_5befad5938d4",
+                  "mechanism": "Guests place used cups directly in collection crates while a volunteer checks the crates at intervals.",
+                  "consequence": "Return remains quick even when the volunteer is briefly occupied.",
+                  "application": "Guests place used cups directly in collection crates while a volunteer checks the crates at intervals. Return remains quick even when the volunteer is briefly occupied."
+                },
+                {
+                  "id": "choice_017fe7ef3106",
+                  "mechanism": "A volunteer accepts used cups and places them in collection crates as guests arrive.",
+                  "consequence": "Each returned cup receives an immediate intake check.",
+                  "application": "A volunteer accepts used cups and places them in collection crates as guests arrive. Each returned cup receives an immediate intake check."
+                },
+                {
+                  "id": "choice_c1d9e6be65dc",
+                  "mechanism": "Guests leave used cups on a return ledge, and a volunteer moves them into collection crates in small batches.",
+                  "consequence": "The ledge separates guest handover from crate handling.",
+                  "application": "Guests leave used cups on a return ledge, and a volunteer moves them into collection crates in small batches. The ledge separates guest handover from crate handling."
+                }
+              ]
+            },
+            {
+              "id": "decision_8204e82647ee",
+              "question": "How should returned cups be matched to the lending record?",
+              "context": "Cup descriptions in the lending record are sufficient to match returns without storing personal contact details.",
+              "options": [
+                {
+                  "id": "choice_b51376aae83a",
+                  "mechanism": "Volunteers match each cup description to the lending record before adding the cup to a return crate.",
+                  "consequence": "The outstanding list changes immediately at intake.",
+                  "application": "Volunteers match each cup description to the lending record before adding the cup to a return crate. The outstanding list changes immediately at intake."
+                },
+                {
+                  "id": "choice_db49c38145a9",
+                  "mechanism": "Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record.",
+                  "consequence": "Recording is concentrated into short batches.",
+                  "application": "Volunteers gather a small crate of returns and then match all its cup descriptions to the lending record. Recording is concentrated into short batches."
+                },
+                {
+                  "id": "choice_6cb698e3f12f",
+                  "mechanism": "Guests point out the matching cup description in the lending record, and a volunteer confirms the return.",
+                  "consequence": "Borrowers help locate their entries while volunteers verify them.",
+                  "application": "Guests point out the matching cup description in the lending record, and a volunteer confirms the return. Borrowers help locate their entries while volunteers verify them."
+                }
+              ]
+            },
+            {
+              "id": "decision_117204fcc63a",
+              "question": "How should crates reach the washing station?",
+              "context": "The return point and washing station are connected by a short route, and a transfer list can record crates.",
+              "options": [
+                {
+                  "id": "choice_75aad51db198",
+                  "mechanism": "A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list.",
+                  "consequence": "Transfers follow the buildup of returned cups.",
+                  "application": "A volunteer takes a crate to the washing station whenever the return point marks it ready on the transfer list. Transfers follow the buildup of returned cups."
+                },
+                {
+                  "id": "choice_2f3b8b29496d",
+                  "mechanism": "The washing station requests the next crate through the transfer list when it has room.",
+                  "consequence": "Transfers follow the washing station’s capacity.",
+                  "application": "The washing station requests the next crate through the transfer list when it has room. Transfers follow the washing station’s capacity."
+                },
+                {
+                  "id": "choice_d60a421e0d7d",
+                  "mechanism": "A volunteer moves crates at fixed intervals and updates the transfer list at both stations.",
+                  "consequence": "A predictable round connects return and washing work.",
+                  "application": "A volunteer moves crates at fixed intervals and updates the transfer list at both stations. A predictable round connects return and washing work."
+                }
+              ]
+            },
+            {
+              "id": "decision_418d780a0676",
+              "question": "How should cleaned cups rejoin available stock?",
+              "context": "Cleaned cups are ready for reuse after the café’s normal washing procedure and can be listed as available.",
+              "options": [
+                {
+                  "id": "choice_3fff873077df",
+                  "mechanism": "The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station.",
+                  "consequence": "The lending team can anticipate the incoming supply.",
+                  "application": "The washing volunteer adds cleaned cups to the available-stock list before moving them to the lending station. The lending team can anticipate the incoming supply."
+                },
+                {
+                  "id": "choice_30ca0ed68db0",
+                  "mechanism": "The lending volunteer updates the available-stock list after receiving and counting cleaned cups.",
+                  "consequence": "Availability reflects stock physically present at the station.",
+                  "application": "The lending volunteer updates the available-stock list after receiving and counting cleaned cups. Availability reflects stock physically present at the station."
+                },
+                {
+                  "id": "choice_770c241d049c",
+                  "mechanism": "The washing and lending volunteers count cleaned cups together during the handover and update one shared list.",
+                  "consequence": "Both stations agree on the stock change at the same moment.",
+                  "application": "The washing and lending volunteers count cleaned cups together during the handover and update one shared list. Both stations agree on the stock change at the same moment."
+                }
+              ]
+            },
+            {
+              "id": "decision_e99487beea19",
+              "question": "How should the team handle cups that have not returned on time?",
+              "context": "The gathering has an announcement board and several return points, but the team does not track guests individually.",
+              "options": [
+                {
+                  "id": "choice_202b1deb81e6",
+                  "mechanism": "The team posts the number of overdue cups on the announcement board and directs guests to the return points.",
+                  "consequence": "A shared reminder can prompt returns without identifying borrowers.",
+                  "application": "The team posts the number of overdue cups on the announcement board and directs guests to the return points. A shared reminder can prompt returns without identifying borrowers."
+                },
+                {
+                  "id": "choice_0ab14f52a5c3",
+                  "mechanism": "Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count.",
+                  "consequence": "The reminder reaches likely return locations before the count is refreshed.",
+                  "application": "Volunteers visit the return points with a reminder sign and then update the announcement board with the remaining overdue count. The reminder reaches likely return locations before the count is refreshed."
+                },
+                {
+                  "id": "choice_8783d29c95dc",
+                  "mechanism": "The team announces a short return period on the board and gathers updates from return points after it ends.",
+                  "consequence": "Guests have a clear shared moment to bring cups back.",
+                  "application": "The team announces a short return period on the board and gathers updates from return points after it ends. Guests have a clear shared moment to bring cups back."
+                }
+              ]
+            },
+            {
+              "id": "decision_92b118e19f92",
+              "question": "How should guests extend a loan during the gathering?",
+              "context": "A guest may need a cup longer than expected, and the lending record has room for an updated return time.",
+              "options": [
+                {
+                  "id": "choice_bf22e8f41389",
+                  "mechanism": "Guests choose a later return time in the lending record and ask a volunteer to confirm it.",
+                  "consequence": "Extensions begin with the guest’s expected need.",
+                  "application": "Guests choose a later return time in the lending record and ask a volunteer to confirm it. Extensions begin with the guest’s expected need."
+                },
+                {
+                  "id": "choice_a8f4fea64cde",
+                  "mechanism": "Volunteers offer available later return times from the lending record and let guests choose one.",
+                  "consequence": "Extensions reflect the team’s view of future cup demand.",
+                  "application": "Volunteers offer available later return times from the lending record and let guests choose one. Extensions reflect the team’s view of future cup demand."
+                },
+                {
+                  "id": "choice_f8f574fb6640",
+                  "mechanism": "Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time.",
+                  "consequence": "A brief conversation turns the guest’s estimate into a shared commitment.",
+                  "application": "Guests tell a volunteer how much longer they need the cup, and the volunteer records the resulting return time. A brief conversation turns the guest’s estimate into a shared commitment."
+                }
+              ]
+            },
+            {
+              "id": "decision_247b053e1c19",
+              "question": "How should volunteers divide intake and recording work?",
+              "context": "Two volunteers are available at busy return points, and either can handle intake or the lending record.",
+              "options": [
+                {
+                  "id": "choice_4b5083d843d0",
+                  "mechanism": "One volunteer handles cup intake while the other updates the lending record throughout a short block.",
+                  "consequence": "Each person can concentrate on one part of the return process.",
+                  "application": "One volunteer handles cup intake while the other updates the lending record throughout a short block. Each person can concentrate on one part of the return process."
+                },
+                {
+                  "id": "choice_e36aab7a862d",
+                  "mechanism": "The volunteers alternate intake and record duties after each small group of returns.",
+                  "consequence": "Both share the two tasks while keeping a clear current assignment.",
+                  "application": "The volunteers alternate intake and record duties after each small group of returns. Both share the two tasks while keeping a clear current assignment."
+                },
+                {
+                  "id": "choice_f8aee896b6b4",
+                  "mechanism": "Each volunteer handles intake and the lending record for a separate stream of guests.",
+                  "consequence": "A return stays with one person from handover through recording.",
+                  "application": "Each volunteer handles intake and the lending record for a separate stream of guests. A return stays with one person from handover through recording."
+                }
+              ]
+            },
+            {
+              "id": "decision_42560af6a041",
+              "question": "How should the café explain a temporary cup shortage?",
+              "context": "A stock notice and the request list are visible near the lending station.",
+              "options": [
+                {
+                  "id": "choice_226bc3ef9520",
+                  "mechanism": "Volunteers update the stock notice first and then explain the next options to guests on the request list.",
+                  "consequence": "All guests see the shortage before individual arrangements are discussed.",
+                  "application": "Volunteers update the stock notice first and then explain the next options to guests on the request list. All guests see the shortage before individual arrangements are discussed."
+                },
+                {
+                  "id": "choice_2d8ad6a48e91",
+                  "mechanism": "Volunteers speak with guests on the request list first and then put the agreed options on the stock notice.",
+                  "consequence": "The shared message reflects the choices already offered to waiting guests.",
+                  "application": "Volunteers speak with guests on the request list first and then put the agreed options on the stock notice. The shared message reflects the choices already offered to waiting guests."
+                },
+                {
+                  "id": "choice_b3559631e72c",
+                  "mechanism": "One volunteer updates the stock notice while another works through the request list.",
+                  "consequence": "Shared information and individual arrangements proceed together.",
+                  "application": "One volunteer updates the stock notice while another works through the request list. Shared information and individual arrangements proceed together."
+                }
+              ]
+            },
+            {
+              "id": "decision_273822a1bb88",
+              "question": "How should guests offer feedback about the cup loan?",
+              "context": "Guests can leave a short comment at the lending station or at a return point.",
+              "options": [
+                {
+                  "id": "choice_fafb920098b6",
+                  "mechanism": "Volunteers invite a comment at return and send it to the lending station with the next crate update.",
+                  "consequence": "Feedback comes from guests who have completed the loan.",
+                  "application": "Volunteers invite a comment at return and send it to the lending station with the next crate update. Feedback comes from guests who have completed the loan."
+                },
+                {
+                  "id": "choice_5a8384f71323",
+                  "mechanism": "The lending station asks guests what would make return easier and forwards comments to the return points.",
+                  "consequence": "Feedback can improve the process before those loans end.",
+                  "application": "The lending station asks guests what would make return easier and forwards comments to the return points. Feedback can improve the process before those loans end."
+                },
+                {
+                  "id": "choice_10f03e26ebbf",
+                  "mechanism": "Both lending and return stations collect comments on a shared sheet that volunteers review between service blocks.",
+                  "consequence": "Feedback from the beginning and end of loans is considered together.",
+                  "application": "Both lending and return stations collect comments on a shared sheet that volunteers review between service blocks. Feedback from the beginning and end of loans is considered together."
+                }
+              ]
+            },
+            {
+              "id": "decision_ab8895b1bfed",
+              "question": "How should the team prepare a fresh volunteer shift?",
+              "context": "Incoming volunteers can read a short handover note and overlap with the outgoing team.",
+              "options": [
+                {
+                  "id": "choice_575510e36135",
+                  "mechanism": "The outgoing team writes the handover note before the overlap and demonstrates the current work afterward.",
+                  "consequence": "The incoming team can connect a prepared summary with the live process.",
+                  "application": "The outgoing team writes the handover note before the overlap and demonstrates the current work afterward. The incoming team can connect a prepared summary with the live process."
+                },
+                {
+                  "id": "choice_28ba260f621b",
+                  "mechanism": "The incoming team watches the current work during the overlap and writes the handover note with the outgoing team.",
+                  "consequence": "The note records what the new volunteers have just checked.",
+                  "application": "The incoming team watches the current work during the overlap and writes the handover note with the outgoing team. The note records what the new volunteers have just checked."
+                },
+                {
+                  "id": "choice_793245a5d8fd",
+                  "mechanism": "Both teams update the handover note during each transfer of a task in the overlap.",
+                  "consequence": "The record follows the actual transfer of responsibility.",
+                  "application": "Both teams update the handover note during each transfer of a task in the overlap. The record follows the actual transfer of responsibility."
+                }
+              ]
+            },
+            {
+              "id": "decision_99fdd656ca17",
+              "question": "How should spare cups be positioned for the next gathering?",
+              "context": "After counting returns, the team can divide spare cups between the lending station and a nearby reserve shelf.",
+              "options": [
+                {
+                  "id": "choice_aba99ab73fc2",
+                  "mechanism": "The team uses the busiest previous service block to set the lending-station stock and puts the rest on the reserve shelf.",
+                  "consequence": "The starting stock reflects observed peak demand.",
+                  "application": "The team uses the busiest previous service block to set the lending-station stock and puts the rest on the reserve shelf. The starting stock reflects observed peak demand."
+                },
+                {
+                  "id": "choice_5b9208bc4a23",
+                  "mechanism": "The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows.",
+                  "consequence": "The stock near guests follows demand during the event.",
+                  "application": "The team starts with a modest lending-station stock and moves cups from the reserve shelf when the request list grows. The stock near guests follows demand during the event."
+                },
+                {
+                  "id": "choice_93bb032ec9cb",
+                  "mechanism": "The team divides spare cups between the lending station and reserve shelf by the expected length of each service block.",
+                  "consequence": "The initial placement reflects the planned service schedule.",
+                  "application": "The team divides spare cups between the lending station and reserve shelf by the expected length of each service block. The initial placement reflects the planned service schedule."
+                }
+              ]
+            },
+            {
+              "id": "decision_6f2c62255721",
+              "question": "How should the pilot choose its next change?",
+              "context": "The team has lending counts, return times, and guest comments from one gathering.",
+              "options": [
+                {
+                  "id": "choice_a04e33959546",
+                  "mechanism": "The team starts with the slowest return times and checks guest comments before choosing a change.",
+                  "consequence": "The next trial addresses a delay with an explanation from guests.",
+                  "application": "The team starts with the slowest return times and checks guest comments before choosing a change. The next trial addresses a delay with an explanation from guests."
+                },
+                {
+                  "id": "choice_6b4f9b50544f",
+                  "mechanism": "The team starts with the most common guest comment and checks lending counts and return times before choosing a change.",
+                  "consequence": "The next trial addresses a reported difficulty supported by usage records.",
+                  "application": "The team starts with the most common guest comment and checks lending counts and return times before choosing a change. The next trial addresses a reported difficulty supported by usage records."
+                },
+                {
+                  "id": "choice_ce22b50d188a",
+                  "mechanism": "The team proposes one change and compares its likely effect against lending counts, return times, and guest comments.",
+                  "consequence": "The next trial follows a proposal checked against all three records.",
+                  "application": "The team proposes one change and compares its likely effect against lending counts, return times, and guest comments. The next trial follows a proposal checked against all three records."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Take requests to borrow cups from guests as they stand in line for drinks. A volunteer can fill in the cards as they go and take them to the drinks counter and the cup station, keeping both teams informed while guests hold their places. If there are fewer clean cups than requests, find out when each guest expects to use the cup. Serve the soonest need first. Someone who only needs theirs for a later session can get one from the next lot.\n\nDisplay the map of return points on the counter so guests can check it before picking a cup. Keep pocket copies beside the cups too. The volunteer lending a cup should note what makes it recognizable and ask the borrower to enter the time they intend to return it. Letting guests set that time gives them a part in the agreement. Ask there and then what would help them return it, and relay the answers immediately to those staffing the return points so they can act during this round of loans. A borrower who needs an extension can explain how much longer they need, agree on a revised time with a volunteer and have the volunteer record it.\n\nFor a short spell at a busy drop-off, have two volunteers work alongside each other. The first takes cups from guests, looks them over and sets them in a washable crate, at which point guests are free to go. The second looks after the loan register. Once a small crate has filled, that volunteer can match the cups to their descriptions and check them off in one sitting while the first keeps receiving returns.\n\nAn entry on the transfer list signals that a crate is ready for a volunteer to carry to the nearby wash station. This keeps the crates moving at the rate they fill. After washing the cups as usual, the washer should add them to the clean stock tally before taking them over to lending. The lending volunteers can then get ready for the next guests they have cups for. When supplies run low, split the work between someone updating the stock notice and someone reviewing requests with the people waiting. If loans have fallen overdue, carry a reminder sign on a circuit of the drop-off points. Then post the outstanding count on the announcement board. Guests see the reminder somewhere they can return a cup, and volunteers have no need to retain contact information.\n\nAllow a few minutes for the two shifts to work together. As each duty changes hands, both teams should amend the handover note to show who now has it. Once the last returns have been counted, divide the spares between the lending station and the reserve shelf. Base the split on how long the coming periods of service should last and keep the opening period’s supply within reach. For the next improvement, take the most frequent guest comment and check it against lending totals and actual return times. Choose a change that tackles a problem borne out by those records."
+      },
+      {
+        "id": "959d558bac444aca",
+        "problem": {
+          "id": "problem_d062cf0c23f8",
+          "title": "A shared garden with uneven volunteer attendance",
+          "problem": "A small community garden has established beds, safe shared tools, a water supply, and volunteers whose availability varies. Gardening methods are already agreed; the new work is organizing participation, observations, and shared resources. Each decision below covers a distinct coordination need and can be combined with any choices at the other decisions.",
+          "goal": "Keep routine garden work visible and shared without requiring everyone to attend at the same time.",
+          "decisions": [
+            {
+              "id": "decision_c7a5ccd3f1e9",
+              "question": "How should volunteers find a working session they can attend?",
+              "context": "A calendar can display both possible garden sessions and volunteers’ available times.",
+              "options": [
+                {
+                  "id": "choice_3e1eeaa6c4e5",
+                  "mechanism": "Volunteers mark available times before the coordinator places garden sessions on the calendar.",
+                  "consequence": "Sessions follow overlapping availability.",
+                  "application": "Volunteers mark available times before the coordinator places garden sessions on the calendar. Sessions follow overlapping availability."
+                },
+                {
+                  "id": "choice_6113d06e3812",
+                  "mechanism": "The coordinator places possible garden sessions on the calendar before volunteers choose available times.",
+                  "consequence": "A proposed schedule gives volunteers a common starting point.",
+                  "application": "The coordinator places possible garden sessions on the calendar before volunteers choose available times. A proposed schedule gives volunteers a common starting point."
+                },
+                {
+                  "id": "choice_ef5c5af48997",
+                  "mechanism": "Volunteers add garden sessions directly to the calendar and invite others with matching available times.",
+                  "consequence": "Small groups can form without waiting for a complete schedule.",
+                  "application": "Volunteers add garden sessions directly to the calendar and invite others with matching available times. Small groups can form without waiting for a complete schedule."
+                }
+              ]
+            },
+            {
+              "id": "decision_8729fe7d747d",
+              "question": "How should unclaimed routine work be allocated?",
+              "context": "A work board lists routine tasks, their expected effort, and the volunteers who can take them.",
+              "options": [
+                {
+                  "id": "choice_00f2a15112df",
+                  "mechanism": "Volunteers claim tasks from the work board, then the coordinator asks for help with unclaimed work.",
+                  "consequence": "Self-selection handles most allocation before gaps receive attention.",
+                  "application": "Volunteers claim tasks from the work board, then the coordinator asks for help with unclaimed work. Self-selection handles most allocation before gaps receive attention."
+                },
+                {
+                  "id": "choice_515c94e16578",
+                  "mechanism": "The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks.",
+                  "consequence": "A complete initial allocation can be corrected by the people doing the work.",
+                  "application": "The coordinator proposes task assignments on the work board, then volunteers exchange unsuitable tasks. A complete initial allocation can be corrected by the people doing the work."
+                },
+                {
+                  "id": "choice_6d67d9cef663",
+                  "mechanism": "Volunteers rank tasks on the work board, then the coordinator assigns work using those preferences and expected effort.",
+                  "consequence": "Preferences inform a more balanced distribution of work.",
+                  "application": "Volunteers rank tasks on the work board, then the coordinator assigns work using those preferences and expected effort. Preferences inform a more balanced distribution of work."
+                }
+              ]
+            },
+            {
+              "id": "decision_5d23452f7abf",
+              "question": "How should shared tools move between volunteers?",
+              "context": "A tool list can show current users and expected return times beside the storage area.",
+              "options": [
+                {
+                  "id": "choice_4114eab60e99",
+                  "mechanism": "Volunteers write their expected return times on the tool list before taking shared tools.",
+                  "consequence": "Later users can plan around the announced returns.",
+                  "application": "Volunteers write their expected return times on the tool list before taking shared tools. Later users can plan around the announced returns."
+                },
+                {
+                  "id": "choice_eca83556cff2",
+                  "mechanism": "Volunteers request shared tools on the tool list, and current users agree on return times with them.",
+                  "consequence": "Handover times respond to actual waiting users.",
+                  "application": "Volunteers request shared tools on the tool list, and current users agree on return times with them. Handover times respond to actual waiting users."
+                },
+                {
+                  "id": "choice_4e19782a4aeb",
+                  "mechanism": "A session helper sets shared-tool time blocks on the tool list and lets volunteers claim them.",
+                  "consequence": "A common schedule coordinates use before individual handovers occur.",
+                  "application": "A session helper sets shared-tool time blocks on the tool list and lets volunteers claim them. A common schedule coordinates use before individual handovers occur."
+                }
+              ]
+            },
+            {
+              "id": "decision_1ac6dffd7825",
+              "question": "How should watering observations lead to assigned work?",
+              "context": "The agreed watering guidance uses bed observations, and volunteers can leave observations on a board.",
+              "options": [
+                {
+                  "id": "choice_787c4cd12ef8",
+                  "mechanism": "Volunteers inspect beds and post observations before anyone claims watering work from the board.",
+                  "consequence": "Assignments follow a shared account of current need.",
+                  "application": "Volunteers inspect beds and post observations before anyone claims watering work from the board. Assignments follow a shared account of current need."
+                },
+                {
+                  "id": "choice_9e0980a1d99b",
+                  "mechanism": "Volunteers first claim beds on the board and then inspect those beds before following the watering guidance.",
+                  "consequence": "Responsibility for observation and any needed work stays together.",
+                  "application": "Volunteers first claim beds on the board and then inspect those beds before following the watering guidance. Responsibility for observation and any needed work stays together."
+                },
+                {
+                  "id": "choice_5ab0a3339318",
+                  "mechanism": "One volunteer posts bed observations while others claim any resulting watering work from the board.",
+                  "consequence": "Observation and action can proceed with distinct responsibilities.",
+                  "application": "One volunteer posts bed observations while others claim any resulting watering work from the board. Observation and action can proceed with distinct responsibilities."
+                }
+              ]
+            },
+            {
+              "id": "decision_c5430d8600b5",
+              "question": "How should volunteers choose who tends young seedlings?",
+              "context": "Several volunteers know the agreed seedling routine, and a roster can cover short care periods.",
+              "options": [
+                {
+                  "id": "choice_0ac925c0bd7e",
+                  "mechanism": "Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward.",
+                  "consequence": "Most care periods follow volunteered availability.",
+                  "application": "Volunteers choose seedling care periods on the roster, and the coordinator fills any gaps afterward. Most care periods follow volunteered availability."
+                },
+                {
+                  "id": "choice_e51132683b3e",
+                  "mechanism": "The coordinator assigns seedling care periods on the roster, and volunteers swap periods as needed.",
+                  "consequence": "Every period has an initial owner before adjustments.",
+                  "application": "The coordinator assigns seedling care periods on the roster, and volunteers swap periods as needed. Every period has an initial owner before adjustments."
+                },
+                {
+                  "id": "choice_5366b167c55f",
+                  "mechanism": "Pairs of volunteers choose neighboring seedling care periods and enter both names on the roster.",
+                  "consequence": "Each handover has a familiar partner on the next period.",
+                  "application": "Pairs of volunteers choose neighboring seedling care periods and enter both names on the roster. Each handover has a familiar partner on the next period."
+                }
+              ]
+            },
+            {
+              "id": "decision_88c6d406e0c2",
+              "question": "How should an unfamiliar volunteer learn a routine task?",
+              "context": "A task card and an experienced volunteer are available for each routine garden activity.",
+              "options": [
+                {
+                  "id": "choice_7a621bc218fd",
+                  "mechanism": "The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check.",
+                  "consequence": "Practice begins independently with a later correction opportunity.",
+                  "application": "The newcomer reads the task card, tries the activity, and then asks the experienced volunteer to check. Practice begins independently with a later correction opportunity."
+                },
+                {
+                  "id": "choice_b6c54b9b6d01",
+                  "mechanism": "The experienced volunteer demonstrates the activity before the newcomer follows the task card.",
+                  "consequence": "The written instructions are connected to an observed example.",
+                  "application": "The experienced volunteer demonstrates the activity before the newcomer follows the task card. The written instructions are connected to an observed example."
+                },
+                {
+                  "id": "choice_88f7677ed752",
+                  "mechanism": "The newcomer and experienced volunteer follow the task card together for the first attempt.",
+                  "consequence": "Questions can be resolved at the moment each instruction is used.",
+                  "application": "The newcomer and experienced volunteer follow the task card together for the first attempt. Questions can be resolved at the moment each instruction is used."
+                }
+              ]
+            },
+            {
+              "id": "decision_b2aaf226f573",
+              "question": "How should harvest offers be matched to available collectors?",
+              "context": "Harvest quantities can be posted on a board, and neighbors can state when they can collect.",
+              "options": [
+                {
+                  "id": "choice_8b621e1e9a31",
+                  "mechanism": "Garden volunteers post harvest quantities before neighbors choose collection times.",
+                  "consequence": "Collection plans respond to a known available harvest.",
+                  "application": "Garden volunteers post harvest quantities before neighbors choose collection times. Collection plans respond to a known available harvest."
+                },
+                {
+                  "id": "choice_35a3c5bf5734",
+                  "mechanism": "Neighbors state collection times before garden volunteers divide harvest quantities among those times.",
+                  "consequence": "Harvest portions are arranged around actual collection availability.",
+                  "application": "Neighbors state collection times before garden volunteers divide harvest quantities among those times. Harvest portions are arranged around actual collection availability."
+                },
+                {
+                  "id": "choice_a8b279692365",
+                  "mechanism": "Garden volunteers and neighbors agree on quantities and collection times together on the board.",
+                  "consequence": "Each offer is paired immediately with a collection plan.",
+                  "application": "Garden volunteers and neighbors agree on quantities and collection times together on the board. Each offer is paired immediately with a collection plan."
+                }
+              ]
+            },
+            {
+              "id": "decision_061471c74449",
+              "question": "How should ideas for a communal bed be compared?",
+              "context": "Members can submit bed ideas, explain their purposes, and discuss them at a short meeting.",
+              "options": [
+                {
+                  "id": "choice_d4cee2627f81",
+                  "mechanism": "Members submit bed ideas before the meeting and group them by purpose during discussion.",
+                  "consequence": "Shared purposes become visible across different suggestions.",
+                  "application": "Members submit bed ideas before the meeting and group them by purpose during discussion. Shared purposes become visible across different suggestions."
+                },
+                {
+                  "id": "choice_e34b9a973c47",
+                  "mechanism": "Members agree on purposes during the meeting and then submit bed ideas that address them.",
+                  "consequence": "Suggestions respond to criteria chosen together.",
+                  "application": "Members agree on purposes during the meeting and then submit bed ideas that address them. Suggestions respond to criteria chosen together."
+                },
+                {
+                  "id": "choice_497ba0c66024",
+                  "mechanism": "Members bring one bed idea and its purpose to the meeting, then combine compatible proposals.",
+                  "consequence": "A shared plan grows from connections between concrete suggestions.",
+                  "application": "Members bring one bed idea and its purpose to the meeting, then combine compatible proposals. A shared plan grows from connections between concrete suggestions."
+                }
+              ]
+            },
+            {
+              "id": "decision_34dd090aaf76",
+              "question": "How should compost-turning sessions be organized?",
+              "context": "The agreed compost routine permits several possible work periods, and a session needs two volunteers.",
+              "options": [
+                {
+                  "id": "choice_ed4af45e6104",
+                  "mechanism": "Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices.",
+                  "consequence": "Pairs are assembled from existing availability.",
+                  "application": "Volunteers choose compost work periods individually, and the coordinator pairs overlapping choices. Pairs are assembled from existing availability."
+                },
+                {
+                  "id": "choice_9e7cb41a631a",
+                  "mechanism": "Volunteers form pairs first and then choose a compost work period together.",
+                  "consequence": "The session time follows an already agreed partnership.",
+                  "application": "Volunteers form pairs first and then choose a compost work period together. The session time follows an already agreed partnership."
+                },
+                {
+                  "id": "choice_bd7810e13e65",
+                  "mechanism": "The coordinator posts paired compost work periods and invites volunteers to claim either place.",
+                  "consequence": "An explicit two-person structure makes incomplete sessions visible.",
+                  "application": "The coordinator posts paired compost work periods and invites volunteers to claim either place. An explicit two-person structure makes incomplete sessions visible."
+                }
+              ]
+            },
+            {
+              "id": "decision_0837251f1030",
+              "question": "How should garden observations be kept useful?",
+              "context": "A notebook can record observations by bed, by date, or with links between both.",
+              "options": [
+                {
+                  "id": "choice_8bd717d7ed43",
+                  "mechanism": "Volunteers keep a page for each bed and add dated observations to it.",
+                  "consequence": "Changes within a bed are easy to follow.",
+                  "application": "Volunteers keep a page for each bed and add dated observations to it. Changes within a bed are easy to follow."
+                },
+                {
+                  "id": "choice_6d126bbb5f93",
+                  "mechanism": "Volunteers keep a page for each date and list the beds observed that day.",
+                  "consequence": "Conditions across the garden can be compared at one visit.",
+                  "application": "Volunteers keep a page for each date and list the beds observed that day. Conditions across the garden can be compared at one visit."
+                },
+                {
+                  "id": "choice_07dc4bf5635d",
+                  "mechanism": "Volunteers record observations on dated cards and file copies under the relevant beds.",
+                  "consequence": "Both visit-level and bed-level review remain possible.",
+                  "application": "Volunteers record observations on dated cards and file copies under the relevant beds. Both visit-level and bed-level review remain possible."
+                }
+              ]
+            },
+            {
+              "id": "decision_f1b96dbf8d14",
+              "question": "How should path maintenance respond to visitor use?",
+              "context": "Volunteers can note busy garden paths and schedule small maintenance tasks without closing the garden.",
+              "options": [
+                {
+                  "id": "choice_b9be38b199e8",
+                  "mechanism": "Volunteers observe visitor use before choosing path-maintenance times.",
+                  "consequence": "Maintenance can avoid the periods when a path is busiest.",
+                  "application": "Volunteers observe visitor use before choosing path-maintenance times. Maintenance can avoid the periods when a path is busiest."
+                },
+                {
+                  "id": "choice_37a9d613a68a",
+                  "mechanism": "Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins.",
+                  "consequence": "A proposed schedule is checked against visitors’ plans.",
+                  "application": "Volunteers announce path-maintenance times and ask visitors to suggest adjustments before work begins. A proposed schedule is checked against visitors’ plans."
+                },
+                {
+                  "id": "choice_7ad61e399cf3",
+                  "mechanism": "Volunteers maintain one path at a time while directing visitors to another observed route.",
+                  "consequence": "Access continues through a changing available route.",
+                  "application": "Volunteers maintain one path at a time while directing visitors to another observed route. Access continues through a changing available route."
+                }
+              ]
+            },
+            {
+              "id": "decision_d13f8423f8df",
+              "question": "How should shared material requests be combined?",
+              "context": "A materials list can record requested quantities and which garden activity needs them.",
+              "options": [
+                {
+                  "id": "choice_67f4a47b56bb",
+                  "mechanism": "Volunteers list materials by activity, and the coordinator combines matching requests before ordering.",
+                  "consequence": "Activity plans determine the total request.",
+                  "application": "Volunteers list materials by activity, and the coordinator combines matching requests before ordering. Activity plans determine the total request."
+                },
+                {
+                  "id": "choice_d7e8d01b88bb",
+                  "mechanism": "The coordinator posts available material quantities, and volunteers divide them among activities.",
+                  "consequence": "Activity allocations begin from the supply already obtainable.",
+                  "application": "The coordinator posts available material quantities, and volunteers divide them among activities. Activity allocations begin from the supply already obtainable."
+                },
+                {
+                  "id": "choice_d5c97138c134",
+                  "mechanism": "Volunteers jointly review activities and material quantities before adding a combined request to the list.",
+                  "consequence": "Demand and allocation are settled in one discussion.",
+                  "application": "Volunteers jointly review activities and material quantities before adding a combined request to the list. Demand and allocation are settled in one discussion."
+                }
+              ]
+            },
+            {
+              "id": "decision_689c0fe67da1",
+              "question": "How should an unused shared plot receive temporary care?",
+              "context": "A plot may be unattended for a short period, and its usual gardeners can state what help is welcome.",
+              "options": [
+                {
+                  "id": "choice_f860de8d5f6f",
+                  "mechanism": "The usual gardeners list welcome care tasks before other volunteers choose temporary assignments.",
+                  "consequence": "Temporary help follows the gardeners’ stated needs.",
+                  "application": "The usual gardeners list welcome care tasks before other volunteers choose temporary assignments. Temporary help follows the gardeners’ stated needs."
+                },
+                {
+                  "id": "choice_628d34373c2a",
+                  "mechanism": "Other volunteers offer temporary care tasks, and the usual gardeners confirm which offers to accept.",
+                  "consequence": "Available help provides the starting point for an agreed arrangement.",
+                  "application": "Other volunteers offer temporary care tasks, and the usual gardeners confirm which offers to accept. Available help provides the starting point for an agreed arrangement."
+                },
+                {
+                  "id": "choice_fb04edda46aa",
+                  "mechanism": "The usual gardeners and temporary volunteers walk the plot together and record care assignments afterward.",
+                  "consequence": "Assignments follow a shared view of the plot’s condition.",
+                  "application": "The usual gardeners and temporary volunteers walk the plot together and record care assignments afterward. Assignments follow a shared view of the plot’s condition."
+                }
+              ]
+            },
+            {
+              "id": "decision_22b8508b7232",
+              "question": "How should new visitors understand the shared spaces?",
+              "context": "A garden map and a host volunteer can explain shared paths, work areas, and gathering places.",
+              "options": [
+                {
+                  "id": "choice_d097a7704a31",
+                  "mechanism": "Visitors use the garden map first and ask the host about any unclear shared spaces.",
+                  "consequence": "The map supports self-guided orientation with optional help.",
+                  "application": "Visitors use the garden map first and ask the host about any unclear shared spaces. The map supports self-guided orientation with optional help."
+                },
+                {
+                  "id": "choice_a7b267f21d01",
+                  "mechanism": "The host gives a short walk through the shared spaces before handing visitors the garden map.",
+                  "consequence": "The map reinforces places visitors have already seen.",
+                  "application": "The host gives a short walk through the shared spaces before handing visitors the garden map. The map reinforces places visitors have already seen."
+                },
+                {
+                  "id": "choice_ed8037a80d73",
+                  "mechanism": "The host and visitors mark shared spaces on the garden map as they walk together.",
+                  "consequence": "The written guide develops alongside the introduction.",
+                  "application": "The host and visitors mark shared spaces on the garden map as they walk together. The written guide develops alongside the introduction."
+                }
+              ]
+            },
+            {
+              "id": "decision_a1457af06d91",
+              "question": "How should volunteers announce a change in their plans?",
+              "context": "The session calendar and task board can show both attendance and the work affected by an absence.",
+              "options": [
+                {
+                  "id": "choice_0890167b2520",
+                  "mechanism": "Volunteers update their calendar attendance and then mark affected tasks on the board.",
+                  "consequence": "The work change follows the announced absence.",
+                  "application": "Volunteers update their calendar attendance and then mark affected tasks on the board. The work change follows the announced absence."
+                },
+                {
+                  "id": "choice_c39af6bf904c",
+                  "mechanism": "Volunteers arrange cover for affected tasks on the board and then update calendar attendance.",
+                  "consequence": "Responsibility is transferred before the attendance change is finalized.",
+                  "application": "Volunteers arrange cover for affected tasks on the board and then update calendar attendance. Responsibility is transferred before the attendance change is finalized."
+                },
+                {
+                  "id": "choice_8cf1afd3536e",
+                  "mechanism": "Volunteers notify a coordinator who updates attendance and affected tasks together.",
+                  "consequence": "One shared update keeps the two records aligned.",
+                  "application": "Volunteers notify a coordinator who updates attendance and affected tasks together. One shared update keeps the two records aligned."
+                }
+              ]
+            },
+            {
+              "id": "decision_b064e8fe7a29",
+              "question": "How should the garden choose its next seasonal priority?",
+              "context": "The group has observation notes, participation records, and ideas from a closing discussion.",
+              "options": [
+                {
+                  "id": "choice_c3c80e788848",
+                  "mechanism": "Members begin with observation notes and use participation records to choose a feasible priority.",
+                  "consequence": "The next priority addresses a noticed need within available effort.",
+                  "application": "Members begin with observation notes and use participation records to choose a feasible priority. The next priority addresses a noticed need within available effort."
+                },
+                {
+                  "id": "choice_e461aaffefde",
+                  "mechanism": "Members begin with participation records and choose an observed need that volunteers can support.",
+                  "consequence": "The next priority starts from the work capacity the group actually has.",
+                  "application": "Members begin with participation records and choose an observed need that volunteers can support. The next priority starts from the work capacity the group actually has."
+                },
+                {
+                  "id": "choice_eef28e259c03",
+                  "mechanism": "Members propose a seasonal priority during discussion and check it against both sets of records.",
+                  "consequence": "A new idea is tested against conditions and available participation.",
+                  "application": "Members propose a seasonal priority during discussion and check it against both sets of records. A new idea is tested against conditions and available participation."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "The coordinator can get sign-ups going by putting possible garden sessions on the calendar. Volunteers signing up later will see the same choices as the first arrivals, and they can indicate when even a brief visit is possible. For routine work still without an owner, have the coordinator make provisional assignments on the board, allowing for the effort each job will take. People can then trade to find a better fit while keeping every job covered. Anyone who needs to change a visit should correct the calendar and then flag the affected work on the board for others to see.\n\nWalk the beds and share the findings on the board before opening watering jobs for sign-up. Everyone choosing a job can then apply the agreed watering advice to the same observations. File the garden notes by day, using a page for each date and identifying each bed visited with its own observations. That will allow someone to compare beds as they were on the same day. Break seedling care into short shifts and offer them first for volunteers with experience to choose. The coordinator can do the remaining shifts or arrange cover, leaving most people with times of their own choosing.\n\nPost compost turning as a two-person session with two visible spaces for names. Either one is open to any volunteer, and a single name shows others that person still needs company. Someone learning a regular task can start by reading its card and doing the work. They can ask an experienced volunteer to look it over afterward and demonstrate a correction while they still remember the attempt.\n\nKeep requests for tools on a list at the storage area. If a tool is out, whoever has it can agree on a return time with the next volunteer so the latter can plan their work. When several jobs need materials, bring the volunteers together to discuss the work and the amounts each requires. Once they have settled the shares, submit one combined quantity. Gardeners who will briefly be away from a shared plot should leave a list of the care they would like. Others can choose a job knowing they have the regular gardeners’ backing.\n\nFind out from neighbors when they could collect produce, then divide what is ready among those collection times. A host welcoming newcomers can give them the map and let them locate the common paths, work areas and meeting places, answering questions if something is hard to find. Observe when the different paths are in use and reserve quiet periods for small maintenance jobs so visitors have access when traffic is heaviest.\n\nFor the shared bed meeting, have each member offer one idea and explain its purpose. Combine ideas with compatible aims into a single planting plan. When members discuss the season, invite them to propose a priority. Weigh the suggestion against the observations of the beds and the attendance record before choosing, so the priority suits both growing conditions and the time people have been able to contribute."
+      },
+      {
+        "id": "279e747af99ff2c5",
+        "problem": {
+          "id": "problem_da905d277859",
+          "title": "A small museum welcoming weekend visitors",
+          "problem": "A volunteer-run local museum wants to make a weekend visit easier to navigate. It has a modest collection, printed guides, a reception table, flexible volunteer positions, and several rooms that can remain open independently. The decisions concern interpretation and visitor organization, not conservation rules or safety policy.",
+          "goal": "Help visitors find a satisfying route through the museum while keeping reception and volunteers manageable.",
+          "decisions": [
+            {
+              "id": "decision_095faae08d2f",
+              "question": "How should visitors choose a starting room?",
+              "context": "A room map shows several possible starting points, and reception can ask about visitors’ interests.",
+              "options": [
+                {
+                  "id": "choice_1a4b7956f093",
+                  "mechanism": "Reception asks about visitors’ interests before pointing out a starting room on the map.",
+                  "consequence": "The suggested start follows the visitor’s stated curiosity.",
+                  "application": "Reception asks about visitors’ interests before pointing out a starting room on the map. The suggested start follows the visitor’s stated curiosity."
+                },
+                {
+                  "id": "choice_37af0df0a265",
+                  "mechanism": "Reception offers several starting rooms on the map and asks visitors which interests them.",
+                  "consequence": "Concrete choices help visitors express a preference.",
+                  "application": "Reception offers several starting rooms on the map and asks visitors which interests them. Concrete choices help visitors express a preference."
+                },
+                {
+                  "id": "choice_5f80a3ed4546",
+                  "mechanism": "Visitors mark a preferred starting room on the map, and reception offers any useful context.",
+                  "consequence": "Visitors make the initial choice before receiving guidance.",
+                  "application": "Visitors mark a preferred starting room on the map, and reception offers any useful context. Visitors make the initial choice before receiving guidance."
+                }
+              ]
+            },
+            {
+              "id": "decision_3e20cae8aa07",
+              "question": "How should a short guided visit choose its emphasis?",
+              "context": "A guide can cover several themes, and the group can express preferences before the visit starts.",
+              "options": [
+                {
+                  "id": "choice_bafb2a9893d2",
+                  "mechanism": "The guide gathers theme preferences and builds the short visit around the most shared interest.",
+                  "consequence": "The route reflects the particular group.",
+                  "application": "The guide gathers theme preferences and builds the short visit around the most shared interest. The route reflects the particular group."
+                },
+                {
+                  "id": "choice_fe23f8db6837",
+                  "mechanism": "The guide proposes a short visit with one theme and adjusts it after hearing preferences.",
+                  "consequence": "A prepared route provides a starting point for changes.",
+                  "application": "The guide proposes a short visit with one theme and adjusts it after hearing preferences. A prepared route provides a starting point for changes."
+                },
+                {
+                  "id": "choice_9eb53f07dd10",
+                  "mechanism": "The guide offers two themes for the short visit and lets the group choose between them.",
+                  "consequence": "The group makes a clear collective choice within a limited set.",
+                  "application": "The guide offers two themes for the short visit and lets the group choose between them. The group makes a clear collective choice within a limited set."
+                }
+              ]
+            },
+            {
+              "id": "decision_954b40fc1668",
+              "question": "How should written labels connect related objects?",
+              "context": "Related objects are displayed in different places, and their labels can refer to one another.",
+              "options": [
+                {
+                  "id": "choice_090ae7c3d04c",
+                  "mechanism": "Each label names a related object and explains why visitors might look at it next.",
+                  "consequence": "Connections can guide visitors onward from any starting object.",
+                  "application": "Each label names a related object and explains why visitors might look at it next. Connections can guide visitors onward from any starting object."
+                },
+                {
+                  "id": "choice_2370de044274",
+                  "mechanism": "A shared label explains the relationship first and points visitors to the individual objects.",
+                  "consequence": "Visitors encounter the connection before comparing the examples.",
+                  "application": "A shared label explains the relationship first and points visitors to the individual objects. Visitors encounter the connection before comparing the examples."
+                },
+                {
+                  "id": "choice_fe90f8aa88b0",
+                  "mechanism": "Individual labels ask a shared question, and a final label draws together the related objects.",
+                  "consequence": "Visitors compare examples before reading the connecting explanation.",
+                  "application": "Individual labels ask a shared question, and a final label draws together the related objects. Visitors compare examples before reading the connecting explanation."
+                }
+              ]
+            },
+            {
+              "id": "decision_d069333dcdbb",
+              "question": "How should visitors collect questions for a volunteer?",
+              "context": "Question cards are available, and a volunteer can hold short discussion pauses in a room.",
+              "options": [
+                {
+                  "id": "choice_b9d87e0ea62e",
+                  "mechanism": "Visitors write question cards before the discussion pause, and the volunteer groups similar questions.",
+                  "consequence": "The pause can address shared concerns together.",
+                  "application": "Visitors write question cards before the discussion pause, and the volunteer groups similar questions. The pause can address shared concerns together."
+                },
+                {
+                  "id": "choice_29916ac27767",
+                  "mechanism": "The volunteer starts the discussion pause with a question and invites visitors to add question cards.",
+                  "consequence": "An opening exchange helps visitors decide what they want to ask.",
+                  "application": "The volunteer starts the discussion pause with a question and invites visitors to add question cards. An opening exchange helps visitors decide what they want to ask."
+                },
+                {
+                  "id": "choice_83c4db166504",
+                  "mechanism": "Visitors hand question cards to the volunteer during the visit, and the next pause addresses them in arrival order.",
+                  "consequence": "Questions retain a visible sequence without stopping every viewing moment.",
+                  "application": "Visitors hand question cards to the volunteer during the visit, and the next pause addresses them in arrival order. Questions retain a visible sequence without stopping every viewing moment."
+                }
+              ]
+            },
+            {
+              "id": "decision_034dcf8498b0",
+              "question": "How should crowded rooms influence suggested routes?",
+              "context": "Volunteers can see room crowding, and the reception map can show several equally acceptable routes.",
+              "options": [
+                {
+                  "id": "choice_0ce999a436d1",
+                  "mechanism": "Room volunteers report crowding before reception suggests a route to arriving visitors.",
+                  "consequence": "Initial guidance reflects current room use.",
+                  "application": "Room volunteers report crowding before reception suggests a route to arriving visitors. Initial guidance reflects current room use."
+                },
+                {
+                  "id": "choice_69df93ecfe23",
+                  "mechanism": "Reception sends a small group along a route and then asks room volunteers whether the next group should follow it.",
+                  "consequence": "Guidance is adjusted after observing each group’s effect.",
+                  "application": "Reception sends a small group along a route and then asks room volunteers whether the next group should follow it. Guidance is adjusted after observing each group’s effect."
+                },
+                {
+                  "id": "choice_31f7c49c9ef1",
+                  "mechanism": "Room volunteers offer route changes directly to visitors while reception keeps the map available.",
+                  "consequence": "Advice follows people already moving through the museum.",
+                  "application": "Room volunteers offer route changes directly to visitors while reception keeps the map available. Advice follows people already moving through the museum."
+                }
+              ]
+            },
+            {
+              "id": "decision_a52c0a61ba2b",
+              "question": "How should a visitor with little time plan a visit?",
+              "context": "A guide sheet lists room highlights and approximate viewing times without requiring a fixed order.",
+              "options": [
+                {
+                  "id": "choice_dd668de9aa9d",
+                  "mechanism": "Visitors state their available time, and reception selects fitting highlights from the guide sheet.",
+                  "consequence": "The suggested visit begins with the time limit.",
+                  "application": "Visitors state their available time, and reception selects fitting highlights from the guide sheet. The suggested visit begins with the time limit."
+                },
+                {
+                  "id": "choice_3c82c8a65ebb",
+                  "mechanism": "Visitors select highlights from the guide sheet, and reception helps trim them to the available time.",
+                  "consequence": "The suggested visit begins with the visitor’s interests.",
+                  "application": "Visitors select highlights from the guide sheet, and reception helps trim them to the available time. The suggested visit begins with the visitor’s interests."
+                },
+                {
+                  "id": "choice_bbc7abcc5fdb",
+                  "mechanism": "Reception offers several highlight bundles with viewing times, and visitors choose a bundle.",
+                  "consequence": "Time and content can be compared together.",
+                  "application": "Reception offers several highlight bundles with viewing times, and visitors choose a bundle. Time and content can be compared together."
+                }
+              ]
+            },
+            {
+              "id": "decision_ce7fdbc55099",
+              "question": "How should volunteers divide interpretation and reception?",
+              "context": "Two volunteers can answer collection questions or welcome arrivals during a short service period.",
+              "options": [
+                {
+                  "id": "choice_19591accc81b",
+                  "mechanism": "One volunteer handles reception and the other interpretation for the entire service period.",
+                  "consequence": "Each maintains continuity in one role.",
+                  "application": "One volunteer handles reception and the other interpretation for the entire service period. Each maintains continuity in one role."
+                },
+                {
+                  "id": "choice_eacab1ec2d4c",
+                  "mechanism": "The volunteers exchange reception and interpretation roles halfway through the service period.",
+                  "consequence": "Both share the roles while retaining clear assignments.",
+                  "application": "The volunteers exchange reception and interpretation roles halfway through the service period. Both share the roles while retaining clear assignments."
+                },
+                {
+                  "id": "choice_d1fafd5b2fb7",
+                  "mechanism": "Each volunteer welcomes a small group at reception and continues with its interpretation questions.",
+                  "consequence": "Visitors can keep the same contact through the beginning of the visit.",
+                  "application": "Each volunteer welcomes a small group at reception and continues with its interpretation questions. Visitors can keep the same contact through the beginning of the visit."
+                }
+              ]
+            },
+            {
+              "id": "decision_bbe43118a354",
+              "question": "How should visitors encounter a local story?",
+              "context": "The museum has an object, a written local story, and a question inviting visitors’ reflections.",
+              "options": [
+                {
+                  "id": "choice_f28ecb40e402",
+                  "mechanism": "Visitors see the object before reading the story and answering the reflection question.",
+                  "consequence": "The physical example gives the story an initial point of reference.",
+                  "application": "Visitors see the object before reading the story and answering the reflection question. The physical example gives the story an initial point of reference."
+                },
+                {
+                  "id": "choice_5c30b2679a72",
+                  "mechanism": "Visitors read the story before seeing the object and answering the reflection question.",
+                  "consequence": "The narrative provides context for the object.",
+                  "application": "Visitors read the story before seeing the object and answering the reflection question. The narrative provides context for the object."
+                },
+                {
+                  "id": "choice_3be0bc8b2b03",
+                  "mechanism": "Visitors consider the reflection question before exploring the object and story.",
+                  "consequence": "Their own initial response guides what they notice.",
+                  "application": "Visitors consider the reflection question before exploring the object and story. Their own initial response guides what they notice."
+                }
+              ]
+            },
+            {
+              "id": "decision_2435ae99c474",
+              "question": "How should a self-guided activity use a printed prompt?",
+              "context": "Visitors can observe objects and record brief responses on a printed activity sheet.",
+              "options": [
+                {
+                  "id": "choice_91ff90db3391",
+                  "mechanism": "The sheet gives a prompt before each observation and asks for a response afterward.",
+                  "consequence": "The prompt directs attention before visitors look closely.",
+                  "application": "The sheet gives a prompt before each observation and asks for a response afterward. The prompt directs attention before visitors look closely."
+                },
+                {
+                  "id": "choice_b5794d7ae547",
+                  "mechanism": "The sheet asks visitors to observe first, then reveals a prompt for their response.",
+                  "consequence": "Initial noticing is left open before a focused reflection.",
+                  "application": "The sheet asks visitors to observe first, then reveals a prompt for their response. Initial noticing is left open before a focused reflection."
+                },
+                {
+                  "id": "choice_fa6364b164c5",
+                  "mechanism": "The sheet pairs each prompt with a response space and lets visitors choose their own observation order.",
+                  "consequence": "Visitors can organize the activity around their interests.",
+                  "application": "The sheet pairs each prompt with a response space and lets visitors choose their own observation order. Visitors can organize the activity around their interests."
+                }
+              ]
+            },
+            {
+              "id": "decision_896834903e5b",
+              "question": "How should room descriptions be improved?",
+              "context": "Volunteers can record repeated visitor questions and draft revised room descriptions.",
+              "options": [
+                {
+                  "id": "choice_6647258b789f",
+                  "mechanism": "Volunteers collect repeated questions before drafting revised room descriptions.",
+                  "consequence": "The revisions address demonstrated points of confusion.",
+                  "application": "Volunteers collect repeated questions before drafting revised room descriptions. The revisions address demonstrated points of confusion."
+                },
+                {
+                  "id": "choice_843b0a2a67c1",
+                  "mechanism": "Volunteers draft revised room descriptions and then check which visitor questions still recur.",
+                  "consequence": "A proposed improvement is evaluated through later questions.",
+                  "application": "Volunteers draft revised room descriptions and then check which visitor questions still recur. A proposed improvement is evaluated through later questions."
+                },
+                {
+                  "id": "choice_1ff678b09a77",
+                  "mechanism": "Volunteers discuss a room description with visitors while recording their questions and possible revisions.",
+                  "consequence": "The wording is explored directly with its readers.",
+                  "application": "Volunteers discuss a room description with visitors while recording their questions and possible revisions. The wording is explored directly with its readers."
+                }
+              ]
+            },
+            {
+              "id": "decision_e574ca310618",
+              "question": "How should a returning visitor find something different?",
+              "context": "Reception knows the visitor’s previous rooms and has a list of objects connected to those rooms.",
+              "options": [
+                {
+                  "id": "choice_96a90b594501",
+                  "mechanism": "Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere.",
+                  "consequence": "A familiar interest provides a bridge to a new area.",
+                  "application": "Reception asks which previous room the visitor enjoyed and suggests a connected object elsewhere. A familiar interest provides a bridge to a new area."
+                },
+                {
+                  "id": "choice_f474521bb708",
+                  "mechanism": "Reception offers an unfamiliar object and explains its connection to a room the visitor saw before.",
+                  "consequence": "A new destination is made approachable through a known connection.",
+                  "application": "Reception offers an unfamiliar object and explains its connection to a room the visitor saw before. A new destination is made approachable through a known connection."
+                },
+                {
+                  "id": "choice_c1f239aa9bac",
+                  "mechanism": "Reception shows several connections from previous rooms and lets the visitor choose a new object.",
+                  "consequence": "The visitor selects which link to follow.",
+                  "application": "Reception shows several connections from previous rooms and lets the visitor choose a new object. The visitor selects which link to follow."
+                }
+              ]
+            },
+            {
+              "id": "decision_47bd37ecde77",
+              "question": "How should a short closing reminder reach visitors?",
+              "context": "Volunteers can give a closing reminder in rooms, and reception can display the remaining visiting time.",
+              "options": [
+                {
+                  "id": "choice_af14235a5062",
+                  "mechanism": "Reception displays the remaining time before volunteers give room reminders.",
+                  "consequence": "Visitors can notice the time before being approached.",
+                  "application": "Reception displays the remaining time before volunteers give room reminders. Visitors can notice the time before being approached."
+                },
+                {
+                  "id": "choice_f462ff7c2c57",
+                  "mechanism": "Volunteers give room reminders and then reception updates the shared time display.",
+                  "consequence": "The visible message reinforces the spoken reminder.",
+                  "application": "Volunteers give room reminders and then reception updates the shared time display. The visible message reinforces the spoken reminder."
+                },
+                {
+                  "id": "choice_eb15e379b417",
+                  "mechanism": "One volunteer updates the time display while the others give room reminders.",
+                  "consequence": "The shared and local messages change together.",
+                  "application": "One volunteer updates the time display while the others give room reminders. The shared and local messages change together."
+                }
+              ]
+            },
+            {
+              "id": "decision_93f87b72b73f",
+              "question": "How should visitors share a memory linked to an exhibit?",
+              "context": "A memory card can be left beside the exhibit or discussed with a volunteer.",
+              "options": [
+                {
+                  "id": "choice_2eec35beaa4f",
+                  "mechanism": "Visitors write a memory card first and choose whether to discuss it with a volunteer.",
+                  "consequence": "They can decide what to share before a conversation.",
+                  "application": "Visitors write a memory card first and choose whether to discuss it with a volunteer. They can decide what to share before a conversation."
+                },
+                {
+                  "id": "choice_569d05030257",
+                  "mechanism": "Visitors discuss a memory with a volunteer and then choose what to put on a card.",
+                  "consequence": "Conversation can help them shape the written account.",
+                  "application": "Visitors discuss a memory with a volunteer and then choose what to put on a card. Conversation can help them shape the written account."
+                },
+                {
+                  "id": "choice_7391a9a18de5",
+                  "mechanism": "Visitors and a volunteer fill out a memory card together during the conversation.",
+                  "consequence": "The written account develops with immediate clarification.",
+                  "application": "Visitors and a volunteer fill out a memory card together during the conversation. The written account develops with immediate clarification."
+                }
+              ]
+            },
+            {
+              "id": "decision_109bee88f2c1",
+              "question": "How should the museum prepare for a visiting group?",
+              "context": "A group organizer can share interests, and the museum can describe available rooms and volunteer times.",
+              "options": [
+                {
+                  "id": "choice_1e81ae818990",
+                  "mechanism": "The organizer shares interests before the museum proposes rooms and volunteer times.",
+                  "consequence": "The proposed visit begins with the group’s purposes.",
+                  "application": "The organizer shares interests before the museum proposes rooms and volunteer times. The proposed visit begins with the group’s purposes."
+                },
+                {
+                  "id": "choice_8409688b34d2",
+                  "mechanism": "The museum describes rooms and volunteer times before the organizer chooses a focus.",
+                  "consequence": "The organizer plans within visible opportunities.",
+                  "application": "The museum describes rooms and volunteer times before the organizer chooses a focus. The organizer plans within visible opportunities."
+                },
+                {
+                  "id": "choice_f77f2cb46425",
+                  "mechanism": "The organizer and museum compare interests, rooms, and volunteer times in one planning call.",
+                  "consequence": "The visit is assembled through simultaneous negotiation.",
+                  "application": "The organizer and museum compare interests, rooms, and volunteer times in one planning call. The visit is assembled through simultaneous negotiation."
+                }
+              ]
+            },
+            {
+              "id": "decision_afed3418c84e",
+              "question": "How should visitor comments be connected to places?",
+              "context": "Comment cards can identify a room, an object, or a point in the visit.",
+              "options": [
+                {
+                  "id": "choice_092c7234b0ba",
+                  "mechanism": "Visitors choose a room on the comment card and then describe the object or moment involved.",
+                  "consequence": "Comments are first grouped by place.",
+                  "application": "Visitors choose a room on the comment card and then describe the object or moment involved. Comments are first grouped by place."
+                },
+                {
+                  "id": "choice_0ef7cd5f45c4",
+                  "mechanism": "Visitors describe an object or moment, and volunteers add the relevant room to the comment card.",
+                  "consequence": "Visitors can express the experience before classifying it.",
+                  "application": "Visitors describe an object or moment, and volunteers add the relevant room to the comment card. Visitors can express the experience before classifying it."
+                },
+                {
+                  "id": "choice_8c86d8ff8246",
+                  "mechanism": "The comment card shows the visit route, and visitors mark where an object or moment stood out.",
+                  "consequence": "Place and experience are recorded together on a route.",
+                  "application": "The comment card shows the visit route, and visitors mark where an object or moment stood out. Place and experience are recorded together on a route."
+                }
+              ]
+            },
+            {
+              "id": "decision_e1233fe46483",
+              "question": "How should the museum choose a small improvement?",
+              "context": "The team has room counts, visitor comments, and volunteer observations from the weekend.",
+              "options": [
+                {
+                  "id": "choice_007df6c79d50",
+                  "mechanism": "The team starts with the busiest room and uses comments and observations to choose an improvement.",
+                  "consequence": "The change addresses a place with demonstrated pressure.",
+                  "application": "The team starts with the busiest room and uses comments and observations to choose an improvement. The change addresses a place with demonstrated pressure."
+                },
+                {
+                  "id": "choice_088f1dfc655f",
+                  "mechanism": "The team starts with repeated comments and checks room counts and observations before choosing an improvement.",
+                  "consequence": "The change addresses an experience supported by broader records.",
+                  "application": "The team starts with repeated comments and checks room counts and observations before choosing an improvement. The change addresses an experience supported by broader records."
+                },
+                {
+                  "id": "choice_523086ff6b30",
+                  "mechanism": "The team proposes an improvement and asks which counts, comments, and observations would support trying it.",
+                  "consequence": "The proposal is tested against the available evidence.",
+                  "application": "The team proposes an improvement and asks which counts, comments, and observations would support trying it. The proposal is tested against the available evidence."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Arrange a group booking in a single conversation between the organizer and museum staff. Work out what the group would enjoy, which rooms it can visit and when a volunteer can accompany it, allowing both parties to revise the arrangements as they talk. Divide weekend service into short periods with a dedicated reception volunteer and a dedicated interpreter for the whole of each period. Visitors can find someone for directions on arrival, and anyone discussing a work can stay with the volunteer who began the conversation.\n\nAsk a new arrival what they are interested in, then show them a suitable first room on the map. With a repeat visitor, find out which room stood out on their previous visit. Point them toward a related object in a room that will be new to them. If time is tight, let the visitor choose appealing highlights on the guide sheet first. Use the estimated viewing times to help narrow the list around their favorites.\n\nTry a suitable route from the map with a small party. After it has gone through, ask the room volunteers about crowding and decide whether the next party should follow it. Do that again for every group so the suggested routes reflect conditions in the galleries. A guide leading a tour should arrive with a short themed itinerary. Before the group departs, describe it and adapt it to what the visitors say they would most like to linger over.\n\nInvite visitors to compare pieces in different locations by repeating a question on each piece’s label. Save the explanation of the connection for a label at the end, giving people time to form their own ideas. For an object associated with a local story, place the account before the encounter with the object and a question for reflection after it. People can then look for details they have just read about. Design the folded activity sheet for independent visitors so they look closely at the piece first. Unfolding the sheet reveals the writing prompt once they have had a chance to notice details for themselves.\n\nWhen a group pauses to talk, the room volunteer should lead with a question. After people have discussed it, ask them to put any questions the exchange suggested on cards. At a display that brings back memories, allow time to write a recollection on a card and leave it at the exhibit. The writer can choose whether to share it in conversation with a volunteer. For other feedback, include the visitor route on the comment card and let people mark where something held their attention so the team can place their account.\n\nNear closing time, one volunteer should update the time left on the reception display while others give reminders in the rooms. To improve a description, try revised text on display and keep track of questions that recur once it is in place. These point to explanations visitors still need. Bring one modest proposed change to the weekend review. Consider what room attendance, visitor feedback and the volunteers’ firsthand observations each suggest would happen in a trial, and look for agreement across the three before deciding to go ahead."
+      }
+    ],
+    "label": "natural-reworded",
+    "batch_group": "cunmarkedv1b1"
+  },
+  "assignment_sha256": "6cd405a1fcc9bb69a9780c52484a5988455dbdc9f0b427eec42f3eb547d35f03",
+  "empty_case_ids": [],
+  "wrapper_source_sha256": "bd281d50244f4a49e00b92e5dcbdcdb0c2c66fa5166b04bd82fe05ecf1469e7f",
+  "transport_invoked": true
+}

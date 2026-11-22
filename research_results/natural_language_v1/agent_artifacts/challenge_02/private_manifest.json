@@ -1,0 +1,1489 @@
+{
+  "freeze": {
+    "protocol": "natural-agent-transport-v1",
+    "label": "fresh-natural-challenge",
+    "batch_group": "challenge1",
+    "model": {
+      "requested_model": "gpt-6.2-astra",
+      "requested_reasoning_effort": "high",
+      "transport": "fresh isolated tool-enabled agent; tools only read prompts and serialize explicit judgments",
+      "resolved_model_snapshot_available": false,
+      "token_logprobs_available": false,
+      "temperature_and_seed_available": false,
+      "api_finish_reason_available": false,
+      "blinding": "procedural file-access restrictions, not an operating-system access guarantee"
+    },
+    "cases_sha256": "80602b0db57fe65882ca3b8d14198a25ecaaf595aa14e1951bde71932a4f787a",
+    "bindings_sha256": "2246252faef815208ed3c1190c24cc9854b48b72d2c746326be400f12d626aaf",
+    "source_sha256": {
+      "natural_transport.py": "6326c22930837c3ff879c69b8bdcb40b7deef0344ef62b5e0ad9ca455fe9b689",
+      "natural_recovery.py": "6ba3d481714a3c166a18d990593a2991e64a2c2bdba05735878afcb9965bf23c",
+      "recovery_v2.py": "93d0b474d0da5fe2d2282c79b15a12e54206a6cf40d579144f9df941748aad1c",
+      "blinded_recovery.py": "a1eb9435c80f0aeaf4ff99a125cbd494ce0d488c75d7ea5590945b1858a851cc",
+      "semantic_recovery.py": "1393edc10d6f40506f8e0f894071d9d2ded922cd14d555a4c578f239785d6d70",
+      "research_runner.py": "3c58b147582f1bdb8926f117e5c137cef264eea82abc7e28cf42507a54b1502d"
+    },
+    "proposal_requests_sha256": "9a846aef4fcb136a42e52cc613992a3715c737d17be9dbfe9d1827260ce263ed"
+  },
+  "bindings": [
+    {
+      "request_id": "b03f996763833deb8f6b4096",
+      "case": {
+        "id": "nl17",
+        "text": "The host can offer a shift for a volunteer to confirm, or the volunteer can offer one for the host to confirm. We have not chosen either approach.",
+        "expected_status": "abstain",
+        "expected_choices": {},
+        "expected_ambiguous_decisions": [],
+        "notes": "Explicitly unselected possibilities are not adopted choices.",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "b9b32962eefb6da327f128fc",
+      "case": {
+        "id": "nl22",
+        "text": "Our single chosen shift procedure is that the host proposes a slot and the volunteer confirms it with the host. Our same single chosen shift procedure is instead that the volunteer proposes a slot and the host confirms it with the volunteer. Neither statement supersedes the other.",
+        "expected_status": "ambiguous",
+        "expected_choices": {},
+        "expected_ambiguous_decisions": [
+          "shift_proposal"
+        ],
+        "notes": "Conflicting adopted alternatives with no resolved selection.",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "1285c3e7cd4e799fdf8b5a59",
+      "case": {
+        "id": "nl18",
+        "text": "We reject arranging the tools by size and then by use. We also reject arranging them by use and then by size. No arrangement has been adopted.",
+        "expected_status": "abstain",
+        "expected_choices": {},
+        "expected_ambiguous_decisions": [],
+        "notes": "Both routes denied; do not infer the third by elimination.",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "7afe42fddbf8e4ccd5f35c05",
+      "case": {
+        "id": "nl01",
+        "text": "Let the host put a preferred shift to each volunteer and obtain their confirmation. Put the tools into size groups and separate uses inside those groups. Count the kits before they go onto the shelves and enter the total in the log. Gather comments on the proposed layout before trying it once, then record the lessons.",
+        "expected_status": "complete",
+        "expected_choices": {
+          "shift_proposal": "host_offer",
+          "tool_order": "size_then_use",
+          "kit_timing": "before_stocking",
+          "feedback_trial": "feedback_then_trial"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f830f87e6414d508cf461f72",
+      "case": {
+        "id": "nl12",
+        "text": "I adopt collecting comments before trying the setup, and reject trying the setup before collecting comments; we will record the lessons.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "feedback_trial": "feedback_then_trial"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "contrast_pair": "scope",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "26ef9bdc26d297c8093b2aee",
+      "case": {
+        "id": "nl13",
+        "text": "The earlier draft said, \"The host proposes and the volunteer confirms.\" That has been withdrawn. For this plan, the volunteer will send a preferred slot, and the host will confirm it with the volunteer.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "shift_proposal": "volunteer_offer"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "Quoted abandoned route must not compete with the final adopted one.",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "6090859d77787b805d1e9cdf",
+      "case": {
+        "id": "nl02",
+        "text": "Volunteers should suggest when they want to work; the host will confirm each suggestion with its sender. We will make use the outer division of the tool area and size the subdivision. Once the shelves have been stocked, we will count the kits and log the result. We will first try the proposed setup, then invite comments and record them.",
+        "expected_status": "complete",
+        "expected_choices": {
+          "shift_proposal": "volunteer_offer",
+          "tool_order": "use_then_size",
+          "kit_timing": "after_stocking",
+          "feedback_trial": "trial_then_feedback"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "190e3a95f4ab8353c67ae916",
+      "case": {
+        "id": "nl05",
+        "text": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "shift_proposal": "host_offer"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "contrast_pair": "roles",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "b9e51ddaf0e29b4a329f3705",
+      "case": {
+        "id": "nl06",
+        "text": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "shift_proposal": "volunteer_offer"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "contrast_pair": "roles",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0fa6a8d53184cb75a7f4dcec",
+      "case": {
+        "id": "nl10",
+        "text": "First stock the shelves, then count the kits; keep the count in the workshop record.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "kit_timing": "after_stocking"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "contrast_pair": "count_order",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "48649d9db4e4da7ffe51f069",
+      "case": {
+        "id": "nl07",
+        "text": "Arrange the tools by size, then by use within each group.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "tool_order": "size_then_use"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "",
+        "contrast_pair": "grouping_order",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "cae7005a40c82a39ad463c8c",
+      "case": {
+        "id": "nl14",
+        "text": "I reject leaving the tools unlabeled. That objection does not change our plan to keep them together and place independent size and use labels on every tool.",
+        "expected_status": "partial",
+        "expected_choices": {
+          "tool_order": "independent_labels"
+        },
+        "expected_ambiguous_decisions": [],
+        "notes": "Unrelated denial should not veto an adopted mechanism.",
+        "problem": {
+          "id": "workshop_semantics_holdout",
+          "title": "Coordinate a neighborhood repair workshop",
+          "problem": "A neighborhood repair workshop needs agreed volunteer shifts, a usable arrangement of shared tools, a recorded repair-kit count, and an agreed sequence for collecting feedback and testing the proposed setup. All listed alternatives are feasible. Recover what a passage actually commits to; the public possibilities are not evidence of adoption.",
+          "goal": "Prepare a workable repair workshop by choosing how the organizer and volunteers agree on shifts, how tools are arranged, when kits are counted, and how feedback relates to a trial.",
+          "decisions": [
+            {
+              "id": "shift_proposal",
+              "question": "Who proposes a shift and who confirms it?",
+              "context": "The host and volunteer can exchange proposals or compare availability. Agreement requires an explicit confirmation or jointly selected overlap.",
+              "options": [
+                {
+                  "id": "host_offer",
+                  "mechanism": "The host sends a proposed slot to the volunteer; the volunteer confirms it with the host.",
+                  "consequence": "A shift is agreed after the volunteer accepts the host proposal.",
+                  "application": "The host sends the volunteer a preferred slot; the volunteer confirms it with the host."
+                },
+                {
+                  "id": "volunteer_offer",
+                  "mechanism": "The volunteer sends a proposed slot to the host; the host confirms it with the volunteer.",
+                  "consequence": "A shift is agreed after the host accepts the volunteer proposal.",
+                  "application": "The volunteer sends the host a preferred slot; the host confirms it with the volunteer."
+                },
+                {
+                  "id": "joint_overlap",
+                  "mechanism": "The host and volunteer share their available times and jointly select a time in the overlap.",
+                  "consequence": "A shift is agreed without either party issuing a proposal for the other to confirm.",
+                  "application": "The host and volunteer share their availability and jointly choose an overlapping slot."
+                }
+              ]
+            },
+            {
+              "id": "tool_order",
+              "question": "How are tools grouped for retrieval?",
+              "context": "Tools can be grouped first by size then by use, first by use then by size, or given independent size and use labels without nested grouping.",
+              "options": [
+                {
+                  "id": "size_then_use",
+                  "mechanism": "Group tools by size; within each size group, group them by use.",
+                  "consequence": "The outer groups reflect size and inner groups reflect use.",
+                  "application": "Arrange the tools by size, then by use within each group."
+                },
+                {
+                  "id": "use_then_size",
+                  "mechanism": "Group tools by use; within each use group, group them by size.",
+                  "consequence": "The outer groups reflect use and inner groups reflect size.",
+                  "application": "Arrange the tools by use, then by size within each group."
+                },
+                {
+                  "id": "independent_labels",
+                  "mechanism": "Keep tools in a single shared area and label every tool with its size and use independently.",
+                  "consequence": "Both attributes can be read without creating nested groups.",
+                  "application": "Keep the tools together and give each tool independent size and use labels."
+                }
+              ]
+            },
+            {
+              "id": "kit_timing",
+              "question": "When is the single kit count made relative to stocking shelves?",
+              "context": "The same kits can be counted once before stocking, once after stocking, or both before and after to reconcile the movement.",
+              "options": [
+                {
+                  "id": "before_stocking",
+                  "mechanism": "Count the kits once before putting them on the shelves.",
+                  "consequence": "The recorded kit count is obtained before shelf stocking.",
+                  "application": "First count the kits, then stock the shelves; keep the count in the workshop record."
+                },
+                {
+                  "id": "after_stocking",
+                  "mechanism": "Put the kits on the shelves and then count them once.",
+                  "consequence": "The recorded kit count is obtained after shelf stocking.",
+                  "application": "First stock the shelves, then count the kits; keep the count in the workshop record."
+                },
+                {
+                  "id": "reconcile_counts",
+                  "mechanism": "Count kits before stocking and count them again after stocking, comparing the two results.",
+                  "consequence": "A discrepancy can be identified by comparing the two counts.",
+                  "application": "Count the kits before and after stocking the shelves, then compare the two counts."
+                }
+              ]
+            },
+            {
+              "id": "feedback_trial",
+              "question": "How does collecting feedback relate to trying the setup?",
+              "context": "The team can collect comments before one trial, try the setup before collecting comments, or alternate comments and trials over repeated rounds.",
+              "options": [
+                {
+                  "id": "feedback_then_trial",
+                  "mechanism": "Collect comments first, then try the proposed setup once.",
+                  "consequence": "The team receives comments before its trial of the setup.",
+                  "application": "Collect comments, then try the setup, and record what the team learns."
+                },
+                {
+                  "id": "trial_then_feedback",
+                  "mechanism": "Try the proposed setup once, then collect comments.",
+                  "consequence": "The team receives comments after its trial of the setup.",
+                  "application": "Try the setup, then collect comments, and record what the team learns."
+                },
+                {
+                  "id": "repeated_rounds",
+                  "mechanism": "Alternate collecting comments and trying the setup for several rounds.",
+                  "consequence": "The setup develops through repeated feedback and trial cycles.",
+                  "application": "Alternate collecting comments and trying the setup for several rounds, recording what the team learns each time."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
