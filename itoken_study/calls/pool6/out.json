@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Recurring morning noise might mask birdsong at the first stop.",
+          "action": "Try the route a few days beforehand at the scheduled time.",
+          "consequence": "The organizer can hear whether regular noise interferes.",
+          "sign": "do",
+          "quote": "Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "A park may have several entrances.",
+          "action": "Give both an address and a recognizable feature for the starting point.",
+          "consequence": "First-time walkers can find the meeting spot before departure.",
+          "sign": "do",
+          "quote": "Give the meeting point a street address and a recognizable landmark. Newcomers can find the group before it sets off, even in a park with several gates."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "At the beginning, no one has named a bird yet.",
+          "action": "Spend the first minute listening quietly.",
+          "consequence": "Beginners can pick out a sound on their own.",
+          "sign": "do",
+          "quote": "Start with a minute of quiet before anyone names a bird. Beginners get a chance to discover a sound for themselves."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Spoken guidance can mask the song.",
+          "action": "Agree on a raised hand as a silent request to listen.",
+          "consequence": "The group can hear the same phrase together.",
+          "sign": "do",
+          "quote": "A guide who talks over a song can erase the phrase everyone came to hear. Agree on a raised hand for “listen” so the group can catch it together."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "People can hear different ranges of pitch.",
+          "action": "Invite each walker to describe a sound they can hear.",
+          "consequence": "People who hear lower calls can contribute alongside those hearing higher ones.",
+          "sign": "do",
+          "quote": "People hear different pitches, so invite walkers to describe any sound they can pick out. Someone following a low coo can contribute while others are listening for a high trill."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Leaves hide the bird that is singing.",
+          "action": "Describe its direction using a clock position relative to a landmark.",
+          "consequence": "Everyone can orient themselves from the same reference.",
+          "sign": "do",
+          "quote": "A clock-face direction such as “two o'clock from the gate” gives everyone the same reference point when the singer is hidden in leaves."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "A walker heard a call but may not know the species.",
+          "action": "After the call, invite walkers to tap its rhythm on their palms.",
+          "consequence": "They can compare what they heard without identifying the bird.",
+          "sign": "do",
+          "quote": "Let walkers tap out a rhythm on their palms after a call ends. They can compare what they heard even if they don't know a bird's name."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Birds often call back and forth at this stop.",
+          "action": "Wait for the next phrase before moving on.",
+          "consequence": "The group may hear that the calls come from two directions.",
+          "sign": "do",
+          "quote": "At a corner where birds often answer each other, pause for a second phrase. It can reveal that the sound from the hedge is coming from two directions."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Some walkers need to sit during a long stop.",
+          "action": "Hold the longest listening session at a bench.",
+          "consequence": "Those walkers can stay through the discussion.",
+          "sign": "do",
+          "quote": "Choose a stop with a bench for the longest listening spell. Walkers who need a seat can stay for the whole discussion."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "The group can spread out on a narrow trail.",
+          "action": "Have a walker who knows the route bring up the rear.",
+          "consequence": "Anyone who pauses to listen can rejoin the group.",
+          "sign": "do",
+          "quote": "The group may stretch out on a narrow path. Ask someone familiar with the route to walk last so a person who pauses to listen can find their way back to the others."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Walkers need to decide whether the full route suits them.",
+          "action": "State the distance and walking surface in the invitation.",
+          "consequence": "They can make the decision in advance.",
+          "sign": "do",
+          "quote": "Give walkers the distance and surface details in the invitation. They can decide in advance whether the full circuit works for them."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Many people have turned up for the walk.",
+          "action": "Form smaller groups and give each its own guide.",
+          "consequence": "People at the rear can hear the quieter calls too.",
+          "sign": "do",
+          "quote": "Divide a large turnout into small parties with a guide for each. People at the back can then hear the same quiet calls as those up front."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Walkers might want to listen again where they heard a particular song.",
+          "action": "Share a simple map for marking listening locations.",
+          "consequence": "They can find that spot again on another walk.",
+          "sign": "do",
+          "quote": "Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "People nearing a nesting hedge may silence the birds.",
+          "action": "Choose a spot on the path from which to listen at a distance.",
+          "consequence": "The group can hear the birds without having to approach.",
+          "sign": "do",
+          "quote": "Birds calling from a nesting hedge may go quiet as people approach. Pick a listening point on the path so the group can hear them from a distance."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Walkers disagree about which bird made a sound.",
+          "action": "Note the phrase and the alternative identifications.",
+          "consequence": "They can compare that evidence with recordings after the walk.",
+          "sign": "do",
+          "quote": "If a likely identification divides the group, write down the phrase and the competing guesses. Walkers can check the same evidence against recordings afterward."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Rising wind could interrupt the walk partway through.",
+          "action": "Locate a sheltered courtyard beforehand.",
+          "consequence": "The group can carry on where both speech and calls remain audible.",
+          "sign": "do",
+          "quote": "Wind can pick up halfway around the route. Identify a sheltered courtyard in advance so the walk can continue somewhere voices and calls still carry."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "A phone chirp could be confused with a birdcall.",
+          "action": "Keep phones from ringing at listening stops.",
+          "consequence": "Walkers are less likely to mistake a ringtone for another bird.",
+          "sign": "avoid",
+          "quote": "Keep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A child may hear a sound the adults overlook.",
+          "action": "Let a child choose the first sound to listen for at one stop.",
+          "consequence": "The walk follows the child's observation.",
+          "sign": "do",
+          "quote": "Children may notice a sound the adults have already tuned out. Let a child choose one stop's first sound to follow so their observation shapes the walk."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Crossing a busy road requires the group's attention.",
+          "action": "End the listening session before reaching the curb.",
+          "consequence": "Walkers can focus on crossing together.",
+          "sign": "do",
+          "quote": "A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Walkers want to recognize a sound again in the future.",
+          "action": "At the end, let each describe a sound and have the guide match it with a recording or guide entry.",
+          "consequence": "Each walker has a reference to consult again.",
+          "sign": "do",
+          "quote": "Leave time at the finish for each walker to share one sound they want to recognize again. The guide can match each description to a recording or field-guide entry they can revisit."
+        }
+      ]
+    }
+  ]
+}

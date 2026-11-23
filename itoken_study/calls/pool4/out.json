@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Stacks can hide the range of postcard pictures.",
+          "action": "Stand one card from each design upright.",
+          "consequence": "Visitors can see and choose a familiar view.",
+          "sign": "do",
+          "quote": "A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "A writer gets stuck just after the greeting.",
+          "action": "Ask about something they saw on the way to the table.",
+          "consequence": "The question gives them a concrete detail to include.",
+          "sign": "do",
+          "quote": "Someone who stalls after “Dear Nan” might welcome a question like “What did you see on the way here?” It gives them a detail to write about."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "The required postage depends on the destination.",
+          "action": "Ask where the card will go before giving out a stamp.",
+          "consequence": "A card going abroad receives the proper postage.",
+          "sign": "do",
+          "quote": "Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "The writer might use the address area for their message.",
+          "action": "Show an example address on a large demonstration card.",
+          "consequence": "The writer can leave the correct half free.",
+          "sign": "do",
+          "quote": "Put a sample address on an oversized card. People can see which half they need to leave free before their message fills it."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "A visitor in a wheelchair wants to write with friends.",
+          "action": "Keep a place open at the end of the table.",
+          "consequence": "They can pull up and write beside the others.",
+          "sign": "do",
+          "quote": "An empty space at the end of the table lets someone pull up in a wheelchair and write alongside their friends."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A child has a story but cannot yet write the letters.",
+          "action": "Have a volunteer write down what the child dictates.",
+          "consequence": "The card carries the child's own words.",
+          "sign": "do",
+          "quote": "A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "A visitor must check part of the address at home.",
+          "action": "Give them a protective sleeve for the unfinished card.",
+          "consequence": "It can go in their bag without bending.",
+          "sign": "do",
+          "quote": "If a visitor needs to look up a house number at home, give them a sleeve for the unfinished card. It can travel in their bag without getting bent."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Some visitors will come later in the day.",
+          "action": "Set aside several designs for the afternoon.",
+          "consequence": "Latecomers still get a choice of pictures.",
+          "sign": "do",
+          "quote": "Keep a few card designs in reserve for the afternoon so late arrivals still have a choice of pictures."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "A writer wants to record where and when the visit happened.",
+          "action": "Display the town and current date at the writing spots.",
+          "consequence": "Visitors can copy the details without breaking off a conversation.",
+          "sign": "do",
+          "quote": "Print the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Completed cards are waiting for pickup.",
+          "action": "Collect them face down in a shallow slotted box.",
+          "consequence": "Other people cannot see them as they wait.",
+          "sign": "do",
+          "quote": "A shallow box with a slot keeps completed cards face down and out of view while they wait for collection."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Selecting a picture can take time for a family.",
+          "action": "Place the card selection a short distance away from the writing seats.",
+          "consequence": "Someone can write while the family chooses a design.",
+          "sign": "do",
+          "quote": "One person can write while a family debates which picture to send if the card display sits a few steps away from the writing seats."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Printed colors can look different from the original scene.",
+          "action": "Identify the photographer's location on the reverse of each card.",
+          "consequence": "The recipient can recognize where the view was taken.",
+          "sign": "do",
+          "quote": "A blue sky can look quite different once a card is printed. Put the photographer's location on the back so recipients can still identify the view."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Visitors between buses have limited time.",
+          "action": "Display the final collection time.",
+          "consequence": "They can choose whether to leave the card or mail it themselves.",
+          "sign": "do",
+          "quote": "Some visitors will arrive between buses. Posting the last collection time lets them decide whether to leave the card with the volunteers or post it themselves."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Wind can scatter loose postcards outdoors.",
+          "action": "Secure the stock under a wide paperweight.",
+          "consequence": "Visitors can take one card at a time while the rest stay put.",
+          "sign": "do",
+          "quote": "A gust can carry half a dozen postcards across the square. Tuck the outdoor stock under a broad paperweight so people can lift out one card at a time."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A spoken invitation may miss people who use other languages.",
+          "action": "Display a welcome sign in the languages local people commonly read.",
+          "consequence": "Visitors can recognize that they are invited to participate.",
+          "sign": "do",
+          "quote": "Visitors who use different languages may miss a spoken invitation. A welcome sign in the languages commonly read in town helps them see they can join in."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A pen may skip on the glossy postcard surface.",
+          "action": "Try the pens on a real card before opening.",
+          "consequence": "Volunteers can replace a poor pen before it damages a message.",
+          "sign": "do",
+          "quote": "Test the pens on an actual postcard before opening. A pen that skips on the glossy stock can be replaced before it spoils someone's message."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Thin pens can tire a writer with stiff fingers.",
+          "action": "Fit some pens with a broad grip.",
+          "consequence": "The writer can finish a longer message comfortably.",
+          "sign": "do",
+          "quote": "A writer with stiff fingers may find a narrow pen tiring. Slip a wide grip onto a few pens so a longer message is comfortable to finish."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Visitors need to know the cost before taking a seat.",
+          "action": "Label the cost of both the card and stamp by the entrance, including free items.",
+          "consequence": "People know what they can take before they sit.",
+          "sign": "do",
+          "quote": "Mark the price of a card and stamp at the entrance, including either one that's free, so visitors know what they can take before they sit down."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Lines can drift together on the blank side of a card.",
+          "action": "Use a short ruler as a guide and move it down while writing.",
+          "consequence": "The lines stay apart.",
+          "sign": "do",
+          "quote": "A short ruler makes a good line guide on the blank side. Writers can move it down as they go and keep their lines from drifting into each other."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Visitors may finish cards just before closing.",
+          "action": "Assign a volunteer to bring the collection box to the post office at closing.",
+          "consequence": "Someone is responsible for mailing even the last cards.",
+          "sign": "do",
+          "quote": "Name a volunteer to take the collection box to the post office at closing. Cards left in the final few minutes then have someone responsible for getting them into the mail."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "An ensemble that knows the room's equipment in advance can set up faster.",
+          "action": "Post a dated inventory next to the booking form.",
+          "consequence": "Players can decide which equipment they need to bring.",
+          "sign": "do",
+          "quote": "A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Putting away cases and stands can run into the next booking.",
+          "action": "Allow packing time between rehearsal slots.",
+          "consequence": "A slow departure costs the next group less rehearsal time.",
+          "sign": "do",
+          "quote": "Leave a gap between bookings for packing cases and folding stands. A slow pack-up then takes less time out of the next group's rehearsal."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Cello endpins slip on the polished floor.",
+          "action": "Store endpin stops near the chairs.",
+          "consequence": "Cellists can keep their instruments in place while playing.",
+          "sign": "do",
+          "quote": "A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Some musicians arrive after rehearsal starts.",
+          "action": "Include the entry code in the booking message.",
+          "consequence": "Latecomers can let themselves in while the ensemble continues playing.",
+          "sign": "do",
+          "quote": "Some players arrive after everyone else has begun. Giving them the door code in the booking message saves the ensemble from stopping mid-piece to let them in."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Afternoon sunlight shines across the score on the piano.",
+          "action": "Fit a blind to the window admitting the light.",
+          "consequence": "The pianist can read the music with the piano in its usual place.",
+          "sign": "do",
+          "quote": "The afternoon sun falls straight across the piano score. A blind on that window lets the pianist read the page without having to move the instrument."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Musicians use pencils to mark bowings during rehearsal.",
+          "action": "Give every stand a clip or groove for a pencil.",
+          "consequence": "Each player has a pencil within reach.",
+          "sign": "do",
+          "quote": "Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Someone reports a chair with a loose leg.",
+          "action": "Mark the chair and remove it from the rehearsal floor immediately.",
+          "consequence": "The next player avoids sitting on the unstable chair.",
+          "sign": "do",
+          "quote": "Flag a wobbly chair and take it off the floor as soon as someone reports it. Otherwise the next player is likely to discover the loose leg by sitting on it."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Drums can overpower quieter instruments in a small room.",
+          "action": "Provide practice pads for the drum kit.",
+          "consequence": "Players can hear the softer parts as they rehearse together.",
+          "sign": "do",
+          "quote": "A drum kit can drown a flute in a small room. Stock a set of practice pads so mixed groups can hear the quieter parts while they work through a passage."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Players arriving with wheeled cases may find steps at the main entrance.",
+          "action": "Mark the level entrance on the map sent with a booking.",
+          "consequence": "Players can find the accessible door without searching the block.",
+          "sign": "do",
+          "quote": "Show the accessible entrance on the booking map. The front steps can leave a player with a wheeled case searching the block for the level doorway."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Brass musicians need to drain water from their instruments.",
+          "action": "Supply absorbent mats that can be washed.",
+          "consequence": "The next group finds the floor free of water spots.",
+          "sign": "do",
+          "quote": "Brass players need somewhere to empty water from their instruments. Washable absorbent mats keep those spots off the floor for the following group."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A last-minute cancellation may leave too little time to advertise the slot.",
+          "action": "Keep a list of local ensembles that volunteer for short-notice bookings.",
+          "consequence": "Another group can use the canceled rehearsal time.",
+          "sign": "do",
+          "quote": "A rehearsal cancellation sometimes comes too late to advertise. An opt-in list of local groups willing to take short-notice slots would put those empty hours to use."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Loose pages from different arrangements get mixed and take time to sort.",
+          "action": "File spare scores upright in folders marked for each ensemble.",
+          "consequence": "Groups can begin playing without sorting out the pages first.",
+          "sign": "do",
+          "quote": "Store spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Groups may change the seating during their booking.",
+          "action": "Post a photograph of the usual chair arrangement inside the door.",
+          "consequence": "Groups can restore the room after trying another layout.",
+          "sign": "do",
+          "quote": "Photograph the standard chair layout and post it inside the door. Groups can try a different seating arrangement and still put the room back as they found it."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "The room becomes stuffy with a dozen musicians playing.",
+          "action": "Open the windows during the tea break.",
+          "consequence": "Players return to fresher air after the break.",
+          "sign": "do",
+          "quote": "The room gets stuffy once a dozen people are playing. Opening the windows during the tea break gives everyone fresher air when rehearsal resumes."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Large instrument cases on the floor obstruct players coming in late.",
+          "action": "Put shelves for cases against a wall away from the door.",
+          "consequence": "Arriving players have room to reach their seats.",
+          "sign": "do",
+          "quote": "Put case shelves along a wall away from the doorway. Large instrument cases spread across the floor leave very little room for a late arrival to reach a seat."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "The conductor needs to leave time for the final piece.",
+          "action": "Provide a clock the conductor can see from their spot.",
+          "consequence": "The conductor can pace rehearsal without pausing to check a phone.",
+          "sign": "do",
+          "quote": "A clock visible from the conductor's spot makes it easier to leave time for the last piece without breaking off to check a phone."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Musicians often move around and can trip over exposed speaker cables.",
+          "action": "Route each powered speaker cable along a wall beneath a cable cover.",
+          "consequence": "A passing musician is less likely to catch a foot on a lead.",
+          "sign": "do",
+          "quote": "Run each powered speaker's lead along the wall under a cable cover. Players frequently change places, and an exposed lead can catch a foot in passing."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A group may change individual mixer channels during its booking.",
+          "action": "Photograph the normal mixer settings.",
+          "consequence": "The next ensemble can quickly find a starting setup.",
+          "sign": "do",
+          "quote": "A photo of the mixer's usual settings gives the next ensemble a quick starting point after a group has turned individual channels up or down."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Groups planning recordings may want a freshly tuned piano.",
+          "action": "Enter the piano tuner's visit on the shared calendar.",
+          "consequence": "Groups can book a recording shortly after the tuning.",
+          "sign": "do",
+          "quote": "Leave the piano tuner's visit on the shared calendar. Ensembles scheduling a recording can pick a date when the instrument will have just been tuned."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A visitor may feel uncomfortable being recorded.",
+          "action": "Ask visitors about recording before the rehearsal take starts.",
+          "consequence": "Visitors have a chance to voice concerns before recording begins.",
+          "sign": "do",
+          "quote": "Ask visitors before recording a rehearsal. Someone who is uncomfortable being recorded then has time to speak up before a take begins."
+        }
+      ]
+    }
+  ]
+}

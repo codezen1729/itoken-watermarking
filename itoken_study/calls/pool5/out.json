@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "A cloth that fits the top can hang uncomfortably low.",
+          "action": "List how far each cloth hangs over the hall's usual tables.",
+          "consequence": "Borrowers can choose one that leaves guests room at the knees.",
+          "sign": "do",
+          "quote": "A cloth can cover the tabletop and still hang too low over a guest's knees. List the drop for each cloth on the hall's usual tables so borrowers can choose a comfortable fit."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Returned linen has to be washed before the following booking.",
+          "action": "Allow time for drying and folding in the booking calendar.",
+          "consequence": "The next group is offered linen that can actually be ready.",
+          "sign": "do",
+          "quote": "A Saturday return still has to go through the wash. Block out drying and folding time on the booking calendar so Sunday's group is offered only what can be ready."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "The hall and borrower need a quantity to check after dinner.",
+          "action": "Count napkins together at pickup and record the total on the slip.",
+          "consequence": "Both know how many napkins to find.",
+          "sign": "do",
+          "quote": "Count napkins together at pickup and write the number on the loan slip. Both sides then know what quantity to look for at the end of dinner."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Storeroom light makes similar dark colors hard to distinguish.",
+          "action": "Let borrowers examine a fabric swatch in daylight.",
+          "consequence": "They can select their intended color.",
+          "sign": "do",
+          "quote": "Navy and charcoal can look identical in the storeroom. A swatch borrowers can take into daylight helps them pick the color they intended."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "A volunteer may come on foot for a bulky order.",
+          "action": "Include the packed crate count in the collection message.",
+          "consequence": "They can arrange transport if necessary.",
+          "sign": "do",
+          "quote": "A volunteer collecting a large wedding order may arrive on foot. Include the number of packed crates in the pickup note so they can arrange a ride if needed."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Hall linens and a caterer's linens can get mixed in the laundry.",
+          "action": "Put a washable ownership mark in a corner of the hall's cloths.",
+          "consequence": "The caterer can sort the pieces by owner.",
+          "sign": "do",
+          "quote": "A washable hall mark in one corner helps a caterer sort the hall's cloths from their own when both sets turn up in the same laundry load."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Bits of food and utensils can remain inside folded cloths.",
+          "action": "Have the clearing crew shake each cloth over a bin before putting it in the bag.",
+          "consequence": "Only fabric reaches the washing machine.",
+          "sign": "do",
+          "quote": "Crumbs and a forgotten dessert fork can disappear inside a folded cloth. Ask the clearing crew to shake each one over a bin before bagging it so the washer gets fabric alone."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Damp cloths can develop a smell in a sealed sack.",
+          "action": "Provide hanging space for wet cloths during cleanup.",
+          "consequence": "They can air out before going back to the hall.",
+          "sign": "do",
+          "quote": "Wet cloths can sour in a closed sack. Give borrowers a place to hang them during cleanup so they can air out before the return trip."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Candle wax has spilled on a cloth.",
+          "action": "Flag that cloth with a note on its return tag.",
+          "consequence": "Laundry workers can attend to it before hot drying.",
+          "sign": "do",
+          "quote": "If a guest spills candle wax, a note pinned to the return tag tells the laundry team which cloth needs attention before it reaches a hot dryer."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "A hem might tear while guests are at the table.",
+          "action": "Give the event lead a phone number for reporting the tear.",
+          "consequence": "Hall staff can arrange a replacement during use.",
+          "sign": "do",
+          "quote": "Give the event lead a number to call when a hem tears. Staff can arrange a replacement while guests are still using the affected table."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "An embroidered cloth could snag on a rough packing crate.",
+          "action": "Cover the crate interior with a smooth lining.",
+          "consequence": "Threads stay intact while the cloth travels between buildings.",
+          "sign": "do",
+          "quote": "Rough crate edges can catch embroidery. Line the crates with smooth covers so moving a loan between buildings doesn't pull threads loose."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A new volunteer needs to put clean linen in its pickup location.",
+          "action": "Mark return bins with aisle and shelf numbers.",
+          "consequence": "The volunteer can shelve the pieces where the next order will be collected.",
+          "sign": "do",
+          "quote": "Put an aisle and shelf number on each return bin. A new volunteer can then put clean linen away where the next order will be picked."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Attendance may change after the invitations are sent.",
+          "action": "Set a deadline for confirming the final linen count.",
+          "consequence": "Staff still have time to change the order.",
+          "sign": "do",
+          "quote": "A booking for forty guests can grow after invitations go out. Set a date for the borrower to confirm the final quantity while staff still have time to adjust the order."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Used napkins can look like unused extras once bagged.",
+          "action": "Provide a distinct bag for unused spares.",
+          "consequence": "Staff can tell which napkins were untouched when they come back.",
+          "sign": "do",
+          "quote": "A bag of used napkins looks much like one that never left the cupboard. Supply a separate bag for untouched spares so they can be identified on return."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A fold can conceal a stain.",
+          "action": "Spread each tablecloth out in bright light before packing.",
+          "consequence": "The borrower can receive a presentable set.",
+          "sign": "do",
+          "quote": "A stack can look spotless while a mark hides inside a fold. Open each tablecloth under a bright light before packing it so the borrower gets a presentable set."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "The main hall may be locked when a newcomer comes to collect linens.",
+          "action": "Include a photo of the collection entrance in the pickup email.",
+          "consequence": "New borrowers can go directly to the linen room.",
+          "sign": "do",
+          "quote": "Put a picture of the collection door in the pickup email. First-time borrowers can go straight to the linen room even when the main hall is locked."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "An event uses tables of several shapes.",
+          "action": "Group linens for packing by room and table number.",
+          "consequence": "The setup crew can deliver each bundle straight to its table.",
+          "sign": "do",
+          "quote": "When a group's tables have different shapes, pack by room and table number. Its setup crew can take each bundle straight to the right spot."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "An accident could spoil a cloth just before the event.",
+          "action": "Hold a few plain replacement cloths in reserve.",
+          "consequence": "The group can re-cover the affected table before guests arrive.",
+          "sign": "do",
+          "quote": "Reserve a small supply of plain cloths for last-minute mishaps. A group that overturns a jug during setup can cover the table again before guests arrive."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Clean cloths at the bottom of a stack may go unused for months.",
+          "action": "Put newly washed cloths behind stock that was cleaned earlier.",
+          "consequence": "The stock wears more evenly.",
+          "sign": "do",
+          "quote": "Cloths at the bottom of a pile may sit unused for months. Put freshly laundered pieces behind the older clean ones so wear is shared across the stock."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "The hall has checked the loan back in.",
+          "action": "Send the group a receipt for the return.",
+          "consequence": "The group can close its records knowing whether it still needs to find anything.",
+          "sign": "do",
+          "quote": "Send a return receipt after the hall checks in the loan. The group can close its event file knowing whether it still needs to search for a missing piece."
+        }
+      ]
+    }
+  ]
+}

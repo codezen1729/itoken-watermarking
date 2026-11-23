@@ -1,0 +1,292 @@
+{
+  "documents": [
+    {
+      "id": "9a3673e17ec0",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The partner paid the studio back for the cost of framing.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The partner reimbursed the studio for the framing costs."
+        }
+      ]
+    },
+    {
+      "id": "6cce5ecc1be6",
+      "steps": [
+        {
+          "premise": "The usual power supply cuts out.",
+          "action": "The clock uses its battery to move its hands.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "When the power fails, the clock runs its hands on battery power."
+        }
+      ]
+    },
+    {
+      "id": "fcc8f1b41270",
+      "steps": [
+        {
+          "premise": "The applicant has already signed the form.",
+          "action": "The clerk then puts a stamp on the form.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The clerk stamps the form after the applicant signs it."
+        }
+      ]
+    },
+    {
+      "id": "110cb18c1225",
+      "steps": [
+        {
+          "premise": "The latch is engaged.",
+          "action": "The latch does not stop the drawer from sliding open.",
+          "consequence": "unspecified",
+          "sign": "avoid",
+          "quote": "Engaging the latch does not prevent the drawer from sliding open."
+        }
+      ]
+    },
+    {
+      "id": "da2f1e636fb8",
+      "steps": [
+        {
+          "premise": "A jar has a lid with a crack in it.",
+          "action": "The jar is left out of the count.",
+          "consequence": "unspecified",
+          "sign": "avoid",
+          "quote": "The tally excludes jars with cracked lids."
+        }
+      ]
+    },
+    {
+      "id": "83976733e057",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The bakery put a second cashier on duty.",
+          "consequence": "The line at the bakery became shorter.",
+          "sign": "do",
+          "quote": "The bakery shortened the queue by adding a second cashier."
+        }
+      ]
+    },
+    {
+      "id": "2e0e90eb80da",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The north branch lent its spare scanner to the south branch.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The south branch borrowed a spare scanner from the north branch."
+        }
+      ]
+    },
+    {
+      "id": "1d99bc8cbe89",
+      "steps": [
+        {
+          "premise": "Until the final stall closes.",
+          "action": "The lights in the courtyard remain lit.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The courtyard lights stay on until the last stall closes."
+        }
+      ]
+    },
+    {
+      "id": "b333aa2ae83d",
+      "steps": [
+        {
+          "premise": "The water rises above the upper mark.",
+          "action": "The tank alarm goes off.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "A rise in water level past the upper mark triggers the tank alarm."
+        }
+      ]
+    },
+    {
+      "id": "599bcbe11e59",
+      "steps": [
+        {
+          "premise": "The passenger is traveling on a single ticket.",
+          "action": "The fare rule allows the passenger to split that journey into parts.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "Under the fare rule, a passenger may break up a trip made on one ticket."
+        }
+      ]
+    },
+    {
+      "id": "bbf13ce2e7e0",
+      "steps": [
+        {
+          "premise": "The locker rental is renewed.",
+          "action": "The existing code still gives access to the locker.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The same access code carries over when the locker rental is renewed."
+        }
+      ]
+    },
+    {
+      "id": "0e519bcafb27",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The inspector checked the east gauge using the west gauge as a reference.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The inspector used the west gauge to check the east gauge."
+        }
+      ]
+    },
+    {
+      "id": "0b0880223deb",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The brake pads rub against the wheels.",
+          "consequence": "The cart loses speed on the test track.",
+          "sign": "do",
+          "quote": "Friction between the brake pads and the wheels slows the cart on the test track."
+        }
+      ]
+    },
+    {
+      "id": "d8534311f750",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The survey rates the ridge route as more accessible than the canal route.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The survey ranks the ridge route above the canal route for accessibility."
+        }
+      ]
+    },
+    {
+      "id": "41625f69ef8f",
+      "steps": [
+        {
+          "premise": "The delivery receipt lacks a signature.",
+          "action": "The missing signature does not make that receipt invalid.",
+          "consequence": "unspecified",
+          "sign": "avoid",
+          "quote": "A missing signature does not invalidate the delivery receipt."
+        }
+      ]
+    },
+    {
+      "id": "01a78595f4e1",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The separator uses a sieve on the mixture.",
+          "consequence": "The steel beads are separated from the mixture.",
+          "sign": "do",
+          "quote": "The separator removes the steel beads from the mixture with a sieve."
+        }
+      ]
+    },
+    {
+      "id": "b67c11524f61",
+      "steps": [
+        {
+          "premise": "An order contains at least ten whole rolls.",
+          "action": "The order qualifies for the discount.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The discount applies to orders of ten or more whole rolls."
+        }
+      ]
+    },
+    {
+      "id": "8aa67be5e87a",
+      "steps": [
+        {
+          "premise": "It is noon.",
+          "action": "The depot counts the parcels that remain on the platform.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "At midday, the depot tallies the parcels still on the platform."
+        }
+      ]
+    },
+    {
+      "id": "c82dad9882ea",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The museum engaged the guild to assess the value of the bronze figure.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The museum hired the guild to appraise the bronze figure."
+        }
+      ]
+    },
+    {
+      "id": "078870cf708b",
+      "steps": [
+        {
+          "premise": "In the diagram.",
+          "action": "The small gear drives the large gear.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "In the diagram, the large gear receives its drive from the small gear."
+        }
+      ]
+    },
+    {
+      "id": "85e6de8d3a40",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The archive matches the watermark on the photograph with samples of known date.",
+          "consequence": "The archive determines the date of the photograph.",
+          "sign": "do",
+          "quote": "The archive dates the photograph by matching its watermark to dated samples."
+        }
+      ]
+    },
+    {
+      "id": "4694385e125b",
+      "steps": [
+        {
+          "premise": "The team completes both stages within the allowed time.",
+          "action": "The team qualifies.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "A team qualifies if it finishes both stages within the time limit."
+        }
+      ]
+    },
+    {
+      "id": "ec788c5cf063",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The trial showed that the two glazes took different amounts of time to dry.",
+          "consequence": "unspecified",
+          "sign": "do",
+          "quote": "The trial found a difference in drying time between the two glazes."
+        }
+      ]
+    },
+    {
+      "id": "02ac3a324f00",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "The canopy shields the bench from sunlight.",
+          "consequence": "The bench becomes cooler.",
+          "sign": "do",
+          "quote": "The canopy cools the bench by blocking sunlight."
+        }
+      ]
+    }
+  ]
+}

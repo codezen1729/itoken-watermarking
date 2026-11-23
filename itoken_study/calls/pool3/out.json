@@ -1,0 +1,251 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "unspecified",
+          "action": "Use a thin white sheet for the screen.",
+          "consequence": "People in front can see the shadows through the material.",
+          "sign": "do",
+          "quote": "A thin white sheet lets the shadows show through to the audience."
+        },
+        {
+          "premise": "Folds in the screen can distort the silhouettes.",
+          "action": "Stretch the sheet tightly over its frame.",
+          "consequence": "The shadow shapes stay clear.",
+          "sign": "do",
+          "quote": "Pull it taut across the frame so folds don't break up the shapes."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Thin puppet necks buckle when children wave the puppets.",
+          "action": "Reinforce each slender neck with a second strip of card glued behind it.",
+          "consequence": "The puppet stays intact through the performance.",
+          "sign": "do",
+          "quote": "Puppets with slender necks tend to fold when children wave them. Glue a second strip of card behind each neck so the figures last through the show."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Children will be handling figures near the light during the show.",
+          "action": "Before families arrive, test a cool-running LED for a single clear shadow.",
+          "consequence": "Children can work near the lamp and the audience can follow each outline.",
+          "sign": "do",
+          "quote": "Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Some children have trouble gripping a thin puppet stick.",
+          "action": "Provide large loop handles for those children.",
+          "consequence": "They can operate their character themselves.",
+          "sign": "do",
+          "quote": "Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "A child may arrive halfway through the session.",
+          "action": "Set prepared figures beside the uncut card.",
+          "consequence": "Latecomers can take part in a scene before playtime ends.",
+          "sign": "do",
+          "quote": "Offer some ready-cut figures beside the blank card. A child who arrives halfway through can join a scene while there is still time to play."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Head-on puppets can cast a featureless oval shadow.",
+          "action": "Cut the figures in side view.",
+          "consequence": "The audience can identify a character's nose or beak.",
+          "sign": "do",
+          "quote": "A puppet facing straight ahead may look like a plain oval on the sheet. Cut it in profile so the audience can recognize its nose or beak."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "The distance between a puppet and the lamp changes its shadow size.",
+          "action": "Let children experiment by moving one puppet closer to and farther from the lamp.",
+          "consequence": "They learn how to make a small character appear giant.",
+          "sign": "do",
+          "quote": "Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Waiting children can accidentally cast shadows onto the screen.",
+          "action": "Mark the edge of the performance space with bright tape.",
+          "consequence": "Children waiting their turn can stay behind the line and out of the picture.",
+          "sign": "do",
+          "quote": "Mark where the performing space ends with a strip of bright tape. Children waiting for a turn can stay behind the line without casting an unexpected head on the screen."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "A child may prefer to take part offstage.",
+          "action": "Let the child shake a sealed jar of rice to imitate rain.",
+          "consequence": "The scene gets a rain sound and the child has a role.",
+          "sign": "do",
+          "quote": "A child who would rather stay offstage can supply rain by shaking rice in a sealed jar. The scene gains a sound effect and the child gets a part."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Adult shoulders can block the youngest spectators' view.",
+          "action": "Seat young children on cushions at the front.",
+          "consequence": "They can see the entire screen.",
+          "sign": "do",
+          "quote": "Give the youngest audience members cushions on the floor at the front. They can see the whole screen without having to look around adult shoulders."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Young performers may forget the order of a scene and may not read.",
+          "action": "Display a short sequence of pictures behind the screen.",
+          "consequence": "Performers can see what happens next.",
+          "sign": "do",
+          "quote": "Pin up a short picture sequence behind the screen. Young performers who lose their place can spot what comes next without needing to read."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A solo narrator can otherwise speak every line.",
+          "action": "Give the audience a repeated line to say on the appearance of the moon.",
+          "consequence": "Everyone gets to speak in the show.",
+          "sign": "do",
+          "quote": "A single narrator can end up doing all the talking. Give the audience a refrain to call out when the moon appears so everyone gets a line."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "An abrupt change to darkness bothers some children.",
+          "action": "Warn children before the show starts and lower the lights gradually.",
+          "consequence": "Children have time to settle in.",
+          "sign": "do",
+          "quote": "Some children dislike a room going dark all at once. Dim the lights in stages and tell them when the show is about to start so they can settle in."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A wheelchair user and a standing child may perform together.",
+          "action": "Keep one side of the screen reachable at seated height with an open approach.",
+          "consequence": "The seated child can bring a figure into the same scene as their partner.",
+          "sign": "do",
+          "quote": "Leave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Holes must be punched in the figures for their joints.",
+          "action": "Place scrap card beneath each figure before punching.",
+          "consequence": "The holes have clean edges and the tables avoid dents.",
+          "sign": "do",
+          "quote": "Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Children operating figures from behind the sheet miss the audience's perspective.",
+          "action": "Have partners switch positions after each short scene.",
+          "consequence": "Both can see how their puppetry looks from the front.",
+          "sign": "do",
+          "quote": "Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "Sticks in a heap can tangle when a performer reaches for a figure.",
+          "action": "Place each scene's figures in their own shallow tray.",
+          "consequence": "Performers can find the needed puppet without separating tangled sticks.",
+          "sign": "do",
+          "quote": "Keep figures for each scene in a separate shallow tray. A performer reaching for the dragon can find it without untangling a heap of sticks."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Children already know the characters in a familiar story.",
+          "action": "Have each child invent a different ending for that story.",
+          "consequence": "They have more time to perform their new ending.",
+          "sign": "do",
+          "quote": "Invite each child to make up a different ending for a familiar tale. Knowing the characters already leaves more time to act out the new idea."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Children want to demonstrate their puppets after returning home.",
+          "action": "Pack each finished figure in a paper sleeve for the journey.",
+          "consequence": "The limbs reach home intact.",
+          "sign": "do",
+          "quote": "Children often want to show someone at home how their puppets work. Send each figure home in a paper sleeve so its limbs survive the trip."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Children need to see which colors will show on the screen.",
+          "action": "Set colored translucent paper samples next to the silhouettes for children to test against the light.",
+          "consequence": "They can select a color visible in projection.",
+          "sign": "do",
+          "quote": "Set out a small sample of colored translucent paper beside the silhouettes. Children can hold it up to the light and choose a color that actually shows on the screen."
+        }
+      ]
+    }
+  ]
+}

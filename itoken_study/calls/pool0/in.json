@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "The breeze at the gate can feel quite different from the breeze out on the grass. A windsock near the middle lets people pick a launch direction before they unroll a line."
+    },
+    {
+      "id": "s1",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Give the mower crew a few minutes for a line sweep before each cut. Loose kite string is hard to see in the grass and can wind around a mower spindle."
+    },
+    {
+      "id": "s2",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back."
+    },
+    {
+      "id": "s3",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary."
+    },
+    {
+      "id": "s4",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Kite tails snag on the rough top of the assembly table. Sanding it smooth would let people lay out a kite without tearing the fabric."
+    },
+    {
+      "id": "s5",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "A new flyer often needs a second pair of hands for a launch. A volunteer by the entrance on busy afternoons could help people get airborne on their first visit."
+    },
+    {
+      "id": "s6",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Keep a landing strip clear beside the flying area. A flyer bringing down a big kite then has somewhere to walk it in without crossing the launch queue."
+    },
+    {
+      "id": "s7",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Children like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines."
+    },
+    {
+      "id": "s8",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "After rain, the hollow by the gate holds water for days. A short stretch of raised walkway there would keep shoes dry on the way into the field."
+    },
+    {
+      "id": "s9",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "People taking a shortcut across the grass may never notice a line stretched in front of them. A mown path around the edge gives walkers an obvious way through."
+    },
+    {
+      "id": "s10",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Put an address plate on the entrance gate. The field shares a name with the park across town, and a driver collecting a stranded visitor needs the right destination."
+    },
+    {
+      "id": "s11",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "A kite in the big oak is tempting to climb after. Put the groundskeeper's contact details on the tree guard so the owner can arrange to get it back from ground level."
+    },
+    {
+      "id": "s12",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Set aside a small patch of tall grass beyond the flying boundary for insects. It can flower there without hiding holes in the space where people run."
+    },
+    {
+      "id": "s13",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Dog owners coming through the park may have no idea a long tail dragging along the ground is part of someone's kite. Asking them to leash dogs beside the field keeps the tails intact."
+    },
+    {
+      "id": "s14",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "One school outing can fill the whole field. Listing group visits on the noticeboard lets regular flyers choose a quieter time."
+    },
+    {
+      "id": "s15",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Wind often scatters tiny clips during assembly. A shallow lipped tray on the work table keeps the fittings together until the kite is ready."
+    },
+    {
+      "id": "s16",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Keep a current closure notice online as well as at the gate. Families transporting a long kite frame can check before making the trip on a stormy day."
+    },
+    {
+      "id": "s17",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "Two borrowed reels look much alike once people have wound in their lines. Number the loan reels and record each number at checkout so they find their way back to the right shelf."
+    },
+    {
+      "id": "s18",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "The small holes rabbits dig can turn an ankle when someone steps backward. Ask the opening volunteer to flag fresh holes until the grounds crew can fill them."
+    },
+    {
+      "id": "s19",
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "text": "A child who drops a backpack at the edge of the field can lose sight of it when other families arrive. Hooks along the inside of the gate give bags a place that's easy to find again."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop."
+    },
+    {
+      "id": "s1",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Give the meeting point a street address and a recognizable landmark. Newcomers can find the group before it sets off, even in a park with several gates."
+    },
+    {
+      "id": "s2",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Start with a minute of quiet before anyone names a bird. Beginners get a chance to discover a sound for themselves."
+    },
+    {
+      "id": "s3",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "A guide who talks over a song can erase the phrase everyone came to hear. Agree on a raised hand for “listen” so the group can catch it together."
+    },
+    {
+      "id": "s4",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "People hear different pitches, so invite walkers to describe any sound they can pick out. Someone following a low coo can contribute while others are listening for a high trill."
+    },
+    {
+      "id": "s5",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "A clock-face direction such as “two o'clock from the gate” gives everyone the same reference point when the singer is hidden in leaves."
+    },
+    {
+      "id": "s6",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Let walkers tap out a rhythm on their palms after a call ends. They can compare what they heard even if they don't know a bird's name."
+    },
+    {
+      "id": "s7",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "At a corner where birds often answer each other, pause for a second phrase. It can reveal that the sound from the hedge is coming from two directions."
+    },
+    {
+      "id": "s8",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Choose a stop with a bench for the longest listening spell. Walkers who need a seat can stay for the whole discussion."
+    },
+    {
+      "id": "s9",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "The group may stretch out on a narrow path. Ask someone familiar with the route to walk last so a person who pauses to listen can find their way back to the others."
+    },
+    {
+      "id": "s10",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Give walkers the distance and surface details in the invitation. They can decide in advance whether the full circuit works for them."
+    },
+    {
+      "id": "s11",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Divide a large turnout into small parties with a guide for each. People at the back can then hear the same quiet calls as those up front."
+    },
+    {
+      "id": "s12",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again."
+    },
+    {
+      "id": "s13",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Birds calling from a nesting hedge may go quiet as people approach. Pick a listening point on the path so the group can hear them from a distance."
+    },
+    {
+      "id": "s14",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "If a likely identification divides the group, write down the phrase and the competing guesses. Walkers can check the same evidence against recordings afterward."
+    },
+    {
+      "id": "s15",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Wind can pick up halfway around the route. Identify a sheltered courtyard in advance so the walk can continue somewhere voices and calls still carry."
+    },
+    {
+      "id": "s16",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Keep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in."
+    },
+    {
+      "id": "s17",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Children may notice a sound the adults have already tuned out. Let a child choose one stop's first sound to follow so their observation shapes the walk."
+    },
+    {
+      "id": "s18",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together."
+    },
+    {
+      "id": "s19",
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "text": "Leave time at the finish for each walker to share one sound they want to recognize again. The guide can match each description to a recording or field-guide entry they can revisit."
+    }
+  ]
+}

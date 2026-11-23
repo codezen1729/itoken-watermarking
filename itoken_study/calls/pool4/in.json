@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize."
+    },
+    {
+      "id": "s1",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Someone who stalls after “Dear Nan” might welcome a question like “What did you see on the way here?” It gives them a detail to write about."
+    },
+    {
+      "id": "s2",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage."
+    },
+    {
+      "id": "s3",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Put a sample address on an oversized card. People can see which half they need to leave free before their message fills it."
+    },
+    {
+      "id": "s4",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "An empty space at the end of the table lets someone pull up in a wheelchair and write alongside their friends."
+    },
+    {
+      "id": "s5",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card."
+    },
+    {
+      "id": "s6",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "If a visitor needs to look up a house number at home, give them a sleeve for the unfinished card. It can travel in their bag without getting bent."
+    },
+    {
+      "id": "s7",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Keep a few card designs in reserve for the afternoon so late arrivals still have a choice of pictures."
+    },
+    {
+      "id": "s8",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Print the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation."
+    },
+    {
+      "id": "s9",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A shallow box with a slot keeps completed cards face down and out of view while they wait for collection."
+    },
+    {
+      "id": "s10",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "One person can write while a family debates which picture to send if the card display sits a few steps away from the writing seats."
+    },
+    {
+      "id": "s11",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A blue sky can look quite different once a card is printed. Put the photographer's location on the back so recipients can still identify the view."
+    },
+    {
+      "id": "s12",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Some visitors will arrive between buses. Posting the last collection time lets them decide whether to leave the card with the volunteers or post it themselves."
+    },
+    {
+      "id": "s13",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A gust can carry half a dozen postcards across the square. Tuck the outdoor stock under a broad paperweight so people can lift out one card at a time."
+    },
+    {
+      "id": "s14",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Visitors who use different languages may miss a spoken invitation. A welcome sign in the languages commonly read in town helps them see they can join in."
+    },
+    {
+      "id": "s15",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Test the pens on an actual postcard before opening. A pen that skips on the glossy stock can be replaced before it spoils someone's message."
+    },
+    {
+      "id": "s16",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A writer with stiff fingers may find a narrow pen tiring. Slip a wide grip onto a few pens so a longer message is comfortable to finish."
+    },
+    {
+      "id": "s17",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Mark the price of a card and stamp at the entrance, including either one that's free, so visitors know what they can take before they sit down."
+    },
+    {
+      "id": "s18",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "A short ruler makes a good line guide on the blank side. Writers can move it down as they go and keep their lines from drifting into each other."
+    },
+    {
+      "id": "s19",
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "text": "Name a volunteer to take the collection box to the post office at closing. Cards left in the final few minutes then have someone responsible for getting them into the mail."
+    }
+  ]
+}

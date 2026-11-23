@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "A visitor may want to identify a pen by the line it produced.",
+          "action": "Tag each pen with its model and nib size.",
+          "consequence": "The visitor can remember which pen they liked.",
+          "sign": "do",
+          "quote": "Label each pen with its model and nib size. A visitor who likes a particular line can then remember exactly which pen made it."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Paper texture affects how a nib feels.",
+          "action": "Give all visitors the same paper for their initial trials.",
+          "consequence": "They can compare nibs without mistaking coarse paper for a scratchy nib.",
+          "sign": "do",
+          "quote": "Give everyone a strip cut from the same paper for the first comparison. A rougher sheet at one seat won't get mistaken for a scratchier nib."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "A visitor wants a pen for a particular planner.",
+          "action": "Let them test the pen on a page of their own planner too.",
+          "consequence": "They can judge its performance on the paper they use.",
+          "sign": "do",
+          "quote": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "A visitor puts a pen down to look at the marks it made.",
+          "action": "Set the pens in shallow trays with grooves.",
+          "consequence": "The pen stays in place instead of rolling off.",
+          "sign": "do",
+          "quote": "Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Caps on different models open in different ways.",
+          "action": "Indicate next to each pen how its cap comes off.",
+          "consequence": "Even a new user can open it gently.",
+          "sign": "do",
+          "quote": "Some caps pull straight off while others unscrew. Mark the opening motion beside each pen so a first-time user can get it open gently."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A fountain pen writes with just its own weight.",
+          "action": "Show that on scrap paper before passing the pen to a beginner.",
+          "consequence": "The beginner can write with a light touch.",
+          "sign": "do",
+          "quote": "A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "The visitor is comparing several pens.",
+          "action": "Have them write the same familiar wording with each pen.",
+          "consequence": "They can feel how their usual handwriting compares without composing a new line for every pen.",
+          "sign": "do",
+          "quote": "Let each person write a familiar phrase with several pens. They'll know how their usual lettering feels without having to think up a fresh sentence each time."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "A writer may brush their hand over fresh ink.",
+          "action": "Time the sample and swipe it at successive intervals.",
+          "consequence": "The writer can see how long the ink needs to dry.",
+          "sign": "do",
+          "quote": "Set a timer beside a wet ink sample and make a fresh swipe at intervals. A visitor who tends to drag a hand across the page can see how long the ink takes to set."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "An uncovered nib can dry out between turns.",
+          "action": "Have each visitor put the cap back on when they finish.",
+          "consequence": "The next writer receives a pen with a usable nib.",
+          "sign": "do",
+          "quote": "A cap left off while people talk can leave the next visitor with a dry nib. Give the person finishing a turn the job of recapping the pen."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Caps can get mixed up when people put them down together.",
+          "action": "Use matching removable markings on a cap and its barrel.",
+          "consequence": "Volunteers can return each cap to its pen.",
+          "sign": "do",
+          "quote": "Match a removable mark on each cap to one on its barrel. If two caps get laid down together, volunteers can reunite them with the right pens."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A pen is running low and its owner knows how to fill it.",
+          "action": "Ask the owner to top it up at a separate table.",
+          "consequence": "Others can keep using the writing seats.",
+          "sign": "do",
+          "quote": "Have the owner refill a pen at a side table when its ink runs low. The owner knows its filling mechanism, and the writing seats stay open for the other pens."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Ink can drip as visitors pass pens around.",
+          "action": "Cover the trial surface with a mat that washes clean.",
+          "consequence": "Someone can wipe away a drop before it marks the furniture.",
+          "sign": "do",
+          "quote": "Put a washable mat under the tryout area. A drop that escapes while someone passes a pen can be wiped up before it stains the furniture."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A few loops may hide discomfort from writing for longer.",
+          "action": "Make room for visitors to write a paragraph.",
+          "consequence": "They can assess how the grip feels over time.",
+          "sign": "do",
+          "quote": "A couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A left-handed writer prefers the outside position at a shared table.",
+          "action": "Offer them the leftmost seat.",
+          "consequence": "They have room to move their elbow as they write.",
+          "sign": "do",
+          "quote": "Seat a left-handed writer at the left end of a shared table when they prefer it. Their elbow then has room to move through a line."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Several visitors want to try the same pen.",
+          "action": "Provide a sign-up sheet for that pen.",
+          "consequence": "People can try others while keeping their turn in the queue.",
+          "sign": "do",
+          "quote": "Use a sign-up slip for a particularly popular pen. Visitors can try something else and still keep their place for a turn."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "A visitor likes an ink color but may want another pen body.",
+          "action": "Name each pen's ink on its sample card.",
+          "consequence": "The visitor can identify the bottle to look for.",
+          "sign": "do",
+          "quote": "List the ink in each pen on the sample card. Someone admiring the color can find the right bottle even if they prefer a different pen body."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "The borrower wants to feel the weight of a cap on the back of a pen.",
+          "action": "Indicate which owners allow visitors to post the cap.",
+          "consequence": "Visitors can test the added weight on an approved pen.",
+          "sign": "do",
+          "quote": "Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Fine edges can look solid from a distance.",
+          "action": "Place a magnifier near the writing samples.",
+          "consequence": "Visitors can see details at the edges of thin lines.",
+          "sign": "do",
+          "quote": "Offer a hand lens beside the finished samples. A visitor can inspect the edges of a fine line that looks solid at arm's length."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "A pen skips or loses ink.",
+          "action": "Provide a labeled tray for the faulty pen.",
+          "consequence": "Another visitor can choose a working pen while a volunteer checks the fault.",
+          "sign": "do",
+          "quote": "Set out a clearly marked tray for a pen that skips or leaks. The next person can pick a working pen while a volunteer looks into the trouble."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "The session is ending and lenders are reclaiming pens.",
+          "action": "Have lenders sign their initials as they collect their pens.",
+          "consequence": "Organizers can find unclaimed pens while the lenders are still present.",
+          "sign": "do",
+          "quote": "Ask lenders to initial their pens back out at closing. The organizer can spot a pen still waiting in its tray while its owner is nearby."
+        }
+      ]
+    }
+  ]
+}
