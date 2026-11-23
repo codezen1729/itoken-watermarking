@@ -1,0 +1,1014 @@
+{
+  "units": [
+    {
+      "unit": 0,
+      "problem": "How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?",
+      "pool_ids": [
+        [
+          "010111"
+        ],
+        [
+          "000111"
+        ],
+        [
+          "001011"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "010100"
+        ],
+        [
+          "011101"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "101001"
+        ],
+        [
+          "011101"
+        ],
+        [
+          "001101"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "010110"
+        ],
+        [
+          "010100"
+        ],
+        [
+          "011110"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "011101"
+        ]
+      ],
+      "noise": [
+        1.1938665842331246,
+        0.31985663927293745,
+        1.054282431780905,
+        1.7205409094172215,
+        0.622433582643217,
+        -1.46648344901662,
+        -0.9304166889570978,
+        4.067752798542453,
+        0.8243093224762668,
+        -0.6871735114283246,
+        -0.3174914567282205,
+        3.0941683987034927,
+        0.949966367437541,
+        -1.1161061951609497,
+        0.028840932094841926,
+        -0.17763054341559253,
+        0.81766324209909,
+        0.2855072017862411,
+        0.5411437125934793,
+        3.359477883633151
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            0,
+            2,
+            3,
+            7,
+            11,
+            19
+          ],
+          "id": "0b1acfc60c1cf05e",
+          "text": "The breeze at the gate can feel quite different from the breeze out on the grass. A windsock near the middle lets people pick a launch direction before they unroll a line. Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back. Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary.\n\nChildren like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines. A kite in the big oak is tempting to climb after. Put the groundskeeper's contact details on the tree guard so the owner can arrange to get it back from ground level. A child who drops a backpack at the edge of the field can lose sight of it when other families arrive. Hooks along the inside of the gate give bags a place that's easy to find again."
+        },
+        "exact": {
+          "selected": [
+            1,
+            2,
+            7,
+            9,
+            14,
+            15
+          ],
+          "id": "5c054b15cbba9727",
+          "text": "Give the mower crew a few minutes for a line sweep before each cut. Loose kite string is hard to see in the grass and can wind around a mower spindle. Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back. Children like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines.\n\nPeople taking a shortcut across the grass may never notice a line stretched in front of them. A mown path around the edge gives walkers an obvious way through. One school outing can fill the whole field. Listing group visits on the noticeboard lets regular flyers choose a quieter time. Wind often scatters tiny clips during assembly. A shallow lipped tray on the work table keeps the fittings together until the kite is ready."
+        },
+        "tolerant": {
+          "selected": [
+            2,
+            3,
+            9,
+            15,
+            16,
+            18
+          ],
+          "id": "2047b831575f9273",
+          "text": "Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back. Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary. People taking a shortcut across the grass may never notice a line stretched in front of them. A mown path around the edge gives walkers an obvious way through.\n\nWind often scatters tiny clips during assembly. A shallow lipped tray on the work table keeps the fittings together until the kite is ready. Keep a current closure notice online as well as at the gate. Families transporting a long kite frame can check before making the trip on a stormy day. The small holes rabbits dig can turn an ankle when someone steps backward. Ask the opening volunteer to flag fresh holes until the grounds crew can fill them."
+        }
+      }
+    },
+    {
+      "unit": 1,
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "pool_ids": [
+        [
+          "000100"
+        ],
+        [
+          "010101"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "011101"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "011110"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "010001"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "001011"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "010001"
+        ],
+        [
+          "010000"
+        ],
+        [
+          "000001"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "001110"
+        ]
+      ],
+      "noise": [
+        0.4677060068760771,
+        5.881907918912725,
+        1.3721615948508585,
+        2.414493714593924,
+        0.12503900066398577,
+        0.682993791802748,
+        -1.0599613119548763,
+        -0.01794002744693575,
+        1.3495348119375468,
+        1.0936617571319307,
+        0.08988690867920418,
+        2.9266432502011277,
+        -0.7423671072913959,
+        -1.1237416789478074,
+        2.053286300017853,
+        -0.39299023584127896,
+        -0.7779314216851381,
+        0.9720031605273115,
+        0.7419468249781598,
+        0.6887992945281685
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            1,
+            2,
+            3,
+            8,
+            11,
+            14
+          ],
+          "id": "8f1f8b090addc66c",
+          "text": "Leave a gap between bookings for packing cases and folding stands. A slow pack-up then takes less time out of the next group's rehearsal. A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward. Some players arrive after everyone else has begun. Giving them the door code in the booking message saves the ensemble from stopping mid-piece to let them in.\n\nShow the accessible entrance on the booking map. The front steps can leave a player with a wheeled case searching the block for the level doorway. Store spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece. Put case shelves along a wall away from the doorway. Large instrument cases spread across the floor leave very little room for a late arrival to reach a seat."
+        },
+        "exact": {
+          "selected": [
+            0,
+            2,
+            5,
+            11,
+            15,
+            19
+          ],
+          "id": "4737f82f28782cfa",
+          "text": "A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring. A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward. Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach.\n\nStore spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece. A clock visible from the conductor's spot makes it easier to leave time for the last piece without breaking off to check a phone. Ask visitors before recording a rehearsal. Someone who is uncomfortable being recorded then has time to speak up before a take begins."
+        },
+        "tolerant": {
+          "selected": [
+            0,
+            3,
+            5,
+            7,
+            17,
+            18
+          ],
+          "id": "208167d4121b7bbf",
+          "text": "A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring. Some players arrive after everyone else has begun. Giving them the door code in the booking message saves the ensemble from stopping mid-piece to let them in. Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach.\n\nA drum kit can drown a flute in a small room. Stock a set of practice pads so mixed groups can hear the quieter parts while they work through a passage. A photo of the mixer's usual settings gives the next ensemble a quick starting point after a group has turned individual channels up or down. Leave the piano tuner's visit on the shared calendar. Ensembles scheduling a recording can pick a date when the instrument will have just been tuned."
+        }
+      }
+    },
+    {
+      "unit": 2,
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "pool_ids": [
+        [
+          "001010"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "010011"
+        ],
+        [
+          "011110"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "001101"
+        ],
+        [
+          "000100"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "000111"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "000010",
+          "000010"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "010110"
+        ],
+        [
+          "011110"
+        ],
+        [
+          "000001"
+        ],
+        [
+          "011011"
+        ],
+        [
+          "001111"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "000111"
+        ]
+      ],
+      "noise": [
+        -0.14503413867361822,
+        0.3857243231548808,
+        -0.7137625206055785,
+        2.9682655496381067,
+        -0.16689107779911228,
+        -1.1479096858874644,
+        1.1709701263348442,
+        -0.16011772675170294,
+        2.163504968988191,
+        -0.48478284643443476,
+        0.0008108440752116977,
+        0.018445743684539218,
+        -0.840734616882622,
+        0.4772352860851851,
+        1.8431864202313761,
+        0.1798467726362402,
+        4.578222907029964,
+        -0.28437580125852446,
+        0.35205956128086613,
+        1.1387952071221694
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            3,
+            6,
+            8,
+            14,
+            16,
+            19
+          ],
+          "id": "c1f37aa5a1442b58",
+          "text": "Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin. Arrange a delivery time with each shopkeeper. A bundle arriving before the doors open otherwise has to travel around the route a second time. Give readers a phone number for address changes. Someone who moves within the neighborhood can keep receiving a copy, and the old doorstep stops accumulating papers.\n\nA full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one. A holiday street closure can cut a carrier off halfway around the block. Note announced closures on the week's route map so the carrier can enter from the other end. Let households pause a doorstep delivery for a specified week. They can go away without coming back to a pile of old bulletins."
+        },
+        "exact": {
+          "selected": [
+            1,
+            3,
+            5,
+            8,
+            14,
+            16
+          ],
+          "id": "bd775e59a9eaf8a5",
+          "text": "A stack by an outside shop door can soak through in one shower. A covered dispenser keeps the papers readable until someone comes for them. Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin. A volunteer covering an unfamiliar route may miss a shop tucked down an alley. A photograph of its entrance on the route sheet makes the handoff easier to find.\n\nGive readers a phone number for address changes. Someone who moves within the neighborhood can keep receiving a copy, and the old doorstep stops accumulating papers. A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one. A holiday street closure can cut a carrier off halfway around the block. Note announced closures on the week's route map so the carrier can enter from the other end."
+        },
+        "tolerant": {
+          "selected": [
+            3,
+            4,
+            7,
+            9,
+            11,
+            14
+          ],
+          "id": "0e11aff555b74881",
+          "text": "Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin. Lists of events go stale quickly on a crowded counter. Give the issue date a prominent place on the front so readers can pick out this week's edition. Stairs make a crate of several hundred copies awkward to handle. Split it into smaller bundles at the print shop so volunteers can carry one manageable load at a time.\n\nPaper carriers sometimes fall ill on delivery morning. Pair each route with a backup who already knows the stops so that week's issue still goes out. Pick a consistent day for replenishing the racks. Readers who make just one shopping trip a week can then plan to collect a fresh copy. A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one."
+        }
+      }
+    },
+    {
+      "unit": 3,
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "pool_ids": [
+        [
+          "010101",
+          "011010"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "011101"
+        ],
+        [
+          "010100"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "000011"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "000101"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "010001"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "001001"
+        ],
+        [
+          "011001"
+        ],
+        [
+          "001010"
+        ]
+      ],
+      "noise": [
+        -0.4123715650946023,
+        -0.689527279742465,
+        4.73439056005562,
+        1.774958119531596,
+        0.1267362034889994,
+        -1.2368700480830537,
+        0.7032236666554621,
+        -0.3840251289159108,
+        -0.46721076169861603,
+        -1.069828500638068,
+        0.04149938359629897,
+        0.3854294400558574,
+        0.19951128905047702,
+        0.6389005486027246,
+        1.8397653348489509,
+        0.5803165450826554,
+        -0.9025514902663119,
+        0.5290974720525379,
+        -0.0786646568046215,
+        -0.8981455886664732
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            2,
+            3,
+            6,
+            13,
+            14,
+            15
+          ],
+          "id": "c23ba7b820f6b940",
+          "text": "Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow. Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over. Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant.\n\nLeave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner. Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents. Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience."
+        },
+        "exact": {
+          "selected": [
+            3,
+            9,
+            12,
+            13,
+            15,
+            19
+          ],
+          "id": "af79c572819aa26c",
+          "text": "Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over. Give the youngest audience members cushions on the floor at the front. They can see the whole screen without having to look around adult shoulders. Some children dislike a room going dark all at once. Dim the lights in stages and tell them when the show is about to start so they can settle in.\n\nLeave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner. Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience. Set out a small sample of colored translucent paper beside the silhouettes. Children can hold it up to the light and choose a color that actually shows on the screen."
+        },
+        "tolerant": {
+          "selected": [
+            2,
+            3,
+            6,
+            9,
+            14,
+            17
+          ],
+          "id": "d3785e3395dc0ca4",
+          "text": "Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow. Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over. Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant.\n\nGive the youngest audience members cushions on the floor at the front. They can see the whole screen without having to look around adult shoulders. Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents. Invite each child to make up a different ending for a familiar tale. Knowing the characters already leaves more time to act out the new idea."
+        }
+      }
+    },
+    {
+      "unit": 4,
+      "problem": "How can volunteers run a town postcard-writing table where visitors can write and send a card?",
+      "pool_ids": [
+        [
+          "011000"
+        ],
+        [
+          "010000"
+        ],
+        [
+          "001011"
+        ],
+        [
+          "011011"
+        ],
+        [
+          "010100"
+        ],
+        [
+          "001000"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "000101"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "000001"
+        ],
+        [
+          "010000"
+        ],
+        [
+          "011111"
+        ]
+      ],
+      "noise": [
+        0.3071156705064591,
+        0.2756526605096644,
+        0.13602822752030938,
+        -0.6724689129813625,
+        -0.41362786811522706,
+        -0.9835232849183648,
+        -0.26371176415233,
+        1.242926013718914,
+        1.1470816311475238,
+        -0.009363426000652021,
+        2.0438678247809805,
+        -0.4801697032465495,
+        -0.7036372192737363,
+        1.1411585728054108,
+        0.8224904694245471,
+        -1.5526403204131878,
+        1.2058852188987834,
+        -0.31878998668741654,
+        1.7497892410375298,
+        1.4227262223558848
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            7,
+            8,
+            10,
+            16,
+            18,
+            19
+          ],
+          "id": "e13609f81044231b",
+          "text": "Keep a few card designs in reserve for the afternoon so late arrivals still have a choice of pictures. Print the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation. One person can write while a family debates which picture to send if the card display sits a few steps away from the writing seats.\n\nA writer with stiff fingers may find a narrow pen tiring. Slip a wide grip onto a few pens so a longer message is comfortable to finish. A short ruler makes a good line guide on the blank side. Writers can move it down as they go and keep their lines from drifting into each other. Name a volunteer to take the collection box to the post office at closing. Cards left in the final few minutes then have someone responsible for getting them into the mail."
+        },
+        "exact": {
+          "selected": [
+            0,
+            2,
+            5,
+            8,
+            13,
+            15
+          ],
+          "id": "631afa6f0960d47e",
+          "text": "A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize. Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage. A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card.\n\nPrint the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation. A gust can carry half a dozen postcards across the square. Tuck the outdoor stock under a broad paperweight so people can lift out one card at a time. Test the pens on an actual postcard before opening. A pen that skips on the glossy stock can be replaced before it spoils someone's message."
+        },
+        "tolerant": {
+          "selected": [
+            0,
+            2,
+            5,
+            7,
+            18,
+            19
+          ],
+          "id": "37bb240b1d18180f",
+          "text": "A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize. Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage. A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card.\n\nKeep a few card designs in reserve for the afternoon so late arrivals still have a choice of pictures. A short ruler makes a good line guide on the blank side. Writers can move it down as they go and keep their lines from drifting into each other. Name a volunteer to take the collection box to the post office at closing. Cards left in the final few minutes then have someone responsible for getting them into the mail."
+        }
+      }
+    },
+    {
+      "unit": 5,
+      "problem": "How can an event hall lend its table linens to local groups and have them ready for the next booking?",
+      "pool_ids": [
+        [
+          "001000"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "000100"
+        ],
+        [
+          "011001"
+        ],
+        [
+          "001111"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "001100"
+        ],
+        [
+          "001100"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "001101"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "110110"
+        ],
+        [
+          "001111"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "011111"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "001111"
+        ],
+        [
+          "000001"
+        ]
+      ],
+      "noise": [
+        0.4917692019069128,
+        0.6015379397012532,
+        -0.028330060211287002,
+        -0.5884625567369667,
+        0.6011763374147828,
+        0.809151266570915,
+        -0.011789585096272455,
+        0.20727053804870005,
+        -0.4674337937743478,
+        -0.3632695573222352,
+        -0.40976510425448065,
+        0.5307536908501523,
+        1.8714108089424992,
+        -1.0968200592653694,
+        0.9721977769598195,
+        0.627521132869098,
+        0.6459968430333783,
+        -0.14025966552873653,
+        0.29885870230983624,
+        -0.4708388357211163
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            1,
+            5,
+            12,
+            14,
+            15,
+            16
+          ],
+          "id": "2d3773649418f8b8",
+          "text": "A Saturday return still has to go through the wash. Block out drying and folding time on the booking calendar so Sunday's group is offered only what can be ready. A washable hall mark in one corner helps a caterer sort the hall's cloths from their own when both sets turn up in the same laundry load. A booking for forty guests can grow after invitations go out. Set a date for the borrower to confirm the final quantity while staff still have time to adjust the order.\n\nA stack can look spotless while a mark hides inside a fold. Open each tablecloth under a bright light before packing it so the borrower gets a presentable set. Put a picture of the collection door in the pickup email. First-time borrowers can go straight to the linen room even when the main hall is locked. When a group's tables have different shapes, pack by room and table number. Its setup crew can take each bundle straight to the right spot."
+        },
+        "exact": {
+          "selected": [
+            1,
+            4,
+            11,
+            12,
+            13,
+            15
+          ],
+          "id": "2486a0fa2af33944",
+          "text": "A Saturday return still has to go through the wash. Block out drying and folding time on the booking calendar so Sunday's group is offered only what can be ready. A volunteer collecting a large wedding order may arrive on foot. Include the number of packed crates in the pickup note so they can arrange a ride if needed. Put an aisle and shelf number on each return bin. A new volunteer can then put clean linen away where the next order will be picked.\n\nA booking for forty guests can grow after invitations go out. Set a date for the borrower to confirm the final quantity while staff still have time to adjust the order. A bag of used napkins looks much like one that never left the cupboard. Supply a separate bag for untouched spares so they can be identified on return. Put a picture of the collection door in the pickup email. First-time borrowers can go straight to the linen room even when the main hall is locked."
+        },
+        "tolerant": {
+          "selected": [
+            4,
+            6,
+            10,
+            11,
+            16,
+            19
+          ],
+          "id": "350b842c5886a680",
+          "text": "A volunteer collecting a large wedding order may arrive on foot. Include the number of packed crates in the pickup note so they can arrange a ride if needed. Crumbs and a forgotten dessert fork can disappear inside a folded cloth. Ask the clearing crew to shake each one over a bin before bagging it so the washer gets fabric alone. Rough crate edges can catch embroidery. Line the crates with smooth covers so moving a loan between buildings doesn't pull threads loose.\n\nPut an aisle and shelf number on each return bin. A new volunteer can then put clean linen away where the next order will be picked. When a group's tables have different shapes, pack by room and table number. Its setup crew can take each bundle straight to the right spot. Send a return receipt after the hall checks in the loan. The group can close its event file knowing whether it still needs to search for a missing piece."
+        }
+      }
+    },
+    {
+      "unit": 6,
+      "problem": "How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?",
+      "pool_ids": [
+        [
+          "000010"
+        ],
+        [
+          "010111"
+        ],
+        [
+          "000101"
+        ],
+        [
+          "010011"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "011100"
+        ],
+        [
+          "000001"
+        ],
+        [
+          "000100"
+        ],
+        [
+          "001011"
+        ],
+        [
+          "010010"
+        ],
+        [
+          "010011"
+        ],
+        [
+          "011101"
+        ],
+        [
+          "010111"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "010100"
+        ],
+        [
+          "010000"
+        ],
+        [
+          "000001"
+        ],
+        [
+          "001111"
+        ],
+        [
+          "000001"
+        ]
+      ],
+      "noise": [
+        1.6383772571988033,
+        -0.35921777659301685,
+        -0.9310012446473809,
+        -0.8853498717646393,
+        0.15464948157253192,
+        -1.0117607022605037,
+        -0.14911708610199992,
+        1.5602010943109739,
+        0.6790584889159401,
+        0.2430287015529457,
+        0.4404802691350162,
+        -0.5522850298382239,
+        2.0057532907107753,
+        -1.2231479795123807,
+        -0.7028433058837307,
+        -0.5845850672536781,
+        0.8886536958280317,
+        -1.2048588302001748,
+        1.052518377566755,
+        0.6990217159126197
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            0,
+            7,
+            12,
+            16,
+            18,
+            19
+          ],
+          "id": "ac97b310c90ab32b",
+          "text": "Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop. At a corner where birds often answer each other, pause for a second phrase. It can reveal that the sound from the hedge is coming from two directions. Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again.\n\nKeep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in. A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together. Leave time at the finish for each walker to share one sound they want to recognize again. The guide can match each description to a recording or field-guide entry they can revisit."
+        },
+        "exact": {
+          "selected": [
+            0,
+            5,
+            8,
+            9,
+            14,
+            16
+          ],
+          "id": "9929638abfbb84e0",
+          "text": "Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop. A clock-face direction such as “two o'clock from the gate” gives everyone the same reference point when the singer is hidden in leaves. Choose a stop with a bench for the longest listening spell. Walkers who need a seat can stay for the whole discussion.\n\nThe group may stretch out on a narrow path. Ask someone familiar with the route to walk last so a person who pauses to listen can find their way back to the others. If a likely identification divides the group, write down the phrase and the competing guesses. Walkers can check the same evidence against recordings afterward. Keep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in."
+        },
+        "tolerant": {
+          "selected": [
+            3,
+            9,
+            10,
+            11,
+            12,
+            18
+          ],
+          "id": "bc41d8cf53ec9134",
+          "text": "A guide who talks over a song can erase the phrase everyone came to hear. Agree on a raised hand for “listen” so the group can catch it together. The group may stretch out on a narrow path. Ask someone familiar with the route to walk last so a person who pauses to listen can find their way back to the others. Give walkers the distance and surface details in the invitation. They can decide in advance whether the full circuit works for them.\n\nDivide a large turnout into small parties with a guide for each. People at the back can then hear the same quiet calls as those up front. Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again. A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together."
+        }
+      }
+    },
+    {
+      "unit": 7,
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "pool_ids": [
+        [
+          "011010"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "000110"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "011110"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "001000"
+        ],
+        [
+          "001110"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "000000"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "001010"
+        ],
+        [
+          "011010"
+        ],
+        [
+          "011000"
+        ],
+        [
+          "000010"
+        ],
+        [
+          "010000"
+        ]
+      ],
+      "noise": [
+        -0.643963812342109,
+        0.0721562573780745,
+        2.4398991639406202,
+        2.5343278676527374,
+        1.042200191510509,
+        0.504566527917661,
+        -0.5685150740059761,
+        0.7949673622156377,
+        -0.8679025087905492,
+        -0.1595640574249927,
+        3.0173800667996384,
+        -1.932892474980719,
+        1.9556110359895715,
+        3.960701209956586,
+        -0.8775359043836558,
+        7.882170918347183,
+        -0.11917640932757892,
+        0.04076247049838712,
+        -0.4951470658048595,
+        5.982081479271186
+      ],
+      "variants": {
+        "control": {
+          "selected": [
+            2,
+            3,
+            10,
+            13,
+            15,
+            19
+          ],
+          "id": "f047f7088c05fbd5",
+          "text": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well. Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor. Have the owner refill a pen at a side table when its ink runs low. The owner knows its filling mechanism, and the writing seats stay open for the other pens.\n\nSeat a left-handed writer at the left end of a shared table when they prefer it. Their elbow then has room to move through a line. List the ink in each pen on the sample card. Someone admiring the color can find the right bottle even if they prefer a different pen body. Ask lenders to initial their pens back out at closing. The organizer can spot a pen still waiting in its tray while its owner is nearby."
+        },
+        "exact": {
+          "selected": [
+            2,
+            3,
+            5,
+            8,
+            12,
+            16
+          ],
+          "id": "0c144cbf57971bb7",
+          "text": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well. Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor. A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib.\n\nA cap left off while people talk can leave the next visitor with a dry nib. Give the person finishing a turn the job of recapping the pen. A couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip. Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate."
+        },
+        "tolerant": {
+          "selected": [
+            2,
+            3,
+            5,
+            12,
+            13,
+            16
+          ],
+          "id": "00277452f469d148",
+          "text": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well. Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor. A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib.\n\nA couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip. Seat a left-handed writer at the left end of a shared table when they prefer it. Their elbow then has room to move through a line. Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate."
+        }
+      }
+    }
+  ]
+}

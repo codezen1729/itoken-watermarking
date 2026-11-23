@@ -6,6 +6,10 @@ The original **controlled symbolic prototype** uses a finite autoregressive refe
 
 Start with the [experiment report](report/report.md), or its [HTML version](report/report.html). The formal assumptions are in [THEORY.md](THEORY.md), and the closest research comparisons are in [RELATED_WORK.md](RELATED_WORK.md).
 
+## Exact catalog-free iTokens
+
+A [fresh eight-problem study](itoken_study/REPORT.md) tests a six-bit, source-grounded step ID with two independent readers per passage. Both chose identical evidence and recovered the same ID for all 144 original steps. Across faithful rewordings, just 22/120 steps kept their code. The exact and bit-tolerant watermark rules each detected 3/8 marked originals and 0/8 rewrites. Neither of the two initially positive, faithfully rewritten documents in either arm stayed positive. All six role-reversal foils shared their original's ID. [Methods and replay](itoken_study/README.md)
+
 ## Stronger watermark selection on fresh ideas
 
 Across eight new problems, the strong rule changed an average of 4.25 of the six selected arguments. Its key was detectable in **8/8 generator plans, 0/8 independently read originals and 0/8 rewrites** at the fixed 1% threshold. The weak and control arms had zero positives at all three stages. Two independent readers judged six strong rewrites faithful. All six were negative, and none had an initially detectable original from which to measure survival. The [report](bias_study/REPORT.md) includes a worked example, [raw readings](bias_study/calls/), and [replay instructions](bias_study/README.md).

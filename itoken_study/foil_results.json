@@ -1,0 +1,290 @@
+[
+  {
+    "type": "polarity",
+    "original": [
+      "000111"
+    ],
+    "paraphrase": [
+      "001111"
+    ],
+    "foil": [
+      "101111"
+    ]
+  },
+  {
+    "type": "polarity",
+    "original": [
+      "010000"
+    ],
+    "paraphrase": [
+      "110000"
+    ],
+    "foil": [
+      "110000"
+    ]
+  },
+  {
+    "type": "polarity",
+    "original": [
+      "011110"
+    ],
+    "paraphrase": [
+      "001110"
+    ],
+    "foil": [
+      "001110"
+    ]
+  },
+  {
+    "type": "polarity",
+    "original": [
+      "001010"
+    ],
+    "paraphrase": [
+      "000010"
+    ],
+    "foil": [
+      "001010"
+    ]
+  },
+  {
+    "type": "polarity",
+    "original": [
+      "000000"
+    ],
+    "paraphrase": [
+      "000100"
+    ],
+    "foil": [
+      "100000"
+    ]
+  },
+  {
+    "type": "polarity",
+    "original": [
+      "000100"
+    ],
+    "paraphrase": [
+      "000100"
+    ],
+    "foil": [
+      "000100"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "001000"
+    ],
+    "paraphrase": [
+      "001000"
+    ],
+    "foil": [
+      "001000"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "000000"
+    ],
+    "paraphrase": [
+      "000000"
+    ],
+    "foil": [
+      "000000"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "000010"
+    ],
+    "paraphrase": [
+      "000010"
+    ],
+    "foil": [
+      "000010"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "001000"
+    ],
+    "paraphrase": [
+      "001000"
+    ],
+    "foil": [
+      "001000"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "001111"
+    ],
+    "paraphrase": [
+      "011111"
+    ],
+    "foil": [
+      "001111"
+    ]
+  },
+  {
+    "type": "roles",
+    "original": [
+      "010001"
+    ],
+    "paraphrase": [
+      "011101"
+    ],
+    "foil": [
+      "010001"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "010000"
+    ],
+    "paraphrase": [
+      "010010"
+    ],
+    "foil": [
+      "010000"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "010010"
+    ],
+    "paraphrase": [
+      "010010"
+    ],
+    "foil": [
+      "010000"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "010110"
+    ],
+    "paraphrase": [
+      "011110"
+    ],
+    "foil": [
+      "010110"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "001010"
+    ],
+    "paraphrase": [
+      "001010"
+    ],
+    "foil": [
+      "001010"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "001110"
+    ],
+    "paraphrase": [
+      "001110"
+    ],
+    "foil": [
+      "000110"
+    ]
+  },
+  {
+    "type": "mechanism",
+    "original": [
+      "000100"
+    ],
+    "paraphrase": [
+      "000101"
+    ],
+    "foil": [
+      "000100"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "000000"
+    ],
+    "paraphrase": [
+      "000000"
+    ],
+    "foil": [
+      "000000"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "000110"
+    ],
+    "paraphrase": [
+      "000010"
+    ],
+    "foil": [
+      "000110"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "001001"
+    ],
+    "paraphrase": [
+      "001001"
+    ],
+    "foil": [
+      "001000"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "000010"
+    ],
+    "paraphrase": [
+      "000011"
+    ],
+    "foil": [
+      "000010"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "011110"
+    ],
+    "paraphrase": [
+      "011010"
+    ],
+    "foil": [
+      "010110"
+    ]
+  },
+  {
+    "type": "condition",
+    "original": [
+      "000010"
+    ],
+    "paraphrase": [
+      "000010"
+    ],
+    "foil": [
+      "000010"
+    ]
+  }
+]
