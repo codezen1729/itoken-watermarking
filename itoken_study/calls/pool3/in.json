@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "A thin white sheet lets the shadows show through to the audience. Pull it taut across the frame so folds don't break up the shapes."
+    },
+    {
+      "id": "s1",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Puppets with slender necks tend to fold when children wave them. Glue a second strip of card behind each neck so the figures last through the show."
+    },
+    {
+      "id": "s2",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow."
+    },
+    {
+      "id": "s3",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over."
+    },
+    {
+      "id": "s4",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Offer some ready-cut figures beside the blank card. A child who arrives halfway through can join a scene while there is still time to play."
+    },
+    {
+      "id": "s5",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "A puppet facing straight ahead may look like a plain oval on the sheet. Cut it in profile so the audience can recognize its nose or beak."
+    },
+    {
+      "id": "s6",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant."
+    },
+    {
+      "id": "s7",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Mark where the performing space ends with a strip of bright tape. Children waiting for a turn can stay behind the line without casting an unexpected head on the screen."
+    },
+    {
+      "id": "s8",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "A child who would rather stay offstage can supply rain by shaking rice in a sealed jar. The scene gains a sound effect and the child gets a part."
+    },
+    {
+      "id": "s9",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Give the youngest audience members cushions on the floor at the front. They can see the whole screen without having to look around adult shoulders."
+    },
+    {
+      "id": "s10",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Pin up a short picture sequence behind the screen. Young performers who lose their place can spot what comes next without needing to read."
+    },
+    {
+      "id": "s11",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "A single narrator can end up doing all the talking. Give the audience a refrain to call out when the moon appears so everyone gets a line."
+    },
+    {
+      "id": "s12",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Some children dislike a room going dark all at once. Dim the lights in stages and tell them when the show is about to start so they can settle in."
+    },
+    {
+      "id": "s13",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Leave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner."
+    },
+    {
+      "id": "s14",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents."
+    },
+    {
+      "id": "s15",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience."
+    },
+    {
+      "id": "s16",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Keep figures for each scene in a separate shallow tray. A performer reaching for the dragon can find it without untangling a heap of sticks."
+    },
+    {
+      "id": "s17",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Invite each child to make up a different ending for a familiar tale. Knowing the characters already leaves more time to act out the new idea."
+    },
+    {
+      "id": "s18",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Children often want to show someone at home how their puppets work. Send each figure home in a paper sleeve so its limbs survive the trip."
+    },
+    {
+      "id": "s19",
+      "problem": "How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?",
+      "text": "Set out a small sample of colored translucent paper beside the silhouettes. Children can hold it up to the light and choose a color that actually shows on the screen."
+    }
+  ]
+}

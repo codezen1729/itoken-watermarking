@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Label each pen with its model and nib size. A visitor who likes a particular line can then remember exactly which pen made it."
+    },
+    {
+      "id": "s1",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Give everyone a strip cut from the same paper for the first comparison. A rougher sheet at one seat won't get mistaken for a scratchier nib."
+    },
+    {
+      "id": "s2",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well."
+    },
+    {
+      "id": "s3",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor."
+    },
+    {
+      "id": "s4",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Some caps pull straight off while others unscrew. Mark the opening motion beside each pen so a first-time user can get it open gently."
+    },
+    {
+      "id": "s5",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib."
+    },
+    {
+      "id": "s6",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Let each person write a familiar phrase with several pens. They'll know how their usual lettering feels without having to think up a fresh sentence each time."
+    },
+    {
+      "id": "s7",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Set a timer beside a wet ink sample and make a fresh swipe at intervals. A visitor who tends to drag a hand across the page can see how long the ink takes to set."
+    },
+    {
+      "id": "s8",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "A cap left off while people talk can leave the next visitor with a dry nib. Give the person finishing a turn the job of recapping the pen."
+    },
+    {
+      "id": "s9",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Match a removable mark on each cap to one on its barrel. If two caps get laid down together, volunteers can reunite them with the right pens."
+    },
+    {
+      "id": "s10",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Have the owner refill a pen at a side table when its ink runs low. The owner knows its filling mechanism, and the writing seats stay open for the other pens."
+    },
+    {
+      "id": "s11",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Put a washable mat under the tryout area. A drop that escapes while someone passes a pen can be wiped up before it stains the furniture."
+    },
+    {
+      "id": "s12",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "A couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip."
+    },
+    {
+      "id": "s13",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Seat a left-handed writer at the left end of a shared table when they prefer it. Their elbow then has room to move through a line."
+    },
+    {
+      "id": "s14",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Use a sign-up slip for a particularly popular pen. Visitors can try something else and still keep their place for a turn."
+    },
+    {
+      "id": "s15",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "List the ink in each pen on the sample card. Someone admiring the color can find the right bottle even if they prefer a different pen body."
+    },
+    {
+      "id": "s16",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate."
+    },
+    {
+      "id": "s17",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Offer a hand lens beside the finished samples. A visitor can inspect the edges of a fine line that looks solid at arm's length."
+    },
+    {
+      "id": "s18",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Set out a clearly marked tray for a pen that skips or leaks. The next person can pick a working pen while a volunteer looks into the trouble."
+    },
+    {
+      "id": "s19",
+      "problem": "How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?",
+      "text": "Ask lenders to initial their pens back out at closing. The organizer can spot a pen still waiting in its tray while its owner is nearby."
+    }
+  ]
+}

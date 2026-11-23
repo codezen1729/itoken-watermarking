@@ -1,0 +1,251 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "Copies may still be on a rack when volunteers come to restock it.",
+          "action": "Count the remaining copies at each site before putting out new ones.",
+          "consequence": "Volunteers can adjust next week's bundle there to match demand.",
+          "sign": "do",
+          "quote": "Count the copies left at each pickup spot before replacing them. Next week's bundles can then be sized to the number of people actually taking a paper there."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Rain can soak a stack outside a shop.",
+          "action": "Put the papers in a covered dispenser.",
+          "consequence": "The copies stay readable until pickup.",
+          "sign": "do",
+          "quote": "A stack by an outside shop door can soak through in one shower. A covered dispenser keeps the papers readable until someone comes for them."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Several buildings on the delivery route have similar names.",
+          "action": "Label each bundle with its street number.",
+          "consequence": "The carrier can take it to the right lobby.",
+          "sign": "do",
+          "quote": "Some buildings on the route have nearly identical names. Print the street number on each bundle so the delivery volunteer can find the correct lobby."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Some residents seldom visit the shops.",
+          "action": "Add a box to the signup slip for residents to request home delivery.",
+          "consequence": "Residents who seldom visit a pickup site can still receive a copy.",
+          "sign": "do",
+          "quote": "Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "Outdated event listings can linger on crowded shop counters.",
+          "action": "Display the edition date prominently on the front.",
+          "consequence": "Readers can identify the current week's issue.",
+          "sign": "do",
+          "quote": "Lists of events go stale quickly on a crowded counter. Give the issue date a prominent place on the front so readers can pick out this week's edition."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "A substitute carrier could miss a shop hidden in an alley.",
+          "action": "Include a picture of the shop entrance on the route sheet.",
+          "consequence": "The carrier can recognize the delivery point.",
+          "sign": "do",
+          "quote": "A volunteer covering an unfamiliar route may miss a shop tucked down an alley. A photograph of its entrance on the route sheet makes the handoff easier to find."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "If a carrier arrives before a shop opens, the bundle must be brought back.",
+          "action": "Agree on a delivery time with each shopkeeper.",
+          "consequence": "The carrier can hand over the papers without making a second circuit.",
+          "sign": "do",
+          "quote": "Arrange a delivery time with each shopkeeper. A bundle arriving before the doors open otherwise has to travel around the route a second time."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "A crate holding hundreds of papers is unwieldy on stairs.",
+          "action": "Divide it into smaller bundles before sending it out from the print shop.",
+          "consequence": "Volunteers can carry the copies in manageable loads.",
+          "sign": "do",
+          "quote": "Stairs make a crate of several hundred copies awkward to handle. Split it into smaller bundles at the print shop so volunteers can carry one manageable load at a time."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "A subscriber moves to another address within the neighborhood.",
+          "action": "Provide a phone number where readers can report a move.",
+          "consequence": "Delivery can continue at the new address and papers stop piling up at the old one.",
+          "sign": "do",
+          "quote": "Give readers a phone number for address changes. Someone who moves within the neighborhood can keep receiving a copy, and the old doorstep stops accumulating papers."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "The regular carrier might fall ill on delivery morning.",
+          "action": "Assign each route a backup carrier familiar with its stops.",
+          "consequence": "That week's bulletin can still reach its readers.",
+          "sign": "do",
+          "quote": "Paper carriers sometimes fall ill on delivery morning. Pair each route with a backup who already knows the stops so that week's issue still goes out."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "Some readers have trouble reading the regular print.",
+          "action": "Print copies in larger type.",
+          "consequence": "The bulletin is easier for those readers to read.",
+          "sign": "do",
+          "quote": "A copy printed in larger type would help readers who struggle with the regular edition."
+        },
+        {
+          "premise": "The printer needs a quantity for large-type copies.",
+          "action": "Have the library collect requests for that edition.",
+          "consequence": "The printer can prepare the requested number.",
+          "sign": "do",
+          "quote": "A copy printed in larger type would help readers who struggle with the regular edition. Let the library take requests so the printer knows how many to prepare."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "Some readers shop only once each week.",
+          "action": "Restock the bulletin racks on a regular day.",
+          "consequence": "Readers can plan their trip to pick up a fresh issue.",
+          "sign": "do",
+          "quote": "Pick a consistent day for replenishing the racks. Readers who make just one shopping trip a week can then plan to collect a fresh copy."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "A delivered copy can be destroyed after it arrives.",
+          "action": "Keep a few spare copies at the packing table for replacement requests.",
+          "consequence": "A reader can still obtain that week's issue.",
+          "sign": "do",
+          "quote": "Set aside a few copies at the packing table for replacement requests. A reader whose dog shreds the morning delivery can still get that issue."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "A lobby cleanup can remove papers left outside the permitted location.",
+          "action": "Ask the apartment caretaker where papers may be left and use the approved shelf.",
+          "consequence": "Copies stay available after the morning cleanup.",
+          "sign": "do",
+          "quote": "Ask an apartment caretaker where residents are allowed to leave printed material. A stack on the approved shelf will survive the morning lobby cleanup."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "Sale leaflets can draw attention away from the bulletin rack at checkout.",
+          "action": "Place a small sign above the rack saying the paper is free.",
+          "consequence": "Shoppers have a reason to pick up a bulletin.",
+          "sign": "do",
+          "quote": "A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Two carriers can take the same route if the sheet remains unsigned.",
+          "action": "Have carriers initial the route sheet when collecting a route.",
+          "consequence": "The following carrier can identify and choose an unclaimed route.",
+          "sign": "do",
+          "quote": "One unsigned route sheet can leave two people delivering the same bundle. Have carriers initial the sheet when they collect a route so the next person picks an open one."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "A planned holiday street closure can block part of a delivery route.",
+          "action": "Mark announced closures on the map for that week.",
+          "consequence": "The carrier can approach the block from the opposite end.",
+          "sign": "do",
+          "quote": "A holiday street closure can cut a carrier off halfway around the block. Note announced closures on the week's route map so the carrier can enter from the other end."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "A reader's neighbor may want to know where papers are available.",
+          "action": "Print a list of pickup points inside each issue.",
+          "consequence": "The reader can tear out the list and give it to the neighbor.",
+          "sign": "do",
+          "quote": "Display a pickup list inside the bulletin. Readers can tear it out for a neighbor who keeps asking where to find a copy."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Clinic staff can start work before shops open.",
+          "action": "Leave a bulletin in the clinic staff break room.",
+          "consequence": "Workers can read the issue during their shift.",
+          "sign": "do",
+          "quote": "Put a copy in the staff break room at the neighborhood clinic. Workers who come in before the shops open would have a chance to read it on their shift."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "A household plans to be away for a given week.",
+          "action": "Let the household suspend doorstep delivery for that week.",
+          "consequence": "Old papers will not accumulate while the residents are away.",
+          "sign": "avoid",
+          "quote": "Let households pause a doorstep delivery for a specified week. They can go away without coming back to a pile of old bulletins."
+        }
+      ]
+    }
+  ]
+}

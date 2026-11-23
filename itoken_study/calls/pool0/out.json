@@ -1,0 +1,244 @@
+{
+  "documents": [
+    {
+      "id": "s0",
+      "steps": [
+        {
+          "premise": "The wind at the entrance can differ from the wind on the grass.",
+          "action": "Place a windsock near the center of the field.",
+          "consequence": "Flyers can choose which way to launch before they unroll their lines.",
+          "sign": "do",
+          "quote": "The breeze at the gate can feel quite different from the breeze out on the grass. A windsock near the middle lets people pick a launch direction before they unroll a line."
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "steps": [
+        {
+          "premise": "Loose strings hidden in the grass can wrap around the mower spindle.",
+          "action": "Allow the mowing crew a few minutes to collect strings before every cut.",
+          "consequence": "The crew can clear stray line before the mower catches it.",
+          "sign": "do",
+          "quote": "Give the mower crew a few minutes for a line sweep before each cut. Loose kite string is hard to see in the grass and can wind around a mower spindle."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "steps": [
+        {
+          "premise": "Repeated launches wear the grass bare in one spot.",
+          "action": "Shift the flags marking the launch site a little each week.",
+          "consequence": "Grass in the previous launch spot has time to recover.",
+          "sign": "do",
+          "quote": "Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "steps": [
+        {
+          "premise": "Flyers looking skyward can overlook the low fence posts by the ditch.",
+          "action": "Fasten a bright ribbon atop each post.",
+          "consequence": "Flyers can still see where the field ends.",
+          "sign": "do",
+          "quote": "Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "steps": [
+        {
+          "premise": "The rough assembly table catches kite tails.",
+          "action": "Sand the tabletop until it is smooth.",
+          "consequence": "Flyers can lay out a kite without ripping its fabric.",
+          "sign": "do",
+          "quote": "Kite tails snag on the rough top of the assembly table. Sanding it smooth would let people lay out a kite without tearing the fabric."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "steps": [
+        {
+          "premise": "Beginners often need another person to help launch a kite.",
+          "action": "Station a volunteer at the entrance on busy afternoons.",
+          "consequence": "First-time visitors can get help launching their kites.",
+          "sign": "do",
+          "quote": "A new flyer often needs a second pair of hands for a launch. A volunteer by the entrance on busy afternoons could help people get airborne on their first visit."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "steps": [
+        {
+          "premise": "Someone landing a large kite needs room to walk it in.",
+          "action": "Keep a strip beside the flying area open for landings.",
+          "consequence": "The flyer can land without cutting across the people waiting to launch.",
+          "sign": "do",
+          "quote": "Keep a landing strip clear beside the flying area. A flyer bringing down a big kite then has somewhere to walk it in without crossing the launch queue."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "steps": [
+        {
+          "premise": "Children tend to watch from underneath the kites.",
+          "action": "Place a bench to one side with a clear view.",
+          "consequence": "Families can sit comfortably and watch from clear of the kite lines.",
+          "sign": "do",
+          "quote": "Children like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "steps": [
+        {
+          "premise": "Rain leaves the depression at the gate flooded for days.",
+          "action": "Install a short raised walkway over the wet spot.",
+          "consequence": "Visitors can enter with dry shoes.",
+          "sign": "do",
+          "quote": "After rain, the hollow by the gate holds water for days. A short stretch of raised walkway there would keep shoes dry on the way into the field."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "steps": [
+        {
+          "premise": "Walkers cutting across the field can overlook a stretched kite line.",
+          "action": "Mow a path around the perimeter.",
+          "consequence": "Walkers have a visible route around the grass.",
+          "sign": "do",
+          "quote": "People taking a shortcut across the grass may never notice a line stretched in front of them. A mown path around the edge gives walkers an obvious way through."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "steps": [
+        {
+          "premise": "A park elsewhere in town has the field's name.",
+          "action": "Display the street address on the gate.",
+          "consequence": "A driver picking up a stranded visitor can identify the correct destination.",
+          "sign": "do",
+          "quote": "Put an address plate on the entrance gate. The field shares a name with the park across town, and a driver collecting a stranded visitor needs the right destination."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "steps": [
+        {
+          "premise": "A flyer may be tempted to climb the oak to retrieve a kite.",
+          "action": "Post the groundskeeper's contact information on the tree guard.",
+          "consequence": "The owner can arrange recovery while staying on the ground.",
+          "sign": "do",
+          "quote": "A kite in the big oak is tempting to climb after. Put the groundskeeper's contact details on the tree guard so the owner can arrange to get it back from ground level."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "steps": [
+        {
+          "premise": "Tall grass can conceal holes where flyers run.",
+          "action": "Reserve a small area beyond the flying boundary for tall grass.",
+          "consequence": "The grass can flower for insects while holes remain visible in the running area.",
+          "sign": "do",
+          "quote": "Set aside a small patch of tall grass beyond the flying boundary for insects. It can flower there without hiding holes in the space where people run."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "steps": [
+        {
+          "premise": "Passing dog owners may fail to recognize a trailing kite tail.",
+          "action": "Ask owners to keep dogs on a leash alongside the field.",
+          "consequence": "Kite tails stay undamaged.",
+          "sign": "do",
+          "quote": "Dog owners coming through the park may have no idea a long tail dragging along the ground is part of someone's kite. Asking them to leash dogs beside the field keeps the tails intact."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "steps": [
+        {
+          "premise": "A school group can occupy the entire field.",
+          "action": "Post upcoming group visits on the noticeboard.",
+          "consequence": "Regular flyers can plan to come when the field is less crowded.",
+          "sign": "do",
+          "quote": "One school outing can fill the whole field. Listing group visits on the noticeboard lets regular flyers choose a quieter time."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "steps": [
+        {
+          "premise": "Wind blows small clips away during kite assembly.",
+          "action": "Put a shallow tray with a rim on the work table.",
+          "consequence": "The kite fittings stay in one place through assembly.",
+          "sign": "do",
+          "quote": "Wind often scatters tiny clips during assembly. A shallow lipped tray on the work table keeps the fittings together until the kite is ready."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "steps": [
+        {
+          "premise": "On stormy days families may have to transport a long frame to the field.",
+          "action": "Keep closure information up to date both online and at the entrance.",
+          "consequence": "Families can check whether the field is closed before traveling.",
+          "sign": "do",
+          "quote": "Keep a current closure notice online as well as at the gate. Families transporting a long kite frame can check before making the trip on a stormy day."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "steps": [
+        {
+          "premise": "Loan reels are difficult to tell apart after the lines have been wound in.",
+          "action": "Give each reel a number and log it when lending the reel.",
+          "consequence": "Each reel can be returned to its proper shelf.",
+          "sign": "do",
+          "quote": "Two borrowed reels look much alike once people have wound in their lines. Number the loan reels and record each number at checkout so they find their way back to the right shelf."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "steps": [
+        {
+          "premise": "Someone stepping backward into a new rabbit hole can twist an ankle.",
+          "action": "Have the opening volunteer flag new holes until the grounds crew fills them.",
+          "consequence": "The holes are marked while they are still a hazard.",
+          "sign": "do",
+          "quote": "The small holes rabbits dig can turn an ankle when someone steps backward. Ask the opening volunteer to flag fresh holes until the grounds crew can fill them."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "steps": [
+        {
+          "premise": "Children can lose track of a backpack on the field edge as other families arrive.",
+          "action": "Install bag hooks just inside the entrance.",
+          "consequence": "Children can readily find their bags again.",
+          "sign": "do",
+          "quote": "A child who drops a backpack at the edge of the field can lose sight of it when other families arrive. Hooks along the inside of the gate give bags a place that's easy to find again."
+        }
+      ]
+    }
+  ]
+}

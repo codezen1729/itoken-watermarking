@@ -1,0 +1,380 @@
+{
+  "documents": [
+    {
+      "id": "0b1acfc60c1cf05e",
+      "steps": [
+        {
+          "premise": "Wind at the gate may differ from wind on the field.",
+          "action": "Place a windsock near the center of the field.",
+          "consequence": "Flyers can choose their launch direction before unwinding their line.",
+          "sign": "do",
+          "quote": "The breeze at the gate can feel quite different from the breeze out on the grass. A windsock near the middle lets people pick a launch direction before they unroll a line."
+        },
+        {
+          "premise": "Repeated launches wear out the same patch of grass.",
+          "action": "Shift the launch flags slightly every week.",
+          "consequence": "The grass at the previous launch site can recover.",
+          "sign": "do",
+          "quote": "Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back."
+        },
+        {
+          "premise": "Flyers are looking up near the ditch.",
+          "action": "Tie a bright ribbon to the top of every low fence post beside the ditch.",
+          "consequence": "Flyers can still see the edge of the field.",
+          "sign": "do",
+          "quote": "Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary."
+        },
+        {
+          "premise": "Children tend to watch from directly beneath the kites.",
+          "action": "Set a bench with a clear view to one side.",
+          "consequence": "Families can watch comfortably away from the lines.",
+          "sign": "do",
+          "quote": "Children like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines."
+        },
+        {
+          "premise": "An owner might climb the oak to retrieve a stranded kite.",
+          "action": "Display the groundskeeper’s contact information on the tree guard.",
+          "consequence": "The owner can arrange to recover the kite while staying on the ground.",
+          "sign": "do",
+          "quote": "A kite in the big oak is tempting to climb after. Put the groundskeeper's contact details on the tree guard so the owner can arrange to get it back from ground level."
+        },
+        {
+          "premise": "A child may lose track of a bag left at the field edge as more families arrive.",
+          "action": "Provide bag hooks just inside the gate.",
+          "consequence": "Children can find their bags again.",
+          "sign": "do",
+          "quote": "A child who drops a backpack at the edge of the field can lose sight of it when other families arrive. Hooks along the inside of the gate give bags a place that's easy to find again."
+        }
+      ]
+    },
+    {
+      "id": "4737f82f28782cfa",
+      "steps": [
+        {
+          "premise": "Knowing what equipment is already there speeds setup.",
+          "action": "Place a dated equipment inventory next to the booking form.",
+          "consequence": "Players can work out what equipment to bring.",
+          "sign": "do",
+          "quote": "A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring."
+        },
+        {
+          "premise": "A cello’s endpin can slip on the polished floor.",
+          "action": "Keep endpin stops by the chairs.",
+          "consequence": "Cellists can play with the instrument staying in place.",
+          "sign": "do",
+          "quote": "A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward."
+        },
+        {
+          "premise": "Players write down bowings during rehearsal.",
+          "action": "Fit each music stand with a groove or clip for a pencil.",
+          "consequence": "Players can reach their pencil when they need it.",
+          "sign": "do",
+          "quote": "Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach."
+        },
+        {
+          "premise": "Loose pages from different arrangements can get mixed together.",
+          "action": "File spare scores vertically in folders marked with each ensemble’s name.",
+          "consequence": "Players save time sorting music before the first piece.",
+          "sign": "do",
+          "quote": "Store spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece."
+        },
+        {
+          "premise": "The conductor needs to pace rehearsal to fit in the final piece.",
+          "action": "Make a clock visible from the conductor’s position.",
+          "consequence": "The conductor can leave time for the last piece without pausing to check a phone.",
+          "sign": "do",
+          "quote": "A clock visible from the conductor's spot makes it easier to leave time for the last piece without breaking off to check a phone."
+        },
+        {
+          "premise": "Some visitors may feel uncomfortable about being recorded.",
+          "action": "Ask visitors before recording the rehearsal.",
+          "consequence": "They can raise an objection before the take starts.",
+          "sign": "do",
+          "quote": "Ask visitors before recording a rehearsal. Someone who is uncomfortable being recorded then has time to speak up before a take begins."
+        }
+      ]
+    },
+    {
+      "id": "0e11aff555b74881",
+      "steps": [
+        {
+          "premise": "Some residents seldom visit the shops.",
+          "action": "Give residents a checkbox on the signup slip to request a doorstep copy.",
+          "consequence": "Residents who seldom shop can still get the bulletin.",
+          "sign": "do",
+          "quote": "Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin."
+        },
+        {
+          "premise": "Event listings quickly go out of date on a crowded counter.",
+          "action": "Display the issue date clearly on the front.",
+          "consequence": "Readers can identify the current week’s issue.",
+          "sign": "do",
+          "quote": "Lists of events go stale quickly on a crowded counter. Give the issue date a prominent place on the front so readers can pick out this week's edition."
+        },
+        {
+          "premise": "A crate of hundreds of copies is hard to move on stairs.",
+          "action": "Divide the copies into smaller bundles at the print shop.",
+          "consequence": "Each volunteer can carry a manageable load at a time.",
+          "sign": "do",
+          "quote": "Stairs make a crate of several hundred copies awkward to handle. Split it into smaller bundles at the print shop so volunteers can carry one manageable load at a time."
+        },
+        {
+          "premise": "A regular carrier may be sick on delivery morning.",
+          "action": "Assign each route a substitute who knows its stops.",
+          "consequence": "Readers can still receive that week’s issue.",
+          "sign": "do",
+          "quote": "Paper carriers sometimes fall ill on delivery morning. Pair each route with a backup who already knows the stops so that week's issue still goes out."
+        },
+        {
+          "premise": "Some readers shop only once per week.",
+          "action": "Restock the racks on a regular day.",
+          "consequence": "Readers can time their visit to pick up a fresh copy.",
+          "sign": "do",
+          "quote": "Pick a consistent day for replenishing the racks. Readers who make just one shopping trip a week can then plan to collect a fresh copy."
+        },
+        {
+          "premise": "Sale leaflets can draw attention away from the bulletin rack at checkout.",
+          "action": "Place a sign above the rack saying the bulletin is free.",
+          "consequence": "Shoppers have a reason to take a copy.",
+          "sign": "do",
+          "quote": "A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one."
+        }
+      ]
+    },
+    {
+      "id": "c23ba7b820f6b940",
+      "steps": [
+        {
+          "premise": "Children will handle figures near the lamp and follow their shadows.",
+          "action": "Test the lamp before families arrive and use a cool LED that produces a single clear shadow.",
+          "consequence": "Children can operate figures near the lamp and see their outlines clearly.",
+          "sign": "do",
+          "quote": "Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow."
+        },
+        {
+          "premise": "Some children find thin puppet sticks difficult to grip.",
+          "action": "Make large loop handles for them.",
+          "consequence": "They can move their own puppets independently.",
+          "sign": "do",
+          "quote": "Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over."
+        },
+        {
+          "premise": "unspecified",
+          "action": "Have children move one puppet closer to and farther from the lamp.",
+          "consequence": "They can see how to enlarge or shrink its shadow to make a small character appear giant.",
+          "sign": "do",
+          "quote": "Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant."
+        },
+        {
+          "premise": "A child using a wheelchair may perform with a standing partner.",
+          "action": "Provide clear access to one side of the screen at seated height.",
+          "consequence": "Both children can use their puppets in the same scene.",
+          "sign": "do",
+          "quote": "Leave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner."
+        },
+        {
+          "premise": "Puppet joints need punched holes.",
+          "action": "Place scrap card underneath each figure before punching.",
+          "consequence": "The holes come out neatly and the tables are protected from dents.",
+          "sign": "do",
+          "quote": "Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents."
+        },
+        {
+          "premise": "Children performing behind the sheet cannot see the audience’s faces.",
+          "action": "Have partners switch places after each short scene.",
+          "consequence": "Each child can see the performance from the audience’s viewpoint.",
+          "sign": "do",
+          "quote": "Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience."
+        }
+      ]
+    },
+    {
+      "id": "631afa6f0960d47e",
+      "steps": [
+        {
+          "premise": "Stacked cards obscure most of the pictures.",
+          "action": "Display one upright sample of each design.",
+          "consequence": "Visitors can choose a view they recognize.",
+          "sign": "do",
+          "quote": "A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize."
+        },
+        {
+          "premise": "The stamp needed depends on the destination.",
+          "action": "Have the volunteer ask where the card is going before issuing a stamp.",
+          "consequence": "Overseas cards get the proper postage.",
+          "sign": "do",
+          "quote": "Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage."
+        },
+        {
+          "premise": "A child may have a story to tell before learning to write it.",
+          "action": "Have a volunteer write down what the child dictates.",
+          "consequence": "The postcard carries the child’s own words.",
+          "sign": "do",
+          "quote": "A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card."
+        },
+        {
+          "premise": "Some visitors want to record the occasion.",
+          "action": "Display the town name and current date at the writing places.",
+          "consequence": "Visitors can copy both while continuing their conversation.",
+          "sign": "do",
+          "quote": "Print the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation."
+        },
+        {
+          "premise": "Wind can scatter several cards outdoors.",
+          "action": "Hold the outdoor supply down with a wide paperweight.",
+          "consequence": "Visitors can take one card at a time while the others stay put.",
+          "sign": "do",
+          "quote": "A gust can carry half a dozen postcards across the square. Tuck the outdoor stock under a broad paperweight so people can lift out one card at a time."
+        },
+        {
+          "premise": "Some pens skip on glossy postcard stock.",
+          "action": "Try the pens on a postcard before the table opens.",
+          "consequence": "Volunteers can replace a skipping pen before it damages a message.",
+          "sign": "do",
+          "quote": "Test the pens on an actual postcard before opening. A pen that skips on the glossy stock can be replaced before it spoils someone's message."
+        }
+      ]
+    },
+    {
+      "id": "350b842c5886a680",
+      "steps": [
+        {
+          "premise": "A volunteer may come on foot for a large wedding order.",
+          "action": "State how many packed crates there are in the pickup note.",
+          "consequence": "The volunteer can organize transport if needed.",
+          "sign": "do",
+          "quote": "A volunteer collecting a large wedding order may arrive on foot. Include the number of packed crates in the pickup note so they can arrange a ride if needed."
+        },
+        {
+          "premise": "Food scraps or cutlery can get folded into linens.",
+          "action": "Have the cleanup crew shake each cloth over a bin before bagging it.",
+          "consequence": "Only fabric reaches the washer.",
+          "sign": "do",
+          "quote": "Crumbs and a forgotten dessert fork can disappear inside a folded cloth. Ask the clearing crew to shake each one over a bin before bagging it so the washer gets fabric alone."
+        },
+        {
+          "premise": "Rough edges on crates can snag embroidery.",
+          "action": "Protect the insides of the crates with smooth covers.",
+          "consequence": "Embroidered threads stay intact during transport between buildings.",
+          "sign": "do",
+          "quote": "Rough crate edges can catch embroidery. Line the crates with smooth covers so moving a loan between buildings doesn't pull threads loose."
+        },
+        {
+          "premise": "A new volunteer has clean linen to put away.",
+          "action": "Label each return bin with its aisle and shelf number.",
+          "consequence": "The volunteer can store the linen where the next order will be picked.",
+          "sign": "do",
+          "quote": "Put an aisle and shelf number on each return bin. A new volunteer can then put clean linen away where the next order will be picked."
+        },
+        {
+          "premise": "A group’s tables come in different shapes.",
+          "action": "Pack its linens by room and table number.",
+          "consequence": "The setup crew can deliver every bundle directly to its table.",
+          "sign": "do",
+          "quote": "When a group's tables have different shapes, pack by room and table number. Its setup crew can take each bundle straight to the right spot."
+        },
+        {
+          "premise": "The hall has checked in a group’s loan.",
+          "action": "Send the group a receipt for the return.",
+          "consequence": "When closing its event file, the group knows whether any items still need to be found.",
+          "sign": "do",
+          "quote": "Send a return receipt after the hall checks in the loan. The group can close its event file knowing whether it still needs to search for a missing piece."
+        }
+      ]
+    },
+    {
+      "id": "ac97b310c90ab32b",
+      "steps": [
+        {
+          "premise": "A regularly running fountain or delivery truck may mask birdsong at the first stop.",
+          "action": "Scout the route at the scheduled hour several days before the walk.",
+          "consequence": "The guide can notice competing noise in advance.",
+          "sign": "do",
+          "quote": "Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop."
+        },
+        {
+          "premise": "Birds often call back and forth at a particular corner.",
+          "action": "Wait there for a second phrase.",
+          "consequence": "Walkers may hear that the calls in the hedge come from two directions.",
+          "sign": "do",
+          "quote": "At a corner where birds often answer each other, pause for a second phrase. It can reveal that the sound from the hedge is coming from two directions."
+        },
+        {
+          "premise": "unspecified",
+          "action": "Give walkers a simple map to mark where they heard a song.",
+          "consequence": "They can return to the same spot to listen on a later walk.",
+          "sign": "do",
+          "quote": "Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again."
+        },
+        {
+          "premise": "A phone’s electronic chirp can sound like another bird.",
+          "action": "Keep phone ringtones silent during listening stops.",
+          "consequence": "Walkers avoid mistaking a phone for a bird.",
+          "sign": "avoid",
+          "quote": "Keep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in."
+        },
+        {
+          "premise": "Everyone needs to pay attention at a busy road crossing.",
+          "action": "End the listening stop before reaching the curb.",
+          "consequence": "Walkers can concentrate on crossing together.",
+          "sign": "do",
+          "quote": "A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together."
+        },
+        {
+          "premise": "Each walker may want to identify a sound again.",
+          "action": "Allow time at the end for everyone to describe one such sound.",
+          "consequence": "The guide can point each person to a matching recording or field-guide entry to revisit.",
+          "sign": "do",
+          "quote": "Leave time at the finish for each walker to share one sound they want to recognize again. The guide can match each description to a recording or field-guide entry they can revisit."
+        }
+      ]
+    },
+    {
+      "id": "0c144cbf57971bb7",
+      "steps": [
+        {
+          "premise": "Someone buying a planner pen needs to know how it writes on the planner’s paper.",
+          "action": "Give visitors room to try a few words in their own planner.",
+          "consequence": "They can judge how the pen performs on the pages they use.",
+          "sign": "do",
+          "quote": "Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well."
+        },
+        {
+          "premise": "A visitor may want to put a pen down to look at the writing.",
+          "action": "Lay out the pens in shallow trays with grooves.",
+          "consequence": "A pen can stay put while the visitor examines the writing.",
+          "sign": "do",
+          "quote": "Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor."
+        },
+        {
+          "premise": "A fountain pen writes using its own weight.",
+          "action": "Demonstrate this on scrap paper before passing the pen to a beginner.",
+          "consequence": "The beginner can write without pressing hard on the nib.",
+          "sign": "do",
+          "quote": "A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib."
+        },
+        {
+          "premise": "A pen left uncapped during conversation may dry out before the next turn.",
+          "action": "Assign the person finishing a turn to put the cap back on.",
+          "consequence": "The nib stays ready for the next visitor.",
+          "sign": "do",
+          "quote": "A cap left off while people talk can leave the next visitor with a dry nib. Give the person finishing a turn the job of recapping the pen."
+        },
+        {
+          "premise": "A few loops may fail to reveal whether a pen tires the hand.",
+          "action": "Allow room to write a whole paragraph.",
+          "consequence": "Visitors can judge how the grip feels with longer use.",
+          "sign": "do",
+          "quote": "A couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip."
+        },
+        {
+          "premise": "Visitors may be unsure whether an owner allows the cap to go on the pen’s back.",
+          "action": "Identify the pens whose owners permit using them that way.",
+          "consequence": "Visitors can judge how the added weight feels while respecting the owner’s wishes.",
+          "sign": "do",
+          "quote": "Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate."
+        }
+      ]
+    }
+  ]
+}

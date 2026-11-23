@@ -1,0 +1,2035 @@
+{
+  "model": {
+    "source_repo": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+    "revision": "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3",
+    "local_directory_name": "qwen2.5-0.5b-instruct-4bit",
+    "model_type": "qwen2",
+    "quantization": {
+      "group_size": 64,
+      "bits": 4
+    },
+    "packages": {
+      "mlx": "0.32.4",
+      "mlx-lm": "0.32.2",
+      "transformers": "5.24.0",
+      "tokenizers": "0.23.3"
+    },
+    "python": "3.13.3",
+    "device": "Device(cpu, 0)",
+    "max_context_tokens": 4096,
+    "prefill_chunk_size": 128,
+    "prefill_strategy": "evaluate cache states in chunks, then final prompt token logits",
+    "execution_mode": "dense-fp32",
+    "execution_representation": {
+      "transform": "cast affine scales/biases to execution dtype, dequantize packed weights, replace QuantizedLinear/QuantizedEmbedding, cast all floating parameters",
+      "execution_dtype": "mlx.core.float32",
+      "dequantized_layers": 169,
+      "parameter_sha256": "c5f9b34790639e0eb65a6240265e50e1436d3df0a1e1880126f4b90dd821f4b0",
+      "parameter_count": 494032768,
+      "parameter_bytes": 1976131072,
+      "hash_byte_order": "little",
+      "probability_equivalence_to_quantized_execution_claimed": false
+    },
+    "checkpoint": {
+      "files": [
+        {
+          "name": "config.json",
+          "size_bytes": 783,
+          "sha256": "b045e57ea90b8f1b35f89f954b176a5c1faa02bd0af2c89bcec191239d66cef4"
+        },
+        {
+          "name": "tokenizer.json",
+          "size_bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "size_bytes": 7308,
+          "sha256": "f7c61e32b7a17d19bf8e7037dcb74079a833e53ea9801f24008cac68458f03b7"
+        },
+        {
+          "name": "vocab.json",
+          "size_bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        {
+          "name": "merges.txt",
+          "size_bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "size_bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        {
+          "name": "added_tokens.json",
+          "size_bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "size_bytes": 44209,
+          "sha256": "54001cb4c11197119c206dde28e7be08e5872aab6c6d271aed339ec77e84f870"
+        },
+        {
+          "name": "download_manifest.json",
+          "size_bytes": 1659,
+          "sha256": "d0fcd8a886f29dff89b9ffac832a8087797a547e3fc9d5b3de4fb05d59395a07"
+        },
+        {
+          "name": "model.safetensors",
+          "size_bytes": 278064920,
+          "sha256": "ddffab9cbc7bf6dde941c6724841eeca8981fcfa81ca20ff8efff1396326d153"
+        }
+      ],
+      "weights_hashed": true,
+      "weights_size_bytes": 278064920,
+      "manifest_sha256": "7e8d3041361b783bb016e14edc291ee7ae3c344d4dffced673cb1536bb692339"
+    },
+    "scoring_temperature": 1.0,
+    "scoring_eos_token_id": 151645,
+    "generation_stop_token_ids": [
+      151645
+    ],
+    "model_invoked": true
+  },
+  "weights": [
+    [
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: The breeze at the gate can feel quite different from the breeze out on the grass. A windsock near the middle lets people pick a launch direction before they unroll a line.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0061139934696257114,
+          -5.922186851501465
+        ],
+        "log_weight": -0.0026921390122179377
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Give the mower crew a few minutes for a line sweep before each cut. Loose kite string is hard to see in the grass and can wind around a mower spindle.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.023643694818019867,
+          -3.975992441177368
+        ],
+        "log_weight": -0.0190273566883044
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Everyone tends to launch from the same bare patch. Moving the launch flags a little each week gives the grass time to grow back.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.022212637588381767,
+          -4.1966986656188965
+        ],
+        "log_weight": -0.015265975868177312
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Peg a bright ribbon to the top of each low fence post along the ditch so flyers looking up can still catch sight of the boundary.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.006535821128636599,
+          -6.009610652923584
+        ],
+        "log_weight": -0.002468093885466628
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Kite tails snag on the rough top of the assembly table. Sanding it smooth would let people lay out a kite without tearing the fabric.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.027931228280067444,
+          -3.987529754638672
+        ],
+        "log_weight": -0.018891201452268604
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: A new flyer often needs a second pair of hands for a launch. A volunteer by the entrance on busy afternoons could help people get airborne on their first visit.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011026992462575436,
+          -5.127832889556885
+        ],
+        "log_weight": -0.005977242087506909
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Keep a landing strip clear beside the flying area. A flyer bringing down a big kite then has somewhere to walk it in without crossing the launch queue.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.006843816954642534,
+          -5.833960056304932
+        ],
+        "log_weight": -0.002942229314591605
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Children like to watch from directly under the kites. A bench with a good view off to one side gives families a comfortable spot clear of the lines.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012692149728536606,
+          -5.092846393585205
+        ],
+        "log_weight": -0.0061996918406707945
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: After rain, the hollow by the gate holds water for days. A short stretch of raised walkway there would keep shoes dry on the way into the field.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.009539023973047733,
+          -5.238144397735596
+        ],
+        "log_weight": -0.0053466776887341454
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: People taking a shortcut across the grass may never notice a line stretched in front of them. A mown path around the edge gives walkers an obvious way through.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.008492900058627129,
+          -5.376023769378662
+        ],
+        "log_weight": -0.004654786818592504
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Put an address plate on the entrance gate. The field shares a name with the park across town, and a driver collecting a stranded visitor needs the right destination.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013294504024088383,
+          -4.856913089752197
+        ],
+        "log_weight": -0.00784762012582638
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: A kite in the big oak is tempting to climb after. Put the groundskeeper's contact details on the tree guard so the owner can arrange to get it back from ground level.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02127574384212494,
+          -4.215683937072754
+        ],
+        "log_weight": -0.014967096181481575
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Set aside a small patch of tall grass beyond the flying boundary for insects. It can flower there without hiding holes in the space where people run.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011434025131165981,
+          -5.28120756149292
+        ],
+        "log_weight": -0.005131586405429819
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Dog owners coming through the park may have no idea a long tail dragging along the ground is part of someone's kite. Asking them to leash dogs beside the field keeps the tails intact.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.009947842918336391,
+          -5.104464530944824
+        ],
+        "log_weight": -0.0061115550946724655
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: One school outing can fill the whole field. Listing group visits on the noticeboard lets regular flyers choose a quieter time.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01451974455267191,
+          -5.44411563873291
+        ],
+        "log_weight": -0.004375281874695006
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Wind often scatters tiny clips during assembly. A shallow lipped tray on the work table keeps the fittings together until the kite is ready.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01614672690629959,
+          -4.635039329528809
+        ],
+        "log_weight": -0.009815384189189053
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Keep a current closure notice online as well as at the gate. Families transporting a long kite frame can check before making the trip on a stormy day.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013094858266413212,
+          -4.911345481872559
+        ],
+        "log_weight": -0.007431935969713692
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: Two borrowed reels look much alike once people have wound in their lines. Number the loan reels and record each number at checkout so they find their way back to the right shelf.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.04772336408495903,
+          -3.296813488006592
+        ],
+        "log_weight": -0.0380753494080841
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: The small holes rabbits dig can turn an ankle when someone steps backward. Ask the opening volunteer to flag fresh holes until the grounds crew can fill them.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03389966860413551,
+          -3.7995457649230957
+        ],
+        "log_weight": -0.022888692417303194
+      },
+      {
+        "prompt": "Problem: How can neighbors keep a shared kite-flying field in good shape and make it pleasant to use?\nProposed step: A child who drops a backpack at the edge of the field can lose sight of it when other families arrive. Hooks along the inside of the gate give bags a place that's easy to find again.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011751708574593067,
+          -4.9995903968811035
+        ],
+        "log_weight": -0.006797235922864945
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.028966719284653664,
+          -3.8238332271575928
+        ],
+        "log_weight": -0.022236826255965025
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Leave a gap between bookings for packing cases and folding stands. A slow pack-up then takes less time out of the next group's rehearsal.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010878542438149452,
+          -5.1445722579956055
+        ],
+        "log_weight": -0.0058774406511926105
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01181615237146616,
+          -4.876056671142578
+        ],
+        "log_weight": -0.007688058402750305
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Some players arrive after everyone else has begun. Giving them the door code in the booking message saves the ensemble from stopping mid-piece to let them in.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.022777825593948364,
+          -4.171446323394775
+        ],
+        "log_weight": -0.01566212687073803
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: The afternoon sun falls straight across the piano score. A blind on that window lets the pianist read the page without having to move the instrument.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.024749109521508217,
+          -4.0112833976745605
+        ],
+        "log_weight": -0.01839373333786049
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010945990681648254,
+          -5.245490550994873
+        ],
+        "log_weight": -0.0053151008761572315
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Flag a wobbly chair and take it off the floor as soon as someone reports it. Otherwise the next player is likely to discover the loose leg by sitting on it.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.09946391731500626,
+          -2.477668285369873
+        ],
+        "log_weight": -0.08866717617738339
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A drum kit can drown a flute in a small room. Stock a set of practice pads so mixed groups can hear the quieter parts while they work through a passage.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.008782096207141876,
+          -5.2482476234436035
+        ],
+        "log_weight": -0.005289078567516779
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Show the accessible entrance on the booking map. The front steps can leave a player with a wheeled case searching the block for the level doorway.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02862306497991085,
+          -3.8401389122009277
+        ],
+        "log_weight": -0.021873649028468806
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Brass players need somewhere to empty water from their instruments. Washable absorbent mats keep those spots off the floor for the following group.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014823529869318008,
+          -4.6907172203063965
+        ],
+        "log_weight": -0.009274057408108898
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A rehearsal cancellation sometimes comes too late to advertise. An opt-in list of local groups willing to take short-notice slots would put those empty hours to use.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.008894703350961208,
+          -5.3963422775268555
+        ],
+        "log_weight": -0.00456320503263718
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Store spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013875099830329418,
+          -4.856392860412598
+        ],
+        "log_weight": -0.007856229875658318
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Photograph the standard chair layout and post it inside the door. Groups can try a different seating arrangement and still put the room back as they found it.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013290857896208763,
+          -4.761202335357666
+        ],
+        "log_weight": -0.00863241659320221
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: The room gets stuffy once a dozen people are playing. Opening the windows during the tea break gives everyone fresher air when rehearsal resumes.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.015820931643247604,
+          -4.606727123260498
+        ],
+        "log_weight": -0.010092560446614725
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Put case shelves along a wall away from the doorway. Large instrument cases spread across the floor leave very little room for a late arrival to reach a seat.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011847371235489845,
+          -4.965279579162598
+        ],
+        "log_weight": -0.007034339788127826
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A clock visible from the conductor's spot makes it easier to leave time for the last piece without breaking off to check a phone.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.00949368067085743,
+          -5.371825218200684
+        ],
+        "log_weight": -0.004678994946155169
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Run each powered speaker's lead along the wall under a cable cover. Players frequently change places, and an exposed lead can catch a foot in passing.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.06418155133724213,
+          -2.957688570022583
+        ],
+        "log_weight": -0.053902452381281905
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: A photo of the mixer's usual settings gives the next ensemble a quick starting point after a group has turned individual channels up or down.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020831603556871414,
+          -4.18831205368042
+        ],
+        "log_weight": -0.015372477630559293
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Leave the piano tuner's visit on the shared calendar. Ensembles scheduling a recording can pick a date when the instrument will have just been tuned.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01252617035061121,
+          -4.839575290679932
+        ],
+        "log_weight": -0.007978212590319434
+      },
+      {
+        "prompt": "Problem: How can a shared rehearsal room work well for the amateur ensembles that use it?\nProposed step: Ask visitors before recording a rehearsal. Someone who is uncomfortable being recorded then has time to speak up before a take begins.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016281964257359505,
+          -4.720721244812012
+        ],
+        "log_weight": -0.009014239493681379
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Count the copies left at each pickup spot before replacing them. Next week's bundles can then be sized to the number of people actually taking a paper there.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010040019638836384,
+          -5.33582067489624
+        ],
+        "log_weight": -0.004852758292339692
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: A stack by an outside shop door can soak through in one shower. A covered dispenser keeps the papers readable until someone comes for them.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0222429521381855,
+          -4.151719570159912
+        ],
+        "log_weight": -0.015963205861858884
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Some buildings on the route have nearly identical names. Print the street number on each bundle so the delivery volunteer can find the correct lobby.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.028314867988228798,
+          -3.9364187717437744
+        ],
+        "log_weight": -0.0198796202418307
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012679202482104301,
+          -5.084536552429199
+        ],
+        "log_weight": -0.006251182897040666
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Lists of events go stale quickly on a crowded counter. Give the issue date a prominent place on the front so readers can pick out this week's edition.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.04828476905822754,
+          -3.2285749912261963
+        ],
+        "log_weight": -0.04073263480943531
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: A volunteer covering an unfamiliar route may miss a shop tucked down an alley. A photograph of its entrance on the route sheet makes the handoff easier to find.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02007838897407055,
+          -4.220193386077881
+        ],
+        "log_weight": -0.014882555797303333
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Arrange a delivery time with each shopkeeper. A bundle arriving before the doors open otherwise has to travel around the route a second time.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02177077904343605,
+          -4.272182941436768
+        ],
+        "log_weight": -0.014157661610916255
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Stairs make a crate of several hundred copies awkward to handle. Split it into smaller bundles at the print shop so volunteers can carry one manageable load at a time.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.027566922828555107,
+          -3.846395492553711
+        ],
+        "log_weight": -0.02171599449913627
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Give readers a phone number for address changes. Someone who moves within the neighborhood can keep receiving a copy, and the old doorstep stops accumulating papers.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.009779518470168114,
+          -5.310545444488525
+        ],
+        "log_weight": -0.004975374450981973
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Paper carriers sometimes fall ill on delivery morning. Pair each route with a backup who already knows the stops so that week's issue still goes out.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02068285085260868,
+          -4.4495768547058105
+        ],
+        "log_weight": -0.011857100270018784
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: A copy printed in larger type would help readers who struggle with the regular edition. Let the library take requests so the printer knows how many to prepare.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012712041847407818,
+          -4.773349285125732
+        ],
+        "log_weight": -0.008523722403616688
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Pick a consistent day for replenishing the racks. Readers who make just one shopping trip a week can then plan to collect a fresh copy.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.009433693252503872,
+          -5.272457122802734
+        ],
+        "log_weight": -0.005166252707860297
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Set aside a few copies at the packing table for replacement requests. A reader whose dog shreds the morning delivery can still get that issue.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.00807189755141735,
+          -5.306299209594727
+        ],
+        "log_weight": -0.004987989563474799
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Ask an apartment caretaker where residents are allowed to leave printed material. A stack on the approved shelf will survive the morning lobby cleanup.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.023638689890503883,
+          -4.0485334396362305
+        ],
+        "log_weight": -0.017707595407655242
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012373940087854862,
+          -4.777632713317871
+        ],
+        "log_weight": -0.008484586910225442
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: One unsigned route sheet can leave two people delivering the same bundle. Have carriers initial the sheet when they collect a route so the next person picks an open one.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02181253582239151,
+          -4.274539947509766
+        ],
+        "log_weight": -0.01412515115763596
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: A holiday street closure can cut a carrier off halfway around the block. Note announced closures on the week's route map so the carrier can enter from the other end.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.05209141597151756,
+          -3.1926820278167725
+        ],
+        "log_weight": -0.04234778234546561
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Display a pickup list inside the bulletin. Readers can tear it out for a neighbor who keeps asking where to find a copy.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01091014500707388,
+          -5.229337692260742
+        ],
+        "log_weight": -0.005401225667851442
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Put a copy in the staff break room at the neighborhood clinic. Workers who come in before the shops open would have a chance to read it on their shift.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01092582754790783,
+          -5.031971454620361
+        ],
+        "log_weight": -0.0065759553798016065
+      },
+      {
+        "prompt": "Problem: How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?\nProposed step: Let households pause a doorstep delivery for a specified week. They can go away without coming back to a pile of old bulletins.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.015344543382525444,
+          -4.749866485595703
+        ],
+        "log_weight": -0.008748270404083136
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: A thin white sheet lets the shadows show through to the audience. Pull it taut across the frame so folds don't break up the shapes.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012651893310248852,
+          -4.815361499786377
+        ],
+        "log_weight": -0.008173979676297941
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Puppets with slender necks tend to fold when children wave them. Glue a second strip of card behind each neck so the figures last through the show.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02156371809542179,
+          -4.244629859924316
+        ],
+        "log_weight": -0.014547318198623475
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Try the lamp before the families arrive. A cool-running LED that casts one clean shadow lets children handle the figures nearby and keeps the outlines easy to follow.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011982838623225689,
+          -4.820298194885254
+        ],
+        "log_weight": -0.008128471787112193
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Make a few large loop handles for children who find a narrow stick difficult to hold. They can move their own characters without an adult taking over.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016229772940278053,
+          -4.68382453918457
+        ],
+        "log_weight": -0.009350982128884274
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Offer some ready-cut figures beside the blank card. A child who arrives halfway through can join a scene while there is still time to play.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010192605666816235,
+          -5.410134792327881
+        ],
+        "log_weight": -0.004506671751294113
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: A puppet facing straight ahead may look like a plain oval on the sheet. Cut it in profile so the audience can recognize its nose or beak.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013952220790088177,
+          -4.775018692016602
+        ],
+        "log_weight": -0.008520080107169732
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Let children try moving the same puppet toward and away from the lamp. Seeing its shadow grow and shrink gives them a way to turn a small character into a giant.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012356985360383987,
+          -4.922055244445801
+        ],
+        "log_weight": -0.007347653010205722
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Mark where the performing space ends with a strip of bright tape. Children waiting for a turn can stay behind the line without casting an unexpected head on the screen.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018594827502965927,
+          -4.33941650390625
+        ],
+        "log_weight": -0.013201436150236156
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: A child who would rather stay offstage can supply rain by shaking rice in a sealed jar. The scene gains a sound effect and the child gets a part.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01906861737370491,
+          -4.604168891906738
+        ],
+        "log_weight": -0.010151030179830796
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Give the youngest audience members cushions on the floor at the front. They can see the whole screen without having to look around adult shoulders.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01647816225886345,
+          -4.577272891998291
+        ],
+        "log_weight": -0.01039948515348714
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Pin up a short picture sequence behind the screen. Young performers who lose their place can spot what comes next without needing to read.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010952593758702278,
+          -5.132330417633057
+        ],
+        "log_weight": -0.005950057902507704
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: A single narrator can end up doing all the talking. Give the audience a refrain to call out when the moon appears so everyone gets a line.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020976832136511803,
+          -4.54637336730957
+        ],
+        "log_weight": -0.01077219000744816
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Some children dislike a room going dark all at once. Dim the lights in stages and tell them when the show is about to start so they can settle in.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.021003330126404762,
+          -4.152078151702881
+        ],
+        "log_weight": -0.01593791585517677
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Leave a clear approach to one side of the screen at seated height. A child using a wheelchair can bring a puppet into the same scene as a standing partner.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01717890240252018,
+          -4.516261577606201
+        ],
+        "log_weight": -0.011057828016755616
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Put a piece of scrap card under each figure when punching holes for joints. The hole comes out clean and the hall tables stay free of dents.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011331015266478062,
+          -5.135951519012451
+        ],
+        "log_weight": -0.005930852027789996
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Children behind the sheet can't see the faces out front. Let pairs trade places after each short scene so they can see how their work looks from the audience.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012691443786025047,
+          -5.144590377807617
+        ],
+        "log_weight": -0.005887967822851419
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Keep figures for each scene in a separate shallow tray. A performer reaching for the dragon can find it without untangling a heap of sticks.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.06729097664356232,
+          -2.944038152694702
+        ],
+        "log_weight": -0.05478895125631207
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Invite each child to make up a different ending for a familiar tale. Knowing the characters already leaves more time to act out the new idea.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.006766738370060921,
+          -6.050353527069092
+        ],
+        "log_weight": -0.002370220872058291
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Children often want to show someone at home how their puppets work. Send each figure home in a paper sleeve so its limbs survive the trip.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012147847563028336,
+          -4.870998382568359
+        ],
+        "log_weight": -0.007729448621134803
+      },
+      {
+        "prompt": "Problem: How can a community hall run a children's shadow-puppet afternoon that everyone can take part in?\nProposed step: Set out a small sample of colored translucent paper beside the silhouettes. Children can hold it up to the light and choose a color that actually shows on the screen.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014522799290716648,
+          -4.6165032386779785
+        ],
+        "log_weight": -0.009981962424724631
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A row of card stacks hides most of the pictures. Prop up one of each design so visitors can pick out a view they recognize.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.015314372256398201,
+          -4.565512180328369
+        ],
+        "log_weight": -0.01050969350174847
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Someone who stalls after “Dear Nan” might welcome a question like “What did you see on the way here?” It gives them a detail to write about.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020888343453407288,
+          -4.254185676574707
+        ],
+        "log_weight": -0.014400301655855634
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Postage depends on where the card is going, so have the stamp volunteer ask the destination before handing over a stamp. That keeps a card for overseas from leaving with domestic postage.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02861657738685608,
+          -3.773594617843628
+        ],
+        "log_weight": -0.02336113933508287
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Put a sample address on an oversized card. People can see which half they need to leave free before their message fills it.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014241487719118595,
+          -4.629296779632568
+        ],
+        "log_weight": -0.00985293592373855
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: An empty space at the end of the table lets someone pull up in a wheelchair and write alongside their friends.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018681295216083527,
+          -4.371676445007324
+        ],
+        "log_weight": -0.012786120632253043
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A child may have a whole story to send before they can form the letters. A volunteer who takes dictation can get the child's own words onto the card.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018220432102680206,
+          -4.397180080413818
+        ],
+        "log_weight": -0.012460441432336995
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: If a visitor needs to look up a house number at home, give them a sleeve for the unfinished card. It can travel in their bag without getting bent.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02977217175066471,
+          -3.772179126739502
+        ],
+        "log_weight": -0.02342058129465143
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Keep a few card designs in reserve for the afternoon so late arrivals still have a choice of pictures.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020823897793889046,
+          -4.16974401473999
+        ],
+        "log_weight": -0.01565821716489474
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Print the town and today's date on a small sign at the writing places. Visitors who want to mark the occasion can copy both without interrupting a conversation.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010561643168330193,
+          -5.133345127105713
+        ],
+        "log_weight": -0.0059417248002706135
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A shallow box with a slot keeps completed cards face down and out of view while they wait for collection.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0175007414072752,
+          -4.294507026672363
+        ],
+        "log_weight": -0.01378866310231743
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: One person can write while a family debates which picture to send if the card display sits a few steps away from the writing seats.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.038119908422231674,
+          -3.572537899017334
+        ],
+        "log_weight": -0.02875822225094722
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A blue sky can look quite different once a card is printed. Put the photographer's location on the back so recipients can still identify the view.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.035806041210889816,
+          -3.5458920001983643
+        ],
+        "log_weight": -0.029456218959557415
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Some visitors will arrive between buses. Posting the last collection time lets them decide whether to leave the card with the volunteers or post it themselves.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02229098416864872,
+          -4.159999847412109
+        ],
+        "log_weight": -0.015833362883199132
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A gust can carry half a dozen postcards across the square. Tuck the outdoor stock under a broad paperweight so people can lift out one card at a time.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.07412982732057571,
+          -2.762730360031128
+        ],
+        "log_weight": -0.06576527121226801
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Visitors who use different languages may miss a spoken invitation. A welcome sign in the languages commonly read in town helps them see they can join in.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.022029342129826546,
+          -4.151517391204834
+        ],
+        "log_weight": -0.015963024835354396
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Test the pens on an actual postcard before opening. A pen that skips on the glossy stock can be replaced before it spoils someone's message.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02604844607412815,
+          -3.8343465328216553
+        ],
+        "log_weight": -0.021943378693805363
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A writer with stiff fingers may find a narrow pen tiring. Slip a wide grip onto a few pens so a longer message is comfortable to finish.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02959916554391384,
+          -3.730435371398926
+        ],
+        "log_weight": -0.024402679006795904
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Mark the price of a card and stamp at the entrance, including either one that's free, so visitors know what they can take before they sit down.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.10182657837867737,
+          -2.551579475402832
+        ],
+        "log_weight": -0.08279115418820289
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: A short ruler makes a good line guide on the blank side. Writers can move it down as they go and keep their lines from drifting into each other.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018331162631511688,
+          -4.248288631439209
+        ],
+        "log_weight": -0.01444813075906565
+      },
+      {
+        "prompt": "Problem: How can volunteers run a town postcard-writing table where visitors can write and send a card?\nProposed step: Name a volunteer to take the collection box to the post office at closing. Cards left in the final few minutes then have someone responsible for getting them into the mail.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018828006461262703,
+          -4.304470539093018
+        ],
+        "log_weight": -0.01367090031179989
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A cloth can cover the tabletop and still hang too low over a guest's knees. List the drop for each cloth on the hall's usual tables so borrowers can choose a comfortable fit.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.022170431911945343,
+          -4.157784938812256
+        ],
+        "log_weight": -0.015866296377982172
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A Saturday return still has to go through the wash. Block out drying and folding time on the booking calendar so Sunday's group is offered only what can be ready.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02133934386074543,
+          -4.146060943603516
+        ],
+        "log_weight": -0.016038685030538236
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Count napkins together at pickup and write the number on the loan slip. Both sides then know what quantity to look for at the end of dinner.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.028959423303604126,
+          -3.9200098514556885
+        ],
+        "log_weight": -0.020218110526579087
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Navy and charcoal can look identical in the storeroom. A swatch borrowers can take into daylight helps them pick the color they intended.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03693130239844322,
+          -3.5478718280792236
+        ],
+        "log_weight": -0.029431424071242974
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A volunteer collecting a large wedding order may arrive on foot. Include the number of packed crates in the pickup note so they can arrange a ride if needed.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02875836379826069,
+          -3.9359848499298096
+        ],
+        "log_weight": -0.019896898166449142
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A washable hall mark in one corner helps a caterer sort the hall's cloths from their own when both sets turn up in the same laundry load.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.00922465231269598,
+          -5.050711154937744
+        ],
+        "log_weight": -0.006443329321014126
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Crumbs and a forgotten dessert fork can disappear inside a folded cloth. Ask the clearing crew to shake each one over a bin before bagging it so the washer gets fabric alone.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.07410813122987747,
+          -2.775115966796875
+        ],
+        "log_weight": -0.06498012494781166
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Wet cloths can sour in a closed sack. Give borrowers a place to hang them during cleanup so they can air out before the return trip.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.008747236803174019,
+          -5.119714736938477
+        ],
+        "log_weight": -0.00601213666962763
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: If a guest spills candle wax, a note pinned to the return tag tells the laundry team which cloth needs attention before it reaches a hot dryer.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02659963071346283,
+          -3.9889142513275146
+        ],
+        "log_weight": -0.01884044046437634
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Give the event lead a number to call when a hem tears. Staff can arrange a replacement while guests are still using the affected table.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020864292979240417,
+          -4.249916076660156
+        ],
+        "log_weight": -0.014461127939990735
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Rough crate edges can catch embroidery. Line the crates with smooth covers so moving a loan between buildings doesn't pull threads loose.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010756606236100197,
+          -4.877951622009277
+        ],
+        "log_weight": -0.007665464286462038
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Put an aisle and shelf number on each return bin. A new volunteer can then put clean linen away where the next order will be picked.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.006275116931647062,
+          -5.722511291503906
+        ],
+        "log_weight": -0.003286671395111594
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A booking for forty guests can grow after invitations go out. Set a date for the borrower to confirm the final quantity while staff still have time to adjust the order.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016322191804647446,
+          -4.4607343673706055
+        ],
+        "log_weight": -0.011675581768261658
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A bag of used napkins looks much like one that never left the cupboard. Supply a separate bag for untouched spares so they can be identified on return.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.046130262315273285,
+          -3.2672624588012695
+        ],
+        "log_weight": -0.039134023706440986
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: A stack can look spotless while a mark hides inside a fold. Open each tablecloth under a bright light before packing it so the borrower gets a presentable set.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03331675007939339,
+          -3.5876057147979736
+        ],
+        "log_weight": -0.028200311472715515
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Put a picture of the collection door in the pickup email. First-time borrowers can go straight to the linen room even when the main hall is locked.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013294975273311138,
+          -4.877121925354004
+        ],
+        "log_weight": -0.0076912264020423445
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: When a group's tables have different shapes, pack by room and table number. Its setup crew can take each bundle straight to the right spot.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011405857279896736,
+          -4.863691329956055
+        ],
+        "log_weight": -0.007780162330070919
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Reserve a small supply of plain cloths for last-minute mishaps. A group that overturns a jug during setup can cover the table again before guests arrive.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.015265416353940964,
+          -4.476153373718262
+        ],
+        "log_weight": -0.011485884908895967
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Cloths at the bottom of a pile may sit unused for months. Put freshly laundered pieces behind the older clean ones so wear is shared across the stock.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.004548797849565744,
+          -5.91126823425293
+        ],
+        "log_weight": -0.0027174035117971946
+      },
+      {
+        "prompt": "Problem: How can an event hall lend its table linens to local groups and have them ready for the next booking?\nProposed step: Send a return receipt after the hall checks in the loan. The group can close its event file knowing whether it still needs to search for a missing piece.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014466050080955029,
+          -4.605328559875488
+        ],
+        "log_weight": -0.010092999100290384
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Walk the route at the planned hour a few days ahead. A fountain or a delivery truck that runs every morning might otherwise drown out the first stop.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03046817146241665,
+          -3.7940409183502197
+        ],
+        "log_weight": -0.022935657257641025
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Give the meeting point a street address and a recognizable landmark. Newcomers can find the group before it sets off, even in a park with several gates.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01778605580329895,
+          -4.44725227355957
+        ],
+        "log_weight": -0.01185035744451109
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Start with a minute of quiet before anyone names a bird. Beginners get a chance to discover a sound for themselves.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016502786427736282,
+          -4.662014484405518
+        ],
+        "log_weight": -0.009558782664234681
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: A guide who talks over a song can erase the phrase everyone came to hear. Agree on a raised hand for “listen” so the group can catch it together.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.08177007734775543,
+          -2.7419798374176025
+        ],
+        "log_weight": -0.067596544619714
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: People hear different pitches, so invite walkers to describe any sound they can pick out. Someone following a low coo can contribute while others are listening for a high trill.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.017691077664494514,
+          -4.571629047393799
+        ],
+        "log_weight": -0.010470663656014558
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: A clock-face direction such as “two o'clock from the gate” gives everyone the same reference point when the singer is hidden in leaves.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.017293613404035568,
+          -4.66713285446167
+        ],
+        "log_weight": -0.009517701804612672
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Let walkers tap out a rhythm on their palms after a call ends. They can compare what they heard even if they don't know a bird's name.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.011975299566984177,
+          -5.0428876876831055
+        ],
+        "log_weight": -0.006511600794487791
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: At a corner where birds often answer each other, pause for a second phrase. It can reveal that the sound from the hedge is coming from two directions.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.08099424093961716,
+          -2.7961983680725098
+        ],
+        "log_weight": -0.0640928970109956
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Choose a stop with a bench for the longest listening spell. Walkers who need a seat can stay for the whole discussion.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01889796182513237,
+          -4.499210357666016
+        ],
+        "log_weight": -0.01126617089097164
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: The group may stretch out on a narrow path. Ask someone familiar with the route to walk last so a person who pauses to listen can find their way back to the others.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.015388330444693565,
+          -4.6153106689453125
+        ],
+        "log_weight": -0.010002424957219641
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Give walkers the distance and surface details in the invitation. They can decide in advance whether the full circuit works for them.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0162966251373291,
+          -4.671222686767578
+        ],
+        "log_weight": -0.00946963782512585
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Divide a large turnout into small parties with a guide for each. People at the back can then hear the same quiet calls as those up front.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.009710458107292652,
+          -5.417194366455078
+        ],
+        "log_weight": -0.004472887143155802
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Pass around a simple outline map and let people mark where they heard a song. They can return to that corner on a later walk and listen again.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014967754483222961,
+          -4.831391334533691
+        ],
+        "log_weight": -0.008063094716426661
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Birds calling from a nesting hedge may go quiet as people approach. Pick a listening point on the path so the group can hear them from a distance.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.013756467960774899,
+          -4.673788547515869
+        ],
+        "log_weight": -0.009421635402195608
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: If a likely identification divides the group, write down the phrase and the competing guesses. Walkers can check the same evidence against recordings afterward.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.04461556300520897,
+          -4.141327857971191
+        ],
+        "log_weight": -0.016490531824647218
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Wind can pick up halfway around the route. Identify a sheltered courtyard in advance so the walk can continue somewhere voices and calls still carry.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03288092464208603,
+          -3.8667032718658447
+        ],
+        "log_weight": -0.021396251245236555
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Keep ringtones off during listening stops. An electronic chirp from a pocket can sound remarkably like another bird joining in.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0218594241887331,
+          -4.170403957366943
+        ],
+        "log_weight": -0.01566405341260777
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Children may notice a sound the adults have already tuned out. Let a child choose one stop's first sound to follow so their observation shapes the walk.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.017727617174386978,
+          -4.539074897766113
+        ],
+        "log_weight": -0.01081566226330658
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: A busy road crossing needs everyone's attention. Finish the listening stop before the curb so the group can concentrate on getting across together.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02371145226061344,
+          -4.023187160491943
+        ],
+        "log_weight": -0.018159360367630235
+      },
+      {
+        "prompt": "Problem: How can a neighborhood group run a bird-song listening walk that people with different levels of experience can enjoy?\nProposed step: Leave time at the finish for each walker to share one sound they want to recognize again. The guide can match each description to a recording or field-guide entry they can revisit.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.006094561889767647,
+          -5.763777256011963
+        ],
+        "log_weight": -0.0031534448173468244
+      }
+    ],
+    [
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Label each pen with its model and nib size. A visitor who likes a particular line can then remember exactly which pen made it.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.010003904812037945,
+          -5.225561141967773
+        ],
+        "log_weight": -0.005416709158465829
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Give everyone a strip cut from the same paper for the first comparison. A rougher sheet at one seat won't get mistaken for a scratchier nib.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0115737896412611,
+          -4.857143402099609
+        ],
+        "log_weight": -0.007832383881283572
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Someone choosing a pen for a daily planner needs to know how it behaves on those pages. Leave room for them to try a few words in their own planner as well.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.018951067700982094,
+          -4.30121374130249
+        ],
+        "log_weight": -0.013716868209146773
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Arrange the pens in shallow grooved trays. A visitor can set one down to inspect the writing without having it roll onto the floor.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.020474396646022797,
+          -4.182785987854004
+        ],
+        "log_weight": -0.015451529192263197
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Some caps pull straight off while others unscrew. Mark the opening motion beside each pen so a first-time user can get it open gently.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.05986868962645531,
+          -3.01802134513855
+        ],
+        "log_weight": -0.05061205878625496
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: A fountain pen can make a line under its own weight. Demonstrate that on a scrap before handing it over so a newcomer can start without bearing down on the nib.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02461315132677555,
+          -3.9953887462615967
+        ],
+        "log_weight": -0.01868317807524766
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Let each person write a familiar phrase with several pens. They'll know how their usual lettering feels without having to think up a fresh sentence each time.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.0119427889585495,
+          -4.834013938903809
+        ],
+        "log_weight": -0.008017867723051197
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Set a timer beside a wet ink sample and make a fresh swipe at intervals. A visitor who tends to drag a hand across the page can see how long the ink takes to set.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016963036730885506,
+          -4.378588676452637
+        ],
+        "log_weight": -0.012676938466592616
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: A cap left off while people talk can leave the next visitor with a dry nib. Give the person finishing a turn the job of recapping the pen.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02047264389693737,
+          -4.197932243347168
+        ],
+        "log_weight": -0.015220992038790076
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Match a removable mark on each cap to one on its barrel. If two caps get laid down together, volunteers can reunite them with the right pens.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.012832916341722012,
+          -4.827486515045166
+        ],
+        "log_weight": -0.00807732134727717
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Have the owner refill a pen at a side table when its ink runs low. The owner knows its filling mechanism, and the writing seats stay open for the other pens.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02328236773610115,
+          -4.003352642059326
+        ],
+        "log_weight": -0.018511918477271367
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Put a washable mat under the tryout area. A drop that escapes while someone passes a pen can be wiped up before it stains the furniture.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.014189541339874268,
+          -4.548789024353027
+        ],
+        "log_weight": -0.010674033665184109
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: A couple of ordinary loops can feel comfortable even with a pen that's tiring over time. Offer enough space to write a full paragraph and judge the grip.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.1137847751379013,
+          -2.432535171508789
+        ],
+        "log_weight": -0.09385135750678142
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Seat a left-handed writer at the left end of a shared table when they prefer it. Their elbow then has room to move through a line.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.03301507234573364,
+          -3.6154887676239014
+        ],
+        "log_weight": -0.027427238373407506
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Use a sign-up slip for a particularly popular pen. Visitors can try something else and still keep their place for a turn.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.008440062403678894,
+          -5.2962493896484375
+        ],
+        "log_weight": -0.005040094571089723
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: List the ink in each pen on the sample card. Someone admiring the color can find the right bottle even if they prefer a different pen body.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.016765527427196503,
+          -4.444635391235352
+        ],
+        "log_weight": -0.011869178003265002
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Show which pens the owners are happy to have used with the cap on the back. Visitors can explore how the extra weight feels without guessing what a borrowed pen will tolerate.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.01091108750551939,
+          -5.020892143249512
+        ],
+        "log_weight": -0.006648876831215729
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Offer a hand lens beside the finished samples. A visitor can inspect the edges of a fine line that looks solid at arm's length.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.027564486488699913,
+          -3.8943018913269043
+        ],
+        "log_weight": -0.02071058064348102
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Set out a clearly marked tray for a pen that skips or leaks. The next person can pick a working pen while a volunteer looks into the trouble.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.019543003290891647,
+          -4.247856616973877
+        ],
+        "log_weight": -0.014471729753187034
+      },
+      {
+        "prompt": "Problem: How can a club run a shared fountain pen tryout where visitors can compare pens and leave them ready for the next person?\nProposed step: Ask lenders to initial their pens back out at closing. The organizer can spot a pen still waiting in its tray while its owner is nearby.\nWould this step help achieve the objective? Answer Yes or No.",
+        "token_ids": [
+          9454,
+          2753
+        ],
+        "logprobs": [
+          -0.02558050863444805,
+          -4.021592140197754
+        ],
+        "log_weight": -0.01822180421119497
+      }
+    ]
+  ]
+}

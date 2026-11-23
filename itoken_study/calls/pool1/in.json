@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A quartet can set up much faster if it knows what is already in the room. Put a dated equipment list beside the booking form so players can decide what to bring."
+    },
+    {
+      "id": "s1",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Leave a gap between bookings for packing cases and folding stands. A slow pack-up then takes less time out of the next group's rehearsal."
+    },
+    {
+      "id": "s2",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A cello endpin slides on the polished floor. Keep a few endpin stops with the chairs so cellists can play without chasing their instruments forward."
+    },
+    {
+      "id": "s3",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Some players arrive after everyone else has begun. Giving them the door code in the booking message saves the ensemble from stopping mid-piece to let them in."
+    },
+    {
+      "id": "s4",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "The afternoon sun falls straight across the piano score. A blind on that window lets the pianist read the page without having to move the instrument."
+    },
+    {
+      "id": "s5",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Put a pencil groove or clip on each music stand. Players mark bowings as they rehearse, and a pencil that stays on the stand is always within reach."
+    },
+    {
+      "id": "s6",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Flag a wobbly chair and take it off the floor as soon as someone reports it. Otherwise the next player is likely to discover the loose leg by sitting on it."
+    },
+    {
+      "id": "s7",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A drum kit can drown a flute in a small room. Stock a set of practice pads so mixed groups can hear the quieter parts while they work through a passage."
+    },
+    {
+      "id": "s8",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Show the accessible entrance on the booking map. The front steps can leave a player with a wheeled case searching the block for the level doorway."
+    },
+    {
+      "id": "s9",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Brass players need somewhere to empty water from their instruments. Washable absorbent mats keep those spots off the floor for the following group."
+    },
+    {
+      "id": "s10",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A rehearsal cancellation sometimes comes too late to advertise. An opt-in list of local groups willing to take short-notice slots would put those empty hours to use."
+    },
+    {
+      "id": "s11",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Store spare scores upright in folders labeled by ensemble. Loose sheets from different arrangements otherwise end up together, taking time to sort before the first piece."
+    },
+    {
+      "id": "s12",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Photograph the standard chair layout and post it inside the door. Groups can try a different seating arrangement and still put the room back as they found it."
+    },
+    {
+      "id": "s13",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "The room gets stuffy once a dozen people are playing. Opening the windows during the tea break gives everyone fresher air when rehearsal resumes."
+    },
+    {
+      "id": "s14",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Put case shelves along a wall away from the doorway. Large instrument cases spread across the floor leave very little room for a late arrival to reach a seat."
+    },
+    {
+      "id": "s15",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A clock visible from the conductor's spot makes it easier to leave time for the last piece without breaking off to check a phone."
+    },
+    {
+      "id": "s16",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Run each powered speaker's lead along the wall under a cable cover. Players frequently change places, and an exposed lead can catch a foot in passing."
+    },
+    {
+      "id": "s17",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "A photo of the mixer's usual settings gives the next ensemble a quick starting point after a group has turned individual channels up or down."
+    },
+    {
+      "id": "s18",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Leave the piano tuner's visit on the shared calendar. Ensembles scheduling a recording can pick a date when the instrument will have just been tuned."
+    },
+    {
+      "id": "s19",
+      "problem": "How can a shared rehearsal room work well for the amateur ensembles that use it?",
+      "text": "Ask visitors before recording a rehearsal. Someone who is uncomfortable being recorded then has time to speak up before a take begins."
+    }
+  ]
+}

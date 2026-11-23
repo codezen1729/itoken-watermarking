@@ -1,0 +1,125 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "40c2013ff604",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The discount applies to orders of more than ten whole rolls."
+    },
+    {
+      "id": "d86148525025",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The diagram shows the large gear driving the small gear."
+    },
+    {
+      "id": "db77ff6111df",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The clock keeps its hands moving during a power cut by unwinding a spring."
+    },
+    {
+      "id": "3cfb3123b878",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The courtyard remains lit up to the closing of the final stall."
+    },
+    {
+      "id": "46b826645651",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "In the trial, the two glazes took different amounts of time to dry."
+    },
+    {
+      "id": "6166d17014af",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The separator removes the steel beads from the mixture with a magnet."
+    },
+    {
+      "id": "284c71168b94",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "Bringing in another cashier reduced the length of the line at the bakery."
+    },
+    {
+      "id": "8db2bb933fd6",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The tank alarm sounds when the water level rises to the upper mark."
+    },
+    {
+      "id": "4e27a85914d5",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The guild was hired by the museum to value the bronze figure."
+    },
+    {
+      "id": "3aa5133bcc48",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "A missing signature invalidates the delivery receipt."
+    },
+    {
+      "id": "64963848547e",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "Engaging the latch prevents the drawer from sliding open."
+    },
+    {
+      "id": "d9f962f61d65",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The cart slows on the test track because its wheels climb an incline."
+    },
+    {
+      "id": "ae04a885a7f5",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The depot counts parcels left on the platform at midnight."
+    },
+    {
+      "id": "441682d32eac",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "Finishing the two stages within the allotted time is enough for a team to qualify."
+    },
+    {
+      "id": "782da6783bd2",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The archive dates the photograph by matching the skyline to dated maps."
+    },
+    {
+      "id": "eb32e71ee440",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "Jars whose lids are cracked are left out of the count."
+    },
+    {
+      "id": "409e9bb374d5",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The inspector used the east gauge to check the west gauge."
+    },
+    {
+      "id": "8a6f65210e60",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The studio got its framing costs back from the partner."
+    },
+    {
+      "id": "60b285fee49b",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The fare rule forbids a passenger to interrupt a journey on a single ticket."
+    },
+    {
+      "id": "9e6068230765",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The canopy shades the bench and thereby keeps it cooler."
+    },
+    {
+      "id": "2ceeff07bc31",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "Renewing a locker rental changes the access code."
+    },
+    {
+      "id": "d4b885dec109",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The survey ranks the canal route above the ridge route for accessibility."
+    },
+    {
+      "id": "ca268d45da0d",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The clerk stamps the form before the applicant signs it."
+    },
+    {
+      "id": "366d96f13847",
+      "problem": "What reasoning or relation does this passage express?",
+      "text": "The south branch lent its spare scanner to the north branch."
+    }
+  ]
+}

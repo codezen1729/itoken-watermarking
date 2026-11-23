@@ -1,0 +1,230 @@
+{
+  "detection": {
+    "control_exact": {
+      "n": 8,
+      "plan": 0,
+      "original_both": 0,
+      "rewrite_both": 0,
+      "faithful": 8,
+      "faithful_original": 0,
+      "faithful_rewrite": 0,
+      "survival": [
+        0,
+        0
+      ],
+      "individual": {
+        "origa": 0,
+        "origb": 0,
+        "newa": 0,
+        "newb": 0
+      }
+    },
+    "control_tolerant": {
+      "n": 8,
+      "plan": 0,
+      "original_both": 0,
+      "rewrite_both": 0,
+      "faithful": 8,
+      "faithful_original": 0,
+      "faithful_rewrite": 0,
+      "survival": [
+        0,
+        0
+      ],
+      "individual": {
+        "origa": 0,
+        "origb": 0,
+        "newa": 0,
+        "newb": 0
+      }
+    },
+    "exact_exact": {
+      "n": 8,
+      "plan": 3,
+      "original_both": 3,
+      "rewrite_both": 0,
+      "faithful": 6,
+      "faithful_original": 2,
+      "faithful_rewrite": 0,
+      "survival": [
+        0,
+        2
+      ],
+      "individual": {
+        "origa": 3,
+        "origb": 3,
+        "newa": 0,
+        "newb": 0
+      }
+    },
+    "tolerant_tolerant": {
+      "n": 8,
+      "plan": 3,
+      "original_both": 3,
+      "rewrite_both": 0,
+      "faithful": 6,
+      "faithful_original": 2,
+      "faithful_rewrite": 0,
+      "survival": [
+        0,
+        2
+      ],
+      "individual": {
+        "origa": 3,
+        "origb": 3,
+        "newa": 0,
+        "newb": 0
+      }
+    }
+  },
+  "agreement": {
+    "all": {
+      "origa_origb": {
+        "exact": 144,
+        "aligned": 144,
+        "attempted": 144,
+        "wrong_step_collisions": 54,
+        "wrong_step_comparisons": 720
+      },
+      "newa_newb": {
+        "exact": 143,
+        "aligned": 143,
+        "attempted": 144,
+        "wrong_step_collisions": 40,
+        "wrong_step_comparisons": 715
+      },
+      "origa_newb": {
+        "exact": 27,
+        "aligned": 143,
+        "attempted": 144,
+        "wrong_step_collisions": 39,
+        "wrong_step_comparisons": 715
+      },
+      "origb_newa": {
+        "exact": 27,
+        "aligned": 144,
+        "attempted": 144,
+        "wrong_step_collisions": 39,
+        "wrong_step_comparisons": 720
+      },
+      "plan_origa": {
+        "exact": 144,
+        "aligned": 144,
+        "attempted": 144,
+        "wrong_step_collisions": 54,
+        "wrong_step_comparisons": 720
+      },
+      "plan_origb": {
+        "exact": 144,
+        "aligned": 144,
+        "attempted": 144,
+        "wrong_step_collisions": 54,
+        "wrong_step_comparisons": 720
+      },
+      "plan_newa": {
+        "exact": 27,
+        "aligned": 144,
+        "attempted": 144,
+        "wrong_step_collisions": 39,
+        "wrong_step_comparisons": 720
+      },
+      "plan_newb": {
+        "exact": 27,
+        "aligned": 143,
+        "attempted": 144,
+        "wrong_step_collisions": 39,
+        "wrong_step_comparisons": 715
+      }
+    },
+    "faithful": {
+      "origa_origb": {
+        "exact": 120,
+        "aligned": 120,
+        "attempted": 120,
+        "wrong_step_collisions": 38,
+        "wrong_step_comparisons": 600
+      },
+      "newa_newb": {
+        "exact": 119,
+        "aligned": 119,
+        "attempted": 120,
+        "wrong_step_collisions": 26,
+        "wrong_step_comparisons": 595
+      },
+      "origa_newb": {
+        "exact": 22,
+        "aligned": 119,
+        "attempted": 120,
+        "wrong_step_collisions": 21,
+        "wrong_step_comparisons": 595
+      },
+      "origb_newa": {
+        "exact": 22,
+        "aligned": 120,
+        "attempted": 120,
+        "wrong_step_collisions": 21,
+        "wrong_step_comparisons": 600
+      },
+      "plan_origa": {
+        "exact": 120,
+        "aligned": 120,
+        "attempted": 120,
+        "wrong_step_collisions": 38,
+        "wrong_step_comparisons": 600
+      },
+      "plan_origb": {
+        "exact": 120,
+        "aligned": 120,
+        "attempted": 120,
+        "wrong_step_collisions": 38,
+        "wrong_step_comparisons": 600
+      },
+      "plan_newa": {
+        "exact": 22,
+        "aligned": 120,
+        "attempted": 120,
+        "wrong_step_collisions": 21,
+        "wrong_step_comparisons": 600
+      },
+      "plan_newb": {
+        "exact": 22,
+        "aligned": 119,
+        "attempted": 120,
+        "wrong_step_collisions": 21,
+        "wrong_step_comparisons": 595
+      }
+    }
+  },
+  "challenge": {
+    "all": {
+      "n": 24,
+      "all_single": 24,
+      "paraphrase_exact": 11,
+      "foil_collision": 16
+    },
+    "condition": {
+      "n": 6,
+      "all_single": 6,
+      "paraphrase_exact": 3,
+      "foil_collision": 4
+    },
+    "mechanism": {
+      "n": 6,
+      "all_single": 6,
+      "paraphrase_exact": 3,
+      "foil_collision": 4
+    },
+    "polarity": {
+      "n": 6,
+      "all_single": 6,
+      "paraphrase_exact": 1,
+      "foil_collision": 2
+    },
+    "roles": {
+      "n": 6,
+      "all_single": 6,
+      "paraphrase_exact": 4,
+      "foil_collision": 6
+    }
+  }
+}

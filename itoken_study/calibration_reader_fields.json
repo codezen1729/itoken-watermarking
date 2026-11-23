@@ -1,0 +1,66 @@
+{
+  "train_topics": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "held_out_topics": [
+    6,
+    7
+  ],
+  "bits": 12,
+  "fit_scope": "bias_study only",
+  "input_roles": "Historical reader-authored premise, action and consequence fields; development baseline.",
+  "paired_readings": "All singly recovered historical pool snippets; selected original readings are matched by source quotation. Rewrites are included only when both archived fidelity readers judged the entire text preserved. Reordered arguments are matched by manual action-based permutations.",
+  "denominators": "Counts are reading pairs, not independent problems. An old snippet selected in several arms can contribute several readouts. Wrong-step pairs compare each readout to every different single-triple pool candidate within its own problem.",
+  "matching": "Exact signatures compare the 12 quantizer bits alone. Any additional logical operator fields used by a deployed detector are separate.",
+  "source_sha256": {
+    "results.json": "3aca8a186244eb67d87c7c49bb65f47e6850f6b9d3b644014a320f0123367092",
+    "sources_a.json": "3fe1711f6d5db628f2ff4f28a7a41cab0b2b90d3ec813d24b7be117c817002a6",
+    "sources_b.json": "c7f6af29f6f3fbe0315c45e43d848049fab07c8609c373cac6d312fe122f41cf",
+    "calls/pool0/out.json": "a5ced69236b60cc29e33c708ef14e734ba9cbfd0ee1b86f248e99a2cfcbc5e4a",
+    "calls/pool1/out.json": "3018dec450e5953876fde7ef73d85a1e1b3822396dc2388882b0fbc8bc7f6080",
+    "calls/pool2/out.json": "0479e1d10104d18fb90cda3157d5d16f44e7b5f901fa121f7f30aaaa985c7bb1",
+    "calls/pool3/out.json": "8096fe723605ba3f3fd5ece6bc59b37b7e655011d97254551993053a9d522c7d",
+    "calls/pool4/out.json": "b5bc13bc7577d96cf36ae842e50d7756dab7a0d88ad97dc002da980c3c44eb67",
+    "calls/pool5/out.json": "2a77dce25bef0da12ce1b2248cab5f4b16cdd01c845c6924f56a93c294335067",
+    "calls/pool6/out.json": "a260d54a3c0091388c19111d21794826a5b1e0fd5861729ab77fdcdb840e84c6",
+    "calls/pool7/out.json": "9dced1868838e507438a383e7c5684c7b9e4f16a938e7c686b468384e6a1ff0d",
+    "calls/original0/out.json": "a660eae3608b357dd51ed5378e68c7321167ad2577894c4c19c682849a348ec6",
+    "calls/rewritten0/out.json": "040a096037c8aeaf67a605bdac20052da3d93dff37dad75eb323739370afbd7a",
+    "calls/original1/out.json": "c3ee81bb7ea999a43aeb3695d9d874537d2709305e47c9aae26f02c2cac1e1cf",
+    "calls/rewritten1/out.json": "179ec254ffac5c02986da21e99320df73a8b8ebe239412f95633c3ec63270f0d",
+    "calls/original2/out.json": "dff20ebfb87fecb7acf5b710e018e02dc26bc2f94f0542b3514fa79efcdf4cf6",
+    "calls/rewritten2/out.json": "1f3dc089f43a831f3132a90b98c1eac0c13ce2563525bf6e124dae7a9b210bef"
+  },
+  "counts": {
+    "fit": {
+      "original_pairs": 108,
+      "original_same": 49,
+      "original_bits_agree": 1220,
+      "original_wrong_pairs": 2394,
+      "original_wrong_same": 0,
+      "rewrite_pairs": 78,
+      "rewrite_same": 33,
+      "rewrite_bits_agree": 855,
+      "rewrite_wrong_pairs": 1728,
+      "rewrite_wrong_same": 1
+    },
+    "held_out": {
+      "original_pairs": 36,
+      "original_same": 3,
+      "original_bits_agree": 369,
+      "original_wrong_pairs": 792,
+      "original_wrong_same": 0,
+      "rewrite_pairs": 30,
+      "rewrite_same": 1,
+      "rewrite_bits_agree": 271,
+      "rewrite_wrong_pairs": 666,
+      "rewrite_wrong_same": 2
+    }
+  },
+  "quantizer_sha256": "daef20569d94f59a83269cc7c95df4fd83580917bb35e120cfb4e60a741295b6"
+}

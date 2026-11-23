@@ -1,0 +1,105 @@
+{
+  "instruction": "Read only the public question and the passage. Identify each distinct advocated application of reasoning (or, for a factual statement, the asserted relation). Describe it in ordinary short English using premise, action and consequence. Give plain English subjects and objects, preserve the causal direction, conditions and timing, and leave an unstated field as 'unspecified'. Give one exact contiguous supporting quotation per step. Write sign as 'avoid' when the main intervention or assertion explicitly forbids, withholds or negates the primary action, otherwise 'do'. A negative motivation or adverse outcome does not by itself change the sign. Use your own words for the three fields. Recover any number of steps; no candidate list or target count is supplied. Do not add missing reasoning.",
+  "documents": [
+    {
+      "id": "s0",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Count the copies left at each pickup spot before replacing them. Next week's bundles can then be sized to the number of people actually taking a paper there."
+    },
+    {
+      "id": "s1",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "A stack by an outside shop door can soak through in one shower. A covered dispenser keeps the papers readable until someone comes for them."
+    },
+    {
+      "id": "s2",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Some buildings on the route have nearly identical names. Print the street number on each bundle so the delivery volunteer can find the correct lobby."
+    },
+    {
+      "id": "s3",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Ask residents to mark a small box on the signup slip if they prefer a doorstep copy. People who rarely get to the shops would still receive the bulletin."
+    },
+    {
+      "id": "s4",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Lists of events go stale quickly on a crowded counter. Give the issue date a prominent place on the front so readers can pick out this week's edition."
+    },
+    {
+      "id": "s5",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "A volunteer covering an unfamiliar route may miss a shop tucked down an alley. A photograph of its entrance on the route sheet makes the handoff easier to find."
+    },
+    {
+      "id": "s6",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Arrange a delivery time with each shopkeeper. A bundle arriving before the doors open otherwise has to travel around the route a second time."
+    },
+    {
+      "id": "s7",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Stairs make a crate of several hundred copies awkward to handle. Split it into smaller bundles at the print shop so volunteers can carry one manageable load at a time."
+    },
+    {
+      "id": "s8",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Give readers a phone number for address changes. Someone who moves within the neighborhood can keep receiving a copy, and the old doorstep stops accumulating papers."
+    },
+    {
+      "id": "s9",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Paper carriers sometimes fall ill on delivery morning. Pair each route with a backup who already knows the stops so that week's issue still goes out."
+    },
+    {
+      "id": "s10",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "A copy printed in larger type would help readers who struggle with the regular edition. Let the library take requests so the printer knows how many to prepare."
+    },
+    {
+      "id": "s11",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Pick a consistent day for replenishing the racks. Readers who make just one shopping trip a week can then plan to collect a fresh copy."
+    },
+    {
+      "id": "s12",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Set aside a few copies at the packing table for replacement requests. A reader whose dog shreds the morning delivery can still get that issue."
+    },
+    {
+      "id": "s13",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Ask an apartment caretaker where residents are allowed to leave printed material. A stack on the approved shelf will survive the morning lobby cleanup."
+    },
+    {
+      "id": "s14",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "A full rack by the checkout is easy to overlook among the sale leaflets. A small sign above it telling shoppers the bulletin is free gives them a reason to take one."
+    },
+    {
+      "id": "s15",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "One unsigned route sheet can leave two people delivering the same bundle. Have carriers initial the sheet when they collect a route so the next person picks an open one."
+    },
+    {
+      "id": "s16",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "A holiday street closure can cut a carrier off halfway around the block. Note announced closures on the week's route map so the carrier can enter from the other end."
+    },
+    {
+      "id": "s17",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Display a pickup list inside the bulletin. Readers can tear it out for a neighbor who keeps asking where to find a copy."
+    },
+    {
+      "id": "s18",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Put a copy in the staff break room at the neighborhood clinic. Workers who come in before the shops open would have a chance to read it on their shift."
+    },
+    {
+      "id": "s19",
+      "problem": "How can volunteers get a weekly paper neighborhood bulletin to the people who want to read it?",
+      "text": "Let households pause a doorstep delivery for a specified week. They can go away without coming back to a pile of old bulletins."
+    }
+  ]
+}
